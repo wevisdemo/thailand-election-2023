@@ -7,9 +7,11 @@ Shared stylesheets according to the [design systems](https://www.figma.com/file/
 1. Add this package to the dependencies in the app's `package.json`
 
 ```json
-  dependencies: {
-    "@thailand-election-2023/styles": "*"
-  }
+{
+	"dependencies": {
+		"@thailand-election-2023/styles": "*"
+	}
+}
 ```
 
 2. Import `index.css` into the project. Note that importing global css file is different between each framwork.
