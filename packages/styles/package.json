@@ -1,0 +1,13 @@
+{
+	"name": "@thailand-election-2023/styles",
+	"version": "1.0.0",
+	"description": "Shared stylesheets",
+	"license": "MIT",
+	"scripts": {
+		"dev": "tailwindcss -i ./src/index.css -o ./dist/index.css --watch",
+		"build": "tailwindcss -i ./src/index.css -o ./dist/index.css --minify"
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.2.7"
+	}
+}

@@ -1,0 +1,144 @@
+@tailwind base;
+
+@layer base {
+	:root {
+		/* UI colors */
+		--color-black: #090909;
+		--color-white: #ffffff;
+		--color-gray-1: #fbf8f4;
+		--color-gray-2: #dfdad1;
+		--color-gray-3: #9a948c;
+		--color-highlight-1: #e9fff4;
+		--color-highlight-2: #00eaa4;
+		--color-highlight-3: #f6ff94;
+		/* Party colors */
+		--color-party-ครูไทยเพื่อประชาชน: #025032;
+		--color-party-ไทยศรีวิไลย์: #3680c2;
+		--color-party-ไทรักธรรม: #e43ba2;
+		--color-party-ประชาธรรมไทย: #d30009;
+		--color-party-ประชาธิปไตยใหม่: #f33937;
+		--color-party-ประชานิยม: #f21e29;
+		--color-party-ประชาภิวัฒน์: #005847;
+		--color-party-ประชาชนปฏิรูป: #019595;
+		--color-party-พลเมืองไทย: #181d54;
+		--color-party-พลังชาติไทย: #005b35;
+		--color-party-พลังท้องถิ่นไท: #008d43;
+		--color-party-พลังไทยรักไทย: #144e87;
+		--color-party-พลังธรรมใหม่: #ffc164;
+		--color-party-พลังปวงชนไทย: #5061de;
+		--color-party-เพื่อชาติ: #b1a6bf;
+		--color-party-เพื่อชาติไทย: #0d8080;
+		--color-party-รวมพลังประชาชาติไทย: #526c9f;
+		--color-party-รักษ์ผืนป่าประเทศไทย: #7db745;
+		--color-party-เศรษฐกิจใหม่: #b096f9;
+		--color-party-เศรษฐกิจไทย: #ca4f4f;
+		--color-party-เพื่อชาติไทย: #4db748;
+		--color-party-เศรษฐกิจใหม่: #ab1010;
+		--color-party-โอกาสไทย: #789947;
+		--color-party-รวมพลัง: #581981;
+		--color-party-ก้าวไกล: #ff711e;
+		--color-party-ชาติไทยพัฒนา: #ff5bd1;
+		--color-party-ชาติพัฒนากล้า: #fbb514;
+		--color-party-ประชาชาติ: #a56f05;
+		--color-party-ประชาธิปัตย์: #6dd3ff;
+		--color-party-พลังประชารัฐ: #2276ef;
+		--color-party-เพื่อไทย: #f41724;
+		--color-party-ภูมิใจไทย: #2c3487;
+		--color-party-รวมไทยสร้างชาติ: #1445c3;
+		--color-party-เสรีรวมไทย: #ffea2e;
+		--color-party-ไทยสร้างไทย: #7856ec;
+	}
+
+	body {
+		/* typo-b4 */
+		@apply font-body text-[10px] md:text-[12px] leading-[1.5];
+	}
+}
+
+/* Import font face */
+@font-face {
+	font-family: 'Kondolar Thai';
+	font-display: swap;
+	src: url(https://design-systems.wevis.info/KondolarThai-Regular.otf)
+		format('opentype');
+}
+@font-face {
+	font-family: 'Kondolar Thai';
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://design-systems.wevis.info/KondolarThai-Bold.otf)
+		format('opentype');
+}
+@font-face {
+	font-family: 'Kondolar Thai';
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://design-systems.wevis.info/KondolarThai-Black.otf)
+		format('opentype');
+}
+@font-face {
+	font-family: 'IBM Plex Sans Thai Looped';
+	font-display: swap;
+	src: url(https://design-systems.wevis.info/IBMPlexSansThaiLooped-Regular.ttf)
+		format('truetype');
+}
+@font-face {
+	font-family: 'IBM Plex Sans Thai Looped';
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://design-systems.wevis.info/IBMPlexSansThaiLooped-Bold.ttf)
+		format('truetype');
+}
+
+/* Typography */
+
+.typo-h2 {
+	@apply font-heading text-[48px] md:text-[72px] leading-[1.25];
+}
+
+.typo-h3 {
+	@apply font-heading text-[36px] md:text-[60px] leading-[1.25];
+}
+
+.typo-h4 {
+	@apply font-heading text-[32px] md:text-[48px] leading-[1.25];
+}
+
+.typo-h5 {
+	@apply font-heading text-[28px] md:text-[36px] leading-[1.4];
+}
+
+.typo-h6 {
+	@apply font-heading text-[24px] md:text-[32px] leading-[1.4];
+}
+
+.typo-h7 {
+	@apply font-heading text-[21px] md:text-[28px] leading-[1.4];
+}
+
+.typo-b2 {
+	@apply font-body text-[21px] md:text-[24px] leading-[1.5];
+}
+
+.typo-b3 {
+	@apply font-body text-[18px] md:text-[21px] leading-[1.5];
+}
+
+.typo-b4 {
+	@apply font-body text-[16px] md:text-[18px] leading-[1.5];
+}
+
+.typo-b5 {
+	@apply font-body text-[14px] md:text-[16px] leading-[1.5];
+}
+
+.typo-b6 {
+	@apply font-body text-[12px] md:text-[14px] leading-[1.5];
+}
+
+.typo-b7 {
+	@apply font-body text-[10px] md:text-[12px] leading-[1.5];
+}
+
+@tailwind components;
+@tailwind utilities;
