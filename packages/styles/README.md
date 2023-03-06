@@ -45,3 +45,5 @@ module.exports = {
 	// ...
 };
 ```
+
+Take a look at [tailwind.config.js](tailwind.config.js) to see the preset.
