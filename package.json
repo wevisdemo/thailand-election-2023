@@ -1,0 +1,15 @@
+{
+  "name": "thailand-election-2023",
+  "version": "1.0.0",
+  "repository": "https://github.com/wevisdemo/thailand-election-2023.git",
+  "author": "Th1nkK1D <witheep@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "turbo": "^1.8.3"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
