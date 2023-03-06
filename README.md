@@ -2,13 +2,20 @@
 
 Monorepo for Thailand Election 2023 projects using [Turborepo](https://turbo.build/repo).
 
-## Directory structure
+## 🌎 Environments
+
+- Staging: _TODO_
+- Production: _Not deployed yet_
+
+## 🍱 Directory structure
 
 - **/apps** - Application for each project.
+  - [electionsim](apps/electionsim) - Election simulation
 - **/packages** - Packages shared between apps
-  - **styles** - Shared stylesheets according to the design systems
+  - [styles](packages/styles) - Shared stylesheets according to the design systems
+  - components - _TODO:_ Shared components according to the design systems
 
-## Set up
+## 🏗️ Set up
 
 Requires [NodeJS](https://nodejs.org/en/) (v18 LTS is recommended) and [Yarn v1](https://classic.yarnpkg.com/lang/en/)
 
@@ -25,7 +32,7 @@ Pre-commit hook using [Husky](https://typicode.github.io/husky) is set up to
 
 For VSCode user, format on save is enabled and [prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extensiones will be recommended when open the project.
 
-## Create a new project
+## 🪄 Create a new project
 
 1. Create a new project inside `apps` directory eg. `apps/project-name`. Follow initization step according to the framwork you use.
 2. Change name in the project's `package.json` to `@thailand-election-2023/project-name`
@@ -38,19 +45,23 @@ For VSCode user, format on save is enabled and [prettier-vscode](https://marketp
 
 3. Make sure that `dev` (run development server) and `build` (build production files) scripts is specific in the `package.json`
 
-4. Add shared packages into the project. Follow each packages instruction:
+4. Set base path according to each framwork instruction. Every project will be at `/project-name` except the landing page
+
+5. Add shared packages into the project. Follow each packages instruction:
 
    - [@thailand-election-2023/styles](packages/styles)
 
-## Run a project in development
+## 👟 Run a project in development
 
 Using turborepo to run specific with all the package dependencies in development mode.
 
 ```
-yarn dev --filter=project-name
+yarn dev --filter=<project-name>...
 ```
 
-## Contributing guideline
+Note that `...` at the end is nessesary to run dependencies script as well. Without filter, every apps and packages will be run.
+
+## 🙌 Contributing guideline
 
 - We will use trunk-based development: Everyone will work on the main branch
   - _WHY? Continueus integration reduce merge conflic and make sure that everyone is using the newest codebase_
