@@ -2,9 +2,13 @@
 	"name": "thailand-election-2023",
 	"version": "1.0.0",
 	"repository": "https://github.com/wevisdemo/thailand-election-2023.git",
-	"author": "Th1nkK1D <witheep@gmail.com>",
+	"author": "wevisdemo",
 	"license": "MIT",
 	"private": true,
+	"scripts": {
+		"dev": "turbo run dev",
+		"build": "turbo run build"
+	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.4.4",
 		"@commitlint/config-conventional": "^17.4.4",
