@@ -54,4 +54,8 @@ export default {
   build: {
     transpile: [/^element-ui/],
   },
+
+  router: {
+    base: '/theyworkforyou/',
+  },
 }
