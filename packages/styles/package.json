@@ -4,10 +4,15 @@
 	"description": "Shared stylesheets",
 	"license": "MIT",
 	"scripts": {
-		"dev": "tailwindcss -i ./src/index.css -o ./dist/index.css --watch",
-		"build": "tailwindcss -i ./src/index.css -o ./dist/index.css --minify"
+		"dev": "postcss src/index.css --verbose -o dist/index.css --watch",
+		"build": "postcss src/index.css --verbose -o dist/index.css --env production"
 	},
 	"devDependencies": {
+		"autoprefixer": "^10.4.13",
+		"cssnano": "^5.1.15",
+		"postcss": "^8.4.21",
+		"postcss-cli": "^10.1.0",
+		"postcss-import": "^15.1.0",
 		"tailwindcss": "^3.2.7"
 	}
 }

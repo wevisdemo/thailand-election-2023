@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Kondolar Thai';
+	font-display: swap;
+	src: url(https://design-systems.wevis.info/KondolarThai-Regular.otf)
+		format('opentype');
+}
+@font-face {
+	font-family: 'Kondolar Thai';
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://design-systems.wevis.info/KondolarThai-Bold.otf)
+		format('opentype');
+}
+@font-face {
+	font-family: 'Kondolar Thai';
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://design-systems.wevis.info/KondolarThai-Black.otf)
+		format('opentype');
+}
+@font-face {
+	font-family: 'IBM Plex Sans Thai Looped';
+	font-display: swap;
+	src: url(https://design-systems.wevis.info/IBMPlexSansThaiLooped-Regular.ttf)
+		format('truetype');
+}
+@font-face {
+	font-family: 'IBM Plex Sans Thai Looped';
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://design-systems.wevis.info/IBMPlexSansThaiLooped-Bold.ttf)
+		format('truetype');
+}

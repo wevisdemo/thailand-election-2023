@@ -1,0 +1,17 @@
+@layer base {
+	:root {
+		--color-black: #090909;
+		--color-white: #ffffff;
+		--color-gray-1: #fbf8f4;
+		--color-gray-2: #dfdad1;
+		--color-gray-3: #9a948c;
+		--color-highlight-1: #e9fff4;
+		--color-highlight-2: #00eaa4;
+		--color-highlight-3: #f6ff94;
+	}
+
+	body {
+		/* typo-b4 */
+		@apply font-body text-[10px] md:text-[18px] leading-[1.5];
+	}
+}

@@ -1,0 +1,47 @@
+.typo-h2 {
+	@apply font-heading text-[48px] md:text-[72px] leading-[1.25];
+}
+
+.typo-h3 {
+	@apply font-heading text-[36px] md:text-[60px] leading-[1.25];
+}
+
+.typo-h4 {
+	@apply font-heading text-[32px] md:text-[48px] leading-[1.25];
+}
+
+.typo-h5 {
+	@apply font-heading text-[28px] md:text-[36px] leading-[1.4];
+}
+
+.typo-h6 {
+	@apply font-heading text-[24px] md:text-[32px] leading-[1.4];
+}
+
+.typo-h7 {
+	@apply font-heading text-[21px] md:text-[28px] leading-[1.4];
+}
+
+.typo-b2 {
+	@apply font-body text-[21px] md:text-[24px] leading-[1.5];
+}
+
+.typo-b3 {
+	@apply font-body text-[18px] md:text-[21px] leading-[1.5];
+}
+
+.typo-b4 {
+	@apply font-body text-[16px] md:text-[18px] leading-[1.5];
+}
+
+.typo-b5 {
+	@apply font-body text-[14px] md:text-[16px] leading-[1.5];
+}
+
+.typo-b6 {
+	@apply font-body text-[12px] md:text-[14px] leading-[1.5];
+}
+
+.typo-b7 {
+	@apply font-body text-[10px] md:text-[12px] leading-[1.5];
+}
