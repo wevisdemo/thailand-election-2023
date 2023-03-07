@@ -11,8 +11,10 @@ Monorepo for Thailand Election 2023 projects using [Turborepo](https://turbo.bui
 
 - **/apps** - Application for each project.
   - [electionsim](apps/electionsim) - Election simulation
+  - [theyworkforyou](apps/theyworkforyou) - Your candidate matching quizes
 - **/packages** - Packages shared between apps
   - [styles](packages/styles) - Shared stylesheets according to the design systems
+  - [database](packages/database) - WeVis NocoDB fetching utility
   - components - _TODO:_ Shared components according to the design systems
 
 ## 🏗️ Set up

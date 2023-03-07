@@ -1,7 +1,7 @@
 {
 	"name": "@thailand-election-2023/database",
 	"version": "1.0.0",
-	"description": "NocoDB fetching utility",
+	"description": "WeVis NocoDB fetching utility",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"license": "MIT",
