@@ -6,5 +6,5 @@ export const TheyWorkForUs = {
 		'nested[PeoplePartyHistory][fields]': 'Parties,EstablishedDate',
 	}),
 	VoteLog: createTableProvider('e06d1465-2786-4799-9c0f-a20f4cf71ec4'),
-	PeopleVote: createTableProvider('e58433cc-f4fd-499b-926d-05431412cbba'),
+	PeopleVotes: createTableProvider('e58433cc-f4fd-499b-926d-05431412cbba'),
 };
