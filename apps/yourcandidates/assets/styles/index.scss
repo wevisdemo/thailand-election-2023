@@ -5,3 +5,9 @@ body {
   font-family: 'IBM Plex Sans Thai Looped';
   color: var(--color-black);
 }
+
+.main-container {
+  width: 80vw;
+  max-width: 680px;
+  margin: 0px auto;
+}

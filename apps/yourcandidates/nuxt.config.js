@@ -50,6 +50,6 @@ export default {
   },
 
   router: {
-    base: '/yourcandidates'
-  }
+    base: '/yourcandidates',
+  },
 }
