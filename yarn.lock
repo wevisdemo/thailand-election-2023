@@ -10504,7 +10504,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typescript@4.9.5, typescript@^4.6.4, typescript@^4.9.3, typescript@^4.9.4, typescript@^4.9.5:
+typescript@4.9.5, typescript@>=3, typescript@^4.6.4, typescript@^4.9.3, typescript@^4.9.4, typescript@^4.9.5:
   version "4.9.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
@@ -11047,6 +11047,13 @@ worker-farm@^1.7.0:
   integrity sha512-rvw3QTZc8lAxyVrqcSGVm5yP/IJ2UcB3U0graE3LCFoZ0Yn2x4EoVSqJKdB/T5M+FLcRPjz4TDacRf3OCfNUzw==
   dependencies:
     errno "~0.1.7"
+
+wp-types@^3.61.0:
+  version "3.61.0"
+  resolved "https://registry.yarnpkg.com/wp-types/-/wp-types-3.61.0.tgz#93a2e6bd5937da317e9504cbf247d0719689bb12"
+  integrity sha512-3u7g4n+c5QugHar1R/3PLTQLv4NTIi2Lmjh+IjrDZJNRpU40sQtGCc3jLjLYQlaLVUpPNwMAedIAryQfUbQFRw==
+  dependencies:
+    typescript ">=3"
 
 wrap-ansi@^6.2.0:
   version "6.2.0"
