@@ -17,6 +17,7 @@ Monorepo for Thailand Election 2023 projects using [Turborepo](https://turbo.bui
   - [styles](packages/styles) - Shared stylesheets according to the design systems
   - [database](packages/database) - WeVis NocoDB fetching utility
   - [wordpress](packages/wordpress) - WeVis WordPress API fetching utility
+  - [metadata](packages/metadata) - Projects metadata
   - components - _TODO:_ Shared components according to the design systems
 
 ## 🏗️ Set up
