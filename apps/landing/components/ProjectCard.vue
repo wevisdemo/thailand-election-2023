@@ -1,14 +1,14 @@
 <template>
   <div class="card" :class="{ 'coming-soon-card': is_coming_soon }">
     <div class="text-wrap">
-      <p class="project-name typo-h5">
+      <p class="project-name" :class="is_coming_soon ? 'typo-h6' : 'typo-h5'">
         <b>ที่สัญญากันไว้ ทำได้แค่ไหน?</b>
       </p>
       <div class="en-name-and-partner">
-        <p class="b5">
+        <p class="typo-b5">
           <b>Promise Tracker</b>
         </p>
-        <p>by iLaw & Wevis</p>
+        <p class="partner typo-b7">by iLaw & Wevis</p>
       </div>
       <p v-if="!is_coming_soon" class="detail typo-b6">
         ประชาชนทั้งหลาย.. มาติดตามและทวงถามสัญญาที่พรรค
@@ -57,6 +57,9 @@ export default {
     border-color: var(--color-gray-3);
     color: var(--color-gray-3);
     pointer-events: none;
+    @include mobile {
+      height: 186px;
+    }
   }
 }
 .text-wrap {
@@ -64,7 +67,10 @@ export default {
   text-align: left;
   z-index: 2;
   .en-name-and-partner {
-    margin: 14px 0 16px;
+    margin: 8px 0 16px;
+    .partner {
+      opacity: 0.6;
+    }
   }
   .detail {
     width: 160px;
@@ -79,7 +85,7 @@ export default {
 }
 .coming-soon-label {
   position: absolute;
-  right: 14px;
+  right: 24px;
   bottom: 24px;
   background: var(--color-gray-3);
   border-radius: 24px;
