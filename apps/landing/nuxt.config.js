@@ -24,7 +24,7 @@ export default {
   css: ['element-ui/lib/theme-chalk/index.css', '~/assets/styles/index.scss'],
 
   styleResources: {
-    scss: ['~/assets/styles/custom.scss'],
+    scss: ['~/assets/styles/_mixins.scss'],
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
