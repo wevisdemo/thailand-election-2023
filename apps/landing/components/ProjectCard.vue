@@ -93,4 +93,20 @@ export default {
   color: white;
   width: fit-content;
 }
+
+.typo-h5 {
+  font-size: 28px;
+}
+.typo-h6 {
+  font-size: 24px;
+}
+.typo-b5 {
+  font-size: 14px;
+}
+.typo-b6 {
+  font-size: 12px;
+}
+.typo-b7 {
+  font-size: 10px;
+}
 </style>
