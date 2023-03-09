@@ -18,19 +18,39 @@
 
 <style scoped>
 .search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px 0px 40px;
   gap: 5px;
   text-align: center;
 }
 
-.search-box {
+.search-container > .search-box {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start;
   padding: 10px 15px;
   gap: 10px;
-  border: 3px solid #090909;
+
+  width: 100%;
+  height: 47px;
+  background: var(--color-white);
+  border: 3px solid var(--color-black);
   border-radius: 50px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.search-box > input {
+  flex: none;
+  color: var(--color-black);
+  flex-grow: 1;
+}
+.search-box > input:placeholder-shown {
+  opacity: 0.5;
 }
 </style>

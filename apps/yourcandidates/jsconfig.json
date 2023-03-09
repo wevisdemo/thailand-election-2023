@@ -6,7 +6,8 @@
       "@/*": ["./*"],
       "~~/*": ["./*"],
       "@@/*": ["./*"]
-    }
+    },
+    "types": ["vite/client"]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
 }
