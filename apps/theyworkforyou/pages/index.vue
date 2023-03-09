@@ -22,6 +22,36 @@
         </p>
       </div>
     </div>
+    <div class="search-section">
+      <p class="typo-b4 question">
+        <b> ก่อนอื่น คุณอยู่เขต/อำเภออะไร </b>
+      </p>
+
+      <div class="search-box-wrap">
+        <el-select
+          v-model="value"
+          filterable
+          default-first-option
+          :reserve-keyword="false"
+          placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
+          popper-class="search-box"
+        >
+          <el-option
+            v-for="(item, index) in options"
+            :key="item.value"
+            :label="item.label"
+            :value="item.value"
+            class="dropdown-item"
+          >
+            <div v-if="index > 0" class="line" />
+            <span>{{ item.label }}</span>
+          </el-option>
+        </el-select>
+        <div class="search-icon">
+          <img :src="search_icon" alt="" />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -30,6 +60,26 @@ export default {
   data() {
     return {
       two_people: require('~/assets/images/two_people.png'),
+      search_icon: require('~/assets/images/icons/search.svg'),
+      value: '',
+      options: [
+        {
+          label: 'อ. เมืองสมุทรปราการ, จ. สมุทรปราการ',
+          value: 'สมุทรปราการ เมืองสมุทรปราการ',
+        },
+        {
+          label: 'อ.ปลายพระยา จ.กระบี่',
+          value: 'กระบี่ ปลายพระยา',
+        },
+        {
+          label: 'อ.อ่าวลึก จ.กระบี่',
+          value: 'กระบี่ อ่าวลึก',
+        },
+        {
+          label: 'อ.เขาพนม จ.กระบี่',
+          value: 'กระบี่ เขาพนม',
+        },
+      ],
     }
   },
 }
@@ -75,5 +125,99 @@ export default {
       margin-bottom: 20px;
     }
   }
+}
+.search-section {
+  padding: 40px 0 80px;
+  text-align: center;
+  .question {
+    margin-bottom: 10px;
+  }
+  .search-box-wrap {
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+    @include mobile {
+      width: 288px;
+    }
+    .el-select {
+      width: 100%;
+      ::v-deep(.el-input__inner) {
+        height: 52px !important;
+        border: 3px solid var(--color-black);
+        border-radius: 50px;
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-weight: 400;
+        font-size: 21px;
+        transition: 0.3s;
+        padding-right: 50px;
+        @include mobile {
+          height: 47px !important;
+          font-size: 18px;
+        }
+      }
+      ::v-deep(.el-input.is-focus .el-input__inner) {
+        border-color: var(--color-highlight-2);
+      }
+    }
+    .search-icon {
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      transform: translate(-100%, -50%);
+      width: 18px;
+    }
+  }
+}
+</style>
+
+<style lang="scss">
+.search-box {
+  background: var(--color-highlight-1);
+  border: 3px solid var(--color-black);
+  border-radius: 10px;
+  width: 650px;
+  @include mobile {
+    width: 288px;
+  }
+}
+.popper__arrow {
+  display: none !important;
+}
+.el-input__suffix {
+  display: none;
+}
+.el-select-dropdown__list {
+  padding: 15px;
+}
+.dropdown-item {
+  position: relative;
+  font-size: 18px;
+  padding: 5px;
+  color: var(--color-black);
+  height: unset;
+  line-height: 24px;
+  white-space: normal;
+  text-overflow: clip;
+  .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background: var(--color-highlight-2);
+  }
+  @include mobile {
+    font-size: 16px;
+  }
+}
+.dropdown-item.hover {
+  background: var(--color-highlight-2);
+  border-radius: 5px;
+  & + .dropdown-item .line {
+    opacity: 0;
+  }
+}
+.dropdown-item.selected {
+  color: var(--color-black);
 }
 </style>

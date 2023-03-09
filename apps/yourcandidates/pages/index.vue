@@ -1,9 +1,38 @@
 <template>
-  <Tutorial />
+  <div class="main-container">
+    <div class="cover-section">
+      <h7 class="typo-h7">Look Up Your Candidates</h7>
+      <h2 class="typo-h2">เลือกตั้งรอบนี้มีอะไรให้เลือกบ้าง?</h2>
+      <div class="image">
+        <img :src="heroMedia" alt="a person look into a hole" />
+      </div>
+    </div>
+    <div class="search">
+      <DistrictSearch></DistrictSearch>
+    </div>
+    <div>
+      <VoteInstruction />
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'IndexPage',
+  data() {
+    return {
+      heroMedia: require('~/assets/images/candidate-look-up.png'),
+    }
+  },
 }
 </script>
+
+<style>
+.cover-section {
+  text-align: center;
+  padding: 40px 0px 20px;
+}
+.cover-section > .image > img {
+  margin: auto;
+}
+</style>

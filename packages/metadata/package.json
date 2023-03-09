@@ -1,0 +1,15 @@
+{
+	"name": "@thailand-election-2023/metadata",
+	"version": "1.0.0",
+	"description": "Projects metadata",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon -e js,csv src/index.js",
+		"build": "node src/index.js"
+	},
+	"devDependencies": {
+		"d3-dsv": "^3.0.1",
+		"nodemon": "^2.0.21"
+	}
+}
