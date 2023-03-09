@@ -1,46 +1,50 @@
 <template>
   <div class="main-container">
-    <div class="cover-section container">
-      <div class="logo-wrap">
-        <img :src="logo" alt="wevis election 66 logo" />
-      </div>
-      <p class="typo-h6 head">เปิดข้อมูลที่ต้องรู้ ก่อนเปิดคูหา</p>
-      <p class="typo-b4 subhead">
-        รวมข้อมูลการเมืองและการเลือกตั้ง โดยประชาชนผู้มีหวังในประชาธิปไตย
-      </p>
-      <div class="img-wrap">
-        <div class="three-people">
-          <img :src="three_people" alt="three people" />
+    <div class="cover-section">
+      <div class="container">
+        <div class="logo-wrap">
+          <img :src="logo" alt="wevis election 66 logo" />
         </div>
-        <div class="star-label">
-          <img :src="star_label" alt="star label" />
-          <div class="countdown-numbers-wrap">
-            <p class="typo-b7"><b>เหลืออีก</b></p>
-            <p class="number">000</p>
-            <p class="typo-b6"><b>วัน</b></p>
+        <p class="typo-h6 head">เปิดข้อมูลที่ต้องรู้ ก่อนเปิดคูหา</p>
+        <p class="typo-b4 subhead">
+          รวมข้อมูลการเมืองและการเลือกตั้ง โดยประชาชนผู้มีหวังในประชาธิปไตย
+        </p>
+        <div class="img-wrap">
+          <div class="three-people">
+            <img :src="three_people" alt="three people" />
+          </div>
+          <div class="star-label">
+            <img :src="star_label" alt="star label" />
+            <div class="countdown-numbers-wrap">
+              <p class="typo-b7"><b>เหลืออีก</b></p>
+              <p class="number">000</p>
+              <p class="typo-b6"><b>วัน</b></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="projects-section container">
-      <p class="typo-h5 head">
-        <b> เตรียมความพร้อม ก่อนไปเลือก </b>
-      </p>
-      <p class="typo-b4 subhead">
-        เลือกดูโปรเจ็คของ WeVis ที่รวบรวมข้อมูล มาตอบคำถามที่คุณคาใจ
-        ให้พร้อมเลือกตั้ง
-      </p>
-      <div class="filters-wrap">
-        <div
-          v-for="filter in filter_buttons"
-          :key="filter"
-          class="filter-btn"
-          :class="{ 'active-filter-btn': active_filter === filter }"
-          @click="active_filter = filter"
-        >
-          <p class="typo-b5">
-            <b>{{ filter }}</b>
-          </p>
+    <div class="projects-section">
+      <div class="container">
+        <p class="typo-h5 head">
+          <b> เตรียมความพร้อม ก่อนไปเลือก </b>
+        </p>
+        <p class="typo-b4 subhead">
+          เลือกดูโปรเจ็คของ WeVis ที่รวบรวมข้อมูล มาตอบคำถามที่คุณคาใจ
+          ให้พร้อมเลือกตั้ง
+        </p>
+        <div class="filters-wrap">
+          <div
+            v-for="filter in filter_buttons"
+            :key="filter"
+            class="filter-btn"
+            :class="{ 'active-filter-btn': active_filter === filter }"
+            @click="active_filter = filter"
+          >
+            <p class="typo-b5">
+              <b>{{ filter }}</b>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -69,13 +73,19 @@ export default {
 <style lang="scss" scoped>
 .container {
   padding: 0 24px;
-}
-.cover-section {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @include small-mobile {
+    padding: 0 20px;
+  }
+}
+.cover-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   padding: 40px 0;
   overflow-x: hidden;
   .logo-wrap {
