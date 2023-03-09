@@ -16,7 +16,7 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 .search-container {
   display: flex;
   flex-direction: column;
@@ -35,7 +35,6 @@
   gap: 10px;
 
   width: 100%;
-  height: 47px;
   background: var(--color-white);
   border: 3px solid var(--color-black);
   border-radius: 50px;

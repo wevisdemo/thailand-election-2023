@@ -64,14 +64,6 @@
   padding: 0px;
   gap: 10px;
 }
-.intruction-container > .body > .ballot-type-container {
-  display: flex;
-  gap: 20px;
-}
-
-.intruction-container > .body > .ballot-type-container > .vline {
-  border: 1px dashed var(--color-gray-3);
-}
 
 .intruction-container > .body > .ballot-type-container > div {
   display: flex;
@@ -88,33 +80,43 @@
   gap: 10px;
 }
 
-.intruction-container > .body > .ballot-mark-example-container > p {
-  order: 1;
+.intruction-container > .body > .ballot-type-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-
+.intruction-container > .body > .ballot-type-container > .vline {
+  display: none;
+}
 .intruction-container
   > .body
   > .ballot-mark-example-container
   > .ballot-example-container {
+  order: 1;
+}
+.intruction-container > .body > .ballot-mark-example-container > p {
   order: 2;
 }
 
-@media (max-width: 560px) {
+@media (min-width: 560px) {
   .intruction-container > .body > .ballot-type-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 20px;
   }
+
   .intruction-container > .body > .ballot-type-container > .vline {
-    display: none;
+    border: 1px dashed var(--color-gray-3);
+    display: block;
   }
+
+  .intruction-container > .body > .ballot-mark-example-container > p {
+    order: 1;
+  }
+
   .intruction-container
     > .body
     > .ballot-mark-example-container
     > .ballot-example-container {
-    order: 1;
-  }
-  .intruction-container > .body > .ballot-mark-example-container > p {
     order: 2;
   }
 }
