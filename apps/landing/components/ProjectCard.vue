@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card" :class="{ 'coming-soon-card': is_coming_soon }">
     <div class="text-wrap">
       <p class="project-name typo-h5">
         <b>ที่สัญญากันไว้ ทำได้แค่ไหน?</b>
@@ -10,18 +10,27 @@
         </p>
         <p>by iLaw & Wevis</p>
       </div>
-      <p class="detail typo-b6">
+      <p v-if="!is_coming_soon" class="detail typo-b6">
         ประชาชนทั้งหลาย.. มาติดตามและทวงถามสัญญาที่พรรค
       </p>
     </div>
-    <div class="img-wrap">
+    <div v-if="!is_coming_soon" class="img-wrap">
       <img :src="mockup_image" alt="" />
+    </div>
+    <div class="coming-soon-label">
+      <b> Coming Soon! </b>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    is_coming_soon: {
+      type: Boolean,
+      default: false,
+    },
+  },
   data() {
     return {
       mockup_image: require('~/assets/images/mockup_image.png'),
@@ -37,9 +46,18 @@ export default {
   border: 3px solid var(--color-black);
   border-radius: 20px;
   padding: 24px;
-  max-width: 350px;
   height: 400px;
   overflow: hidden;
+  cursor: pointer;
+  @include mobile {
+    max-width: 350px;
+  }
+  &.coming-soon-card {
+    background: var(--color-gray-2);
+    border-color: var(--color-gray-3);
+    color: var(--color-gray-3);
+    pointer-events: none;
+  }
 }
 .text-wrap {
   position: relative;
@@ -58,5 +76,15 @@ export default {
   right: 10px;
   bottom: 10px;
   z-index: 1;
+}
+.coming-soon-label {
+  position: absolute;
+  right: 14px;
+  bottom: 24px;
+  background: var(--color-gray-3);
+  border-radius: 24px;
+  padding: 6px 12px;
+  color: white;
+  width: fit-content;
 }
 </style>
