@@ -1,5 +1,4 @@
 import Head from 'next/head';
-
 import Landing from '@/components/Landing';
 import HotTopicPolicy from '@/components/HotTopicPolicy';
 import ByTopic from '@/components/ByTopic';
