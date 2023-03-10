@@ -5,7 +5,7 @@
     rel="noopener noreferrer"
     :class="{ disable: is_coming_soon }"
   >
-    <div class="card" :class="{ 'coming-soon-card': is_coming_soon }">
+    <div class="project-card" :class="{ 'coming-soon-card': is_coming_soon }">
       <div class="text-wrap">
         <p class="project-name typo-h6">
           <b>{{ data.ThName }}</b>
@@ -62,7 +62,7 @@ export default {
 .disable {
   pointer-events: none;
 }
-.card {
+.project-card {
   position: relative;
   background: var(--color-white);
   border: 3px solid var(--color-black);
@@ -70,7 +70,13 @@ export default {
   padding: 24px;
   height: 400px;
   overflow: hidden;
+  transition: 0.5s;
   cursor: pointer;
+  &:hover {
+    transform: rotate(3deg);
+    background: var(--color-highlight-1);
+    box-shadow: 4px 12px 0px var(--color-gray-2);
+  }
   @include mobile {
     max-width: 320px;
   }
