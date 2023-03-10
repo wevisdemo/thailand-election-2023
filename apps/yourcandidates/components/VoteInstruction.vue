@@ -85,15 +85,18 @@
   flex-direction: column;
   gap: 10px;
 }
+
 .intruction-container > .body > .ballot-type-container > .vline {
   display: none;
 }
+
 .intruction-container
   > .body
   > .ballot-mark-example-container
   > .ballot-example-container {
   order: 1;
 }
+
 .intruction-container > .body > .ballot-mark-example-container > p {
   order: 2;
 }

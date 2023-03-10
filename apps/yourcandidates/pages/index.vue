@@ -1,8 +1,10 @@
 <template>
   <div class="main-container">
     <div class="cover-section">
-      <h7 class="typo-h7">Look Up Your Candidates</h7>
-      <h2 class="typo-h2">เลือกตั้งรอบนี้มีอะไรให้เลือกบ้าง?</h2>
+      <div class="header-text">
+        <h6 class="typo-h7">Look Up Your Candidates</h6>
+        <h2 class="typo-h2">เลือกตั้งรอบนี้มีอะไรให้เลือกบ้าง?</h2>
+      </div>
       <div class="image">
         <img :src="heroMedia" alt="a person look into a hole" />
       </div>
@@ -29,9 +31,13 @@ export default {
 
 <style>
 .cover-section {
-  text-align: center;
   padding: 40px 0px 20px;
 }
+
+.cover-section .header-text {
+  text-align: center;
+}
+
 .cover-section > .image > img {
   margin: auto;
 }
