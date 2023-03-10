@@ -72,9 +72,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div class="view-all-articles-btn">
-            <p class="typo-b4"><b>ดูบทความทั้งหมด</b></p>
-          </div>
+          <SquareButton text="ดูบทความทั้งหมด" color="white" />
         </a>
       </div>
     </div>
@@ -90,6 +88,30 @@
             <!-- <img src="" alt=""> -->
           </div>
         </div>
+      </div>
+    </div>
+    <div class="about-section">
+      <div class="container">
+        <p class="typo-h5 head">
+          <b>เกี่ยวกับ WeVis</b>
+        </p>
+        <div class="content-wrap">
+          <p class="typo-b5">
+            WeVis เป็นกลุ่มเทคโนโลยีภาคประชาชนที่เชื่อว่าข้อมูลเปิดและเทคโนโลยี
+            สามารถทำให้พวกเรามีส่วนร่วมในการเมือง การเลือกตั้ง และประชาธิปไตยได้
+            พวกเราจึงรวมตัวกันขึ้นมาเพื่อทำโปรเจกต์เหล่านี้
+            หวังให้ผู้มีสิทธิเลือกตั้งทุกคนและสื่อมวลชน
+            สามารถค้นหาข้อมูลได้สะดวกขึ้น
+            <br /><br />
+            ทางทีมมีความตั้งใจที่พัฒนาทุกโปรเจ็กต์ให้เป็น Open Source
+            และเปิดข้อมูลเป็น Open Data ภายใต้เงื่อนไข Creative Commons
+            Attribution-ShareAlike License โปรดให้เครดิตกับทีม WeVis
+            เพื่อเป็นกำลังใจให้พวกเราสร้างสรรค์งานต่อไป
+          </p>
+        </div>
+        <a href="https://wevis.info/" target="_blank" rel="noopener noreferrer">
+          <SquareButton text="WeVis.info" color="black" />
+        </a>
       </div>
     </div>
   </div>
@@ -206,7 +228,8 @@ export default {
 }
 .projects-section,
 .articles-section,
-.partners-section {
+.partners-section,
+.about-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,12 +296,6 @@ export default {
   .article-cards {
     margin: 24px 0;
   }
-  .view-all-articles-btn {
-    border: 3px solid var(--color-black);
-    border-radius: 10px;
-    padding: 12px 20px;
-    cursor: pointer;
-  }
 }
 .partners-section {
   background: var(--color-gray-2);
@@ -318,6 +335,20 @@ export default {
         width: 80px;
         height: 80px;
       }
+    }
+  }
+}
+.about-section {
+  background: var(--color-black);
+  color: var(--color-white);
+  .head {
+    margin-bottom: 0;
+  }
+  .content-wrap {
+    max-width: 592px;
+    padding: 30px 0 40px;
+    @include mobile {
+      padding: 20px 0 25px;
     }
   }
 }
