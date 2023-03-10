@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Dropdown from '../components/Dropdown';
 
 export default function Example() {
-	const mockOptions: IDropdownOption[] = [
+	const mockOptions: IDropdownOption<string>[] = [
 		{ label: 'เศรษฐกิจ (100)', value: 'economy' },
 		{ label: 'ค่าแรงขั้นต่ำ (99)', value: 'minimum_wage ' },
 		{ label: 'ค่าแรงขั้นต่ำ (99)', value: 'minimum_wage ' },
@@ -16,9 +16,8 @@ export default function Example() {
 		{ label: 'ค่าแรงขั้นต่ำ (99)', value: 'minimum_wage ' },
 	];
 
-	const [currentOption, setCurrentOption] = useState<IDropdownOption | null>(
-		null
-	);
+	const [currentOption, setCurrentOption] =
+		useState<IDropdownOption<string> | null>(null);
 
 	return (
 		<div>

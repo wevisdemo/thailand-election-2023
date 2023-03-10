@@ -1,4 +1,4 @@
-export interface IDropdownOption {
+export interface IDropdownOption<T> {
 	label: string;
-	value: any;
+	value: T;
 }

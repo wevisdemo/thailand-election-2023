@@ -3,9 +3,9 @@ import { imgPrefix } from '@/utils/path';
 import { FunctionComponent, useEffect, useRef, useState } from 'react';
 
 interface PropsType {
-	options: IDropdownOption[];
-	currentOption: IDropdownOption | null;
-	onSelect: (option: IDropdownOption) => void;
+	options: IDropdownOption<any>[];
+	currentOption: IDropdownOption<any> | null;
+	onSelect: (option: IDropdownOption<any>) => void;
 	placeholder?: string;
 }
 
@@ -32,7 +32,7 @@ const Dropdown: FunctionComponent<PropsType> = ({
 		};
 	}, [ddRef]);
 
-	const onChangeOption = (option: IDropdownOption) => {
+	const onChangeOption = (option: IDropdownOption<any>) => {
 		onSelect(option);
 		setExpand(false);
 	};
