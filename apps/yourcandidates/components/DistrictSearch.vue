@@ -82,6 +82,10 @@ export default {
   border-radius: 50px;
 }
 
+.search-container > .search-box:focus-within {
+  border: 3px solid var(--color-highlight-2);
+}
+
 .search-container > .search-box > input {
   flex: none;
   color: var(--color-black);
