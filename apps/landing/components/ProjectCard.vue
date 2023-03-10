@@ -1,26 +1,33 @@
 <template>
-  <div class="card" :class="{ 'coming-soon-card': is_coming_soon }">
-    <div class="text-wrap">
-      <p class="project-name" :class="is_coming_soon ? 'typo-h6' : 'typo-h5'">
-        <b>{{ data.ThName }}</b>
-      </p>
-      <div class="en-name-and-partner">
-        <p class="typo-b5">
-          <b>{{ data.EnName }}</b>
+  <a
+    :href="data.URL"
+    target="_blank"
+    rel="noopener noreferrer"
+    :class="{ disable: is_coming_soon }"
+  >
+    <div class="card" :class="{ 'coming-soon-card': is_coming_soon }">
+      <div class="text-wrap">
+        <p class="project-name" :class="is_coming_soon ? 'typo-h6' : 'typo-h5'">
+          <b>{{ data.ThName }}</b>
         </p>
-        <p class="partner typo-b7">{{ data.Partner }}</p>
+        <div class="en-name-and-partner">
+          <p class="typo-b5">
+            <b>{{ data.EnName }}</b>
+          </p>
+          <p class="partner typo-b7">{{ data.Partner }}</p>
+        </div>
+        <p v-if="!is_coming_soon" class="detail typo-b6">
+          {{ data.Subtitle }}
+        </p>
       </div>
-      <p v-if="!is_coming_soon" class="detail typo-b6">
-        {{ data.Subtitle }}
-      </p>
+      <div v-if="!is_coming_soon" class="lottie-wrap">
+        <div class="lottie" :id="data.Path" />
+      </div>
+      <div v-else class="coming-soon-label">
+        <b> Coming Soon! </b>
+      </div>
     </div>
-    <div v-if="!is_coming_soon" class="lottie-wrap">
-      <div class="lottie" :id="data.Path" />
-    </div>
-    <div v-else class="coming-soon-label">
-      <b> Coming Soon! </b>
-    </div>
-  </div>
+  </a>
 </template>
 
 <script>
@@ -52,6 +59,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.disable {
+  pointer-events: none;
+}
 .card {
   position: relative;
   background: var(--color-white);
