@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ByToppic = () => {
+const ByTopic = () => {
 	return (
 		<div className="px-4 pt-10">
 			<p className="font-bold typo-h6">แบ่งตามประเด็น</p>
@@ -8,4 +8,4 @@ const ByToppic = () => {
 	);
 };
 
-export default ByToppic;
+export default ByTopic;

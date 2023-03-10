@@ -1,7 +1,8 @@
 import Head from 'next/head';
+
 import Landing from '@/components/Landing';
-import HotToppicPolicy from '@/components/HotToppicPolicy';
-import ByToppic from '@/components/ByToppic';
+import HotTopicPolicy from '@/components/HotTopicPolicy';
+import ByTopic from '@/components/ByTopic';
 import ByParty from '@/components/ByParty';
 
 export default function Home() {
@@ -15,8 +16,8 @@ export default function Home() {
 			</Head>
 			<main>
 				<Landing />
-				<HotToppicPolicy />
-				<ByToppic />
+				<HotTopicPolicy />
+				<ByTopic />
 				<ByParty />
 			</main>
 		</>
