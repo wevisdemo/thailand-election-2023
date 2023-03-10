@@ -119,6 +119,7 @@ export default {
 
 <style lang="scss" scoped>
 .container {
+  width: 100%;
   padding: 0 24px;
   display: flex;
   flex-direction: column;
@@ -132,8 +133,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  padding: 40px 0;
+  padding: 100px 0 40px;
   overflow-x: hidden;
   .logo-wrap {
     width: 500px;
@@ -144,6 +144,9 @@ export default {
   .head {
     margin: 18.5px 0 16px;
     text-align: center;
+    @include small-mobile {
+      width: 200px;
+    }
   }
   .subhead {
     color: var(--color-black);
@@ -158,24 +161,17 @@ export default {
   }
   .img-wrap {
     position: relative;
-    .three-people {
-      width: 256px;
-      margin-top: 16px;
-    }
+    width: 100%;
+    max-width: 400px;
+    margin-top: 16px;
     .star-label {
       position: absolute;
-      top: 50%;
+      bottom: 0;
       right: 0;
       width: 128px;
-      transform: rotate(15deg) translate(100%, -75%);
-      @include tablet {
-        transform: rotate(15deg) translate(80%, -75%);
-      }
+      transform: rotate(15deg) translate(50%, -50%);
       @include mobile {
-        transform: rotate(15deg) translate(25%, -30%);
-      }
-      @include small-mobile {
-        transform: rotate(15deg) translate(15%, -25%);
+        transform: rotate(15deg) translate(0%, -20%);
       }
       .countdown-numbers-wrap {
         position: absolute;
