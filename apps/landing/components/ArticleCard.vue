@@ -1,13 +1,15 @@
 <template>
-  <div class="article-card">
-    <div class="img-wrap">
-      <img :src="data.image" alt="" />
+  <a :href="data.link" target="_blank" rel="noopener noreferrer">
+    <div class="article-card">
+      <div class="img-wrap">
+        <img :src="data.image" alt="" />
+      </div>
+      <div class="text-wrap">
+        <p class="title typo-h7" v-html="data.title"></p>
+        <p class="date typo-b6">{{ data.date }}</p>
+      </div>
     </div>
-    <div class="text-wrap">
-      <p class="title typo-h7" v-html="data.title"></p>
-      <p class="date typo-b6">{{ data.date }}</p>
-    </div>
-  </div>
+  </a>
 </template>
 
 <script>

@@ -69,9 +69,15 @@
             :data="post"
           />
         </div>
-        <div class="view-all-articles-btn">
-          <p class="typo-b4"><b>ดูบทความทั้งหมด</b></p>
-        </div>
+        <a
+          href="https://wevis.info/tag/เลือกตั้ง-66"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="view-all-articles-btn">
+            <p class="typo-b4"><b>ดูบทความทั้งหมด</b></p>
+          </div>
+        </a>
       </div>
     </div>
   </div>
