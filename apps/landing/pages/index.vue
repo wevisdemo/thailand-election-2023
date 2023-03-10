@@ -46,7 +46,7 @@
         </div>
         <div class="project-cards">
           <ProjectCard
-            v-for="project in project_data"
+            v-for="project in getProjectData"
             :key="project['Path']"
             :data="project"
             :is_coming_soon="project.ComingSoon"
@@ -149,6 +149,16 @@ export default {
       renderer: 'svg',
       animationData: require('~/assets/lotties/landing.json'),
     })
+  },
+  computed: {
+    getProjectData() {
+      if (this.active_filter !== 'ทั้งหมด') {
+        return this.project_data.filter(
+          (project) => project.Tag === this.active_filter
+        )
+      }
+      return this.project_data
+    },
   },
 }
 </script>
