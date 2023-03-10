@@ -78,6 +78,20 @@
         </a>
       </div>
     </div>
+    <div class="partners-section">
+      <div class="container">
+        <p class="typo-h5 head"><b>พวกคนมีหวัง ที่มาร่วมสมคบคิด</b></p>
+        <p class="typo-b4 subhead">
+          โปรเจคเหล่านี้จะเกิดขึ้นไม่ได้เลย ถ้าขาดกลุ่มคน(ที่ยัง)มีหวัง
+          <span class="word">มาร่วม</span>ผลักดันให้เกิดงานเหล่านี้
+        </p>
+        <div class="logo-partners">
+          <div v-for="logo in 6" :key="`logo-${logo}`" class="logo-wrap">
+            <!-- <img src="" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -191,12 +205,16 @@ export default {
   }
 }
 .projects-section,
-.articles-section {
+.articles-section,
+.partners-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 64px 0;
+  @include mobile {
+    padding: 40px 0;
+  }
   .head {
     text-align: center;
     margin-bottom: 8px;
@@ -260,6 +278,47 @@ export default {
     border-radius: 10px;
     padding: 12px 20px;
     cursor: pointer;
+  }
+}
+.partners-section {
+  background: var(--color-gray-2);
+  .head {
+    width: 600px;
+    @include mobile {
+      width: 200px;
+    }
+  }
+  .subhead {
+    @include tablet {
+      width: 475px;
+    }
+    @include mobile {
+      width: 230px;
+    }
+  }
+  .logo-partners {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 72px 192px;
+    margin: 48px 0 25px;
+    @include tablet {
+      gap: 72px 125px;
+    }
+    @include mobile {
+      grid-template-columns: repeat(1, 1fr);
+      margin: 48px 0 40px;
+    }
+    .logo-wrap {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      mix-blend-mode: multiply;
+      background: var(--color-gray-3);
+      @include mobile {
+        width: 80px;
+        height: 80px;
+      }
+    }
   }
 }
 </style>
