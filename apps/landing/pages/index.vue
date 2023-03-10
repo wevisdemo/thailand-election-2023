@@ -56,11 +56,30 @@
         </div>
       </div>
     </div>
+    <div class="articles-section">
+      <div class="container">
+        <p class="typo-h5 head">
+          <b> Bite Sized </b>
+        </p>
+        <p class="typo-b4 subhead">ติดตามเรื่องราวการเลือกตั้ง’66</p>
+        <div class="article-cards">
+          <ArticleCard
+            v-for="post in lastest_three_posts"
+            :key="`election-posts-${post.id}`"
+            :data="post"
+          />
+        </div>
+        <div class="view-all-articles-btn">
+          <p class="typo-b4"><b>ดูบทความทั้งหมด</b></p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import projectMetadata from '@thailand-election-2023/metadata/dist/projects.json'
+import { fetchWeVisElectionPosts } from '@thailand-election-2023/wordpress'
 import { orderBy } from 'lodash'
 
 export default {
@@ -77,10 +96,12 @@ export default {
       ],
       active_filter: 'ทั้งหมด',
       project_data: [],
+      lastest_three_posts: [],
     }
   },
-  mounted() {
+  async mounted() {
     this.project_data = orderBy(projectMetadata, ['OrderLanuch'])
+    this.lastest_three_posts = await fetchWeVisElectionPosts({ limit: 3 })
   },
 }
 </script>
@@ -162,26 +183,44 @@ export default {
     }
   }
 }
-.projects-section {
+.projects-section,
+.articles-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   padding: 64px 0;
-  background: var(--color-gray-1);
   .head {
+    text-align: center;
     margin-bottom: 8px;
     @include mobile {
       width: 260px;
     }
   }
   .subhead {
+    text-align: center;
     opacity: 0.6;
     @include mobile {
       max-width: 308px;
     }
   }
+  .project-cards,
+  .article-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 920px;
+    @include tablet {
+      gap: 24px;
+    }
+    @include mobile {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+.projects-section {
+  background: var(--color-gray-1);
   .filters-wrap {
     display: flex;
     justify-content: center;
@@ -204,15 +243,16 @@ export default {
       }
     }
   }
-  .project-cards {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    flex-wrap: wrap;
-    gap: 24px;
-    max-width: 920px;
-    @include mobile {
-      grid-template-columns: repeat(1, auto);
-    }
+}
+.articles-section {
+  .article-cards {
+    margin: 24px 0;
+  }
+  .view-all-articles-btn {
+    border: 3px solid var(--color-black);
+    border-radius: 10px;
+    padding: 12px 20px;
+    cursor: pointer;
   }
 }
 </style>

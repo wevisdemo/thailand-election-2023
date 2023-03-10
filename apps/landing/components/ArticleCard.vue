@@ -1,16 +1,11 @@
 <template>
   <div class="article-card">
     <div class="img-wrap">
-      <!-- <img src="" alt="" /> -->
+      <img :src="data.image" alt="" />
     </div>
     <div class="text-wrap">
-      <p class="title typo-h7">
-        <b
-          >ส่องปัญหา ‘ข้อมูลเปิด’ กับการเลือกตั้ง: ไม่ใช่แค่ ‘เลขไทย’ โจทย์หิน
-          ทำอย่างไรให้ข้อมูลใช้ ‘ง่าย’ กว่านี้?</b
-        >
-      </p>
-      <p class="date typo-b6">24 มิถุนายน 2565</p>
+      <p class="title typo-h7" v-html="data.title"></p>
+      <p class="date typo-b6">{{ data.date }}</p>
     </div>
   </div>
 </template>
@@ -37,11 +32,13 @@ export default {
   height: 160px;
   border: 4px solid var(--color-black);
   border-radius: 20px;
+  overflow: hidden;
 }
 .text-wrap {
   padding: 16px;
   .title {
     margin-bottom: 4px;
+    font-weight: bold;
   }
   .date {
     opacity: 0.6;
