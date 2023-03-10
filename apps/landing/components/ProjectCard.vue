@@ -7,7 +7,7 @@
   >
     <div class="card" :class="{ 'coming-soon-card': is_coming_soon }">
       <div class="text-wrap">
-        <p class="project-name" :class="is_coming_soon ? 'typo-h6' : 'typo-h5'">
+        <p class="project-name typo-h6">
           <b>{{ data.ThName }}</b>
         </p>
         <div class="en-name-and-partner">
@@ -72,7 +72,7 @@ export default {
   overflow: hidden;
   cursor: pointer;
   @include mobile {
-    max-width: 350px;
+    max-width: 320px;
   }
   &.coming-soon-card {
     background: var(--color-gray-2);
