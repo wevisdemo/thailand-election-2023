@@ -14,16 +14,18 @@
         {{ data.Subtitle }}
       </p>
     </div>
-    <div v-if="!is_coming_soon" class="img-wrap">
-      <img :src="mockup_image" alt="" />
+    <div v-if="!is_coming_soon" class="lottie-wrap">
+      <div class="lottie" :id="data.Path" />
     </div>
-    <div class="coming-soon-label">
+    <div v-else class="coming-soon-label">
       <b> Coming Soon! </b>
     </div>
   </div>
 </template>
 
 <script>
+import lottie from 'lottie-web'
+
 export default {
   props: {
     data: {
@@ -35,9 +37,15 @@ export default {
       default: false,
     },
   },
-  data() {
-    return {
-      mockup_image: require('~/assets/images/mockup_image.png'),
+
+  mounted() {
+    if (!this.is_coming_soon) {
+      lottie.loadAnimation({
+        name: this.data.Path,
+        container: document.getElementById(this.data.Path),
+        renderer: 'svg',
+        animationData: require(`~/assets/lotties/${this.data.Path}.json`),
+      })
     }
   },
 }
@@ -80,9 +88,13 @@ export default {
     width: 160px;
   }
 }
-.img-wrap {
+.lottie-wrap {
   position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
   width: 220px;
+  height: 220px;
   right: 10px;
   bottom: 10px;
   z-index: 1;
