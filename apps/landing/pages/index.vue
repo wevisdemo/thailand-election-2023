@@ -46,12 +46,23 @@
             </p>
           </div>
         </div>
+        <div class="project-cards">
+          <ProjectCard
+            v-for="project in project_data"
+            :key="project['Path']"
+            :data="project"
+            :is_coming_soon="project.ComingSoon"
+          />
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import projectMetadata from '@thailand-election-2023/metadata/dist/projects.json'
+import { orderBy } from 'lodash'
+
 export default {
   data() {
     return {
@@ -65,7 +76,11 @@ export default {
         'เครื่องมืออื่นๆ',
       ],
       active_filter: 'ทั้งหมด',
+      project_data: [],
     }
+  },
+  mounted() {
+    this.project_data = orderBy(projectMetadata, ['OrderLanuch'])
   },
 }
 </script>
@@ -187,6 +202,16 @@ export default {
         background: var(--color-black);
         color: var(--color-white);
       }
+    }
+  }
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 920px;
+    @include mobile {
+      grid-template-columns: repeat(1, auto);
     }
   }
 }

@@ -2,16 +2,16 @@
   <div class="card" :class="{ 'coming-soon-card': is_coming_soon }">
     <div class="text-wrap">
       <p class="project-name" :class="is_coming_soon ? 'typo-h6' : 'typo-h5'">
-        <b>ที่สัญญากันไว้ ทำได้แค่ไหน?</b>
+        <b>{{ data.ThName }}</b>
       </p>
       <div class="en-name-and-partner">
         <p class="typo-b5">
-          <b>Promise Tracker</b>
+          <b>{{ data.EnName }}</b>
         </p>
-        <p class="partner typo-b7">by iLaw & Wevis</p>
+        <p class="partner typo-b7">{{ data.Partner }}</p>
       </div>
       <p v-if="!is_coming_soon" class="detail typo-b6">
-        ประชาชนทั้งหลาย.. มาติดตามและทวงถามสัญญาที่พรรค
+        {{ data.Subtitle }}
       </p>
     </div>
     <div v-if="!is_coming_soon" class="img-wrap">
@@ -26,6 +26,10 @@
 <script>
 export default {
   props: {
+    data: {
+      type: Object,
+      default: {},
+    },
     is_coming_soon: {
       type: Boolean,
       default: false,
