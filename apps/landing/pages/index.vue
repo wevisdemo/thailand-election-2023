@@ -10,9 +10,7 @@
           รวมข้อมูลการเมืองและการเลือกตั้ง โดยประชาชนผู้มีหวังในประชาธิปไตย
         </p>
         <div class="img-wrap">
-          <div class="three-people">
-            <img :src="three_people" alt="three people" />
-          </div>
+          <div id="landing-lottie" />
           <div class="star-label">
             <img :src="star_label" alt="star label" />
             <div class="countdown-numbers-wrap">
@@ -87,13 +85,13 @@
 import projectMetadata from '@thailand-election-2023/metadata/dist/projects.json'
 import { fetchWeVisElectionPosts } from '@thailand-election-2023/wordpress'
 import { orderBy } from 'lodash'
+import lottie from 'lottie-web'
 
 export default {
   data() {
     return {
       logo: require('~/assets/images/wevis_election_66_logo.svg'),
       star_label: require('~/assets/images/star_label.svg'),
-      three_people: require('~/assets/images/three_people.png'),
       filter_buttons: [
         'ทั้งหมด',
         'เตรียมตัวเลือกตั้ง',
@@ -108,6 +106,13 @@ export default {
   async mounted() {
     this.project_data = orderBy(projectMetadata, ['OrderLanuch'])
     this.lastest_three_posts = await fetchWeVisElectionPosts({ limit: 3 })
+
+    lottie.loadAnimation({
+      name: 'landing-lottie',
+      container: document.getElementById('landing-lottie'),
+      renderer: 'svg',
+      animationData: require('~/assets/lotties/landing.json'),
+    })
   },
 }
 </script>
