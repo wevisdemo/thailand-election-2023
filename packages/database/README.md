@@ -36,6 +36,7 @@ The following projects and tables are available
     - Note that People will sub-query party name from [PeoplePartyHistory](https://sheets.wevis.info/dashboard/#/nc/view/707598ab-a5db-4c46-886c-f59934c9936b) table by default. No need to fetch that seperately.
   - [VoteLog](https://sheets.wevis.info/dashboard/#/nc/view/e06d1465-2786-4799-9c0f-a20f4cf71ec4)
   - [PeopleVotes](https://sheets.wevis.info/dashboard/#/nc/view/e58433cc-f4fd-499b-926d-05431412cbba)
+  - [Policies](https://sheets.wevis.info/dashboard/#/nc/view/d930acb2-b1f8-4a85-9ed9-04c2b1edc951)
 
 ## Fetch functions
 
