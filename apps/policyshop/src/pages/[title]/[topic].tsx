@@ -2,7 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 
-const topic = () => {
+const Topic = () => {
 	const router = useRouter();
 	const { title, topic } = router.query;
 
@@ -17,4 +17,4 @@ const topic = () => {
 	);
 };
 
-export default topic;
+export default Topic;
