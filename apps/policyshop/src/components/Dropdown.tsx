@@ -3,6 +3,7 @@ import { imgPrefix } from '@/utils/path';
 import { FunctionComponent, useEffect, useRef, useState } from 'react';
 
 interface PropsType {
+	outline?: boolean;
 	options: IDropdownOption<any>[];
 	currentOption: IDropdownOption<any> | null;
 	onSelect: (option: IDropdownOption<any>) => void;
@@ -14,6 +15,7 @@ const Dropdown: FunctionComponent<PropsType> = ({
 	currentOption,
 	onSelect,
 	placeholder,
+	outline,
 }) => {
 	const ddRef = useRef<HTMLDivElement>(null);
 	const [expand, setExpand] = useState<boolean>(false);
@@ -44,10 +46,17 @@ const Dropdown: FunctionComponent<PropsType> = ({
 		return currentOption.label;
 	};
 
+	const getBoderClass = (): string => {
+		if (!outline) {
+			return 'px-[16px] py-[10px] bg-[var(--color-white)] border-[3px] border-[var(--color-black)] rounded-[50px]';
+		}
+		return 'p-[8px] border-b-[3px] border-[var(--color-black)]';
+	};
+
 	return (
 		<div className="relative w-full" ref={ddRef}>
 			<div
-				className="flex justify-between px-[16px] py-[10px] bg-[var(--color-white)] border-[3px] border-[var(--color-black)] rounded-[50px] hover:cursor-pointer"
+				className={`flex items-center justify-between hover:cursor-pointer ${getBoderClass()}`}
 				onClick={() => setExpand(!expand)}
 			>
 				<span
@@ -67,7 +76,7 @@ const Dropdown: FunctionComponent<PropsType> = ({
 				/>
 			</div>
 			{expand && (
-				<div className="absolute w-full max-h-[300px] overflow-y-auto mt-[12px] p-[15px] bg-[var(--color-white)] border-[3px] border-[var(--color-black)] rounded-[10px]">
+				<div className="absolute w-full max-h-[300px] overflow-y-auto z-50 mt-[12px] p-[15px] bg-[var(--color-white)] border-[3px] border-[var(--color-black)] rounded-[10px]">
 					{options.map((item, index) => {
 						return (
 							<div
