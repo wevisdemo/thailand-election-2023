@@ -11,61 +11,112 @@
           name="query"
           id="district-search"
           v-model="query"
+          @input="() => changeLevel(1)"
           placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
         />
         <IconsSearch />
-        <div class="query-result-container">
-          <ul v-html="queryResultListItemHtml"></ul>
+        <div class="query-result-container" :style="{ height: menuHeight }">
+          <div ref="menuLevel1" :style="menuContainerStyels(1)">
+            <SearchListDistrict
+              v-for="(r, i) in queryResultList"
+              :key="i"
+              :district="r"
+              :onClick="
+                () => {
+                  changeLevel(2)
+                  selectedDistrict = r.district
+                }
+              "
+            />
+          </div>
+          <div ref="menuLevel2" :style="menuContainerStyels(2)">
+            <div class="typo-b6">
+              มี {{ electoralDistrics.length }} เขตเลือกตั้ง
+            </div>
+            <SearchListElectoral
+              :index="i"
+              :district="r"
+              v-for="(r, i) in electoralDistrics"
+              :key="i"
+            />
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
+import { searchDistrict, getElectorals } from '~/helpers/search'
 export default {
+  mounted() {
+    this.menuHeight = this.getMenuHeight()
+  },
+  updated() {
+    this.menuHeight = this.getMenuHeight()
+    console.log(document.getElementById)
+  },
   data() {
     return {
-      query: 'test',
-      amphoes: [
-        { id: 0, amphoe: 'เมืองสมุทรปราการ', province: 'สมุทรปราการ' },
-        { id: 1, amphoe: 'เมืองสมุทรปราการ', province: 'สมุทรปราการ' },
-        { id: 2, amphoe: 'เมืองสมุทรปราการ', province: 'สมุทรปราการ' },
-        { id: 3, amphoe: 'เมืองสมุทรปราการ', province: 'สมุทรปราการ' },
-        { id: 4, amphoe: 'เมืองสมุทรปราการ', province: 'สมุทรปราการ' },
-        { id: 5, amphoe: 'เมืองสมุทรปราการ', province: 'สมุทรปราการ' },
-      ],
+      query: 'กรง',
+      menuHeight: '0px',
+      menuLevel: 1,
+      selectedDistrict: {},
     }
   },
   computed: {
-    queryResultListItemHtml() {
-      if (this.query.trim().length == 0) {
-        return '<li>No match</li>'
+    queryResultList() {
+      if (this.menuLevel == 1)
+        return searchDistrict(this.query).map((r, i) => ({
+          id: i,
+          html: `อ. ${r.district} จ. ${r.province}`,
+          district: r.obj,
+        }))
+      return []
+    },
+    electoralDistrics() {
+      if (this.menuLevel == 2) {
+        return getElectorals(this.selectedDistrict.electoral.map((v) => v.fk))
       }
-      const out = this.query.split(/\s/g)
-      return ''.concat(
-        ...out.map((q) =>
-          q.trim().length == 0 ? '' : "<li class='typo-b4'>" + q + '</li>'
-        )
-      )
+      return []
+    },
+  },
+  methods: {
+    getMenuHeight() {
+      if (this.menuLevel == 1)
+        return Math.min(this.$refs.menuLevel1.clientHeight, 360) + 'px'
+      else if (this.menuLevel == 2)
+        return Math.min(this.$refs.menuLevel2.clientHeight, 360) + 'px'
+    },
+    changeLevel(to) {
+      if (to <= 2) this.menuLevel = to
+    },
+    menuContainerStyels(level) {
+      return {
+        transform:
+          this.menuLevel == level
+            ? ''
+            : `translate(calc(${level == 1 ? '-' : ''}10% + 15px), 0px)`,
+        opacity: this.menuLevel == level ? 1 : 0,
+        display: this.menuLevel == level ? 'block' : 'none',
+      }
     },
   },
 }
 </script>
-<style>
+
+<style lang="scss">
 .search-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px 0px 40px;
   gap: 5px;
-  text-align: center;
 }
 
 .search-container {
   display: flex;
   flex-direction: column;
   position: relative;
-  align-items: center;
   width: 100%;
 }
 
@@ -75,56 +126,60 @@ export default {
   align-items: center;
   padding: 10px 15px;
   gap: 10px;
-
   width: 100%;
   background: var(--color-white);
   border: 3px solid var(--color-black);
   border-radius: 50px;
-}
 
-.search-container > .search-box:focus-within {
-  border: 3px solid var(--color-highlight-2);
-}
+  &:empty {
+    display: none;
+  }
 
-.search-container > .search-box > input {
-  flex: none;
-  color: var(--color-black);
-  flex-grow: 1;
-}
+  &:focus-within {
+    border: 3px solid var(--color-highlight-2);
+  }
 
-.search-container > .search-box > input:placeholder-shown {
-  opacity: 0.5;
-}
+  & > input {
+    flex: none;
+    color: var(--color-black);
+    flex-grow: 1;
 
-.search-container .search-box input:focus {
-  outline: none;
-}
+    &:placeholder-shown {
+      opacity: 0.5;
+    }
 
-.search-container .search-box input:focus ~ .query-result-container {
-  display: block;
+    &:focus {
+      outline: none;
+
+      & ~ .query-result-container {
+        display: flex;
+      }
+    }
+  }
 }
 
 .query-result-container {
   position: absolute;
-  display: none;
+  // display: none;
   width: 100%;
+  height: 200px;
   top: 100%;
   left: 0px;
   margin-top: 12px;
   overflow-y: scroll;
+  overflow-x: hidden;
   background: var(--color-highlight-1);
-  padding: 15px;
   border: 3px solid var(--color-black);
   border-radius: 10px;
-}
+  transition-duration: 200ms;
 
-.query-result-container ul li:hover {
-  background: var(--color-highlight-2);
-  border-radius: 5px;
-}
-
-.query-result-container ul li {
-  border-bottom: 1px solid var(--color-highlight-2);
-  padding: 5px;
+  & > div {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    padding: 15px 15px;
+    transition: 200ms ease-in-out;
+  }
 }
 </style>
