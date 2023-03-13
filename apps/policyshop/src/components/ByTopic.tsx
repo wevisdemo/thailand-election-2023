@@ -5,18 +5,23 @@ const ByTopic = () => {
 	const mockData = [
 		{
 			name: 'คุณภาพชีวิต',
+			total: 20,
 		},
 		{
 			name: 'ความมั่นคง',
+			total: 21,
 		},
 		{
 			name: 'ต่างประเทศ',
+			total: 30,
 		},
 		{
 			name: 'บริหารจัดการ',
+			total: 40,
 		},
 		{
 			name: 'ศาสนาและวัฒนธรรม',
+			total: 62,
 		},
 	];
 	return (
@@ -29,7 +34,10 @@ const ByTopic = () => {
 						href={`/แบ่งตามประเด็น/${topic?.name}`}
 						className="mt-4 mx-[8px]"
 					>
-						<CircleTopicWrapper topicName={topic?.name} />
+						<CircleTopicWrapper
+							topicName={topic.name}
+							totalTopic={topic.total}
+						/>
 					</Link>
 				))}
 			</div>

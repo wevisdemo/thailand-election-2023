@@ -18,5 +18,6 @@ export interface SquareTopicProps {
 }
 
 export interface CircleTopicWrapper {
-	topicName: string | undefined;
+	topicName: string;
+	totalTopic: number;
 }
