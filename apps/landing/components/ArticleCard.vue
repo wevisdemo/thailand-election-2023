@@ -27,7 +27,7 @@ export default {
 .article-card {
   cursor: pointer;
   @include mobile {
-    max-width: 320px;
+    max-width: 340px;
   }
 }
 .img-wrap {

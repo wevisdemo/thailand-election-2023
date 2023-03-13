@@ -78,7 +78,7 @@ export default {
     box-shadow: 4px 12px 0px var(--color-gray-2);
   }
   @include mobile {
-    max-width: 320px;
+    max-width: 340px;
   }
   &.coming-soon-card {
     background: var(--color-gray-2);
