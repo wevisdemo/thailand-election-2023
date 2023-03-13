@@ -28,7 +28,7 @@ const subProjects: ProjectConfig[] = [
 	},
 ];
 
-console.log(`${subProjects} sub-projects found.`);
+console.log(`${subProjects.length} sub-projects found.`);
 
 subProjects.forEach(({ source, destination }) => {
 	const buildArtifactsPath = join('../', APPS_DIR, source, BUILD_DIR);

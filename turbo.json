@@ -9,7 +9,9 @@
 			"dependsOn": ["^build"],
 			"outputs": [".next/**", "dist/**", ".svelte-kit/**"]
 		},
-		"merge": {},
+		"merge": {
+			"cache": false
+		},
 		"lint": {}
 	}
 }
