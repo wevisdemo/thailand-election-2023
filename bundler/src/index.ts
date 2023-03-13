@@ -1,4 +1,4 @@
-import { existsSync, cpSync } from 'fs';
+import { existsSync, cpSync, rmSync } from 'fs';
 import { join } from 'path';
 import projectMetadata from '@thailand-election-2023/metadata/dist/projects.json' assert { type: 'json' };
 
@@ -7,28 +7,27 @@ interface ProjectConfig {
 	destination: string;
 }
 
-const ROOT_URL = 'https://election66.wevis.info/';
 const APPS_DIR = 'apps';
 const BUILD_DIR = 'dist';
 
 const subProjects: ProjectConfig[] = [
 	...projectMetadata
-		.filter(({ URL }) => URL.includes(ROOT_URL))
-		.flatMap(({ URL }) => {
-			const projectPath = URL.replace(ROOT_URL, '').replaceAll('/', '');
-
-			return {
-				source: projectPath,
-				destination: projectPath,
-			};
-		}),
+		.filter(({ URL }) => URL.startsWith('/'))
+		.map(({ URL }) => ({
+			source: URL,
+			destination: URL,
+		})),
 	{
-		source: 'landing',
+		source: '/landing',
 		destination: '/',
 	},
 ];
 
 console.log(`${subProjects.length} sub-projects found.`);
+
+if (existsSync(BUILD_DIR)) {
+	rmSync(BUILD_DIR, { recursive: true });
+}
 
 subProjects.forEach(({ source, destination }) => {
 	const buildArtifactsPath = join('../', APPS_DIR, source, BUILD_DIR);
