@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { SquareTopicProps } from '@/types/components';
 
-const SquareTopic: FC<SquareTopicProps> = ({ topicName }) => {
+const SquareTopicWrapper: FC<SquareTopicProps> = ({ topicName }) => {
 	return (
 		<div>
 			<div className="w-[156px] h-[156px] border border-black rounded-[10px]" />
@@ -10,4 +10,4 @@ const SquareTopic: FC<SquareTopicProps> = ({ topicName }) => {
 	);
 };
 
-export default SquareTopic;
+export default SquareTopicWrapper;

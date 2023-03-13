@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-
+import CircleTopicWrapper from './CircleTopicWrapper';
 const ByTopic = () => {
 	const mockData = [
 		{
@@ -29,10 +29,7 @@ const ByTopic = () => {
 						href={`/แบ่งตามประเด็น/${topic?.name}`}
 						className="mt-4 mx-[8px]"
 					>
-						<div className="w-[70px] h-[70px] border border-black rounded-full" />
-						<p className="mt-2 font-bold typo-b4 w-[70px] text-center">
-							{topic?.name}
-						</p>
+						<CircleTopicWrapper topicName={topic?.name} />
 					</Link>
 				))}
 			</div>

@@ -16,3 +16,7 @@ export interface IPolicyCard {
 export interface SquareTopicProps {
 	topicName: string | undefined;
 }
+
+export interface CircleTopicWrapper {
+	topicName: string | undefined;
+}

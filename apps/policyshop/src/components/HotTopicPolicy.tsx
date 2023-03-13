@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import SquareTopic from './SquareTopic';
+import SquareTopicWrapper from './SquareTopicWarpper';
 
 const HotTopicPolicy = () => {
 	const mockData = [
@@ -28,7 +28,7 @@ const HotTopicPolicy = () => {
 						href={`/นโยบายประเด็นร้อน/${topic?.topic_name}`}
 						className="mt-4 mx-[8px]"
 					>
-						<SquareTopic topicName={topic?.topic_name} />
+						<SquareTopicWrapper topicName={topic?.topic_name} />
 					</Link>
 				))}
 			</div>
