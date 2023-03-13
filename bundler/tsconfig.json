@@ -1,0 +1,10 @@
+{
+	"include": ["src/*.ts"],
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"resolveJsonModule": true
+	}
+}

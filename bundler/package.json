@@ -1,0 +1,17 @@
+{
+	"name": "@thailand-election-2023/bundler",
+	"version": "1.0.0",
+	"description": "Project built artifacts merging script",
+	"type": "module",
+	"license": "MIT",
+	"scripts": {
+		"merge": "ts-node --esm src/index.ts"
+	},
+	"dependencies": {
+		"@thailand-election-2023/metadata": "*"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.1",
+		"typescript": "^4.9.5"
+	}
+}

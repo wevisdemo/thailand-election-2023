@@ -19,6 +19,7 @@ Monorepo for Thailand Election 2023 projects using [Turborepo](https://turbo.bui
   - [wordpress](packages/wordpress) - WeVis WordPress API fetching utility
   - [metadata](packages/metadata) - Projects metadata
   - components - _TODO:_ Shared components according to the design systems
+- **/bundler** - Project built artifacts merging script
 
 ## 🏗️ Set up
 
@@ -55,6 +56,8 @@ For VSCode user, format on save is enabled and [prettier-vscode](https://marketp
 5. Add shared packages into the project. Follow each packages instruction:
 
    - [@thailand-election-2023/styles](packages/styles)
+
+6. Set build output to be `/dist` in each project
 
 ## 👟 Run a project in development
 
