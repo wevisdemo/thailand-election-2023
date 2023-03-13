@@ -1,0 +1,42 @@
+name: Staging deployment
+
+on:
+  push:
+    branches: ['main']
+
+concurrency:
+  group: staging_environment
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: yarn
+
+      - name: Setup Turborepo caching
+        uses: dtinth/setup-github-actions-caching-for-turbo@v1
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build projects
+        run: yarn build
+
+      - name: Merge build artifacts
+        run: yarn merge
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: bundler/dist
+          clean: true
+          clean-exclude: CNAME
