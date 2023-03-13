@@ -1,20 +1,21 @@
 import React from 'react';
 import Link from 'next/link';
+import SquareTopic from './SquareTopic';
 
 const HotTopicPolicy = () => {
 	const mockData = [
 		{
-			Topic_Name: 'คอรัปชั่น',
+			topic_name: 'คอรัปชั่น',
 		},
 		{
-			Topic_Name: 'ความเท่าเทียม',
+			topic_name: 'ความเท่าเทียม',
 		},
 		,
 		{
-			Topic_Name: 'ความมั่นคง',
+			topic_name: 'ความมั่นคง',
 		},
 		{
-			Topic_Name: '112',
+			topic_name: '112',
 		},
 	];
 	return (
@@ -23,12 +24,11 @@ const HotTopicPolicy = () => {
 			<div className="flex flex-wrap text-center ">
 				{mockData.map((topic) => (
 					<Link
-						key={topic?.Topic_Name}
-						href={`/นโยบายประเด็นร้อน/${topic?.Topic_Name}`}
+						key={topic?.topic_name}
+						href={`/นโยบายประเด็นร้อน/${topic?.topic_name}`}
 						className="mt-4 mx-[8px]"
 					>
-						<div className="w-[156px] h-[156px] border border-black rounded-[10px]" />
-						<p className="mt-2 font-bold typo-b4">{topic?.Topic_Name}</p>
+						<SquareTopic topicName={topic?.topic_name} />
 					</Link>
 				))}
 			</div>

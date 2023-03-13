@@ -12,3 +12,7 @@ export interface IPolicyCard {
 	category_icon_src: string;
 	category_text: string;
 }
+
+export interface SquareTopicProps {
+	topicName: string | undefined;
+}
