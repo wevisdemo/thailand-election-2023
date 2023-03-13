@@ -236,7 +236,7 @@ export default {
     grid-template-columns: repeat(3, 1fr);
     flex-wrap: wrap;
     gap: 40px;
-    max-width: 920px;
+    max-width: 912px;
     @include tablet {
       gap: 24px;
     }

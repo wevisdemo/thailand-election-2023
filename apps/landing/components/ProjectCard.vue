@@ -68,7 +68,7 @@ export default {
   border: 3px solid var(--color-black);
   border-radius: 20px;
   padding: 24px;
-  height: 400px;
+  height: 420px;
   overflow: hidden;
   transition: 0.5s;
   cursor: pointer;
@@ -109,11 +109,15 @@ export default {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   right: 10px;
   bottom: 10px;
   z-index: 1;
+  @include tablet-only {
+    width: 150px;
+    height: 150px;
+  }
 }
 .coming-soon-label {
   position: absolute;
