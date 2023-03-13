@@ -4,7 +4,7 @@ Monorepo for Thailand Election 2023 projects using [Turborepo](https://turbo.bui
 
 ## 🌎 Environments
 
-- Staging: https://election66-staging.wevis.info
+- Staging: https://staging.election66.wevis.info
 - Production: _Not deployed yet_
 
 ## 🍱 Directory structure

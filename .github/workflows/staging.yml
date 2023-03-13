@@ -3,6 +3,8 @@ name: Staging deployment
 on:
   push:
     branches: ['main']
+    paths-ignore:
+      - '**/README.md'
 
 concurrency:
   group: staging_environment
