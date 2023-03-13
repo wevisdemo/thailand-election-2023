@@ -29,12 +29,18 @@ export default {
   border: 3px solid;
   border-radius: 10px;
   padding: 12px 20px;
+  transition: color 0.3s, background 0.3s, border 0.2s;
   cursor: pointer;
   &.white-color {
     border-color: var(--color-black);
   }
   &.black-color {
     border-color: var(--color-white);
+  }
+  &:hover {
+    background: var(--color-highlight-2);
+    border-color: var(--color-highlight-2);
+    color: var(--color-black);
   }
 }
 </style>

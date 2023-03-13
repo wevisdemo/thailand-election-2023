@@ -262,10 +262,20 @@ export default {
       background: white;
       border: 3px solid var(--color-black);
       width: fit-content;
+      transition: background 0.3s, border 0.2s;
       cursor: pointer;
       &.active-filter-btn {
         background: var(--color-black);
         color: var(--color-white);
+        &:hover {
+          background: var(--color-black);
+          color: var(--color-white);
+          border-color: var(--color-black);
+        }
+      }
+      &:hover {
+        background: var(--color-highlight-2);
+        border-color: var(--color-highlight-2);
       }
     }
   }

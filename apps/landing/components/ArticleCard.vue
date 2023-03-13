@@ -29,6 +29,11 @@ export default {
   @include mobile {
     max-width: 340px;
   }
+  &:hover {
+    .title {
+      opacity: 0.6;
+    }
+  }
 }
 .img-wrap {
   height: 160px;
@@ -41,6 +46,7 @@ export default {
   .title {
     margin-bottom: 4px;
     font-weight: bold;
+    transition: 0.3s;
   }
   .date {
     opacity: 0.6;
