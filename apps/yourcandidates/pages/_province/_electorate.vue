@@ -3,56 +3,46 @@
 
         <div v-show="openPopup" class="popup flex flex-row justify-center items-center absolute scrollbar-hid">
             <div class="relative w-4/5 h-4/5 max-w-650 overflow-y-scroll rounded-xl scrollbar-hide">
-                <button class="absolute right-4 top-2" @click="closePopup()"> X </button>
+                <button class="absolute right-4 top-2" @click="closePopup()"> <IconsClose/> </button>
                 <div>
                     <VoteInstruction />
                 </div>
             </div>
         </div>
 
-
-        <div class="tab-backt">
+        <div class="tab-back">
             <nuxt-link to="/">
                 <span class="icon-arrow"> &#8592 </span>
                 <span class="detail" target="_blank"> 
-                        กลับไปหน้าค้นหา 
+                    กลับไปหน้าค้นหา 
                 </span>
             </nuxt-link>
         </div>
-
+        
         <div class="main-container">
-
-            <div class="cover-section">
-                <div class="typo-h3">
-                    <b> รายชื่อผู้สมัคร </b>
-                </div>
-                <div class="typo-h7">
-                    <b> {{province}} เขตเลือกตั้งที่ {{electorateNumber}} </b>
-                </div>
-                <div v-for="electorate in electorates" style="padding-left: 8px;">
-                    <li>{{electorate}}</li>
-                </div>
-            </div>
-            
-            <button class="vode-instruction-section"  @click="popupVoteInstruction()">
-                <div>
-                    <span class="icon-info">
-                        &#9432;
-                    </span>
-                    <span class="detail">
-                        <b>รอบนี้มีบัตร 2 ใบนะ รู้ยัง?</b>
-                    </span> 
-                </div>
-                <div class="icon-plus">
-                    +
-                </div>
-            </button>
-
-            <div>
+            <div class="head-section">
+                <div class="electorate-description">
+                    <div class="typo-h3">
+                        <b> รายชื่อผู้สมัคร </b>
+                    </div>
+                    <div class="typo-h7">
+                        <b> {{province}} เขตเลือกตั้งที่ {{electorateNumber}} </b>
+                    </div>
+                    <div v-for="electorate in electorates" style="padding-left: 8px;">
+                        <li>{{electorate}}</li>
+                    </div>
+                </div>       
                 
+                <button class="vode-instruction-section" @click="popupVoteInstruction()">
+                    <div class="detail">
+                        <IconsInformation/>
+                        <p><b>รอบนี้มีบัตร 2 ใบนะ รู้ยัง?</b></p> 
+                    </div>
+                    <IconsPlus/>
+                </button>
             </div>
-            
         </div>
+        
     </div>
 </template>
   
@@ -97,19 +87,24 @@ export default {
     order: 1;
     flex-grow: 0;
 }
-.main-container {
+
+.head-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0px;
+    align-items: flex-start;
+    gap: 20px;
     flex: none;
-    order: 2;
+    order: 0;
     flex-grow: 0;
-    z-index: 2;
 }
 
-.cover-section {
+.electorate-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
     flex: none;
+    order: 0;
     align-self: stretch;
     flex-grow: 0;
 }
@@ -122,22 +117,21 @@ export default {
     align-items: center;
     padding: 10px;
     gap: 5px;
+    border-radius: 2px;
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
 }
 
-.vode-instruction-section > .icon-info {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 1px;
-    top: 1px;
-}
-
-.vode-instruction-section > .detil {
+.vode-instruction-section > .detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
     flex: none;
+    order: 0;
     flex-grow: 0;
 }
 
