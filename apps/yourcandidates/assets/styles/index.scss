@@ -11,3 +11,15 @@ body {
   max-width: 680px;
   margin: 0px auto;
 }
+
+.search-list-item {
+  padding: 5px;
+  border-bottom: 1px solid var(--color-highlight-2);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    border-radius: 5px;
+    background: var(--color-highlight-2);
+  }
+}
