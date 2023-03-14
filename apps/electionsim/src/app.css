@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.beyondx-gradient-bg {
+	background: linear-gradient(270deg, #FF0000 0%, #0000FF 100%);
+}
+
+.beyonx-text-gradient {
+	background: linear-gradient(270deg, #FF0000 0%, #0000FF 100%);
+	background-clip: text;
+	color: transparent;
+}
