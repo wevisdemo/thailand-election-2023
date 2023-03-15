@@ -1,61 +1,79 @@
 <template>
   <div class="page-container">
-    <div class="cover-container">
-      <p class="typo-h7 title">They Work for You?</p>
-      <p class="typo-h2 head">
-        <b>
-          ส.ส. เขตบ้าน <br />
-          ใจตรงกับคุณแค่ไหน?
-        </b>
-      </p>
-      <div class="img-wrap">
-        <img :src="two_people" alt="" />
-      </div>
-      <div class="intro-wrap">
-        <p class="typo-b4 intro">
-          หน้าที่สำคัญอย่างหนึ่งของ ส.ส. เขต
-          คือการเป็นผู้แทนคนในพื้นที่ไปส่งเสียงในสภา ผ่านการโหวตประเด็นต่างๆ
+    <div v-if="active_quiz_no === 0">
+      <div class="cover-container">
+        <p class="typo-h7 title">They Work for You?</p>
+        <p class="typo-h2 head">
+          <b>
+            ส.ส. เขตบ้าน <br />
+            ใจตรงกับคุณแค่ไหน?
+          </b>
         </p>
-        <p class="typo-b4 intro">
-          ก่อนการ#เลือกตั้ง66ที่จะถึงนี้ี้ เราจึงอยากชวนทุกคนมาตรวจการบ้านในช่วง
-          4 ปีที่ผ่านมากันหน่อย ว่า ส.ส. เขตบ้านคุณทำหน้าที่นี้ได้ตรงใจแค่ไหน
-        </p>
-      </div>
-    </div>
-    <div class="search-section">
-      <p class="typo-b4 question">
-        <b> ก่อนอื่น คุณอยู่เขต/อำเภออะไร </b>
-      </p>
-
-      <div class="search-box-wrap">
-        <el-select
-          v-model="value"
-          filterable
-          default-first-option
-          :reserve-keyword="false"
-          placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
-          popper-class="search-box"
-        >
-          <el-option
-            v-for="(item, index) in options"
-            :key="item.value"
-            :label="item.label"
-            :value="item.value"
-            class="dropdown-item"
-          >
-            <div v-if="index > 0" class="line" />
-            <span>{{ item.label }}</span>
-          </el-option>
-        </el-select>
-        <div class="search-icon">
-          <img :src="search_icon" alt="" />
+        <div class="img-wrap">
+          <img :src="two_people" alt="" />
+        </div>
+        <div class="intro-wrap">
+          <p class="typo-b4 intro">
+            หน้าที่สำคัญอย่างหนึ่งของ ส.ส. เขต
+            คือการเป็นผู้แทนคนในพื้นที่ไปส่งเสียงในสภา ผ่านการโหวตประเด็นต่างๆ
+          </p>
+          <p class="typo-b4 intro">
+            ก่อนการ#เลือกตั้ง66ที่จะถึงนี้ี้
+            เราจึงอยากชวนทุกคนมาตรวจการบ้านในช่วง 4 ปีที่ผ่านมากันหน่อย ว่า ส.ส.
+            เขตบ้านคุณทำหน้าที่นี้ได้ตรงใจแค่ไหน
+          </p>
         </div>
       </div>
+      <div class="search-section">
+        <p class="typo-b4 question">
+          <b> ก่อนอื่น คุณอยู่เขต/อำเภออะไร </b>
+        </p>
+        <div class="search-box-container">
+          <div class="search-box-wrap">
+            <el-select
+              v-model="value"
+              filterable
+              default-first-option
+              :reserve-keyword="false"
+              placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
+              popper-class="search-box"
+            >
+              <el-option
+                v-for="(item, index) in options"
+                :key="item.value"
+                :label="item.label"
+                :value="item.value"
+                class="dropdown-item"
+              >
+                <div v-if="index > 0" class="line" />
+                <span>{{ item.label }}</span>
+              </el-option>
+            </el-select>
+            <div class="search-icon">
+              <img :src="search_icon" alt="" />
+            </div>
+          </div>
+          <div v-if="value !== ''" class="mp-result-wrap">
+            <p class="title typo-b3">
+              <b>ส.ส. ในเขตของคุณ คือ</b>
+            </p>
+            <MpCard @click.native="start" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div v-else-if="active_quiz_no <= 10">
+      <Quiz :no="active_quiz_no" :data="getVoteLog" :nextQuiz="nextQuiz" />
+    </div>
+    <div v-else>
+      <QuizResult />
     </div>
   </div>
 </template>
 
 <script>
+import { TheyWorkForUs } from '@thailand-election-2023/database'
+
 export default {
   data() {
     return {
@@ -80,17 +98,48 @@ export default {
           value: 'กระบี่ เขาพนม',
         },
       ],
+      vote_logs: [],
+      active_quiz_no: 0,
     }
+  },
+  async mounted() {
+    const vote_id_selected = [45, 54, 88, 137, 168, 184, 185, 186, 221, 262]
+    const vote_log = await TheyWorkForUs.VoteLog.fetchAll()
+    this.vote_logs = vote_log.filter((element) =>
+      vote_id_selected.includes(element.Id)
+    )
+  },
+  computed: {
+    getVoteLog() {
+      return this.vote_logs[this.active_quiz_no - 1]
+    },
+  },
+  methods: {
+    start() {
+      this.scrollToTop()
+      this.active_quiz_no = 1
+    },
+    nextQuiz() {
+      this.scrollToTop()
+      this.active_quiz_no = this.active_quiz_no + 1
+    },
+    scrollToTop() {
+      document.body.scrollTop = 0
+      document.documentElement.scrollTop = 0
+    },
   },
 }
 </script>
 
 <style lang="scss" scoped>
 .page-container {
+  max-width: 650px;
   margin: 0 auto;
   @include tablet {
     width: 80vw;
-    max-width: 650px;
+  }
+  @include small-mobile {
+    width: 90vw;
   }
 }
 .cover-container {
@@ -119,7 +168,6 @@ export default {
     }
   }
   .intro-wrap {
-    max-width: 650px;
     .intro {
       text-align: center;
       margin-bottom: 20px;
@@ -134,11 +182,7 @@ export default {
   }
   .search-box-wrap {
     position: relative;
-    width: 650px;
     margin: 0 auto;
-    @include mobile {
-      width: 288px;
-    }
     .el-select {
       width: 100%;
       ::v-deep(.el-input__inner) {
@@ -165,6 +209,12 @@ export default {
       right: 5px;
       transform: translate(-100%, -50%);
       width: 18px;
+    }
+  }
+  .mp-result-wrap {
+    .title {
+      margin: 20px 0 15px;
+      text-align: center;
     }
   }
 }

@@ -1,21 +1,18 @@
 <template>
   <div class="quiz-container">
     <div class="header">
-      <p class="typo-b7 no">1/10</p>
-      <p class="typo-h6"><b>ร่าง พ.ร.บ. สมรสเท่าเทียม</b></p>
-      <p class="typo-b6">
-        ชื่อเต็ม : ร่าง พ.ร.บ. แพ่งและพาณิชย์ (สมรสเท่าเทียม) ฉบับก้าวไกล (วาระ
-        1)
+      <p class="typo-b7 no">{{ no }}/10</p>
+      <p class="typo-h6 title">
+        <b>{{ data.Title }}</b>
       </p>
+      <p class="typo-b6">ชื่อเต็ม : {{ data.LegalTitle }}</p>
     </div>
     <div class="detail-box">
       <p class="typo-b7"><b>รายละเอียด</b></p>
       <p class="detail typo-b5">
-        Lorem ipsum dolor sit amet consectetur. Mollis eu tincidunt sociis
-        ornare purus mauris lectus tellus et. In dolor donec quis morbi lacus
-        dui semper ddunt sociis o..
+        {{ data.DescriptionTh }}
       </p>
-      <p class="typo-b7">+ อ่านเพิ่มเติม</p>
+      <p class="typo-b7 view-full">+ อ่านเพิ่มเติม</p>
     </div>
     <div class="vote-label">
       <p class="typo-b4">
@@ -27,7 +24,7 @@
       <AnswerChoice text="ไม่เห็นด้วย" choice_id="disprove" />
       <AnswerChoice text="งดออกเสียง" choice_id="abstained" />
     </div>
-    <div class="next-btn">
+    <div class="next-btn" @click="nextQuiz">
       <div class="arrow">
         <img :src="arrow" alt="arrow" />
       </div>
@@ -37,6 +34,20 @@
 
 <script>
 export default {
+  props: {
+    no: {
+      type: Number,
+      default: 0,
+    },
+    data: {
+      type: Object,
+      default: {},
+    },
+    nextQuiz: {
+      type: Function,
+      default: () => {},
+    },
+  },
   data() {
     return {
       arrow: require('~/assets/images/icons/arrow.svg'),
@@ -57,6 +68,9 @@ export default {
   .no {
     margin-bottom: 5px;
   }
+  .title {
+    margin-bottom: 3px;
+  }
 }
 .detail-box {
   background: var(--color-gray-1);
@@ -65,6 +79,10 @@ export default {
   text-align: left;
   .detail {
     margin: 2px 0;
+  }
+  .view-full {
+    color: var(--color-gray-3);
+    padding-top: 2px;
   }
 }
 .vote-label {
