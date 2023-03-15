@@ -1,22 +1,30 @@
 {
-	"name": "vite-template-solid",
+	"name": "@thailand-election-2023/components",
 	"version": "0.0.0",
-	"description": "",
+	"description": "Shared web-component elements",
+	"type": "module",
+	"main": "dist/components/index.js",
+	"types": "src/module.d.ts",
 	"scripts": {
-		"dev": "vite",
-		"build": "vite build",
-		"serve": "vite preview"
+		"dev": "concurrently \"vite build --watch\" \"postcss src/index.css --verbose -o dist/index.css --watch\"",
+		"preview": "vite",
+		"build": "vite build && postcss src/index.css --verbose -o dist/index.css --env production"
 	},
 	"license": "MIT",
+	"dependencies": {
+		"@thailand-election-2023/styles": "*",
+		"solid-element": "^1.6.4",
+		"solid-js": "^1.6.10"
+	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.13",
+		"concurrently": "^7.6.0",
+		"cssnano": "^5.1.15",
 		"postcss": "^8.4.21",
+		"postcss-cli": "^10.1.0",
 		"tailwindcss": "^3.2.4",
 		"typescript": "^4.9.5",
 		"vite": "^4.1.1",
 		"vite-plugin-solid": "^2.5.0"
-	},
-	"dependencies": {
-		"solid-js": "^1.6.10"
 	}
 }

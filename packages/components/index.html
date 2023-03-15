@@ -3,13 +3,20 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="theme-color" content="#000000" />
-		<title>Solid App</title>
+
+		<title>@thailand-election-2022/components</title>
 	</head>
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
-		<div id="root"></div>
 
-		<script src="/src/index.tsx" type="module"></script>
+		<div>
+			<election-footer />
+		</div>
+
+		<script type="module">
+			import '@thailand-election-2023/styles/dist/index.css';
+			import '/src/index.css';
+		</script>
+		<script src="/src/index.ts" type="module"></script>
 	</body>
 </html>
