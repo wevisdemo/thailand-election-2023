@@ -1,12 +1,12 @@
 <template>
   <div class="page-container">
     <div v-if="active_quiz_no === 0">
-      <div class="cover-container">
+      <div class="cover-section">
         <p class="typo-h7 title">They Work for You?</p>
         <p class="typo-h2 head">
           <b>
             ส.ส. เขตบ้าน <br />
-            ใจตรงกับคุณแค่ไหน?
+            ทำงานตรงกับใจคุณแค่ไหน
           </b>
         </p>
         <div class="img-wrap">
@@ -142,17 +142,13 @@ export default {
     width: 90vw;
   }
 }
-.cover-container {
-  min-height: 100vh;
+.cover-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 90px 0 20px;
-  @include tablet {
-    padding: 80px 0px 0px;
-    min-height: unset;
-    justify-content: flex-start;
+  padding: 100px 0 20px;
+  @include mobile {
+    padding: 90px 0px 0px;
   }
   .title {
     margin-bottom: 5px;
