@@ -1,5 +1,5 @@
 <template>
-  <div v-if="countdown_timer > 0" class="star-label">
+  <div v-if="show_star_label" class="star-label">
     <img :src="star_label" alt="star label" />
     <div class="countdown-numbers-wrap">
       <p class="typo-b7"><b>เหลืออีก</b></p>
@@ -18,67 +18,48 @@ export default {
   data() {
     return {
       star_label: require('~/assets/images/star_label.svg'),
+      show_star_label: true,
       countdown_timer: 0,
       countdown_unit: 'วัน',
     }
   },
   mounted() {
-    this.setRealtime()
+    this.getCountdownTimer()
+    this.getInterval()
   },
   methods: {
-    setRealtime() {
-      const current_date = dayjs().format('YYYY-MM-DD')
-      const election_date = '2023-05-07'
-      const election_time = '00:00'
-      const diff_day = dayjs(election_date).diff(dayjs(current_date), 'day')
-
-      this.countdown_timer = diff_day
-      this.countdown_unit = 'วัน'
-      if (diff_day === 0) {
-        const diff_time = this.getInterval(
-          dayjs().format('HH:mm'),
-          election_time
-        )
-        function RemoveLeadingZero(value) {
-          return value.charAt(0) === '0' ? parseInt(value.slice(1)) : value
-        }
-        this.countdown_timer =
-          diff_time.split(':')[0] === '00'
-            ? RemoveLeadingZero(diff_time.split(':')[1])
-            : RemoveLeadingZero(diff_time.split(':')[0])
-        this.countdown_unit =
-          diff_time.split(':')[0] === '00' ? 'นาที' : 'ชั่วโมง'
-
-        setInterval(() => {
-          const diff_realtime = this.getInterval(
-            dayjs().format('HH:mm'),
-            election_time
-          )
-          this.countdown_timer =
-            diff_realtime.split(':')[0] === '00'
-              ? RemoveLeadingZero(diff_realtime.split(':')[1])
-              : RemoveLeadingZero(diff_realtime.split(':')[0])
-          this.countdown_unit =
-            diff_realtime.split(':')[0] === '00' ? 'นาที' : 'ชั่วโมง'
-        }, 1000 * 60)
-      }
+    getInterval() {
+      setInterval(() => {
+        this.getCountdownTimer()
+      }, 1000)
     },
-    getInterval(from, to) {
-      function formatInterval(minutes) {
-        let interval = [
-          Math.floor(minutes / 60).toString(),
-          (minutes % 60).toString(),
-        ]
-        return interval[0].padStart(2, '0') + ':' + interval[1].padStart(2, '0')
+    getCountdownTimer() {
+      const election_day = dayjs('2023-05-07 08:00:00')
+      const current_time = dayjs(dayjs().format('YYYY-MM-DD HH:mm:s'))
+
+      let seconds = election_day.diff(current_time, 'second')
+      let minutes = Math.floor(seconds / 60)
+      let hours = Math.floor(minutes / 60)
+      const days = Math.floor(hours / 24)
+
+      this.countdown_timer = days
+      this.countdown_unit = 'วัน'
+
+      if (days <= 0) {
+        this.countdown_timer = hours
+        this.countdown_unit = 'ชั่วโมง'
+        if (hours <= 0) {
+          this.countdown_timer = minutes
+          this.countdown_unit = 'นาที'
+          if (minutes <= 0) {
+            this.countdown_timer = seconds
+            this.countdown_unit = 'วินาที'
+            if (seconds <= 0) {
+              this.show_star_label = false
+            }
+          }
+        }
       }
-
-      let [hoursA, minutesA] = from.split(':')
-      let [hoursB, minutesB] = to.split(':')
-      let timeA = dayjs().hour(hoursA).minute(minutesA)
-      let timeB = dayjs().hour(hoursB).minute(minutesB)
-      let interval = timeB.diff(timeA, 'minutes')
-
-      return formatInterval(interval)
     },
   },
 }
