@@ -1,3 +1,23 @@
 .footer {
-	@apply text-center py-20;
+	@apply flex flex-row px-4 py-3 md:px-6 md:py-5 bg-gray-1;
+}
+
+.footer svg {
+	@apply fill-black;
+}
+
+.footer__logo {
+	@apply flex-1 flex items-center;
+}
+
+.footer__logo svg {
+	@apply h-4 md:h-6;
+}
+
+.footer__follow {
+	@apply flex flex-row items-center md:space-x-2;
+}
+
+.footer__follow a {
+	@apply flex items-center;
 }
