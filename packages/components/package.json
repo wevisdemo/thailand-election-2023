@@ -12,6 +12,7 @@
 	},
 	"license": "MIT",
 	"dependencies": {
+		"@thailand-election-2023/metadata": "*",
 		"@thailand-election-2023/styles": "*",
 		"solid-element": "^1.6.4",
 		"solid-js": "^1.6.10"
