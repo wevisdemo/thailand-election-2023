@@ -1,34 +1,37 @@
-## Usage
+# @thailand-election-2023/components
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+Shared web-component elements, using [SolidJS](https://www.solidjs.com/) and [solid-element](https://github.com/solidjs/solid/tree/main/packages/solid-element).
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+## Set up
 
-```bash
-$ npm install # or pnpm install or yarn install
+Add this package to the dependencies in the app's `package.json`
+
+```json
+{
+	"dependencies": {
+		"@thailand-election-2023/components": "*"
+	}
+}
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+Dynamic import once on client-side JavaScript such as
 
-## Available Scripts
+- React's `useEffect`, Svelte's `onMount`, or Vue's `mount` in layout file
+- Nuxt client plugin (Need to test)
 
-In the project directory, you can run:
+```js
+// Client-side Javascript
+useEffect() {
+  import('@thailand-election-2023/components')
+};
+```
 
-### `npm dev` or `npm start`
+## Usage
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Just use as a HTML element. None of them require props.
 
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+```html
+<election-header></election-header>
+<election-bottom></election-bottom>
+<election-footer></election-footer>
+```
