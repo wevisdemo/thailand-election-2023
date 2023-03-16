@@ -7,12 +7,18 @@
       </p>
       <p class="typo-b6">ชื่อเต็ม : {{ data.LegalTitle }}</p>
     </div>
-    <div class="detail-box">
+    <div
+      class="description-box"
+      @click="collapsed = !collapsed"
+      :class="collapsed ? 'collapsed' : 'expanded'"
+    >
       <p class="typo-b7"><b>รายละเอียด</b></p>
-      <p class="detail typo-b5">
+      <p class="description typo-b5">
         {{ data.DescriptionTh }}
       </p>
-      <p class="typo-b7 view-full">+ อ่านเพิ่มเติม</p>
+      <p class="typo-b7 view-full">
+        {{ collapsed ? '+ อ่านเพิ่มเติม' : '- ปิดรายละเอียด' }}
+      </p>
     </div>
     <div class="vote-label">
       <p class="typo-b4">
@@ -67,11 +73,13 @@ export default {
         { label: 'งดออกเสียง', value: 'abstained' },
       ],
       answer_selected: '',
+      collapsed: true,
     }
   },
   watch: {
     no() {
       this.answer_selected = ''
+      this.collapsed = true
     },
   },
   methods: {
@@ -96,19 +104,41 @@ export default {
   padding: 60px 0 40px;
 }
 .header {
-  .no {
+  .no,
+  .title {
     margin-bottom: 5px;
   }
-  .title {
-    margin-bottom: 3px;
-  }
 }
-.detail-box {
+.description-box {
   background: var(--color-gray-1);
   padding: 10px;
   margin: 20px 0;
   text-align: left;
-  .detail {
+  transition: 0.5s;
+  cursor: pointer;
+  overflow: hidden;
+  @include mobile {
+    max-height: 108px;
+  }
+  &.expanded {
+    max-height: 800px;
+    .description {
+      display: unset;
+      -webkit-line-clamp: unset;
+      -webkit-box-orient: unset;
+      overflow: auto;
+    }
+  }
+  &.collapsed {
+    max-height: 108px;
+    .description {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+  .description {
     margin: 2px 0;
   }
   .view-full {

@@ -11,3 +11,7 @@ img {
   height: 100%;
   display: block;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

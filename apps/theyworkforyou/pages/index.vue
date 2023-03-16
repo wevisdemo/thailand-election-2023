@@ -153,7 +153,7 @@ export default {
 
 <style lang="scss" scoped>
 .page-container {
-  max-width: 650px;
+  max-width: 655px;
   margin: 0 auto;
   @include tablet {
     width: 80vw;
@@ -241,7 +241,7 @@ export default {
   background: var(--color-highlight-1);
   border: 3px solid var(--color-black);
   border-radius: 10px;
-  width: 650px;
+  width: 655px;
   @include mobile {
     width: 288px;
   }
