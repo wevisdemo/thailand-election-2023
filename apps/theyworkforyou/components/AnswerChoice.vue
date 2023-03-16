@@ -1,7 +1,9 @@
 <template>
-  <div class="choice-btn">
+  <div class="choice-btn" @mouseover="mouseOver" @mouseout="mouseOut">
     <div class="vote-icon">
-      <img :src="getVoteIcon" :alt="choice_id" />
+      <IconsApprove v-if="choice_id === 'approve'" :hover="hover" />
+      <IconsDisprove v-if="choice_id === 'disprove'" :hover="hover" />
+      <IconsAbstained v-if="choice_id === 'abstained'" :hover="hover" />
     </div>
     <p class="typo-b4">
       <b>{{ text }}</b>
@@ -21,9 +23,17 @@ export default {
       default: '',
     },
   },
-  computed: {
-    getVoteIcon() {
-      return require(`~/assets/images/icons/${this.choice_id}.svg`)
+  data() {
+    return {
+      hover: false,
+    }
+  },
+  methods: {
+    mouseOver() {
+      this.hover = true
+    },
+    mouseOut() {
+      this.hover = false
     },
   },
 }
@@ -38,6 +48,10 @@ export default {
   border: 3px solid var(--color-black);
   border-radius: 30px;
   cursor: pointer;
+  &:hover {
+    color: var(--color-highlight-2);
+    border-color: var(--color-highlight-2);
+  }
 }
 .vote-icon {
   width: 20px;
