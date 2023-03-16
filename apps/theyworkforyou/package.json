@@ -13,13 +13,14 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/style-resources": "^1.2.1",
-    "@thailand-election-2023/styles": "*",
     "@thailand-election-2023/database": "*",
+    "@thailand-election-2023/styles": "*",
     "core-js": "^3.25.3",
     "element-ui": "^2.15.10",
     "node-sass": "^8.0.0",
     "nuxt": "^2.15.8",
     "sass-loader": "^10.1.1",
+    "smoothscroll-polyfill": "^0.4.4",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"

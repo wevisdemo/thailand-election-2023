@@ -24,7 +24,7 @@
           </p>
         </div>
       </div>
-      <div class="search-section">
+      <div class="search-section" id="mp-card">
         <p class="typo-b4 question">
           <b> ก่อนอื่น คุณอยู่เขต/อำเภออะไร </b>
         </p>
@@ -37,6 +37,7 @@
               :reserve-keyword="false"
               placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
               popper-class="search-box"
+              @change="updateFilter"
             >
               <el-option
                 v-for="(item, index) in options"
@@ -115,6 +116,16 @@ export default {
     },
   },
   methods: {
+    updateFilter() {
+      const element = document.getElementById('mp-card')
+      setTimeout(() => {
+        element.scrollIntoView({
+          behavior: 'smooth',
+          block: 'end',
+          inline: 'end',
+        })
+      }, 0)
+    },
     start() {
       this.scrollToTop()
       this.active_quiz_no = 1
