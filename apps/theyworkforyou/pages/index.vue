@@ -40,7 +40,7 @@
               @change="updateFilter"
             >
               <el-option
-                v-for="(item, index) in options"
+                v-for="(item, index) in locations"
                 :key="item.value"
                 :label="item.label"
                 :value="item.value"
@@ -79,6 +79,7 @@
 
 <script>
 import { TheyWorkForUs } from '@thailand-election-2023/database'
+import location_data from '~/static/data/locations.json'
 
 export default {
   data() {
@@ -86,27 +87,10 @@ export default {
       two_people: require('~/assets/images/two_people.png'),
       search_icon: require('~/assets/images/icons/search.svg'),
       value: '',
-      options: [
-        {
-          label: 'อ. เมืองสมุทรปราการ, จ. สมุทรปราการ',
-          value: 'สมุทรปราการ เมืองสมุทรปราการ',
-        },
-        {
-          label: 'อ.ปลายพระยา จ.กระบี่',
-          value: 'กระบี่ ปลายพระยา',
-        },
-        {
-          label: 'อ.อ่าวลึก จ.กระบี่',
-          value: 'กระบี่ อ่าวลึก',
-        },
-        {
-          label: 'อ.เขาพนม จ.กระบี่',
-          value: 'กระบี่ เขาพนม',
-        },
-      ],
       vote_log: [],
       active_quiz_no: 0,
       answer_log: [],
+      locations: [],
     }
   },
   async mounted() {
@@ -115,6 +99,7 @@ export default {
     this.vote_log = vote_log.filter((element) =>
       vote_id_selected.includes(element.Id)
     )
+    this.locations = location_data
   },
   computed: {
     getVoteLog() {
