@@ -20,9 +20,15 @@
       </p>
     </div>
     <div class="choices-wrap">
-      <AnswerChoice text="เห็นด้วย" choice_id="approve" />
-      <AnswerChoice text="ไม่เห็นด้วย" choice_id="disprove" />
-      <AnswerChoice text="งดออกเสียง" choice_id="abstained" />
+      <AnswerChoice
+        v-for="answer in answers"
+        :key="answer.value"
+        :text="answer.label"
+        :choice_id="answer.value"
+        :answer_selected="answer_selected"
+        @click.native="selectAnswer(answer.label)"
+        :style="{ 'pointer-events': answer_selected === '' ? 'auto' : 'none' }"
+      />
     </div>
     <div class="next-btn" @click="nextQuiz">
       <div class="arrow">
@@ -47,11 +53,36 @@ export default {
       type: Function,
       default: () => {},
     },
+    saveAnswer: {
+      type: Function,
+      default: () => {},
+    },
   },
   data() {
     return {
       arrow: require('~/assets/images/icons/arrow.svg'),
+      answers: [
+        { label: 'เห็นด้วย', value: 'approve' },
+        { label: 'ไม่เห็นด้วย', value: 'disprove' },
+        { label: 'งดออกเสียง', value: 'abstained' },
+      ],
+      answer_selected: '',
     }
+  },
+  watch: {
+    no() {
+      this.answer_selected = ''
+    },
+  },
+  methods: {
+    selectAnswer(answer) {
+      this.answer_selected = answer
+      this.saveAnswer({
+        no: this.no,
+        your_answer: answer,
+        mp_answer: 'เห็นด้วย',
+      })
+    },
   },
 }
 </script>

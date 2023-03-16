@@ -64,7 +64,12 @@
       </div>
     </div>
     <div v-else-if="active_quiz_no <= 10">
-      <Quiz :no="active_quiz_no" :data="getVoteLog" :nextQuiz="nextQuiz" />
+      <Quiz
+        :no="active_quiz_no"
+        :data="getVoteLog"
+        :nextQuiz="nextQuiz"
+        :saveAnswer="saveAnswer"
+      />
     </div>
     <div v-else>
       <QuizResult />
@@ -99,20 +104,21 @@ export default {
           value: 'กระบี่ เขาพนม',
         },
       ],
-      vote_logs: [],
+      vote_log: [],
       active_quiz_no: 0,
+      answer_log: [],
     }
   },
   async mounted() {
     const vote_id_selected = [45, 54, 88, 137, 168, 184, 185, 186, 221, 262]
     const vote_log = await TheyWorkForUs.VoteLog.fetchAll()
-    this.vote_logs = vote_log.filter((element) =>
+    this.vote_log = vote_log.filter((element) =>
       vote_id_selected.includes(element.Id)
     )
   },
   computed: {
     getVoteLog() {
-      return this.vote_logs[this.active_quiz_no - 1]
+      return this.vote_log[this.active_quiz_no - 1]
     },
   },
   methods: {
@@ -137,6 +143,9 @@ export default {
     scrollToTop() {
       document.body.scrollTop = 0
       document.documentElement.scrollTop = 0
+    },
+    saveAnswer(value) {
+      this.answer_log.push(value)
     },
   },
 }
