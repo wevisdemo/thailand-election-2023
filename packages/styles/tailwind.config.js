@@ -9,6 +9,7 @@ module.exports = {
 				'gray-1': 'var(--color-gray-1)',
 				'gray-2': 'var(--color-gray-2)',
 				'gray-3': 'var(--color-gray-3)',
+				'gray-4': 'var(--color-gray-4)',
 				'highlight-1': 'var(--color-highlight-1)',
 				'highlight-2': 'var(--color-highlight-2)',
 				'highlight-3': 'var(--color-highlight-3)',
