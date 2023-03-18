@@ -1,12 +1,12 @@
 import React from 'react';
-import { ArrowsType1 } from '@/components/Arrows';
+import { ArrowsType1, ArrowsType2, ArrowsType3 } from '@/components/Arrows';
 import CircleWrapper from '@/components/Home/CircleWrapper';
 import SquareWrapper from '@/components/Home/SquareWrapper';
 
 const home = () => {
 	return (
 		<div className="py-12 text-center ">
-			<div className="typo-b4 max-w-[242px] md:max-w-[650px] mx-auto flex flex-col items-center">
+			<div className="typo-b4 px-5 md:px-0  md:max-w-[650px] mx-auto flex flex-col items-center">
 				<p>
 					เมื่อฤดูกาลการเลือกตั้งมาถึง ทุกพรรคก็จะเริ่มออกมาหาเสียง
 					ออกมาขายนโยบายต่าง ๆ ของตัวเอง
@@ -21,11 +21,14 @@ const home = () => {
 				</p>
 				<ArrowsType1 styles=" my-9" />
 				<p>หลังเลือกตั้ง ถ้าพรรคที่คุณเลือกเป็น...</p>
-				<div className="flex mt-4">
-					<CircleWrapper
-						title="ฝ่าย<br/>รัฐบาล"
-						styles="bg-highlight-2 mx-[16px] "
-					/>
+				<div className="flex mt-4 ">
+					<div className="border-r-[3px] border-gray-3 border-dashed">
+						<CircleWrapper
+							title="ฝ่าย<br/>รัฐบาล"
+							styles="bg-highlight-2 mx-[16px] "
+						/>
+					</div>
+
 					<CircleWrapper
 						title="ฝ่ายค้าน/<br/>อิสระ"
 						styles="bg-highlight-3 mx-[16px] "
@@ -41,20 +44,23 @@ const home = () => {
 						ตั้ง ครม. และฝ่ายบริหารมาบริหารประเทศ ดูแลกระทรวงต่างๆ
 					</p>
 				</SquareWrapper>
+				<ArrowsType2 />
 				<SquareWrapper bgColor="bg-highlight-2" borderType="border-dashed">
 					<p className=" typo-b4">
 						จากนั้นฝ่ายบริหาร หยิบนโยบายที่เคยขาย มาแต่งตัว แปลงร่างให้เป็น...
 					</p>
 				</SquareWrapper>
-				<div className="flex space-x-[24px] w-full">
-					<div className="flex-1 ">
+				<ArrowsType3 />
+				<div className="flex space-x-[24px] w-full  border-b-[3px] border-gray-3 border-dashed pb-8">
+					<div className="flex flex-col items-center flex-1">
 						<SquareWrapper bgColor="bg-highlight-2" borderType="border-dashed">
 							<p className="font-bold typo-b4">กฎหมาย</p>
 						</SquareWrapper>
-						<ul className="mt-4 list-disc list-inside ">
+						<ul className="my-4 list-disc list-inside ">
 							<li>ไม่เคยมีกฎหมายเกี่ยวกับเรื่องนี้</li>
 							<li>จะทำเรื่องนี้ได้ต้องแก้กฎหมาย</li>
 						</ul>
+						<ArrowsType2 />
 						<SquareWrapper
 							bgColor="bg-highlight-2"
 							borderType="border-dashed"
@@ -67,6 +73,7 @@ const home = () => {
 								<li>ลงมติเห็นชอบ</li>
 							</ul>
 						</SquareWrapper>
+						<ArrowsType2 />
 						<SquareWrapper
 							bgColor="bg-highlight-2"
 							borderType="border-dashed"
@@ -79,27 +86,32 @@ const home = () => {
 								<li>ลงมติเห็นชอบ</li>
 							</ul>
 						</SquareWrapper>
+						<ArrowsType2 />
 						<SquareWrapper bgColor="bg-highlight-2" borderType="border-dashed">
 							<p className="font-bold typo-b4">
 								เสนอกฎหมาย ให้ผ่านศาลรัฐธรรมนูญ
 							</p>
 						</SquareWrapper>
+						<ArrowsType2 />
 						<SquareWrapper bgColor="bg-highlight-2" borderType="border-dashed">
 							<p className="font-bold typo-b4">กษัตริย์ลงปรมาภิไธย</p>
 						</SquareWrapper>
+						<ArrowsType2 />
 						<SquareWrapper bgColor="bg-highlight-2" borderType="border-dashed">
 							<p className="font-bold typo-b4">กลายเป็นกฎหมาย</p>
 						</SquareWrapper>
+						<ArrowsType2 />
 						<SquareWrapper bgColor="bg-black" styles=" text-highlight-2">
 							<p className="font-bold typo-b4">ทำได้จริง!</p>
 						</SquareWrapper>
 					</div>
-					<div className="flex-1 ">
+					<div className="flex flex-col items-center flex-1 ">
 						<SquareWrapper bgColor="bg-highlight-2" borderType="border-dashed">
 							<p className="font-bold typo-b4">
 								กฎกระทรวง ระเบียบข้อบังคับต่างๆ
 							</p>
 						</SquareWrapper>
+						<ArrowsType2 />
 						<SquareWrapper bgColor="bg-black" styles=" text-highlight-2">
 							<p className="font-bold typo-b4 ">
 								ฝ่ายบริหารและครม. ประชุมกันแล้วบังคับใช้ใน ราชการได้เลย
@@ -107,7 +119,11 @@ const home = () => {
 						</SquareWrapper>
 					</div>
 				</div>
-				<SquareWrapper bgColor="bg-highlight-3" borderType="border-dashed">
+				<SquareWrapper
+					bgColor="bg-highlight-3"
+					borderType="border-dashed"
+					styles="mt-8"
+				>
 					<p className="font-bold typo-b4 ">
 						พรรคฝ่ายค้าน หรือพรรคอิสระ ยังมีโอกาสผลักดันนโยบายมั้ย?
 					</p>
@@ -120,6 +136,7 @@ const home = () => {
 						ความยากก็คือ อาจจะโดนตีตกง่าย ๆ เพราะมี ส.ส.หรือส.ว. โหวตให้ไม่พอ
 					</p>
 				</SquareWrapper>
+				<ArrowsType2 />
 				<SquareWrapper bgColor="bg-black" styles=" text-highlight-3 text-start">
 					<p className="font-bold typo-b4 ">
 						หน้าที่หลักของฝ่ายค้านคือ การติดตาม ตรวจสอบ
