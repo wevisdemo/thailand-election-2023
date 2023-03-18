@@ -55,7 +55,7 @@ export default {
     routes: [
       {
       name: 'province-electorate',
-      path: '/yourcandidates/:province?/:electortate?',
+      path: '/yourcandidates/:province/:electortate',
       component: 'pages/_province/_electortate/.vue'
       }
     ]

@@ -21,7 +21,8 @@
     "fuzzysort": "^2.0.4",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "vue-template-compiler": "^2.7.10",
+    "@thailand-election-2023/database": "*"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.4.1",

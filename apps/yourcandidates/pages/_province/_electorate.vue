@@ -1,23 +1,22 @@
 <template>
     <div>
-
-        <div v-show="openPopup" class="popup flex flex-row justify-center items-center absolute scrollbar-hid">
-            <div class="relative w-4/5 h-4/5 max-w-650 overflow-y-scroll rounded-xl scrollbar-hide">
-                <button class="absolute right-4 top-2" @click="closePopup()"> <IconsClose/> </button>
-                <div>
-                    <VoteInstruction />
+        <div v-show="openPopup" class="popup flex flex-col justify-center items-center relative scrollbar-hid">
+            <div class="relative w-4/5 h-4/5 max-w-650 overflow-y-scroll scrollbar-hide" style="border-radius: 10px;">
+                <VoteInstruction />
+                <div class="absolute top-4 right-8">
+                    <button class="fixed" @click="closePopup()"> <IconsClose/> </button>
                 </div>
             </div>
         </div>
 
-        <div class="tab-back">
-            <nuxt-link to="/">
-                <span class="icon-arrow"> &#8592 </span>
+        <nuxt-link to="/">
+            <div class="tab-back">
+                <span> <IconsArrow/> </span>
                 <span class="detail" target="_blank"> 
-                    กลับไปหน้าค้นหา 
+                    กลับไปหน้าค้นหา
                 </span>
-            </nuxt-link>
-        </div>
+            </div>
+        </nuxt-link>
         
         <div class="main-container">
             <div class="head-section">
@@ -28,7 +27,7 @@
                     <div class="typo-h7">
                         <b> {{province}} เขตเลือกตั้งที่ {{electorateNumber}} </b>
                     </div>
-                    <div v-for="electorate in electorates" style="padding-left: 8px;">
+                    <div v-for="(electorate, i) in electorates" :key="i" style="padding-left: 8px;">
                         <li>{{electorate}}</li>
                     </div>
                 </div>       
@@ -41,30 +40,80 @@
                     <IconsPlus/>
                 </button>
             </div>
+
+            <!-- tab -->
+            <div class="">
+                <div class="filter">
+
+                </div>
+                <div class="search">
+
+                </div>
+                <div class="candidate-card">
+                    <CandidateCard
+                    v-for="candidate in candidates"
+                    :key="candidate.Number"
+                    :candidate="candidate"
+                    />
+                </div>
+                
+            </div>
+
         </div>
         
     </div>
 </template>
   
 <script>
+import CandidateCard from '~/components/CandidateCard.vue';
+import { TheyWorkForUs } from '@thailand-election-2023/database';
+
 export default {
+    async asyncData({params: {province, electorateNumber}}) {
+        // const candidates = (await TheyWorkForUs.People.fetch()).list;
+        const candidates = [
+            {
+                'number': '1',
+                'imageCandidate' : 'https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg',
+                'imageParty': 'https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg',
+                'name': 'พิรสุต จันทรานุวัฒน์',
+                'partyGroup': 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
+                'party': 'รวมไทยสร้างชาติ',
+                'age': '50',
+                'education': 'ปริญญาตรี',
+                'occupation': 'พนักงานบริษัทเอกชน',
+            },
+            {
+                'number': '1',
+                'imageCandidate' : 'https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg',
+                'imageParty': 'https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg',
+                'name': 'พิรสุต จันทรานุวัฒน์',
+                'partyGroup': 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
+                'party': 'รวมไทยสร้างชาติ',
+                'age': '50',
+                'education': 'ปริญญาตรี',
+                'occupation': 'พนักงานบริษัทเอกชน',
+            }
+        ]
+        return {candidates}
+    },
     data() {
         return {
             province: this.$route.params.province,
             electorateNumber: this.$route.params.electorate,
             electorates: ["เขตบางบอน", "เขตหนองแขม เฉพาะ แขวงหนองแขม"],
-            openPopup: false
-        }
+            openPopup: false,
+        };
     },
-
     methods: {
-        popupVoteInstruction(){
-            this.openPopup = true
+        popupVoteInstruction() {
+            this.openPopup = true;
         },
         closePopup() {
-            this.openPopup = false
+            this.openPopup = false;
         }
-    }
+    },
+    components: { CandidateCard }
 }
 </script>
 
@@ -79,7 +128,6 @@ export default {
     flex: none;
     order: 1;
     flex-grow: 0;
-    z-index: 1;
 }
 
 .tab-back > .detail {
@@ -96,6 +144,7 @@ export default {
     flex: none;
     order: 0;
     flex-grow: 0;
+    padding-bottom: 20px;
 }
 
 .electorate-description {
@@ -144,7 +193,7 @@ export default {
   overflow-x: hidden;
   overflow-y: auto;
   background-color: rgba(0, 0, 0, 0.6);
-  z-index: 0;
+  z-index: 1;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
@@ -154,6 +203,14 @@ export default {
 .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+.candidate-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 10px;
+    z-index: 0;
 }
 
 </style>
