@@ -2,12 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	:root {
+		--color-byx-red: #ff0000;
+		--color-byx-blue: #0000ff;
+		--color-byx-red-70: rgba(255, 0, 0, 0.7);
+		--color-byx-red-40: rgba(255, 0, 0, 0.4);
+	}
+}
+
 .beyondx-gradient-bg {
-	background: linear-gradient(270deg, #FF0000 0%, #0000FF 100%);
+	@apply bg-gradient-to-r from-byx-blue to-byx-red;
 }
 
 .beyonx-text-gradient {
-	background: linear-gradient(270deg, #FF0000 0%, #0000FF 100%);
-	background-clip: text;
+	@apply bg-clip-text bg-gradient-to-r from-byx-blue to-byx-red;
 	color: transparent;
 }

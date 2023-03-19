@@ -5,4 +5,12 @@ module.exports = {
 	corePlugins: {
 		preflight: false,
 	},
+	theme: {
+		extend: {
+			colors: {
+				'byx-red': 'var(--color-byx-red)',
+				'byx-blue': 'var(--color-byx-blue)',
+			},
+		},
+	},
 };
