@@ -4,6 +4,7 @@ import Dropdown from '../components/Dropdown';
 import PolicyCard from '@/components/PolicyCard';
 import { imgPrefix } from '@/utils/path';
 import PolicyCardWrapper from '@/components/PolicyCardWrapper';
+import RandomButton from '@/components/RandomButton';
 
 export default function Example() {
 	const mockOptions: IDropdownOption<string>[] = [
@@ -70,6 +71,10 @@ export default function Example() {
 
 	return (
 		<div>
+			<h1>random button</h1>
+			{/* <div className="w-[100px]"> */}
+			<RandomButton onClick={() => {}} />
+			{/* </div> */}
 			<h1>drop down</h1>
 			<div className="w-[500px]">
 				<Dropdown
