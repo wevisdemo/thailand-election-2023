@@ -19,6 +19,29 @@ Dynamic import once on client-side JavaScript such as
 - React's `useEffect`, Svelte's `onMount`, or Vue's `mount` in layout file
 - Nuxt client plugin (Need to test)
 
+### For Vue and Nuxt
+
+Vue will throw a warning because the component is not recognize by Vue. This can be fix by ignore the element start with `-election`.
+
+For Nuxt 2, add the following config in `nuxt.config.js`:
+
+```js
+export default {
+	// existing config...
+	vue: {
+		config: {
+			ignoredElements: [/election-\w*/];
+		}
+	}
+}
+```
+
+For Vue 2:
+
+```js
+Vue.config.ignoredElements = [/election-\w*/];
+```
+
 ```js
 // Client-side Javascript
 useEffect() {
