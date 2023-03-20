@@ -50,7 +50,7 @@ const Bottom: Component = () => {
 
 			<p class="typo-b3">#WeVisElection66</p>
 
-			<a class={`${css.bottom__back_button} typo-b6`} href="/">
+			<a class="button-rounded--gray" href="/">
 				กลับไปหน้าแรก
 			</a>
 		</div>

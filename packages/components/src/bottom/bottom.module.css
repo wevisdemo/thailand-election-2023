@@ -13,7 +13,3 @@
 .bottom p {
 	@apply font-bold;
 }
-
-.bottom__back_button {
-	@apply border-[3px] border-gray-2 hover:border-highlight-2 rounded-full py-2 px-6 font-bold;
-}
