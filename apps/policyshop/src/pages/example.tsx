@@ -1,10 +1,16 @@
-import { IDropdownOption, IPolicyCard } from '@/types/components';
+import {
+	IDropdownOption,
+	IPolicyCard,
+	IPolicyCategory,
+} from '@/types/components';
 import { useState } from 'react';
 import Dropdown from '../components/Dropdown';
 import PolicyCard from '@/components/PolicyCard';
 import { imgPrefix } from '@/utils/path';
 import PolicyCardWrapper from '@/components/PolicyCardWrapper';
 import RandomButton from '@/components/RandomButton';
+import PolicyCategoryCount from '@/components/PolicyCategoryCount';
+import PolicyCategoryCountWrapper from '@/components/PolicyCategoryCountWrapper';
 
 export default function Example() {
 	const mockOptions: IDropdownOption<string>[] = [
@@ -66,15 +72,23 @@ export default function Example() {
 		},
 	];
 
+	const mockPolicyCategories: IPolicyCategory[] = [
+		{ category: 'คุณภาพชีวิต', count: 99, percent: 40, color: 'black' },
+		{ category: 'ความมั่นคง', count: 99, percent: 40, color: 'red' },
+		{ category: 'ต่างประเทศ', count: 49, percent: 20, color: 'yellow' },
+	];
+
 	const [currentOption, setCurrentOption] =
 		useState<IDropdownOption<string> | null>(null);
 
 	return (
 		<div>
 			<h1>random button</h1>
-			{/* <div className="w-[100px]"> */}
 			<RandomButton onClick={() => {}} />
-			{/* </div> */}
+			<h1>random button</h1>
+			<div className="w-[500px]">
+				<PolicyCategoryCountWrapper categories={mockPolicyCategories} />
+			</div>
 			<h1>drop down</h1>
 			<div className="w-[500px]">
 				<Dropdown

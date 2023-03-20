@@ -9,7 +9,14 @@ module.exports = {
 		'./src/components/**/*.{js,ts,jsx,tsx}',
 	],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				kondolar: '"Kondolar Thai"',
+				heading:
+					'"Kondolar Thai", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
+				body: '"IBM Plex Sans Thai Looped", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+			},
+		},
 	},
 	plugins: [],
 };

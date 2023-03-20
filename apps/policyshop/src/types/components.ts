@@ -21,3 +21,10 @@ export interface CircleTopicWrapper {
 	topicName: string;
 	totalTopic: number;
 }
+
+export interface IPolicyCategory {
+	category: string;
+	count: number;
+	percent: number;
+	color: string;
+}
