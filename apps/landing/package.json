@@ -16,6 +16,7 @@
     "@thailand-election-2023/metadata": "*",
     "@thailand-election-2023/styles": "*",
     "@thailand-election-2023/wordpress": "*",
+    "@thailand-election-2023/components": "*",
     "core-js": "^3.25.3",
     "dayjs": "^1.11.7",
     "element-ui": "^2.15.10",

@@ -1,5 +1,6 @@
 <template>
   <div class="main-container">
+    <election-header></election-header>
     <div class="cover-section">
       <div class="container">
         <div class="logo-wrap">
@@ -83,6 +84,7 @@
         </div>
       </div>
     </div>
+    <election-bottom></election-bottom>
     <div class="about-section">
       <div class="container">
         <p class="typo-h5 head">
@@ -107,10 +109,12 @@
         </a>
       </div>
     </div>
+    <election-footer></election-footer>
   </div>
 </template>
 
 <script>
+import('@thailand-election-2023/components')
 import projectMetadata from '@thailand-election-2023/metadata/dist/projects.json'
 import { fetchWeVisElectionPosts } from '@thailand-election-2023/wordpress'
 import { orderBy } from 'lodash'
