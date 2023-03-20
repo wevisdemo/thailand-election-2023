@@ -11,7 +11,7 @@
         </p>
         <div class="img-wrap">
           <div id="landing-lottie" />
-          <StarLabel />
+          <StarLabel :election_day="election_day" />
         </div>
       </div>
     </div>
@@ -115,10 +115,12 @@ import projectMetadata from '@thailand-election-2023/metadata/dist/projects.json
 import { fetchWeVisElectionPosts } from '@thailand-election-2023/wordpress'
 import { orderBy } from 'lodash'
 import lottie from 'lottie-web'
+import dayjs from 'dayjs'
 
 export default {
   data() {
     return {
+      election_day: '2023-05-07 08:00:00',
       logo: require('~/assets/images/wevis_election_66_logo.svg'),
       filter_buttons: [
         'ทั้งหมด',
@@ -132,7 +134,12 @@ export default {
     }
   },
   async mounted() {
-    this.project_data = orderBy(projectMetadata, ['OrderLanuch'])
+    const election_day = dayjs(this.election_day)
+    const current_time = dayjs(dayjs().format('YYYY-MM-DD HH:mm:s'))
+    const diff_days = election_day.diff(current_time, 'day')
+
+    const order_value = diff_days > 10 ? 'OrderLaunch' : 'OrderPre'
+    this.project_data = orderBy(projectMetadata, [order_value])
     this.lastest_three_posts = await fetchWeVisElectionPosts({ limit: 3 })
 
     lottie.loadAnimation({

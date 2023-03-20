@@ -15,6 +15,12 @@
 import dayjs from 'dayjs'
 
 export default {
+  props: {
+    election_day: {
+      type: String,
+      default: '',
+    },
+  },
   data() {
     return {
       star_label: require('~/assets/images/star_label.svg'),
@@ -34,7 +40,7 @@ export default {
       }, 1000)
     },
     getCountdownTimer() {
-      const election_day = dayjs('2023-05-07 08:00:00')
+      const election_day = dayjs(this.election_day)
       const current_time = dayjs(dayjs().format('YYYY-MM-DD HH:mm:s'))
 
       let seconds = election_day.diff(current_time, 'second')
