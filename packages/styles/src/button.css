@@ -1,0 +1,11 @@
+.button-rounded {
+	@apply border-[3px] rounded-full py-2 px-6 font-bold typo-b6;
+}
+
+.button-rounded--black {
+	@apply button-rounded border-black hover:border-highlight-2;
+}
+
+.button-rounded--gray {
+	@apply button-rounded border-gray-2 hover:border-highlight-2;
+}

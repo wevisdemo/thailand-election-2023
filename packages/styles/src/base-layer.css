@@ -13,7 +13,6 @@
 	}
 
 	body {
-		/* typo-b4 */
-		@apply font-body text-[10px] md:text-[18px] leading-[1.5];
+		@apply typo-b4;
 	}
 }

@@ -1,6 +1,10 @@
 @import 'tailwindcss/base';
+
 @import './base-layer.css';
 @import './font-face.css';
 @import './typography.css';
+@import './button.css';
+@import './section-about.css';
+
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';

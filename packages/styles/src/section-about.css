@@ -1,0 +1,23 @@
+.section-about {
+	@apply max-w-2xl px-8 mx-auto;
+}
+
+.section-about h1 {
+	@apply text-center my-16 font-bold typo-h3;
+}
+
+.section-about h2 {
+	@apply mt-14 mb-8 font-bold typo-h5;
+}
+
+.section-about h3 {
+	@apply mt-4 mb-2 font-bold typo-b4;
+}
+
+.section-about ul {
+	@apply list-disc list-inside ml-2;
+}
+
+.section-about a {
+	@apply underline;
+}

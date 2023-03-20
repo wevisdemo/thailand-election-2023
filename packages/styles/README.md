@@ -29,6 +29,8 @@ index.css provides
 - Style reset using [Tailwind preflight](https://tailwindcss.com/docs/preflight)
 - Color CSS variables
 - Typography CSS classes
+- Button CSS classes (black and gray varient)
+- About section CSS classes (Just add section-about class at the container div then follow HTML stucture in the example)
 
 See the example in [doc/index.html](doc/index.html)
 
