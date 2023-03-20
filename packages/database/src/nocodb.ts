@@ -9,9 +9,9 @@ export interface PageInfo {
 	isLastPage: boolean;
 }
 
-export interface PublicViewResponse {
+export interface PublicViewResponse<Row = Record<string, unknown>> {
 	data: {
-		list: Record<string, unknown>[];
+		list: Row[];
 		pageInfo: PageInfo;
 	};
 }
@@ -28,11 +28,11 @@ export type QueryParams = {
 	[key: string]: string | number;
 };
 
-export async function getSharedViewRows(
+export async function getSharedViewRows<Row>(
 	viewId: string,
 	params?: QueryParams
-): Promise<PublicViewResponse['data']> {
-	const { data } = await axios.get<PublicViewResponse>(
+): Promise<PublicViewResponse<Row>['data']> {
+	const { data } = await axios.get<PublicViewResponse<Row>>(
 		`${BASE_URL}/api/v1/db/public/shared-view/${viewId}/rows`,
 		{
 			params,
