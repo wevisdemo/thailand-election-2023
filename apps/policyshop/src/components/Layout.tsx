@@ -9,6 +9,7 @@ interface PropsType {
 
 export default function Layout({ title, children }: PropsType) {
 	useEffect(() => {
+		// @ts-ignore
 		import('@thailand-election-2023/components');
 	});
 	return (
