@@ -1,5 +1,6 @@
 <template>
     <div>
+        <election-header></election-header>
         <div v-show="openPopup" class="popup flex flex-col justify-center items-center relative scrollbar-hid">
             <div class="relative w-4/5 h-4/5 max-w-650 overflow-y-scroll scrollbar-hide" style="border-radius: 10px;">
                 <VoteInstruction />
@@ -9,13 +10,11 @@
             </div>
         </div>
 
-        <nuxt-link to="/">
-            <div class="tab-back">
-                <span> <IconsArrow/> </span>
-                <span class="detail" target="_blank"> 
-                    กลับไปหน้าค้นหา
-                </span>
-            </div>
+        <nuxt-link to="/" class="tab-back">
+            <IconsArrow/>
+            <span class="detail" target="_blank"> 
+                กลับไปหน้าค้นหา
+            </span>
         </nuxt-link>
         
         <div class="main-container">
@@ -35,7 +34,7 @@
                 <button class="vode-instruction-section" @click="popupVoteInstruction()">
                     <div class="detail">
                         <IconsInformation/>
-                        <p><b>รอบนี้มีบัตร 2 ใบนะ รู้ยัง?</b></p> 
+                        <b>รอบนี้มีบัตร 2 ใบนะ รู้ยัง?</b>
                     </div>
                     <IconsPlus/>
                 </button>
@@ -50,23 +49,24 @@
 
                 </div>
                 <div class="candidate-card">
-                    <CandidateCard
+                    <PeopleCard
                     v-for="candidate in candidates"
                     :key="candidate.Number"
                     :candidate="candidate"
                     />
                 </div>
-                
             </div>
-
         </div>
         
+        <election-bottom></election-bottom>
+        <election-footer></election-footer>
     </div>
 </template>
   
 <script>
-import CandidateCard from '~/components/CandidateCard.vue';
+import PeopleCard from '@/components/candidateCard/PeopleCard.vue';
 import { TheyWorkForUs } from '@thailand-election-2023/database';
+import {ElectionHeader, ElectionBottom, ElectionFooter} from '@thailand-election-2023/components';
 
 export default {
     async asyncData({params: {province, electorateNumber}}) {
@@ -74,9 +74,11 @@ export default {
         const candidates = [
             {
                 'number': '1',
-                'imageCandidate' : 'https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg',
-                'imageParty': 'https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg',
+                'imageCandidate' : '',
+                'imageParty': '',
                 'name': 'พิรสุต จันทรานุวัฒน์',
+                'history': 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
+                'numberHistory': '2',
                 'partyGroup': 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
                 'party': 'รวมไทยสร้างชาติ',
                 'age': '50',
@@ -85,8 +87,8 @@ export default {
             },
             {
                 'number': '1',
-                'imageCandidate' : 'https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg',
-                'imageParty': 'https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg',
+                'imageCandidate' : '',
+                'imageParty': '',
                 'name': 'พิรสุต จันทรานุวัฒน์',
                 'partyGroup': 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
                 'party': 'รวมไทยสร้างชาติ',
@@ -105,6 +107,12 @@ export default {
             openPopup: false,
         };
     },
+    components: { 
+        PeopleCard, 
+        ElectionHeader, 
+        ElectionBottom, 
+        ElectionFooter 
+    },
     methods: {
         popupVoteInstruction() {
             this.openPopup = true;
@@ -113,7 +121,6 @@ export default {
             this.openPopup = false;
         }
     },
-    components: { CandidateCard }
 }
 </script>
 
@@ -193,7 +200,7 @@ export default {
   overflow-x: hidden;
   overflow-y: auto;
   background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
+  z-index: 41;
 }
 
 .scrollbar-hide::-webkit-scrollbar {

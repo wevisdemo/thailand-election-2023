@@ -17,8 +17,15 @@
                     <div class="name typo-h5">
                         {{ candidate.name }}
                     </div>
-                    <div class="history">
-                        //////////////
+                    <div v-if="candidate.history" class="inline-block">
+                        <div class="history">
+                                <span class="flex flex-row">
+                                    <CheckMark/> 
+                                    <CheckMark class="pl-0" v-if="candidate.numberHistory == '2'"/>
+                                </span>
+                                {{ candidate.history }}
+                            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -50,14 +57,17 @@
 </template>
 
 <script>
+import CheckMark from '../icons/CheckMark.vue';
+
     export default{
-        props: {
-            candidate: {
-                type: Object,
-                default: {}
-            }
-        },
-    }
+    props: {
+        candidate: {
+            type: Object,
+            default: {}
+        }
+    },
+    components: { CheckMark }
+}
 </script>
 
 <style scoped>
@@ -86,8 +96,6 @@
 }
 
 .card > .detail > .header {
-
-
     display: flex;
     flex-direction: column;
 }
@@ -127,6 +135,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    background: var(--color-gray-2);
 }
 
 .image-party {
@@ -136,8 +145,9 @@
     height: 30px;
     margin-left: 40px;
     margin-top: 20px;
-    border: 1px solid var(--color-white);
+    border: 1px solid var(--color-gray-2);
     border-radius: 50px;
+    background: var(--color-white);
 }
 
 .name {
@@ -148,7 +158,16 @@
 }
 
 .history {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 5px;
+    background: var(--color-highlight-1);
+    gap: 4px;
+    border-radius: 5px;
+    flex: none;
     order: 2;
+    flex-grow: 0;
 }
 
 .table-container {
