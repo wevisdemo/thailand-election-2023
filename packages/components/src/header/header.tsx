@@ -6,7 +6,7 @@ import projectMetadata from '@thailand-election-2023/metadata/dist/projects.json
 import css from './header.module.css';
 
 const projectLinks = projectMetadata
-	.sort((a, z) => a.OrderPre - z.OrderPre)
+	.sort((a, z) => a.EnName.localeCompare(z.EnName))
 	.map((data) => ({
 		...data,
 		isExternal: !data.URL.startsWith('/'),
