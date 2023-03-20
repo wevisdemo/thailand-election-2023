@@ -1,7 +1,4 @@
-import CompareFilter from '@/components/Compare/Filter';
 import Layout from '@/components/Layout';
-import PolicyCardWrapper from '@/components/PolicyCardWrapper';
-import RandomButton from '@/components/RandomButton';
 import TemplatePolicyList from '@/components/Template/PolicyList';
 import { IDropdownOption, IPolicyCard } from '@/types/components';
 import { imgPrefix } from '@/utils/path';
@@ -31,10 +28,6 @@ const mockPolicyCardList: IPolicyCard[] = [
 ];
 
 export default function PolicyListPage() {
-	const [party1, setParty1] = useState<IDropdownOption<string> | null>(null);
-	const [party2, setParty2] = useState<IDropdownOption<string> | null>(null);
-	const [policy1, setPolicy1] = useState<IDropdownOption<string> | null>(null);
-	const [policy2, setPolicy2] = useState<IDropdownOption<string> | null>(null);
 	const [category1, setCategory1] = useState<IDropdownOption<string> | null>(
 		null
 	);
