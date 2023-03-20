@@ -21,7 +21,7 @@
           <b> เตรียมความพร้อม ก่อนไปเลือก </b>
         </p>
         <p class="typo-b4 subhead">
-          เลือกดูโปรเจ็คของ WeVis ที่รวบรวมข้อมูล มาตอบคำถามที่คุณคาใจ
+          เลือกดูโปรเจกต์ของ WeVis ที่รวบรวมข้อมูล มาตอบคำถามที่คุณคาใจ
           ให้พร้อมเลือกตั้ง
         </p>
         <div class="filters-wrap">
@@ -73,7 +73,7 @@
       <div class="container">
         <p class="typo-h5 head"><b>พวกคนมีหวัง ที่มาร่วมสมคบคิด</b></p>
         <p class="typo-b4 subhead">
-          โปรเจคเหล่านี้จะเกิดขึ้นไม่ได้เลย ถ้าขาดกลุ่มคน(ที่ยัง)มีหวัง
+          โปรเจกต์เหล่านี้จะเกิดขึ้นไม่ได้เลย ถ้าขาดกลุ่มคน(ที่ยัง)มีหวัง
           <span class="word">มาร่วม</span>ผลักดันให้เกิดงานเหล่านี้
         </p>
         <div class="logo-partners">
@@ -98,8 +98,8 @@
             <br /><br />
             ทางทีมมีความตั้งใจที่พัฒนาทุกโปรเจ็กต์ให้เป็น Open Source
             และเปิดข้อมูลเป็น Open Data ภายใต้เงื่อนไข Creative Commons
-            Attribution-ShareAlike License โปรดให้เครดิตกับทีม WeVis
-            เพื่อเป็นกำลังใจให้พวกเราสร้างสรรค์งานต่อไป
+            Attribution-NonCommercial License (CC-BY-NC) โปรดให้เครดิตกับทีม
+            WeVis เพื่อเป็นกำลังใจให้พวกเราสร้างสรรค์งานต่อไป
           </p>
         </div>
         <a href="https://wevis.info/" target="_blank" rel="noopener noreferrer">
