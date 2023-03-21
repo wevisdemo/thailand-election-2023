@@ -8,7 +8,7 @@ import ByParty from '@/components/Landing/ByParty';
 import { TheyWorkForUs } from '@thailand-election-2023/database';
 import { Party } from '@thailand-election-2023/database/src/models/party';
 
-export default function Home() {
+export default function Landing() {
 	const [hotParties, setHotParties] = useState<Party[]>();
 
 	const fetchData = async (): Promise<void> => {
