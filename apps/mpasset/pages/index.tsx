@@ -1,18 +1,9 @@
-import TestBTN from '../components/TestBTN';
-import TestStyle from '../components/TestStyle';
-
 import dynamic from 'next/dynamic';
-import { usePathname, useRouter } from 'next/navigation';
-import Section1 from '../components/section1';
-import Section2 from '../components/section2';
-import Section3 from '../components/section3';
-import { Close, List, Question, Search, Share, Shuffle } from '../components/util/icon-main';
-
-const PartyTree = dynamic(() => import('../components/PartyTree'))
+const Section1 = dynamic(() => import('../components/section1'));
+const Section2 = dynamic(() => import('../components/section2'));
+const Section3 = dynamic(() => import('../components/section3'));
 
 export default function Home() {
-  const router = useRouter();
-  const pathname = usePathname();
   return (
     <div className='bg-white text-black'>
       <div className='h-header snap-mandatory overflow-scroll snap-always scroll-smooth snap-y'>
@@ -20,16 +11,12 @@ export default function Home() {
         <div className='snap-center shrink-0 w-screen h-header'><Section2 /></div>
         <div className='snap-center shrink-0 w-screen h-header'><Section3 /></div>
         <div className='snap-center shrink-0 w-screen h-header'>
-          <election-bottom></election-bottom>
-          <election-footer></election-footer>
+          <div className='flex flex-col justify-end'>
+            <election-bottom></election-bottom>
+            <election-footer></election-footer>
+          </div>
         </div>
       </div>
-
-      {/* <TestNoco /> */}
-      {/* <PartyTree /> */}
-      <TestBTN />
-      <TestStyle />
-
     </div >
   )
 }
