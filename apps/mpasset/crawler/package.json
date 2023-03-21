@@ -1,0 +1,13 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "d3": "^7.8.2"
+  }
+}
