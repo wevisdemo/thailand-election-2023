@@ -14,6 +14,7 @@ Monorepo for Thailand Election 2023 projects using [Turborepo](https://turbo.bui
   - [electionsim](apps/electionsim) - Election simulation
   - [theyworkforyou](apps/theyworkforyou) - Your candidate matching quizes
   - [yourcandidates](apps/yourcandidates) - Look Up Your Candidates
+  - [mpasset](apps/mpasset) - MP asset (Politician-asset)
 
 - **/packages** - Packages shared between apps
 
