@@ -128,7 +128,7 @@ import dayjs from 'dayjs'
 export default {
   data() {
     return {
-      election_day: '2023-05-07 08:00:00',
+      election_day: '2023-05-14 08:00:00',
       logo: require('~/assets/images/wevis_election_66_logo.svg'),
       filter_buttons: [
         'ทั้งหมด',

@@ -14,7 +14,7 @@
       <img :src="black_star_label" alt="black star label" />
       <div class="date-wrap">
         <p class="typo-b7"><b>เลือกตั้ง</b></p>
-        <p class="typo-h6 date"><b>7</b></p>
+        <p class="typo-h6 date"><b>14</b></p>
         <p class="typo-b7 month">
           <b>พ.ค. 66</b>
         </p>
