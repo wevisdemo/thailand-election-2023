@@ -1,12 +1,24 @@
 <template>
-  <div v-if="show_star_label" class="star-label">
-    <img :src="star_label" alt="star label" />
-    <div class="countdown-numbers-wrap">
-      <p class="typo-b7"><b>เหลืออีก</b></p>
-      <p class="number">{{ countdown_timer }}</p>
-      <p class="typo-b6">
-        <b>{{ countdown_unit }}</b>
-      </p>
+  <div v-if="show_star_label" class="star-label-wrap">
+    <div class="countdown-days-label">
+      <img :src="yellow_star_label" alt="yellow star label" />
+      <div class="countdown-numbers-wrap">
+        <p class="typo-b7"><b>เหลืออีก</b></p>
+        <p class="number">{{ countdown_timer }}</p>
+        <p class="typo-b6">
+          <b>{{ countdown_unit }}</b>
+        </p>
+      </div>
+    </div>
+    <div class="election-day-label">
+      <img :src="black_star_label" alt="black star label" />
+      <div class="date-wrap">
+        <p class="typo-b7"><b>เลือกตั้ง</b></p>
+        <p class="typo-h6 date"><b>7</b></p>
+        <p class="typo-b7 month">
+          <b>พ.ค. 66</b>
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -23,7 +35,8 @@ export default {
   },
   data() {
     return {
-      star_label: require('~/assets/images/star_label.svg'),
+      yellow_star_label: require('~/assets/images/yellow_star_label.svg'),
+      black_star_label: require('~/assets/images/black_star_label.svg'),
       show_star_label: true,
       countdown_timer: 0,
       countdown_unit: 'วัน',
@@ -72,15 +85,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.star-label {
+.star-label-wrap {
   position: absolute;
   bottom: 0;
   right: 0;
   width: 128px;
-  transform: rotate(15deg) translate(50%, -50%);
+  transform: rotate(15deg) translate(0%, -80%);
   @include mobile {
-    transform: rotate(15deg) translate(0%, -20%);
+    right: 22px;
+    transform: rotate(15deg) translate(0%, -30%);
   }
+}
+.countdown-days-label {
+  position: relative;
+  z-index: 1;
   .countdown-numbers-wrap {
     position: absolute;
     top: calc(50% + 3px);
@@ -95,5 +113,35 @@ export default {
       transform: translateY(3px);
     }
   }
+}
+.election-day-label {
+  position: absolute;
+  bottom: 10px;
+  right: -18px;
+  transform: translate(50%, 50%);
+  .date-wrap {
+    position: absolute;
+    top: calc(50% + 3px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--color-highlight-3);
+    .date {
+      line-height: 1.2;
+    }
+    .month {
+      transform: translateY(-35%);
+    }
+  }
+}
+
+.typo-b7 {
+  font-size: 12px;
+}
+.typo-b6 {
+  font-size: 14px;
+}
+.typo-h6 {
+  font-size: 32px;
 }
 </style>
