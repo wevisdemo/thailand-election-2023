@@ -78,8 +78,13 @@
           <span class="word">มาร่วม</span>ผลักดันให้เกิดงานเหล่านี้
         </p>
         <div class="logo-partners">
-          <div v-for="logo in 6" :key="`logo-${logo}`" class="logo-wrap">
-            <!-- <img src="" alt=""> -->
+          <div
+            v-for="partner in partners"
+            :key="partner.name"
+            class="logo-wrap"
+            :class="{ multiply: partner.name === 'Beyond X' }"
+          >
+            <img :src="partner.logo" :alt="partner.name" />
           </div>
         </div>
       </div>
@@ -134,6 +139,32 @@ export default {
       active_filter: 'ทั้งหมด',
       project_data: [],
       lastest_three_posts: [],
+      partners: [
+        {
+          name: 'Beyond X',
+          logo: require('~/assets/images/partners/beyondx.png'),
+        },
+        {
+          name: 'Creden.co',
+          logo: require('~/assets/images/partners/creden.png'),
+        },
+        {
+          name: 'WISESIGHT',
+          logo: require('~/assets/images/partners/wisesight.png'),
+        },
+        {
+          name: '101 Public Policy Think Tank',
+          logo: require('~/assets/images/partners/101pub.png'),
+        },
+        {
+          name: 'Hand Social Enterprise',
+          logo: require('~/assets/images/partners/hand.png'),
+        },
+        {
+          name: 'i Law',
+          logo: require('~/assets/images/partners/ilaw.png'),
+        },
+      ],
     }
   },
   async mounted() {
@@ -316,24 +347,25 @@ export default {
   .logo-partners {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 72px 192px;
+    gap: 72px 100px;
     margin: 48px 0 25px;
     @include tablet {
-      gap: 72px 125px;
+      gap: 72px 45px;
     }
     @include mobile {
       grid-template-columns: repeat(1, 1fr);
       margin: 48px 0 40px;
+      gap: 72px 0;
     }
     .logo-wrap {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      mix-blend-mode: multiply;
-      background: var(--color-gray-3);
-      @include mobile {
-        width: 80px;
-        height: 80px;
+      display: flex;
+      align-items: center;
+      width: 232px;
+      &.multiply {
+        mix-blend-mode: multiply;
+      }
+      img {
+        height: unset;
       }
     }
   }
