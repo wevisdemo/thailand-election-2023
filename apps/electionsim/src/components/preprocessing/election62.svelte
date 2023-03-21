@@ -2,6 +2,9 @@
 	import electMap from '../../images/elect-map.png';
 	import compareChart from '../../images/compare-chart.png';
 	import { Content, contentManager } from '../../stores/content';
+
+	let isInfor1Open = false;
+	let isInfor2Open = false;
 </script>
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
@@ -32,21 +35,62 @@
 			ครบทุกเขตเมื่อปี 62?
 		</b>
 	</h7>
-	<span class="flex items-center space-x-2">
-		<h4 class="typo-b4 text-blue underline text-byx-blue">อ่านเพิ่มเติม</h4>
-		<div class="border-1 border-b border-r w-2 h-2 rotate-45 border-byx-blue" />
+	<span
+		class="flex items-center space-x-1 cursor-pointer"
+		on:click={() => {
+			isInfor1Open = !isInfor1Open;
+		}}
+	>
+		{#if isInfor1Open}
+			<h4 class="typo-b4 text-blue underline text-byx-blue">ปิดส่วนนี้</h4>
+			<svg
+				width="16"
+				height="17"
+				viewBox="0 0 16 17"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				class={isInfor1Open ? 'rotate-180' : ''}
+			>
+				<path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M8.32 11.36L3.52 6.55997L4.192 5.88797L8.32 10.016L12.448 5.88797L13.12 6.55997L8.32 11.36Z"
+					fill="#0000FF"
+				/>
+			</svg>
+		{:else}
+			<h4 class="typo-b4 text-blue underline text-byx-blue">อ่านเพิ่มเติม</h4>
+			<svg
+				width="16"
+				height="17"
+				viewBox="0 0 16 17"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M8.32 11.36L3.52 6.55997L4.192 5.88797L8.32 10.016L12.448 5.88797L13.12 6.55997L8.32 11.36Z"
+					fill="#0000FF"
+				/>
+			</svg>
+		{/if}
 	</span>
-	<h4 class="typo-b4 mt-4">
-		ในการเลือกตั้งปี 62 พรรคไทยรักษาชาติ แยกตัวออกมาจากพรรคเพื่อไทย ทำให้
-		<b>พรรคเพื่อไทยส่งผู้สมัครรับเลือกตั้ง ส.ส. เขต เพียง xx เขต จาก 350 เขต</b>
-		<br />
-		<br />
-		เพื่อสร้างแบบจำลองผลเลือกตั้ง 66 ที่แม่นยำขึ้น เราจึงต้องประมาณการผล เลือกตั้ง
-		62 โดย<b>สมมติว่าพรรคเพื่อไทย ส่งผู้สมัคร ครบทุกเขตเลือกตั้ง</b> โดยใช้วิธี ประมาณคะแนนของพรรคเพื่อไทยในเขตที่ไม่ได้ลงสมัครจากเขตเลือกตั้งรอบข้าง
-		ที่มีพรรคเพื่อไทยลงสมัครรับเลือกตั้ง
-	</h4>
+	{#if isInfor1Open}
+		<h4 class="typo-b4 mt-4">
+			ในการเลือกตั้งปี 62 พรรคไทยรักษาชาติ แยกตัวออกมาจากพรรคเพื่อไทย ทำให้
+			<b
+				>พรรคเพื่อไทยส่งผู้สมัครรับเลือกตั้ง ส.ส. เขต เพียง xx เขต จาก 350 เขต</b
+			>
+			<br />
+			<br />
+			เพื่อสร้างแบบจำลองผลเลือกตั้ง 66 ที่แม่นยำขึ้น เราจึงต้องประมาณการผล เลือกตั้ง
+			62 โดย<b>สมมติว่าพรรคเพื่อไทย ส่งผู้สมัคร ครบทุกเขตเลือกตั้ง</b> โดยใช้วิธี
+			ประมาณคะแนนของพรรคเพื่อไทยในเขตที่ไม่ได้ลงสมัครจากเขตเลือกตั้งรอบข้าง ที่มีพรรคเพื่อไทยลงสมัครรับเลือกตั้ง
+		</h4>
+	{/if}
 
-	<hr class="my-4" />
+	<div class="my-4" />
 
 	<h7 class="typo-h7">
 		<b>
@@ -55,32 +99,71 @@
 			<span class="beyonx-text-gradient">เลือกพรรคที่ชอบ</span>
 		</b>
 	</h7>
-	<span class="flex items-center space-x-2">
-		<h4 class="typo-b4 text-blue underline text-byx-blue">อ่านเพิ่มเติม</h4>
-		<div class="border-1 border-b border-r w-2 h-2 rotate-45 border-black" />
+	<span
+		class="flex items-center space-x-1 cursor-pointer"
+		on:click={() => {
+			isInfor2Open = !isInfor2Open;
+		}}
+	>
+		{#if isInfor2Open}
+			<h4 class="typo-b4 text-blue underline text-byx-blue">ปิดส่วนนี้</h4>
+			<svg
+				width="16"
+				height="17"
+				viewBox="0 0 16 17"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				class={isInfor2Open ? 'rotate-180' : ''}
+			>
+				<path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M8.32 11.36L3.52 6.55997L4.192 5.88797L8.32 10.016L12.448 5.88797L13.12 6.55997L8.32 11.36Z"
+					fill="#0000FF"
+				/>
+			</svg>
+		{:else}
+			<h4 class="typo-b4 text-blue underline text-byx-blue">อ่านเพิ่มเติม</h4>
+			<svg
+				width="16"
+				height="17"
+				viewBox="0 0 16 17"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M8.32 11.36L3.52 6.55997L4.192 5.88797L8.32 10.016L12.448 5.88797L13.12 6.55997L8.32 11.36Z"
+					fill="#0000FF"
+				/>
+			</svg>
+		{/if}
 	</span>
-	<h4 class="typo-b4 my-4">
-		การเลือกตั้ง 66 มีการเปลี่ยนแปลงกติกา หลักๆ จากปี 62 คือ
-		<br />
-		<br />
-		<ul>
-			<li>
-				<b>กลับไปใช้ระบบบัตร 2 ใบ</b> แบบ “เลือกคนที่รัก เลือกพรรคที่ชอบ” คล้ายกติกาปี
-				40
-			</li>
-			<li>
-				<b>เพิ่มจำนวน ส.ส. เขต</b>จาก 350 เป็น 400 คน
-			</li>
-		</ul>
-		<br />
-		<br /> ในการปรับฐานนี้ เราจะเรานำกติกาของ การเลือกตั้งปี 66
-		ไปลองใช้กับข้อมูล คะแนนเสียงจากปี 62 โดย
-		<b>
-			สมมติว่าทุกคนกาบัตรเลือกตั้งทั้งสองใบเหมือนกับที่กาบัตรใบเดียวเมื่อปี 62
-		</b>
-	</h4>
+	{#if isInfor2Open}
+		<h4 class="typo-b4 my-4">
+			การเลือกตั้ง 66 มีการเปลี่ยนแปลงกติกา หลักๆ จากปี 62 คือ
+			<br />
+			<br />
+			<ul>
+				<li>
+					<b>กลับไปใช้ระบบบัตร 2 ใบ</b> แบบ “เลือกคนที่รัก เลือกพรรคที่ชอบ” คล้ายกติกาปี
+					40
+				</li>
+				<li>
+					<b>เพิ่มจำนวน ส.ส. เขต</b>จาก 350 เป็น 400 คน
+				</li>
+			</ul>
+			<br />
+			<br /> ในการปรับฐานนี้ เราจะเรานำกติกาของ การเลือกตั้งปี 66
+			ไปลองใช้กับข้อมูล คะแนนเสียงจากปี 62 โดย
+			<b>
+				สมมติว่าทุกคนกาบัตรเลือกตั้งทั้งสองใบเหมือนกับที่กาบัตรใบเดียวเมื่อปี 62
+			</b>
+		</h4>
+	{/if}
 
-	<hr class="my-4" />
+	<div class="my-4" />
 
 	<h7 class="typo-h7">
 		<b> หลังปรับฐานแล้ว จะได้คะแนนเสียงตั้งต้นใหม่ดังนี้ </b>
