@@ -1,0 +1,391 @@
+@import "./font";
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "IBMPlexSansThai", serif;
+  //min-height: 100%;
+  //height: 100%;
+  //overflow-x: hidden;
+  //word-break: break-word;
+}
+
+.kondolar {
+  font-family: "KondolarThai", serif !important;
+}
+
+body::-webkit-scrollbar {
+  background: rgb(19, 18, 18);
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.h-auto-mobile {
+  @media #{$mq-mini-mobile} {
+    height: auto !important;
+  }
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+// ---- header , text --------
+
+.header-1 {
+  font-size: 48px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 28px;
+  }
+}
+.header-2 {
+  font-size: 72px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 48px;
+  }
+}
+.header-3 {
+  font-size: 60px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 36px;
+  }
+}
+.header-4 {
+  font-size: 48px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 32px;
+  }
+}
+.header-5 {
+  font-size: 36px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 28px;
+  }
+}
+.header-6 {
+  font-size: 32px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 24px;
+  }
+}
+.header-7 {
+  font-size: 28px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 21px;
+  }
+}
+.header-8 {
+  font-size: 24px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 18px;
+  }
+}
+.header-9 {
+  font-size: 21px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 16px;
+  }
+}
+.header-10 {
+  font-size: 18px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 15px;
+  }
+}
+.header-11 {
+  font-size: 16px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 14px;
+  }
+}
+.header-12 {
+  font-size: 14px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 12px;
+  }
+}
+.header-13 {
+  font-size: 12px;
+  //line-height: 140%;
+  @media #{$mq-mini-mobile} {
+    font-size: 10px;
+  }
+}
+
+// ------------ color ----------------
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+.red-2 {
+  color: #e38383;
+}
+
+.orange {
+  color: #eb6e00;
+}
+
+.blue {
+  color: #51B4FA;
+}
+
+.blue-2 {
+  color: #5277fc;
+}
+
+.purple {
+  color: #d170ff;
+}
+
+.pink {
+  color: #e97286;
+}
+
+.pink-2 {
+  color: #f4f9c6;
+}
+
+.green {
+  color: #DEFE6C;
+}
+
+.green-2 {
+  color: #6CDB5A;
+}
+
+.brown {
+  color: #b48455;
+}
+
+.yellow {
+  color: #e8da04;
+}
+
+.gray {
+  color: #838383;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-black-2 {
+  background-color: #151515;
+}
+
+.bg-yellow {
+  background-color: #fed913;
+}
+
+.bg-orange {
+  background-color: #f25101 !important;
+}
+
+.bg-orange-2 {
+  background-color: #ffb48f;
+}
+
+.bg-orange-3 {
+  background-color: #a63700;
+}
+
+.bg-light-blue {
+  background-color: #31c4ff;
+}
+
+.bg-light-blue-2 {
+  background-color: #009bda;
+}
+
+.bg-light-blue-3 {
+  background-color: #007cae;
+}
+
+.bg-purple {
+  background-color: #3c3c9c;
+}
+
+.bg-purple-2 {
+  background-color: #6262e4;
+}
+
+.bg-blue {
+  background-color: #51B4FA !important;
+}
+
+.bg-neon {
+  background-color: #DEFE6C;
+}
+
+.bg-gray-1 {
+  background-color: #4b4b40;
+}
+
+// ----------------------------
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #ffb9af;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ffb9af;
+}
+
+::placeholder {
+  color: #ffb9af;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 1em;
+  width: 1em;
+  border-radius: 50em;
+  background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+  background-size: contain;
+  opacity: 0;
+  pointer-events: none;
+}
+
+input[type="search"]:focus::-webkit-search-cancel-button {
+  opacity: 0.5;
+  pointer-events: all;
+}
+
+input[type="search"].dark::-webkit-search-cancel-button {
+  filter: invert(1);
+}
+
+input[type="search"]:focus::placeholder {
+  color: transparent;
+}
+
+.scrollama__debug-offset {
+  display: none;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s !important;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0 !important;
+}
+
+.modal-content {
+  background: none;
+  border: 0;
+}
+
+.modal-open {
+  padding-right: 0 !important;
+}
+
+.w-sm-50 {
+  width: 50%;
+  @media #{$mq-mobile} {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+.opacity-0-5 {
+  opacity: 0.5;
+}
+
+.cursor-grab {
+  cursor: grab;
+}
+
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fadeOut ease 8s;
+  -webkit-animation: fadeOut ease 8s;
+  -moz-animation: fadeOut ease 8s;
+  -o-animation: fadeOut ease 8s;
+  -ms-animation: fadeOut ease 8s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.popover {
+  font-family: "IBMPlexSansThai", serif;
+  z-index: 10;
+  text-align: center;
+}
+
+a {
+  color: unset;
+  text-decoration: underline;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.faded_choose {
+  opacity: 0.2;
+  pointer-events: none;
+}
