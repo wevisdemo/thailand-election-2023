@@ -1,3 +1,8 @@
+const base_url = 'https://staging.election66.wevis.info/'
+const title = 'เปิดข้อมูลที่ต้องรู้ ก่อนเปิดคูหา'
+const description =
+  'รวมข้อมูลการเมืองและการเลือกตั้ง โดยประชาชนผู้มีหวังในประชาธิปไตย'
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -7,7 +12,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'landing',
+    title: title,
     htmlAttrs: {
       lang: 'en',
     },
@@ -17,7 +22,69 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: description },
+      { name: 'format-detection', content: 'telephone=no' },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: title,
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: description,
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: base_url + 'main_page_og.png',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: base_url,
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: title,
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: description,
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image:src',
+        content: base_url + 'main_page_og.png',
+      },
+      {
+        hid: 'twitter:url',
+        property: 'twitter:url',
+        content: base_url,
+      },
+    ],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: 'https://wevis.info/wp-content/uploads/2022/01/favicon.png',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
