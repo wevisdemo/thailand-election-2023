@@ -53,4 +53,10 @@ export default {
   build: {
     transpile: [/^element-ui/],
   },
+
+  vue: {
+    config: {
+      ignoredElements: [/election-\w*/],
+    },
+  },
 }

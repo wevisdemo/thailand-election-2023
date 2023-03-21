@@ -114,7 +114,6 @@
 </template>
 
 <script>
-import('@thailand-election-2023/components')
 import projectMetadata from '@thailand-election-2023/metadata/dist/projects.json'
 import { fetchWeVisElectionPosts } from '@thailand-election-2023/wordpress'
 import { orderBy } from 'lodash'
@@ -138,6 +137,8 @@ export default {
     }
   },
   async mounted() {
+    import('@thailand-election-2023/components')
+
     const election_day = dayjs(this.election_day)
     const current_time = dayjs(dayjs().format('YYYY-MM-DD HH:mm:s'))
     const diff_days = election_day.diff(current_time, 'day')
