@@ -1,8 +1,10 @@
 <script lang="ts">
 	import { Content, contentManager } from '../../stores/content';
 	import { ScaleAns, input } from '../../stores/input';
+	import { quiz8ToWord } from '../../utils/mapInputToWord';
 
 	$: ans = $input.input.quiz8;
+	$: [word, percent] = quiz8ToWord(ans?.percent);
 </script>
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
@@ -117,7 +119,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="w-full mt-20 flex items-center justify-between space-x-5">
+		<div class="h-20 text-center mt-1">
+			{#if ans}
+				<h4 class="typo-b4">{word}</h4>
+				<h6 class="typo-h6 font-bold">{percent}</h6>
+			{/if}
+		</div>
+		<div class="w-full flex items-center justify-between space-x-5">
 			<button
 				class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
 				on:click={() => {

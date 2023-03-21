@@ -1,8 +1,10 @@
 <script lang="ts">
 	import { Content, contentManager } from '../../stores/content';
 	import { ScaleAns, input } from '../../stores/input';
+	import { quiz3ToWord } from '../../utils/mapInputToWord';
 
 	$: ans = $input.input.quiz3;
+	$: [word, percent] = quiz3ToWord(ans);
 </script>
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
@@ -88,9 +90,13 @@
 				on:click={() => input.updateQuize3(ScaleAns.Scale100)}
 			/>
 		</div>
-		<h4 class="typo-b4 mt-2">เลือกพรรค</h4>
-		<h6 class="typo-h6 font-bold">80%</h6>
-		<div class="w-full mt-20 flex items-center justify-between space-x-5">
+		<div class="h-40 text-center mt-1">
+			{#if ans}
+				<h4 class="typo-b4">{word}</h4>
+				<h6 class="typo-h6 font-bold">{percent}</h6>
+			{/if}
+		</div>
+		<div class="w-full flex items-center justify-between space-x-5">
 			<button
 				class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
 				on:click={() => {
