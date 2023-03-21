@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { FC } from 'react';
 import Link from 'next/link';
-import SquareTopicWrapper from './SquareTopicWarpper';
+import SquareTopicWrapper from '../SquareTopicWarpper';
 
-const HotTopicPolicy = () => {
+const HotTopicPolicy: FC = () => {
 	const mockData = [
 		{
 			topic_name: 'คอรัปชั่น',
@@ -19,7 +19,7 @@ const HotTopicPolicy = () => {
 		},
 	];
 	return (
-		<div className="container px-4 pt-10 mx-auto">
+		<div className="container pt-10 mx-auto">
 			<p className="font-bold typo-h6">นโยบายประเด็นร้อน</p>
 			<div className="flex flex-wrap text-center ">
 				{mockData.map((topic) => (

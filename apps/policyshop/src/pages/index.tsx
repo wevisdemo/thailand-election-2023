@@ -1,10 +1,26 @@
+import { useEffect, useState } from 'react';
+import Layout from '@/components/Layout';
 import Head from 'next/head';
-import Landing from '@/components/Landing';
-import HotTopicPolicy from '@/components/HotTopicPolicy';
-import ByTopic from '@/components/ByTopic';
-import ByParty from '@/components/ByParty';
+import IntroPolicy from '@/components/Landing/IntroPolicy';
+import HotTopicPolicy from '@/components/Landing/HotTopicPolicy';
+import ByTopic from '@/components/Landing/ByTopic';
+import ByParty from '@/components/Landing/ByParty';
+import { TheyWorkForUs } from '@thailand-election-2023/database';
+import { Party } from '@thailand-election-2023/database/src/models/party';
 
 export default function Home() {
+	const [hotParties, setHotParties] = useState<Party[]>();
+
+	const fetchData = async (): Promise<void> => {
+		const data: Party[] = await TheyWorkForUs.Parties.fetchAll({
+			where: '(PartyType,eq,พรรค)',
+		});
+		//mock get hot parties
+		setHotParties(data.slice(0, 8));
+	};
+	useEffect(() => {
+		fetchData();
+	}, []);
 	return (
 		<>
 			<Head>
@@ -14,10 +30,12 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main>
-				<Landing />
-				<HotTopicPolicy />
-				<ByTopic />
-				<ByParty />
+				<Layout title="landing">
+					<IntroPolicy />
+					<HotTopicPolicy />
+					<ByTopic />
+					<ByParty parties={hotParties} />
+				</Layout>
 			</main>
 		</>
 	);

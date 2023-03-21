@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-const Landing = () => {
+const IntroPolicy: FC = () => {
 	return (
 		<div className="px-4 text-center bg-highlight-3 py-14 ">
 			<p className="font-bold typo-h4">
@@ -16,4 +16,4 @@ const Landing = () => {
 	);
 };
 
-export default Landing;
+export default IntroPolicy;

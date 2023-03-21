@@ -1,3 +1,5 @@
+import { Party } from '@thailand-election-2023/database/src/models/party';
+
 export interface IDropdownOption<T> {
 	label: string;
 	value: T;
@@ -18,8 +20,9 @@ export interface SquareTopicProps {
 }
 
 export interface CircleTopicWrapper {
-	topicName: string;
-	totalTopic: number;
+	children?: React.ReactNode;
+	name?: string;
+	totalTopic?: number;
 }
 
 export interface IPolicyCategory {
@@ -27,4 +30,8 @@ export interface IPolicyCategory {
 	count: number;
 	percent: number;
 	color: string;
+}
+
+export interface ByPartyProps {
+	parties?: Party[];
 }

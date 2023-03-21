@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { FC } from 'react';
 import Link from 'next/link';
-import CircleTopicWrapper from './CircleTopicWrapper';
-const ByTopic = () => {
+import CircleTopicWrapper from '../CircleTopicWrapper';
+
+const ByTopic: FC = () => {
 	const mockData = [
 		{
 			name: 'คุณภาพชีวิต',
@@ -25,19 +26,16 @@ const ByTopic = () => {
 		},
 	];
 	return (
-		<div className="container px-4 pt-10 mx-auto">
+		<div className="container pt-10 mx-auto">
 			<p className="font-bold typo-h6">แบ่งตามประเด็น</p>
 			<div className="flex flex-wrap text-center ">
 				{mockData.map((topic) => (
 					<Link
 						key={topic?.name}
 						href={`/แบ่งตามประเด็น/${topic?.name}`}
-						className="mt-4 mx-[8px]"
+						className="mt-4 mx-[8px] md:mx-[10px]"
 					>
-						<CircleTopicWrapper
-							topicName={topic.name}
-							totalTopic={topic.total}
-						/>
+						<CircleTopicWrapper name={topic.name} totalTopic={topic.total} />
 					</Link>
 				))}
 			</div>
