@@ -1,5 +1,6 @@
-import { imgPrefix } from '@/utils/path';
 import { ReactNode, useEffect } from 'react';
+import Link from 'next/link';
+import { imgPrefix } from '@/utils/path';
 // import '@thailand-election-2023/components';
 
 interface PropsType {
@@ -17,13 +18,12 @@ export default function Layout({ title, children }: PropsType) {
 			<election-header></election-header>
 			<div className="max-w-[420px] md:container m-auto p-[16px]">
 				{title != 'landing' && (
-					<div className="flex mt-[16px]">
+					<Link href="/" className="flex mt-[16px]">
 						<img src={`${imgPrefix}/arrow.svg`} alt="arrow" />
 						<p className="ml-[8px] typo-b2 font-kondolar font-bold">{title}</p>
-					</div>
+					</Link>
 				)}
-				<div className="mt-[24px]"></div>
-				{children}
+				<div className="mt-[24px]">{children}</div>
 			</div>
 		</div>
 	);

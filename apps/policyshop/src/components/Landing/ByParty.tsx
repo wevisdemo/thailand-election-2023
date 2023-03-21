@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { ByPartyProps } from '@/types/components';
-import CircleTopicWrapper from '../CircleTopicWrapper';
+import CircleTopicWrapper from '@/components/CircleTopicWrapper';
 import { Party } from '@thailand-election-2023/database/src/models/party';
 import Link from 'next/link';
 
