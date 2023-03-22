@@ -186,8 +186,12 @@
 			</div>
 		</div>
 
-		<election-bottom />
+		<election-bottom
+			index-path="/designyourmp"
+			about-path="/designyourmp/about"
+		></election-bottom>
 		<election-footer />
+		<election-cookie />
 	</div>
 </template>
 
