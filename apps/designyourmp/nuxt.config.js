@@ -6,8 +6,8 @@ for (var i = 0; i <= 501; i++) {
 
 export default {
 	// Global page headers: https://go.nuxtjs.dev/config-head
-	// ssr: true,
-	// target: "static",
+	ssr: true,
+	target: 'static',
 	head: {
 		title: '"ผู้แทน" แบบไหนที่คุณอยากเห็น?',
 		htmlAttrs: {
