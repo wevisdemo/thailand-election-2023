@@ -1,9 +1,14 @@
 /* @refresh reload */
-import type { Component } from 'solid-js';
+import { Component, Show } from 'solid-js';
 import { noShadowDOM } from 'component-register';
 import css from './bottom.module.css';
 
-const Bottom: Component = () => {
+interface BottomProps {
+	indexPath: string;
+	aboutPath: string;
+}
+
+const Bottom: Component<BottomProps> = ({ indexPath, aboutPath }) => {
 	noShadowDOM();
 
 	const url = `${location.origin}/${location.pathname.split('/')[1] || ''}`;
@@ -50,9 +55,18 @@ const Bottom: Component = () => {
 
 			<p class="typo-b3">#WeVisElection66</p>
 
-			<a class="button-rounded--gray" href="/">
-				กลับไปหน้าแรก
-			</a>
+			<Show
+				when={location.pathname.startsWith(aboutPath)}
+				fallback={
+					<a class="button-rounded--gray" href={aboutPath}>
+						เกี่ยวกับโครงการ
+					</a>
+				}
+			>
+				<a class="button-rounded--gray" href={indexPath}>
+					กลับไปหน้าแรก
+				</a>
+			</Show>
 		</div>
 	);
 };

@@ -51,10 +51,15 @@ useEffect() {
 
 ## Usage
 
-Just use as a HTML element. None of them require props.
+Just use as a HTML element. Only `election-bottom` require props as following example.
 
 ```html
 <election-header></election-header>
-<election-bottom></election-bottom>
+
+<election-bottom
+	index-path="/designyourmp"
+	about-path="/designyourmp/about"
+></election-bottom>
+
 <election-footer></election-footer>
 ```
