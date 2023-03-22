@@ -20,6 +20,7 @@
           @click="
             () => {
               query = ''
+              menuHeight = '0px'
               menuLevel = 1
             }
           "
@@ -85,7 +86,7 @@ export default {
       if (this.menuLevel == 1)
         return searchDistrict(this.query).map((r, i) => ({
           id: i,
-          html: `อ. ${r.district} จ. ${r.province}`,
+          html: `${r.stringMenu}`,
           district: r.obj,
         }))
       return []

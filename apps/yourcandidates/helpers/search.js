@@ -1,10 +1,21 @@
 import districts from '~/data/district_province_list.json'
 import electorals from '~/data/electoral_district_table.json'
 import fuzzysort from 'fuzzysort'
-const SEARCH_KEYS = ['province', 'district']
+const SEARCH_KEYS = ['stringMenu']
+
+const DISTRICT_LIST = districts.map((district) => ({
+  ...district,
+  stringMenu: `อ. ${district.district} จ. ${district.province}`,
+}))
+
+function normalizeSearchQuery(query) {
+  return query
+    .replace(/^อำ(เ(ภ(อ)?)?)?/g, 'อ. ')
+    .replace(/^จั(ง(ห(ว(ั(ด)?)?)?)?)?/g, 'จ. ')
+}
 
 export const searchDistrict = (query) => {
-  const results = fuzzysort.go(query, districts, {
+  const results = fuzzysort.go(normalizeSearchQuery(query), DISTRICT_LIST, {
     keys: SEARCH_KEYS,
     limit: 20,
   })
