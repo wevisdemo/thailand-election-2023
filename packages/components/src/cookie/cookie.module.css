@@ -1,0 +1,72 @@
+.cookie {
+	@apply fixed z-50 bg-black text-white bg-opacity-80;
+}
+
+.cookie button {
+	@apply bg-transparent border-none cursor-pointer;
+}
+
+.cookie_banner {
+	@apply inset-x-0 bottom-0;
+}
+
+.cookie_popup {
+	@apply top-1/2 left-1/2 w-[600px] max-w-[100vw];
+	transform: translate(-50%, -50%);
+}
+
+.cookie__container {
+	@apply flex flex-col p-5 md:p-8 space-y-6;
+}
+
+.cookie_banner > .cookie__container {
+	@apply w-full max-w-screen-xl mx-auto md:flex-row md:space-y-0 md:space-x-4;
+}
+
+.cookie__close {
+	@apply absolute top-4 right-4 p-2;
+}
+
+.cookie__lang {
+	@apply flex flex-row items-start;
+}
+
+.cookie__lang > button {
+	@apply text-white px-2;
+}
+
+.cookie__lang__inactive {
+	@apply opacity-50 hover:opacity-70;
+}
+
+.cookie__lang > button:not(:last-child) {
+	@apply border-opacity-50 border-0 border-r border-white border-solid;
+}
+
+.cookie__options > div {
+	@apply flex flex-row items-center py-4 border-0 border-b border-white border-opacity-20 border-solid space-x-3;
+}
+
+.cookie__body {
+	@apply text-center md:text-left;
+}
+
+.cookie__body > a {
+	@apply text-highlight-2 cursor-pointer;
+}
+
+.cookie__actions {
+	@apply flex flex-row w-full max-w-xs items-center space-x-3;
+}
+
+.cookie__actions > button {
+	@apply flex-1 rounded-[2px] border-solid border-white border-[1px] px-4 py-3;
+}
+
+.cookie__actions > button:first-child {
+	@apply text-white bg-transparent hover:bg-gray-3;
+}
+
+.cookie__actions > button:last-child {
+	@apply text-black bg-white hover:bg-highlight-2 hover:border-highlight-2;
+}
