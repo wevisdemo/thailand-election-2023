@@ -1,5 +1,5 @@
 .button-rounded {
-	@apply border-[3px] rounded-full py-2 px-6 font-bold typo-b6;
+	@apply border-[3px] rounded-full py-2 px-6 font-bold typo-b6 flex flex-row space-x-2 justify-center items-center;
 }
 
 .button-rounded--black {
