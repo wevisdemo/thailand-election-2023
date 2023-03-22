@@ -1,5 +1,5 @@
 .bottom {
-	@apply flex flex-col items-center space-y-3 py-16;
+	@apply flex flex-col items-center space-y-3 py-6 md:py-14;
 }
 
 .bottom__sharer {
