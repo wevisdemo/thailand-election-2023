@@ -1,0 +1,21 @@
+{
+	"name": "@thailand-election-2023/underconstruction",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build --base=./",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@thailand-election-2023/components": "*",
+		"@thailand-election-2023/styles": "*"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.21",
+		"tailwindcss": "^3.2.7",
+		"vite": "^4.2.0"
+	}
+}
