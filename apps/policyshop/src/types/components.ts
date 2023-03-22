@@ -1,5 +1,5 @@
 import { Party } from '@thailand-election-2023/database/src/models/party';
-
+import { Policy } from '@thailand-election-2023/database/src/models/policy';
 export interface IDropdownOption<T> {
 	label: string;
 	value: T;
@@ -34,4 +34,12 @@ export interface IPolicyCategory {
 
 export interface ByPartyProps {
 	parties?: Party[];
+}
+
+export interface GroupByTopics {
+	[key: string | number]: Policy[];
+}
+
+export interface ByTopicProps {
+	topics: GroupByTopics;
 }
