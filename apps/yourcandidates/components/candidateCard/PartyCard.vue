@@ -1,23 +1,23 @@
 <template>
-    <TemplateCard :key="people.number" :candidate="{...people}">
+    <TemplateCard :key="parties.number" :candidate="{...parties}">
         <template v-slot:infomation>
             <table class="table-container">
                 <tbody>
                     <tr> 
                         <td style="color: var(--color-gray-3)">สังกัด</td>
-                        <td class="pl-2">{{ people.party }}</td>
+                        <td class="pl-2">{{ parties.party }}</td>
                     </tr>
                     <tr> 
                         <td style="color: var(--color-gray-3)">อายุ</td>
-                        <td class="pl-2">{{ people.age }}</td>
+                        <td class="pl-2">{{ parties.age }}</td>
                     </tr>
                     <tr> 
                         <td style="color: var(--color-gray-3)">การศึกษา</td>
-                        <td class="pl-2">{{ people.education }}</td>
+                        <td class="pl-2">{{ parties.education }}</td>
                     </tr>
                     <tr> 
                         <td style="color: var(--color-gray-3)">อาชีพเดิม</td>
-                        <td class="pl-2">{{ people.occupation }}</td>
+                        <td class="pl-2">{{ parties.occupation }}</td>
                     </tr>
                 </tbody>
             </table>
@@ -29,7 +29,7 @@
 import TemplateCard from '@/components/candidateCard/TemplateCard.vue'
 export default{
     props: {
-        people: {
+        parties: {
             type: Object,
             default: {}
         }

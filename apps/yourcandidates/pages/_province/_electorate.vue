@@ -50,9 +50,9 @@
                 </div>
                 <div class="candidate-card">
                     <PeopleCard
-                    v-for="candidate in candidates"
-                    :key="candidate.Number"
-                    :candidate="candidate"
+                    v-for="people in peoples"
+                    :key="people.number"
+                    :people="{...people}"
                     />
                 </div>
             </div>
@@ -71,14 +71,13 @@ import {ElectionHeader, ElectionBottom, ElectionFooter} from '@thailand-election
 export default {
     async asyncData({params: {province, electorateNumber}}) {
         // const candidates = (await TheyWorkForUs.People.fetch()).list;
-        const candidates = [
+        const peoples = [
             {
                 'number': '1',
                 'imageCandidate' : '',
                 'imageParty': '',
                 'name': 'พิรสุต จันทรานุวัฒน์',
-                'history': 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
-                'numberHistory': '2',
+                'numberPartyGroup': '2',
                 'partyGroup': 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
                 'party': 'รวมไทยสร้างชาติ',
                 'age': '50',
@@ -86,18 +85,19 @@ export default {
                 'occupation': 'พนักงานบริษัทเอกชน',
             },
             {
-                'number': '1',
+                'number': '2',
                 'imageCandidate' : '',
                 'imageParty': '',
                 'name': 'พิรสุต จันทรานุวัฒน์',
-                'partyGroup': 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
+                'numberPartyGroup': '1',
+                'partyGroup': 'อดีต ส.ส. ฝ่ายค้าน',
                 'party': 'รวมไทยสร้างชาติ',
                 'age': '50',
                 'education': 'ปริญญาตรี',
                 'occupation': 'พนักงานบริษัทเอกชน',
             }
         ]
-        return {candidates}
+        return {peoples}
     },
     data() {
         return {
