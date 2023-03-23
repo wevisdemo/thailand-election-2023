@@ -1,22 +1,21 @@
 <template>
-  <a class="typo-b3" :href="ahref" tabindex="-1">
-    <div
-      class="search-list-item"
-      tabindex="0"
-      :id="elementId"
-      @keypress.enter="onClickHandler"
+  <div
+    class="typo-b3 search-list-item"
+    tabindex="0"
+    :id="elementId"
+    @keypress.enter="onClickHandler"
+    @click="onClickHandler"
+  >
+    <b
+      >{{ district.province }}
+      <span>เขตเลือกตั้งที่ {{ district.electoralDistrictNumber }}</span></b
     >
-      <b
-        >{{ district.province }}
-        <span>เขตเลือกตั้งที่ {{ district.electoralDistrictNumber }}</span></b
-      >
-      <ul>
-        <li v-for="(d, i) in district.district_list" :key="i">
-          {{ d }}
-        </li>
-      </ul>
-    </div>
-  </a>
+    <ul>
+      <li v-for="(d, i) in district.district_list" :key="i">
+        {{ d }}
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>

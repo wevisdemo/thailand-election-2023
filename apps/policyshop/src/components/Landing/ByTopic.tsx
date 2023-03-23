@@ -1,41 +1,20 @@
 import React, { FC } from 'react';
 import Link from 'next/link';
+import { ByTopicProps } from '@/types/components';
 import CircleTopicWrapper from '../CircleTopicWrapper';
 
-const ByTopic: FC = () => {
-	const mockData = [
-		{
-			name: 'คุณภาพชีวิต',
-			total: 20,
-		},
-		{
-			name: 'ความมั่นคง',
-			total: 21,
-		},
-		{
-			name: 'ต่างประเทศ',
-			total: 30,
-		},
-		{
-			name: 'บริหารจัดการ',
-			total: 40,
-		},
-		{
-			name: 'ศาสนาและวัฒนธรรม',
-			total: 62,
-		},
-	];
+const ByTopic: FC<ByTopicProps> = ({ topics }) => {
 	return (
 		<div className="container pt-10 mx-auto">
 			<p className="font-bold typo-h6">แบ่งตามประเด็น</p>
 			<div className="flex flex-wrap text-center ">
-				{mockData.map((topic) => (
+				{Object.keys(topics).map((key) => (
 					<Link
-						key={topic?.name}
-						href={`/แบ่งตามประเด็น/${topic?.name}`}
+						key={key}
+						href={`/แบ่งตามประเด็น/${key}`}
 						className="mt-4 mx-[8px] md:mx-[10px]"
 					>
-						<CircleTopicWrapper name={topic.name} totalTopic={topic.total} />
+						<CircleTopicWrapper name={key} totalTopic={topics[key].length} />
 					</Link>
 				))}
 			</div>

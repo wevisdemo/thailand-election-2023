@@ -51,10 +51,39 @@ useEffect() {
 
 ## Usage
 
-Just use as a HTML element. None of them require props.
+Just use as a HTML element. Only `election-bottom` require props as following example.
+
+### Header
+
+No props required.
 
 ```html
 <election-header></election-header>
-<election-bottom></election-bottom>
+```
+
+### Bottom
+
+The variation will change base on current path and given `index-path`, `about-path` props.
+
+```html
+<election-bottom
+	index-path="/designyourmp"
+	about-path="/designyourmp/about"
+></election-bottom>
+```
+
+### Footer
+
+No props required.
+
+```html
 <election-footer></election-footer>
+```
+
+### Cookie
+
+No props required. This component will automatically initialize analytics code without extra config.
+
+```html
+<election-cookie></election-cookie>
 ```

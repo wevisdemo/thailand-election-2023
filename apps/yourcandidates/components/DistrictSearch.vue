@@ -10,23 +10,40 @@
           type="text"
           name="query"
           id="district-search"
-          v-model="query"
+          v-model.trim="query"
           @input="() => changeLevel(1)"
           placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
         />
-        <IconsSearch />
-        <div class="query-result-container" :style="{ height: menuHeight }">
+        <IconsSearch v-if="menuLevel == 1" />
+        <button
+          v-if="menuLevel == 2"
+          @click="
+            () => {
+              query = ''
+              menuHeight = '0px'
+              menuLevel = 1
+            }
+          "
+        >
+          <IconsClose />
+        </button>
+        <div
+          class="query-result-container"
+          :style="{
+            display: query.length == 0 ? 'none' : 'block',
+            height: menuHeight,
+            background: noresult
+              ? 'var(--color-gray-2)'
+              : `var(--color-highlight-1)`,
+          }"
+        >
           <div ref="menuLevel1" :style="menuContainerStyels(1)">
+            <p class="typo-b4" v-if="noresult">ไม่มีชื่อเขต/อำเภอนี้</p>
             <SearchListDistrict
               v-for="(r, i) in queryResultList"
               :key="i"
               :district="r"
-              :onClick="
-                () => {
-                  changeLevel(2)
-                  selectedDistrict = r.district
-                }
-              "
+              :onClick="() => onDistrictSelected(r.district)"
             />
           </div>
           <div ref="menuLevel2" :style="menuContainerStyels(2)">
@@ -47,6 +64,7 @@
 </template>
 <script>
 import { searchDistrict, getElectorals } from '~/helpers/search'
+
 export default {
   mounted() {
     this.menuHeight = this.getMenuHeight()
@@ -57,7 +75,7 @@ export default {
   },
   data() {
     return {
-      query: 'กรง',
+      query: '',
       menuHeight: '0px',
       menuLevel: 1,
       selectedDistrict: {},
@@ -68,7 +86,7 @@ export default {
       if (this.menuLevel == 1)
         return searchDistrict(this.query).map((r, i) => ({
           id: i,
-          html: `อ. ${r.district} จ. ${r.province}`,
+          html: `${r.stringMenu}`,
           district: r.obj,
         }))
       return []
@@ -79,16 +97,23 @@ export default {
       }
       return []
     },
+    noresult() {
+      return (
+        this.queryResultList.length == 0 &&
+        this.query.length !== 0 &&
+        this.menuLevel == 1
+      )
+    },
   },
   methods: {
     getMenuHeight() {
-      if (this.menuLevel == 1)
-        return Math.min(this.$refs.menuLevel1.clientHeight, 360) + 'px'
-      else if (this.menuLevel == 2)
-        return Math.min(this.$refs.menuLevel2.clientHeight, 360) + 'px'
+      if (this.menuLevel == 1) {
+        return Math.min(this.$refs.menuLevel1.clientHeight + 6, 360) + 'px' // 6px for border
+      } else if (this.menuLevel == 2)
+        return Math.min(this.$refs.menuLevel2.clientHeight + 6, 360) + 'px' // 6px for border
     },
     changeLevel(to) {
-      if (to <= 2) this.menuLevel = to
+      if (to <= 2 && 0 < to) this.menuLevel = to
     },
     menuContainerStyels(level) {
       return {
@@ -99,6 +124,11 @@ export default {
         opacity: this.menuLevel == level ? 1 : 0,
         display: this.menuLevel == level ? 'block' : 'none',
       }
+    },
+    onDistrictSelected(district) {
+      this.changeLevel(2)
+      this.selectedDistrict = district
+      this.query = `อ. ${district.district} จ. ${district.province}`
     },
   },
 }

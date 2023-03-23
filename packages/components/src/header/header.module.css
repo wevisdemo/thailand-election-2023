@@ -3,7 +3,7 @@
 }
 
 .header > a {
-	@apply py-2 px-3;
+	@apply px-3 md:py-2;
 }
 
 .header button {
@@ -12,6 +12,10 @@
 
 .header button span {
 	@apply -mb-1 font-bold hidden md:block;
+}
+
+.header .logo {
+	@apply w-[180px] md:w-[269px];
 }
 
 .overlay {

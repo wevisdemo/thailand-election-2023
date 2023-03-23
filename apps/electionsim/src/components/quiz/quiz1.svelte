@@ -1,8 +1,10 @@
 <script lang="ts">
 	import { Content, contentManager } from '../../stores/content';
 	import { ScaleAns, input } from '../../stores/input';
+	import { quiz1ToWord } from '../../utils/mapInputToWord';
 
 	$: ans = $input.input.quiz1;
+	$: [word, percent] = quiz1ToWord(ans);
 </script>
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
@@ -89,8 +91,8 @@
 		</div>
 		<div class="h-40 text-center mt-1">
 			{#if ans}
-				<h4 class="typo-b4">เลือกพรรค</h4>
-				<h6 class="typo-h6 font-bold">80%</h6>
+				<h4 class="typo-b4">{word}</h4>
+				<h6 class="typo-h6 font-bold">{percent}</h6>
 			{/if}
 		</div>
 		<div class="w-full flex items-center justify-between space-x-5">

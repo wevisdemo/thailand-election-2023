@@ -8,7 +8,7 @@
 	"scripts": {
 		"dev": "turbo run dev",
 		"build": "turbo run build",
-		"merge": "turbo run merge"
+		"merge": "turbo run merge --filter=bundler"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.4.4",

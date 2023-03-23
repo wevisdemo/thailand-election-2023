@@ -7,19 +7,29 @@ import ByTopic from '@/components/Landing/ByTopic';
 import ByParty from '@/components/Landing/ByParty';
 import { TheyWorkForUs } from '@thailand-election-2023/database';
 import { Party } from '@thailand-election-2023/database/src/models/party';
+import { Policy } from '@thailand-election-2023/database/src/models/policy';
+import { groupBy } from '@/utils';
+import { GroupByTopics } from '@/types/components';
 
 export default function Landing() {
-	const [hotParties, setHotParties] = useState<Party[]>();
+	const [hotParties, setHotParties] = useState<Party[]>([]);
+	const [topics, setTopics] = useState<GroupByTopics>({});
 
-	const fetchData = async (): Promise<void> => {
+	const fetchParties = async (): Promise<void> => {
 		const data: Party[] = await TheyWorkForUs.Parties.fetchAll({
 			where: '(PartyType,eq,พรรค)',
 		});
 		//mock get hot parties
 		setHotParties(data.slice(0, 8));
 	};
+
+	const fetchPolicies = async (): Promise<void> => {
+		const data: Policy[] = await TheyWorkForUs.Policies.fetchAll();
+		setTopics(groupBy(data, 'Topic'));
+	};
 	useEffect(() => {
-		fetchData();
+		fetchParties();
+		fetchPolicies();
 	}, []);
 	return (
 		<>
@@ -32,7 +42,7 @@ export default function Landing() {
 				<Layout title="landing">
 					<IntroPolicy />
 					<HotTopicPolicy />
-					<ByTopic />
+					<ByTopic topics={topics} />
 					<ByParty parties={hotParties} />
 				</Layout>
 			</main>
