@@ -71,7 +71,6 @@ export default {
   },
   updated() {
     this.menuHeight = this.getMenuHeight()
-    console.log(document.getElementById)
   },
   data() {
     return {
