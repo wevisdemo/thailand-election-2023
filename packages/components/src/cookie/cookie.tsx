@@ -11,11 +11,13 @@ import {
 	POLICY_URL,
 	translation,
 } from './cookie-config';
+import { initClarity, initPlausible } from './analytics';
 
 type CookieSetting = Record<string, boolean>;
 
 const Cookie: Component = () => {
 	noShadowDOM();
+	initPlausible();
 
 	const [isShow, setIsShow] = createSignal(false);
 	const [isSettingOpen, setIsSettingOpen] = createSignal(false);
@@ -58,12 +60,13 @@ const Cookie: Component = () => {
 		localStorage.setItem(LOCALSTORAGE_COOKIE_EXPIRE_AT_KEY, `${expiredAtMs}`);
 
 		onAccept(options);
-
 		setIsShow(false);
 	}
 
 	function onAccept(options: CookieSetting) {
-		// TODO: INIT ANALYTICS HERE
+		if (options[cookieOptions[0]]) {
+			initClarity();
+		}
 	}
 
 	return (

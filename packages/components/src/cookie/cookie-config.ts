@@ -1,6 +1,6 @@
 export const LOCALSTORAGE_COOKIE_KEY = 'cookieSetting';
 export const LOCALSTORAGE_COOKIE_EXPIRE_AT_KEY = 'cookieSettingExpireAt';
-export const POLICY_URL = '';
+export const POLICY_URL = 'https://wevis.info/cookies_1-3/';
 export const DAYS_TO_EXPIRE = 30;
 export const cookieOptions = ['Performance'];
 export const langs = ['ไทย', 'EN'];
