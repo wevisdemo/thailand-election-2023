@@ -63,7 +63,7 @@ No props required.
 
 ### Bottom
 
-The variation will change base on current path and given `index-path`, `about-path` props.
+The variation will change base on current path and given `index-path`, `about-path` props. If both props are not given, the button to index/about page will be hidden.
 
 ```html
 <election-bottom

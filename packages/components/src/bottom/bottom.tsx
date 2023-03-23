@@ -58,14 +58,18 @@ const Bottom: Component<BottomProps> = ({ indexPath, aboutPath }) => {
 			<Show
 				when={location.pathname.startsWith(aboutPath)}
 				fallback={
-					<a class="button-rounded--gray" href={aboutPath}>
-						เกี่ยวกับโครงการ
-					</a>
+					<Show when={aboutPath}>
+						<a class="button-rounded--gray" href={aboutPath}>
+							เกี่ยวกับโครงการ
+						</a>
+					</Show>
 				}
 			>
-				<a class="button-rounded--gray" href={indexPath}>
-					กลับไปหน้าแรก
-				</a>
+				<Show when={indexPath}>
+					<a class="button-rounded--gray" href={indexPath}>
+						กลับไปหน้าแรก
+					</a>
+				</Show>
 			</Show>
 		</div>
 	);
