@@ -109,7 +109,7 @@ export default {
     //   this.test();
     // }, 1000);
     window.location.href =
-      "https://wevisdemo.github.io/qualification-of-representative/";
+      "https://election66.wevis.info/designyourmp/";
   },
   methods: {
     test() {

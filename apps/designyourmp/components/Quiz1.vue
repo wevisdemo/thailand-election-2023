@@ -247,8 +247,8 @@
 								title=""
 								:url="
 									result_list.length > 500
-										? 'https://wevisdemo.github.io/qualification-of-representative/ogimage/501'
-										: 'https://wevisdemo.github.io/qualification-of-representative/ogimage/' +
+										? 'https://election66.wevis.info/designyourmp/ogimage/501'
+										: 'https://election66.wevis.info/designyourmp/ogimage/' +
 										  result_list.length
 								"
 								class="share-btn pointer text-1 mx-2"
@@ -261,8 +261,8 @@
 								title=""
 								:url="
 									result_list.length > 500
-										? 'https://wevisdemo.github.io/qualification-of-representative/ogimage/501'
-										: 'https://wevisdemo.github.io/qualification-of-representative/ogimage/' +
+										? 'https://election66.wevis.info/designyourmp/ogimage/501'
+										: 'https://election66.wevis.info/designyourmp/ogimage/' +
 										  result_list.length
 								"
 								class="share-btn pointer text-1 mx-2"
@@ -274,8 +274,8 @@
 								title=""
 								:url="
 									result_list.length > 500
-										? 'https://wevisdemo.github.io/qualification-of-representative/ogimage/501'
-										: 'https://wevisdemo.github.io/qualification-of-representative/ogimage/' +
+										? 'https://election66.wevis.info/designyourmp/ogimage/501'
+										: 'https://election66.wevis.info/designyourmp/ogimage/' +
 										  result_list.length
 								"
 								class="share-btn pointer text-1 mx-2"
