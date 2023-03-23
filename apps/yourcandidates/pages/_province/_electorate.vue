@@ -106,52 +106,65 @@ export default {
         // const candidates = (await TheyWorkForUs.People.fetch()).list;
         const peoples = [
             {
-                'number': '1',
-                'imageCandidate' : '',
-                'imageParty': '',
-                'name': 'พิรสุต จันทรานุวัฒน์',
-                'numberPartyGroup': '2',
-                'partyGroup': 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
-                'party': 'รวมไทยสร้างชาติ',
-                'age': '50',
-                'education': 'ปริญญาตรี',
-                'occupation': 'พนักงานบริษัทเอกชน',
+                number: '1',
+                imageCandidate : '',
+                imageParty: '',
+                name: 'พิรสุต จันทรานุวัฒน์',
+                numberPartyGroup: '2',
+                partyGroup: 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
+                party: 'รวมไทยสร้างชาติ',
+                age: '50',
+                education: 'ปริญญาตรี',
+                occupation: 'พนักงานบริษัทเอกชน',
             },
             {
-                'number': '2',
-                'imageCandidate' : '',
-                'imageParty': '',
-                'name': 'พิรสุต จันทรานุวัฒน์',
-                'numberPartyGroup': '1',
-                'partyGroup': 'อดีต ส.ส. ฝ่ายค้าน',
-                'party': 'รวมไทยสร้างชาติ',
-                'age': '50',
-                'education': 'ปริญญาตรี',
-                'occupation': 'พนักงานบริษัทเอกชน',
-            }
+                number: '2',
+                imageCandidate : '',
+                imageParty: '',
+                name: 'พิรสุต จันทรานุวัฒน์',
+                numberPartyGroup: '1',
+                partyGroup: 'อดีต ส.ส. ฝ่ายค้าน',
+                party: 'รวมไทยสร้างชาติ',
+                age: '50',
+                education: 'ปริญญาตรี',
+                occupation: 'พนักงานบริษัทเอกชน',
+            },
+            {
+                number: '3',
+                imageCandidate : '',
+                imageParty: '',
+                name: 'พิรสุต จันทรานุวัฒน์',
+                numberPartyGroup: '0',
+                partyGroup: '',
+                party: 'รวมไทยสร้างชาติ',
+                age: '50',
+                education: 'ปริญญาตรี',
+                occupation: 'พนักงานบริษัทเอกชน',
+            },
         ]
 
         const parties = [
             {
-                'number': '1',
-                'imageCandidate' : '',
-                'name': 'พลังประชารัฐ',
-                'numberPartyGroup': '1',
-                'partyGroup': 'อดีต ส.ส. ฝ่ายรัฐบาล',
-                'partyList': [
+                number: '1',
+                imageCandidate : '',
+                name: 'พลังประชารัฐ',
+                numberPartyGroup: '1',
+                partyGroup: 'อดีต ส.ส. ฝ่ายรัฐบาล',
+                partyList: [
                     {
-                        'name': 'ประวิตร วงษ์สุวรรณ1',
-                        'image': ''
+                        name: 'ประวิตร วงษ์สุวรรณ1',
+                        image: ''
                     },
                     {
-                        'name': 'ประวิตร วงษ์สุวรรณ2',
-                        'image': ''
+                        name: 'ประวิตร วงษ์สุวรรณ2',
+                        image: ''
                     },
                     {
-                        'name': 'ประวิตร วงษ์สุวรรณ3',
-                        'image': ''
+                        name: 'ประวิตร วงษ์สุวรรณ3',
+                        image: ''
                     }
-                ]
+                ],
+                policy : 'url compare policy'
             }
         ]
 

@@ -7,22 +7,21 @@
         </div>
         <div class="detail">
             <div class="header">
-                <IconsProfile v-if="!candidate.imageCandidate" class="image-candidate"/>
-                <div v-else class="image-candidate">
-                    <img src="candidate.imageCandidate">
+                <div class="flex relative">
+                    <IconsProfile v-show="candidate.imageCandidate === ''"/>
+                    <div v-show="candidate.imageCandidate" class="image-candidate"> </div>
+                    <div v-show="candidate.party" class="image-party"></div>
                 </div>
-                <div v-if="candidate.party" class="image-party">
-                    <!-- <img src="candidate.imageParty"> -->
-                </div>
-                <div>
+
+                <div class="">
                     <div class="name typo-h5">
                         {{ candidate.name }}
                     </div>
-                    <div v-if="candidate.partyGroup" class="inline-block">
+                    <div v-if="candidate.numberPartyGroup !== '0'" class="inline-block">
                         <div class="history">
                                 <span class="flex flex-row">
                                     <CheckMark/> 
-                                    <CheckMark class="pl-0" v-if="candidate.numberPartyGroup == '2'"/>
+                                    <CheckMark class="pl-0" v-if="candidate.numberPartyGroup === '2'"/>
                                 </span>
                                 {{ candidate.partyGroup }}
                             
@@ -31,7 +30,10 @@
                 </div>
             </div>
 
-            <slot name="infomation"></slot>
+            <div class="main">
+                <slot name="infomation"></slot>
+                <slot name="linkList"></slot>
+            </div>
 
         </div>
 
@@ -82,6 +84,19 @@ import CheckMark from '@/components/icons/CheckMark.vue';
     flex-direction: column;
 }
 
+.card > .detail > .main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
 
 @media (min-width: 770px) {
     .number-candidate {
@@ -92,7 +107,14 @@ import CheckMark from '@/components/icons/CheckMark.vue';
         flex-direction: row;
         align-items: center;
         padding: 0px;
-        gap: 20px;
+        gap: 35px;
+    }
+
+    .card > .detail > .main {
+        display: grid;
+        grid-template-columns: 50% 50% 50%;
+        padding: 0px;
+        gap: 10px;
     }
 }
 

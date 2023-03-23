@@ -1,27 +1,46 @@
 <template>
     <TemplateCard :key="party.number" :candidate="{...party}">
         <template v-slot:infomation>
-            <div class="candidate-section">
-                <p style="color: var(--color-gray-3)"> แคนเดตนายก </p>
-                <div class="party-list"
-                v-for="primeCandidate in party.partyList">
-                    <div class="image-prime-candidate">
-
+            <div class="info">
+                <div class="candidate-section">
+                    <p style="color: var(--color-gray-3)"> แคนเดตนายก </p>
+                    <div class="party-list"
+                    v-for="primeCandidate in party.partyList">
+                        <IconsProfile v-show="primeCandidate.image === ''" style="width: 30px; height: 30px;"/>
+                        <div v-show="primeCandidate.image !== ''" class="image-prime-candidate">
+                        </div>
+                        <p> {{ primeCandidate.name }} </p>
                     </div>
-                    <p> {{ primeCandidate.name }} </p>
                 </div>
+                <button class="party-list-button">
+                    <IconsPlus/>
+                    <p> ดูบัญชีรายชื่อ </p>
+                </button>
             </div>
-            <button class="party-list-button">
-                <IconsPlus/>
-                <p> ดูบัญชีรายชื่อ </p>
-            </button>
         </template>
+
+        <template v-slot:linkList>
+            <div>
+                <Link v-for="i in linkInfo" 
+                v-if="party[i]"
+                :type="i"
+                :link= party[i]
+                :key="i"
+                />
+            </div>
+        </template>
+
     </TemplateCard>     
 </template>
 
 <script>
 import TemplateCard from '@/components/candidateCard/TemplateCard.vue'
+import Link from '@/components/candidateCard/Link.vue';
 export default{
+    setup() {
+        const linkInfo = ['policy', 'promise', 'law', 'others']
+        return {linkInfo}
+    },
     props: {
         party: {
             type: Object,
@@ -29,12 +48,24 @@ export default{
         }
     },
     components: {
-        TemplateCard
-    }
+        TemplateCard,
+        Link
+    },
 }
 </script>
 
 <style scoped>
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
 .candidate-section{
     display: flex;
     flex-direction: column;
