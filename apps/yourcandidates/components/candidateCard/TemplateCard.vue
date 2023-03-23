@@ -7,11 +7,12 @@
         </div>
         <div class="detail">
             <div class="header">
-                <div class="image-candidate">
-                    <!-- <img src="candidate.imageCandidate"> -->
-                    <div class="image-party">
-                        <!-- <img src="candidate.imageParty"> -->
-                    </div>
+                <IconsProfile v-if="!candidate.imageCandidate" class="image-candidate"/>
+                <div v-else class="image-candidate">
+                    <img src="candidate.imageCandidate">
+                </div>
+                <div v-if="candidate.party" class="image-party">
+                    <!-- <img src="candidate.imageParty"> -->
                 </div>
                 <div>
                     <div class="name typo-h5">

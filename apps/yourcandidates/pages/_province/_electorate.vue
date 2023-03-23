@@ -54,21 +54,35 @@
       <!-- tab -->
       <Tabs :tabs="tabs">
         <div slot="tab1">
-          <div class="">
-            <div class="filter">ทั้งหมด 2 คนมั้ง</div>
+            <div>
+                ทั้งหมด 2 คนมั้ง
+            </div>
             <div class="search">
               <input type="text" />
             </div>
             <div class="candidate-card">
-              <PeopleCard
+                <PeopleCard
                 v-for="people in peoples"
                 :key="people.number"
-                :people="{ ...people }"
-              />
+                :people="{...people}"
+                />        
             </div>
-          </div>
         </div>
-        <div slot="tab2">Tab 2 content goes here</div>
+        <div slot="tab2">
+            <div>
+                ทั้งหมด 1 พรรคมั้ง
+            </div>
+            <div class="search">
+              <input type="text" />
+            </div>
+            <div class="candidate-card">
+                    <PartyCard
+                    v-for="party in parties"
+                    :key="party.number"
+                    :party="{...party}"
+                    />
+                </div>
+        </div>
       </Tabs>
     </div>
 
@@ -78,7 +92,8 @@
 </template>
   
 <script>
-import PeopleCard from '@/components/candidateCard/PeopleCard.vue'
+import PeopleCard from '@/components/candidateCard/PeopleCard.vue';
+import PartyCard from '@/components/candidateCard/PartyCard.vue';
 import { TheyWorkForUs } from '@thailand-election-2023/database'
 import {
   ElectionHeader,
@@ -87,36 +102,61 @@ import {
 } from '@thailand-election-2023/components'
 
 export default {
-  async asyncData({ params: { province, electorateNumber } }) {
-    // const candidates = (await TheyWorkForUs.People.fetch()).list;
-    const peoples = [
-      {
-        number: '1',
-        imageCandidate: '',
-        imageParty: '',
-        name: 'พิรสุต จันทรานุวัฒน์',
-        numberPartyGroup: '2',
-        partyGroup: 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
-        party: 'รวมไทยสร้างชาติ',
-        age: '50',
-        education: 'ปริญญาตรี',
-        occupation: 'พนักงานบริษัทเอกชน',
-      },
-      {
-        number: '2',
-        imageCandidate: '',
-        imageParty: '',
-        name: 'พิรสุต จันทรานุวัฒน์',
-        numberPartyGroup: '1',
-        partyGroup: 'อดีต ส.ส. ฝ่ายค้าน',
-        party: 'รวมไทยสร้างชาติ',
-        age: '50',
-        education: 'ปริญญาตรี',
-        occupation: 'พนักงานบริษัทเอกชน',
-      },
-    ]
-    return { peoples }
-  },
+    async asyncData({params: {province, electorateNumber}}) {
+        // const candidates = (await TheyWorkForUs.People.fetch()).list;
+        const peoples = [
+            {
+                'number': '1',
+                'imageCandidate' : '',
+                'imageParty': '',
+                'name': 'พิรสุต จันทรานุวัฒน์',
+                'numberPartyGroup': '2',
+                'partyGroup': 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
+                'party': 'รวมไทยสร้างชาติ',
+                'age': '50',
+                'education': 'ปริญญาตรี',
+                'occupation': 'พนักงานบริษัทเอกชน',
+            },
+            {
+                'number': '2',
+                'imageCandidate' : '',
+                'imageParty': '',
+                'name': 'พิรสุต จันทรานุวัฒน์',
+                'numberPartyGroup': '1',
+                'partyGroup': 'อดีต ส.ส. ฝ่ายค้าน',
+                'party': 'รวมไทยสร้างชาติ',
+                'age': '50',
+                'education': 'ปริญญาตรี',
+                'occupation': 'พนักงานบริษัทเอกชน',
+            }
+        ]
+
+        const parties = [
+            {
+                'number': '1',
+                'imageCandidate' : '',
+                'name': 'พลังประชารัฐ',
+                'numberPartyGroup': '1',
+                'partyGroup': 'อดีต ส.ส. ฝ่ายรัฐบาล',
+                'partyList': [
+                    {
+                        'name': 'ประวิตร วงษ์สุวรรณ1',
+                        'image': ''
+                    },
+                    {
+                        'name': 'ประวิตร วงษ์สุวรรณ2',
+                        'image': ''
+                    },
+                    {
+                        'name': 'ประวิตร วงษ์สุวรรณ3',
+                        'image': ''
+                    }
+                ]
+            }
+        ]
+
+        return {peoples, parties}
+    },
   data() {
     return {
       province: this.$route.params.province,
@@ -131,6 +171,7 @@ export default {
   },
   components: {
     PeopleCard,
+    PartyCard,
     ElectionHeader,
     ElectionBottom,
     ElectionFooter,
