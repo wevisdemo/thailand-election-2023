@@ -186,5 +186,6 @@ export default {
 	border-radius: 5px;
 	padding: 8px 20px;
 	color: #000000;
+	background: white;
 }
 </style>

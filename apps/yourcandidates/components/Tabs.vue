@@ -65,18 +65,30 @@ export default {
   font-weight: 700;
   padding: 10px;
   cursor: pointer;
-  border-width: 0px 0px 3px 0px;
-  border-color: transparent transparent var(--color-black) transparent;
-  border-radius: 0px;
   flex-grow: 1;
   text-align: center;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0px 0px 3px 0px;
+    border-color: transparent transparent var(--color-black) transparent;
+    border-radius: 0px;
+  }
 }
 
 .tabs-nav li.active {
-  border-width: 3px 3px 0px 3px;
-  border-style: solid;
-  border-color: var(--color-black);
-  border-radius: 10px 10px 0px 0px;
+  &::before {
+    border-width: 3px 3px 0px 3px;
+    border-style: solid;
+    border-color: var(--color-black);
+    border-radius: 10px 10px 0px 0px;
+  }
 }
 
 .tabs-content {
