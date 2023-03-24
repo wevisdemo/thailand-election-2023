@@ -3,6 +3,7 @@ import { SortAsc, SortDesc } from '../util/action'
 import { Information, Shuffle } from '../util/icon-main'
 import InfoDialog from './first-chart/InfoDialog'
 import SearchBusinessType from './SearchBusinessType'
+import SearchParty from './SearchParty'
 
 export type SelectedFilterType = {
   dataSet: string | 'ผู้สมัคร 66',
@@ -27,6 +28,8 @@ const SelectedFilterButton = ({ wording, onClick }: { wording: string | React.Re
 const Filter = ({ selectedFilter, onOpenSeachDialog }: Props) => {
   const [isOpenInfoDialog, setIsOpenInfoDialog] = React.useState(false)
   const [isOpenSearchBusinessType, setIsOpenSearchBusinessType] = React.useState(false)
+  const [isOpenSearchParty, setIsOpenSearchParty] = React.useState(false)
+
 
   return (
     <div className='flex flex-col gap-y-[5px]  py-[5px]'>
@@ -67,11 +70,12 @@ const Filter = ({ selectedFilter, onOpenSeachDialog }: Props) => {
           <div>จาก</div>
           <SelectedFilterButton wording={selectedFilter.businessType} onClick={() => setIsOpenSearchBusinessType(true)} />
           <div>จาก</div>
-          <SelectedFilterButton wording={selectedFilter.party} />
+          <SelectedFilterButton wording={selectedFilter.party} onClick={() => setIsOpenSearchParty(true)} />
         </div>
       </div>
       <InfoDialog open={isOpenInfoDialog} onClose={() => setIsOpenInfoDialog(false)} />
       <SearchBusinessType open={isOpenSearchBusinessType} onClose={() => setIsOpenSearchBusinessType(false)} />
+      <SearchParty open={isOpenSearchParty} onClose={() => setIsOpenSearchParty(false)} />
     </div>
   )
 }

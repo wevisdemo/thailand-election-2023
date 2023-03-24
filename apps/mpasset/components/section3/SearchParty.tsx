@@ -1,3 +1,4 @@
+import { Party } from '@thailand-election-2023/database'
 import React from 'react'
 import { BusinessType, BusinessTypeData } from '../../models/business'
 import { usePersonStore } from '../../store/person'
@@ -8,26 +9,24 @@ type Props = {
   onClose: Function
 }
 
-const SearchBusinessType = ({ open, onClose }: Props) => {
+const SearchParty = ({ open, onClose }: Props) => {
+  const { party, setSelectedParty } = usePersonStore()
   const [searchTerm, setSearchTerm] = React.useState("")
-  const [searchResult, setSearchResult] = React.useState<BusinessType[]>(BusinessTypeData)
-
-  const { setSelectedBusinessType } = usePersonStore()
+  const [searchResult, setSearchResult] = React.useState<Party[]>(party)
 
   React.useEffect(() => {
     if (searchTerm !== "" && BusinessTypeData.length > 0) {
-      const result = BusinessTypeData.filter((data) => data.name.includes(searchTerm))
+      const result = party.filter((data) => data.Name.includes(searchTerm))
       if (typeof result === "object")
         setSearchResult(result)
     } else {
-      setSearchResult(BusinessTypeData)
+      setSearchResult(party)
     }
-  }, [searchTerm])
+  }, [searchTerm, party])
 
   return (
     <div className={`absolute inset-0 overflow-x-hidden overflow-y-scroll 
-      bg-white z-30
-      flex flex-col
+      bg-white z-30 flex flex-col
       ${open ? 'visible opacity-100' : 'hidden opacity-0'} transition-all`}>
       <div>
         <div className='flex flex-row items-center px-[10px] gap-x-[8px] py-[5px]'>
@@ -40,7 +39,7 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
             <input type='text'
               className=' border-transparent focus:border-transparent focus:ring-0 p-0 flex-grow
               typo-ibmplex typo-b5 leading-[150%]'
-              placeholder='ค้นหาหมวดธุรกิจ'
+              placeholder='ค้นหาพรรคการเมือง'
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)} />
             <svg width={19} height={21} viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,29 +48,25 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
             </svg>
           </div>
         </div>
+        <div className='px-[10px] py-[5px] typo-b7 leading-[150%] typo-ibmplex text-right text-gray-3'>
+          *แสดงสีพรรคเฉพาะพรรคที่อยู่ในสภาสมัยล่าสุด
+        </div>
       </div>
       <div className='flex flex-col divide-y-2 divide-gray-3 divide-dashed h-full overflow-scroll'>
         {searchResult.length > 0 ? searchResult.map((data) => (
-          <button key={`search-result-${data.code}`}
+          <button key={`search-result-party-${data.Name}`}
             className=" w-full text-left py-[16px] px-[20px]
             relative"
-            onClick={() => { setSelectedBusinessType(data); onClose() }}
+            onClick={() => { setSelectedParty(data); onClose() }}
           >
-            {data.code !== 'all' &&
-              <div className={`absolute inset-0 -z-10 bg-highlight-1`} style={{ width: `${data.percentage || Math.random() * 100}%` }} />
-            }
             <div className=' flex flex-row justify-between '>
               <div className='flex flex-row'>
-                {data.icon}
+                <div className='w-[20px] h-[20px] rounded-full bg-center bg-contain' style={{ backgroundImage: `url(${data.Images && data.Images[0].url})` }} />
                 <div className='typo-b4 typo-ibmplex leading-[150%] ml-[12px]'>
-                  {data.name}
+                  {data.Name}
                 </div>
               </div>
-              {data.code !== 'all' &&
-                <div>
-                  {'xx'}
-                </div>
-              }
+              <div className='w-[20px] h-[20px] rounded-full' style={{ backgroundColor: `${data.Name !== 'ทุกพรรค' && (data.Name !== 'ไม่สังกัดพรรค' ? (data.IsActive ? '#F41724' : '#9A948C') : '#000000')}` }} />
             </div>
           </button>
         )) :
@@ -89,4 +84,4 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
   )
 }
 
-export default SearchBusinessType
+export default SearchParty
