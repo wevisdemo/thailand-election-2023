@@ -12,7 +12,10 @@ export default function Home() {
         <div className='snap-center shrink-0 w-screen h-header'><Section3 /></div>
         <div className='snap-center shrink-0 w-screen h-header'>
           <div className='flex flex-col justify-end'>
-            <election-bottom></election-bottom>
+            <election-bottom
+              index-path="/mpasset"
+              about-path="/mpasset/about"
+            ></election-bottom>
             <election-footer></election-footer>
           </div>
         </div>
