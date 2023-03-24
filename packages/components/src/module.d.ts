@@ -6,6 +6,7 @@ declare global {
 			'election-header': any;
 			'election-bottom': any;
 			'election-footer': any;
+			'election-cookie': any;
 		}
 	}
 }
