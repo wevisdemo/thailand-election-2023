@@ -91,7 +91,7 @@ export default {
       type: Function,
       default: () => {},
     },
-    saveAnswer: {
+    countMatchVote: {
       type: Function,
       default: () => {},
     },
@@ -146,11 +146,9 @@ export default {
   methods: {
     selectAnswer(answer) {
       this.answer_selected = answer
-      this.saveAnswer({
-        no: this.quiz_no,
-        your_answer: answer,
-        mp_answer: 'เห็นด้วย',
-      })
+      if (answer === this.mp_answer) {
+        this.countMatchVote()
+      }
     },
   },
   computed: {

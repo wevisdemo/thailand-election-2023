@@ -1,12 +1,45 @@
 <template>
   <div>
     <div class="header">
-      <p class="typo-b4"><b>คุณและ ส.ส. กรณิศ</b></p>
+      <p class="typo-b4">
+        <b>
+          คุณและ ส.ส.
+          <span :class="{ 'old-mp': isTwoMp }">
+            {{ mp_1 }}{{ isTwoMp ? '/' : '' }}
+          </span>
+          <span v-if="isTwoMp">{{ mp_2 }}</span>
+        </b>
+      </p>
       <p class="typo-h3">
-        <b>ใจตรงกัน 50%</b>
+        <b>ใจตรงกัน {{ match_percentage }}</b>
       </p>
     </div>
-    <div class="match-img"></div>
+    <div class="match-img">
+      <div class="user-img-wrap">
+        <div class="heart">
+          <img :src="heart" alt="" />
+        </div>
+        <div class="user-icon">
+          <img :src="user" alt="user" />
+        </div>
+      </div>
+      <div v-if="match_vote < 10" class="cross-wrap">
+        <div v-for="i in getNumberOfCross" :key="`cross${i}`" class="cross">
+          <img :src="cross" alt="" />
+        </div>
+      </div>
+      <div class="mp-img-wrap">
+        <div class="heart">
+          <img :src="heart" alt="" />
+        </div>
+        <div class="mp-icon" :class="{ 'mp-icon-old': isTwoMp }">
+          <img :src="mp_data[0].Images[0].url" alt="user" />
+        </div>
+        <div v-if="isTwoMp" class="mp-icon mp-icon-new">
+          <img :src="mp_data[1].Images[0].url" alt="user" />
+        </div>
+      </div>
+    </div>
     <div class="text-wrap">
       <p class="typo-b4 text">
         แม้ประเด็นที่เราคัดเลือกมาให้โหวต
@@ -26,18 +59,112 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    match_vote: {
+      type: Number,
+      default: 0,
+    },
+    mp_data: {
+      type: Array,
+      default: () => [],
+    },
+  },
+  data() {
+    return {
+      match_percentage: '',
+      mp_1: '',
+      mp_2: '',
+      user: require('~/assets/images/user.svg'),
+      heart: require('~/assets/images/heart.svg'),
+      cross: require('~/assets/images/cross.svg'),
+    }
+  },
+  mounted() {
+    this.match_percentage = `${(this.match_vote / 10) * 100}%`
+
+    this.mp_1 = this.mp_data[0].Name.split(' ')[0]
+    if (this.isTwoMp) {
+      this.mp_2 = this.mp_data[1].Name.split(' ')[0]
+    }
+  },
+  computed: {
+    getNumberOfCross() {
+      return 10 - this.match_vote
+    },
+    isTwoMp() {
+      return this.mp_data.length > 1
+    },
+  },
+}
 </script>
 
 <style lang="scss" scoped>
 .header {
   text-align: center;
   padding-top: 60px;
+  .old-mp {
+    color: var(--color-gray-3);
+  }
+  span {
+    display: inline-block;
+    &:nth-child(2) {
+      margin-left: -5px;
+    }
+  }
 }
 .match-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 90px;
   padding: 20px 0;
   margin: 20px 0;
+  .user-img-wrap,
+  .mp-img-wrap {
+    position: relative;
+    .heart {
+      position: absolute;
+      top: 50%;
+      z-index: 1;
+    }
+    .user-icon {
+      width: 50px;
+      height: 50px;
+    }
+    .mp-icon {
+      width: 50px;
+      border-radius: 50px;
+      overflow: hidden;
+      &.mp-icon-old {
+        transform: translateY(20%);
+        opacity: 0.4;
+      }
+      &.mp-icon-new {
+        transform: translateY(-20%);
+      }
+    }
+  }
+  .user-img-wrap {
+    .heart {
+      right: 0;
+      transform: translate(50%, -50%);
+    }
+  }
+  .mp-img-wrap {
+    .heart {
+      left: 0;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .cross-wrap {
+    display: flex;
+    gap: 10px;
+    padding: 0 15px;
+    .cross {
+      width: 5px;
+    }
+  }
 }
 .text-wrap {
   text-align: center;
@@ -49,6 +176,7 @@ export default {}
 .btn-wrap {
   display: flex;
   gap: 15px;
+  padding-top: 10px;
   @include tablet {
     flex-direction: column;
   }

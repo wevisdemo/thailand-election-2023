@@ -75,11 +75,11 @@
         :quiz_data="getVoteLog"
         :mp_data="mp_data"
         :nextQuiz="nextQuiz"
-        :saveAnswer="saveAnswer"
+        :countMatchVote="countMatchVote"
       />
     </div>
     <div v-else>
-      <QuizResult />
+      <QuizResult :match_vote="match_vote" :mp_data="mp_data" />
     </div>
   </div>
 </template>
@@ -97,10 +97,10 @@ export default {
       value: '',
       vote_log: [],
       active_quiz_no: 0,
-      answer_log: [],
       locations: [],
       mp_data: [],
       district: '',
+      match_vote: 0,
     }
   },
   async mounted() {
@@ -153,8 +153,8 @@ export default {
       document.body.scrollTop = 0
       document.documentElement.scrollTop = 0
     },
-    saveAnswer(value) {
-      this.answer_log.push(value)
+    countMatchVote() {
+      this.match_vote = this.match_vote + 1
     },
   },
 }
