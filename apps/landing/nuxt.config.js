@@ -1,7 +1,4 @@
-const base_url =
-  process.env.NODE_ENV === 'production'
-    ? 'https://election66.wevis.info/'
-    : 'https://staging.election66.wevis.info/'
+const prod_url = 'https://election66.wevis.info/'
 const title = 'เปิดข้อมูลที่ต้องรู้ ก่อนเปิดคูหา'
 const description =
   'รวมข้อมูลการเมืองและการเลือกตั้ง โดยประชาชนผู้มีหวังในประชาธิปไตย'
@@ -48,12 +45,12 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: base_url + 'main_page_og.png',
+        content: prod_url + 'main_page_og.png',
       },
       {
         hid: 'og:url',
         property: 'og:url',
-        content: base_url,
+        content: prod_url,
       },
       {
         hid: 'twitter:title',
@@ -73,12 +70,12 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image:src',
-        content: base_url + 'main_page_og.png',
+        content: prod_url + 'main_page_og.png',
       },
       {
         hid: 'twitter:url',
         property: 'twitter:url',
-        content: base_url,
+        content: prod_url,
       },
     ],
     link: [
