@@ -199,5 +199,8 @@ export default {
   @include tablet {
     flex-direction: column;
   }
+  @include mobile {
+    padding-top: 0;
+  }
 }
 </style>

@@ -3,7 +3,10 @@
     <election-header></election-header>
     <div
       class="page-container"
-      :class="{ 'set-min-height': active_quiz_no > 0 && active_quiz_no < 10 }"
+      :class="{
+        'set-min-height-to-quiz': active_quiz_no > 0 && active_quiz_no <= 10,
+        'set-min-height-to-result-quiz': active_quiz_no > 10,
+      }"
     >
       <div v-if="active_quiz_no === 0">
         <div class="cover-section">
@@ -185,10 +188,18 @@ export default {
   @include small-mobile {
     width: 90vw;
   }
-  &.set-min-height {
+  &.set-min-height-to-quiz {
     min-height: calc(100vh - 58px - 70px); //100vh - header - footer
     @include mobile {
       min-height: calc(100vh - 42px - 46px);
+    }
+  }
+  &.set-min-height-to-result-quiz {
+    min-height: calc(
+      100vh - 58px - 250.5px - 70px
+    ); //100vh - header - bottom - footer
+    @include mobile {
+      min-height: unset;
     }
   }
 }
