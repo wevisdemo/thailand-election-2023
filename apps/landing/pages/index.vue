@@ -2,6 +2,7 @@
   <div class="main-container">
     <election-header></election-header>
     <div class="cover-section">
+      <div class="loading-container" />
       <div class="container">
         <div class="logo-wrap">
           <img :src="logo" alt="wevis election 66 logo" />
@@ -171,6 +172,11 @@ export default {
   async mounted() {
     import('@thailand-election-2023/components')
 
+    document.body.style.overflow = 'hidden'
+    setTimeout(() => {
+      document.body.style.overflow = 'unset'
+    }, 1500)
+
     const election_day = dayjs(this.election_day)
     const current_time = dayjs(dayjs().format('YYYY-MM-DD HH:mm:s'))
     const diff_days = election_day.diff(current_time, 'day')
@@ -217,6 +223,25 @@ export default {
   justify-content: center;
   padding: 40px 0 60px;
   overflow-x: hidden;
+  .loading-container {
+    position: absolute;
+    inset: 0;
+    z-index: 100;
+    background: var(--color-white);
+    animation: fade-out 3s ease-in forwards;
+    pointer-events: none;
+    @keyframes fade-out {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  }
   .logo-wrap {
     width: 500px;
     @include mobile {

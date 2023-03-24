@@ -126,4 +126,9 @@ export default {
       ignoredElements: [/election-\w*/],
     },
   },
+
+  loadingIndicator: {
+    color: '#00eaa4',
+    background: '#fff',
+  },
 }
