@@ -117,25 +117,37 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90px;
-  padding: 20px 0;
-  margin: 20px 0;
+  padding: 50px 0;
+  @include mobile {
+    padding: 40px 0;
+  }
   .user-img-wrap,
   .mp-img-wrap {
     position: relative;
     .heart {
+      width: 34px;
       position: absolute;
       top: 50%;
       z-index: 1;
+      @include mobile {
+        width: 23px;
+      }
     }
     .user-icon {
-      width: 50px;
-      height: 50px;
+      width: 75px;
+      height: 75px;
+      @include mobile {
+        width: 50px;
+        height: 50px;
+      }
     }
     .mp-icon {
-      width: 50px;
+      width: 75px;
       border-radius: 50px;
       overflow: hidden;
+      @include mobile {
+        width: 50px;
+      }
       &.mp-icon-old {
         transform: translateY(20%);
         opacity: 0.4;
@@ -159,10 +171,17 @@ export default {
   }
   .cross-wrap {
     display: flex;
-    gap: 10px;
-    padding: 0 15px;
+    gap: 15px;
+    padding: 0 22.5px;
+    @include mobile {
+      gap: 10px;
+      padding: 0 15px;
+    }
     .cross {
-      width: 5px;
+      width: 7.5px;
+      @include mobile {
+        width: 5px;
+      }
     }
   }
 }
