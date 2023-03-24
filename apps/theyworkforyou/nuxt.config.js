@@ -63,4 +63,10 @@ export default {
   router: {
     base: '/theyworkforyou/',
   },
+
+  vue: {
+    config: {
+      ignoredElements: [/election-\w*/],
+    },
+  },
 }

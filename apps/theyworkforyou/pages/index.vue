@@ -1,86 +1,96 @@
 <template>
-  <div class="page-container">
-    <div v-if="active_quiz_no === 0">
-      <div class="cover-section">
-        <p class="typo-h7 title">They Work for You?</p>
-        <p class="typo-h2 head">
-          <b>
-            ส.ส. เขตบ้าน <br />
-            ทำงานตรงกับใจคุณแค่ไหน
-          </b>
-        </p>
-        <div class="img-wrap">
-          <img :src="two_people" alt="" />
-        </div>
-        <div class="intro-wrap">
-          <p class="typo-b4 intro">
-            หน้าที่สำคัญอย่างหนึ่งของ ส.ส. เขต
-            คือการเป็นผู้แทนคนในพื้นที่ไปส่งเสียงในสภา ผ่านการโหวตประเด็นต่างๆ
+  <div class="main-container">
+    <election-header></election-header>
+    <div class="page-container">
+      <div v-if="active_quiz_no === 0">
+        <div class="cover-section">
+          <p class="typo-h7 title">They Work for You?</p>
+          <p class="typo-h2 head">
+            <b>
+              ส.ส. เขตบ้าน <br />
+              ทำงานตรงกับใจคุณแค่ไหน
+            </b>
           </p>
-          <p class="typo-b4 intro">
-            ก่อนการ#เลือกตั้ง66ที่จะถึงนี้ี้
-            เราจึงอยากชวนทุกคนมาตรวจการบ้านในช่วง 4 ปีที่ผ่านมากันหน่อย ว่า ส.ส.
-            เขตบ้านคุณทำหน้าที่นี้ได้ตรงใจแค่ไหน
-          </p>
+          <div class="img-wrap">
+            <img :src="two_people" alt="" />
+          </div>
+          <div class="intro-wrap">
+            <p class="typo-b4 intro">
+              หน้าที่สำคัญอย่างหนึ่งของ ส.ส. เขต
+              คือการเป็นผู้แทนคนในพื้นที่ไปส่งเสียงในสภา ผ่านการโหวตประเด็นต่างๆ
+            </p>
+            <p class="typo-b4 intro">
+              ก่อนการ#เลือกตั้ง66ที่จะถึงนี้ี้
+              เราจึงอยากชวนทุกคนมาตรวจการบ้านในช่วง 4 ปีที่ผ่านมากันหน่อย ว่า
+              ส.ส. เขตบ้านคุณทำหน้าที่นี้ได้ตรงใจแค่ไหน
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="search-section" id="mp-card">
-        <p class="typo-b4 question">
-          <b> ก่อนอื่น คุณอยู่เขต/อำเภออะไร </b>
-        </p>
-        <div class="search-box-container">
-          <div class="search-box-wrap">
-            <el-select
-              v-model="value"
-              filterable
-              default-first-option
-              :reserve-keyword="false"
-              placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
-              popper-class="search-box"
-              @change="updateFilter"
-            >
-              <el-option
-                v-for="(item, index) in locations"
-                :key="item.value"
-                :label="item.label"
-                :value="item.value"
-                class="dropdown-item"
+        <div class="search-section" id="mp-card">
+          <p class="typo-b4 question">
+            <b> ก่อนอื่น คุณอยู่เขต/อำเภออะไร </b>
+          </p>
+          <div class="search-box-container">
+            <div class="search-box-wrap">
+              <el-select
+                v-model="value"
+                filterable
+                default-first-option
+                :reserve-keyword="false"
+                placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
+                popper-class="search-box"
+                @change="updateFilter"
               >
-                <div v-if="index > 0" class="line" />
-                <span>{{ item.label }}</span>
-              </el-option>
-            </el-select>
-            <div class="search-icon">
-              <img :src="search_icon" alt="" />
+                <el-option
+                  v-for="(item, index) in locations"
+                  :key="item.value"
+                  :label="item.label"
+                  :value="item.value"
+                  class="dropdown-item"
+                >
+                  <div v-if="index > 0" class="line" />
+                  <span>{{ item.label }}</span>
+                </el-option>
+              </el-select>
+              <div class="search-icon">
+                <img :src="search_icon" alt="" />
+              </div>
+            </div>
+            <div v-if="value !== ''" class="mp-result-wrap">
+              <p class="title typo-b3">
+                <b>ส.ส. ในเขตของคุณ คือ</b>
+              </p>
+              <MpCard
+                v-if="Object.keys(mp_data).length > 0"
+                @click.native="start"
+                :mp_data="mp_data"
+                :district="district"
+              />
             </div>
           </div>
-          <div v-if="value !== ''" class="mp-result-wrap">
-            <p class="title typo-b3">
-              <b>ส.ส. ในเขตของคุณ คือ</b>
-            </p>
-            <MpCard
-              v-if="Object.keys(mp_data).length > 0"
-              @click.native="start"
-              :mp_data="mp_data"
-              :district="district"
-            />
-          </div>
         </div>
       </div>
+      <div v-else-if="active_quiz_no <= 10">
+        <Quiz
+          v-if="Object.keys(mp_data).length > 0"
+          :quiz_no="active_quiz_no"
+          :quiz_data="getVoteLog"
+          :mp_data="mp_data"
+          :nextQuiz="nextQuiz"
+          :countMatchVote="countMatchVote"
+        />
+      </div>
+      <div v-else>
+        <QuizResult :match_vote="match_vote" :mp_data="mp_data" />
+      </div>
     </div>
-    <div v-else-if="active_quiz_no <= 10">
-      <Quiz
-        v-if="Object.keys(mp_data).length > 0"
-        :quiz_no="active_quiz_no"
-        :quiz_data="getVoteLog"
-        :mp_data="mp_data"
-        :nextQuiz="nextQuiz"
-        :countMatchVote="countMatchVote"
-      />
-    </div>
-    <div v-else>
-      <QuizResult :match_vote="match_vote" :mp_data="mp_data" />
-    </div>
+    <election-bottom
+      v-if="active_quiz_no === 0 || active_quiz_no > 10"
+      index-path="/theyworkforyou"
+      about-path="/theyworkforyou/about"
+    ></election-bottom>
+
+    <election-footer></election-footer>
   </div>
 </template>
 
@@ -104,6 +114,8 @@ export default {
     }
   },
   async mounted() {
+    import('@thailand-election-2023/components')
+
     const vote_id_selected = [45, 54, 88, 137, 168, 184, 185, 186, 221, 262]
     const vote_log = await TheyWorkForUs.VoteLog.fetchAll()
     this.vote_log = vote_log.filter((element) =>
@@ -164,8 +176,12 @@ export default {
 .page-container {
   max-width: 655px;
   margin: 0 auto;
+  min-height: calc(100vh - 58px - 70px); //100vh - header - footer
   @include tablet {
     width: 80vw;
+  }
+  @include mobile {
+    min-height: calc(100vh - 42px - 46px);
   }
   @include small-mobile {
     width: 90vw;
@@ -175,9 +191,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0 20px;
+  padding: 40px 0 20px;
   @include mobile {
-    padding: 90px 0px 0px;
+    padding: 30px 0px 0px;
   }
   .title {
     margin-bottom: 5px;
