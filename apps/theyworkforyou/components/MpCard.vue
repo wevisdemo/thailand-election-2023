@@ -1,27 +1,47 @@
 <template>
   <div class="mp-card-container">
     <div class="header-container">
-      <p class="typo-b5"><b> สมุทรปราการ เขตเลือกตั้งที่ 4</b></p>
-      <p class="typo-b6">เขตบางบอน • เขตหนองแขม เฉพาะ แขวงหนองแขม</p>
+      <p class="typo-b5">
+        <b>
+          {{ first_data.MpProvince }} เขตเลือกตั้งที่ {{ first_data.MpZone }}</b
+        >
+      </p>
+      <p class="typo-b6">เขต {{ district }}</p>
     </div>
     <div class="mp-info-container">
       <div class="mp-info-wrap">
-        <div class="mp-info">
+        <div class="mp-info" :class="{ fade: has_changed }">
           <div class="img-wrap">
-            <!-- <img src="" alt=""> -->
+            <img
+              :src="first_data.Images[0].url"
+              :alt="first_data.Images[0].title"
+            />
           </div>
-          <p class="name typo-h7"><b>นาง กรณิศ งามสุคนธ์รัตนา</b></p>
-          <p class="party typo-b5">พรรคพลังประชารัฐ</p>
+          <p class="name typo-h7">
+            <b>{{ first_data.Title }} {{ first_data.Name }}</b>
+          </p>
+          <p class="party typo-b5">
+            พรรค{{ first_data.PeoplePartyHistory[0].Party.Name }}
+          </p>
         </div>
-        <p v-if="false" class="retire typo-b6"><b>พ้นจากตำแหน่ง</b></p>
+        <p v-if="has_changed" class="retire typo-b6">
+          <b>พ้นจากตำแหน่ง</b>
+        </p>
       </div>
-      <div v-if="false" class="mp-info-wrap">
+      <div v-if="has_changed" class="mp-info-wrap">
         <div class="mp-info">
           <div class="img-wrap">
-            <!-- <img src="" alt=""> -->
+            <img
+              :src="second_data.Images[0].url"
+              :alt="second_data.Images[0].title"
+            />
           </div>
-          <p class="name typo-h7"><b>นาง กรณิศ งามสุคนธ์รัตนา</b></p>
-          <p class="party typo-b5">พรรคพลังประชารัฐ</p>
+          <p class="name typo-h7">
+            <b>{{ second_data.Title }} {{ second_data.Name }}</b>
+          </p>
+          <p class="party typo-b5">
+            พรรค{{ second_data.PeoplePartyHistory[0].Party.Name }}
+          </p>
         </div>
       </div>
     </div>
@@ -36,10 +56,31 @@
 
 <script>
 export default {
+  props: {
+    mp_data: {
+      type: Array,
+      default: () => [],
+    },
+    district: {
+      type: String,
+      default: '',
+    },
+  },
   data() {
     return {
       arrow: require('~/assets/images/icons/arrow.svg'),
     }
+  },
+  computed: {
+    first_data() {
+      return this.mp_data[0]
+    },
+    second_data() {
+      return this.mp_data[1]
+    },
+    has_changed() {
+      return this.mp_data.length > 1
+    },
   },
 }
 </script>
@@ -85,6 +126,7 @@ export default {
       border-radius: 50%;
       border: 1px solid var(--color-black);
       margin-bottom: 10px;
+      overflow: hidden;
     }
     .retire {
       color: var(--color-red);

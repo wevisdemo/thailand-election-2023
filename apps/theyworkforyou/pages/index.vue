@@ -58,15 +58,22 @@
             <p class="title typo-b3">
               <b>ส.ส. ในเขตของคุณ คือ</b>
             </p>
-            <MpCard @click.native="start" />
+            <MpCard
+              v-if="Object.keys(mp_data).length > 0"
+              @click.native="start"
+              :mp_data="mp_data"
+              :district="district"
+            />
           </div>
         </div>
       </div>
     </div>
     <div v-else-if="active_quiz_no <= 10">
       <Quiz
-        :no="active_quiz_no"
-        :data="getVoteLog"
+        v-if="Object.keys(mp_data).length > 0"
+        :quiz_no="active_quiz_no"
+        :quiz_data="getVoteLog"
+        :mp_data="mp_data"
         :nextQuiz="nextQuiz"
         :saveAnswer="saveAnswer"
       />
@@ -80,6 +87,7 @@
 <script>
 import { TheyWorkForUs } from '@thailand-election-2023/database'
 import location_data from '~/static/data/locations.json'
+import zone_data from '~/static/data/zones.json'
 
 export default {
   data() {
@@ -91,6 +99,8 @@ export default {
       active_quiz_no: 0,
       answer_log: [],
       locations: [],
+      mp_data: [],
+      district: '',
     }
   },
   async mounted() {
@@ -99,6 +109,7 @@ export default {
     this.vote_log = vote_log.filter((element) =>
       vote_id_selected.includes(element.Id)
     )
+
     this.locations = location_data
   },
   computed: {
@@ -107,7 +118,20 @@ export default {
     },
   },
   methods: {
-    updateFilter() {
+    async updateFilter() {
+      const split = this.value.split(' ')
+      const district = split[1]
+      const province = split[0]
+      const zone = zone_data.find(
+        (z) => z.province === province && z.areas.includes(district)
+      ).zone
+      this.district = district
+
+      const people = await TheyWorkForUs.People.fetch({
+        where: `(MpProvince,eq,${province})~and(MpZone,eq,${zone})`,
+      })
+      this.mp_data = people.list
+
       const element = document.getElementById('mp-card')
       setTimeout(() => {
         element.scrollIntoView({
@@ -115,7 +139,7 @@ export default {
           block: 'end',
           inline: 'end',
         })
-      }, 0)
+      }, 100)
     },
     start() {
       this.scrollToTop()

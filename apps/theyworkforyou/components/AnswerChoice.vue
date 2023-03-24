@@ -4,19 +4,34 @@
     @mouseover="mouseOver"
     @mouseout="mouseOut"
     :class="{
-      selected: answer_selected === text,
-      unselected: answer_selected !== text,
+      selected:
+        answer_selected === text || (answer_selected && mp_answer === text),
+      unselected: answer_selected !== text && mp_answer !== text,
     }"
     :style="{ '--color': getColor }"
   >
-    <div class="vote-icon">
-      <IconsApprove v-if="choice_id === 'approve'" :color="getColor" />
-      <IconsDisprove v-if="choice_id === 'disprove'" :color="getColor" />
-      <IconsAbstained v-if="choice_id === 'abstained'" :color="getColor" />
+    <div class="choice-wrap">
+      <div class="vote-icon">
+        <IconsApprove v-if="choice_id === 'approve'" :color="getColor" />
+        <IconsDisprove v-if="choice_id === 'disprove'" :color="getColor" />
+        <IconsAbstained v-if="choice_id === 'abstained'" :color="getColor" />
+      </div>
+      <p class="typo-b4">
+        <b>{{ text }}</b>
+      </p>
     </div>
-    <p class="typo-b4">
-      <b>{{ text }}</b>
-    </p>
+    <div class="img-wrap" :style="{ opacity: answer_selected ? 1 : 0 }">
+      <div
+        v-if="answer_selected === text"
+        class="user-icon"
+        :class="{ 'same-choice': answer_selected === mp_answer }"
+      >
+        <img :src="user" alt="user" />
+      </div>
+      <div v-if="mp_answer === text" class="mp-icon">
+        <img :src="mp_image" alt="" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -31,7 +46,15 @@ export default {
       type: String,
       default: '',
     },
+    mp_answer: {
+      type: String,
+      default: '',
+    },
     answer_selected: {
+      type: String,
+      default: '',
+    },
+    mp_image: {
       type: String,
       default: '',
     },
@@ -39,6 +62,7 @@ export default {
   data() {
     return {
       hover: false,
+      user: require('~/assets/images/user.svg'),
     }
   },
   computed: {
@@ -50,6 +74,7 @@ export default {
       } else {
         return '#090909' // black
       }
+      // (this.mp_answer && this.answer_selected)
     },
   },
   methods: {
@@ -65,9 +90,11 @@ export default {
 
 <style lang="scss" scoped>
 .choice-btn {
+  height: 50px;
   display: flex;
   align-items: center;
-  padding: 13px 18px;
+  justify-content: space-between;
+  padding: 0 18px;
   background: var(--color-white);
   border: 3px solid var(--color-black);
   border-radius: 30px;
@@ -85,8 +112,35 @@ export default {
     border-color: var(--color);
   }
 }
-.vote-icon {
-  width: 20px;
-  margin-right: 5px;
+.choice-wrap {
+  display: flex;
+  align-items: center;
+  .vote-icon {
+    width: 20px;
+    margin-right: 5px;
+  }
+}
+.img-wrap {
+  position: relative;
+  display: flex;
+  .user-icon,
+  .mp-icon {
+    width: 30px;
+  }
+  .user-icon {
+    &.same-choice {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-70%);
+    }
+  }
+  .mp-icon {
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
+    border: 1px solid var(--color-white);
+    overflow: hidden;
+  }
 }
 </style>
