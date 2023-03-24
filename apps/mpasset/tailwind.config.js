@@ -11,6 +11,18 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			screens: {
+				tablet: '640px',
+				// => @media (min-width: 640px) { ... }
+				'cus-tablet': '700px',
+
+				laptop: '1024px',
+				// => @media (min-width: 1024px) { ... }
+
+				desktop: '1280px',
+				// => @media (min-width: 1280px) { ... }
+				'xxl-desktop': '1480px',
+			},
 			colors: {
 				/* Color styles */
 				'party-01': '#FFEC3F',
