@@ -55,7 +55,8 @@ module.exports = {
 				'large-shadow': '0px 16px 48px rgba(0, 0, 0, 0.18)',
 			},
 			height: {
-				header: 'calc(100vh - 58px)',
+				header: 'calc(100vh - 42px)',
+				'tablet-header': 'calc(100vh - 58px)',
 			},
 		},
 	},
