@@ -62,7 +62,11 @@
         :style="{ 'pointer-events': answer_selected === '' ? 'auto' : 'none' }"
       />
     </div>
-    <div class="next-btn" @click="nextQuiz">
+    <div
+      class="next-btn"
+      :class="answer_selected ? 'show' : 'hide'"
+      @click="nextQuiz"
+    >
       <div class="arrow">
         <img :src="arrow" alt="arrow" />
       </div>
@@ -248,6 +252,13 @@ export default {
   cursor: pointer;
   .arrow {
     width: 24px;
+  }
+  &.show {
+    opacity: 1;
+  }
+  &.hide {
+    opacity: 0;
+    pointer-events: none;
   }
 }
 </style>
