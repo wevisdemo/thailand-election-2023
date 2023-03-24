@@ -1,4 +1,7 @@
-const base_url = 'https://staging.election66.wevis.info/'
+const base_url =
+  process.env.NODE_ENV === 'development'
+    ? 'https://staging.election66.wevis.info/'
+    : 'https://election66.wevis.info/'
 const title = 'เปิดข้อมูลที่ต้องรู้ ก่อนเปิดคูหา'
 const description =
   'รวมข้อมูลการเมืองและการเลือกตั้ง โดยประชาชนผู้มีหวังในประชาธิปไตย'
