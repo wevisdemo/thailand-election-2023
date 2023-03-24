@@ -1,7 +1,10 @@
 <template>
   <div class="main-container">
     <election-header></election-header>
-    <div class="page-container">
+    <div
+      class="page-container"
+      :class="{ 'set-min-height': active_quiz_no > 0 && active_quiz_no < 10 }"
+    >
       <div v-if="active_quiz_no === 0">
         <div class="cover-section">
           <p class="typo-h7 title">They Work for You?</p>
@@ -176,15 +179,17 @@ export default {
 .page-container {
   max-width: 655px;
   margin: 0 auto;
-  min-height: calc(100vh - 58px - 70px); //100vh - header - footer
   @include tablet {
     width: 80vw;
   }
-  @include mobile {
-    min-height: calc(100vh - 42px - 46px);
-  }
   @include small-mobile {
     width: 90vw;
+  }
+  &.set-min-height {
+    min-height: calc(100vh - 58px - 70px); //100vh - header - footer
+    @include mobile {
+      min-height: calc(100vh - 42px - 46px);
+    }
   }
 }
 .cover-section {
