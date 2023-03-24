@@ -13,7 +13,6 @@ type Props = {}
 const Section3 = (props: Props) => {
   const [filter, setFilter] = React.useState<SelectedFilterType>({
     dataSet: 'ผู้สมัคร 66',
-    domain: 'มูลค่าหุ้น',
     businessType: 'ทุกหมวดธุรกิจ',
     party: 'ทุกพรรค',
     sort: 'สูงสุด',
@@ -49,7 +48,10 @@ const Section3 = (props: Props) => {
         !selectedPerson ?
           <>
             <Filter selectedFilter={filter} onOpenSeachDialog={setIsOpenSearchDialog} />
-            <div className='typo-b7 text-right px-[10px]'>ล้านบาท</div>
+            <div className='flex flex-row justify-between px-[10px]'>
+              <div className='typo-b7 text-gray-3 typo-ibmplex'>*แสดงสีเฉพาะพรรคที่อยู่ในสภาสมัยล่าสุด</div>
+              <div className='typo-b7 text-right'>ล้านบาท</div>
+            </div>
             <FirstChart />
             <SearchPerson open={isOpenSearchDialog} onClose={() => setIsOpenSearchDialog(false)} />
           </>

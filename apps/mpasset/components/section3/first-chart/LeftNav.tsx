@@ -11,10 +11,6 @@ type Props = {
 const LeftNav = ({ width, height, scrollControl }: Props) => {
   const { person, selectedPerson } = usePersonStore()
 
-  console.log('width', width);
-  console.log('height', height);
-
-
   React.useEffect(() => {
     if (person.length > 0) {
       const svg = d3.select('.chart-nav')

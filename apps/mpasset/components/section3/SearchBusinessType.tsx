@@ -1,7 +1,7 @@
-import { Person } from '@thailand-election-2023/database'
 import React from 'react'
-
+import { BusinessType, BusinessTypeData } from '../../models/business'
 import { usePersonStore } from '../../store/person'
+import { LottieNotFound } from '../util/lottie'
 
 type Props = {
   open: boolean
@@ -10,22 +10,24 @@ type Props = {
 
 const SearchPerson = ({ open, onClose }: Props) => {
   const [searchTerm, setSearchTerm] = React.useState("")
-  const [searchResult, setSearchResult] = React.useState<Person[]>([])
+  const [searchResult, setSearchResult] = React.useState<BusinessType[]>(BusinessTypeData)
 
-  const { person, setSelectedPerson } = usePersonStore()
+  const { setSelectedBusinessType } = usePersonStore()
 
   React.useEffect(() => {
-    if (searchTerm !== "" && person.length > 0) {
-      const result = person.filter((data) => data.Name.includes(searchTerm))
+    if (searchTerm !== "" && BusinessTypeData.length > 0) {
+      const result = BusinessTypeData.filter((data) => data.name.includes(searchTerm))
       if (typeof result === "object")
         setSearchResult(result)
+    } else {
+      setSearchResult(BusinessTypeData)
     }
-  }, [searchTerm, person])
+  }, [searchTerm])
 
   return (
     <div className={`absolute inset-0 overflow-x-hidden overflow-y-scroll 
-      bg-white
-      ${open ? 'visible opacity-100' : 'invisible opacity-0'} transition-all`}>
+      bg-white z-30
+      ${open ? 'visible opacity-100' : 'hidden opacity-0'} transition-all`}>
       <div className='flex flex-row items-center px-[10px] gap-x-[8px] py-[5px]'>
         <svg width={20} height={18}
           onClick={() => onClose()}
@@ -36,7 +38,7 @@ const SearchPerson = ({ open, onClose }: Props) => {
           <input type='text'
             className=' border-transparent focus:border-transparent focus:ring-0 p-0 flex-grow
               typo-ibmplex typo-b5 leading-[150%]'
-            placeholder='ค้นหาชื่อนักการเมือง'
+            placeholder='ค้นหาหมวดธุรกิจ'
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)} />
           <svg width={19} height={21} viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,18 +47,40 @@ const SearchPerson = ({ open, onClose }: Props) => {
           </svg>
         </div>
       </div>
-      <div className='flex flex-col divide-y-2 divide-gray-3 divide-dashed'>
-        {searchResult.map((data) => (
-          <button key={`search-result-${data.Id}`}
-            className="py-[5.5px] px-[20px] w-full text-left"
-            onClick={() => { setSelectedPerson(data); onClose() }}
+      <div className='flex flex-col divide-y-2 divide-gray-3 divide-dashed h-header overflow-scroll'>
+        {searchResult.length > 0 ? searchResult.map((data) => (
+          <button key={`search-result-${data.code}`}
+            className=" w-full text-left py-[16px] px-[20px]
+            relative"
+            onClick={() => { setSelectedBusinessType(data); onClose() }}
           >
-            <div className='typo-b4 typo-ibmplex leading-[150%]'>
-              {data.Name}
+            {data.code !== 'all' &&
+              <div className={`absolute inset-0 -z-10 bg-highlight-1`} style={{ width: `${data.percentage || Math.random() * 100}%` }} />
+            }
+            <div className=' flex flex-row justify-between '>
+              <div className='flex flex-row'>
+                {data.icon}
+                <div className='typo-b4 typo-ibmplex leading-[150%] ml-[12px]'>
+                  {data.name}
+                </div>
+              </div>
+              {data.code !== 'all' &&
+                <div>
+                  {'xx'}
+                </div>
+              }
             </div>
-            <div className='typo-b7 typo-ibmplex text-gray-3 leading-[150%]'>{`ส.ส.62 พรรคพลังประชารัฐ, เขต 1 จังหวัดชลบุรี`}</div>
           </button>
-        ))}
+        )) :
+          <div className='flex flex-col justify-center items-center gap-y-[20px]'>
+            <div className='w-[116.57px] h-[138.45px]'></div>
+            <LottieNotFound />
+            <div className='typo-ibmplex text-center'>
+              <div className='typo-b4 '>ไม่พบสิ่งที่ค้นหา</div>
+              <div className='typo-b6'>ลองตรวจสอบตัวสะกด หรือ หาคำใกล้เคียง</div>
+            </div>
+          </div>
+        }
       </div>
     </div>
   )

@@ -1,4 +1,5 @@
 import React from 'react';
+import ClickGuide from '../ClickGuide';
 import LeftNav from './LeftNav';
 import MainNav from './MainNav';
 
@@ -36,7 +37,7 @@ const FirstChart = (props: Props) => {
   }, [chartRef])
 
   return (
-    <div className='w-full h-full flex-grow-1  ' ref={chartRef}>
+    <div className='w-full h-full flex-grow-1  relative' ref={chartRef}>
       <div className='w-full h-full flex flex-row'>
         <div className='w-1/4 h-full'>
           <LeftNav
@@ -48,6 +49,9 @@ const FirstChart = (props: Props) => {
         <div className='w-3/4'>
           <MainNav width={resolution.width * .75} height={resolution.height} onScroll={setMainScroll} />
         </div>
+      </div>
+      <div className='absolute bottom-[10px] inset-x-0'>
+        <ClickGuide />
       </div>
     </div>
   )
