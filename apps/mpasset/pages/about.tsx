@@ -1,25 +1,22 @@
 
 import { useRouter } from 'next/navigation';
-type Props = {}
 
-const About = (props: Props) => {
+const About = () => {
   const router = useRouter();
 
   return (
     <div className='bg-white'>
-
-      <div className='flex flex-row items-center gap-x-[4px] px-[12px] py-[10px]'>
-        <button className='hover:translate-x-1 transition-all'
-          onClick={() => router.back()}>
-          <svg
-            width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10 6.00229C9.61279 6.00229 8.16313 5.76592 7.77778 5.80231C7.15648 5.86099 6.85039 6.07797 6.22222 6.08336C5.18261 6.09228 4.93201 6.10681 3.89892 6.05363C3.66041 6.04136 3.55891 6.02661 3.33333 6.02661C3.56142 6.26053 3.49741 6.54869 3.72865 6.78057C4.59457 7.64889 7.27675 10.1757 6.38759 9.32892C5.72255 8.6956 4.99635 8.10134 4.30471 7.494C3.72001 6.98058 3.07335 6.48546 2.39777 6.08336C2.24099 5.99005 1.84772 5.92705 2.06292 5.80231C2.66754 5.45183 3.26015 5.11307 3.82514 4.70514C4.48991 4.22517 5.17603 3.76555 5.85126 3.2999C5.90459 3.26313 5.98242 3.20969 6.01585 3.15398C6.17108 2.89528 6.54475 2.75736 6.67988 2.5" stroke="#090909" stroke-linecap="round" />
-          </svg>
-        </button>
+      <button className='flex flex-row items-center gap-x-[4px] px-[12px] py-[10px]
+        hover:-translate-x-1 transition-all'
+        onClick={() => router.back()}>
+        <svg
+          width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 6.00229C9.61279 6.00229 8.16313 5.76592 7.77778 5.80231C7.15648 5.86099 6.85039 6.07797 6.22222 6.08336C5.18261 6.09228 4.93201 6.10681 3.89892 6.05363C3.66041 6.04136 3.55891 6.02661 3.33333 6.02661C3.56142 6.26053 3.49741 6.54869 3.72865 6.78057C4.59457 7.64889 7.27675 10.1757 6.38759 9.32892C5.72255 8.6956 4.99635 8.10134 4.30471 7.494C3.72001 6.98058 3.07335 6.48546 2.39777 6.08336C2.24099 5.99005 1.84772 5.92705 2.06292 5.80231C2.66754 5.45183 3.26015 5.11307 3.82514 4.70514C4.48991 4.22517 5.17603 3.76555 5.85126 3.2999C5.90459 3.26313 5.98242 3.20969 6.01585 3.15398C6.17108 2.89528 6.54475 2.75736 6.67988 2.5" stroke="#090909" stroke-linecap="round" />
+        </svg>
         <div className='typo-ibmplex typo-b6 leading-[150%]'>
           กลับไปหน้าแรก
         </div>
-      </div>
+      </button>
       <div className='max-w-[650px] mx-auto'>
         <div className='flex flex-col justify-center items-center py-[78px]
           desktop:py-[62px]'>
@@ -58,7 +55,7 @@ const About = (props: Props) => {
             </div>
             <div className='flex flex-col gap-y-[5px] desktop:gap-y-[10px]'>
               <div className='typo-ibmplex typo-b4 font-bold leading-[140%]'>ประสานงานและจัดการอื่นๆ</div>
-              <div className='typo-ibmplex typo-b4 leading-[150%]'>dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+              <div className='typo-ibmplex typo-b4 leading-[150%]'>dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
             </div>
           </div>
           <div className='flex flex-col gap-y-[15px]'>
