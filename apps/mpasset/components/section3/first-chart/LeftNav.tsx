@@ -38,6 +38,8 @@ const LeftNav = ({ width, height, scrollControl }: Props) => {
 
   React.useEffect(() => {
     if (person.length > 0) {
+      if (scrollControl.scrollHeight === 0 && scrollControl.clientHeight === 0 && scrollControl.scrollTop === 0) return;
+
       const svg = d3.select('.chart-nav')
 
       const yScale = d3.scaleLinear().domain([0, scrollControl.scrollHeight]).range([0, height])
