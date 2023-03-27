@@ -17,8 +17,8 @@
               ทำงานตรงกับใจคุณแค่ไหน
             </b>
           </p>
-          <div class="img-wrap">
-            <img :src="two_people" alt="" />
+          <div class="lottie-wrap">
+            <div id="theyworkforyou-lottie" />
           </div>
           <div class="intro-wrap">
             <p class="typo-b4 intro">
@@ -104,11 +104,11 @@
 import { TheyWorkForUs } from '@thailand-election-2023/database'
 import location_data from '~/static/data/locations.json'
 import zone_data from '~/static/data/zones.json'
+import lottie from 'lottie-web'
 
 export default {
   data() {
     return {
-      two_people: require('~/assets/images/two_people.png'),
       search_icon: require('~/assets/images/icons/search.svg'),
       value: '',
       vote_log: [],
@@ -129,6 +129,13 @@ export default {
     )
 
     this.locations = location_data
+
+    lottie.loadAnimation({
+      name: 'theyworkforyou-lottie',
+      container: document.getElementById('theyworkforyou-lottie'),
+      renderer: 'svg',
+      animationData: require('~/assets/lotties/theywork_quiz.json'),
+    })
   },
   computed: {
     getVoteLog() {
@@ -217,11 +224,16 @@ export default {
   .head {
     text-align: center;
   }
-  .img-wrap {
-    width: 160px;
+  .lottie-wrap {
+    width: 300px;
+    height: 300px;
     margin: 30px 0;
     @include tablet {
       margin: 27px 0;
+    }
+    @include mobile {
+      width: 250px;
+      height: 250px;
     }
   }
   .intro-wrap {
