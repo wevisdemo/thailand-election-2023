@@ -1,7 +1,7 @@
 <template>
   <div class="badge-with-checks__container">
     <span>
-      <IconsCheckMark v-for="i in checkNums" :key="i" />
+      <IconsCheckMark v-for="i in checks" :key="i" />
     </span>
     <slot></slot>
   </div>
@@ -10,7 +10,7 @@
 <script>
 export default {
   props: {
-    checkNums: Number,
+    checks: Number,
     description: String,
   },
 }

@@ -36,6 +36,5 @@ export const getElectorals = (pk) => {
   if (!Array.isArray(pk)) {
     pks = [pk]
   }
-  console.log(pks)
   return pks.map((pk) => electorals[pk])
 }

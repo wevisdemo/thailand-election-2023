@@ -31,11 +31,11 @@
             <b> {{ province }} เขตเลือกตั้งที่ {{ electorateNumber }} </b>
           </div>
           <div
-            v-for="(electorate, i) in electorates"
+            v-for="(district, i) in electorate.district_list"
             :key="i"
             style="padding-left: 8px"
           >
-            <li>{{ electorate }}</li>
+            <li>{{ district }}</li>
           </div>
         </div>
 
@@ -57,12 +57,12 @@
           <div class="tab-header">
             <div class="tab-header__summary">
               <p>ทั้งหมด {{ getNumberPeople() }}</p>
-              <BadgeWithCheck :checkNums="3"
-                ><p>เคยมีตำแหน่งในสภาสมัยล่าสุด <b> 1 คน</b></p></BadgeWithCheck
-              >
+              <BadgeWithCheck :checks="1">
+                <p>เคยมีตำแหน่งในสภาสมัยล่าสุด <b> 1 คน</b></p>
+              </BadgeWithCheck>
             </div>
             <div class="search">
-              <PartySearch />
+              <PartySearch placeholder="ค้นหาด้วยชื่อพรรค" />
             </div>
           </div>
           <div class="candidate-card">
@@ -105,8 +105,15 @@ import {
   ElectionBottom,
   ElectionFooter,
 } from '@thailand-election-2023/components'
-
+import { getElectorals } from '@/helpers/search'
 export default {
+  beforeMount() {
+    const electorate = getElectorals(
+      `${this.$route.params.province}-${this.$route.params.electorate}`
+    )
+    console.log(electorate)
+    if (electorate.length === 1) this.electorate = electorate[0]
+  },
   async asyncData({ params: { province, electorateNumber } }) {
     // const candidates = (await TheyWorkForUs.People.fetch()).list;
     const peoples = [
@@ -193,7 +200,7 @@ export default {
     return {
       province: this.$route.params.province,
       electorateNumber: this.$route.params.electorate,
-      electorates: ['เขตบางบอน', 'เขตหนองแขม เฉพาะ แขวงหนองแขม'],
+      districtelectorate: {},
       openPopup: false,
       tabs: [
         { name: 'tab1', label: '1. เลือกคนที่รัก' },
