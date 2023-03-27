@@ -3,7 +3,7 @@
     <election-header></election-header>
     <div
       v-show="openPopup"
-      class="popup flex flex-col justify-center items-center relative scrollbar-hid"
+      class="popup flex flex-col justify-center items-center relative"
     >
       <div
         class="relative w-4/5 h-4/5 max-w-650 overflow-y-scroll scrollbar-hide"
@@ -55,7 +55,7 @@
       <Tabs :tabs="tabs">
         <div slot="tab1">
             <div>
-                ทั้งหมด 2 คนมั้ง
+                ทั้งหมด <b>{{ getNumberPeople() }} คน</b>
             </div>
             <div class="search">
               <input type="text" />
@@ -70,7 +70,7 @@
         </div>
         <div slot="tab2">
             <div>
-                ทั้งหมด 1 พรรคมั้ง
+                ทั้งหมด <b>{{ getNumberParties() }} พรรค</b> 
             </div>
             <div class="search">
               <input type="text" />
@@ -150,7 +150,7 @@ export default {
                 name: 'พลังประชารัฐ',
                 numberPartyGroup: '1',
                 partyGroup: 'อดีต ส.ส. ฝ่ายรัฐบาล',
-                partyList: [
+                candidate: [
                     {
                         name: 'ประวิตร วงษ์สุวรรณ1',
                         image: ''
@@ -163,6 +163,20 @@ export default {
                         name: 'ประวิตร วงษ์สุวรรณ3',
                         image: ''
                     }
+                ],
+                partyList: [
+                    {
+                      name: 'กฤติเดช สันติวชิระกุล'
+                    },
+                    {
+                      name: 'กฤติเดช สันติวชิระกุล'
+                    },
+                    {
+                      name: 'กฤติเดช สันติวชิระกุล'
+                    },
+                    {
+                      name: 'กฤติเดช สันติวชิระกุล'
+                    },
                 ],
                 policy : 'url compare policy'
             }
@@ -196,6 +210,12 @@ export default {
     closePopup() {
       this.openPopup = false
     },
+    getNumberPeople() {
+      return this.peoples.length
+    },
+    getNumberParties() {
+      return this.parties.length
+    }
   },
 }
 </script>
