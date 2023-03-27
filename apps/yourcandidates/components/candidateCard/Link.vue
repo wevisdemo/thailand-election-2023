@@ -44,7 +44,7 @@ export default{
 
 <style scoped>
 .link-box {
-    border-bottom: 1px solid var(--color-gray-1);
+    border-bottom: 1px solid var(--color-gray-2);
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -52,11 +52,17 @@ export default{
     align-items: center;
     padding: 2px 0px;
     gap: 5px;
-    max-width: 290px;
     max-height: 32px;
     flex: none;
     align-self: stretch;
     flex-grow: 0;
+}
+
+@media (min-width: 770px) {
+    .link-box {
+        max-width: 290px;
+    }
+    
 }
 .sub-box{
     display: flex;

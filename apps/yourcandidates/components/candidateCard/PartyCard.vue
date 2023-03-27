@@ -1,45 +1,63 @@
 <template>
-    <TemplateCard :key="party.number" :candidate="{...party}">
-        <template v-slot:infomation>
-            <div class="info">
-                <div class="candidate-section">
-                    <p style="color: var(--color-gray-3)"> แคนเดตนายก </p>
-                    <div class="party-list"
-                    v-for="primeCandidate in party.partyList">
-                        <IconsProfile v-show="primeCandidate.image === ''" style="width: 30px; height: 30px;"/>
-                        <div v-show="primeCandidate.image !== ''" class="image-prime-candidate">
-                        </div>
-                        <p> {{ primeCandidate.name }} </p>
-                    </div>
+    <div>
+
+        <partyList :partyList="party.partyList" :open="openPopupPartyList" :nameParty="party.name">
+            <template v-slot:close>
+                <div class="absolute right-4 top-0">
+                    <button class="fixed" @click="closePopup()"><IconsClose /></button>
                 </div>
-                <button class="party-list-button">
-                    <IconsPlus/>
-                    <p> ดูบัญชีรายชื่อ </p>
-                </button>
-            </div>
-        </template>
+            </template>
 
-        <template v-slot:linkList>
-            <div>
-                <Link v-for="i in linkInfo" 
-                v-if="party[i]"
-                :type="i"
-                :link= party[i]
-                :key="i"
-                />
-            </div>
-        </template>
+        </partyList>
 
-    </TemplateCard>     
+        <TemplateCard :key="party.number" :candidate="{...party}">
+            <template v-slot:infomation>
+                <div class="info">
+                    <div class="candidate-section">
+                        <p style="color: var(--color-gray-3)"> แคนเดตนายก </p>
+                        <div class="candidate-list"
+                        v-for="candidate in party.candidate" :key="candidate.name">
+                            <IconsProfile v-show="candidate.image === ''" style="width: 30px; height: 30px;"/>
+                            <div v-show="candidate.image !== ''" class="image-prime-candidate">
+                            </div>
+                            <p> {{ candidate.name }} </p>
+                        </div>
+                    </div>
+                    <button class="party-list-button" @click="popupPartylist()">
+                        <IconsPlus/>
+                        <p> ดูบัญชีรายชื่อ </p>
+                    </button>
+                </div>
+            </template>
+    
+            <template v-slot:linkList>
+                <div>
+                    <Link v-for="i in linkInfo" 
+                    v-if="party[i]"
+                    :type="i"
+                    :link= party[i]
+                    :key="i"
+                    />
+                </div>
+            </template>
+    
+        </TemplateCard>     
+    </div>
 </template>
 
 <script>
 import TemplateCard from '@/components/candidateCard/TemplateCard.vue'
 import Link from '@/components/candidateCard/Link.vue';
+import PartyList from '@/components/candidateCard/PartyList.vue';
 export default{
     setup() {
         const linkInfo = ['policy', 'promise', 'law', 'others']
         return {linkInfo}
+    },
+    data() {
+        return {
+            openPopupPartyList: false
+        }
     },
     props: {
         party: {
@@ -49,8 +67,17 @@ export default{
     },
     components: {
         TemplateCard,
-        Link
+        Link,
+        PartyList
     },
+    methods: {
+        popupPartylist() {
+            this.openPopupPartyList = true
+        },
+        closePopup() {
+            this.openPopupPartyList = false
+        },
+    }
 }
 </script>
 
@@ -77,7 +104,7 @@ export default{
     order: 0;
     flex-grow: 0;
 }
-.party-list{
+.candidate-list{
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -3,7 +3,7 @@
     <election-header></election-header>
     <div
       v-show="openPopup"
-      class="popup flex flex-col justify-center items-center relative scrollbar-hid"
+      class="popup flex flex-col justify-center items-center relative"
     >
       <div
         class="relative w-4/5 h-4/5 max-w-650 overflow-y-scroll scrollbar-hide"
@@ -56,7 +56,7 @@
         <div slot="tab1">
           <div class="tab-header">
             <div class="tab-header__summary">
-              <p>ทั้งหมด 2</p>
+              <p>ทั้งหมด {{ getNumberPeople() }}</p>
               <BadgeWithCheck :checkNums="3"
                 ><p>เคยมีตำแหน่งในสภาสมัยล่าสุด <b> 1 คน</b></p></BadgeWithCheck
               >
@@ -74,7 +74,9 @@
           </div>
         </div>
         <div slot="tab2">
-          <div>ทั้งหมด 1 พรรคมั้ง</div>
+          <div>
+            ทั้งหมด <b>{{ getNumberParties() }} พรรค</b>
+          </div>
           <div class="search">
             <input type="text" />
           </div>
@@ -153,7 +155,7 @@ export default {
         name: 'พลังประชารัฐ',
         numberPartyGroup: '1',
         partyGroup: 'อดีต ส.ส. ฝ่ายรัฐบาล',
-        partyList: [
+        candidate: [
           {
             name: 'ประวิตร วงษ์สุวรรณ1',
             image: '',
@@ -165,6 +167,20 @@ export default {
           {
             name: 'ประวิตร วงษ์สุวรรณ3',
             image: '',
+          },
+        ],
+        partyList: [
+          {
+            name: 'กฤติเดช สันติวชิระกุล',
+          },
+          {
+            name: 'กฤติเดช สันติวชิระกุล',
+          },
+          {
+            name: 'กฤติเดช สันติวชิระกุล',
+          },
+          {
+            name: 'กฤติเดช สันติวชิระกุล',
           },
         ],
         policy: 'url compare policy',
@@ -198,6 +214,12 @@ export default {
     },
     closePopup() {
       this.openPopup = false
+    },
+    getNumberPeople() {
+      return this.peoples.length
+    },
+    getNumberParties() {
+      return this.parties.length
     },
   },
 }
