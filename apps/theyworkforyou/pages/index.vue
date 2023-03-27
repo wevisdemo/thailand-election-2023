@@ -87,6 +87,12 @@
         />
       </div>
       <div v-else>
+        <div v-if="result_processing" class="result-processing-container">
+          <p class="typo-b5">ขอประมวลผลสักครู่</p>
+          <div class="processing-lottie-wrap">
+            <div id="processing-lottie" />
+          </div>
+        </div>
         <QuizResult :match_vote="match_vote" :mp_data="mp_data" />
       </div>
     </div>
@@ -117,6 +123,7 @@ export default {
       mp_data: [],
       district: '',
       match_vote: 0,
+      result_processing: false,
     }
   },
   async mounted() {
@@ -173,6 +180,21 @@ export default {
     nextQuiz() {
       this.scrollToTop()
       this.active_quiz_no = this.active_quiz_no + 1
+      if (this.active_quiz_no === 11) {
+        this.result_processing = true
+        setTimeout(() => {
+          lottie.loadAnimation({
+            name: 'processing-lottie',
+            container: document.getElementById('processing-lottie'),
+            renderer: 'svg',
+            animationData: require('~/assets/lotties/theywork_quiz_loading.json'),
+          })
+        }, 0)
+
+        setTimeout(() => {
+          this.result_processing = false
+        }, 3000)
+      }
     },
     scrollToTop() {
       document.body.scrollTop = 0
@@ -284,6 +306,23 @@ export default {
     .title {
       margin: 20px 0 15px;
       text-align: center;
+    }
+  }
+}
+.result-processing-container {
+  position: fixed;
+  inset: 0;
+  background: var(--color-white);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .processing-lottie-wrap {
+    margin-top: 10px;
+    width: 250px;
+    @include mobile {
+      width: 200px;
     }
   }
 }
