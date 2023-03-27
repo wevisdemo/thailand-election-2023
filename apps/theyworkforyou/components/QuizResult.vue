@@ -52,8 +52,16 @@
       </p>
     </div>
     <div class="btn-wrap">
-      <RoundButton text="ดูผลโหวตมติอื่นๆ ของ ส.ส. คนนี้" />
-      <RoundButton text="ดูผู้สมัครทั้งหมดในพื้นที่ของคุณ" />
+      <RoundButton
+        text="ดูผลโหวตมติอื่นๆ ของ ส.ส. คนนี้"
+        :link="getMpLink"
+        class="round-btn-wrap"
+      />
+      <!-- <RoundButton
+        text="ดูผู้สมัครทั้งหมดในพื้นที่ของคุณ"
+        link=""
+        class="round-btn-wrap"
+      /> -->
     </div>
   </div>
 </template>
@@ -94,6 +102,16 @@ export default {
     },
     isTwoMp() {
       return this.mp_data.length > 1
+    },
+    getMpLink() {
+      let full_name = this.mp_data[0].Name.split(' ')
+      if (this.isTwoMp) {
+        full_name = this.mp_data[1].Name.split(' ')
+      }
+
+      const name = full_name[0]
+      const surname = full_name[1]
+      return `https://theyworkforus.wevis.info/people/${name}-${surname}`
     },
   },
 }
@@ -201,6 +219,9 @@ export default {
   }
   @include mobile {
     padding-top: 0;
+  }
+  .round-btn-wrap {
+    flex: 1;
   }
 }
 </style>

@@ -1,18 +1,24 @@
 <template>
-  <div class="button">
-    <p class="typo-b5">
-      <b> {{ text }} </b>
-    </p>
-    <div class="arrow">
-      <img :src="up_right_arrow" alt="up right arrow" />
+  <a :href="link" target="_blank" rel="noopener noreferrer">
+    <div class="button">
+      <p class="typo-b5">
+        <b> {{ text }} </b>
+      </p>
+      <div class="arrow">
+        <img :src="up_right_arrow" alt="up right arrow" />
+      </div>
     </div>
-  </div>
+  </a>
 </template>
 
 <script>
 export default {
   props: {
     text: {
+      type: String,
+      default: '',
+    },
+    link: {
       type: String,
       default: '',
     },
