@@ -1,0 +1,11 @@
+﻿"id","parentId","is_gov"
+"pol","",""
+"AAA","pol",TRUE
+"AAB","pol",TRUE
+"AAC","pol",TRUE
+"AAD","pol",TRUE
+"AAE","pol",TRUE
+"AAF","pol",TRUE
+"AAG","AAA",TRUE
+"AAH","AAA",TRUE
+"AAI","AAA",TRUE
