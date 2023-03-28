@@ -1,10 +1,10 @@
-import { IPolicyCard } from '@/types/components';
+import { Policy } from '@/types/components';
 import { FunctionComponent } from 'react';
 import PolicyCard from './PolicyCard';
 
 interface PropsType {
-	policyList: IPolicyCard[];
-	secondList?: IPolicyCard[]; // if don't want to separate list into 2 section, don not value this prop. It use for compare page.
+	policyList: Policy[];
+	secondList?: Policy[]; // if don't want to separate list into 2 section, don not value this prop. It use for compare page.
 }
 
 const PolicyCardWrapper: FunctionComponent<PropsType> = ({

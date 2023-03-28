@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/router';
-
 import Layout from '@/components/Layout';
 import { TheyWorkForUs } from '@thailand-election-2023/database';
 import { Party } from '@thailand-election-2023/database/src/models/party';
@@ -19,7 +18,7 @@ const Party = () => {
 	}, [name]);
 
 	useEffect(() => {
-		fetchData();
+		if (name) fetchData();
 	}, [name]);
 
 	return (

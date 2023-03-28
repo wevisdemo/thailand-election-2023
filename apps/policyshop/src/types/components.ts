@@ -2,8 +2,11 @@ import { Party } from '@thailand-election-2023/database/src/models/party';
 import { Policy } from '@thailand-election-2023/database/src/models/policy';
 export interface IDropdownOption<T> {
 	label: string;
-	value: T;
+	value?: T;
 }
+
+export type { Policy };
+export type { Party };
 
 export interface IPolicyCard {
 	party_name: string;

@@ -7,6 +7,11 @@ html {
 	@apply bg-gray-1;
 }
 
+ul {
+	list-style: disc !important;
+	padding-left: 25px !important;
+}
+
 @import 'tailwindcss/components';
 
 @import 'tailwindcss/utilities';

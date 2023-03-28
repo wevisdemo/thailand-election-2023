@@ -4,7 +4,7 @@ import { imgPrefix } from '@/utils/path';
 // import '@thailand-election-2023/components';
 
 interface PropsType {
-	title: string;
+	title: string | string[] | undefined;
 	children: ReactNode;
 }
 
