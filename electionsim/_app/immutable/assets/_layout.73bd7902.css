@@ -97,6 +97,33 @@
 		--tw-backdrop-saturate:  ;
 		--tw-backdrop-sepia:  ;
 }
+.fixed {
+		position: fixed;
+}
+.absolute {
+		position: absolute;
+}
+.relative {
+		position: relative;
+}
+.inset-0 {
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+}
+.-top-6 {
+		top: -1.5rem;
+}
+.right-0 {
+		right: 0px;
+}
+.z-10 {
+		z-index: 10;
+}
+.z-20 {
+		z-index: 20;
+}
 .m-auto {
 		margin: auto;
 }
@@ -112,6 +139,9 @@
 		margin-top: 1.25rem;
 		margin-bottom: 1.25rem;
 }
+.-mt-10 {
+		margin-top: -2.5rem;
+}
 .mb-5 {
 		margin-bottom: 1.25rem;
 }
@@ -121,8 +151,14 @@
 .mr-4 {
 		margin-right: 1rem;
 }
+.mr-\[10px\] {
+		margin-right: 10px;
+}
 .mt-1 {
 		margin-top: 0.25rem;
+}
+.mt-10 {
+		margin-top: 2.5rem;
 }
 .mt-2 {
 		margin-top: 0.5rem;
@@ -135,6 +171,9 @@
 }
 .mt-5 {
 		margin-top: 1.25rem;
+}
+.mt-\[10px\] {
+		margin-top: 10px;
 }
 .mt-\[180px\] {
 		margin-top: 180px;
@@ -244,6 +283,9 @@
 .justify-between {
 		justify-content: space-between;
 }
+.gap-y-5 {
+		row-gap: 1.25rem;
+}
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
 		--tw-space-x-reverse: 0;
 		margin-right: calc(0.25rem * var(--tw-space-x-reverse));
@@ -264,8 +306,20 @@
 		margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
 		margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
+.overflow-scroll {
+		overflow: scroll;
+}
 .rounded-full {
 		border-radius: 9999px;
+}
+.rounded-bl-\[20px\] {
+		border-bottom-left-radius: 20px;
+}
+.rounded-br-\[20px\] {
+		border-bottom-right-radius: 20px;
+}
+.rounded-tr-\[20px\] {
+		border-top-right-radius: 20px;
 }
 .border {
 		border-width: 1px;
@@ -322,6 +376,9 @@
 .bg-byx-red {
 		background-color: var(--color-byx-red);
 }
+.bg-gray-3 {
+		background-color: var(--color-gray-3);
+}
 .bg-gray-4 {
 		background-color: var(--color-gray-4);
 }
@@ -332,6 +389,10 @@
 		padding-left: 1rem;
 		padding-right: 1rem;
 }
+.px-5 {
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+}
 .py-10 {
 		padding-top: 2.5rem;
 		padding-bottom: 2.5rem;
@@ -339,6 +400,9 @@
 .py-2 {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
+}
+.pb-10 {
+		padding-bottom: 2.5rem;
 }
 .text-left {
 		text-align: left;
@@ -374,6 +438,9 @@
 .opacity-30 {
 		opacity: 0.3;
 }
+.opacity-50 {
+		opacity: 0.5;
+}
 
 .beyondx-gradient-bg {
 		background-image: linear-gradient(to right, var(--tw-gradient-stops));
@@ -395,6 +462,12 @@
 }
 
 @media (min-width: 768px) {
+		.md\:-right-\[100px\] {
+				right: -100px;
+		}
+		.md\:mt-0 {
+				margin-top: 0px;
+		}
 		.md\:block {
 				display: block;
 		}
