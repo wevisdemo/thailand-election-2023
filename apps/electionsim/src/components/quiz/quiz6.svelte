@@ -1,16 +1,30 @@
 <script lang="ts">
 	import { Content, contentManager } from '../../stores/content';
 	import { input, PollAns } from '../../stores/input';
+	import Quiz6Info from '../infomation/quiz6Info.svelte';
+	import ModalInfo from '../modal.svelte';
 
 	$: ans = $input.input.quiz6;
+	$: isInfoOpen = false;
+
+	const toggleIsInfoOpen = () => (isInfoOpen = !isInfoOpen);
 </script>
+
+{#if isInfoOpen}
+	<ModalInfo>
+		<Quiz6Info toggleModal={toggleIsInfoOpen} />
+	</ModalInfo>
+{/if}
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
 	<p class="typo-h7 text-xl">#6: ความนิยมของพรรค (ต่อ)</p>
 	<h6 class="typo-h6 font-bold">
 		คุณคิดว่าโพลสำนักไหนจะ คาดการณ์คะแนนนิยมของ พรรคได้แม่นยำที่สุด?
 	</h6>
-	<span class="flex items-center space-x-2 cursor-pointer">
+	<span
+		class="flex items-center space-x-2 cursor-pointer"
+		on:click={toggleIsInfoOpen}
+	>
 		<h4 class="typo-b4 text-blue underline text-byx-blue">
 			เรื่องนี้มีผลอย่างไร?
 		</h4>

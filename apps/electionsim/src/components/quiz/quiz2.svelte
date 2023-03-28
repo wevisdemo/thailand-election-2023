@@ -2,10 +2,21 @@
 	import { Content, contentManager } from '../../stores/content';
 	import { ScaleAns, input } from '../../stores/input';
 	import { quiz2ToWord } from '../../utils/mapInputToWord';
+	import Quiz2Info from '../infomation/quiz2Info.svelte';
+	import ModalInfo from '../modal.svelte';
 
 	$: ans = $input.input.quiz2;
 	$: [word, percent] = quiz2ToWord(ans);
+	$: isInfoOpen = false;
+
+	const toggleIsInfoOpen = () => (isInfoOpen = !isInfoOpen);
 </script>
+
+{#if isInfoOpen}
+	<ModalInfo>
+		<Quiz2Info toggleModal={toggleIsInfoOpen} />
+	</ModalInfo>
+{/if}
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
 	<p class="typo-h7 text-xl">#2: การแยกพรรค</p>
@@ -13,7 +24,10 @@
 		คุณคิดว่า คนเคยเลือกพรรค พลังประชารัฐ ทุกๆ 10 คน จะเปลี่ยนใจไปเลือก ส.ส. เขต
 		พรรครวมไทยสร้างชาติ กี่คน?
 	</h6>
-	<span class="flex items-center space-x-2 cursor-pointer">
+	<span
+		class="flex items-center space-x-2 cursor-pointer"
+		on:click={toggleIsInfoOpen}
+	>
 		<h4 class="typo-b4 text-blue underline text-byx-blue">
 			เรื่องนี้มีผลอย่างไร?
 		</h4>

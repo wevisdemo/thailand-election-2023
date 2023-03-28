@@ -2,10 +2,21 @@
 	import { Content, contentManager } from '../../stores/content';
 	import { ScaleAns, input } from '../../stores/input';
 	import { quiz5ToWord } from '../../utils/mapInputToWord';
+	import Quiz5Info from '../infomation/quiz5Info.svelte';
+	import ModalInfo from '../modal.svelte';
 
 	$: ans = $input.input.quiz5;
 	$: [word, percent] = quiz5ToWord(ans);
+	$: isInfoOpen = false;
+
+	const toggleIsInfoOpen = () => (isInfoOpen = !isInfoOpen);
 </script>
+
+{#if isInfoOpen}
+	<ModalInfo>
+		<Quiz5Info toggleModal={toggleIsInfoOpen} />
+	</ModalInfo>
+{/if}
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
 	<p class="typo-h7 text-xl">#5: ความนิยมของพรรค</p>
@@ -13,7 +24,10 @@
 		คุณคิดว่า เมื่อเทียบกับการ เลือกตั้งปี 62 ความนิยมต่อ ส.ส. ของคนไทย เบนไปจาก
 		เดิมหรือไม่? ไปทางฝ่ายใด?
 	</h6>
-	<span class="flex items-center space-x-2 cursor-pointer">
+	<span
+		class="flex items-center space-x-2 cursor-pointer"
+		on:click={toggleIsInfoOpen}
+	>
 		<h4 class="typo-b4 text-blue underline text-byx-blue">
 			เรื่องนี้มีผลอย่างไร?
 		</h4>

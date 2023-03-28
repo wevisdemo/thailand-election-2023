@@ -2,10 +2,21 @@
 	import { Content, contentManager } from '../../stores/content';
 	import { ScaleAns, input } from '../../stores/input';
 	import { quiz3ToWord } from '../../utils/mapInputToWord';
+	import Quiz3Info from '../infomation/quiz3Info.svelte';
+	import ModalInfo from '../modal.svelte';
 
 	$: ans = $input.input.quiz3;
 	$: [word, percent] = quiz3ToWord(ans);
+	$: isInfoOpen = false;
+
+	const toggleIsInfoOpen = () => (isInfoOpen = !isInfoOpen);
 </script>
+
+{#if isInfoOpen}
+	<ModalInfo>
+		<Quiz3Info toggleModal={toggleIsInfoOpen} />
+	</ModalInfo>
+{/if}
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
 	<p class="typo-h7 text-xl">#3: Strategic Voting</p>
@@ -13,7 +24,10 @@
 		จากกระแส Strategic Voting ระหว่างพรรคเพื่อไทย และพรรคก้าวไกล คุณคิดว่า
 		ผลโหวตจะถูกเทไปทางใด
 	</h6>
-	<span class="flex items-center space-x-2 cursor-pointer">
+	<span
+		class="flex items-center space-x-2 cursor-pointer"
+		on:click={toggleIsInfoOpen}
+	>
 		<h4 class="typo-b4 text-blue underline text-byx-blue">
 			เรื่องนี้มีผลอย่างไร?
 		</h4>

@@ -2,10 +2,21 @@
 	import { Content, contentManager } from '../../stores/content';
 	import { ScaleAns, input } from '../../stores/input';
 	import { quiz4ToWord } from '../../utils/mapInputToWord';
+	import Quiz4Info from '../infomation/quiz4Info.svelte';
+	import ModalInfo from '../modal.svelte';
 
 	$: ans = $input.input.quiz4;
 	$: [word, percent] = quiz4ToWord(ans);
+	$: isInfoOpen = false;
+
+	const toggleIsInfoOpen = () => (isInfoOpen = !isInfoOpen);
 </script>
+
+{#if isInfoOpen}
+	<ModalInfo>
+		<Quiz4Info toggleModal={toggleIsInfoOpen} />
+	</ModalInfo>
+{/if}
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
 	<p class="typo-h7 text-xl">#4: Strategic Voting (ต่อ)</p>
@@ -13,7 +24,10 @@
 		ในทางกลับกัน คุณคิดว่าใน กลุ่มคนเลือกพรรคฝั่งรัฐบาล
 		ผลโหลตจะเทเข้าหรือออกจากพรรคพลังประชารัฐ/รวมไทยสร้างชาติ หรือไม่?
 	</h6>
-	<span class="flex items-center space-x-2 cursor-pointer">
+	<span
+		class="flex items-center space-x-2 cursor-pointer"
+		on:click={toggleIsInfoOpen}
+	>
 		<h4 class="typo-b4 text-blue underline text-byx-blue">
 			เรื่องนี้มีผลอย่างไร?
 		</h4>

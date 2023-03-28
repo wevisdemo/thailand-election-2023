@@ -2,17 +2,31 @@
 	import { Content, contentManager } from '../../stores/content';
 	import { ScaleAns, input } from '../../stores/input';
 	import { quiz1ToWord } from '../../utils/mapInputToWord';
+	import Quiz1Info from '../infomation/quiz1Info.svelte';
+	import ModalInfo from '../modal.svelte';
 
 	$: ans = $input.input.quiz1;
 	$: [word, percent] = quiz1ToWord(ans);
+	$: isInfoOpen = false;
+
+	const toggleIsInfoOpen = () => (isInfoOpen = !isInfoOpen);
 </script>
+
+{#if isInfoOpen}
+	<ModalInfo>
+		<Quiz1Info toggleModal={toggleIsInfoOpen} />
+	</ModalInfo>
+{/if}
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
 	<p class="typo-h7 text-xl">#1: ส.ส. ย้ายพรรค</p>
 	<h6 class="typo-h6 font-bold">
 		คุณคิดว่า คนไทยทุกๆ 10 คน จะเลือก ส.ส. เขตจากตัวบุคคล หรือพรรคอย่างละกี่คน?
 	</h6>
-	<span class="flex items-center space-x-2 cursor-pointer">
+	<span
+		class="flex items-center space-x-2 cursor-pointer"
+		on:click={toggleIsInfoOpen}
+	>
 		<h4 class="typo-b4 text-blue underline text-byx-blue">
 			เรื่องนี้มีผลอย่างไร?
 		</h4>
