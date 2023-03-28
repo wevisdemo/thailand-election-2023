@@ -7,18 +7,18 @@
       </p>
       <p class="typo-b6">ชื่อเต็ม : {{ quiz_data.LegalTitle }}</p>
     </div>
-    <div
-      class="description-box"
-      @click="collapsed = !collapsed"
-      :class="collapsed ? 'collapsed' : 'expanded'"
-    >
-      <p class="typo-b7"><b>รายละเอียด</b></p>
-      <p class="description typo-b5">
-        {{ quiz_data.DescriptionTh }}
-      </p>
-      <p class="typo-b7 view-full">
-        {{ collapsed ? '+ อ่านเพิ่มเติม' : '- ปิดรายละเอียด' }}
-      </p>
+    <div class="description-box" :class="collapsed ? 'collapsed' : 'expanded'">
+      <p class="typo-b7 head"><b>รายละเอียด</b></p>
+      <p
+        class="description typo-b5"
+        id="quiz-description"
+        v-html="markdownToHtml"
+      />
+      <div class="collapse-label" @click="collapsed = !collapsed">
+        <p class="typo-b7">
+          {{ collapsed ? '+ อ่านเพิ่มเติม' : '- ปิดรายละเอียด' }}
+        </p>
+      </div>
     </div>
     <div class="vote-label">
       <p
@@ -76,6 +76,7 @@
 
 <script>
 import { TheyWorkForUs } from '@thailand-election-2023/database'
+const { marked } = require('marked')
 
 export default {
   props: {
@@ -161,6 +162,30 @@ export default {
         return this.mp_data_current.Images[0].url
       }
     },
+    markdownToHtml() {
+      const renderer = new marked.Renderer()
+      renderer.link = function (href, title, text) {
+        return (
+          '<a target="_blank" href="' +
+          href +
+          '" title="' +
+          title +
+          '">' +
+          text +
+          '</a>'
+        )
+      }
+
+      setTimeout(() => {
+        const el = document.querySelector('#quiz-description ol')
+        if (el) {
+          el.style.listStyle = 'decimal'
+          el.style.listStylePosition = 'inside'
+        }
+      }, 0)
+
+      return marked(this.quiz_data.DescriptionTh, { renderer: renderer })
+    },
   },
 }
 </script>
@@ -185,10 +210,9 @@ export default {
   margin: 20px 0;
   text-align: left;
   transition: 0.5s;
-  cursor: pointer;
   overflow: hidden;
-  @include mobile {
-    max-height: 108px;
+  .head {
+    margin-bottom: 4px;
   }
   &.expanded {
     max-height: 800px;
@@ -200,7 +224,7 @@ export default {
     }
   }
   &.collapsed {
-    max-height: 108px;
+    max-height: 120px;
     .description {
       display: -webkit-box;
       -webkit-line-clamp: 2;
@@ -208,16 +232,15 @@ export default {
       overflow: hidden;
     }
   }
-  .description {
-    margin: 2px 0;
-  }
-  .view-full {
+  .collapse-label {
     color: var(--color-gray-3);
-    padding-top: 2px;
+    padding: 6px 0;
+    cursor: pointer;
   }
 }
 .vote-label {
   margin-bottom: 20px;
+  white-space: nowrap;
   .unmatch-vote {
     color: var(--color-red);
   }
