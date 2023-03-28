@@ -74,11 +74,16 @@
           </div>
         </div>
         <div slot="tab2">
-          <div>
-            ทั้งหมด <b>{{ getNumberParties() }} พรรค</b>
-          </div>
-          <div class="search">
-            <input type="text" />
+          <div class="tab-header">
+            <div class="tab-header__summary">
+              <p>ทั้งหมด {{ getNumberParties() }}</p>
+              <BadgeWithCheck :checks="1">
+                <p>อยู่ในสภาสมัยที่แล้ว <b>10 พรรค</b></p>
+              </BadgeWithCheck>
+            </div>
+            <div class="search">
+              <PartySearch placeholder="ค้นหาด้วยชื่อพรรค" />
+            </div>
           </div>
           <div class="candidate-card">
             <PartyCard

@@ -179,17 +179,13 @@ export default {
 
     &:focus {
       outline: none;
-
-      & ~ .query-result-container {
-        display: flex;
-      }
     }
   }
 }
 
 .query-result-container {
   position: absolute;
-  // display: none;
+  display: flex;
   width: 100%;
   height: 200px;
   top: 100%;
