@@ -48,7 +48,7 @@
     <div class="start-btn-container">
       <p class="typo-b5 start"><b>เริ่มเล่น</b></p>
       <div class="arrow">
-        <img :src="arrow" alt="right arrow" />
+        <img :src="arrow_right" alt="right arrow" />
       </div>
     </div>
   </div>
@@ -68,7 +68,7 @@ export default {
   },
   data() {
     return {
-      arrow: require('~/assets/images/icons/arrow.svg'),
+      arrow_right: require('~/assets/images/icons/arrow_right.svg'),
     }
   },
   computed: {

@@ -68,7 +68,7 @@
       @click="nextQuiz"
     >
       <div class="arrow">
-        <img :src="arrow" alt="arrow" />
+        <img :src="arrow_right" alt="arrow" />
       </div>
     </div>
   </div>
@@ -100,10 +100,18 @@ export default {
       type: Function,
       default: () => {},
     },
+    user_voting_results: {
+      type: Array,
+      default: () => [],
+    },
+    saveVoteResult: {
+      type: Function,
+      default: () => {},
+    },
   },
   data() {
     return {
-      arrow: require('~/assets/images/icons/arrow.svg'),
+      arrow_right: require('~/assets/images/icons/arrow_right.svg'),
       answers: [
         { label: 'เห็นด้วย', value: 'approve' },
         { label: 'ไม่เห็นด้วย', value: 'disprove' },
@@ -131,7 +139,13 @@ export default {
   },
   watch: {
     async quiz_no() {
-      this.answer_selected = ''
+      if (this.quiz_no <= this.user_voting_results.length) {
+        this.answer_selected = this.user_voting_results.find(
+          (vote) => vote.vote_no === this.quiz_no
+        ).user_answer
+      } else {
+        this.answer_selected = ''
+      }
       this.collapsed = true
 
       let index = 0
@@ -151,6 +165,10 @@ export default {
   methods: {
     selectAnswer(answer) {
       this.answer_selected = answer
+      this.saveVoteResult({
+        vote_no: this.quiz_no,
+        user_answer: answer,
+      })
       if (answer === this.mp_answer) {
         this.countMatchVote()
       }
@@ -196,7 +214,7 @@ export default {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 60px 0 40px;
+  padding-bottom: 40px;
 }
 .header {
   .no,

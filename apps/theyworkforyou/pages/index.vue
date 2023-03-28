@@ -2,6 +2,18 @@
   <div class="main-container">
     <election-header></election-header>
     <div
+      v-if="active_quiz_no > 0"
+      class="prev-btn"
+      @click="active_quiz_no > 10 ? reset() : prevQuiz()"
+    >
+      <div class="arrow">
+        <img :src="arrow_left" alt="arrow" />
+      </div>
+      <p class="typo-b6">
+        {{ active_quiz_no > 10 ? 'กลับไปหน้าแรก' : 'ย้อนกลับ' }}
+      </p>
+    </div>
+    <div
       class="page-container"
       :class="{
         'set-min-height-to-quiz': active_quiz_no > 0 && active_quiz_no <= 10,
@@ -84,6 +96,8 @@
           :mp_data="mp_data"
           :nextQuiz="nextQuiz"
           :countMatchVote="countMatchVote"
+          :user_voting_results="user_voting_results"
+          :saveVoteResult="saveVoteResult"
         />
       </div>
       <div v-else>
@@ -116,12 +130,14 @@ export default {
   data() {
     return {
       search_icon: require('~/assets/images/icons/search.svg'),
+      arrow_left: require('~/assets/images/icons/arrow_left.svg'),
       value: '',
       vote_log: [],
       active_quiz_no: 0,
       locations: [],
       mp_data: [],
       district: '',
+      user_voting_results: [],
       match_vote: 0,
       result_processing: false,
     }
@@ -136,13 +152,15 @@ export default {
     )
 
     this.locations = location_data
-
-    lottie.loadAnimation({
-      name: 'theyworkforyou-lottie',
-      container: document.getElementById('theyworkforyou-lottie'),
-      renderer: 'svg',
-      animationData: require('~/assets/lotties/theywork_quiz.json'),
-    })
+    this.loadCoverAnimation()
+  },
+  watch: {
+    active_quiz_no() {
+      if (this.active_quiz_no === 0) {
+        this.loadCoverAnimation()
+        this.user_voting_results = []
+      }
+    },
   },
   computed: {
     getVoteLog() {
@@ -173,6 +191,16 @@ export default {
         })
       }, 100)
     },
+    loadCoverAnimation() {
+      setTimeout(() => {
+        lottie.loadAnimation({
+          name: 'theyworkforyou-lottie',
+          container: document.getElementById('theyworkforyou-lottie'),
+          renderer: 'svg',
+          animationData: require('~/assets/lotties/theywork_quiz.json'),
+        })
+      }, 0)
+    },
     start() {
       this.scrollToTop()
       this.active_quiz_no = 1
@@ -196,6 +224,15 @@ export default {
         }, 3000)
       }
     },
+    reset() {
+      this.active_quiz_no = 0
+      this.value = ''
+      this.mp_data = []
+    },
+    prevQuiz() {
+      this.scrollToTop()
+      this.active_quiz_no = this.active_quiz_no - 1
+    },
     scrollToTop() {
       document.body.scrollTop = 0
       document.documentElement.scrollTop = 0
@@ -203,11 +240,24 @@ export default {
     countMatchVote() {
       this.match_vote = this.match_vote + 1
     },
+    saveVoteResult(value) {
+      this.user_voting_results.push(value)
+    },
   },
 }
 </script>
 
 <style lang="scss" scoped>
+.prev-btn {
+  display: flex;
+  width: fit-content;
+  padding: 10px;
+  cursor: pointer;
+  .arrow {
+    width: 12px;
+    margin-right: 4px;
+  }
+}
 .page-container {
   max-width: 655px;
   margin: 0 auto;

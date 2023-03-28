@@ -120,7 +120,10 @@ export default {
 <style lang="scss" scoped>
 .header {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 10px;
+  @include mobile {
+    padding-top: 5px;
+  }
   .old-mp {
     color: var(--color-gray-3);
   }
@@ -135,9 +138,9 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
+  padding: 45px 0 60px;
   @include mobile {
-    padding: 40px 0;
+    padding: 30px 0 40px;
   }
   .user-img-wrap,
   .mp-img-wrap {
