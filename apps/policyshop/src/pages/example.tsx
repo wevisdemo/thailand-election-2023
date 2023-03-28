@@ -1,8 +1,4 @@
-import {
-	IDropdownOption,
-	IPolicyCard,
-	IPolicyCategory,
-} from '@/types/components';
+import { IDropdownOption, IPolicyCategory } from '@/types/components';
 import { useState } from 'react';
 import Dropdown from '../components/Dropdown';
 import PolicyCard from '@/components/PolicyCard';
@@ -26,7 +22,7 @@ export default function Example() {
 		{ label: 'ค่าแรงขั้นต่ำ (99)', value: 'minimum_wage ' },
 	];
 
-	const mockPolicyCardList: IPolicyCard[] = [
+	const mockPolicyCardList = [
 		{
 			party_name: 'ก้าวไกล',
 			party_logo_src: `${imgPrefix}/logo/party/example.svg`,
@@ -49,7 +45,7 @@ export default function Example() {
 		},
 	];
 
-	const mockSecondPolicyCardList: IPolicyCard[] = [
+	const mockSecondPolicyCardList = [
 		{
 			party_name: 'ก้าวไกล',
 			party_logo_src: `${imgPrefix}/logo/party/example.svg`,
@@ -104,16 +100,16 @@ export default function Example() {
 				/>
 			</div>
 			<div className="w-[155px]">
-				<PolicyCard policyInfo={mockPolicyCardList[0]}></PolicyCard>
+				{/* <PolicyCard policyInfo={mockPolicyCardList[0]}></PolicyCard> */}
 			</div>
 			<div className="w-[400px]">
-				<PolicyCardWrapper policyList={mockPolicyCardList} />
+				{/* <PolicyCardWrapper policyList={mockPolicyCardList} /> */}
 			</div>
 			<div className="w-[400px]">
-				<PolicyCardWrapper
+				{/* <PolicyCardWrapper
 					policyList={mockPolicyCardList}
 					secondList={mockSecondPolicyCardList}
-				/>
+				/> */}
 			</div>
 		</div>
 	);
