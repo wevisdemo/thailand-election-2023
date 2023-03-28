@@ -1,10 +1,10 @@
 import Layout from '@/components/Layout';
 import TemplatePolicyList from '@/components/Template/PolicyList';
-import { IDropdownOption, IPolicyCard } from '@/types/components';
+import { IDropdownOption } from '@/types/components';
 import { imgPrefix } from '@/utils/path';
 import { useState } from 'react';
 
-const mockPolicyCardList: IPolicyCard[] = [
+const mockPolicyCardList = [
 	{
 		party_name: 'ก้าวไกล',
 		party_logo_src: `${imgPrefix}/logo/party/example.svg`,
@@ -37,13 +37,13 @@ export default function PolicyListPage() {
 
 	return (
 		<Layout title="นโยบายประเด็นร้อน">
-			<TemplatePolicyList
+			{/* <TemplatePolicyList
 				category1={category1}
 				setCategory1={setCategory1}
 				category2={category2}
 				setCategory2={setCategory2}
 				policyList={mockPolicyCardList}
-			></TemplatePolicyList>
+			></TemplatePolicyList> */}
 		</Layout>
 	);
 }
