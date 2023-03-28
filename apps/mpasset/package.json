@@ -10,7 +10,8 @@
 		"export:local": "next export -o out/mpasset",
 		"replacer": "node replacer.js",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"crawl": "cd './crawler' && yarn build && node ./dist/app.js"
 	},
 	"dependencies": {
 		"@thailand-election-2023/components": "*",
