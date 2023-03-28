@@ -101,3 +101,7 @@ Note that `...` at the end is nessesary to run dependencies script as well. With
   - _WHY_ To make the whole repository have formating standard and improving reability for the team.
   - This should be done automatically on pre-commit and on save for VSCode user.
   - Configuration is in [.prettierrc](.prettierrc)
+
+## 🤝 License and Terms of Use
+
+อ่านรายละเอียดได้ที่ [ข้อตกลงในการใช้งาน (Terms of Use)](https://wevis.info/terms-of-use/)

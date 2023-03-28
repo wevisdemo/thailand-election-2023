@@ -3,7 +3,6 @@
 	"version": "1.0.0",
 	"repository": "https://github.com/wevisdemo/thailand-election-2023.git",
 	"author": "wevisdemo",
-	"license": "MIT",
 	"private": true,
 	"scripts": {
 		"dev": "turbo run dev",
