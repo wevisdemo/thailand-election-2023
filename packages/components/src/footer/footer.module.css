@@ -1,5 +1,5 @@
 .footer {
-	@apply flex flex-row px-4 py-2 md:px-6 md:py-5 bg-gray-1;
+	@apply flex flex-row px-4 py-2 md:px-6 md:py-5 bg-gray-1 md:space-x-5 space-x-3;
 }
 
 .footer svg {
@@ -14,8 +14,24 @@
 	@apply h-4 md:h-6;
 }
 
+.footer__terms {
+	@apply flex justify-center items-center;
+}
+
+.footer__terms a {
+	@apply underline;
+}
+
+.footer__divider {
+	@apply w-[1px] bg-gray-2;
+}
+
 .footer__follow {
 	@apply flex flex-row items-center md:space-x-2;
+}
+
+.footer__follow span {
+	@apply hidden md:inline-block;
 }
 
 .footer__follow a {
