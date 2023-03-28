@@ -7,7 +7,7 @@
 		},
 		"build": {
 			"dependsOn": ["^build"],
-			"outputs": [".next/**", "dist/**", ".svelte-kit/**"]
+			"outputs": [".next/**", "dist/**", ".svelte-kit/**", ".nuxt/**"]
 		},
 		"merge": {
 			"cache": false
