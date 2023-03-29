@@ -3,11 +3,11 @@
 }
 
 .section-about h1 {
-	@apply text-center my-16 font-bold typo-h3;
+	@apply text-center my-12 font-bold typo-h3 md:my-16;
 }
 
 .section-about h2 {
-	@apply mt-14 mb-8 font-bold typo-h5;
+	@apply mt-14 mb-6 font-bold typo-h5 md:mb-8;
 }
 
 .section-about h3 {
