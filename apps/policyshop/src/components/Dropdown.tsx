@@ -8,6 +8,7 @@ interface PropsType {
 	currentOption: IDropdownOption<any> | null;
 	onSelect: (option: IDropdownOption<any>) => void;
 	placeholder?: string;
+	disabled?: boolean;
 }
 
 const Dropdown: FunctionComponent<PropsType> = ({
@@ -16,6 +17,7 @@ const Dropdown: FunctionComponent<PropsType> = ({
 	onSelect,
 	placeholder,
 	outline,
+	disabled,
 }) => {
 	const ddRef = useRef<HTMLDivElement>(null);
 	const [expand, setExpand] = useState<boolean>(false);
@@ -35,8 +37,10 @@ const Dropdown: FunctionComponent<PropsType> = ({
 	}, [ddRef]);
 
 	const onChangeOption = (option: IDropdownOption<any>) => {
-		onSelect(option);
-		setExpand(false);
+		if (!disabled) {
+			onSelect(option);
+			setExpand(false);
+		}
 	};
 
 	const getLabel = (): string => {
@@ -46,33 +50,60 @@ const Dropdown: FunctionComponent<PropsType> = ({
 		return currentOption.label;
 	};
 
+	const getBorderColor = (): string => {
+		let borderColor = 'var(--color-black)';
+		if (disabled) {
+			borderColor = 'var(--color-gray-2)';
+		}
+		return borderColor;
+	};
+
 	const getBoderClass = (): string => {
 		if (!outline) {
-			return 'px-[16px] py-[10px] bg-[var(--color-white)] border-[3px] border-[var(--color-black)] rounded-[50px]';
+			return `px-[16px] py-[10px] bg-[var(--color-white)] border-[3px] rounded-[50px]`;
 		}
-		return 'p-[8px] border-b-[3px] border-[var(--color-black)]';
+		return `p-[8px] border-b-[3px]`;
+	};
+
+	const cursor = (): string => {
+		return disabled ? 'cursor-unset' : 'cursor-pointer';
+	};
+	const labelClass = (): string => {
+		if (disabled) {
+			return 'text-[var(--color-gray-2)]';
+		}
+		return currentOption !== null
+			? 'text-[var(--color-black)]'
+			: 'text-[var(--color-gray-3)]';
 	};
 
 	return (
 		<div className="relative w-full" ref={ddRef}>
 			<div
-				className={`flex items-center justify-between hover:cursor-pointer ${getBoderClass()}`}
-				onClick={() => setExpand(!expand)}
-			>
-				<span
-					className={
-						currentOption !== null
-							? 'text-[var(--color-black)]'
-							: 'text-[var(--color-gray-3)]'
+				className={`flex items-center justify-between hover:${cursor()} ${getBoderClass()}`}
+				onClick={() => {
+					if (!disabled) {
+						setExpand(!expand);
 					}
-				>
-					{getLabel()}
-				</span>
+				}}
+				style={{ borderColor: getBorderColor() }}
+			>
+				<span className={labelClass()}>{getLabel()}</span>
 				<img
-					className="dropdown-arrow"
+					className={`${
+						disabled &&
+						'[filter:invert(88%) sepia(9%) saturate(416%) hue-rotate(17deg) brightness(83%) contrast(87%)]'
+					}`}
 					src={`${imgPrefix}/Chevron.svg`}
 					alt="dropdown-arrow"
-					style={{ transform: `${expand ? 'rotate(180deg)' : 'none'}` }}
+					style={{
+						transform: `${expand ? 'rotate(180deg)' : 'none'}`,
+						filter: `${
+							disabled
+								? 'invert(88%) sepia(9%) saturate(416%) hue-rotate(17deg) brightness(83%) contrast(87%)'
+								: 'unset'
+						}`,
+					}}
 				/>
 			</div>
 			{expand && (

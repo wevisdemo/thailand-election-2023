@@ -2,60 +2,50 @@ import CompareFilter from '@/components/Compare/Filter';
 import Layout from '@/components/Layout';
 import PolicyCardWrapper from '@/components/PolicyCardWrapper';
 import RandomButton from '@/components/RandomButton';
-import { IDropdownOption, Policy } from '@/types/components';
-import { imgPrefix } from '@/utils/path';
-import { useState } from 'react';
+import { Policy } from '@/types/components';
+import { fetchPolicy } from '@/utils/fetchData';
+import { GetStaticProps, NextPage } from 'next';
+import { useEffect, useState } from 'react';
 
-// const mockPolicyCardList: Policy[] = [
-// 	{
-// 		Name: 'ก้าวไกล',
-// 		party_logo_src: `${imgPrefix}/logo/party/example.svg`,
-// 		background_color: '#FF711E',
-// 		text_image: 'ค่าแรงขั้นต่ำ 600 บาท/วัน',
-// 		description:
-// 			'- บัตรประชาชนใบ เดียว\n- สัญญาจ้างเป็นธรรม ทำงานไม่เกิน 40 ช.ม./สัปดาห์',
-// 		category_icon_src: `${imgPrefix}/icon/category/economic.svg`,
-// 		category_text: 'เศรษฐกิจ',
-// 	},
-// 	{
-// 		party_name: 'ก้าวไกล',
-// 		party_logo_src: `${imgPrefix}/logo/party/example.svg`,
-// 		background_color: '#FF711E',
-// 		text_image: 'ค่าแรงขั้นต่ำ 600 บาท/วัน',
-// 		description:
-// 			'- บัตรประชาชนใบ เดียว\n- สัญญาจ้างเป็นธรรม ทำงานไม่เกิน 40 ช.ม./สัปดาห์',
-// 		category_icon_src: `${imgPrefix}/icon/category/economic.svg`,
-// 		category_text: 'เศรษฐกิจ',
-// 	},
-// ];
+interface PropsType {
+	policies: Policy[];
+}
 
-export default function ComparePage() {
-	const [party1, setParty1] = useState<IDropdownOption<string> | null>(null);
-	const [party2, setParty2] = useState<IDropdownOption<string> | null>(null);
-	const [policy1, setPolicy1] = useState<IDropdownOption<string> | null>(null);
-	const [policy2, setPolicy2] = useState<IDropdownOption<string> | null>(null);
+const ComparePage: NextPage<PropsType> = ({ policies }) => {
+	const [displayPolicies1, setDisplayPolicies1] = useState<Policy[]>([]);
+	const [displayPolicies2, setDisplayPolicies2] = useState<Policy[]>([]);
+
+	useEffect(() => {}, []);
 
 	return (
 		<Layout title="เปรียบเทียบนโยบาย">
 			<>
 				<CompareFilter
-					party1={party1}
-					party2={party2}
-					policy1={policy1}
-					policy2={policy2}
-					setParty1={setParty1}
-					setParty2={setParty2}
-					setPolicy1={setPolicy1}
-					setPolicy2={setPolicy2}
+					policies={policies}
+					setDisplayPolicies1={setDisplayPolicies1}
+					setDisplayPolicies2={setDisplayPolicies2}
 				/>
 				<div className="flex justify-between items-center mt-[24px]">
 					<p>เรียงตาม</p>
 					<RandomButton onClick={() => {}} />
 				</div>
 				<div className="mt-[16px]">
-					{/* <PolicyCardWrapper policyList={mockPolicyCardList} /> */}
+					<PolicyCardWrapper
+						policyList={displayPolicies1}
+						secondList={displayPolicies2}
+					/>
 				</div>
 			</>
 		</Layout>
 	);
-}
+};
+
+export const getStaticProps: GetStaticProps<PropsType> = async (context) => {
+	const { params } = context;
+	const policies = await fetchPolicy();
+	return {
+		props: { policies },
+	};
+};
+
+export default ComparePage;

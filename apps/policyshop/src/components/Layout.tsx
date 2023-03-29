@@ -1,4 +1,4 @@
-import { ReactNode, useEffect } from 'react';
+import { FunctionComponent, ReactNode, useEffect } from 'react';
 import Link from 'next/link';
 import { imgPrefix } from '@/utils/path';
 // import '@thailand-election-2023/components';
@@ -8,7 +8,7 @@ interface PropsType {
 	children: ReactNode;
 }
 
-export default function Layout({ title, children }: PropsType) {
+const Layout: FunctionComponent<PropsType> = ({ title, children }) => {
 	useEffect(() => {
 		// @ts-ignore
 		import('@thailand-election-2023/components');
@@ -27,4 +27,6 @@ export default function Layout({ title, children }: PropsType) {
 			</div>
 		</div>
 	);
-}
+};
+
+export default Layout;

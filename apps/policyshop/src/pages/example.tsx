@@ -93,6 +93,12 @@ export default function Example() {
 					onSelect={setCurrentOption}
 				/>
 				<Dropdown
+					disabled
+					options={mockOptions}
+					currentOption={currentOption}
+					onSelect={setCurrentOption}
+				/>
+				<Dropdown
 					outline
 					options={mockOptions}
 					currentOption={currentOption}
