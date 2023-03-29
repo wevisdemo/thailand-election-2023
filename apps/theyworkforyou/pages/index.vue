@@ -1,6 +1,15 @@
 <template>
   <div class="main-container">
     <election-header></election-header>
+
+    <Transition name="fade">
+      <div v-if="loading" class="loading-container">
+        <div class="heart">
+          <img :src="heart" alt="" />
+        </div>
+      </div>
+    </Transition>
+
     <div
       v-if="active_quiz_no > 0"
       class="prev-btn"
@@ -13,6 +22,7 @@
         {{ active_quiz_no > 10 ? 'กลับไปหน้าแรก' : 'ย้อนกลับ' }}
       </p>
     </div>
+
     <div
       class="page-container"
       :class="{
@@ -118,11 +128,13 @@
         <QuizResult :match_vote="match_vote" :mp_data="mp_data" />
       </div>
     </div>
+
     <election-bottom
       v-if="active_quiz_no === 0 || active_quiz_no > 10"
       index-path="/theyworkforyou"
       about-path="/theyworkforyou/about"
     ></election-bottom>
+
     <election-footer></election-footer>
   </div>
 </template>
@@ -141,6 +153,8 @@ export default {
   },
   data() {
     return {
+      loading: true,
+      heart: require('~/assets/images/heart.svg'),
       search_icon: require('~/assets/images/icons/search.svg'),
       arrow_left: require('~/assets/images/icons/arrow_left.svg'),
       chosen: {},
@@ -156,6 +170,12 @@ export default {
   },
   async mounted() {
     import('@thailand-election-2023/components')
+
+    document.body.style.overflow = 'hidden'
+    setTimeout(() => {
+      this.loading = false
+      document.body.style.overflow = 'unset'
+    }, 1000)
 
     const vote_id_selected = [45, 54, 88, 137, 168, 184, 185, 186, 221, 262]
     const vote_log = await TheyWorkForUs.VoteLog.fetchAll()
@@ -283,6 +303,39 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.loading-container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  background: var(--color-white);
+  .heart {
+    animation: blink 1s ease-out infinite;
+    @keyframes blink {
+      0% {
+        transform: scale(1.5);
+      }
+      50% {
+        transform: scale(2);
+      }
+      100% {
+        transform: scale(1.5);
+      }
+    }
+  }
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
 .prev-btn {
   display: flex;
   width: fit-content;
