@@ -48,11 +48,14 @@ export async function fetchAllRows<Row>(
 	viewId: string,
 	query?: QueryParams
 ): Promise<Row[]> {
-	let rows: Row[] = [];
+	const rows: Row[] = [];
 	let currentPageInfo: PageInfo | null = null;
 
 	do {
-		const data = await getSharedViewRows<Row>(viewId, {
+		const data: {
+			list: Row[];
+			pageInfo: PageInfo;
+		} = await getSharedViewRows<Row>(viewId, {
 			...query,
 			offset: currentPageInfo
 				? currentPageInfo.page * currentPageInfo.pageSize

@@ -1,6 +1,6 @@
 import { fetchAllRows } from './utils/nocodb';
 import { fetchFromCreden } from './utils/creden';
-import fs from 'fs';
+import * as fs from 'fs';
 
 const PARTY_VIEW_ID = '40065196-c978-4d7a-b3fb-fb84694383a7';
 const PEOPLE_VIEW_ID = '572c5e5c-a3d8-440f-9a70-3c4c773543ec';
@@ -109,22 +109,57 @@ export const fetchFromThetWork = async (): Promise<{
 	};
 };
 
+interface CredenResult {
+	financial: {
+		year: string;
+		income: number;
+	}[];
+	value_share: number;
+	reg_date: string;
+	count_shareholder: number;
+	pct_share: number;
+	company_name_th: string;
+	company_id: string;
+	obj_tname: string;
+	ompany_name_en: string;
+	tsic: string;
+	cap_amt: number;
+	company_value: number;
+	company_type_th: string;
+	submit_obj_big_type: string;
+	full_address: string;
+}
+[];
+
 export const fetchShareholderData = async (people: Person[]) => {
-	let request = [];
+	const request: Promise<{
+		result: string | void;
+		fullname: string;
+	}>[] = [];
 	people.forEach((p) => {
 		request.push(fetchFromCreden(p.Name));
 	});
 
-	let company = [];
+	let company: CredenResult[] = [];
 	await Promise.all(request).then((value) => {
 		if (value.length > 0) {
 			value.forEach((v) => {
-				const { data, fullname } = v;
-				company.push(JSON.parse(data));
-				fs.writeFileSync(
-					`./public/data/creden/${String(fullname).replace(' ', '-')}.json`,
-					data
-				);
+				const { result, fullname } = v;
+
+				if (result) {
+					const { success, data } = JSON.parse(result) as {
+						success: boolean;
+						msg?: string;
+						data: CredenResult[];
+					};
+					if (success && data) {
+						company = [...company, ...data];
+						fs.writeFileSync(
+							`./public/data/creden/${String(fullname).replace(' ', '-')}.json`,
+							JSON.stringify(data)
+						);
+					}
+				}
 			});
 		}
 	});

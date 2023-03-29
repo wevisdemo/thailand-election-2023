@@ -1,8 +1,8 @@
-import { d3 } from 'd3-node';
 import { fetchFromThetWork, fetchShareholderData } from './scraper';
+import * as d3 from 'd3';
 
-import fs from 'fs';
-import path from 'path';
+import * as fs from 'fs';
+import * as path from 'path';
 
 console.log('yeah');
 console.log(d3.schemeAccent);
@@ -16,14 +16,14 @@ const run = async () => {
 	// let party = JSON.parse(
 	// 	String(fs.readFileSync('./public/data/raw_party.json'))
 	// );
-	let people = JSON.parse(
+	const people = JSON.parse(
 		String(fs.readFileSync('./public/data/raw_people.json'))
 	);
 
 	// console.log(party);
 	// console.log(people);
 
-	// fetchShareholderData(people);
+	fetchShareholderData(people);
 };
 
 run();
