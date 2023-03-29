@@ -50,31 +50,39 @@
           </p>
           <div class="search-box-container">
             <div class="search-box-wrap">
-              <el-select
-                v-model="value"
-                filterable
-                default-first-option
-                :reserve-keyword="false"
-                placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
-                popper-class="search-box"
-                @change="updateFilter"
+              <vue-simple-suggest
+                ref="suggestComponent"
+                v-model="chosen"
+                mode="select"
+                display-attribute="label"
+                value-attribute="value"
+                :list="locations"
+                :filter-by-query="true"
+                :max-suggestions="0"
+                @select="onSuggestSelect"
               >
-                <el-option
-                  v-for="(item, index) in locations"
-                  :key="item.value"
-                  :label="item.label"
-                  :value="item.value"
-                  class="dropdown-item"
+                <input
+                  class="search-box"
+                  placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
+                />
+                <div
+                  slot="suggestion-item"
+                  slot-scope="scope"
+                  class="list-item"
                 >
-                  <div v-if="index > 0" class="line" />
-                  <span>{{ item.label }}</span>
-                </el-option>
-              </el-select>
+                  <span v-html="boldenSuggestion(scope)"></span>
+                </div>
+                <template slot="misc-item-above" slot-scope="{ suggestions }">
+                  <div class="misc-item" v-if="suggestions.length === 0">
+                    <span class="typo-b4">ไม่มีชื่อเขต/อำเภอนี้ </span>
+                  </div>
+                </template>
+              </vue-simple-suggest>
               <div class="search-icon">
                 <img :src="search_icon" alt="" />
               </div>
             </div>
-            <div v-if="value !== ''" class="mp-result-wrap">
+            <div v-if="chosen" class="mp-result-wrap">
               <p class="title typo-b3">
                 <b>ส.ส. ในเขตของคุณ คือ</b>
               </p>
@@ -115,7 +123,6 @@
       index-path="/theyworkforyou"
       about-path="/theyworkforyou/about"
     ></election-bottom>
-
     <election-footer></election-footer>
   </div>
 </template>
@@ -125,13 +132,18 @@ import { TheyWorkForUs } from '@thailand-election-2023/database'
 import location_data from '~/static/data/locations.json'
 import zone_data from '~/static/data/zones.json'
 import lottie from 'lottie-web'
+import VueSimpleSuggest from 'vue-simple-suggest'
+import 'vue-simple-suggest/dist/styles.css'
 
 export default {
+  components: {
+    VueSimpleSuggest,
+  },
   data() {
     return {
       search_icon: require('~/assets/images/icons/search.svg'),
       arrow_left: require('~/assets/images/icons/arrow_left.svg'),
-      value: '',
+      chosen: {},
       vote_log: [],
       active_quiz_no: 0,
       locations: [],
@@ -168,8 +180,31 @@ export default {
     },
   },
   methods: {
+    boldenSuggestion(scope) {
+      if (!scope) return scope
+
+      const { suggestion, query } = scope
+
+      let result = this.$refs.suggestComponent.displayProperty(suggestion)
+
+      if (!query) return result
+
+      const texts = query.split(/[\s-_/\\|\.]/gm).filter((t) => !!t) || ['']
+      return result.replace(
+        new RegExp('(.*?)(' + texts.join('|') + ')(.*?)', 'gi'),
+        '$1<b>$2</b>$3'
+      )
+    },
+    onSuggestSelect() {
+      if (this.chosen) {
+        setTimeout(() => {
+          this.updateFilter()
+          this.$refs.suggestComponent.hideList()
+        }, 0)
+      }
+    },
     async updateFilter() {
-      const split = this.value.split(' ')
+      const split = this.chosen.value.split(' ')
       const district = split[1]
       const province = split[0]
       const zone = zone_data.find(
@@ -186,8 +221,8 @@ export default {
       setTimeout(() => {
         element.scrollIntoView({
           behavior: 'smooth',
-          block: 'end',
-          inline: 'end',
+          block: 'center',
+          inline: 'center',
         })
       }, 100)
     },
@@ -226,7 +261,7 @@ export default {
     },
     reset() {
       this.active_quiz_no = 0
-      this.value = ''
+      this.chosen = {}
       this.mp_data = []
     },
     prevQuiz() {
@@ -324,24 +359,15 @@ export default {
   .search-box-wrap {
     position: relative;
     margin: 0 auto;
-    .el-select {
-      width: 100%;
-      ::v-deep(.el-input__inner) {
-        height: 52px !important;
-        border: 3px solid var(--color-black);
-        border-radius: 50px;
-        font-family: 'IBM Plex Sans Thai Looped';
-        font-weight: 400;
-        font-size: 21px;
-        transition: 0.3s;
-        padding-right: 50px;
-        @include mobile {
-          height: 47px !important;
-          font-size: 18px;
-        }
-      }
-      ::v-deep(.el-input.is-focus .el-input__inner) {
-        border-color: var(--color-highlight-2);
+    .search-box {
+      background: var(--color-highlight-1);
+      border: 3px solid !important;
+      border-color: var(--color-black);
+      border-radius: 50px;
+      padding: 10px 15px;
+      max-width: 655px;
+      &:focus {
+        border: 3px solid var(--color-highlight-2) !important;
       }
     }
     .search-icon {
@@ -350,6 +376,10 @@ export default {
       right: 5px;
       transform: translate(-100%, -50%);
       width: 18px;
+    }
+    .misc-item {
+      background: var(--color-gray-2);
+      text-align: left;
     }
   }
   .mp-result-wrap {
@@ -379,53 +409,47 @@ export default {
 </style>
 
 <style lang="scss">
-.search-box {
-  background: var(--color-highlight-1);
-  border: 3px solid var(--color-black);
-  border-radius: 10px;
-  width: 655px;
-  @include mobile {
-    width: 288px;
+.suggestions {
+  background: var(--color-highlight-1) !important;
+  border: 3px solid var(--color-black) !important;
+  padding: 10px !important;
+  border-radius: 10px !important;
+  top: calc(100% + 10px) !important;
+  text-align: left;
+  overflow-y: auto;
+  max-height: 250px;
+  &::-webkit-scrollbar {
+    background: var(--color-highlight-1);
+    width: 6px;
+    border: 3px solid transparent;
+    background-clip: padding-box;
   }
-}
-.popper__arrow {
-  display: none !important;
-}
-.el-input__suffix {
-  display: none;
-}
-.el-select-dropdown__list {
-  padding: 15px;
-}
-.dropdown-item {
-  position: relative;
-  font-size: 18px;
-  padding: 5px;
-  color: var(--color-black);
-  height: unset;
-  line-height: 24px;
-  white-space: normal;
-  text-overflow: clip;
-  .line {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 1px;
+  &::-webkit-scrollbar-thumb {
     background: var(--color-highlight-2);
+    border-radius: 10px;
+    margin-right: 5px;
   }
-  @include mobile {
-    font-size: 16px;
+  &:has(> li > .misc-item) {
+    background: var(--color-gray-2) !important;
   }
 }
-.dropdown-item.hover {
-  background: var(--color-highlight-2);
+.suggest-item {
+  padding: 5px !important;
+  &:not(:nth-child(2)) {
+    border-top: 1px solid var(--color-highlight-2);
+  }
+  &.selected {
+    color: var(--color-black) !important;
+    background: var(--color-highlight-2) !important;
+    border-radius: 5px;
+  }
+}
+.vue-simple-suggest.designed .suggestions .suggest-item.hover {
+  background-color: var(--color-highlight-2) !important;
+  color: var(--color-black) !important;
   border-radius: 5px;
-  & + .dropdown-item .line {
-    opacity: 0;
+  & + .suggest-item {
+    border-top: 1px solid transparent;
   }
-}
-.dropdown-item.selected {
-  color: var(--color-black);
 }
 </style>
