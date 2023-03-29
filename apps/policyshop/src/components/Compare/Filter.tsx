@@ -34,6 +34,7 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 	setDisplayPolicies1,
 	setDisplayPolicies2,
 }) => {
+	// unduplicate party options
 	const partyOptionsDefault: IDropdownOption<string>[] = policies.reduce(
 		(pre, curr) => {
 			const partyIsExist = pre.find(
@@ -47,10 +48,11 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 		[] as IDropdownOption<string>[]
 	);
 
+	// unduplicate topic options
 	const topicOptionsDefault: IDropdownOption<string>[] = policies.reduce(
 		(pre, curr) => {
-			const partyIsExist = pre.find((option) => option.label === curr.Topic);
-			if (!partyIsExist) {
+			const topicIsExist = pre.find((option) => option.label === curr.Topic);
+			if (!topicIsExist) {
 				pre = [...pre, { label: curr.Topic, value: curr.Topic }];
 			}
 			return pre;
@@ -78,7 +80,7 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 	const [filterObject, setFilterObject] =
 		useState<ICurrentFilter>(filterObjectDefault);
 
-	const choosePolicies = (
+	const choosePoliciesByFilter = (
 		policies: Policy[],
 		partyName: string,
 		topic: string
@@ -113,12 +115,20 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 		}
 		if (topic1) {
 			setDisplayPolicies1(
-				choosePolicies(policies, party1?.value || '', topic1.value || '')
+				choosePoliciesByFilter(
+					policies,
+					party1?.value || '',
+					topic1.value || ''
+				)
 			);
 		}
 		if (topic2) {
 			setDisplayPolicies2(
-				choosePolicies(policies, party2?.value || '', topic2.value || '')
+				choosePoliciesByFilter(
+					policies,
+					party2?.value || '',
+					topic2.value || ''
+				)
 			);
 		}
 	}, [filterObject]);

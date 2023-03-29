@@ -41,7 +41,6 @@ const ComparePage: NextPage<PropsType> = ({ policies }) => {
 };
 
 export const getStaticProps: GetStaticProps<PropsType> = async (context) => {
-	const { params } = context;
 	const policies = await fetchPolicy();
 	return {
 		props: { policies },
