@@ -12,6 +12,11 @@ img {
   display: block;
 }
 
-::-webkit-scrollbar {
-  display: none;
+body::-webkit-scrollbar {
+  background: var(--color-white);
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--color-gray-1);
+  border-radius: 10px;
 }
