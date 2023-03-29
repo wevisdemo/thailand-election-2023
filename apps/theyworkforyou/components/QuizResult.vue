@@ -104,14 +104,14 @@ export default {
       return this.mp_data.length > 1
     },
     getMpLink() {
-      let full_name = this.mp_data[0].Name.split(' ')
+      let full_name = this.mp_data[0].Name
       if (this.isTwoMp) {
-        full_name = this.mp_data[1].Name.split(' ')
+        full_name = this.mp_data[1].Name
       }
 
-      const name = full_name[0]
-      const surname = full_name[1]
-      return `https://theyworkforus.wevis.info/people/${name}-${surname}`
+      const format_full_name = full_name.replaceAll(' ', '-')
+
+      return `https://theyworkforus.wevis.info/people/${format_full_name}`
     },
   },
 }
