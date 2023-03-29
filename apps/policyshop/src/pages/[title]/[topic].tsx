@@ -13,7 +13,36 @@ import {
 } from '@/utils';
 import Dropdown from '@/components/Dropdown';
 
-const Topic = () => {
+export async function getStaticPaths() {
+	const data = await fetchPolicy();
+	const titles = ['นโยบายประเด็นร้อน', 'แบ่งตามประเด็น'];
+	const topics = ['นโยบายทั้งหมด', ...Object.keys(groupBy(data, 'Topic'))];
+	let setPaths: any[] = [];
+
+	titles.map((title) =>
+		topics.map((topic) => {
+			setPaths.push({
+				params: {
+					title,
+					topic,
+				},
+			});
+		})
+	);
+	return {
+		paths: setPaths,
+		fallback: false,
+	};
+}
+
+export async function getStaticProps(context: any) {
+	const { params } = context;
+	return {
+		props: { params },
+	};
+}
+
+const Topic = ({ params }: any) => {
 	const router = useRouter();
 	const { title, topic, party } = router.query;
 	const [rawData, setRawData] = useState<Policy[]>([]);
@@ -36,6 +65,7 @@ const Topic = () => {
 			Object.keys(groupBy(data, 'Topic')),
 			'policies'
 		);
+
 		await setOptionPolicies([{ label: 'นโยบายทั้งหมด' }, ...options]);
 	};
 
