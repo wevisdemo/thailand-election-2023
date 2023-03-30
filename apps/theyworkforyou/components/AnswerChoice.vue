@@ -105,7 +105,7 @@ export default {
   }
   &.selected {
     background: var(--color-black);
-    color: var(--color);
+    color: var(--color-white);
   }
   &.unselected {
     color: var(--color);
