@@ -257,8 +257,10 @@ export default {
       }, 0)
     },
     start() {
-      this.scrollToTop()
       this.active_quiz_no = 1
+      setTimeout(() => {
+        this.scrollToTop()
+      }, 0)
     },
     nextQuiz() {
       this.scrollToTop()

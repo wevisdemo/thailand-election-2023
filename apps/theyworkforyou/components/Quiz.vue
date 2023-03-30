@@ -9,7 +9,7 @@
     </div>
     <div class="description-box" :class="collapsed ? 'collapsed' : 'expanded'">
       <p class="typo-b7 head"><b>รายละเอียด</b></p>
-      <p
+      <div
         class="description typo-b5"
         id="quiz-description"
         v-html="markdownToHtml"
@@ -248,6 +248,10 @@ export default {
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
+      height: 46px;
+      @include mobile {
+        height: 41px;
+      }
     }
   }
   .collapse-label {
