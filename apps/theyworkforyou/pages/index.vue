@@ -147,6 +147,7 @@ import zone_data from '~/static/data/zones.json'
 import lottie from 'lottie-web'
 import VueSimpleSuggest from 'vue-simple-suggest'
 import 'vue-simple-suggest/dist/styles.css'
+import { shuffle } from 'lodash'
 
 export default {
   components: {
@@ -183,6 +184,7 @@ export default {
     this.vote_log = vote_log.filter((element) =>
       vote_id_selected.includes(element.Id)
     )
+    this.vote_log = shuffle(this.vote_log)
 
     this.locations = location_data
     this.loadCoverAnimation()
