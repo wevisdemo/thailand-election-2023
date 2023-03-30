@@ -136,6 +136,7 @@
     ></election-bottom>
 
     <election-footer></election-footer>
+    <election-cookie></election-cookie>
   </div>
 </template>
 
