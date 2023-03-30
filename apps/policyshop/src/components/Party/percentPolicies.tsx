@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-const percentPolicies = () => {
+const percentPolicies: FC = () => {
 	return (
 		<div>
 			<div className="mt-5 ">

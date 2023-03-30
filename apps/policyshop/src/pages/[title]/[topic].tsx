@@ -2,7 +2,7 @@ import React, { useState, useEffect, memo } from 'react';
 import { useRouter } from 'next/router';
 import Layout from '@/components/Layout';
 import TemplatePolicyList from '@/components/Template/PolicyList';
-import { IDropdownOption, Policy, Party } from '@/types/components';
+import { IDropdownOption, Policy, Party, SetPaths } from '@/types/components';
 import {
 	groupBy,
 	replaceUrl,
@@ -14,13 +14,14 @@ import {
 import Dropdown from '@/components/Dropdown';
 import HowToLabel from '@/components/HowToLabel';
 import Clipboard from '@/components/Clipboard';
+import RandomButton from '@/components/RandomButton';
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 
-export async function getStaticPaths() {
+export const getStaticPaths: GetStaticPaths = async () => {
 	const data = await fetchPolicy();
 	const titles = ['นโยบายประเด็นร้อน', 'แบ่งตามประเด็น'];
 	const topics = ['นโยบายทั้งหมด', ...Object.keys(groupBy(data, 'Topic'))];
-	let setPaths: any[] = [];
-
+	let setPaths: SetPaths[] = [];
 	titles.map((title) =>
 		topics.map((topic) => {
 			setPaths.push({
@@ -35,26 +36,19 @@ export async function getStaticPaths() {
 		paths: setPaths,
 		fallback: false,
 	};
-}
+};
 
-export async function getStaticProps(context: any) {
-	const { params } = context;
-	return {
-		props: { params },
-	};
-}
-
-const Topic = () => {
+const Topic: NextPage = () => {
 	const router = useRouter();
 	const { title, topic, party } = router.query;
 	const [rawData, setRawData] = useState<Policy[]>([]);
 	const [policies, setPolicies] = useState<Policy[]>([]);
-	const [optionParties, setOptionParties] = useState<IDropdownOption<any>[]>(
+	const [optionParties, setOptionParties] = useState<IDropdownOption<string>[]>(
 		[]
 	);
-	const [optionPolicies, setOptionPolicies] = useState<IDropdownOption<any>[]>(
-		[]
-	);
+	const [optionPolicies, setOptionPolicies] = useState<
+		IDropdownOption<string>[]
+	>([]);
 	const [chooseParty, setChooseParty] =
 		useState<IDropdownOption<string> | null>(null);
 	const [chooseTopic, setChooseTopic] =
@@ -112,10 +106,20 @@ const Topic = () => {
 						currentOption={chooseTopic}
 						onSelect={setChooseTopic}
 					/>
+					<div className="flex justify-between items-center mt-[32px]">
+						<p>เรียงตาม</p>
+						<RandomButton onClick={() => {}} />
+					</div>
 				</TemplatePolicyList>
 			)}
 		</Layout>
 	);
+};
+
+export const getStaticProps: GetStaticProps = async () => {
+	return {
+		props: {},
+	};
 };
 
 export default memo(Topic);

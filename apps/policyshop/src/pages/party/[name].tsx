@@ -1,16 +1,18 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import Layout from '@/components/Layout';
-import { Policy, Party, IDropdownOption } from '@/types/components';
+import { Policy, Party, IDropdownOption, SetPaths } from '@/types/components';
 import { fetchParties, fetchPolicy, formatOption, groupBy } from '@/utils';
 import Intro from '@/components/Party/Intro';
 import PercentPolicies from '@/components/Party/percentPolicies';
 import TemplatePolicyList from '@/components/Template/PolicyList';
 import Dropdown from '@/components/Dropdown';
+import RandomButton from '@/components/RandomButton';
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 
-export async function getStaticPaths() {
+export const getStaticPaths: GetStaticPaths = async () => {
 	const data = await fetchParties();
-	let setPaths: any[] = [];
+	let setPaths: SetPaths[] = [];
 	data.map((party) =>
 		setPaths.push({
 			params: {
@@ -22,42 +24,36 @@ export async function getStaticPaths() {
 		paths: setPaths,
 		fallback: false,
 	};
-}
+};
 
-export async function getStaticProps(context: any) {
-	const { params } = context;
-	return {
-		props: { params },
-	};
-}
-
-const Party = () => {
+const PartyPage: NextPage = () => {
 	const router = useRouter();
 	const { name } = router.query;
 	const [party, setParty] = useState<Party>();
 	const [policies, setPolicies] = useState<Policy[]>([]);
 	const [hotPolicies, setHotPolicies] = useState<Policy[]>([]);
-	const [optionPolicies, setOptionPolicies] = useState<IDropdownOption<any>[]>(
-		[]
-	);
+	const [optionPolicies, setOptionPolicies] = useState<
+		IDropdownOption<string>[]
+	>([]);
 	const [chooseTopic, setChooseTopic] =
 		useState<IDropdownOption<string> | null>(null);
 
 	const formatParty = useCallback(async (): Promise<void> => {
 		const data: Party[] = await fetchParties();
-		const selectedParty = data.filter((party) => party.Name === name);
+		const selectedParty: Party[] = data.filter((party) => party.Name === name);
 		setParty(selectedParty[0]);
 	}, [name]);
 
 	const formatPolicies = useCallback(async (): Promise<void> => {
 		const data: Policy[] = await fetchPolicy();
-		const policyList = data.filter((p) => p.Party.Name === name);
-		setPolicies(policyList);
-		setHotPolicies(policyList.slice(0, 1));
-		const options = formatOption(
+		const policyList: Policy[] = data.filter((p) => p.Party.Name === name);
+		const options: IDropdownOption<string>[] = formatOption(
 			Object.keys(groupBy(policyList, 'Topic')),
 			'policies'
 		);
+
+		setPolicies(policyList);
+		setHotPolicies(policyList.slice(0, 1));
 
 		await setOptionPolicies([{ label: 'นโยบายทั้งหมด' }, ...options]);
 	}, [name]);
@@ -94,10 +90,20 @@ const Party = () => {
 						currentOption={chooseTopic}
 						onSelect={setChooseTopic}
 					/>
+					<div className="flex justify-between items-center mt-[32px]">
+						<p>เรียงตาม</p>
+						<RandomButton onClick={() => {}} />
+					</div>
 				</TemplatePolicyList>
 			</div>
 		</Layout>
 	);
 };
 
-export default Party;
+export const getStaticProps: GetStaticProps = async () => {
+	return {
+		props: {},
+	};
+};
+
+export default PartyPage;

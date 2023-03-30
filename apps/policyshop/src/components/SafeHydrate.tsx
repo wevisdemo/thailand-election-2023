@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react';
-function SafeHydrate({ children }: any) {
+type Props = {
+	children: string | JSX.Element | JSX.Element[];
+};
+function SafeHydrate({ children }: Props) {
 	const [mounted, setMounted] = useState(false);
 	useEffect(() => {
 		setMounted(true);

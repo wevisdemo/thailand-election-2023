@@ -46,3 +46,10 @@ export interface GroupByTopics {
 export interface ByTopicProps {
 	topics: GroupByTopics;
 }
+
+interface Params {
+	[key: string]: string | string[] | undefined;
+}
+export interface SetPaths {
+	params: Params;
+}
