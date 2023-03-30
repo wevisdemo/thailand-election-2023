@@ -1,8 +1,6 @@
-import { useState, useEffect, FC } from 'react';
-type Props = {
-	children: FC;
-};
-function SafeHydrate({ children }: Props) {
+import { useState, useEffect } from 'react';
+
+function SafeHydrate({ children }: any) {
 	const [mounted, setMounted] = useState(false);
 	useEffect(() => {
 		setMounted(true);
