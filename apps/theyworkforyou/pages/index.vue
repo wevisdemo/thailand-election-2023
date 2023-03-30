@@ -314,7 +314,11 @@ export default {
   z-index: 100;
   background: var(--color-white);
   .heart {
+    width: 20px;
     animation: blink 1s ease-out infinite;
+    @include mobile {
+      width: 15px;
+    }
     @keyframes blink {
       0% {
         transform: scale(1.5);
