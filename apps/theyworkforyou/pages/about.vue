@@ -46,21 +46,20 @@
         <li><a href="#">data 2 (link)</a></li>
       </ul>
 
-      <a
-        href="https://airtable.com/shryu4errnlj1LWsM"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="feedback-btn-wrap"
-      >
-        <div class="feedback-btn">
-          <div class="letter-icon">
-            <img :src="letter" alt="" />
-          </div>
-          <p class="typo-b6">
-            <b>Feedback</b>
-          </p>
+      <div class="btn-container">
+        <div v-for="button in buttons" :key="button.text" class="btn-wrap">
+          <a :href="button.link" target="_blank" rel="noopener noreferrer">
+            <div class="btn">
+              <div class="icon">
+                <img :src="button.icon" alt="" />
+              </div>
+              <p class="typo-b6">
+                <b>{{ button.text }}</b>
+              </p>
+            </div>
+          </a>
         </div>
-      </a>
+      </div>
     </div>
 
     <election-bottom index-path="/theyworkforyou" />
@@ -73,7 +72,23 @@ export default {
   data() {
     return {
       arrow_left: require('~/assets/images/icons/arrow_left.svg'),
-      letter: require('~/assets/images/icons/letter.svg'),
+      buttons: [
+        {
+          text: 'ดาวน์โหลดข้อมูล',
+          icon: require('~/assets/images/icons/download.svg'),
+          link: 'https://sheets.wevis.info/dashboard/#/base/5e439277-692a-43d3-9b17-7d6c683835f6',
+        },
+        {
+          text: 'Feedback',
+          icon: require('~/assets/images/icons/letter.svg'),
+          link: 'https://airtable.com/shryu4errnlj1LWsM',
+        },
+        {
+          text: 'View on Github',
+          icon: require('~/assets/images/icons/github.svg'),
+          link: 'https://github.com/wevisdemo/thailand-election-2023',
+        },
+      ],
     }
   },
   mounted() {
@@ -93,21 +108,43 @@ export default {
     margin-right: 4px;
   }
 }
-.feedback-btn-wrap {
-  text-decoration: none;
-  .feedback-btn {
-    display: flex;
-    align-items: center;
-    padding: 8px 20px;
-    border: 3px solid var(--color-black);
-    border-radius: 100px;
-    margin: 50px auto;
-    width: fit-content;
-    @include mobile {
-      margin: 35px auto;
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  @include mobile {
+    flex-direction: column;
+  }
+  .btn-wrap {
+    a {
+      text-decoration: none;
     }
-    .letter-icon {
-      margin-right: 10px;
+    &:nth-child(2) {
+      margin: 0 20px;
+      @include mobile {
+        margin: 10px 0;
+      }
+    }
+    .btn {
+      width: 180px;
+      height: 42px;
+      flex: none;
+      display: flex;
+      align-items: center;
+      border: 3px solid var(--color-black);
+      border-radius: 100px;
+      padding: 0 20px;
+      &:hover {
+        border-color: var(--color-highlight-2);
+      }
+      .typo-b6 {
+        white-space: nowrap;
+      }
+      .icon {
+        width: 20px;
+        margin-right: 8px;
+      }
     }
   }
 }
