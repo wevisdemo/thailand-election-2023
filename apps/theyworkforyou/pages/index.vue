@@ -365,17 +365,19 @@ export default {
     width: 90vw;
   }
   &.set-min-height-to-quiz {
-    min-height: calc(100vh - 58px - 70px); //100vh - header - footer
+    min-height: calc(
+      100vh - 58px - 41px - 70px
+    ); //100vh - header - prev btn - footer
     @include mobile {
-      min-height: calc(100vh - 42px - 46px);
+      min-height: calc(100vh - 42px - 38px - 46px);
     }
   }
   &.set-min-height-to-result-quiz {
     min-height: calc(
-      100vh - 58px - 250.5px - 70px
-    ); //100vh - header - bottom - footer
+      100vh - 58px - 41px - 250.5px - 70px
+    ); //100vh - header - prev btn - bottom - footer
     @include mobile {
-      min-height: unset;
+      min-height: calc(100vh - 42px - 38px - 185px - 46px);
     }
   }
 }
