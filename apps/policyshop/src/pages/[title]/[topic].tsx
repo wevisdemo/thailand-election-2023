@@ -42,7 +42,7 @@ export async function getStaticProps(context: any) {
 	};
 }
 
-const Topic = ({ params }: any) => {
+const Topic = () => {
 	const router = useRouter();
 	const { title, topic, party } = router.query;
 	const [rawData, setRawData] = useState<Policy[]>([]);

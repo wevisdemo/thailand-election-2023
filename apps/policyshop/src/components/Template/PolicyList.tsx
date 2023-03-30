@@ -5,7 +5,7 @@ import RandomButton from '../RandomButton';
 
 interface PropsType {
 	policyList: Policy[];
-	children: React.ReactNode;
+	children?: React.ReactNode;
 }
 
 const TemplatePolicyList: FunctionComponent<PropsType> = ({
@@ -15,13 +15,13 @@ const TemplatePolicyList: FunctionComponent<PropsType> = ({
 	return (
 		<div>
 			<div className="grid gap-[8px]">{children}</div>
-			<div className="flex justify-between items-center mt-[32px]">
+			{/* <div className="flex justify-between items-center mt-[32px]">
 				<p>เรียงตาม</p>
 				<RandomButton onClick={() => {}} />
 			</div>
 			<p className="mt-[16px] px-[16px]">
 				ส่งข้อมูลให้ทีมงานเพื่ออัปเดตเพิ่มเติมที่ team@punchup.world
-			</p>
+			</p> */}
 			<div className="mt-[16px]">
 				<PolicyCardWrapper policyList={policyList} />
 			</div>
