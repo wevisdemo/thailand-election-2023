@@ -145,8 +145,10 @@ export default {
       const people_votes = await TheyWorkForUs.PeopleVotes.fetch({
         where: `(nc_9rqw__Votelog_id,eq,${this.quiz_data.Id})~and(nc_9rqw__People_id,eq,${this.mp_data[index].Id})`,
       })
-      if (people_votes.list.length > 0) {
-        this.mp_answer = people_votes.list[0].Status
+      if (people_votes.list.length > 0 || this.mp_data.length === 1) {
+        this.mp_answer = people_votes.list[0]
+          ? people_votes.list[0].Status
+          : 'ไม่เข้าร่วมประชุม'
         this.mp_data_current = this.mp_data[index]
         break
       }
@@ -169,8 +171,10 @@ export default {
         const people_votes = await TheyWorkForUs.PeopleVotes.fetch({
           where: `(nc_9rqw__Votelog_id,eq,${this.quiz_data.Id})~and(nc_9rqw__People_id,eq,${this.mp_data[index].Id})`,
         })
-        if (people_votes.list.length > 0) {
-          this.mp_answer = people_votes.list[0].Status
+        if (people_votes.list.length > 0 || this.mp_data.length === 1) {
+          this.mp_answer = people_votes.list[0]
+            ? people_votes.list[0].Status
+            : 'ไม่เข้าร่วมประชุม'
           this.mp_data_current = this.mp_data[index]
           break
         }
