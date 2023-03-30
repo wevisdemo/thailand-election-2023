@@ -12,6 +12,8 @@ import {
 	fetchPolicy,
 } from '@/utils';
 import Dropdown from '@/components/Dropdown';
+import HowToLabel from '@/components/HowToLabel';
+import Clipboard from '@/components/Clipboard';
 
 export async function getStaticPaths() {
 	const data = await fetchPolicy();
@@ -96,6 +98,8 @@ const Topic = () => {
 
 	return (
 		<Layout title={title}>
+			<HowToLabel />
+			<Clipboard />
 			{topic && policies && (
 				<TemplatePolicyList policyList={policies}>
 					<Dropdown

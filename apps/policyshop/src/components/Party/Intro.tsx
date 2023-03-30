@@ -1,4 +1,6 @@
 import React, { FC } from 'react';
+import Clipboard from '../Clipboard';
+import HowToLabel from '../HowToLabel';
 
 const Intro: FC<any> = ({ party }) => {
 	return (
@@ -15,13 +17,18 @@ const Intro: FC<any> = ({ party }) => {
 				</div>
 				<p className="font-bold typo-h3">{party?.Name}</p>
 			</div>
-			<button className="typo-b4 border-[3px] mt-4 border-black rounded-full w-fit mx-auto py-2 px-4">
-				รู้จักพรรคนี้เพิ่มเติม
-			</button>
-			<div className="mt-8 text-center typo-b5">
+			<div className="flex mx-auto mb-10 space-x-3 w-fit">
+				<button className="typo-b4 border-[3px] mt-4 border-black rounded-full w-fit mx-auto py-2 px-4">
+					รู้จักพรรคนี้เพิ่มเติม
+				</button>
+				<button className="typo-b4 border-[3px] mt-4 border-black rounded-full w-fit mx-auto py-2 px-4">
+					เทียบนโยบาย
+				</button>
+			</div>
+			<HowToLabel />
+			<div className="mt-2 text-center typo-b5">
 				<p>ข้อมูลนี้อัปเดตในวันที่ xx/xx/xxxx</p>
-				<p className="ml-4 ">ส่งข้อมูลให้ทีมงานเพื่ออัปเดตเพิ่มเติมที่</p>
-				<p>team@punchup.world</p>
+				<Clipboard />
 			</div>
 		</div>
 	);

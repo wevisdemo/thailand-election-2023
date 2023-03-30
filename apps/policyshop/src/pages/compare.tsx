@@ -1,3 +1,4 @@
+import Clipboard from '@/components/Clipboard';
 import CompareFilter from '@/components/Compare/Filter';
 import Layout from '@/components/Layout';
 import PolicyCardWrapper from '@/components/PolicyCardWrapper';
@@ -19,6 +20,7 @@ const ComparePage: NextPage<PropsType> = ({ policies }) => {
 
 	return (
 		<Layout title="เปรียบเทียบนโยบาย">
+			<Clipboard styles="mt-[32px]" />
 			<>
 				<CompareFilter
 					policies={policies}
