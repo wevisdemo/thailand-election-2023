@@ -10,6 +10,7 @@ import { Party } from '@thailand-election-2023/database/src/models/party';
 import { Policy } from '@thailand-election-2023/database/src/models/policy';
 import { groupBy } from '@/utils';
 import { GroupByTopics } from '@/types/components';
+import ShortCut from '@/components/ShortCut';
 
 export default function Landing() {
 	const [hotParties, setHotParties] = useState<Party[]>([]);
@@ -41,6 +42,7 @@ export default function Landing() {
 			<main>
 				<Layout title="landing">
 					<IntroPolicy />
+					<ShortCut />
 					<HotTopicPolicy topics={topics} />
 					<ByTopic topics={topics} />
 					<ByParty parties={hotParties} />
