@@ -1,7 +1,6 @@
 import React, { FC } from 'react';
 
 const Intro: FC<any> = ({ party }) => {
-	console.log(party, 'party');
 	return (
 		<div className="flex flex-col justify-center">
 			<div className="flex items-center justify-center">
