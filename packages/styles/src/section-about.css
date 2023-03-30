@@ -15,9 +15,9 @@
 }
 
 .section-about ul {
-	@apply list-disc list-inside ml-2;
+	@apply list-disc list-outside ml-2;
 }
 
 .section-about a {
-	@apply underline;
+	@apply underline text-gray-3;
 }
