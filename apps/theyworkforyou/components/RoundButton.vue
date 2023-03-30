@@ -40,6 +40,9 @@ export default {
   border: 3px solid var(--color-black);
   border-radius: 100px;
   cursor: pointer;
+  &:hover {
+    border-color: var(--color-highlight-2);
+  }
 }
 .arrow {
   width: 12px;
