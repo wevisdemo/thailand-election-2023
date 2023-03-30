@@ -7,8 +7,10 @@ import Link from 'next/link';
 const ByParty: FC<ByPartyProps> = ({ parties }) => {
 	return (
 		<div className="container pt-10 mx-auto">
-			<p className="font-bold typo-h6">ดูนโยบายตามพรรค</p>
-			<div className="flex flex-wrap text-center ">
+			<p className="px-4 py-2 font-bold typo-h6 bg-highlight-2">
+				ดูนโยบายตามพรรค
+			</p>
+			<div className="flex flex-wrap justify-center text-center ">
 				{parties?.map((d: Party) => (
 					<Link
 						href={`/party/${d.Name}`}

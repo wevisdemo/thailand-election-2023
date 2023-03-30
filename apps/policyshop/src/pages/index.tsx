@@ -42,10 +42,16 @@ export default function Landing() {
 			<main>
 				<Layout title="landing">
 					<IntroPolicy />
-					<ShortCut />
-					<HotTopicPolicy topics={topics} />
-					<ByTopic topics={topics} />
-					<ByParty parties={hotParties} />
+					<div className="max-w-[728px] mx-auto">
+						<ShortCut />
+						<p className="mt-16 font-bold text-center typo-h4">
+							นโยบายหาเสียง <br className=" md:hidden" />
+							เลือกตั้ง ปี 2566
+						</p>
+						<HotTopicPolicy topics={topics} />
+						<ByTopic topics={topics} />
+						<ByParty parties={hotParties} />
+					</div>
 				</Layout>
 			</main>
 		</>

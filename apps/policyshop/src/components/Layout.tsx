@@ -16,14 +16,14 @@ const Layout: FunctionComponent<PropsType> = ({ title, children }) => {
 	return (
 		<div className="main-component">
 			<election-header></election-header>
-			<div className="max-w-[420px] md:container m-auto p-[16px]">
+			<div className="max-w-[420px] md:max-w-none m-auto ">
 				{title != 'landing' && (
 					<Link href="/" className="flex mt-[16px]">
 						<img src={`${imgPrefix}/arrow.svg`} alt="arrow" />
 						<p className="ml-[8px] typo-b2 font-kondolar font-bold">{title}</p>
 					</Link>
 				)}
-				<div className="mt-[24px]">{children}</div>
+				<div>{children}</div>
 			</div>
 		</div>
 	);

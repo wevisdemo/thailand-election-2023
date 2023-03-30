@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { ArrowsType1 } from '../Arrows';
 
 const IntroPolicy: FC = () => {
 	return (
@@ -8,10 +9,11 @@ const IntroPolicy: FC = () => {
 				<br className=" md:hover:" /> พรรคคุณพี่
 				<br className=" md:hover:" /> ขายอะไรหรอคะ?
 			</p>
-			<p className="mt-2 typo-h7">
+			<p className="mt-2 typo-h7 ">
 				เทียบนโยบายหาเสียงเลือกตั้ง ‘66
 				มาดูกันว่าพรรคไหนจะเป็นตัวแทนของเราได้บ้าง
 			</p>
+			<ArrowsType1 styles="mx-auto w-fit mt-11 animate-bounce" />
 		</div>
 	);
 };

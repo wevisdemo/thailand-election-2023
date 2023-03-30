@@ -6,8 +6,10 @@ import CircleTopicWrapper from '../CircleTopicWrapper';
 const ByTopic: FC<ByTopicProps> = ({ topics }) => {
 	return (
 		<div className="container pt-10 mx-auto">
-			<p className="font-bold typo-h6">แบ่งตามประเด็น</p>
-			<div className="flex flex-wrap text-center ">
+			<p className="px-4 py-2 font-bold typo-h6 bg-highlight-2">
+				แบ่งตามประเด็น
+			</p>
+			<div className="flex flex-wrap justify-center ">
 				{Object.keys(topics).map((key) => (
 					<Link
 						key={key}

@@ -7,8 +7,10 @@ const HotTopicPolicy: FC<ByTopicProps> = ({ topics }) => {
 	const hotTopics = Object.keys(topics).slice(0, 6);
 	return (
 		<div className="container pt-10 mx-auto">
-			<p className="font-bold typo-h6">นโยบายประเด็นร้อน</p>
-			<div className="flex flex-wrap text-center ">
+			<p className="px-4 py-2 font-bold typo-h6 bg-highlight-2">
+				นโยบายประเด็นร้อน
+			</p>
+			<div className="grid grid-cols-2 gap-1 mx-auto text-center md:grid-cols-3 w-fit ">
 				{hotTopics.map((topic) => (
 					<Link
 						key={topic}
@@ -16,6 +18,7 @@ const HotTopicPolicy: FC<ByTopicProps> = ({ topics }) => {
 						className="mt-4 mx-[8px]"
 					>
 						<SquareTopicWrapper topicName={topic} />
+						<p className="typo-b6">({topics[topic].length})</p>
 					</Link>
 				))}
 			</div>
