@@ -12,11 +12,16 @@ const Layout: FunctionComponent<PropsType> = ({ title, children }) => {
 	useEffect(() => {
 		// @ts-ignore
 		import('@thailand-election-2023/components');
-	});
+	}, []);
+
 	return (
 		<div className="main-component">
 			<election-header></election-header>
-			<div className="max-w-[420px] md:max-w-none m-auto ">
+			<div
+				className={`max-w-[420px]   m-auto ${
+					title != 'landing' ? ' md:max-w-[728px] px-4' : ' md:max-w-none'
+				}`}
+			>
 				{title != 'landing' && (
 					<Link href="/" className="flex mt-[16px]">
 						<img src={`${imgPrefix}/arrow.svg`} alt="arrow" />
