@@ -14,6 +14,7 @@
 	import Quiz8 from '../components/quiz/quiz8.svelte';
 	import Calculate from '../components/analyze/calculate.svelte';
 	import ContentWrapper from '../components/content.svelte';
+	import EditQuiz from '../components/quiz/editQuize.svelte';
 	import { Content } from '../stores/content';
 </script>
 
@@ -60,6 +61,9 @@
 		</ContentWrapper>
 		<ContentWrapper id={Content.Calculate}>
 			<Calculate />
+		</ContentWrapper>
+		<ContentWrapper id={Content.EditQuiz}>
+			<EditQuiz />
 		</ContentWrapper>
 	</div>
 </div>

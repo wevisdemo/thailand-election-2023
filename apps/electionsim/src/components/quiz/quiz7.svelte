@@ -3,6 +3,7 @@
 	import { input } from '../../stores/input';
 
 	$: ans = $input.input.quiz7;
+	$: isFinished = $contentManager.isFinished;
 </script>
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
@@ -62,38 +63,53 @@
 			</div>
 		</div>
 		<div class="w-full mt-20 flex items-center justify-between space-x-5">
-			<button
-				class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
-				on:click={() => {
-					contentManager.updateContent(Content.Quiz6);
-				}}
-			>
-				<div
-					class="border-1 border-t border-l w-2 h-2 -rotate-45 border-black"
-				/>
-				<b>ย้อนกลับ</b>
-			</button>
-			{#if ans}
+			{#if isFinished}
 				<button
 					class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
 					on:click={() => {
-						contentManager.updateContent(Content.Quiz8);
+						contentManager.updateContent(Content.EditQuiz);
 					}}
 				>
-					<b>ต่อไป</b>
+					<b>บันทึกคำตอบ</b>
 					<div
 						class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
 					/>
 				</button>
 			{:else}
 				<button
-					class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full flex items-center justify-between font-bold"
+					class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
 					on:click={() => {
-						contentManager.updateContent(Content.Calculate);
+						contentManager.updateContent(Content.Quiz6);
 					}}
 				>
-					ส่งข้อมูล
+					<div
+						class="border-1 border-t border-l w-2 h-2 -rotate-45 border-black"
+					/>
+					<b>ย้อนกลับ</b>
 				</button>
+				{#if ans}
+					<button
+						class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
+						on:click={() => {
+							contentManager.updateContent(Content.Quiz8);
+						}}
+					>
+						<b>ต่อไป</b>
+						<div
+							class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
+						/>
+					</button>
+				{:else}
+					<button
+						class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full flex items-center justify-between font-bold"
+						on:click={() => {
+							contentManager.updateContent(Content.Calculate);
+							contentManager.toggleFinished();
+						}}
+					>
+						ส่งข้อมูล
+					</button>
+				{/if}
 			{/if}
 		</div>
 	</div>

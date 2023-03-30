@@ -1,4 +1,4 @@
-import { ScaleAns } from '../stores/input';
+import { ScaleAns, PollAns } from '../stores/input';
 
 export const quiz1ToWord = (key: ScaleAns | undefined): string[] => {
 	switch (key) {
@@ -138,6 +138,32 @@ export const quiz5ToWord = (key: ScaleAns | undefined): string[] => {
 		default:
 			return ['', ''];
 	}
+};
+
+export const quiz6ToWord = (key: PollAns | undefined): string => {
+	switch (key) {
+		case PollAns.Nida:
+			return 'นิด้าโพล';
+
+		case PollAns.Dusit:
+			return 'สวนดุสิตโพล';
+
+		case PollAns.Thairath:
+			return 'ไทยรัฐโพล';
+
+		case PollAns.Prapok:
+			return 'สถาบันประปกเกล้า';
+
+		case PollAns.Super:
+			return 'ซุเปอร์โพล';
+
+		default:
+			return '';
+	}
+};
+
+export const quiz7ToWord = (key: boolean | undefined): string => {
+	return key ? 'ยังมีอีก' : 'คงไม่มี/ยังนึกไม่ออก';
 };
 
 export const quiz8ToWord = (key: ScaleAns | undefined): string[] => {

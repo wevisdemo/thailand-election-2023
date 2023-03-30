@@ -5,6 +5,7 @@
 
 	$: ans = $input.input.quiz8;
 	$: [word, percent] = quiz8ToWord(ans?.percent);
+	$: isFinished = $contentManager.isFinished;
 </script>
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
@@ -23,16 +24,16 @@
 				>
 					<h3 class="typo-b3 font-bold flex-1 opacity-30">เลือกพรรค</h3>
 					<svg
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
+						width="16"
+						height="17"
+						viewBox="0 0 16 17"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
 					>
 						<path
 							fill-rule="evenodd"
 							clip-rule="evenodd"
-							d="M18.72 6.71953L9.59999 15.8395L4.31999 10.5595L3.23999 11.6395L8.51999 16.9195L9.59999 17.9995L19.8 7.79953L18.72 6.71953Z"
+							d="M8.32012 11.06L3.52012 6.25997L4.19212 5.58797L8.32012 9.71597L12.4481 5.58797L13.1201 6.25997L8.32012 11.06Z"
 							fill="#161616"
 						/>
 					</svg>
@@ -45,16 +46,16 @@
 				>
 					<h3 class="typo-b3 font-bold flex-1 opacity-30">เลือกพรรค</h3>
 					<svg
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
+						width="16"
+						height="17"
+						viewBox="0 0 16 17"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
 					>
 						<path
 							fill-rule="evenodd"
 							clip-rule="evenodd"
-							d="M18.72 6.71953L9.59999 15.8395L4.31999 10.5595L3.23999 11.6395L8.51999 16.9195L9.59999 17.9995L19.8 7.79953L18.72 6.71953Z"
+							d="M8.32012 11.06L3.52012 6.25997L4.19212 5.58797L8.32012 9.71597L12.4481 5.58797L13.1201 6.25997L8.32012 11.06Z"
 							fill="#161616"
 						/>
 					</svg>
@@ -119,32 +120,47 @@
 				</div>
 			</div>
 		</div>
-		<div class="h-20 text-center mt-1">
+		<div class="h-20 md:h-40 text-center mt-1">
 			{#if ans}
 				<h4 class="typo-b4">{word}</h4>
 				<h6 class="typo-h6 font-bold">{percent}</h6>
 			{/if}
 		</div>
 		<div class="w-full flex items-center justify-between space-x-5">
-			<button
-				class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
-				on:click={() => {
-					contentManager.updateContent(Content.Quiz7);
-				}}
-			>
-				<div
-					class="border-1 border-t border-l w-2 h-2 -rotate-45 border-black"
-				/>
-				<b>ย้อนกลับ</b>
-			</button>
-			<button
-				class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full flex items-center justify-between font-bold"
-				on:click={() => {
-					contentManager.updateContent(Content.Calculate);
-				}}
-			>
-				ส่งข้อมูล
-			</button>
+			{#if isFinished}
+				<button
+					class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
+					on:click={() => {
+						contentManager.updateContent(Content.EditQuiz);
+					}}
+				>
+					<b>บันทึกคำตอบ</b>
+					<div
+						class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
+					/>
+				</button>
+			{:else}
+				<button
+					class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
+					on:click={() => {
+						contentManager.updateContent(Content.Quiz7);
+					}}
+				>
+					<div
+						class="border-1 border-t border-l w-2 h-2 -rotate-45 border-black"
+					/>
+					<b>ย้อนกลับ</b>
+				</button>
+				<button
+					class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full flex items-center justify-between font-bold"
+					on:click={() => {
+						contentManager.updateContent(Content.Calculate);
+						contentManager.toggleFinished();
+					}}
+				>
+					ส่งข้อมูล
+				</button>
+			{/if}
 		</div>
 	</div>
 </div>

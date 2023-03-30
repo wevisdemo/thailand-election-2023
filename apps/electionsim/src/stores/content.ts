@@ -14,6 +14,7 @@ export enum Content {
 	Quiz7 = 10,
 	Quiz8 = 11,
 	Calculate = 12,
+	EditQuiz = 13,
 }
 
 export interface ContentStore {
@@ -21,7 +22,10 @@ export interface ContentStore {
 	isFinished: boolean;
 }
 
-const initialContent: ContentStore = { currentContent: Content.Intro, isFinished: false }
+const initialContent: ContentStore = {
+	currentContent: Content.Intro,
+	isFinished: false,
+};
 
 const createContentManagerStore = () => {
 	const { subscribe, update } = writable<ContentStore>(initialContent);
@@ -31,9 +35,15 @@ const createContentManagerStore = () => {
 		updateContent: (newContent: Content) => {
 			update((store) => ({
 				...store,
-				currentContent: newContent
-			}))
-		}
+				currentContent: newContent,
+			}));
+		},
+		toggleFinished: () => {
+			update((store) => ({
+				...store,
+				isFinished: true,
+			}));
+		},
 	};
 };
 

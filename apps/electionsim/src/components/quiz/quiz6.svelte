@@ -6,6 +6,7 @@
 
 	$: ans = $input.input.quiz6;
 	$: isInfoOpen = false;
+	$: isFinished = $contentManager.isFinished;
 
 	const toggleIsInfoOpen = () => (isInfoOpen = !isInfoOpen);
 </script>
@@ -179,41 +180,55 @@
 			</div>
 		</div>
 		<div class="w-full mt-20 flex items-center justify-between space-x-5">
-			<button
-				class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
-				on:click={() => {
-					contentManager.updateContent(Content.Quiz5);
-				}}
-			>
-				<div
-					class="border-1 border-t border-l w-2 h-2 -rotate-45 border-black"
-				/>
-				<b>ย้อนกลับ</b>
-			</button>
-			{#if ans}
+			{#if isFinished}
 				<button
 					class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
 					on:click={() => {
-						contentManager.updateContent(Content.Quiz7);
+						contentManager.updateContent(Content.EditQuiz);
 					}}
 				>
-					<b>ต่อไป</b>
+					<b>บันทึกคำตอบ</b>
 					<div
 						class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
 					/>
 				</button>
 			{:else}
 				<button
-					class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-black"
+					class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
 					on:click={() => {
-						contentManager.updateContent(Content.Quiz7);
+						contentManager.updateContent(Content.Quiz5);
 					}}
 				>
-					<b>ข้าม</b>
 					<div
-						class="border-1 border-t border-r w-2 h-2 rotate-45 border-black"
+						class="border-1 border-t border-l w-2 h-2 -rotate-45 border-black"
 					/>
+					<b>ย้อนกลับ</b>
 				</button>
+				{#if ans}
+					<button
+						class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
+						on:click={() => {
+							contentManager.updateContent(Content.Quiz7);
+						}}
+					>
+						<b>ต่อไป</b>
+						<div
+							class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
+						/>
+					</button>
+				{:else}
+					<button
+						class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-black"
+						on:click={() => {
+							contentManager.updateContent(Content.Quiz7);
+						}}
+					>
+						<b>ข้าม</b>
+						<div
+							class="border-1 border-t border-r w-2 h-2 rotate-45 border-black"
+						/>
+					</button>
+				{/if}
 			{/if}
 		</div>
 	</div>
