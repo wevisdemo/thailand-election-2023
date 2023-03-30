@@ -1,34 +1,21 @@
 import React, { FC } from 'react';
 import Link from 'next/link';
 import SquareTopicWrapper from '../SquareTopicWarpper';
+import { ByTopicProps } from '@/types/components';
 
-const HotTopicPolicy: FC = () => {
-	const mockData = [
-		{
-			topic_name: 'คอรัปชั่น',
-		},
-		{
-			topic_name: 'ความเท่าเทียม',
-		},
-		,
-		{
-			topic_name: 'ความมั่นคง',
-		},
-		{
-			topic_name: '112',
-		},
-	];
+const HotTopicPolicy: FC<ByTopicProps> = ({ topics }) => {
+	const hotTopics = Object.keys(topics).slice(0, 6);
 	return (
 		<div className="container pt-10 mx-auto">
 			<p className="font-bold typo-h6">นโยบายประเด็นร้อน</p>
 			<div className="flex flex-wrap text-center ">
-				{mockData.map((topic) => (
+				{hotTopics.map((topic) => (
 					<Link
-						key={topic?.topic_name}
-						href={`/นโยบายประเด็นร้อน/${topic?.topic_name}`}
+						key={topic}
+						href={`/นโยบายประเด็นร้อน/${topic}`}
 						className="mt-4 mx-[8px]"
 					>
-						<SquareTopicWrapper topicName={topic?.topic_name} />
+						<SquareTopicWrapper topicName={topic} />
 					</Link>
 				))}
 			</div>

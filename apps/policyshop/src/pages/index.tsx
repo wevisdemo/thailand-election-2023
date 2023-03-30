@@ -41,7 +41,7 @@ export default function Landing() {
 			<main>
 				<Layout title="landing">
 					<IntroPolicy />
-					<HotTopicPolicy />
+					<HotTopicPolicy topics={topics} />
 					<ByTopic topics={topics} />
 					<ByParty parties={hotParties} />
 				</Layout>
