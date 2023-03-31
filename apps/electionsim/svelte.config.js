@@ -14,6 +14,7 @@ const config = {
 		}),
 		paths: {
 			base: '/electionsim',
+			relative: false,
 		},
 	},
 };
