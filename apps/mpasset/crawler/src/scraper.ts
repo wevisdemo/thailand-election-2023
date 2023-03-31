@@ -1,6 +1,7 @@
 import { fetchAllRows } from './utils/nocodb';
 import { fetchFromCreden } from './utils/creden';
 import * as fs from 'fs';
+import * as d3 from 'd3';
 
 const PARTY_VIEW_ID = '40065196-c978-4d7a-b3fb-fb84694383a7';
 const PEOPLE_VIEW_ID = '572c5e5c-a3d8-440f-9a70-3c4c773543ec';
@@ -28,6 +29,7 @@ export interface Person {
 	IsSenator: boolean;
 	IsActive: boolean;
 
+	// custom field
 	Images: ImageAttachment[] | string | null;
 	PeoplePartyHistory?: NestedPeoplePartyHistory[];
 	Party: {
@@ -36,6 +38,10 @@ export interface Person {
 		Color?: string | null;
 		Images?: string | null;
 	} | null;
+	countDirector: number;
+	countCompShare: number;
+	totalValueShare: number;
+	totalPctShare: number;
 }
 
 export interface NestedPeoplePartyHistory {
@@ -137,35 +143,134 @@ export const fetchShareholderData = async (people: Person[]) => {
 		fullname: string;
 	}>[] = [];
 	people.forEach((p) => {
-		request.push(fetchFromCreden(p.Name));
+		request.push(fetchFromCreden(p.Name, 'shareholder'));
 	});
 
 	let company: CredenResult[] = [];
-	await Promise.all(request).then((value) => {
-		if (value.length > 0) {
-			value.forEach((v) => {
-				const { result, fullname } = v;
+	let peopleProcess: Person[] = people;
 
-				if (result) {
-					const { success, data } = JSON.parse(result) as {
-						success: boolean;
-						msg?: string;
-						data: CredenResult[];
-					};
-					if (success && data) {
-						company = [...company, ...data];
-						fs.writeFileSync(
-							`./public/data/creden/${String(fullname).replace(' ', '-')}.json`,
-							JSON.stringify(data)
-						);
+	await Promise.all(request)
+		.then((value) => {
+			if (value.length > 0) {
+				value.forEach((v, i) => {
+					const { result, fullname } = v;
+
+					if (result) {
+						const { success, data } = JSON.parse(result) as {
+							success: boolean;
+							msg?: string;
+							data: CredenResult[];
+						};
+
+						let totalValueShare = 0;
+
+						if (success && data) {
+							company = [...company, ...data];
+							fs.writeFileSync(
+								`./public/data/creden/shareholder/${String(fullname).replaceAll(
+									' ',
+									'-'
+								)}.json`,
+								JSON.stringify(data)
+							);
+
+							// sum value share of all company
+							totalValueShare = data.reduce(
+								(acc, cur) => acc + Number(cur.value_share),
+								0
+							);
+						}
+						peopleProcess[i].totalValueShare = totalValueShare;
+						peopleProcess[i].countCompShare = data ? data.length : 0;
 					}
-				}
+				});
+			}
+		})
+		.then(() => {
+			let max = d3.max(peopleProcess, (d) => Number(d.totalValueShare)) || 100;
+			let scalePercentage = d3.scaleLinear().domain([0, max]).range([0, 100]);
+			peopleProcess.forEach((p) => {
+				p.totalPctShare = scalePercentage(p.totalValueShare);
 			});
-		}
-	});
+
+			peopleProcess.sort((a, b) => b.totalValueShare - a.totalValueShare);
+
+			fs.writeFileSync(
+				`./public/data/people.json`,
+				JSON.stringify(peopleProcess)
+			);
+		});
 
 	fs.writeFileSync(
-		`./public/data/creden/company.json`,
+		`./public/data/creden/shareholder/all-company-shareholder.json`,
+		JSON.stringify(company)
+	);
+};
+
+export const fetchDirectorData = async (people: Person[]) => {
+	const request: Promise<{
+		result: string | void;
+		fullname: string;
+	}>[] = [];
+	people.forEach((p) => {
+		request.push(fetchFromCreden(p.Name, 'director'));
+	});
+
+	let company: CredenResult[] = [];
+	let peopleProcess: Person[] = people;
+
+	await Promise.all(request)
+		.then((value) => {
+			if (value.length > 0) {
+				value.forEach((v, i) => {
+					const { result, fullname } = v;
+
+					if (result) {
+						const { success, data } = JSON.parse(result) as {
+							success: boolean;
+							msg?: string;
+							data: CredenResult[];
+						};
+
+						let totalValueShare = 0;
+
+						if (success && data) {
+							company = [...company, ...data];
+							fs.writeFileSync(
+								`./public/data/creden/director/${String(fullname).replaceAll(
+									' ',
+									'-'
+								)}.json`,
+								JSON.stringify(data)
+							);
+
+							// sum value share of all company
+							// totalValueShare = data.reduce(
+							// 	(acc, cur) => acc + Number(cur.value_share),
+							// 	0
+							// );
+						}
+						// peopleProcess[i].totalValueShare = totalValueShare;
+						peopleProcess[i].countDirector = data ? data.length : 0;
+					}
+				});
+			}
+		})
+		.then(() => {
+			// let max = d3.max(peopleProcess, (d) => Number(d.totalValueShare)) || 100;
+			// let scalePercentage = d3.scaleLinear().domain([0, max]).range([0, 100]);
+			// peopleProcess.forEach((p) => {
+			// 	p.totalPctShare = scalePercentage(p.totalValueShare);
+			// });
+			// peopleProcess.sort((a, b) => b.totalValueShare - a.totalValueShare);
+			// fs.writeFileSync(
+			// 	`./public/data/people.json`,
+			// 	JSON.stringify(peopleProcess)
+			// );
+		});
+
+	fs.writeFileSync(
+		`./public/data/creden/director/all-company-director.json`,
 		JSON.stringify(company)
 	);
 };
