@@ -5,10 +5,7 @@
 </script>
 
 <div class="w-full h-1 flex space-x-2">
-	{#if currentContent == Content.Intro || currentContent > Content.Quiz8}
-		<div class="beyondx-gradient-bg h-full w-full" />
-	{/if}
-	{#if currentContent > Content.Intro && currentContent <= Content.Quiz8}
+	{#if currentContent <= Content.Quiz8}
 		<div
 			class="bg-[#2400DA] h-full w-[11.11%] {currentContent < Content.Analytics
 				? 'opacity-10'
