@@ -1,7 +1,7 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import byxMobileLogo from '../../images/byx-mobile.svg';
 	import simulatorBx from '../../images/simulator_bx.png';
-	import { contentManager, Content } from '../../stores/content';
 </script>
 
 <div class="flex flex-col items-center w-[312px] md:w-[650px] py-10">
@@ -19,13 +19,11 @@
 		ปัจจัยอะไรบ้างที่มีผลต่อการเลือกตั้ง?ลองมาสวมบทบาทนักวิเคราะห์การเมือง
 		แล้ววิเคราะห์ความเป็นไปได้ต่างๆ ของการ เลือกตั้งครั้งนี้ไปด้วยกัน
 	</p>
-	<button
+	<a
+		href="{base}/quiz"
 		class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-[160px] md:w-52 h-[50px] flex items-center justify-between font-bold"
-		on:click={() => {
-			contentManager.updateContent(Content.Analytics);
-		}}
 	>
 		เริ่มเลย
 		<div class="border-1 border-t border-r w-2 h-2 rotate-45" />
-	</button>
+	</a>
 </div>

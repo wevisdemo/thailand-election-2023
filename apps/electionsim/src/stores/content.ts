@@ -1,7 +1,6 @@
 import { writable } from 'svelte/store';
 
 export enum Content {
-	Intro = 0,
 	Analytics = 1,
 	Election62 = 2,
 	ReCalculate = 3,
@@ -23,7 +22,7 @@ export interface ContentStore {
 }
 
 const initialContent: ContentStore = {
-	currentContent: Content.Intro,
+	currentContent: Content.Analytics,
 	isFinished: false,
 };
 

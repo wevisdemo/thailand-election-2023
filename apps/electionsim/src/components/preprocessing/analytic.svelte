@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { Content, contentManager } from '../../stores/content';
 </script>
 
@@ -29,17 +30,15 @@
 		</p>
 	</div>
 	<div class="w-full mt-4 flex items-center justify-between space-x-5">
-		<button
+		<a
 			class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
-			on:click={() => {
-				contentManager.updateContent(Content.Intro);
-			}}
+			href={base}
 		>
 			<div class="border-1 border-t border-l w-2 h-2 -rotate-45 border-black" />
 			<b>ย้อนกลับ</b>
-		</button>
+		</a>
 		<button
-			class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
+			class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full text-white bg-black"
 			on:click={() => {
 				contentManager.updateContent(Content.Election62);
 			}}
