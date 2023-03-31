@@ -11,8 +11,9 @@
 		"lint": "eslint ."
 	},
 	"dependencies": {
-		"@thailand-election-2023/styles": "*",
-		"@thailand-election-2023/components": "*"
+		"@thailand-election-2023/components": "*",
+		"@thailand-election-2023/database": "*",
+		"@thailand-election-2023/styles": "*"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^2.0.1",
