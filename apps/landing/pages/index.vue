@@ -110,9 +110,22 @@
             WeVis เพื่อเป็นกำลังใจให้พวกเราสร้างสรรค์งานต่อไป
           </p>
         </div>
-        <a href="https://wevis.info/" target="_blank" rel="noopener noreferrer">
-          <SquareButton text="WeVis.info" color="black" />
-        </a>
+        <div class="button-container">
+          <a
+            href="https://wevis.info/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SquareButton text="WeVis.info" color="black" />
+          </a>
+          <a
+            href="https://github.com/wevisdemo/thailand-election-2023"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SquareButton text="View project on GitHub" color="white" />
+          </a>
+        </div>
       </div>
     </div>
     <election-footer></election-footer>
@@ -407,6 +420,16 @@ export default {
     padding: 30px 0 40px;
     @include mobile {
       padding: 20px 0 25px;
+    }
+  }
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+
+    @include mobile {
+      flex-direction: column;
     }
   }
 }
