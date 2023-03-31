@@ -250,6 +250,7 @@ export default {
       .icon {
         width: 20px;
         margin-right: 8px;
+        margin-bottom: 2px;
       }
     }
   }
