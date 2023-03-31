@@ -1,6 +1,6 @@
 const prod_url = 'https://election66.wevis.info/theyworkforyou/'
 const title = 'ส.ส. เขตบ้าน ทำงานตรงกับใจคุณแค่ไหน'
-const description = ''
+const description = 'ชวนทุกคนมาตรวจการบ้าน ก่อนการ #เลือกตั้ง66'
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
