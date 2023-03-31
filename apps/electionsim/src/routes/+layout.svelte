@@ -1,8 +1,9 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import '@thailand-election-2023/styles/dist/index.css';
 	import '../app.css';
+
+	onMount(() => import('@thailand-election-2023/components'));
 </script>
 
-<div class="h-full min-h-screen">
-	<slot />
-</div>
+<slot />
