@@ -5,7 +5,7 @@
     <Transition name="fade">
       <div v-if="loading" class="loading-container">
         <div class="heart">
-          <img :src="heart" alt="" />
+          <img :src="heart" alt="heart" />
         </div>
       </div>
     </Transition>
@@ -89,7 +89,7 @@
                 </template>
               </vue-simple-suggest>
               <div class="search-icon">
-                <img :src="search_icon" alt="" />
+                <img :src="search_icon" alt="search icon" />
               </div>
             </div>
             <div v-if="chosen" class="mp-result-wrap">

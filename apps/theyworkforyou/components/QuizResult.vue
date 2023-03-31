@@ -17,7 +17,7 @@
     <div class="match-img">
       <div class="user-img-wrap">
         <div class="heart">
-          <img :src="heart" alt="" />
+          <img :src="heart" alt="heart" />
         </div>
         <div class="user-icon">
           <img :src="user" alt="user" />
@@ -25,12 +25,12 @@
       </div>
       <div v-if="match_vote < 10" class="cross-wrap">
         <div v-for="i in getNumberOfCross" :key="`cross${i}`" class="cross">
-          <img :src="cross" alt="" />
+          <img :src="cross" alt="cross" />
         </div>
       </div>
       <div class="mp-img-wrap">
         <div class="heart">
-          <img :src="heart" alt="" />
+          <img :src="heart" alt="heart" />
         </div>
         <div class="mp-icon" :class="{ 'mp-icon-old': isTwoMp }">
           <img :src="mp_data[0].Images[0].url" alt="user" />

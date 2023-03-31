@@ -110,7 +110,7 @@
         <a :href="button.link" target="_blank" rel="noopener noreferrer">
           <div class="btn">
             <div class="icon">
-              <img :src="button.icon" alt="" />
+              <img :src="button.icon" :alt="button.id" />
             </div>
             <p class="typo-b6">
               <b>{{ button.text }}</b>
@@ -132,16 +132,19 @@ export default {
       arrow_left: require('~/assets/images/icons/arrow_left.svg'),
       buttons: [
         {
+          id: 'download',
           text: 'ดาวน์โหลดข้อมูล',
           icon: require('~/assets/images/icons/download.svg'),
           link: 'https://sheets.wevis.info/dashboard/#/base/5e439277-692a-43d3-9b17-7d6c683835f6',
         },
         {
+          id: 'feedback',
           text: 'Feedback',
           icon: require('~/assets/images/icons/letter.svg'),
           link: 'https://airtable.com/shryu4errnlj1LWsM',
         },
         {
+          id: 'github',
           text: 'View on Github',
           icon: require('~/assets/images/icons/github.svg'),
           link: 'https://github.com/wevisdemo/thailand-election-2023/tree/main/apps/theyworkforyou',
