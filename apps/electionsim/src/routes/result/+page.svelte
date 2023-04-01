@@ -5,6 +5,7 @@
 	import { representatives } from '../../stores/representatives';
 	import { Content, contentManager } from '../../stores/content';
 	import GovernmentEstablish from '../../components/result/government-establish.svelte';
+	import Graph from '../../components/result/graph/graph.svelte';
 
 	enum Tabs {
 		Map = 'map',
@@ -33,7 +34,7 @@
 <div class="h-screen flex flex-col">
 	<div class="w-full h-1 beyondx-gradient-bg" />
 	<div class="flex-1 flex flex-col items-center">
-		<div class="flex flex-col items-center w-[312px] md:w-[650px] mt-10">
+		<div class="flex flex-col w-[312px] md:w-[650px] mt-10">
 			<div class="flex justify-center items-center">
 				<div class="flex items-center">
 					<h7 class="typo-h7 font-bold">จำลองผล #เลือกตั้ง66 จากคำตอบของคุณ</h7>
@@ -81,6 +82,9 @@
 					กราฟ
 				</div>
 			</div>
+			{#if selectedTab === Tabs.Graph}
+				<Graph representativeRecord={$representatives} />
+			{/if}
 		</div>
 	</div>
 	<GovernmentEstablish />
