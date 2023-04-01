@@ -5,7 +5,7 @@
         class="typo-b3"
         type="text"
         name="query"
-        v-model.trim="query"
+        v-model.trim="queryData"
         :placeholder="placeholder"
       />
       <IconsSearch />
@@ -18,6 +18,11 @@ export default {
   props: {
     query: String,
     placeholder: String,
+  },
+  data() {
+    return {
+      queryData: this.query,
+    }
   },
 }
 </script>

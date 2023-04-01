@@ -52,22 +52,42 @@
       </div>
 
       <!-- tab -->
-      <Tabs :tabs="tabs">
+      <Tabs
+        :tabs="tabs"
+        @selectTab="selectTab($event)"
+        :activeTab="tabSelected"
+      >
         <div slot="tab1">
           <div class="tab-header">
             <div class="tab-header__summary">
-              <p>ทั้งหมด {{ getNumberPeople() }}</p>
+              <p>
+                ทั้งหมด <b>{{ getNumberPeople() }} คน</b>
+              </p>
               <BadgeWithCheck :checks="1">
-                <p>เคยมีตำแหน่งในสภาสมัยล่าสุด <b> 1 คน</b></p>
+                <p>
+                  เคยมีตำแหน่งในสภาสมัยที่แล้ว
+                  <b> {{ getNumberPeoplePartyHistory() }} คน</b>
+                </p>
               </BadgeWithCheck>
             </div>
             <div class="search">
-              <PartySearch placeholder="ค้นหาด้วยชื่อพรรค" />
+              <div class="search-container">
+                <div class="search-box">
+                  <input
+                    class="typo-b3"
+                    type="text"
+                    name="query"
+                    v-model.trim="partyQuery"
+                    placeholder="ค้นหาด้วยชื่อพรรค"
+                  />
+                  <IconsSearch />
+                </div>
+              </div>
             </div>
           </div>
           <div class="candidate-card">
             <PeopleCard
-              v-for="people in peoples"
+              v-for="people in filteredByQueryPeople"
               :key="people.number"
               :people="{ ...people }"
             />
@@ -82,19 +102,58 @@
               </BadgeWithCheck>
             </div>
             <div class="search">
-              <PartySearch placeholder="ค้นหาด้วยชื่อพรรค" />
+              <div class="search-container">
+                <div class="search-box">
+                  <input
+                    class="typo-b3"
+                    type="text"
+                    name="query"
+                    v-model.trim="partyQuery"
+                    placeholder="ค้นหาด้วยชื่อพรรค"
+                  />
+                  <IconsSearch />
+                </div>
+              </div>
             </div>
           </div>
           <div class="candidate-card">
             <PartyCard
-              v-for="party in parties"
+              v-for="party in filteredByQueryParties"
               :key="party.number"
               :party="{ ...party }"
             />
           </div>
         </div>
       </Tabs>
+
+      <div class="bottom-container">
+        <button
+          class="handle-reminder"
+          @click="selectTab(tabSelected === 0 ? 1 : 0)"
+        >
+          <div>
+            <b v-if="tabSelected === 0"
+              >เลือกคนที่รักได้แล้ว อย่าลืมเลือกพรรคที่ชอบ</b
+            >
+            <b v-else>เลือกพรรคที่ชอบได้แล้ว อย่าลืมเลือกคนที่รัก</b>
+          </div>
+          <div>
+            <IconsArrow
+              style="width: 24px; height: 24px; transform: rotate(180deg)"
+            />
+          </div>
+        </button>
+      </div>
     </div>
+
+    <button
+      @click="clickScrollToTop()"
+      class="pagetop"
+      @scroll="handleScroll"
+      v-show="showBtnBackToTop"
+    >
+      <IconsBackToTop />
+    </button>
 
     <election-bottom></election-bottom>
     <election-footer></election-footer>
@@ -104,7 +163,7 @@
 <script>
 import PeopleCard from '@/components/candidateCard/PeopleCard.vue'
 import PartyCard from '@/components/candidateCard/PartyCard.vue'
-import { TheyWorkForUs } from '@thailand-election-2023/database'
+import { getPeople, getParties } from '@/helpers/candidatestore'
 import {
   ElectionHeader,
   ElectionBottom,
@@ -116,89 +175,14 @@ export default {
     const electorate = getElectorals(
       `${this.$route.params.province}-${this.$route.params.electorate}`
     )
-    console.log(electorate)
-    if (electorate.length === 1) this.electorate = electorate[0]
+    if (electorate.length === 1) {
+      this.electorate = electorate[0]
+    }
   },
-  async asyncData({ params: { province, electorateNumber } }) {
-    // const candidates = (await TheyWorkForUs.People.fetch()).list;
-    const peoples = [
-      {
-        number: '1',
-        imageCandidate: '',
-        imageParty: '',
-        name: 'พิรสุต จันทรานุวัฒน์',
-        numberPartyGroup: '2',
-        partyGroup: 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
-        party: 'รวมไทยสร้างชาติ',
-        age: '50',
-        education: 'ปริญญาตรี',
-        occupation: 'พนักงานบริษัทเอกชน',
-      },
-      {
-        number: '2',
-        imageCandidate: '',
-        imageParty: '',
-        name: 'พิรสุต จันทรานุวัฒน์',
-        numberPartyGroup: '1',
-        partyGroup: 'อดีต ส.ส. ฝ่ายค้าน',
-        party: 'รวมไทยสร้างชาติ',
-        age: '50',
-        education: 'ปริญญาตรี',
-        occupation: 'พนักงานบริษัทเอกชน',
-      },
-      {
-        number: '3',
-        imageCandidate: '',
-        imageParty: '',
-        name: 'พิรสุต จันทรานุวัฒน์',
-        numberPartyGroup: '0',
-        partyGroup: '',
-        party: 'รวมไทยสร้างชาติ',
-        age: '50',
-        education: 'ปริญญาตรี',
-        occupation: 'พนักงานบริษัทเอกชน',
-      },
-    ]
-
-    const parties = [
-      {
-        number: '1',
-        imageCandidate: '',
-        name: 'พลังประชารัฐ',
-        numberPartyGroup: '1',
-        partyGroup: 'อดีต ส.ส. ฝ่ายรัฐบาล',
-        candidate: [
-          {
-            name: 'ประวิตร วงษ์สุวรรณ1',
-            image: '',
-          },
-          {
-            name: 'ประวิตร วงษ์สุวรรณ2',
-            image: '',
-          },
-          {
-            name: 'ประวิตร วงษ์สุวรรณ3',
-            image: '',
-          },
-        ],
-        partyList: [
-          {
-            name: 'กฤติเดช สันติวชิระกุล',
-          },
-          {
-            name: 'กฤติเดช สันติวชิระกุล',
-          },
-          {
-            name: 'กฤติเดช สันติวชิระกุล',
-          },
-          {
-            name: 'กฤติเดช สันติวชิระกุล',
-          },
-        ],
-        policy: 'url compare policy',
-      },
-    ]
-
+  async asyncData({ params: { province, electorate }, payload }) {
+    const peoples = await getPeople(province, electorate)
+    const parties = await getParties(province, electorate)
+    console.log(peoples)
     return { peoples, parties }
   },
   data() {
@@ -207,10 +191,13 @@ export default {
       electorateNumber: this.$route.params.electorate,
       districtelectorate: {},
       openPopup: false,
+      partyQuery: '',
       tabs: [
         { name: 'tab1', label: '1. เลือกคนที่รัก' },
         { name: 'tab2', label: '2. เลือกพรรคที่ชอบ' },
       ],
+      showBtnBackToTop: false,
+      tabSelected: 0,
     }
   },
   components: {
@@ -233,6 +220,44 @@ export default {
     getNumberParties() {
       return this.parties.length
     },
+    getNumberPeoplePartyHistory() {
+      return this.peoples.filter((people) => people.PeoplePartyHistory).length
+    },
+    clickScrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      })
+    },
+    handleScroll() {
+      if (window.scrollY > 0) {
+        this.showBtnBackToTop = true
+      } else {
+        this.showBtnBackToTop = false
+      }
+    },
+    selectTab(tab) {
+      this.tabSelected = tab
+      this.clickScrollToTop()
+    },
+  },
+  computed: {
+    filteredByQueryPeople() {
+      return this.peoples.filter((people) => {
+        return people.Party.Name.includes(this.partyQuery)
+      })
+    },
+    filteredByQueryParties() {
+      return this.parties.filter((party) => {
+        return party.Name.includes(this.partyQuery)
+      })
+    },
+  },
+  created() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  unmounted() {
+    window.removeEventListener('scroll', this.handleScroll)
   },
 }
 </script>
@@ -340,6 +365,41 @@ export default {
     text-align: center;
     align-items: center;
     padding-bottom: 8px;
+  }
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 10px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.pagetop {
+  position: fixed;
+  left: calc(50% - 44px / 2);
+  bottom: 20px;
+  z-index: 30;
+}
+
+.handle-reminder {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  background: var(--color-highlight-3);
+  border: 3px solid var(--color-black);
+  border-radius: 20px;
+  &:hover {
+    transform: rotate(3deg);
   }
 }
 </style>
