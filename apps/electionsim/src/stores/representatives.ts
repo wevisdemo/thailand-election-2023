@@ -2,7 +2,7 @@ import type { Party } from '@thailand-election-2023/database';
 import { derived } from 'svelte/store';
 import { districtPopularity } from './district-popularity';
 
-interface RepresentativeRecord {
+export interface RepresentativeRecord {
 	party: Party;
 	fromDistrict: number;
 	fromPartylist: number;
