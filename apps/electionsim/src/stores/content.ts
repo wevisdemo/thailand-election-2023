@@ -14,6 +14,7 @@ export enum Content {
 	Quiz8 = 11,
 	Calculate = 12,
 	EditQuiz = 13,
+	Result = 14,
 }
 
 export interface ContentStore {

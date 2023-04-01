@@ -64,21 +64,23 @@
 </script>
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10 relative">
-	<svg
-		width="32"
-		height="33"
-		viewBox="0 0 32 33"
-		fill="none"
-		xmlns="http://www.w3.org/2000/svg"
-		class="absolute top-0 right-0 cursor-pointer"
-	>
-		<path
-			fill-rule="evenodd"
-			clip-rule="evenodd"
-			d="M9.4 8.99668L8 10.3969L14.6 16.9978L8 23.5987L9.4 24.9989L16 18.398L22.6 24.9989L24 23.5987L17.4 16.9978L24 10.3969L22.6 8.99668L16 15.5976L9.4 8.99668Z"
-			fill="#231F20"
-		/>
-	</svg>
+	<a href="/electionsim/result">
+		<svg
+			width="32"
+			height="33"
+			viewBox="0 0 32 33"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+			class="absolute top-0 right-0 cursor-pointer"
+		>
+			<path
+				fill-rule="evenodd"
+				clip-rule="evenodd"
+				d="M9.4 8.99668L8 10.3969L14.6 16.9978L8 23.5987L9.4 24.9989L16 18.398L22.6 24.9989L24 23.5987L17.4 16.9978L24 10.3969L22.6 8.99668L16 15.5976L9.4 8.99668Z"
+				fill="#231F20"
+			/>
+		</svg>
+	</a>
 	<h6 class="typo-h6 font-bold mb-5">แก้ไขคำตอบ</h6>
 	<div class="flex flex-col w-100">
 		<div class="flex w-100 pb-4 border-b border-gray-4">
