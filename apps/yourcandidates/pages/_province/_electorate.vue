@@ -56,9 +56,9 @@
         <div slot="tab1">
           <div class="tab-header">
             <div class="tab-header__summary">
-              <p>ทั้งหมด {{ getNumberPeople() }}</p>
+              <p>ทั้งหมด <b>{{ getNumberPeople() }} คน</b></p>
               <BadgeWithCheck :checks="1">
-                <p>เคยมีตำแหน่งในสภาสมัยล่าสุด <b> 1 คน</b></p>
+                <p>เคยมีตำแหน่งในสภาสมัยที่แล้ว <b> {{ getNumberPeoplePartyHistory() }} คน</b></p>
               </BadgeWithCheck>
             </div>
             <div class="search">
@@ -104,7 +104,7 @@
 <script>
 import PeopleCard from '@/components/candidateCard/PeopleCard.vue'
 import PartyCard from '@/components/candidateCard/PartyCard.vue'
-import { TheyWorkForUs } from '@thailand-election-2023/database'
+import {getPeople, getParties} from '@/helpers/peoplestore'
 import {
   ElectionHeader,
   ElectionBottom,
@@ -119,86 +119,10 @@ export default {
     console.log(electorate)
     if (electorate.length === 1) this.electorate = electorate[0]
   },
-  async asyncData({ params: { province, electorateNumber } }) {
-    // const candidates = (await TheyWorkForUs.People.fetch()).list;
-    const peoples = [
-      {
-        number: '1',
-        imageCandidate: '',
-        imageParty: '',
-        name: 'พิรสุต จันทรานุวัฒน์',
-        numberPartyGroup: '2',
-        partyGroup: 'อดีต ส.ส. ทั้งฝ่ายรัฐบาลและฝ่ายค้าน',
-        party: 'รวมไทยสร้างชาติ',
-        age: '50',
-        education: 'ปริญญาตรี',
-        occupation: 'พนักงานบริษัทเอกชน',
-      },
-      {
-        number: '2',
-        imageCandidate: '',
-        imageParty: '',
-        name: 'พิรสุต จันทรานุวัฒน์',
-        numberPartyGroup: '1',
-        partyGroup: 'อดีต ส.ส. ฝ่ายค้าน',
-        party: 'รวมไทยสร้างชาติ',
-        age: '50',
-        education: 'ปริญญาตรี',
-        occupation: 'พนักงานบริษัทเอกชน',
-      },
-      {
-        number: '3',
-        imageCandidate: '',
-        imageParty: '',
-        name: 'พิรสุต จันทรานุวัฒน์',
-        numberPartyGroup: '0',
-        partyGroup: '',
-        party: 'รวมไทยสร้างชาติ',
-        age: '50',
-        education: 'ปริญญาตรี',
-        occupation: 'พนักงานบริษัทเอกชน',
-      },
-    ]
-
-    const parties = [
-      {
-        number: '1',
-        imageCandidate: '',
-        name: 'พลังประชารัฐ',
-        numberPartyGroup: '1',
-        partyGroup: 'อดีต ส.ส. ฝ่ายรัฐบาล',
-        candidate: [
-          {
-            name: 'ประวิตร วงษ์สุวรรณ1',
-            image: '',
-          },
-          {
-            name: 'ประวิตร วงษ์สุวรรณ2',
-            image: '',
-          },
-          {
-            name: 'ประวิตร วงษ์สุวรรณ3',
-            image: '',
-          },
-        ],
-        partyList: [
-          {
-            name: 'กฤติเดช สันติวชิระกุล',
-          },
-          {
-            name: 'กฤติเดช สันติวชิระกุล',
-          },
-          {
-            name: 'กฤติเดช สันติวชิระกุล',
-          },
-          {
-            name: 'กฤติเดช สันติวชิระกุล',
-          },
-        ],
-        policy: 'url compare policy',
-      },
-    ]
-
+  async asyncData( { params: { province, electorate }, payload }) {
+    const peoples = await getPeople(province, electorate)
+    const parties = await getParties(province, electorate)
+    console.log(peoples)
     return { peoples, parties }
   },
   data() {
@@ -233,6 +157,9 @@ export default {
     getNumberParties() {
       return this.parties.length
     },
+    getNumberPeoplePartyHistory(){
+      return (this.peoples.filter((people) => people.PeoplePartyHistory)).length
+    }
   },
 }
 </script>

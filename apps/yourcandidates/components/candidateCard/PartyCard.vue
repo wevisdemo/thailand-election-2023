@@ -1,26 +1,25 @@
 <template>
     <div>
 
-        <partyList :partyList="party.partyList" :open="openPopupPartyList" :nameParty="party.name">
+        <partyList :partyList="party.PartyList" :open="openPopupPartyList" :nameParty="party.Name">
             <template v-slot:close>
                 <div class="absolute right-4 top-0">
                     <button class="fixed" @click="closePopup()"><IconsClose /></button>
                 </div>
             </template>
-
         </partyList>
 
-        <TemplateCard :key="party.number" :candidate="{...party}">
+        <TemplateCard :key="party.Number" :candidate="{...party}">
             <template v-slot:infomation>
                 <div class="info">
                     <div class="candidate-section">
                         <p style="color: var(--color-gray-3)"> แคนเดตนายก </p>
                         <div class="candidate-list"
-                        v-for="candidate in party.candidate" :key="candidate.name">
-                            <IconsProfile v-show="candidate.image === ''" style="width: 30px; height: 30px;"/>
-                            <div v-show="candidate.image !== ''" class="image-prime-candidate">
+                        v-for="candidate in party.Candidate" :key="candidate.Name">
+                            <IconsProfile v-show="candidate.Image === ''" style="width: 30px; height: 30px;"/>
+                            <div v-show="candidate.Image !== ''" class="image-prime-candidate">
                             </div>
-                            <p> {{ candidate.name }} </p>
+                            <p> {{ candidate.Name }} </p>
                         </div>
                     </div>
                     <button class="party-list-button" @click="popupPartylist()">
@@ -33,7 +32,7 @@
             <template v-slot:linkList>
                 <div>
                     <Link v-for="i in linkInfo" 
-                    v-if="party[i]"
+                    v-if="party[i] && party[i] !== ''"
                     :type="i"
                     :link= party[i]
                     :key="i"
@@ -51,7 +50,7 @@ import Link from '@/components/candidateCard/Link.vue';
 import PartyList from '@/components/candidateCard/PartyList.vue';
 export default{
     setup() {
-        const linkInfo = ['policy', 'promise', 'law', 'others']
+        const linkInfo = ['Policy', 'Promise', 'Law', 'Others']
         return {linkInfo}
     },
     data() {
