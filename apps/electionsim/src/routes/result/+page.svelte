@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { Link } from 'svelte-routing';
 	import { districtPopularity } from '../../stores/district-popularity';
 	import { party } from '../../stores/party';
 	import { representatives } from '../../stores/representatives';
