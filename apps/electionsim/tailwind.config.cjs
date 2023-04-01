@@ -10,6 +10,7 @@ module.exports = {
 			colors: {
 				'byx-red': 'var(--color-byx-red)',
 				'byx-blue': 'var(--color-byx-blue)',
+				'byx-black': 'var(--color-byx-black)',
 			},
 		},
 	},
