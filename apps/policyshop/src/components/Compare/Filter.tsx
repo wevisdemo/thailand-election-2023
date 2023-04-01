@@ -18,15 +18,13 @@ interface PropsType {
 interface ICurrentFilter {
 	party1: IDropdownOption<string> | null;
 	party2: IDropdownOption<string> | null;
-	topic1: IDropdownOption<string> | null;
-	topic2: IDropdownOption<string> | null;
+	topic: IDropdownOption<string> | null;
 }
 
 interface IFilterOptions {
 	party1: IDropdownOption<string>[];
 	party2: IDropdownOption<string>[];
-	topic1: IDropdownOption<string>[];
-	topic2: IDropdownOption<string>[];
+	topic: IDropdownOption<string>[];
 }
 
 const CompareFilter: FunctionComponent<PropsType> = ({
@@ -63,15 +61,13 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 	const filterObjectDefault: ICurrentFilter = {
 		party1: null,
 		party2: null,
-		topic1: null,
-		topic2: null,
+		topic: null,
 	};
 
 	const filterOptionsDefault: IFilterOptions = {
 		party1: partyOptionsDefault,
 		party2: partyOptionsDefault,
-		topic1: topicOptionsDefault,
-		topic2: topicOptionsDefault,
+		topic: topicOptionsDefault,
 	};
 
 	const [filterOptions, setFilterOptions] =
@@ -93,8 +89,7 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 	useEffect(() => {
 		const party1 = filterObject.party1;
 		const party2 = filterObject.party2;
-		const topic1 = filterObject.topic1;
-		const topic2 = filterObject.topic2;
+		const topic = filterObject.topic;
 		if (party1) {
 			// filter party1 out from party2 options
 			setFilterOptions((curr) => {
@@ -113,66 +108,47 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 				return { ...curr, party1: newParty1 };
 			});
 		}
-		if (topic1) {
+		if (topic) {
 			setDisplayPolicies1(
-				choosePoliciesByFilter(
-					policies,
-					party1?.value || '',
-					topic1.value || ''
-				)
+				choosePoliciesByFilter(policies, party1?.value || '', topic.value || '')
 			);
-		}
-		if (topic2) {
 			setDisplayPolicies2(
-				choosePoliciesByFilter(
-					policies,
-					party2?.value || '',
-					topic2.value || ''
-				)
+				choosePoliciesByFilter(policies, party2?.value || '', topic.value || '')
 			);
 		}
 	}, [filterObject]);
 
 	return (
-		<div className="grid grid-cols-2 gap-[24px]">
-			<Dropdown
-				options={filterOptions.party1}
-				currentOption={filterObject.party1}
-				onSelect={(item) => {
-					setFilterObject((curr) => ({ ...curr, party1: item }));
-				}}
-				outline
-				placeholder="เลือกพรรค"
-			/>
-			<Dropdown
-				options={filterOptions.party2}
-				currentOption={filterObject.party2}
-				onSelect={(item) => {
-					setFilterObject((curr) => ({ ...curr, party2: item }));
-				}}
-				outline
-				placeholder="เลือกพรรค"
-			/>
-			<Dropdown
-				options={filterOptions.topic1}
-				currentOption={filterObject.topic1}
-				onSelect={(item) => {
-					setFilterObject((curr) => ({ ...curr, topic1: item }));
-				}}
-				disabled={!filterObject.party1}
-				outline
-				placeholder="เลือกนโยบาย"
-			/>
-			<Dropdown
-				options={filterOptions.topic2}
-				currentOption={filterObject.topic2}
-				onSelect={(item) => {
-					setFilterObject((curr) => ({ ...curr, topic2: item }));
-				}}
-				disabled={!filterObject.party2}
-				outline
-				placeholder="เลือกนโยบาย"
-			/>
+		<div className="flex flex-col w-full">
+			<div className="flex gap-[16px]">
+				<Dropdown
+					options={filterOptions.party1}
+					currentOption={filterObject.party1}
+					onSelect={(item) => {
+						setFilterObject((curr) => ({ ...curr, party1: item }));
+					}}
+					placeholder="เลือกพรรค"
+				/>
+				<Dropdown
+					options={filterOptions.party2}
+					currentOption={filterObject.party2}
+					onSelect={(item) => {
+						setFilterObject((curr) => ({ ...curr, party2: item }));
+					}}
+					placeholder="เลือกพรรค"
+				/>
+			</div>
+			<div className="mt-[24px]">
+				<Dropdown
+					options={filterOptions.topic}
+					currentOption={filterObject.topic}
+					onSelect={(item) => {
+						setFilterObject((curr) => ({ ...curr, topic: item }));
+					}}
+					disabled={!filterObject.party1 && !filterObject.party2}
+					placeholder="เลือกนโยบาย"
+				/>
+			</div>
 		</div>
 	);
 };

@@ -1,39 +1,32 @@
 import { Policy } from '@/types/components';
-import { FunctionComponent } from 'react';
+import { FunctionComponent, useEffect, useRef } from 'react';
 import PolicyCard from './PolicyCard';
+import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
 interface PropsType {
 	policyList: Policy[];
-	secondList?: Policy[]; // if don't want to separate list into 2 section, don not value this prop. It use for compare page.
 }
 
-const PolicyCardWrapper: FunctionComponent<PropsType> = ({
-	policyList,
-	secondList,
-}) => {
+const PolicyCardWrapper: FunctionComponent<PropsType> = ({ policyList }) => {
+	const refx = useRef<HTMLDivElement>(null);
+
+	useEffect(() => {
+		console.log(policyList);
+	}, [policyList]);
+
 	return (
-		<div
-			className={`grid ${
-				secondList ? 'grid-cols-2 gap-[16px]' : 'grid-cols-1'
-			}`}
-		>
-			<div
-				className={`grid ${
-					secondList ? 'grid-cols-1' : 'grid-cols-2 gap-[16px]'
-				}`}
-			>
-				{policyList.map((item, index) => (
-					<PolicyCard key={`first-card-${index}`} policyInfo={item} />
-				))}
-			</div>
-			{secondList && (
-				<div className="grid-cols-1">
-					{secondList.map((item, index) => (
-						<PolicyCard key={`second-card-${index}`} policyInfo={item} />
+		<>
+			<ResponsiveMasonry columnsCountBreakPoints={{ 360: 2, 900: 3 }}>
+				<Masonry className="!gap-[16px] [&>*]:!gap-[16px]">
+					{policyList.map((item, index) => (
+						// <div key={`first-card-${index}`} className="card m-auto w-full">
+						<PolicyCard key={`first-card-${index}`} policyInfo={item} />
+						// </div>
 					))}
-				</div>
-			)}
-		</div>
+				</Masonry>
+			</ResponsiveMasonry>
+			{/* <div ref={refx} className="flex"></div> */}
+		</>
 	);
 };
 

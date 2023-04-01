@@ -1,7 +1,6 @@
 import { Policy } from '@/types/components';
 import { imgPrefix } from '@/utils/path';
 import { FunctionComponent } from 'react';
-
 interface PropsType {
 	policyInfo: Policy;
 }
@@ -9,7 +8,7 @@ interface PropsType {
 const PolicyCard: FunctionComponent<PropsType> = ({ policyInfo }) => {
 	var md = require('markdown-it')();
 	return (
-		<div className="bg-[var(--color-white)] border-[1px] border-[var(--color-gray-2)] rounded-[10px] overflow-hidden h-fit">
+		<div className="bg-[var(--color-white)] border-[1px] border-[var(--color-gray-2)] rounded-[10px] overflow-hidden h-fit w-full max-w-[155px] md:max-w-[232px] mx-auto">
 			<div className="p-[12px] ">
 				<div className="flex items-center">
 					{/* <img
@@ -25,7 +24,11 @@ const PolicyCard: FunctionComponent<PropsType> = ({ policyInfo }) => {
 					className={`relative mt-[8px] w-full pb-[100%] h-0 rounded-[5px] bg-red-400`}
 					// style={{ backgroundColor: policyInfo.background_color }}
 				>
-					<span className="absolute px-[4px] top-[50%] left-[50%] w-full translate-x-[-50%] translate-y-[-50%] text-center typo-b4 text-[var(--color-white)] font-bold">
+					<span
+						className={
+							'card-title absolute px-[4px] top-[50%] left-[50%] w-full translate-x-[-50%] translate-y-[-50%] text-center typo-b4 text-[var(--color-white)] font-bold'
+						}
+					>
 						{policyInfo.Title}
 					</span>
 				</div>

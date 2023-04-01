@@ -1,7 +1,7 @@
 import Clipboard from '@/components/Clipboard';
 import CompareFilter from '@/components/Compare/Filter';
+import ComparePolicyCardWrapper from '@/components/Compare/PolicyCardWrapper';
 import Layout from '@/components/Layout';
-import PolicyCardWrapper from '@/components/PolicyCardWrapper';
 import RandomButton from '@/components/RandomButton';
 import { Policy } from '@/types/components';
 import { fetchPolicy } from '@/utils/fetchData';
@@ -32,7 +32,7 @@ const ComparePage: NextPage<PropsType> = ({ policies }) => {
 					<RandomButton onClick={() => {}} />
 				</div>
 				<div className="mt-[16px]">
-					<PolicyCardWrapper
+					<ComparePolicyCardWrapper
 						policyList={displayPolicies1}
 						secondList={displayPolicies2}
 					/>

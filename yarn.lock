@@ -3382,6 +3382,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-responsive-masonry@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/react-responsive-masonry/-/react-responsive-masonry-2.1.0.tgz#0aa746f829c520b83697e1e4b7b2aa39c247622f"
+  integrity sha512-gbo9TMKGsgkER/AKycuTtpUJA4Rmzfm5ol7jBzNOdgjpZFBS/SmaNTVAa0qDDRu3xKEuCOcip+RtbC7TaXllnA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@18.0.28":
   version "18.0.28"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.28.tgz#accaeb8b86f4908057ad629a26635fe641480065"
@@ -11952,6 +11959,11 @@ react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-responsive-masonry@^2.1.7:
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/react-responsive-masonry/-/react-responsive-masonry-2.1.7.tgz#9b4a8d63b296a6265bea720c9d7da89754548346"
+  integrity sha512-/jOqnTVNtO8zRJMTl6ZXBex7EFYEIFBLVlkIFjiCT7omfm0CgNF2z4ST8RIr0v2ut15NWAQs7Q3kJJPhMoe3Ew==
 
 react@18.2.0:
   version "18.2.0"
