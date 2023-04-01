@@ -52,7 +52,7 @@
       </div>
 
       <!-- tab -->
-      <Tabs :tabs="tabs">
+      <Tabs :tabs="tabs" @selectTab="selectTab($event)" :activeTab="tabSelected">
         <div slot="tab1">
           <div class="tab-header">
             <div class="tab-header__summary">
@@ -94,6 +94,19 @@
           </div>
         </div>
       </Tabs>
+
+      <div class="bottom-container">
+        <button class="handle-reminder" @click="selectTab(tabSelected === 0? 1 : 0)">
+          <div>
+            <b v-if="tabSelected === 0">เลือกคนที่รักได้แล้ว อย่าลืมเลือกพรรคที่ชอบ</b>
+            <b v-else>เลือกพรรคที่ชอบได้แล้ว อย่าลืมเลือกคนที่รัก</b>
+          </div>
+          <div>
+            <IconsArrow style="width: 24px; height: 24px; transform: rotate(180deg);"/>
+          </div>
+        </button>
+      </div>
+
     </div>
 
     <button @click="clickScrollToTop()" class="pagetop" @scroll="handleScroll" v-show="showBtnBackToTop">
@@ -140,6 +153,7 @@ export default {
         { name: 'tab2', label: '2. เลือกพรรคที่ชอบ' },
       ],
       showBtnBackToTop: false,
+      tabSelected: 0
     }
   },
   components: {
@@ -179,6 +193,10 @@ export default {
         this.showBtnBackToTop = false;
       }
     },
+    selectTab(tab){
+      this.tabSelected = tab
+      this.clickScrollToTop()
+    }
   },
   created () {
     window.addEventListener('scroll', this.handleScroll);
@@ -295,10 +313,38 @@ export default {
   }
 }
 
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 10px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
 .pagetop {
   position: fixed;
   left: calc(50% - 44px/2);
   bottom: 20px;
   z-index: 30;
+}
+
+.handle-reminder {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  background: var(--color-highlight-3);
+  border: 3px solid var(--color-black);
+  border-radius: 20px;
+  &:hover {
+    transform: rotate(3deg);
+  }
 }
 </style>
