@@ -96,6 +96,10 @@
       </Tabs>
     </div>
 
+    <button @click="clickScrollToTop()" class="pagetop" @scroll="handleScroll" v-show="showBtnBackToTop">
+      <IconsBackToTop/>
+    </button>
+
     <election-bottom></election-bottom>
     <election-footer></election-footer>
   </div>
@@ -135,6 +139,7 @@ export default {
         { name: 'tab1', label: '1. เลือกคนที่รัก' },
         { name: 'tab2', label: '2. เลือกพรรคที่ชอบ' },
       ],
+      showBtnBackToTop: false,
     }
   },
   components: {
@@ -157,9 +162,29 @@ export default {
     getNumberParties() {
       return this.parties.length
     },
-    getNumberPeoplePartyHistory(){
+    getNumberPeoplePartyHistory() {
       return (this.peoples.filter((people) => people.PeoplePartyHistory)).length
-    }
+    },
+    clickScrollToTop() {
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        })
+    },
+    handleScroll(){
+      if(window.scrollY > 0){
+        this.showBtnBackToTop = true;
+      }
+      else{
+        this.showBtnBackToTop = false;
+      }
+    },
+  },
+  created () {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  unmounted () {
+    window.removeEventListener('scroll', this.handleScroll);
   },
 }
 </script>
@@ -268,5 +293,12 @@ export default {
     align-items: center;
     padding-bottom: 8px;
   }
+}
+
+.pagetop {
+  position: fixed;
+  left: calc(50% - 44px/2);
+  bottom: 20px;
+  z-index: 30;
 }
 </style>
