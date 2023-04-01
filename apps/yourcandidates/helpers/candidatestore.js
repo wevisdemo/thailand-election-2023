@@ -5,7 +5,6 @@ import parties from '@/data/parties.json'
 export const getPeople = async (province, zone) => {
   let peoplesHistory = await TheyWorkForUs.People.fetchAll({
     fields: ['Name', 'PeoplePartyHistory'],
-    where: `(MpProvince,eq,${province})~and(MpZone,eq,${zone})~and(MpType,eq,แบ่งเขต)`,
     'nested[PeoplePartyHistory][nested][Party][fields]': 'Id,Name,PartyGroup',
   })
 

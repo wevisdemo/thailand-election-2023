@@ -19,7 +19,7 @@
           <div class="name typo-h5">
             {{ candidate.Name }}
           </div>
-          <div v-if="candidate.PeoplePartyHistory && partyGroup !== ''" class="inline-block">
+          <div v-if="candidate.PeoplePartyHistory" class="inline-block">
             <BadgeWithCheck :checks="partyGroup === 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน'? 2 : 1">
               <p>อดีต ส.ส. {{ partyGroup }}</p>
             </BadgeWithCheck>
@@ -57,6 +57,10 @@ export default{
       let history = Object.assign([], await this.candidate.PeoplePartyHistory)
       let group = new Set()
       for(let i=0; i < history.length; i++){
+        if(history[i].Party === null){
+          this.partyGroup = ''
+          return
+        }
         await group.add(history[i].Party.PartyGroup)
       }
       if(group.size === 2){
@@ -67,6 +71,9 @@ export default{
       }
       else if(group.has('ร่วมรัฐบาล')){
         this.partyGroup = 'ร่วมรัฐบาล'
+      }
+      else{
+        this.partyGroup = ''
       }
     }
   },

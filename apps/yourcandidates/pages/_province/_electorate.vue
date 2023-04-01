@@ -104,7 +104,7 @@
 <script>
 import PeopleCard from '@/components/candidateCard/PeopleCard.vue'
 import PartyCard from '@/components/candidateCard/PartyCard.vue'
-import {getPeople, getParties} from '@/helpers/peoplestore'
+import {getPeople, getParties} from '@/helpers/candidatestore'
 import {
   ElectionHeader,
   ElectionBottom,
