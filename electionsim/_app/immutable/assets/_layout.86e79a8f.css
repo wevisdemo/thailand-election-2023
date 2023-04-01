@@ -218,6 +218,9 @@
 .h-28 {
 		height: 7rem;
 }
+.h-4 {
+		height: 1rem;
+}
 .h-7 {
 		height: 1.75rem;
 }
@@ -269,6 +272,12 @@
 .w-\[312px\] {
 		width: 312px;
 }
+.w-\[72px\] {
+		width: 72px;
+}
+.w-\[76px\] {
+		width: 76px;
+}
 .w-full {
 		width: 100%;
 }
@@ -314,6 +323,10 @@
 .gap-x-2 {
 		-moz-column-gap: 0.5rem;
 		     column-gap: 0.5rem;
+}
+.gap-x-\[10px\] {
+		-moz-column-gap: 10px;
+		     column-gap: 10px;
 }
 .gap-y-5 {
 		row-gap: 1.25rem;
@@ -434,6 +447,10 @@
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
 }
+.px-\[10px\] {
+		padding-left: 10px;
+		padding-right: 10px;
+}
 .py-10 {
 		padding-top: 2.5rem;
 		padding-bottom: 2.5rem;
@@ -445,6 +462,10 @@
 .py-4 {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
+}
+.py-\[5px\] {
+		padding-top: 5px;
+		padding-bottom: 5px;
 }
 .pb-1 {
 		padding-bottom: 0.25rem;
