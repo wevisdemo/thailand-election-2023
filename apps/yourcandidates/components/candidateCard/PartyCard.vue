@@ -45,9 +45,9 @@
 </template>
 
 <script>
-import TemplateCard from '@/components/candidateCard/TemplateCard.vue'
-import Link from '@/components/candidateCard/Link.vue';
-import PartyList from '@/components/candidateCard/PartyList.vue';
+import TemplateCard from '~/components/candidateCard/TemplateCard.vue'
+import Link from '~/components/candidateCard/Link.vue';
+import PartyList from '~/components/candidateCard/PartyList.vue';
 export default{
   setup() {
     const linkInfo = ['Policy', 'Promise', 'Law', 'Others']
