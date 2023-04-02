@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { Content, contentManager } from '../../stores/content';
 	import { input } from '../../stores/input';
 	import {
@@ -64,7 +65,7 @@
 </script>
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10 relative">
-	<a href="/electionsim/result">
+	<a href="{base}/result">
 		<svg
 			width="32"
 			height="33"

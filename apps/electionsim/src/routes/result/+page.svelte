@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	import { districtPopularity } from '../../stores/district-popularity';
 	import { party } from '../../stores/party';
@@ -46,7 +47,7 @@
 	});
 </script>
 
-<div class="h-screen flex flex-col">
+<div class="h-screen flex flex-col relative">
 	<div class="w-full h-1 beyondx-gradient-bg" />
 	<div class="flex-1 flex flex-col items-center">
 		<div class="flex flex-col w-[312px] md:w-[650px] mt-10">
@@ -54,7 +55,7 @@
 				<div class="flex items-center">
 					<h7 class="typo-h7 font-bold">จำลองผล #เลือกตั้ง66 จากคำตอบของคุณ</h7>
 					<a
-						href="/electionsim/quiz"
+						href="{base}/quiz"
 						class="cursor-pointer flex"
 						on:click={onEditQuiz}
 					>
