@@ -11,26 +11,16 @@ const ComparePolicyCardWrapper: FunctionComponent<PropsType> = ({
 	policyList,
 	secondList,
 }) => {
-	const refx = useRef<HTMLDivElement>(null);
-
-	useEffect(() => {
-		console.log(refx.current?.offsetWidth);
-	}, []);
-
 	return (
 		<div className="flex">
 			<div className="grid grid-cols-1 gap-[16px] w-[50%] h-fit">
 				{policyList.map((item, index) => (
-					<div className="mx-auto" key={`first-card-${index}`}>
-						<PolicyCard policyInfo={item} />
-					</div>
+					<PolicyCard policyInfo={item} key={`first-card-${index}`} />
 				))}
 			</div>
 			<div className="grid grid-cols-1 gap-[16px] w-[50%] h-fit">
 				{secondList.map((item, index) => (
-					<div className="mx-auto" key={`second-card-${index}`}>
-						<PolicyCard policyInfo={item} />
-					</div>
+					<PolicyCard policyInfo={item} key={`second-card-${index}`} />
 				))}
 			</div>
 		</div>

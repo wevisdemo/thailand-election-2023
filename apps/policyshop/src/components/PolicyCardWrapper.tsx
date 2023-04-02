@@ -8,12 +8,6 @@ interface PropsType {
 }
 
 const PolicyCardWrapper: FunctionComponent<PropsType> = ({ policyList }) => {
-	const refx = useRef<HTMLDivElement>(null);
-
-	useEffect(() => {
-		console.log(policyList);
-	}, [policyList]);
-
 	return (
 		<>
 			<ResponsiveMasonry columnsCountBreakPoints={{ 360: 2, 900: 3 }}>

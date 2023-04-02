@@ -10,6 +10,7 @@ import {
 	formatOption,
 	fetchParties,
 	fetchPolicy,
+	shufflePolicies,
 } from '@/utils';
 import Dropdown from '@/components/Dropdown';
 import HowToLabel from '@/components/HowToLabel';
@@ -71,6 +72,10 @@ const Topic: NextPage = () => {
 		await setOptionParties([{ label: 'ดูของทุกพรรค' }, ...options]);
 	};
 
+	const onClickShuffle = () => {
+		setPolicies((curr) => [...shufflePolicies(curr)]);
+	};
+
 	useEffect(() => {
 		setPolicy();
 		setParties();
@@ -108,7 +113,7 @@ const Topic: NextPage = () => {
 					/>
 					<div className="flex justify-between items-center mt-[32px]">
 						<p>เรียงตาม</p>
-						<RandomButton onClick={() => {}} />
+						<RandomButton onClick={onClickShuffle} />
 					</div>
 				</TemplatePolicyList>
 			)}

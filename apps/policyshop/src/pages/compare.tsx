@@ -2,11 +2,13 @@ import Clipboard from '@/components/Clipboard';
 import CompareFilter from '@/components/Compare/Filter';
 import ComparePolicyCardWrapper from '@/components/Compare/PolicyCardWrapper';
 import Layout from '@/components/Layout';
+import PolicyCard from '@/components/PolicyCard';
 import RandomButton from '@/components/RandomButton';
 import { Policy } from '@/types/components';
+import { shufflePolicies } from '@/utils';
 import { fetchPolicy } from '@/utils/fetchData';
 import { GetStaticProps, NextPage } from 'next';
-import { useEffect, useState } from 'react';
+import { FunctionComponent, useEffect, useRef, useState } from 'react';
 
 interface PropsType {
 	policies: Policy[];
@@ -16,7 +18,10 @@ const ComparePage: NextPage<PropsType> = ({ policies }) => {
 	const [displayPolicies1, setDisplayPolicies1] = useState<Policy[]>([]);
 	const [displayPolicies2, setDisplayPolicies2] = useState<Policy[]>([]);
 
-	useEffect(() => {}, []);
+	const onClickShuffle = () => {
+		setDisplayPolicies1((curr) => [...shufflePolicies(curr)]);
+		setDisplayPolicies2((curr) => [...shufflePolicies(curr)]);
+	};
 
 	return (
 		<Layout title="เปรียบเทียบนโยบาย">
@@ -29,7 +34,7 @@ const ComparePage: NextPage<PropsType> = ({ policies }) => {
 				/>
 				<div className="flex justify-between items-center mt-[24px]">
 					<p>เรียงตาม</p>
-					<RandomButton onClick={() => {}} />
+					<RandomButton onClick={onClickShuffle} />
 				</div>
 				<div className="mt-[16px]">
 					<ComparePolicyCardWrapper

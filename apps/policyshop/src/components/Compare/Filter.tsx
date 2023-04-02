@@ -127,7 +127,7 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 					onSelect={(item) => {
 						setFilterObject((curr) => ({ ...curr, party1: item }));
 					}}
-					placeholder="เลือกพรรค"
+					placeholder="เลือกพรรคที่1"
 				/>
 				<Dropdown
 					options={filterOptions.party2}
@@ -135,7 +135,7 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 					onSelect={(item) => {
 						setFilterObject((curr) => ({ ...curr, party2: item }));
 					}}
-					placeholder="เลือกพรรค"
+					placeholder="เลือกพรรคที่2"
 				/>
 			</div>
 			<div className="mt-[24px]">

@@ -2,7 +2,13 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import Layout from '@/components/Layout';
 import { Policy, Party, IDropdownOption, SetPaths } from '@/types/components';
-import { fetchParties, fetchPolicy, formatOption, groupBy } from '@/utils';
+import {
+	fetchParties,
+	fetchPolicy,
+	formatOption,
+	groupBy,
+	shufflePolicies,
+} from '@/utils';
 import Intro from '@/components/Party/Intro';
 import PercentPolicies from '@/components/Party/percentPolicies';
 import TemplatePolicyList from '@/components/Template/PolicyList';
@@ -62,6 +68,10 @@ const PartyPage: NextPage = () => {
 		setHotPolicies(policies);
 	};
 
+	const onClickShuffle = () => {
+		setPolicies((curr) => [...shufflePolicies(curr)]);
+	};
+
 	useEffect(() => {
 		if (name) {
 			formatParty();
@@ -92,7 +102,7 @@ const PartyPage: NextPage = () => {
 					/>
 					<div className="flex justify-between items-center mt-[32px]">
 						<p>เรียงตาม</p>
-						<RandomButton onClick={() => {}} />
+						<RandomButton onClick={onClickShuffle} />
 					</div>
 				</TemplatePolicyList>
 			</div>
