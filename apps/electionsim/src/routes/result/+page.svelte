@@ -2,6 +2,8 @@
 	import { onMount } from 'svelte';
 	import { districtPopularity } from '../../stores/district-popularity';
 	import { party } from '../../stores/party';
+	import type { RepresentativeRecord } from '../../stores/representatives';
+	import { PartySide } from '@thailand-election-2023/database';
 	import { representatives } from '../../stores/representatives';
 	import { Content, contentManager } from '../../stores/content';
 	import GovernmentEstablish from '../../components/result/government-establish.svelte';
@@ -12,7 +14,20 @@
 		Graph = 'graph',
 	}
 
+	$: senateCount = 250;
 	$: selectedTab = Tabs.Map;
+
+	$: [governmentParties, oppositionParties, governmentPoints] =
+		$representatives.reduce<
+			[RepresentativeRecord[], RepresentativeRecord[], number]
+		>(
+			([government, opposition, governmentPoints], party) =>
+				$party.list.find(({ Name }) => party.party.Name === Name)
+					?.PartyGroup === PartySide.Government
+					? [[...government, party], opposition, governmentPoints + party.total]
+					: [government, [party, ...opposition], governmentPoints],
+			[[], [], 0]
+		);
 
 	const onTabChange = (newTab: Tabs) => {
 		selectedTab = newTab;
@@ -87,5 +102,11 @@
 			{/if}
 		</div>
 	</div>
-	<GovernmentEstablish />
+	<GovernmentEstablish
+		{senateCount}
+		representativeRecord={$representatives}
+		{governmentParties}
+		{oppositionParties}
+		{governmentPoints}
+	/>
 </div>

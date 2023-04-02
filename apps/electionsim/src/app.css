@@ -20,3 +20,9 @@
 	@apply bg-clip-text bg-gradient-to-r from-byx-blue to-byx-red;
 	color: transparent;
 }
+
+.stripe-white {
+	@apply bg-repeat opacity-50;
+	background-size: 8px;
+	background-image: url('/stripes-white.svg');
+}
