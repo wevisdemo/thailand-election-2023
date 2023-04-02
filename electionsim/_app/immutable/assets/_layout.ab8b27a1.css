@@ -173,6 +173,9 @@
 .mb-5 {
 		margin-bottom: 1.25rem;
 }
+.mb-\[10px\] {
+		margin-bottom: 10px;
+}
 .ml-1 {
 		margin-left: 0.25rem;
 }
@@ -262,6 +265,9 @@
 }
 .h-12 {
 		height: 3rem;
+}
+.h-16 {
+		height: 4rem;
 }
 .h-2 {
 		height: 0.5rem;
@@ -428,6 +434,10 @@
 		-moz-column-gap: 0.5rem;
 		     column-gap: 0.5rem;
 }
+.gap-x-6 {
+		-moz-column-gap: 1.5rem;
+		     column-gap: 1.5rem;
+}
 .gap-x-\[10px\] {
 		-moz-column-gap: 10px;
 		     column-gap: 10px;
@@ -454,6 +464,9 @@
 		--tw-space-y-reverse: 0;
 		margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
 		margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.self-start {
+		align-self: flex-start;
 }
 .overflow-scroll {
 		overflow: scroll;
@@ -705,6 +718,9 @@
 		}
 		.md\:block {
 				display: block;
+		}
+		.md\:inline {
+				display: inline;
 		}
 		.md\:hidden {
 				display: none;
