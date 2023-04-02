@@ -25,4 +25,9 @@ export interface Party {
 	Images: ImageAttachment[] | null;
 }
 
+export enum PartySide {
+	Government = 'ร่วมรัฐบาล',
+	Opposition = 'ฝ่ายค้าน',
+}
+
 export type NestedParty = Pick<Party, 'Id' | 'Name'>;
