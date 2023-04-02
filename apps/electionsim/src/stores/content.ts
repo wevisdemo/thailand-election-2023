@@ -23,7 +23,7 @@ export interface ContentStore {
 }
 
 const initialContent: ContentStore = {
-	currentContent: Content.Quiz8,
+	currentContent: Content.Analytics,
 	isFinished: false,
 };
 
