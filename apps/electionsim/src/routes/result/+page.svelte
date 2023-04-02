@@ -98,7 +98,10 @@
 				</div>
 			</div>
 			{#if selectedTab === Tabs.Graph}
-				<Graph representativeRecord={$representatives} />
+				<Graph
+					elect66Record={$representatives}
+					elect62Record={$representatives}
+				/>
 			{/if}
 		</div>
 	</div>

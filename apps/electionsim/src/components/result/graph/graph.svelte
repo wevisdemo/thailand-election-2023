@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Elect62 from './elect62.svelte';
-	import Elect66 from './elect66.svelte';
+	import BarChart from './barChart.svelte';
 	import type { RepresentativeRecord } from '../../../stores/representatives';
 
-	export let representativeRecord: RepresentativeRecord[];
+	export let elect66Record: RepresentativeRecord[];
+	export let elect62Record: RepresentativeRecord[];
 
 	enum Tab {
 		Elect66 = 'elect66',
@@ -11,9 +11,15 @@
 	}
 
 	$: selectedTab = Tab.Elect66;
+	$: currentRecord = elect66Record;
 
 	const onTabChange = (newTab: Tab) => {
 		selectedTab = newTab;
+		if (newTab === Tab.Elect66) {
+			currentRecord = elect66Record;
+		} else {
+			currentRecord = elect62Record;
+		}
 	};
 </script>
 
@@ -38,9 +44,4 @@
 	</button>
 </div>
 
-{#if selectedTab === Tab.Elect66}
-	<Elect66 {representativeRecord} />
-{/if}
-{#if selectedTab === Tab.Elect62}
-	<Elect62 {representativeRecord} />
-{/if}
+<BarChart representativeRecord={currentRecord} />
