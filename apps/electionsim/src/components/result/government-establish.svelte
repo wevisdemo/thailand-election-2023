@@ -188,24 +188,34 @@
 			</div>
 			<div class="flex items-start w-full">
 				<div class="w-1/2 flex flex-col">
-					<div class="flex">
-						<h7 class="typo-h7 font-bold">ฝ่ายรัฐบาล </h7>
-						<h7 class="typo-h7 ml-1">({governmentPoints})</h7>
+					<div class="flex flex-wrap md:flex-nowrap">
+						<h7 class="typo-h7 font-bold w-full">ฝ่ายรัฐบาล </h7>
+						<div class="flex typo-h7 md:ml-1">
+							<p class="hidden md:block">(</p>
+							{governmentPoints}
+							<p class="hidden md:block">)</p>
+						</div>
 					</div>
 					{#each governmentParties as { party, total }}
 						<div
-							class="flex items-center border-b border-opacity-40 pb-[10px] mt-[10px]"
+							class="flex flex-wrap items-center border-b border-opacity-40 pb-[10px] mt-[10px]"
 							style="border-color: rgba(255, 255, 255, 0.4);"
 						>
-							<span class="typo-b5 w-1/2">
+							<span
+								class="typo-b5 w-full flex items-center md:w-1/2 mb-2 md:mb-0"
+							>
 								<span
 									class="w-4 h-4 mr-2 inline-block"
 									style="background: {party.Color} url(/party-icons/{party.Name}.svg) center/50% no-repeat;"
 								/>
 								{party.Name}
 							</span>
-							<h5 class="typo-b5 opacity-70 w-2/12">{total}</h5>
-							<span class="typo-b5 w-4/12 flex items-center cursor-pointer">
+							<h5 class="typo-b5 opacity-70 flex-1 w-2/12 ml-6 md:ml-0">
+								{total}
+							</h5>
+							<span
+								class="typo-b5 w-4/12 flex justify-end items-center cursor-pointer"
+							>
 								<svg
 									width="20"
 									height="20"
@@ -233,22 +243,28 @@
 										</clipPath>
 									</defs>
 								</svg>
-								เปลี่ยนขั้ว
+								<p class="hidden md:block">เปลี่ยนขั้ว</p>
 							</span>
 						</div>
 					{/each}
 				</div>
 				<div class="w-1/2 flex flex-col text-right ml-10">
-					<div class="flex justify-end">
-						<h7 class="typo-h7">({totalCount - governmentPoints})</h7>
-						<h7 class="typo-h7 font-bold ml-1">ฝ่ายค้าน </h7>
+					<div class="flex justify-end flex-wrap-reverse md:flex-nowrap">
+						<div class="flex typo-h7">
+							<p class="hidden md:block">(</p>
+							{totalCount - governmentPoints}
+							<p class="hidden md:block">)</p>
+						</div>
+						<h7 class="typo-h7 font-bold ml-1 w-full md:w-auto">ฝ่ายค้าน </h7>
 					</div>
 					{#each oppositionParties as { party, total }}
 						<div
-							class="flex items-center border-b border-opacity-40 pb-[10px] mt-[10px]"
+							class="flex items-center border-b border-opacity-40 pb-[10px] mt-[10px] flex-wrap-reverse"
 							style="border-color: rgba(255, 255, 255, 0.4);"
 						>
-							<span class="typo-b5 w-4/12 flex items-center cursor-pointer">
+							<span
+								class="typo-b5 w-4/12 flex items-center cursor-pointer flex-1"
+							>
 								<svg
 									width="20"
 									height="20"
@@ -276,10 +292,12 @@
 										</clipPath>
 									</defs>
 								</svg>
-								เปลี่ยนขั้ว
+								<p class="hidden md:block">เปลี่ยนขั้ว</p>
 							</span>
-							<h5 class="typo-b5 opacity-70 w-2/12">{total}</h5>
-							<span class="typo-b5 w-1/2">
+							<h5 class="typo-b5 opacity-70 w-2/12 mr-6 md:mr-0">{total}</h5>
+							<span
+								class="typo-b5 w-full md:w-1/2 flex justify-end mb-2 md:mb-0"
+							>
 								{party.Name}
 								<span
 									class="w-4 h-4 ml-2 inline-block"
@@ -292,7 +310,7 @@
 			</div>
 			<a
 				href="{base}/quiz"
-				class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-[160px] md:w-52 h-[50px] flex items-center justify-between font-bold m-auto mt-20"
+				class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full md:w-52 h-[50px] flex items-center justify-between font-bold m-auto mt-2 md:mt-20"
 			>
 				สรุปผล
 				<div class="border-1 border-t border-r w-2 h-2 rotate-45" />
