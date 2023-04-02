@@ -170,6 +170,9 @@
 .mb-5 {
 		margin-bottom: 1.25rem;
 }
+.ml-2 {
+		margin-left: 0.5rem;
+}
 .ml-5 {
 		margin-left: 1.25rem;
 }
@@ -308,6 +311,9 @@
 .w-9 {
 		width: 2.25rem;
 }
+.w-\[102px\] {
+		width: 102px;
+}
 .w-\[11\.11\%\] {
 		width: 11.11%;
 }
@@ -323,8 +329,8 @@
 .w-\[72px\] {
 		width: 72px;
 }
-.w-\[76px\] {
-		width: 76px;
+.w-\[80px\] {
+		width: 80px;
 }
 .w-full {
 		width: 100%;
