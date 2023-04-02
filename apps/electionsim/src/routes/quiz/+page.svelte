@@ -15,6 +15,13 @@
 	import ContentWrapper from '../../components/content.svelte';
 	import EditQuiz from '../../components/quiz/editQuize.svelte';
 	import { Content } from '../../stores/content';
+	import { party } from '../../stores/party';
+	import { onMount } from 'svelte';
+
+	onMount(async () => {
+		await party.load();
+		console.log($party);
+	});
 </script>
 
 <div class="h-screen">
@@ -53,7 +60,7 @@
 			<Quiz7 />
 		</ContentWrapper>
 		<ContentWrapper id={Content.Quiz8}>
-			<Quiz8 />
+			<Quiz8 parties={$party.list} />
 		</ContentWrapper>
 		<ContentWrapper id={Content.Calculate}>
 			<Calculate />

@@ -2,10 +2,34 @@
 	import { Content, contentManager } from '../../stores/content';
 	import { ScaleAns, input } from '../../stores/input';
 	import { quiz8ToWord } from '../../utils/mapInputToWord';
+	import Dropdown from '../dropdown.svelte';
+	import type { Party } from '@thailand-election-2023/database';
+
+	export let parties: Party[];
+
+	const whitelistParties = [
+		'เพื่อไทย',
+		'ก้าวไกล',
+		'พลังประชารัฐ',
+		'ประชาธิปัตย์',
+		'ภูมิใจไทย',
+		'รวมไทยสร้างชาติ',
+	];
 
 	$: ans = $input.input.quiz8;
 	$: [word, percent] = quiz8ToWord(ans?.percent);
 	$: isFinished = $contentManager.isFinished;
+	$: partiesOption = parties.filter(({ Name }) =>
+		whitelistParties.includes(Name)
+	);
+
+	const onFromSelect = (newParty: string) => {
+		input.updateQuize8From(newParty);
+	};
+
+	const onToSelect = (newParty: string) => {
+		input.updateQuize8To(newParty);
+	};
 </script>
 
 <div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
@@ -19,47 +43,19 @@
 		>
 			<div class="w-full">
 				<h4 class="typo-b4 font-bold">เปลี่ยนใจจากเลือก...</h4>
-				<div
-					class="border border-black mt-2 w-full px-4 py-2 flex items-center"
-				>
-					<h3 class="typo-b3 font-bold flex-1 opacity-30">เลือกพรรค</h3>
-					<svg
-						width="16"
-						height="17"
-						viewBox="0 0 16 17"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							fill-rule="evenodd"
-							clip-rule="evenodd"
-							d="M8.32012 11.06L3.52012 6.25997L4.19212 5.58797L8.32012 9.71597L12.4481 5.58797L13.1201 6.25997L8.32012 11.06Z"
-							fill="#161616"
-						/>
-					</svg>
-				</div>
+				<Dropdown
+					selectedInput={ans?.from}
+					options={partiesOption.filter(({ Name }) => Name !== ans?.to)}
+					onSelect={onFromSelect}
+				/>
 			</div>
 			<div class="w-full">
 				<h4 class="typo-b4 font-bold">ไปเลือก...</h4>
-				<div
-					class="border border-black mt-2 w-full px-4 py-2 flex items-center"
-				>
-					<h3 class="typo-b3 font-bold flex-1 opacity-30">เลือกพรรค</h3>
-					<svg
-						width="16"
-						height="17"
-						viewBox="0 0 16 17"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							fill-rule="evenodd"
-							clip-rule="evenodd"
-							d="M8.32012 11.06L3.52012 6.25997L4.19212 5.58797L8.32012 9.71597L12.4481 5.58797L13.1201 6.25997L8.32012 11.06Z"
-							fill="#161616"
-						/>
-					</svg>
-				</div>
+				<Dropdown
+					selectedInput={ans?.to}
+					options={partiesOption.filter(({ Name }) => Name !== ans?.from)}
+					onSelect={onToSelect}
+				/>
 			</div>
 			<div class="w-full">
 				<h4 class="typo-b4 font-bold">มีคนเปลี่ยนใจมากแค่ไหน?</h4>
