@@ -4,15 +4,15 @@
 	import type { Party } from '@thailand-election-2023/database';
 	import GovernmentChartLabel from './government-chart-label.svelte';
 
-	export let senateCount: number;
 	export let representativeRecord: RepresentativeRecord[];
 	export let governmentParties: RepresentativeRecord[];
 	export let oppositionParties: RepresentativeRecord[];
 	export let governmentPoints: number;
 
-	$: totalCount = representativeRecord.reduce((acc, cur) => acc + cur.total, 0);
-
-	$: senateBarSize = (senateCount / (senateCount + totalCount)) * 100;
+	$: totalPoints = representativeRecord.reduce(
+		(acc, cur) => acc + cur.total,
+		0
+	);
 
 	let hoveredPartyName: Party | null = null;
 	let isExpand = false;
@@ -74,16 +74,10 @@
 		</p>
 
 		<div class="flex flex-row h-6 relative {isExpand ? 'mt-[30px]' : ''}">
-			<div
-				class="flex bg-black text-black items-center justify-center"
-				style="width: {senateBarSize}%; background: #888888;"
-			>
-				ส.ว.
-			</div>
 			{#each [...governmentParties, ...oppositionParties] as { party, total }}
 				<div
 					class="flex justify-center"
-					style="width: {(total / totalCount) *
+					style="width: {(total / totalPoints) *
 						100}%; background-color: {party.Color};"
 					on:mouseenter={() => (hoveredPartyName = party)}
 					on:mouseleave={() => (hoveredPartyName = null)}
@@ -107,15 +101,11 @@
 			{/each}
 			<div
 				class="absolute top-0 bottom-0 right-0 stripe-white"
-				style="left: {(governmentPoints / totalCount) *
+				style="left: {(governmentPoints / totalPoints) *
 					100}%; pointer-events: none; border-left: 1px solid white;"
 			/>
 
-			<GovernmentChartLabel label="เลือกนายก" style="left: 50%;" />
-			<GovernmentChartLabel
-				label="ตั้งรัฐบาล"
-				style="right: {(100 - senateBarSize) / 2}%;"
-			/>
+			<GovernmentChartLabel label="ตั้งรัฐบาล" style="right: 50%;" />
 		</div>
 
 		<div class="flex items-center justify-between text-white typo-b6 mt-2">
@@ -127,13 +117,18 @@
 				<div class="w-4 h-4 mr-2" style="background-color: #CCCCCC;">
 					<div class="stripe-white w-full h-full" />
 				</div>
-				ฝ่ายค้าน ({totalCount - governmentPoints})
+				ฝ่ายค้าน ({totalPoints - governmentPoints})
 			</div>
 		</div>
 
 		{#if isExpand}
+			{#if totalPoints / 2 > governmentPoints}
+				<div class="typo-b6 font-bold text-center mt-4" style="color: #FF6161;">
+					มีฝ่ายค้านเกินครึ่งของ ส.ส.!
+				</div>
+			{/if}
 			<div class="w-full h-[1px] bg-white opacity-40 mt-4" />
-			<span class="flex items-center justify-center mt-4">
+			<span class="flex items-center justify-center mt-4 cursor-pointer">
 				<h4 class="typo-b4 underline">สลับรัฐบาล/ฝ่ายค้าน</h4>
 				<svg
 					width="20"
@@ -252,7 +247,7 @@
 					<div class="flex justify-end flex-wrap-reverse md:flex-nowrap">
 						<div class="flex typo-h7">
 							<p class="hidden md:block">(</p>
-							{totalCount - governmentPoints}
+							{totalPoints - governmentPoints}
 							<p class="hidden md:block">)</p>
 						</div>
 						<h7 class="typo-h7 font-bold ml-1 w-full md:w-auto">ฝ่ายค้าน </h7>
@@ -309,7 +304,7 @@
 				</div>
 			</div>
 			<a
-				href="{base}/quiz"
+				href="{base}/result/share"
 				class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full md:w-52 h-[50px] flex items-center justify-between font-bold m-auto mt-2 md:mt-20"
 			>
 				สรุปผล
