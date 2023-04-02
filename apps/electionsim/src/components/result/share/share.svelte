@@ -8,7 +8,10 @@
 	export let oppositionParties: RepresentativeRecord[];
 	export let governmentPoints: number;
 
-	$: totalCount = representativeRecord.reduce((acc, cur) => acc + cur.total, 0);
+	$: totalPoints = representativeRecord.reduce(
+		(acc, cur) => acc + cur.total,
+		0
+	);
 </script>
 
 <div class="flex flex-col items-center w-[312px] md:w-[650px] py-10">
@@ -50,7 +53,7 @@
 	</div>
 	<div class="flex w-full justify-center mt-5 mb-[10px]">
 		<h6 class="typo-h7 font-bold">ฝ่ายค้าน</h6>
-		<h6 class="typo-h7">({totalCount - governmentPoints})</h6>
+		<h6 class="typo-h7">({totalPoints - governmentPoints})</h6>
 	</div>
 	<div class="flex justify-center flex-wrap gap-x-6">
 		{#each oppositionParties as { party, total }}

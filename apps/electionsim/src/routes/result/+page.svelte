@@ -15,7 +15,6 @@
 		Graph = 'graph',
 	}
 
-	$: senateCount = 250;
 	$: selectedTab = Tabs.Map;
 
 	$: [governmentParties, oppositionParties, governmentPoints] =
@@ -111,7 +110,6 @@
 		</div>
 	</div>
 	<GovernmentEstablish
-		{senateCount}
 		representativeRecord={$representatives}
 		{governmentParties}
 		{oppositionParties}
