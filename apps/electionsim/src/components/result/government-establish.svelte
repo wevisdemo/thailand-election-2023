@@ -15,7 +15,7 @@
 	$: senateBarSize = (senateCount / (senateCount + totalCount)) * 100;
 
 	let hoveredPartyName: Party | null = null;
-	let isExpand = true;
+	let isExpand = false;
 
 	const toggleIsExpand = () => (isExpand = !isExpand);
 </script>
