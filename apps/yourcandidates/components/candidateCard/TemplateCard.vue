@@ -11,7 +11,7 @@
           <IconsProfile v-if="candidate.Image === '' || !candidate.Image"/>
           <img v-else="candidate.Image" class="image-candidate" 
             :src="candidate.Image" alt="">
-          <img v-if="candidate.Party" class="image-party"
+          <img v-if="candidate.Party && candidate.Party.Image" class="image-party"
             :src="candidate.Party.Images[0].url" alt="">
         </div>
 
@@ -19,9 +19,9 @@
           <div class="name typo-h5">
             {{ candidate.Name }}
           </div>
-          <div v-if="candidate.PeoplePartyHistory" class="inline-block">
+          <div v-if="candidate.PeoplePartyHistory && partyGroup !== ''" class="inline-block">
             <BadgeWithCheck :checks="partyGroup === 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน'? 2 : 1">
-              <p>อดีต ส.ส. {{ partyGroup }}</p>
+              <p> อดีต ส.ส. {{ partyGroup }}</p>
             </BadgeWithCheck>
           </div>
         </div>
@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import CheckMark from '@/components/icons/CheckMark.vue';
+import CheckMark from '~/components/icons/CheckMark.vue';
 
 export default{
   props: {

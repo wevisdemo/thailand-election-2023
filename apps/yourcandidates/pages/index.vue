@@ -19,7 +19,8 @@
       </div>
       <election-bottom></election-bottom>
     </div>
-    <election-footer></election-footer>
+    <election-footer index-path="/yourcandidates" about-path="/yourcandidates/about"></election-footer>
+    <election-cookie></election-cookie>
   </div>
 </template>
 
@@ -28,6 +29,7 @@ import {
   ElectionHeader,
   ElectionBottom,
   ElectionFooter,
+  ElectionCookie
 } from '@thailand-election-2023/components'
 import lottie from 'lottie-web'
 

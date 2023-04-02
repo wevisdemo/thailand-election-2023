@@ -40,8 +40,8 @@
 </template>
 
 <script>
-import TemplateCard from '@/components/candidateCard/TemplateCard.vue'
-import Link from '@/components/candidateCard/Link.vue'
+import TemplateCard from '~/components/candidateCard/TemplateCard.vue'
+import Link from '~/components/candidateCard/Link.vue'
 export default{
   props: {
     people: {

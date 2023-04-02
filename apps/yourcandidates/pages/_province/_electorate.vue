@@ -155,21 +155,23 @@
       <IconsBackToTop />
     </button>
 
-    <election-bottom></election-bottom>
+    <election-bottom index-path="/yourcandidates" about-path="/yourcandidates/about"></election-bottom>
     <election-footer></election-footer>
+    <election-cookie></election-cookie>
   </div>
 </template>
-  
+
 <script>
-import PeopleCard from '@/components/candidateCard/PeopleCard.vue'
-import PartyCard from '@/components/candidateCard/PartyCard.vue'
-import { getPeople, getParties } from '@/helpers/candidatestore'
+import PeopleCard from '~/components/candidateCard/PeopleCard.vue'
+import PartyCard from '~/components/candidateCard/PartyCard.vue'
+import { getPeople, getParties } from '~/helpers/candidatestore'
 import {
   ElectionHeader,
   ElectionBottom,
   ElectionFooter,
+  ElectionCookie
 } from '@thailand-election-2023/components'
-import { getElectorals } from '@/helpers/search'
+import { getElectorals } from '~/helpers/search'
 export default {
   beforeMount() {
     const electorate = getElectorals(
