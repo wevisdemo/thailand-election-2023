@@ -21,7 +21,7 @@ const SearchBar: FC<SearchBarProps> = ({ onClear }) => {
 
 	const clearInput = (): void => {
 		setMessage('');
-		onClear();
+		if (onClear) onClear();
 		router.push(url, undefined, {});
 	};
 	useEffect(() => {
