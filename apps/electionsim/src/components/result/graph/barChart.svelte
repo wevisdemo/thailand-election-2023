@@ -17,20 +17,24 @@
 			ส.ส. เขต <div class="w-4 h-4 ml-2" style="background-color: #CCCCCC;" />
 		</div>
 		<div
-			class="typo-b6 font-bold w-[102px] text-right items-center justify-end flex"
+			class="typo-b6 font-bold w-[92px] md:w-[102px] text-right items-center justify-end flex"
 		>
 			ส.ส. บัญชีฯ <div class="w-4 h-4 ml-2" style="background-color: #CCCCCC;">
 				<div class="stripe-white w-full h-full" />
 			</div>
 		</div>
-		<div class="typo-b6 font-bold w-[72px] text-right">รวม</div>
+		<div class="typo-b6 font-bold w-16 md:w-[72px] text-right">รวม</div>
 	</div>
 	{#each representativeRecord as { party, fromDistrict, fromPartylist, total }}
-		<div class="flex mt-5">
+		<div class="flex mt-2 md:mt-5">
 			<div class="typo-b6 flex-1">{party.Name}</div>
-			<div class="typo-b6 w-[80px] text-right">{fromDistrict}</div>
-			<div class="typo-b6 w-[102px] text-right">{fromPartylist}</div>
-			<div class="typo-b6 w-[72px] text-right items-center justify-end flex">
+			<div class="typo-b6 w-[92px] text-right">{fromDistrict}</div>
+			<div class="typo-b6 w-[80px] md:w-[102px] text-right">
+				{fromPartylist}
+			</div>
+			<div
+				class="typo-b6 w-16 md:w-[72px] text-right items-start md:items-center justify-end flex"
+			>
 				{total}
 				{#if total % 2 === 0}
 					<svg

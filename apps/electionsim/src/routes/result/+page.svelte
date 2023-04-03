@@ -15,7 +15,6 @@
 		Graph = 'graph',
 	}
 
-	$: senateCount = 250;
 	$: selectedTab = Tabs.Map;
 
 	$: [governmentParties, oppositionParties, governmentPoints] =
@@ -52,14 +51,18 @@
 	<div class="flex-1 flex flex-col items-center">
 		<div class="flex flex-col w-[312px] md:w-[650px] mt-10">
 			<div class="flex justify-center items-center">
-				<div class="flex items-center">
-					<h7 class="typo-h7 font-bold">จำลองผล #เลือกตั้ง66 จากคำตอบของคุณ</h7>
+				<div class="flex items-start md:items-center">
+					<h7 class="typo-h7 font-bold"
+						>จำลองผล #เลือกตั้ง66 <br class="inline md:hidden" /> จากคำตอบของคุณ</h7
+					>
 					<a
 						href="{base}/quiz"
 						class="cursor-pointer flex"
 						on:click={onEditQuiz}
 					>
-						<h5 class="typo-b5 text-byx-blue ml-5 underline">แก้ไขคำตอบ</h5>
+						<h5 class="typo-b5 text-byx-blue ml-1 md:ml-5 underline">
+							แก้ไขคำตอบ
+						</h5>
 						<svg
 							width="24"
 							height="24"
@@ -107,7 +110,6 @@
 		</div>
 	</div>
 	<GovernmentEstablish
-		{senateCount}
 		representativeRecord={$representatives}
 		{governmentParties}
 		{oppositionParties}

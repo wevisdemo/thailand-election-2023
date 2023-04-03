@@ -1,3 +1,15 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
+	import { goto } from '$app/navigation';
+
+	onMount(() => {
+		setTimeout(() => {
+			goto(`${base}/result`);
+		}, 1000);
+	});
+</script>
+
 <div
 	class="text-center flex flex-col items-center justify-center w-[312px] md:w-[650px] h-full py-10"
 >

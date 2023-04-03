@@ -53,3 +53,7 @@ interface Params {
 export interface SetPaths {
 	params: Params;
 }
+
+export interface SearchBarProps {
+	setIsSearch?: (value: boolean) => void;
+}

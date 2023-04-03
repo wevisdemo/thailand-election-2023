@@ -12,6 +12,10 @@ ul {
 	padding-left: 25px !important;
 }
 
+*:focus {
+	outline: none;
+}
+
 @import 'tailwindcss/components';
 
 @import 'tailwindcss/utilities';
@@ -25,6 +29,10 @@ ul {
 	overflow: hidden;
 	-webkit-line-clamp: 6;
 	-webkit-box-orient: vertical;
+}
+
+.inputSearchPolicies {
+	@apply w-full my-4 border-[3px]  border-black rounded-[50px] h-[44px] p-4 focus:border-highlight-2;
 }
 
 @media only screen and (max-width: 420px) {
