@@ -1,0 +1,251 @@
+import Dropdown from '@/components/Dropdown';
+import HowToLabel from '@/components/HowToLabel';
+import Clipboard from '@/components/Clipboard';
+import RandomButton from '@/components/RandomButton';
+import TemplatePolicyList from '@/components/Template/PolicyList';
+import { IDropdownOption, Party, Policy } from '@/types/components';
+import { fetchPolicy, fetchParties, shufflePolicies } from '@/utils';
+import { GetStaticProps, NextPage } from 'next';
+import { memo, useEffect, useState } from 'react';
+import Layout from '@/components/Layout';
+import { useRouter } from 'next/router';
+
+interface PropsType {
+	policies: Policy[];
+	parties: Party[];
+}
+
+const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
+	const partyNameList: string[] = parties.reduce((pre, curr) => {
+		const isExist = pre.find((partyName) => curr.Name === partyName);
+		if (!isExist) {
+			return [...pre, curr.Name];
+		}
+		return pre;
+	}, [] as string[]);
+
+	const topicList: string[] = policies.reduce((pre, curr) => {
+		const isExist = pre.find((topic) => curr.Topic === topic);
+		if (!isExist) {
+			return [...pre, curr.Topic];
+		}
+		return pre;
+	}, [] as string[]);
+
+	const router = useRouter();
+	const [displayPolicies, setDisplayPolicies] = useState<Policy[]>(policies);
+	const [optionParties, setOptionParties] = useState<IDropdownOption<string>[]>(
+		[]
+	);
+	const [optionTopics, setOptionTopics] = useState<IDropdownOption<string>[]>(
+		[]
+	);
+	const [chooseParty, setChooseParty] =
+		useState<IDropdownOption<string> | null>(null);
+	const [chooseTopic, setChooseTopic] =
+		useState<IDropdownOption<string> | null>(null);
+
+	const { hot: hotQuery, topic: topicQuery, party: partyQuery } = router.query;
+	const title = hotQuery ? 'นโยบายประเด็นร้อน' : 'นโยบายตามประเด็น';
+
+	interface PolicyGroupByTopic {
+		topic: string;
+		policies: Policy[];
+	}
+
+	const onClickShuffle = () => {
+		setDisplayPolicies((curr) => [...shufflePolicies(curr)]);
+	};
+
+	const replaceUrl = (query: string) => {
+		console.log('q =>', query);
+		const url = '/list' + (query ? `?${query}` : '');
+		router.push(url, undefined, {
+			shallow: true,
+		});
+	};
+
+	const fetchOption = async (): Promise<void> => {
+		const policiesGroupByTopic: PolicyGroupByTopic[] = policies.reduce(
+			(pre, curr) => {
+				const topicIndex = pre.findIndex(
+					(policy) => policy.topic === curr.Topic
+				);
+				if (topicIndex === -1) {
+					pre = [...pre, { topic: curr.Topic, policies: [curr] }];
+				} else {
+					pre[topicIndex] = {
+						topic: curr.Topic,
+						policies: [...pre[topicIndex].policies, curr],
+					};
+				}
+				return pre;
+			},
+			[] as PolicyGroupByTopic[]
+		);
+
+		let policyOptions: IDropdownOption<string>[] = policiesGroupByTopic.map(
+			(item) => {
+				const label = `${item.topic} (${item.policies.length})`;
+				return { label: label, value: item.topic };
+			}
+		);
+		const defaultPolicyOption: IDropdownOption<string> = {
+			label: `นโยบายทั้งหมด (${policies.length})`,
+			value: 'นโยบายทั้งหมด',
+		};
+		policyOptions = [...policyOptions, defaultPolicyOption];
+
+		const topicOptionMatch = policyOptions.find(
+			(option) => option.value === topicQuery
+		);
+
+		if (topicQuery && topicOptionMatch) {
+			setChooseTopic(topicOptionMatch);
+		} else {
+			setChooseTopic(defaultPolicyOption);
+		}
+
+		let partyOptions: IDropdownOption<string>[] = parties.map((party) => {
+			const policiesMatchPartyAndTopic = policies.filter((policy) => {
+				const partyMatch = policy.Party.Name === party.Name;
+				let topicMatch = true;
+				if (topicQuery) {
+					topicMatch = policy.Topic === topicQuery;
+				}
+				return partyMatch && topicMatch;
+			});
+			const label = `${party.Name} (${policiesMatchPartyAndTopic.length})`;
+			return { label: label, value: party.Name };
+		});
+		const matchTopicPolicies = policiesGroupByTopic.find(
+			(item) => item.topic === topicQuery
+		);
+		const partyPolicyLength = matchTopicPolicies
+			? matchTopicPolicies.policies.length
+			: policies.length;
+		const defaultPartyOption: IDropdownOption<string> = {
+			label: `ดูของทุกพรรค (${partyPolicyLength})`,
+			value: 'ดูของทุกพรรค',
+		};
+		partyOptions = [...partyOptions, defaultPartyOption];
+
+		const partyOptionMatch = partyOptions.find(
+			(option) => option.value === partyQuery
+		);
+
+		if (partyQuery && partyOptionMatch) {
+			setChooseParty(partyOptionMatch);
+		} else {
+			setChooseParty(defaultPartyOption);
+		}
+
+		setOptionParties(partyOptions);
+		setOptionTopics(policyOptions);
+	};
+
+	const fetchData = () => {
+		let filterPolicies = policies;
+		const partyOptionMatch = optionParties.find(
+			(option) => option.value === partyQuery
+		);
+		if (partyQuery?.toString() && partyOptionMatch) {
+			filterPolicies = filterPolicies.filter(
+				(policy) => policy.Party.Name === partyQuery
+			);
+		}
+		const topicOptionMatch = optionTopics.find(
+			(option) => option.value === topicQuery
+		);
+
+		if (topicQuery?.toString() && topicOptionMatch) {
+			filterPolicies = filterPolicies.filter(
+				(policy) => policy.Topic === topicQuery?.toString()
+			);
+		}
+		setDisplayPolicies(filterPolicies);
+	};
+
+	const generateQuery = (
+		partyName: string,
+		topic: string,
+		hot: boolean
+	): string => {
+		let query = '';
+		// validate
+		if (topicList.find((item) => item === topic)) {
+			query += `topic=${topic}&`;
+		}
+		if (partyNameList.find((item) => item === partyName)) {
+			query += `party=${partyName}&`;
+		}
+		if (hot) {
+			query += `hot=true&`;
+		}
+		return query;
+	};
+	useEffect(() => {}, []);
+
+	useEffect(() => {
+		fetchOption();
+	}, [topicQuery, partyQuery]);
+
+	useEffect(() => {
+		fetchData();
+		const query = generateQuery(
+			chooseParty?.value || '',
+			chooseTopic?.value || '',
+			!!hotQuery
+		);
+
+		if (query) {
+			replaceUrl(query);
+		}
+	}, [chooseParty, chooseTopic]);
+
+	return (
+		<Layout title={title}>
+			<HowToLabel />
+			<Clipboard />
+
+			<TemplatePolicyList policyList={displayPolicies}>
+				<div className="flex flex-col md:flex-row gap-[16px]">
+					<Dropdown
+						options={optionTopics}
+						currentOption={chooseTopic}
+						onSelect={setChooseTopic}
+					/>
+					<Dropdown
+						options={optionParties}
+						currentOption={chooseParty}
+						onSelect={setChooseParty}
+					/>
+				</div>
+				<div className="flex justify-between items-center mt-[32px]">
+					<p>เรียงตาม</p>
+					<RandomButton onClick={onClickShuffle} />
+				</div>
+			</TemplatePolicyList>
+		</Layout>
+	);
+};
+
+export const getStaticProps: GetStaticProps<PropsType> = async (context) => {
+	let policies = await fetchPolicy();
+	const parties = await fetchParties();
+	policies = policies.map((policy) => {
+		if (!policy.Topic) {
+			return { ...policy, Topic: 'ไม่ระบุ' };
+		}
+		return policy;
+	});
+
+	return {
+		props: {
+			policies,
+			parties,
+		},
+	};
+};
+
+export default memo(ListPage);

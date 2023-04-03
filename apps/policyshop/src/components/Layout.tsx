@@ -25,7 +25,7 @@ const Layout: FunctionComponent<PropsType> = ({ title, children }) => {
 				{title != 'landing' && (
 					<Link href="/" className="flex mt-[16px]">
 						<img src={`${imgPrefix}/arrow.svg`} alt="arrow" />
-						<p className="ml-[8px] typo-b2 font-kondolar font-bold">{title}</p>
+						<p className="ml-[8px] typo-h6 font-bold">{title}</p>
 					</Link>
 				)}
 				<div>{children}</div>

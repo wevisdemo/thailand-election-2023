@@ -13,7 +13,7 @@ const ByTopic: FC<ByTopicProps> = ({ topics }) => {
 				{Object.keys(topics).map((key) => (
 					<Link
 						key={key}
-						href={`/แบ่งตามประเด็น/${key}`}
+						href={`/list?topic=${key}`}
 						className="mt-4 mx-[8px] md:mx-[10px]"
 					>
 						<CircleTopicWrapper name={key} totalTopic={topics[key].length} />
