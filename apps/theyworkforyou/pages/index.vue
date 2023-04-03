@@ -298,6 +298,7 @@ export default {
       this.active_quiz_no = 0
       this.chosen = {}
       this.mp_data = []
+      this.match_vote = 0
     },
     prevQuiz() {
       this.scrollToTop()
