@@ -97,9 +97,10 @@
                 <b>ส.ส. ในเขตของคุณ คือ</b>
               </p>
               <MpCard
-                v-if="Object.keys(mp_data).length > 0"
-                @click.native="start"
-                :mp_data="mp_data"
+                v-for="{ zone, people } in mp_data"
+                :key="zone"
+                @click.native="() => start(people)"
+                :mp_data="people"
                 :district="district"
               />
             </div>
@@ -108,10 +109,10 @@
       </div>
       <div v-else-if="active_quiz_no <= 10">
         <Quiz
-          v-if="Object.keys(mp_data).length > 0"
+          v-if="people_in_selected_zone.length > 0"
           :quiz_no="active_quiz_no"
           :quiz_data="getVoteLog"
-          :mp_data="mp_data"
+          :mp_data="people_in_selected_zone"
           :nextQuiz="nextQuiz"
           :countMatchVote="countMatchVote"
           :user_voting_results="user_voting_results"
@@ -125,7 +126,10 @@
             <div id="processing-lottie" />
           </div>
         </div>
-        <QuizResult :match_vote="match_vote" :mp_data="mp_data" />
+        <QuizResult
+          :match_vote="match_vote"
+          :mp_data="people_in_selected_zone"
+        />
       </div>
     </div>
 
@@ -168,6 +172,7 @@ export default {
       user_voting_results: [],
       match_vote: 0,
       result_processing: false,
+      people_in_selected_zone: [],
     }
   },
   async mounted() {
@@ -227,20 +232,24 @@ export default {
       }
     },
     async updateFilter() {
-      const split = this.chosen.value.split(' ')
-      const district = split[1]
-      const province = split[0]
-      const zone = zone_data.find(
-        (z) => z.province === province && z.areas.includes(district)
-      ).zone
+      const [province, district] = this.chosen.value.split(' ')
+      const zones = zone_data
+        .filter((z) => z.province === province && z.areas.includes(district))
+        .map(({ zone }) => zone)
+
       this.district = district
 
-      const people = await TheyWorkForUs.People.fetch({
-        where: `(MpProvince,eq,${province})~and(MpZone,eq,${zone})`,
+      const people = await TheyWorkForUs.People.fetchAll({
+        where: `(MpProvince,eq,${province})~and(MpZone,in,${zones.join(',')})`,
       })
-      this.mp_data = people.list
+
+      this.mp_data = zones.map((zone) => ({
+        zone,
+        people: people.filter(({ MpZone }) => +MpZone === zone),
+      }))
 
       const element = document.getElementById('mp-card')
+
       setTimeout(() => {
         element.scrollIntoView({
           behavior: 'smooth',
@@ -259,9 +268,10 @@ export default {
         })
       }, 0)
     },
-    start() {
+    start(people) {
       setTimeout(() => {
         this.active_quiz_no = 1
+        this.people_in_selected_zone = people
         this.scrollToTop()
       }, 0)
     },

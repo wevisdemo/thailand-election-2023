@@ -3,46 +3,27 @@
     <div class="header-container">
       <p class="typo-b5">
         <b>
-          {{ first_data.MpProvince }} เขตเลือกตั้งที่ {{ first_data.MpZone }}</b
+          {{ mp_data[0].MpProvince }} เขตเลือกตั้งที่ {{ mp_data[0].MpZone }}</b
         >
       </p>
       <p class="typo-b6">เขต {{ district }}</p>
     </div>
     <div class="mp-info-container">
-      <div class="mp-info-wrap">
-        <div class="mp-info" :class="{ fade: has_changed }">
+      <div v-for="mp in mp_data" :key="mp.name" class="mp-info-wrap">
+        <div class="mp-info" :class="{ fade: !mp.IsActive }">
           <div class="img-wrap">
-            <img
-              :src="first_data.Images[0].url"
-              :alt="first_data.Images[0].title"
-            />
+            <img :src="mp.Images[0].url" :alt="mp.Images[0].title" />
           </div>
           <p class="name typo-h7">
-            <b>{{ first_data.Title }} {{ first_data.Name }}</b>
+            <b>{{ mp.Title }} {{ mp.Name }}</b>
           </p>
           <p class="party typo-b5">
-            พรรค{{ first_data.PeoplePartyHistory[0].Party.Name }}
+            พรรค{{ mp.PeoplePartyHistory[0].Party.Name }}
           </p>
         </div>
-        <p v-if="has_changed" class="retire typo-b6">
+        <p v-if="!mp.IsActive" class="retire typo-b6">
           <b>พ้นจากตำแหน่ง</b>
         </p>
-      </div>
-      <div v-if="has_changed" class="mp-info-wrap">
-        <div class="mp-info">
-          <div class="img-wrap">
-            <img
-              :src="second_data.Images[0].url"
-              :alt="second_data.Images[0].title"
-            />
-          </div>
-          <p class="name typo-h7">
-            <b>{{ second_data.Title }} {{ second_data.Name }}</b>
-          </p>
-          <p class="party typo-b5">
-            พรรค{{ second_data.PeoplePartyHistory[0].Party.Name }}
-          </p>
-        </div>
       </div>
     </div>
     <div class="start-btn-container">
@@ -71,17 +52,6 @@ export default {
       arrow_right: require('~/assets/images/icons/arrow_right.svg'),
     }
   },
-  computed: {
-    first_data() {
-      return this.mp_data[0]
-    },
-    second_data() {
-      return this.mp_data[1]
-    },
-    has_changed() {
-      return this.mp_data.length > 1
-    },
-  },
 }
 </script>
 
@@ -97,6 +67,7 @@ export default {
     transform: rotate(3deg);
     box-shadow: 4px 12px 0px var(--color-gray-2);
   }
+  margin-top: 15px;
 }
 .header-container {
   background: var(--color-gray-1);
