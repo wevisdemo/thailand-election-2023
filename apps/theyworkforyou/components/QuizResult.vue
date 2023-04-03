@@ -4,10 +4,12 @@
       <p class="typo-b4">
         <b>
           คุณและ ส.ส.
-          <span :class="{ 'old-mp': isTwoMp }">
-            {{ mp_1 }}{{ isTwoMp ? '/' : '' }}
-          </span>
-          <span v-if="isTwoMp">{{ mp_2 }}</span>
+          <span
+            v-for="mp in mp_data"
+            :key="mp.Id"
+            :class="{ 'old-mp': !mp.IsActive }"
+            >{{ mp.Name.split(' ')[0] }}{{ !mp.IsActive ? '/' : '' }}</span
+          >
         </b>
       </p>
       <p class="typo-h3">
@@ -32,11 +34,13 @@
         <div class="heart">
           <img :src="heart" alt="heart" />
         </div>
-        <div class="mp-icon" :class="{ 'mp-icon-old': isTwoMp }">
-          <img :src="mp_data[0].Images[0].url" alt="user" />
-        </div>
-        <div v-if="isTwoMp" class="mp-icon mp-icon-new">
-          <img :src="mp_data[1].Images[0].url" alt="user" />
+        <div
+          v-for="mp in mp_data"
+          :key="mp.Id"
+          class="mp-icon"
+          :class="mp.IsActive ? 'mp-icon-new' : 'mp-icon-old'"
+        >
+          <img :src="mp.Images[0].url" :alt="mp.Name" />
         </div>
       </div>
     </div>
@@ -53,8 +57,13 @@
     </div>
     <div class="btn-wrap">
       <RoundButton
-        text="ดูผลโหวตมติอื่นๆ ของ ส.ส. คนนี้"
-        :link="getMpLink"
+        v-for="mp in mp_data"
+        :key="mp.Id"
+        :text="`ดูผลโหวตมติอื่นๆ ของ${mp.Name.split(' ')[0]}`"
+        :link="`https://theyworkforus.wevis.info/people/${mp.Name.replaceAll(
+          ' ',
+          '-'
+        )}`"
         class="round-btn-wrap"
       />
       <!-- <RoundButton
@@ -81,8 +90,6 @@ export default {
   data() {
     return {
       match_percentage: '',
-      mp_1: '',
-      mp_2: '',
       user: require('~/assets/images/user.svg'),
       heart: require('~/assets/images/heart.svg'),
       cross: require('~/assets/images/cross.svg'),
@@ -90,28 +97,10 @@ export default {
   },
   mounted() {
     this.match_percentage = `${(this.match_vote / 10) * 100}%`
-
-    this.mp_1 = this.mp_data[0].Name.split(' ')[0]
-    if (this.isTwoMp) {
-      this.mp_2 = this.mp_data[1].Name.split(' ')[0]
-    }
   },
   computed: {
     getNumberOfCross() {
       return 10 - this.match_vote
-    },
-    isTwoMp() {
-      return this.mp_data.length > 1
-    },
-    getMpLink() {
-      let full_name = this.mp_data[0].Name
-      if (this.isTwoMp) {
-        full_name = this.mp_data[1].Name
-      }
-
-      const format_full_name = full_name.replaceAll(' ', '-')
-
-      return `https://theyworkforus.wevis.info/people/${format_full_name}`
     },
   },
 }
@@ -129,9 +118,6 @@ export default {
   }
   span {
     display: inline-block;
-    &:nth-child(2) {
-      margin-left: -5px;
-    }
   }
 }
 .match-img {
