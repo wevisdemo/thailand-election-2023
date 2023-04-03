@@ -43,7 +43,7 @@
         class="other-vote"
       >
         <span>เพราะ</span>
-        <div class="img-wrap">
+        <div v-if="mp_answer !== VOTELOG_NOT_FOUND_LABEL" class="img-wrap">
           <img :src="getMpImage" alt="" />
         </div>
         <span>{{ mp_answer }}..</span>
@@ -93,6 +93,8 @@
 import { TheyWorkForUs } from '@thailand-election-2023/database'
 const { marked } = require('marked')
 
+const VOTELOG_NOT_FOUND_LABEL = 'อยู่ในช่วงรอ ส.ส. ใหม่มาแทนตำแหน่งที่ว่าง'
+
 export default {
   props: {
     quiz_no: {
@@ -137,23 +139,11 @@ export default {
       collapsed: true,
       mp_data_current: {},
       hover_next_btn: false,
+      VOTELOG_NOT_FOUND_LABEL,
     }
   },
   async mounted() {
-    let index = 0
-    while (index <= 1) {
-      const people_votes = await TheyWorkForUs.PeopleVotes.fetch({
-        where: `(nc_9rqw__Votelog_id,eq,${this.quiz_data.Id})~and(nc_9rqw__People_id,eq,${this.mp_data[index].Id})`,
-      })
-      if (people_votes.list.length > 0 || this.mp_data.length === 1) {
-        this.mp_answer = people_votes.list[0]
-          ? people_votes.list[0].Status
-          : 'ไม่เข้าร่วมประชุม'
-        this.mp_data_current = this.mp_data[index]
-        break
-      }
-      index++
-    }
+    this.updateMpData()
   },
   watch: {
     async quiz_no() {
@@ -166,20 +156,7 @@ export default {
       }
       this.collapsed = true
 
-      let index = 0
-      while (index <= 1) {
-        const people_votes = await TheyWorkForUs.PeopleVotes.fetch({
-          where: `(nc_9rqw__Votelog_id,eq,${this.quiz_data.Id})~and(nc_9rqw__People_id,eq,${this.mp_data[index].Id})`,
-        })
-        if (people_votes.list.length > 0 || this.mp_data.length === 1) {
-          this.mp_answer = people_votes.list[0]
-            ? people_votes.list[0].Status
-            : 'ไม่เข้าร่วมประชุม'
-          this.mp_data_current = this.mp_data[index]
-          break
-        }
-        index++
-      }
+      this.updateMpData()
     },
   },
   methods: {
@@ -191,6 +168,24 @@ export default {
       })
       if (answer === this.mp_answer) {
         this.countMatchVote()
+      }
+    },
+    async updateMpData() {
+      const [personVote] = await TheyWorkForUs.PeopleVotes.fetchAll({
+        where: `(nc_9rqw__Votelog_id,eq,${
+          this.quiz_data.Id
+        })~and(nc_9rqw__People_id,in,${this.mp_data
+          .map(({ Id }) => Id)
+          .join(',')})`,
+      })
+
+      if (personVote) {
+        this.mp_answer = personVote.Status
+        this.mp_data_current = this.mp_data.find(
+          ({ Id }) => personVote.Person.Id === Id
+        )
+      } else {
+        this.mp_answer = VOTELOG_NOT_FOUND_LABEL
       }
     },
   },
