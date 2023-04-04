@@ -9,19 +9,40 @@ import { TheyWorkForUs } from '@thailand-election-2023/database';
 import { Party } from '@thailand-election-2023/database/src/models/party';
 import { Policy } from '@thailand-election-2023/database/src/models/policy';
 import { groupBy } from '@/utils';
-import { GroupByTopics } from '@/types/components';
+import { GroupByTopics, IDropdownOption } from '@/types/components';
 import ShortCut from '@/components/ShortCut';
+import AutoComplete from '@/components/Compare/AutoComplete';
+import WvSharer from '@wevisdemo/ui/react/sharer';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Landing() {
 	const [hotParties, setHotParties] = useState<Party[]>([]);
+	const [parties, setParties] = useState<Party[]>([]);
 	const [topics, setTopics] = useState<GroupByTopics>({});
+	const [selectedPartyOption, setSelectedPartyOption] =
+		useState<IDropdownOption<string> | null>(null);
+	const router = useRouter();
 
 	const fetchParties = async (): Promise<void> => {
 		const data: Party[] = await TheyWorkForUs.Parties.fetchAll({
 			where: '(PartyType,eq,พรรค)',
 		});
+		setParties(data);
 		//mock get hot parties
 		setHotParties(data.slice(0, 8));
+	};
+
+	const getPartyOptions = (): IDropdownOption<string>[] => {
+		return parties.map((party) => ({
+			label: party.Name,
+			value: party.Name,
+		}));
+	};
+
+	const onSelectParty = (option: IDropdownOption<string>) => {
+		setSelectedPartyOption(option);
+		router.push(`/party/${option.value}`);
 	};
 
 	const fetchPolicies = async (): Promise<void> => {
@@ -51,7 +72,28 @@ export default function Landing() {
 						<HotTopicPolicy topics={topics} />
 						<ByTopic topics={topics} />
 						<ByParty parties={hotParties} />
+
+						<div className="mt-[16px]">
+							<AutoComplete
+								options={getPartyOptions()}
+								currentOption={selectedPartyOption}
+								onSelect={onSelectParty}
+								placeholder="เลือกพรรค"
+							/>
+						</div>
+						<div className="flex flex-col items-center my-[40px]">
+							<div className="flex">
+								{/* <WvSharer url={`www.google.com`} /> */}
+							</div>
+							<p className="typo-b3 font-bold">#WeVisElection66</p>
+							<Link href={'/about'}>
+								<div className="font-bold py-[10px] px-[20px] border-[3px] rounded-[50px] w-fit mt-[10px]">
+									เกี่ยวกับโครงการ
+								</div>
+							</Link>
+						</div>
 					</div>
+					<election-footer></election-footer>
 				</Layout>
 			</main>
 		</>

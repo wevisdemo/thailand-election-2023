@@ -10,7 +10,7 @@ const ByParty: FC<ByPartyProps> = ({ parties }) => {
 			<p className="px-4 py-2 font-bold typo-h6 bg-highlight-2">
 				ดูนโยบายตามพรรค
 			</p>
-			<div className="flex flex-wrap justify-center text-center ">
+			<div className="grid grid-cols-4 justify-center text-center w-fit m-auto">
 				{parties?.map((d: Party) => (
 					<Link
 						href={`/party/${d.Name}`}
