@@ -65,10 +65,6 @@ export default function Landing() {
 					<IntroPolicy />
 					<div className="max-w-[728px] mx-auto">
 						<ShortCut />
-						<p className="mt-16 font-bold text-center typo-h4">
-							นโยบายหาเสียง <br className=" md:hidden" />
-							เลือกตั้ง ปี 2566
-						</p>
 						<HotTopicPolicy topics={topics} />
 						<ByTopic topics={topics} />
 						<ByParty parties={hotParties} />
@@ -85,7 +81,7 @@ export default function Landing() {
 							<div className="flex">
 								{/* <WvSharer url={`www.google.com`} /> */}
 							</div>
-							<p className="typo-b3 font-bold">#WeVisElection66</p>
+							<p className="font-bold typo-b3">#WeVisElection66</p>
 							<Link href={'/about'}>
 								<div className="font-bold py-[10px] px-[20px] border-[3px] rounded-[50px] w-fit mt-[10px]">
 									เกี่ยวกับโครงการ

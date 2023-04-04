@@ -6,7 +6,11 @@ import { ByTopicProps } from '@/types/components';
 const HotTopicPolicy: FC<ByTopicProps> = ({ topics }) => {
 	const hotTopics = Object.keys(topics).slice(0, 6);
 	return (
-		<div className="container pt-10 mx-auto">
+		<div className="container pt-20 mx-auto" id="HotTopicPolicy">
+			<p className="pb-10 font-bold text-center typo-h4">
+				นโยบายหาเสียง <br className=" md:hidden" />
+				เลือกตั้ง ปี 2566
+			</p>
 			<p className="px-4 py-2 font-bold typo-h6 bg-highlight-2">
 				นโยบายประเด็นร้อน
 			</p>
