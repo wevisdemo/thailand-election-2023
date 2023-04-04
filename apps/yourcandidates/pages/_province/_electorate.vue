@@ -401,6 +401,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  text-align: left;
   padding: 20px;
   gap: 10px;
   width: 100%;
