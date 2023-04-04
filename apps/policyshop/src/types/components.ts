@@ -18,6 +18,11 @@ export interface IPolicyCard {
 	category_text: string;
 }
 
+export interface IPolicyGroupByTopic {
+	topic: string;
+	policies: Policy[];
+}
+
 export interface SquareTopicProps {
 	topicName: string | undefined;
 }
