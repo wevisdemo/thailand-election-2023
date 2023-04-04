@@ -1,6 +1,6 @@
 <template>
   <div v-show="open" class="popup flex flex-col justify-center items-center">
-    <div style="max-width: 650px;" class="party-list-container w-4/5 h-4/5 overflow-y-scroll scrollbar-hide ">
+    <div style="max-width: 450px;" class="party-list-container w-4/5 h-4/5 overflow-y-scroll scrollbar-hide ">
       <div class="w-full relative">
         <slot name="close"></slot>
       </div>
