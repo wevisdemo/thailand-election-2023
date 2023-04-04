@@ -55,5 +55,5 @@ export interface SetPaths {
 }
 
 export interface SearchBarProps {
-	setIsSearch?: (value: boolean) => void;
+	onClear?: () => void;
 }

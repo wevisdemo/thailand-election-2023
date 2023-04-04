@@ -1,12 +1,12 @@
 <template>
-  <TemplateCard :key="people.Number" :candidate="{...people}">
+  <TemplateCard :key="person.Number" :candidate="{...person}">
     <template v-slot:infomation>
       <div>
         <table class="table-container">
           <tbody>
             <tr> 
               <td style="color: var(--color-gray-3)">สังกัด</td>
-              <td class="pl-2">{{ people.Party.Name }}</td>
+              <td class="pl-2">{{ person.Party.Name }}</td>
             </tr>
             <tr> 
               <td style="color: var(--color-gray-3)">อายุ</td>
@@ -14,11 +14,11 @@
             </tr>
             <tr> 
               <td style="color: var(--color-gray-3)">การศึกษา</td>
-              <td class="pl-2">{{ people.Education }}</td>
+              <td class="pl-2">{{ person.Education }}</td>
             </tr>
             <tr> 
               <td style="color: var(--color-gray-3)">อาชีพเดิม</td>
-              <td class="pl-2">{{ people.ExOccupation }}</td>
+              <td class="pl-2">{{ person.ExOccupation }}</td>
             </tr>
           </tbody>
         </table>
@@ -26,7 +26,7 @@
     </template>
 
     <template v-slot:linkList>
-      <Link v-if="!people.PeoplePartyHistory" 
+      <Link v-if="!person.PeoplePartyHistory" 
       type="google"
       :link= urlGoogle
       />
@@ -44,7 +44,7 @@ import TemplateCard from '~/components/candidateCard/TemplateCard.vue'
 import Link from '~/components/candidateCard/Link.vue'
 export default{
   props: {
-    people: {
+    person: {
       type: Object,
       default: {}
     }
@@ -55,13 +55,13 @@ export default{
   },
   data() {
     return {
-      urlGoogle : "https://www.google.com/search?q=" + this.people.Name,
-      urlTheyWork: "https://theyworkforus.wevis.info/people/" + this.people.Name.replaceAll(' ','-')
+      urlGoogle : "https://www.google.com/search?q=" + this.person.Name,
+      urlTheyWork: "https://theyworkforus.wevis.info/people/" + this.person.Name.replaceAll(' ','-')
     }
   },
   methods: {
     getAge() {
-      var birthday = new Date(this.people.Birthdate)
+      var birthday = new Date(this.person.Birthdate)
       var ageDifMs = Date.now() - birthday.getTime();
       var ageDate = new Date(ageDifMs);
       return Math.abs(ageDate.getUTCFullYear() - 1970);

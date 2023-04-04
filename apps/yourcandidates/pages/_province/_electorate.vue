@@ -87,9 +87,9 @@
           </div>
           <div class="candidate-card">
             <PeopleCard
-              v-for="people in filteredByQueryPeople"
-              :key="people.number"
-              :people="{ ...people }"
+              v-for="person in filteredByQueryPeople"
+              :key="person.number"
+              :person="{ ...person }"
             />
           </div>
         </div>
@@ -172,6 +172,7 @@ import {
   ElectionCookie
 } from '@thailand-election-2023/components'
 import { getElectorals } from '~/helpers/search'
+
 export default {
   beforeMount() {
     const electorate = getElectorals(
@@ -182,10 +183,16 @@ export default {
     }
   },
   async asyncData({ params: { province, electorate }, payload }) {
-    const peoples = await getPeople(province, electorate)
-    const parties = await getParties(province, electorate)
-    console.log(peoples)
-    return { peoples, parties }
+    console.log(payload)
+    if (payload?.people && payload?.parties) {
+      return payload;
+    } else {
+      const people = await getPeople(province, electorate)
+      const parties = await getParties(province, electorate)
+      console.log(people)
+  
+      return { people, parties}
+    }
   },
   data() {
     return {
@@ -217,13 +224,13 @@ export default {
       this.openPopup = false
     },
     getNumberPeople() {
-      return this.peoples.length
+      return this.people.length
     },
     getNumberParties() {
       return this.parties.length
     },
     getNumberPeoplePartyHistory() {
-      return this.peoples.filter((people) => people.PeoplePartyHistory).length
+      return this.people.filter((person) => person.PeoplePartyHistory).length
     },
     clickScrollToTop() {
       window.scrollTo({
@@ -245,8 +252,8 @@ export default {
   },
   computed: {
     filteredByQueryPeople() {
-      return this.peoples.filter((people) => {
-        return people.Party.Name.includes(this.partyQuery)
+      return this.people.filter((person) => {
+        return person.Party.Name.includes(this.partyQuery)
       })
     },
     filteredByQueryParties() {

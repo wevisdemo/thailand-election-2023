@@ -1,3 +1,6 @@
+import electoral_district_table from './data/electoral_district_table';
+import { getPeople, getParties } from './helpers/candidatestore';
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -52,12 +55,21 @@ export default {
 
   router: {
     base: '/yourcandidates',
-    routes: [
-      {
-      name: 'province-electorate',
-      path: '/yourcandidates/:province/:electortate',
-      component: 'pages/_province/_electortate/.vue'
-      }
-    ]
   },
-}
+
+  generate: {
+    async routes() {
+      return Object.values(electoral_district_table).map(async (electoral)=> {
+        const people = await getPeople(electoral.province, electoral.electoralDistrictNumber);
+        const parties = await getParties(electoral.province, electoral.electoralDistrictNumber);
+        return {
+          route: `/${electoral.province}/${electoral.electoralDistrictNumber}`,
+          payload: {
+            people,
+            parties,
+          },
+        }
+      })
+    }
+  }
+};
