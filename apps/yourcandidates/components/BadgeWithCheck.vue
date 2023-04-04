@@ -21,6 +21,7 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-align: left;
   gap: 4px;
   background: var(--color-highlight-1);
   border-radius: 5px;

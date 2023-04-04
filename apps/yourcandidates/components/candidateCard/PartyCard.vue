@@ -13,7 +13,7 @@
       <template v-slot:infomation>
         <div class="info">
           <div class="candidate-section">
-            <p style="color: var(--color-gray-3)"> แคนเดตนายก </p>
+            <p style="color: var(--color-gray-3)"> แคนดิเดตนายก </p>
             <div class="candidate-list"
             v-for="candidate in party.Candidate" :key="candidate.Name">
               <IconsProfile v-if="candidate.Image === ''|| !candidate.Image" style="width: 30px; height: 30px;"/>

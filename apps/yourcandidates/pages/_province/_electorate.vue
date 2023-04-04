@@ -6,8 +6,8 @@
       class="popup flex flex-col justify-center items-center relative"
     >
       <div
-        class="relative w-4/5 h-4/5 max-w-650 overflow-y-scroll scrollbar-hide"
-        style="border-radius: 10px"
+        class="relative w-4/5 h-4/5 overflow-y-scroll scrollbar-hide"
+        style="max-width: 650px; border-radius: 10px"
       >
         <VoteInstruction />
         <div class="absolute top-4 right-8">
