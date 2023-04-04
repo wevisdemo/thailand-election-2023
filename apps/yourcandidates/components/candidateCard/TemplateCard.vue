@@ -11,7 +11,7 @@
           <IconsProfile v-if="candidate.Image === '' || !candidate.Image"/>
           <img v-else="candidate.Image" class="image-candidate" 
             :src="candidate.Image" alt="">
-          <img v-if="candidate.Party && candidate.Party.Image" class="image-party"
+          <img v-if="candidate.Party && candidate.Party.Images" class="image-party"
             :src="candidate.Party.Images[0].url" alt="">
         </div>
 
@@ -134,7 +134,7 @@ export default{
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 35px;
+    gap: 30px;
   }
 
   .card > .detail > .main {
