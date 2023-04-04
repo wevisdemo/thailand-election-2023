@@ -14,7 +14,7 @@ const HotTopicPolicy: FC<ByTopicProps> = ({ topics }) => {
 				{hotTopics.map((topic) => (
 					<Link
 						key={topic}
-						href={`/list?topic=${topic}?hot=true`}
+						href={`/list?topic=${topic}&hot=true`}
 						className="mt-4 mx-[8px]"
 					>
 						<SquareTopicWrapper topicName={topic} />

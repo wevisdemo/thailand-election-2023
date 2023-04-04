@@ -40,9 +40,9 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 	const [optionTopics, setOptionTopics] = useState<IDropdownOption<string>[]>(
 		[]
 	);
-	const [chooseParty, setChooseParty] =
+	const [selectedParty, setSelectedParty] =
 		useState<IDropdownOption<string> | null>(null);
-	const [chooseTopic, setChooseTopic] =
+	const [selectedTopic, setSelectedTopic] =
 		useState<IDropdownOption<string> | null>(null);
 
 	const { hot: hotQuery, topic: topicQuery, party: partyQuery } = router.query;
@@ -65,25 +65,23 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 		});
 	};
 
-	const fetchOption = async (): Promise<void> => {
-		const policiesGroupByTopic: PolicyGroupByTopic[] = policies.reduce(
-			(pre, curr) => {
-				const topicIndex = pre.findIndex(
-					(policy) => policy.topic === curr.Topic
-				);
-				if (topicIndex === -1) {
-					pre = [...pre, { topic: curr.Topic, policies: [curr] }];
-				} else {
-					pre[topicIndex] = {
-						topic: curr.Topic,
-						policies: [...pre[topicIndex].policies, curr],
-					};
-				}
-				return pre;
-			},
-			[] as PolicyGroupByTopic[]
-		);
+	const policiesGroupByTopic: PolicyGroupByTopic[] = policies.reduce(
+		(pre, curr) => {
+			const topicIndex = pre.findIndex((policy) => policy.topic === curr.Topic);
+			if (topicIndex === -1) {
+				pre = [...pre, { topic: curr.Topic, policies: [curr] }];
+			} else {
+				pre[topicIndex] = {
+					topic: curr.Topic,
+					policies: [...pre[topicIndex].policies, curr],
+				};
+			}
+			return pre;
+		},
+		[] as PolicyGroupByTopic[]
+	);
 
+	const fetchTopicOption = () => {
 		let policyOptions: IDropdownOption<string>[] = policiesGroupByTopic.map(
 			(item) => {
 				const label = `${item.topic} (${item.policies.length})`;
@@ -101,11 +99,14 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 		);
 
 		if (topicQuery && topicOptionMatch) {
-			setChooseTopic(topicOptionMatch);
+			setSelectedTopic(topicOptionMatch);
 		} else {
-			setChooseTopic(defaultPolicyOption);
+			setSelectedTopic(defaultPolicyOption);
 		}
+		setOptionTopics(policyOptions);
+	};
 
+	const fetchPartyOption = () => {
 		let partyOptions: IDropdownOption<string>[] = parties.map((party) => {
 			const policiesMatchPartyAndTopic = policies.filter((policy) => {
 				const partyMatch = policy.Party.Name === party.Name;
@@ -129,19 +130,23 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 			value: 'ดูของทุกพรรค',
 		};
 		partyOptions = [...partyOptions, defaultPartyOption];
+		setOptionParties(partyOptions);
 
+		// update
 		const partyOptionMatch = partyOptions.find(
 			(option) => option.value === partyQuery
 		);
 
 		if (partyQuery && partyOptionMatch) {
-			setChooseParty(partyOptionMatch);
+			setSelectedParty(partyOptionMatch);
 		} else {
-			setChooseParty(defaultPartyOption);
+			setSelectedParty(defaultPartyOption);
 		}
+	};
 
-		setOptionParties(partyOptions);
-		setOptionTopics(policyOptions);
+	const fetchOption = () => {
+		fetchTopicOption();
+		fetchPartyOption();
 	};
 
 	const fetchData = () => {
@@ -157,7 +162,6 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 		const topicOptionMatch = optionTopics.find(
 			(option) => option.value === topicQuery
 		);
-
 		if (topicQuery?.toString() && topicOptionMatch) {
 			filterPolicies = filterPolicies.filter(
 				(policy) => policy.Topic === topicQuery?.toString()
@@ -193,39 +197,40 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 	useEffect(() => {
 		fetchData();
 		const query = generateQuery(
-			chooseParty?.value || '',
-			chooseTopic?.value || '',
+			selectedParty?.value || '',
+			selectedTopic?.value || '',
 			!!hotQuery
 		);
 
 		if (query) {
 			replaceUrl(query);
 		}
-	}, [chooseParty, chooseTopic]);
+	}, [selectedParty, selectedTopic]);
 
 	return (
 		<Layout title={title}>
 			<HowToLabel />
 			<Clipboard />
-
-			<TemplatePolicyList policyList={displayPolicies}>
-				<div className="flex flex-col md:flex-row gap-[16px]">
-					<Dropdown
-						options={optionTopics}
-						currentOption={chooseTopic}
-						onSelect={setChooseTopic}
-					/>
-					<Dropdown
-						options={optionParties}
-						currentOption={chooseParty}
-						onSelect={setChooseParty}
-					/>
-				</div>
-				<div className="flex justify-between items-center mt-[32px]">
-					<p>เรียงตาม</p>
-					<RandomButton onClick={onClickShuffle} />
-				</div>
-			</TemplatePolicyList>
+			{selectedTopic && selectedParty && (
+				<TemplatePolicyList policyList={displayPolicies}>
+					<div className="flex flex-col md:flex-row gap-[16px]">
+						<Dropdown
+							options={optionTopics}
+							currentOption={selectedTopic}
+							onSelect={setSelectedTopic}
+						/>
+						<Dropdown
+							options={optionParties}
+							currentOption={selectedParty}
+							onSelect={setSelectedParty}
+						/>
+					</div>
+					<div className="flex justify-between items-center mt-[32px]">
+						<p>เรียงตาม</p>
+						<RandomButton onClick={onClickShuffle} />
+					</div>
+				</TemplatePolicyList>
+			)}
 		</Layout>
 	);
 };
