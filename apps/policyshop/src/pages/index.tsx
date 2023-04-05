@@ -69,7 +69,7 @@ export default function Landing() {
 						<ByTopic topics={topics} />
 						<ByParty parties={hotParties} />
 
-						<div className="mt-[16px]">
+						<div className="mt-[16px] px-4 md:px-0">
 							<AutoComplete
 								options={getPartyOptions()}
 								currentOption={selectedPartyOption}
