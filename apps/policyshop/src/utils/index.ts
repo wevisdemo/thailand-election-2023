@@ -4,3 +4,4 @@ export { formatPolicies } from './formatPolicies';
 export { formatOption } from './formatOption';
 export { fetchParties, fetchPolicy } from './fetchData';
 export { shufflePolicies } from './data';
+export { onOpenModal, onCloseModal } from './modalHandle';

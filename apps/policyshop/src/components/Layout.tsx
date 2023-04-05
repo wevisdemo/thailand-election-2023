@@ -1,6 +1,7 @@
 import { FunctionComponent, ReactNode, useEffect } from 'react';
 import Link from 'next/link';
 import { imgPrefix } from '@/utils/path';
+import ModalSeeMore from './ModalSeeMore';
 // import '@thailand-election-2023/components';
 
 interface PropsType {
@@ -16,6 +17,7 @@ const Layout: FunctionComponent<PropsType> = ({ title, children }) => {
 
 	return (
 		<div className="main-component">
+			<ModalSeeMore />
 			<election-header></election-header>
 			<div
 				className={`max-w-[420px]   m-auto ${

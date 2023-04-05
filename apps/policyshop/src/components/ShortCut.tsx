@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { ArrowsType1, ArrowsType4 } from './Arrows';
 import Link from 'next/link';
+import { onOpenModal } from '@/utils';
 
 interface ButtonWrapperPropsType {
 	children: React.ReactNode;
@@ -57,13 +58,15 @@ const ShortCut: FC = () => {
 						<ArrowsType4 styles="p-1" />
 					</ButtonWrapper>
 				</Link>
-				<ButtonWrapper bgColor="bg-highlight-2" styles="flex-1">
-					<p>
-						ดูยังไงว่านโยบายไหนจะทำได้จริง <br className="hidden md:block" />
-						นโยบายไหน อาจขายฝัน
-					</p>
-					<ArrowsType4 styles="p-1" />
-				</ButtonWrapper>
+				<div className="flex-1" onClick={() => onOpenModal()}>
+					<ButtonWrapper bgColor="bg-highlight-2">
+						<p>
+							ดูยังไงว่านโยบายไหนจะทำได้จริง <br className="hidden md:block" />
+							นโยบายไหน อาจขายฝัน
+						</p>
+						<ArrowsType4 styles="p-1" />
+					</ButtonWrapper>
+				</div>
 			</div>
 		</div>
 	);

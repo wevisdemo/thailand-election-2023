@@ -1,5 +1,6 @@
 import { imgPrefix } from '@/utils/path';
 import { FC } from 'react';
+import { onOpenModal } from '@/utils';
 
 const HowToLabel: FC = () => {
 	return (
@@ -8,7 +9,9 @@ const HowToLabel: FC = () => {
 				<img src={`${imgPrefix}/child.svg`} alt="child" className="mr-2 " />
 				<p>ดูยังไงว่านโยบายไหนจะทำได้จริง </p>
 			</div>
-			<button className="underline ">อ่านต่อ</button>
+			<button className="underline " onClick={() => onOpenModal()}>
+				อ่านต่อ
+			</button>
 		</div>
 	);
 };
