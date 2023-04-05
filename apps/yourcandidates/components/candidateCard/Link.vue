@@ -1,14 +1,16 @@
 <template>
 	<a  :href="link" target="_blank" class="link-box">
 		<div class="sub-box">
-			<IconsPolicy v-show="type==='policy'"/>
-			<IconsPromise v-show="type==='promise'"/>
-			<IconsLaw v-show="type==='law'"/>
-			<IconsOthers v-show="type==='others'"/>
-			<IconsWebsite v-show="type==='website'"/>
-			<IconsStar v-show="type==='portfolio'"/>
-			<IconsSearchGoogle v-show="type==='google'"/>
-			<p style="font-weight: 700;"> {{ infoType[type] }}  </p>
+			<div style="display: inline-block;">
+				<IconsPolicy v-show="type==='Policy'"/>
+				<IconsPromise v-show="type==='Promise'"/>
+				<IconsLaw v-show="type==='Law'"/>
+				<IconsOthers v-show="type==='Others'"/>
+				<IconsWebsite v-show="type==='Website'"/>
+				<IconsStar v-show="type==='Portfolio'"/>
+				<IconsSearchGoogle v-show="type==='Google'"/>
+			</div>
+			<div><b>{{ infoType[type] }} </b></div>
 		</div>
 		<IconsNewTab/>
 	</a>
@@ -23,13 +25,13 @@ export default{
 	data() {
 		return {
 			infoType: {
-				policy: 'มีนโยบายอะไรมาขายบ้าง',
-				promise: 'นโยบายที่เคยขายไว้ ทำได้จริงแค่ไหน',
-				law: 'เคยเสนอร่างกฏหมายอะไรบ้าง',
-				others: 'ข้อมูลอื่นๆ',
-				website: 'เว็บไซต์/เพจพรรค',
-				portfolio: 'เคยโหวตอะไรในสภาบ้าง',
-				google: 'ส่องประวัติใน google'
+				Policy: 'มีนโยบายอะไรมาขายบ้าง',
+				Promise: 'นโยบายที่เคยขายไว้ ทำได้จริงแค่ไหน',
+				Law: 'เคยเสนอร่างกฏหมายอะไรบ้าง',
+				Others: 'ข้อมูลอื่นๆ',
+				Website: 'เว็บไซต์/เพจพรรค',
+				Portfolio: 'เคยโหวตอะไรในสภาบ้าง',
+				Google: 'ส่องประวัติใน google'
 			}
 
 		}
@@ -52,17 +54,9 @@ export default{
 	align-items: center;
 	padding: 2px 0px;
 	gap: 5px;
-	max-height: 32px;
 	flex: none;
 	align-self: stretch;
 	flex-grow: 0;
-}
-
-@media (min-width: 770px) {
-	.link-box {
-		max-width: 290px;
-	}
-    
 }
 .sub-box{
 	display: flex;

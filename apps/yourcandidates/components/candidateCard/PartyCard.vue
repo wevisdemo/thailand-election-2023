@@ -9,7 +9,7 @@
       </template>
     </partyList>
 
-    <TemplateCard :key="party.Number" :candidate="{...party}">
+    <TemplateCard :key="party.Number" :candidate="party" :partyGroup="this.party.PartyGroup? this.party.PartyGroup: ''">
       <template v-slot:infomation>
         <div class="info">
           <div class="candidate-section">
@@ -30,14 +30,12 @@
       </template>
 
       <template v-slot:linkList>
-        <div>
-          <Link v-for="i in linkInfo" 
-          v-if="party[i] && party[i] !== ''"
-          :type="i"
-          :link= party[i]
-          :key="i"
-          />
-        </div>
+        <Link v-for="i in linkInfo" 
+        v-if="party[i] && party[i] !== ''"
+        :type="i"
+        :link= party[i]
+        :key="i"
+        />
       </template>
 
     </TemplateCard>     
@@ -49,26 +47,37 @@ import TemplateCard from '~/components/candidateCard/TemplateCard.vue'
 import Link from '~/components/candidateCard/Link.vue';
 import PartyList from '~/components/candidateCard/PartyList.vue';
 export default{
-  setup() {
-    const linkInfo = ['Policy', 'Promise', 'Law', 'Others']
-    return {linkInfo}
-  },
-  data() {
-    return {
-        openPopupPartyList: false
-    }
-  },
   props: {
     party: {
         type: Object,
         default: {}
     }
   },
-  components: {
-    TemplateCard,
-    Link,
-    PartyList
+  setup() {
+    const linkInfo = ['Policy', 'Promise', 'Law', 'Others', 'Website']
+    return {linkInfo}
   },
+  data() {
+    return {
+      openPopupPartyList: false,
+      // links: {
+      //   policy: '',
+      //   promise: '',
+      //   law: '',
+      //   others: '',
+      //   website: ''
+      // }
+    }
+  },
+  // created() {
+  //   if(this.party.PartyGroup !== ''){
+  //     this.links.policy = ''
+  //     this.links.promise = 'https://promisetracker.wevis.info/explore?party=' + this.party.Name
+  //     this.links.law = 'https://wevis.info/law-watch#investigate-section'
+  //     this.links.others = 'https://theyworkforus.wevis.info/party/' + this.party.Name
+  //   }
+  //   this.links.website = this.party.Website? this.party.Website: this.party.Facebook? this.party.Facebook :''
+  // },
   methods: {
     popupPartylist() {
         this.openPopupPartyList = true
@@ -76,7 +85,12 @@ export default{
     closePopup() {
         this.openPopupPartyList = false
     },
-  }
+  },
+  components: {
+    TemplateCard,
+    Link,
+    PartyList
+  },
 }
 </script>
 

@@ -1,8 +1,8 @@
 <template>
 <div class="card">
     <div class="number-candidate ">
-      <p class="text-white typo-h3" style="font-weight: 700;">
-        {{ candidate.Number }}
+      <p class="text-white typo-h3">
+        <b>{{ candidate.Number }}</b>
       </p>
     </div>
     <div class="detail">
@@ -11,15 +11,15 @@
           <IconsProfile v-if="candidate.Image === '' || !candidate.Image"/>
           <img v-else="candidate.Image" class="image-candidate" 
             :src="candidate.Image" alt="">
-          <img v-if="candidate.Party && candidate.Party.Images" class="image-party"
-            :src="candidate.Party.Images[0].url" alt="">
+          <img v-if="candidate.Party && candidate.Party.Image" class="image-party"
+            :src="candidate.Party.Image" alt="">
         </div>
 
         <div class="">
-          <div class="name typo-h5">
-            {{ candidate.Name }}
+          <div class="typo-h5">
+            <b> {{ candidate.Name }} </b>
           </div>
-          <div v-if="candidate.PeoplePartyHistory && partyGroup !== ''" class="inline-block">
+          <div v-if="partyGroup !== ''" class="inline-block">
             <BadgeWithCheck :checks="partyGroup === 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน'? 2 : 1">
               <p> อดีต ส.ส. {{ partyGroup }}</p>
             </BadgeWithCheck>
@@ -28,8 +28,12 @@
       </div>
 
       <div class="main">
-        <slot name="infomation"></slot>
-        <slot name="linkList"></slot>
+        <div class="info">
+          <slot name="infomation"></slot>
+        </div>
+        <div class="link">
+          <slot name="linkList"></slot>
+        </div>
       </div>
 
     </div>
@@ -43,39 +47,7 @@ import CheckMark from '~/components/icons/CheckMark.vue';
 export default{
   props: {
     candidate: {},
-  },
-  data() {
-    return {
-      partyGroup:''
-    }
-  },
-  mounted() {
-    this.partyGroup = this.setPartyGroup()
-  },
-  methods: {
-    async setPartyGroup() {
-      let history = Object.assign([], await this.candidate.PeoplePartyHistory)
-      let group = new Set()
-      for(let i=0; i < history.length; i++){
-        if(history[i].Party === null){
-          this.partyGroup = ''
-          return
-        }
-        await group.add(history[i].Party.PartyGroup)
-      }
-      if(group.size === 2){
-        this.partyGroup = 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน'
-      }
-      else if(group.has('ฝ่ายค้าน')){
-        this.partyGroup = 'ฝ่ายค้าน'
-      }
-      else if(group.has('ร่วมรัฐบาล')){
-        this.partyGroup = 'ร่วมรัฐบาล'
-      }
-      else{
-        this.partyGroup = ''
-      }
-    }
+    partyGroup: ''
   },
   components: { CheckMark }
 }
@@ -124,8 +96,16 @@ export default{
   flex-grow: 0;
 }
 
+.link {
+  width: 100%;
+}
 
-@media (min-width: 770px) {
+.info {
+  width: 100%;
+}
+
+
+@media (min-width: 768px) {
   .number-candidate {
     width: 100px;
     height: 70px;
@@ -138,10 +118,17 @@ export default{
   }
 
   .card > .detail > .main {
-    display: grid;
-    grid-template-columns: 50% 50% 50%;
-    padding: 0px;
-    gap: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card > .detail > .main > .info {
+    flex: 50%;
+  }
+
+  .card > .detail > .main > .link {
+    font-size: 16px;
+    flex: 50%;
   }
 }
 
@@ -181,13 +168,6 @@ export default{
   background: var(--color-white);
 }
 
-.name {
-  font-weight: 700;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
 .history {
   display: flex;
   flex-direction: row;
@@ -199,6 +179,16 @@ export default{
   flex: none;
   order: 2;
   flex-grow: 0;
+}
+
+.main > .link{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
 }
 
 </style>

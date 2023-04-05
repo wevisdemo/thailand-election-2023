@@ -89,16 +89,16 @@
             <PeopleCard
               v-for="person in filteredByQueryPeople"
               :key="person.number"
-              :person="{ ...person }"
+              :person="person"
             />
           </div>
         </div>
         <div slot="tab2">
           <div class="tab-header">
             <div class="tab-header__summary">
-              <p>ทั้งหมด {{ getNumberParties() }}</p>
+              <p>ทั้งหมด <b>{{ getNumberParties() }} พรรค</b></p>
               <BadgeWithCheck :checks="1">
-                <p>อยู่ในสภาสมัยที่แล้ว <b>10 พรรค</b></p>
+                <p>อยู่ในสภาสมัยที่แล้ว <b>{{ getNumberPartiesHasPartygroup() }} พรรค</b></p>
               </BadgeWithCheck>
             </div>
             <div class="search">
@@ -120,7 +120,7 @@
             <PartyCard
               v-for="party in filteredByQueryParties"
               :key="party.number"
-              :party="{ ...party }"
+              :party="party"
             />
           </div>
         </div>
@@ -189,7 +189,6 @@ export default {
     } else {
       const people = await getPeople(province, electorate)
       const parties = await getParties(province, electorate)
-      console.log(people)
   
       return { people, parties}
     }
@@ -231,6 +230,9 @@ export default {
     },
     getNumberPeoplePartyHistory() {
       return this.people.filter((person) => person.PeoplePartyHistory).length
+    },
+    getNumberPartiesHasPartygroup() {
+      return this.parties.filter((party) => party.PartyGroup).length
     },
     clickScrollToTop() {
       window.scrollTo({
