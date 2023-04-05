@@ -9,7 +9,6 @@ export interface RepresentativeRecord {
 	total: number;
 }
 
-// TODO: Include partylist
 export const representatives = derived(
 	districtPopularity,
 	($districtPopularity): RepresentativeRecord[] => {
@@ -31,7 +30,9 @@ export const representatives = derived(
 				}
 
 				partyRecordMap[party.Name].fromDistrict++;
-				partyRecordMap[party.Name].total++;
+				// TODO: Include partylist
+				partyRecordMap[party.Name].fromPartylist++;
+				partyRecordMap[party.Name].total += 2;
 			})
 		);
 

@@ -11,8 +11,8 @@ interface RawPopularityRecord {
 	points: string;
 }
 
-interface PopularityRecord {
-	party?: Party;
+export interface PopularityRecord {
+	party: Party;
 	points: number;
 }
 
@@ -39,12 +39,12 @@ const createDistrictPopularityStore = () => {
 						obj[province] = {};
 					}
 
-					if (!obj[province][electorialDistrictNumber]) {
-						obj[province][electorialDistrictNumber] = [];
+					if (!obj[province][+electorialDistrictNumber]) {
+						obj[province][+electorialDistrictNumber] = [];
 					}
 
-					obj[province][electorialDistrictNumber].push({
-						party: $party.map.get(party),
+					obj[province][+electorialDistrictNumber].push({
+						party: $party.map.get(party) as Party,
 						points: +points,
 					});
 
