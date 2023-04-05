@@ -4,20 +4,20 @@
       <div>
         <table class="table-container">
           <tbody>
-            <tr> 
-              <td style="color: var(--color-gray-3)">สังกัด</td>
+            <tr > 
+              <th class="col1">สังกัด</th>
               <td class="pl-2">{{ person.Party.Name }}</td>
             </tr>
             <tr> 
-              <td style="color: var(--color-gray-3)">อายุ</td>
+              <th class="col1">อายุ</th>
               <td class="pl-2">{{ getAge() }} ปี </td>
             </tr>
             <tr> 
-              <td style="color: var(--color-gray-3)">การศึกษา</td>
+              <th class="col1">การศึกษา</th>
               <td class="pl-2">{{ person.Education }}</td>
             </tr>
             <tr> 
-              <td style="color: var(--color-gray-3)">อาชีพเดิม</td>
+              <th class="col1">อาชีพเดิม</th>
               <td class="pl-2">{{ person.ExOccupation }}</td>
             </tr>
           </tbody>
@@ -69,3 +69,12 @@ export default{
   }
 }
 </script>
+<style scoped>
+.col1{
+  font-weight: normal;
+  color: var(--color-gray-3);
+  text-align: start;
+  vertical-align: top;
+  white-space:nowrap;
+}
+</style>

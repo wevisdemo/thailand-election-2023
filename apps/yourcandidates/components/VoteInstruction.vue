@@ -8,17 +8,17 @@
       <p>เมื่อเข้าคูหา ประชาชนจะได้รับบัตรเลือกตั้งสองใบ ที่มีสีที่ต่างกัน</p>
       <div class="ballot-type-container">
         <div>
-          <div class="img-80-80"></div>
+          <img src="~/assets/images/people-ballot.png" alt="" class="img-80-80">
           <p>
-            <b>บัตรใบแรก</b> เราจะต้องเลือกผู้สมัคร ส.ส. เขต 1
+            <b style="color: #008343;">บัตรใบแรก</b> เราจะต้องเลือกผู้สมัคร ส.ส. เขต 1
             คนให้เป็นผู้แทนเขตเลือกตั้งของตนเอง
           </p>
         </div>
         <span class="vline"></span>
         <div>
-          <div class="img-80-80"></div>
+          <img src="~/assets/images/party-list-ballot.png" alt="" class="img-80-80">
           <p>
-            <b>บัตรใบที่สอง</b> เราจะต้องเลือกพรรคการเมือง
+            <b style="color: #0075A6;">บัตรใบที่สอง</b> เราจะต้องเลือกพรรคการเมือง
             โดยคะแนนที่แต่ละพรรคได้รับ จะนำไปถูกคิดคำนวณเพื่อจัดสรรที่นั่ง ส.ส.
             บัญชีรายชื่อตามสัดส่วนต่อไป
           </p>
@@ -132,8 +132,8 @@
   gap: 5px;
 }
 .img-80-80 {
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 283.64px;
   background: var(--color-gray-2);
 }
 .image-container {

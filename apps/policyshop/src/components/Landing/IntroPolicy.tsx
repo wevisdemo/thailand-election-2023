@@ -1,5 +1,7 @@
 import React, { FC } from 'react';
 import { ArrowsType1 } from '../Arrows';
+import Lottie from 'lottie-react';
+import animationData from '@/components/lotties/policy.json';
 
 const IntroPolicy: FC = () => {
 	return (
@@ -13,6 +15,9 @@ const IntroPolicy: FC = () => {
 				เทียบนโยบายหาเสียงเลือกตั้ง ‘66
 				มาดูกันว่าพรรคไหนจะเป็นตัวแทนของเราได้บ้าง
 			</p>
+			<div className="w-[189px] md:w-[250px] mx-auto mt-5">
+				<Lottie animationData={animationData} loop={true} />
+			</div>
 			<ArrowsType1 styles="mx-auto w-fit mt-11 animate-bounce" />
 		</div>
 	);

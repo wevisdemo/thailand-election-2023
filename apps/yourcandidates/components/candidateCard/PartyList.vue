@@ -1,20 +1,22 @@
 <template>
   <div v-show="open" class="popup flex flex-col justify-center items-center">
-    <div class="party-list-container w-4/5 h-4/5 max-w-650 overflow-y-scroll scrollbar-hide ">
+    <div style="max-width: 450px;" class="party-list-container w-4/5 h-4/5 overflow-y-scroll scrollbar-hide ">
       <div class="w-full relative">
         <slot name="close"></slot>
       </div>
       <div class="flex flex-col items-start pt-4">
         <b>บัญชีรายชื่อพรรค{{ nameParty }}</b>
       </div>
-      <div class="col-name">
-        <div> ลำดับ </div>
-        <div> ชื่อ </div>
-      </div>
-      <div v-for="(item, index) in partyList" :key="index" class="party-list-box" >
-        <div> {{ index }}</div>
-        <div> {{ item.Name }}</div>
-      </div>
+      <table class="w-full">
+        <tr class="col-name">
+          <th style="table-layout: fixed; width: 1%;"> ลำดับ </th>
+          <th style="padding-left: 14px;"> ชื่อ </th>
+        </tr>
+        <tr v-for="(item, index) in partyList" :key="index" class="party-list-box">
+          <td> {{ index }} </td>
+          <td style="padding-left: 14px;"> {{ item.Name }} </td>
+        </tr>
+      </table>
     </div>
   </div>
 </template>
@@ -64,33 +66,16 @@ export default{
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .party-list-box {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 14px;
+  text-align: start;
   border-bottom: 1px solid var(--color-gray-2);
-  flex: none;
-  order: 3;
-  align-self: stretch;
-  flex-grow: 0;
-  z-index: 3;
 }
 
 .col-name{
   color: var(--color-gray-3); 
   font-weight: 700;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 14px;
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  z-index: 1;
+  text-align: start;
 }
 </style>
