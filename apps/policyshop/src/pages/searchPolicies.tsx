@@ -2,18 +2,19 @@ import React, { memo, useEffect, useState } from 'react';
 import { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import { fetchPolicy, shufflePolicies } from '@/utils';
+import { fetchParties, fetchPolicy, shufflePolicies } from '@/utils';
 import SearchBar from '@/components/SearchBar';
 import Layout from '@/components/Layout';
 import RandomButton from '@/components/RandomButton';
 import TemplatePolicyList from '@/components/Template/PolicyList';
-import { Policy } from '@/types/components';
+import { Party, Policy } from '@/types/components';
 
 interface PropsType {
 	policies: Policy[];
+	parties: Party[];
 }
 
-const SearchPolicies: NextPage<PropsType> = ({ policies }) => {
+const SearchPolicies: NextPage<PropsType> = ({ policies, parties }) => {
 	const router = useRouter();
 	const { topic } = router.query;
 	const [displayPolicies, setDisplayPolicies] = useState<Policy[]>([]);
@@ -37,7 +38,7 @@ const SearchPolicies: NextPage<PropsType> = ({ policies }) => {
 	return (
 		<Layout title="ค้นหานโยบาย">
 			<SearchBar onClear={onClear} />
-			<TemplatePolicyList policyList={displayPolicies}>
+			<TemplatePolicyList policyList={displayPolicies} partyList={parties}>
 				<div className="flex justify-between items-center mt-[32px]">
 					<p>เรียงตาม</p>
 					<RandomButton onClick={onClickShuffle} />
@@ -59,6 +60,7 @@ const SearchPolicies: NextPage<PropsType> = ({ policies }) => {
 
 export const getStaticProps: GetStaticProps<PropsType> = async (context) => {
 	let policies = await fetchPolicy();
+	const parties = await fetchParties();
 
 	policies = policies.map((policy) => {
 		if (!policy.Topic) {
@@ -70,6 +72,7 @@ export const getStaticProps: GetStaticProps<PropsType> = async (context) => {
 	return {
 		props: {
 			policies,
+			parties,
 		},
 	};
 };

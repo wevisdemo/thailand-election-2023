@@ -1,28 +1,48 @@
-import { Policy } from '@/types/components';
+import { Party, Policy } from '@/types/components';
 import { imgPrefix } from '@/utils/path';
 import { FunctionComponent } from 'react';
 interface PropsType {
 	policyInfo: Policy;
+	partyInfo: Party | null;
 }
 
-const PolicyCard: FunctionComponent<PropsType> = ({ policyInfo }) => {
+const PolicyCard: FunctionComponent<PropsType> = ({
+	policyInfo,
+	partyInfo,
+}) => {
 	var md = require('markdown-it')();
+
+	const getLogoUrl = (): string => {
+		if (!partyInfo?.Images) {
+			return '';
+		}
+		if (partyInfo.Images.length === 0) {
+			return '';
+		}
+		return partyInfo.Images[0].url;
+	};
+
 	return (
 		<div className="bg-[var(--color-white)] border-[1px] border-[var(--color-gray-2)] rounded-[10px] overflow-hidden h-fit w-full max-w-[155px] md:max-w-[232px] mx-auto">
 			<div className="p-[12px] ">
 				<div className="flex items-center">
-					{/* <img
-						className="w-[22px]"
-						src={policyInfo.party_logo_src}
-						alt="party-logo"
-					/> */}
+					{getLogoUrl() && (
+						<img
+							className="w-[22px] rounded-full"
+							src={getLogoUrl()}
+							alt="party-logo"
+						/>
+					)}
+
 					<span className="ml-[4px] typo-b7 font-bold">
 						{policyInfo.Party.Name}
 					</span>
 				</div>
 				<div
 					className={`relative mt-[8px] w-full pb-[100%] h-0 rounded-[5px] bg-red-400`}
-					// style={{ backgroundColor: policyInfo.background_color }}
+					style={{
+						backgroundColor: partyInfo?.Color || 'var(---color-grey-3)',
+					}}
 				>
 					<span
 						className={

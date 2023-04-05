@@ -99,7 +99,7 @@ const Topic: NextPage = () => {
 		<Layout title={title}>
 			<HowToLabel />
 			<Clipboard />
-			{topic && policies && (
+			{/* {topic && policies && (
 				<TemplatePolicyList policyList={policies}>
 					<Dropdown
 						options={optionParties}
@@ -116,7 +116,7 @@ const Topic: NextPage = () => {
 						<RandomButton onClick={onClickShuffle} />
 					</div>
 				</TemplatePolicyList>
-			)}
+			)} */}
 		</Layout>
 	);
 };

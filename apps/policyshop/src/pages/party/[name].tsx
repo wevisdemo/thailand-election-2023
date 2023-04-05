@@ -32,7 +32,11 @@ export const getStaticPaths: GetStaticPaths = async () => {
 	};
 };
 
-const PartyPage: NextPage = () => {
+interface PropsType {
+	parties: Party[];
+}
+
+const PartyPage: NextPage<PropsType> = ({ parties }) => {
 	const router = useRouter();
 	const { name } = router.query;
 	const [party, setParty] = useState<Party>();
@@ -91,10 +95,10 @@ const PartyPage: NextPage = () => {
 							ดูทั้งหมด
 						</button>
 					</div>
-					<TemplatePolicyList policyList={hotPolicies} />
+					<TemplatePolicyList policyList={hotPolicies} partyList={parties} />
 				</div>
 				<p className="mt-10 font-bold typo-h6">นโยบายตามประเด็น</p>
-				<TemplatePolicyList policyList={policies}>
+				<TemplatePolicyList policyList={policies} partyList={parties}>
 					<Dropdown
 						options={optionPolicies}
 						currentOption={chooseTopic}
@@ -110,9 +114,10 @@ const PartyPage: NextPage = () => {
 	);
 };
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps<PropsType> = async () => {
+	const parties = await fetchParties();
 	return {
-		props: {},
+		props: { parties },
 	};
 };
 

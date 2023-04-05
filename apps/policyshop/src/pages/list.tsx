@@ -212,7 +212,7 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 			<HowToLabel />
 			<Clipboard />
 			{selectedTopic && selectedParty && (
-				<TemplatePolicyList policyList={displayPolicies}>
+				<TemplatePolicyList policyList={displayPolicies} partyList={parties}>
 					<div className="flex flex-col md:flex-row gap-[16px]">
 						<Dropdown
 							options={optionTopics}

@@ -4,17 +4,18 @@ import ComparePolicyCardWrapper from '@/components/Compare/PolicyCardWrapper';
 import Layout from '@/components/Layout';
 import PolicyCard from '@/components/PolicyCard';
 import RandomButton from '@/components/RandomButton';
-import { Policy } from '@/types/components';
+import { Party, Policy } from '@/types/components';
 import { shufflePolicies } from '@/utils';
-import { fetchPolicy } from '@/utils/fetchData';
+import { fetchParties, fetchPolicy } from '@/utils/fetchData';
 import { GetStaticProps, NextPage } from 'next';
 import { FunctionComponent, useEffect, useRef, useState } from 'react';
 
 interface PropsType {
 	policies: Policy[];
+	parties: Party[];
 }
 
-const ComparePage: NextPage<PropsType> = ({ policies }) => {
+const ComparePage: NextPage<PropsType> = ({ policies, parties }) => {
 	const [displayPolicies1, setDisplayPolicies1] = useState<Policy[]>([]);
 	const [displayPolicies2, setDisplayPolicies2] = useState<Policy[]>([]);
 
@@ -40,6 +41,7 @@ const ComparePage: NextPage<PropsType> = ({ policies }) => {
 					<ComparePolicyCardWrapper
 						policyList={displayPolicies1}
 						secondList={displayPolicies2}
+						partyList={parties}
 					/>
 				</div>
 			</>
@@ -49,8 +51,9 @@ const ComparePage: NextPage<PropsType> = ({ policies }) => {
 
 export const getStaticProps: GetStaticProps<PropsType> = async (context) => {
 	const policies = await fetchPolicy();
+	const parties = await fetchParties();
 	return {
-		props: { policies },
+		props: { policies, parties },
 	};
 };
 
