@@ -187,13 +187,14 @@ export const fetchShareholderData = async (people: Person[]) => {
 			}
 		})
 		.then(() => {
-			let max = d3.max(peopleProcess, (d) => Number(d.totalValueShare)) || 100;
+			peopleProcess.sort((a, b) => b.totalValueShare - a.totalValueShare);
+
+			let max =
+				d3.max(peopleProcess.slice(1), (d) => Number(d.totalValueShare)) || 100;
 			let scalePercentage = d3.scaleLinear().domain([0, max]).range([0, 100]);
 			peopleProcess.forEach((p) => {
 				p.totalPctShare = scalePercentage(p.totalValueShare);
 			});
-
-			peopleProcess.sort((a, b) => b.totalValueShare - a.totalValueShare);
 
 			fs.writeFileSync(
 				`./public/data/people.json`,
@@ -257,16 +258,10 @@ export const fetchDirectorData = async (people: Person[]) => {
 			}
 		})
 		.then(() => {
-			// let max = d3.max(peopleProcess, (d) => Number(d.totalValueShare)) || 100;
-			// let scalePercentage = d3.scaleLinear().domain([0, max]).range([0, 100]);
-			// peopleProcess.forEach((p) => {
-			// 	p.totalPctShare = scalePercentage(p.totalValueShare);
-			// });
-			// peopleProcess.sort((a, b) => b.totalValueShare - a.totalValueShare);
-			// fs.writeFileSync(
-			// 	`./public/data/people.json`,
-			// 	JSON.stringify(peopleProcess)
-			// );
+			fs.writeFileSync(
+				`./public/data/people.json`,
+				JSON.stringify(peopleProcess)
+			);
 		});
 
 	fs.writeFileSync(

@@ -11,7 +11,7 @@ console.log('yeah');
 console.log(d3.schemeAccent);
 
 const run = async () => {
-	const { party, people } = await fetchFromThetWork();
+	let { party, people } = await fetchFromThetWork();
 
 	fs.writeFileSync('./public/data/raw_party.json', JSON.stringify(party));
 	fs.writeFileSync('./public/data/raw_people.json', JSON.stringify(people));
