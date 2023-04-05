@@ -51,7 +51,7 @@
         </button>
       </div>
 
-      <!-- tab -->
+      <!-- tabs -->
       <Tabs
         :tabs="tabs"
         @selectTab="selectTab($event)"
@@ -96,9 +96,14 @@
         <div slot="tab2">
           <div class="tab-header">
             <div class="tab-header__summary">
-              <p>ทั้งหมด <b>{{ getNumberParties() }} พรรค</b></p>
+              <p>
+                ทั้งหมด <b>{{ getNumberParties() }} พรรค</b>
+              </p>
               <BadgeWithCheck :checks="1">
-                <p>อยู่ในสภาสมัยที่แล้ว <b>{{ getNumberPartiesHasPartygroup() }} พรรค</b></p>
+                <p>
+                  อยู่ในสภาสมัยที่แล้ว
+                  <b>{{ getNumberPartiesHasPartygroup() }} พรรค</b>
+                </p>
               </BadgeWithCheck>
             </div>
             <div class="search">
@@ -129,7 +134,7 @@
       <div class="bottom-container">
         <button
           class="handle-reminder"
-          @click="selectTab(tabSelected === 0 ? 1 : 0)"
+          @click="clickScrollToTop(); selectTab(tabSelected === 0 ? 1 : 0)"
         >
           <div>
             <b v-if="tabSelected === 0"
@@ -155,7 +160,10 @@
       <IconsBackToTop />
     </button>
 
-    <election-bottom index-path="/yourcandidates" about-path="/yourcandidates/about"></election-bottom>
+    <election-bottom
+      index-path="/yourcandidates"
+      about-path="/yourcandidates/about"
+    ></election-bottom>
     <election-footer></election-footer>
     <election-cookie></election-cookie>
   </div>
@@ -169,7 +177,7 @@ import {
   ElectionHeader,
   ElectionBottom,
   ElectionFooter,
-  ElectionCookie
+  ElectionCookie,
 } from '@thailand-election-2023/components'
 import { getElectorals } from '~/helpers/search'
 
@@ -185,12 +193,12 @@ export default {
   async asyncData({ params: { province, electorate }, payload }) {
     console.log(payload)
     if (payload?.people && payload?.parties) {
-      return payload;
+      return payload
     } else {
       const people = await getPeople(province, electorate)
       const parties = await getParties(province, electorate)
-  
-      return { people, parties}
+
+      return { people, parties }
     }
   },
   data() {
@@ -249,7 +257,6 @@ export default {
     },
     selectTab(tab) {
       this.tabSelected = tab
-      this.clickScrollToTop()
     },
   },
   computed: {

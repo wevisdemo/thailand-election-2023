@@ -7,8 +7,8 @@
 				<IconsLaw v-show="type==='Law'"/>
 				<IconsOthers v-show="type==='Others'"/>
 				<IconsWebsite v-show="type==='Website'"/>
-				<IconsStar v-show="type==='Portfolio'"/>
-				<IconsSearchGoogle v-show="type==='Google'"/>
+				<IconsStar v-show="type==='portfolio'"/>
+				<IconsSearchGoogle v-show="type==='google'"/>
 			</div>
 			<div><b>{{ infoType[type] }} </b></div>
 		</div>
@@ -30,8 +30,8 @@ export default{
 				Law: 'เคยเสนอร่างกฏหมายอะไรบ้าง',
 				Others: 'ข้อมูลอื่นๆ',
 				Website: 'เว็บไซต์/เพจพรรค',
-				Portfolio: 'เคยโหวตอะไรในสภาบ้าง',
-				Google: 'ส่องประวัติใน google'
+				portfolio: 'เคยโหวตอะไรในสภาบ้าง',
+				google: 'ส่องประวัติใน google'
 			}
 
 		}
