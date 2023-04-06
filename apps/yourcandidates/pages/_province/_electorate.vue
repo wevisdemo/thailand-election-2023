@@ -134,7 +134,10 @@
       <div class="bottom-container">
         <button
           class="handle-reminder"
-          @click="clickScrollToTop(); selectTab(tabSelected === 0 ? 1 : 0)"
+          @click="
+            clickScrollToTop()
+            selectTab(tabSelected === 0 ? 1 : 0)
+          "
         >
           <div>
             <b v-if="tabSelected === 0"
@@ -172,7 +175,7 @@
 <script>
 import PeopleCard from '~/components/candidateCard/PeopleCard.vue'
 import PartyCard from '~/components/candidateCard/PartyCard.vue'
-import { getPeople, getParties } from '~/helpers/candidatestore'
+import { getElectoralData } from '~/helpers/candidatestore'
 import {
   ElectionHeader,
   ElectionBottom,
@@ -190,11 +193,8 @@ export default {
       this.electorate = electorate[0]
     }
   },
-  async asyncData({ params: { province, electorate }}) {
-    const [people, parties] = await Promise.all([
-      getPeople(province, electorate),
-      getParties(province, electorate),
-      ]);
+  async asyncData({ params: { province, electorate } }) {
+    const { people, parties } = await getElectoralData(province, electorate)
     return { people, parties }
   },
   data() {
@@ -258,7 +258,7 @@ export default {
   computed: {
     filteredByQueryPeople() {
       return this.people.filter((person) => {
-        return person.Party.Name.includes(this.partyQuery)
+        return person.Party.includes(this.partyQuery)
       })
     },
     filteredByQueryParties() {
