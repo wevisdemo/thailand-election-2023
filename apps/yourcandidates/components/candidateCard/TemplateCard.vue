@@ -1,6 +1,6 @@
 <template>
-<div class="card">
-    <div class="number-candidate ">
+  <div class="card">
+    <div class="number-candidate">
       <p class="text-white typo-h3">
         <b>{{ candidate.Number }}</b>
       </p>
@@ -8,11 +8,14 @@
     <div class="detail">
       <div class="header">
         <div class="flex relative">
-          <IconsProfile v-if="candidate.Image === '' || !candidate.Image"/>
-          <img v-else="candidate.Image" class="image-candidate" 
-            :src="candidate.Image" alt="">
-          <img v-if="candidate.Party && candidate.Party.Image" class="image-party"
-            :src="candidate.Party.Image" alt="">
+          <IconsProfile v-if="candidate.Image === '' || !candidate.Image" />
+          <img v-else class="image-candidate" :src="candidate.Image" alt="" />
+          <img
+            v-if="candidate.Party && candidate.Party.Image"
+            class="image-party"
+            :src="candidate.Party.Image"
+            alt=""
+          />
         </div>
 
         <div class="">
@@ -20,8 +23,10 @@
             <b> {{ candidate.Name }} </b>
           </div>
           <div v-if="partyGroup !== ''" class="inline-block">
-            <BadgeWithCheck :checks="partyGroup === 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน'? 2 : 1">
-              <p> อดีต ส.ส. {{ partyGroup }}</p>
+            <BadgeWithCheck
+              :checks="partyGroup === 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน' ? 2 : 1"
+            >
+              <p>อดีต ส.ส. {{ partyGroup }}</p>
             </BadgeWithCheck>
           </div>
         </div>
@@ -35,21 +40,19 @@
           <slot name="linkList"></slot>
         </div>
       </div>
-
     </div>
-
-</div>
+  </div>
 </template>
 
 <script>
-import CheckMark from '~/components/icons/CheckMark.vue';
+import CheckMark from '~/components/icons/CheckMark.vue'
 
-export default{
+export default {
   props: {
     candidate: {},
-    partyGroup: ''
+    partyGroup: '',
   },
-  components: { CheckMark }
+  components: { CheckMark },
 }
 </script>
 
@@ -103,7 +106,6 @@ export default{
 .info {
   width: 100%;
 }
-
 
 @media (min-width: 768px) {
   .number-candidate {
@@ -181,7 +183,7 @@ export default{
   flex-grow: 0;
 }
 
-.main > .link{
+.main > .link {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -190,5 +192,4 @@ export default{
   order: 1;
   flex-grow: 1;
 }
-
 </style>

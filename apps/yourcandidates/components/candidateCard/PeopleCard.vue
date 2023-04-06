@@ -5,12 +5,11 @@
     :partyGroup="partyGroup"
   >
     <template v-slot:infomation>
-
       <table class="table-container">
         <tbody>
           <tr>
             <th class="col1">สังกัด</th>
-            <td class="pl-2">{{ person.Party.Name }}</td>
+            <td class="pl-2">{{ person.Party }}</td>
           </tr>
           <tr>
             <th class="col1">อายุ</th>
@@ -29,8 +28,7 @@
     </template>
 
     <template v-slot:linkList>
-      <Link v-if="!person.PeoplePartyHistory" type="google" :link="urlGoogle" />
-
+      <Link v-if="!pastMP" type="google" :link="urlGoogle" />
       <Link v-else type="portfolio" :link="urlTheyWork" />
     </template>
   </TemplateCard>
@@ -56,28 +54,7 @@ export default {
       urlTheyWork:
         'https://theyworkforus.wevis.info/people/' +
         this.person.Name.replaceAll(' ', '-'),
-      partyGroup: '',
     }
-  },
-  created() {
-    let history = Object.assign([], this.person.PeoplePartyHistory)
-      let group = new Set()
-      for (let i = 0; i < history.length; i++) {
-        if (history[i].Party === null) {
-          this.partyGroup = ''
-          return
-        }
-        group.add(history[i].Party.PartyGroup)
-      }
-      if (group.size === 2) {
-        this.partyGroup = 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน'
-      } else if (group.has('ฝ่ายค้าน')) {
-        this.partyGroup = 'ฝ่ายค้าน'
-      } else if (group.has('ร่วมรัฐบาล')) {
-        this.partyGroup = 'ร่วมรัฐบาล'
-      } else {
-        this.partyGroup = ''
-      }
   },
   methods: {
     getAge() {
@@ -85,7 +62,22 @@ export default {
       var ageDifMs = Date.now() - birthday.getTime()
       var ageDate = new Date(ageDifMs)
       return Math.abs(ageDate.getUTCFullYear() - 1970)
-    }
+    },
+  },
+  computed: {
+    partyGroup() {
+      if (this.person.PastGovernment && this.person.PastOpposition) {
+        return 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน'
+      } else if (this.person.PastOpposition) {
+        return 'ฝ่ายค้าน'
+      } else if (this.person.PastGovernment) {
+        return 'ร่วมรัฐบาล'
+      }
+      return ''
+    },
+    pastMP() {
+      return this.person.PastGovernment || this.person.PastOpposition
+    },
   },
 }
 </script>

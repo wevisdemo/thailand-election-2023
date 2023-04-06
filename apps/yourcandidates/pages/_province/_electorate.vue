@@ -233,10 +233,14 @@ export default {
       return this.parties.length
     },
     getNumberPeoplePartyHistory() {
-      return this.people.filter((person) => person.PeoplePartyHistory).length
+      return this.people.filter(
+        (person) => person.PastGovernment || person.PastOpposition
+      ).length
     },
     getNumberPartiesHasPartygroup() {
-      return this.parties.filter((party) => party.PartyGroup).length
+      return this.parties.filter(
+        (party) => party.PastGovernment || party.PastOpposition
+      ).length
     },
     clickScrollToTop() {
       window.scrollTo({
