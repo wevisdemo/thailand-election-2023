@@ -5,7 +5,7 @@ import { ArrowsType5 } from '../Arrows';
 import { Party } from '@thailand-election-2023/database';
 
 interface PropsType {
-	party: Party;
+	party: Party | undefined;
 }
 
 const ModalInfo: FC<PropsType> = ({ party }) => {
