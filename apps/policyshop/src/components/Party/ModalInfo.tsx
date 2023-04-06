@@ -2,8 +2,13 @@ import React, { FC } from 'react';
 import { imgPrefix } from '@/utils/path';
 import CircleTopicWrapper from '@/components/CircleTopicWrapper';
 import { ArrowsType5 } from '../Arrows';
+import { Party } from '@thailand-election-2023/database';
 
-const ModalInfo: FC<any> = ({ party }) => {
+interface PropsType {
+	party: Party;
+}
+
+const ModalInfo: FC<PropsType> = ({ party }) => {
 	type WrapperLinkProps = {
 		children: React.ReactNode;
 	};
@@ -34,7 +39,7 @@ const ModalInfo: FC<any> = ({ party }) => {
 						'linear-gradient(0deg, rgba(9, 9, 9, 0.6), rgba(9, 9, 9, 0.6)), #FBF8F4',
 				}}
 			/>
-			<div className="typo-b4 border-[3px] border-black rounded-[10px] relative mx-2   md:mx-auto  bg-white md:max-w-[650px] p-5 ">
+			<div className="typo-b4 border-[3px] border-black rounded-[10px] relative mx-2   md:mx-auto  bg-white md:max-w-[650px] p-5 bg-[var(--color-gray-1)]">
 				<button
 					className="absolute top-0 right-0 m-3 "
 					onClick={() => onCloseModal()}
@@ -44,15 +49,26 @@ const ModalInfo: FC<any> = ({ party }) => {
 				{party && (
 					<>
 						<div className=" text-start">
-							<CircleTopicWrapper
-								name={party.Name}
-								nameStyle="typo-h5 font-bold"
-							>
-								{party.Images && (
+							{party.Images && (
+								<div className="w-[70px] h-[70px] bg-white border border-black rounded-full overflow-hidden object-cover p-2">
 									<img src={party.Images[0].url} alt="party-logo" />
-								)}
-							</CircleTopicWrapper>
-							<p className="typo-b5 text-gray-3">แคนดิเดตนายก</p>
+								</div>
+							)}
+							<p className={'mt-2 typo-h5 font-bold'}>{party.Name}</p>
+
+							<div className="flex items-center bg-[var(--color-highlight-1)] px-[5px] w-fit mt-[8px]">
+								<img
+									className="w-[12px] h-[12px]"
+									src={`${imgPrefix}/green-check.svg`}
+									alt="green-check"
+								/>
+								<span className="ml-[4px] typo-b5">{party.PartyGroup}</span>
+							</div>
+
+							<div className="my-[20px]">
+								<p className="typo-b5 text-gray-3">แคนดิเดตนายก</p>
+								{/* TODO: candidate */}
+							</div>
 						</div>
 						<div className="flex flex-col items-start">
 							<WrapperLink>

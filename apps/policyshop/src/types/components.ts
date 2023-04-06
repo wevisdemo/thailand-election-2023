@@ -34,8 +34,8 @@ export interface CircleTopicWrapper {
 	nameStyle?: string;
 }
 
-export interface IPolicyCategory {
-	category: string;
+export interface IPolicyTopicCount {
+	topic: string;
 	count: number;
 	percent: number;
 	color: string;

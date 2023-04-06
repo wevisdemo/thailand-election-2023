@@ -35,13 +35,14 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 interface PropsType {
 	parties: Party[];
+	policies: Policy[];
 }
 
-const PartyPage: NextPage<PropsType> = ({ parties }) => {
+const PartyPage: NextPage<PropsType> = ({ parties, policies }) => {
 	const router = useRouter();
 	const { name } = router.query;
 	const [party, setParty] = useState<Party>();
-	const [policies, setPolicies] = useState<Policy[]>([]);
+	const [displayPolicies, setDisplayPolicies] = useState<Policy[]>(policies);
 	const [hotPolicies, setHotPolicies] = useState<Policy[]>([]);
 	const [optionPolicies, setOptionPolicies] = useState<
 		IDropdownOption<string>[]
@@ -50,31 +51,31 @@ const PartyPage: NextPage<PropsType> = ({ parties }) => {
 		useState<IDropdownOption<string> | null>(null);
 
 	const formatParty = useCallback(async (): Promise<void> => {
-		const data: Party[] = await fetchParties();
+		const data: Party[] = parties;
 		const selectedParty: Party[] = data.filter((party) => party.Name === name);
 		setParty(selectedParty[0]);
 	}, [name]);
 
 	const formatPolicies = useCallback(async (): Promise<void> => {
-		const data: Policy[] = await fetchPolicy();
+		const data: Policy[] = policies;
 		const policyList: Policy[] = data.filter((p) => p.Party.Name === name);
 		const options: IDropdownOption<string>[] = formatOption(
 			Object.keys(groupBy(policyList, 'Topic')),
 			'policies'
 		);
 
-		setPolicies(policyList);
+		setDisplayPolicies(policyList);
 		setHotPolicies(policyList.slice(0, 1));
 
 		await setOptionPolicies([{ label: 'นโยบายทั้งหมด' }, ...options]);
 	}, [name]);
 
 	const handleHotPolicies = () => {
-		setHotPolicies(policies);
+		setHotPolicies(displayPolicies);
 	};
 
 	const onClickShuffle = () => {
-		setPolicies((curr) => [...shufflePolicies(curr)]);
+		setDisplayPolicies((curr) => [...shufflePolicies(curr)]);
 	};
 
 	useEffect(() => {
@@ -89,7 +90,9 @@ const PartyPage: NextPage<PropsType> = ({ parties }) => {
 			<div className="relative ">
 				<ModalInfo party={party} />
 				<Intro party={party} />
-				<PercentPolicies />
+				<div className="mt-[10px]">
+					<PercentPolicies policies={displayPolicies} />
+				</div>
 				<div className="py-10 mt-10 border-y border-highlight-2">
 					<div className="flex items-center justify-between ">
 						<p className="font-bold typo-h7">นโยบายไฮไลท์</p>
@@ -100,7 +103,7 @@ const PartyPage: NextPage<PropsType> = ({ parties }) => {
 					<TemplatePolicyList policyList={hotPolicies} partyList={parties} />
 				</div>
 				<p className="mt-10 font-bold typo-h6">นโยบายตามประเด็น</p>
-				<TemplatePolicyList policyList={policies} partyList={parties}>
+				<TemplatePolicyList policyList={displayPolicies} partyList={parties}>
 					<Dropdown
 						options={optionPolicies}
 						currentOption={chooseTopic}
@@ -117,9 +120,16 @@ const PartyPage: NextPage<PropsType> = ({ parties }) => {
 };
 
 export const getStaticProps: GetStaticProps<PropsType> = async () => {
+	let policies = await fetchPolicy();
 	const parties = await fetchParties();
+	policies = policies.map((policy) => {
+		if (!policy.Topic) {
+			return { ...policy, Topic: 'ไม่ระบุ' };
+		}
+		return policy;
+	});
 	return {
-		props: { parties },
+		props: { parties, policies },
 	};
 };
 

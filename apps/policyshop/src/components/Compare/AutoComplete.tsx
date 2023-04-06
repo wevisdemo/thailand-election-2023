@@ -70,13 +70,11 @@ const AutoComplete: FunctionComponent<PropsType> = ({
 	};
 
 	useEffect(() => {
-		console.log('check => ', showList);
 		if (!showList) {
 			const regex = new RegExp(
 				value.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&'),
 				'igm'
 			);
-			console.log('regex => ', regex);
 			const newOptions = options.filter((option) => option.value.match(regex));
 			setDisplayOptions(newOptions);
 		} else {

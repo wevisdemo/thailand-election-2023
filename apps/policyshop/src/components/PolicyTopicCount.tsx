@@ -1,9 +1,9 @@
-import { IPolicyCategory } from '@/types/components';
+import { IPolicyTopicCount } from '@/types/components';
 import { imgPrefix } from '@/utils/path';
 import { FunctionComponent } from 'react';
 
 interface PropsType {
-	item: IPolicyCategory;
+	item: IPolicyTopicCount;
 }
 
 const PolicyCategoryCount: FunctionComponent<PropsType> = ({ item }) => {
@@ -16,7 +16,7 @@ const PolicyCategoryCount: FunctionComponent<PropsType> = ({ item }) => {
 					className="mr-[4px] w-[24px] h-[24px]"
 				/>
 				<p className="typo-b6">
-					{item.category} ({item.count})
+					{item.topic} ({item.count})
 				</p>
 			</div>
 			<div className="flex items-center ml-[14px]">
@@ -26,7 +26,7 @@ const PolicyCategoryCount: FunctionComponent<PropsType> = ({ item }) => {
 						style={{ backgroundColor: item.color, width: `${item.percent}%` }}
 					/>
 				</div>
-				<p className="ml-[12px] typo-b6">{item.percent}%</p>
+				<p className="ml-[12px] typo-b6 w-[40px] text-right">{item.percent}%</p>
 			</div>
 		</div>
 	);

@@ -8,17 +8,22 @@ import ByParty from '@/components/Landing/ByParty';
 import { TheyWorkForUs } from '@thailand-election-2023/database';
 import { Party } from '@thailand-election-2023/database/src/models/party';
 import { Policy } from '@thailand-election-2023/database/src/models/policy';
-import { groupBy } from '@/utils';
+import { fetchParties, fetchPolicy, groupBy } from '@/utils';
 import { GroupByTopics, IDropdownOption } from '@/types/components';
 import ShortCut from '@/components/ShortCut';
 import AutoComplete from '@/components/Compare/AutoComplete';
 import WvSharer from '@wevisdemo/ui/react/sharer';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { GetStaticProps, NextPage } from 'next';
 
-export default function Landing() {
+interface PropsType {
+	policies: Policy[];
+	parties: Party[];
+}
+
+const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 	const [hotParties, setHotParties] = useState<Party[]>([]);
-	const [parties, setParties] = useState<Party[]>([]);
 	const [topics, setTopics] = useState<GroupByTopics>({});
 	const [selectedPartyOption, setSelectedPartyOption] =
 		useState<IDropdownOption<string> | null>(null);
@@ -28,9 +33,8 @@ export default function Landing() {
 		const data: Party[] = await TheyWorkForUs.Parties.fetchAll({
 			where: '(PartyType,eq,พรรค)',
 		});
-		setParties(data);
 		//mock get hot parties
-		setHotParties(data.slice(0, 8));
+		setHotParties(parties.slice(0, 8)); // TODO: refactor when hot party has defined
 	};
 
 	const getPartyOptions = (): IDropdownOption<string>[] => {
@@ -46,8 +50,7 @@ export default function Landing() {
 	};
 
 	const fetchPolicies = async (): Promise<void> => {
-		const data: Policy[] = await TheyWorkForUs.Policies.fetchAll();
-		setTopics(groupBy(data, 'Topic'));
+		setTopics(groupBy(policies, 'Topic'));
 	};
 	useEffect(() => {
 		fetchParties();
@@ -94,4 +97,24 @@ export default function Landing() {
 			</main>
 		</>
 	);
-}
+};
+
+export default Landing;
+
+export const getStaticProps: GetStaticProps<PropsType> = async (context) => {
+	let policies = await fetchPolicy();
+	const parties = await fetchParties();
+	policies = policies.map((policy) => {
+		if (!policy.Topic) {
+			return { ...policy, Topic: 'ไม่ระบุ' };
+		}
+		return policy;
+	});
+
+	return {
+		props: {
+			policies,
+			parties,
+		},
+	};
+};

@@ -58,7 +58,6 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 	};
 
 	const replaceUrl = (query: string) => {
-		console.log('q =>', query);
 		const url = '/list' + (query ? `?${query}` : '');
 		router.push(url, undefined, {
 			shallow: true,
@@ -244,6 +243,7 @@ export const getStaticProps: GetStaticProps<PropsType> = async (context) => {
 		}
 		return policy;
 	});
+	policies = shufflePolicies(policies); // shuffle
 
 	return {
 		props: {

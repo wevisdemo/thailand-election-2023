@@ -1,5 +1,5 @@
 import { Party, Policy } from '@/types/components';
-import { imgPrefix } from '@/utils/path';
+import { getTopicIconSrc, imgPrefix } from '@/utils/path';
 import { FunctionComponent } from 'react';
 interface PropsType {
 	policyInfo: Policy;
@@ -61,14 +61,16 @@ const PolicyCard: FunctionComponent<PropsType> = ({
 					/>
 				)}
 			</div>
-			{/* <div className="py-[8px] px-[16px] flex items-center bg-[var(--color-highlight-1)]">
-				<img
-					className="w-[20px]"
-					src={policyInfo.category_icon_src}
-					alt="cat-icon"
-				/>
-				<span className="ml-[4px] typo-b7">{policyInfo.category_text}</span>
-			</div> */}
+			<div className="py-[8px] px-[16px] flex items-center bg-[var(--color-highlight-1)]">
+				{getTopicIconSrc(policyInfo.Topic) && (
+					<img
+						className="w-[20px]"
+						src={getTopicIconSrc(policyInfo.Topic)}
+						alt="cat-icon"
+					/>
+				)}
+				<span className="ml-[4px] typo-b7">{policyInfo.Topic}</span>
+			</div>
 		</div>
 	);
 };
