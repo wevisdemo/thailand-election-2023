@@ -9,13 +9,16 @@ const DISTRICT_LIST = districts.map((district) => ({
 }))
 
 function normalizeSearchQuery(query) {
+  if (!query) return ''
+  if (typeof query !== 'string') return query
+  if (query.match(/อำน(า(จ(เ(จ(ริ(ญ)?)?)?)?)?)?/g)) return query
   return query
     .replace(/^อำ(เ(ภ(อ)?|$|\s)?|$|\s)?/g, 'อ. ')
     .replace(/^จั(ง(ห(ว(ั(ด)?|$|\s)?|$|\s)?|$|\s)?|$|\s)?/g, 'จ. ')
 }
 
 export const searchDistrict = (query) => {
-  console.log(normalizeSearchQuery(query))
+  // console.log(normalizeSearchQuery(query))
   const results = fuzzysort.go(normalizeSearchQuery(query), DISTRICT_LIST, {
     keys: SEARCH_KEYS,
     limit: 20,

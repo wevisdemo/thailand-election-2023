@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build && nuxt generate",
+    "generate": "nuxt generate",
     "start": "nuxt start",
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:prettier",
