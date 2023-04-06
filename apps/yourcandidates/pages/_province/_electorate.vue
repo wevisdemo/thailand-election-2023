@@ -91,6 +91,12 @@
               :key="person.number"
               :person="person"
             />
+            <div
+              v-if="filteredByQueryPeople.length == 0"
+              class="typo-b5 no-item-found"
+            >
+              ไม่มีผู้สมัครจากพรรคชื่อนี้
+            </div>
           </div>
         </div>
         <div slot="tab2">
@@ -127,6 +133,12 @@
               :key="party.number"
               :party="party"
             />
+            <div
+              v-if="filteredByQueryParties.length == 0"
+              class="typo-b5 no-item-found"
+            >
+              ไม่มีพรรคชื่อนี้ลงสมัคร
+            </div>
           </div>
         </div>
       </Tabs>
@@ -373,6 +385,12 @@ export default {
   padding: 0px;
   gap: 10px;
   z-index: 0;
+
+  & .no-item-found {
+    padding: 30px;
+    text-align: center;
+    color: var(--color-gray-3);
+  }
 }
 
 .tab-header {
