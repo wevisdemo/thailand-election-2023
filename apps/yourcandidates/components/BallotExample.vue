@@ -17,9 +17,10 @@ export default {
   data() {
     return {
       type: this.isGood == 'true' ? 'บัตรดี' : 'บัตรเสีย',
-      imageSource: this.isGood
-        ? require('~/assets/images/good-ballots.png')
-        : require('~/assets/images/spoiled-ballots.png'),
+      imageSource:
+        this.isGood == 'true'
+          ? require('~/assets/images/good-ballots.png')
+          : require('~/assets/images/spoiled-ballots.png'),
     }
   },
 }
