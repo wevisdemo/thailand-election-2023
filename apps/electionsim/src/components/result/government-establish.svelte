@@ -26,30 +26,30 @@
 		: ''}"
 >
 	<div
-		class="flex flex-col w-[312px] md:w-[650px] relative {isExpand
+		class="flex flex-col px-6 w-full max-w-[650px] relative {isExpand
 			? 'mt-10'
 			: ''}"
 	>
 		{#if isExpand}
-			<svg
-				width="32"
-				height="33"
-				viewBox="0 0 32 33"
-				fill="none"
-				xmlns="http://www.w3.org/2000/svg"
-				class="absolute -top-10 right-0 cursor-pointer"
-				on:click={toggleIsExpand}
-			>
-				<path
-					fill-rule="evenodd"
-					clip-rule="evenodd"
-					d="M9.4 8.99668L8 10.3969L14.6 16.9978L8 23.5987L9.4 24.9989L16 18.398L22.6 24.9989L24 23.5987L17.4 16.9978L24 10.3969L22.6 8.99668L16 15.5976L9.4 8.99668Z"
-					fill="#fff"
-				/>
-			</svg>
+			<button on:click={toggleIsExpand} class="absolute -top-10 right-6">
+				<svg
+					width="32"
+					height="33"
+					viewBox="0 0 32 33"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M9.4 8.99668L8 10.3969L14.6 16.9978L8 23.5987L9.4 24.9989L16 18.398L22.6 24.9989L24 23.5987L17.4 16.9978L24 10.3969L22.6 8.99668L16 15.5976L9.4 8.99668Z"
+						fill="#fff"
+					/>
+				</svg>
+			</button>
 		{:else}
-			<div
-				class="w-12 h-12 rounded-full beyondx-gradient-bg absolute flex justify-center items-center -top-10 right-0 cursor-pointer"
+			<button
+				class="w-12 h-12 rounded-full beyondx-gradient-bg absolute flex justify-center items-center -top-10 right-6"
 				on:click={toggleIsExpand}
 			>
 				<svg
@@ -66,7 +66,7 @@
 						fill="white"
 					/>
 				</svg>
-			</div>
+			</button>
 		{/if}
 
 		<p class="{isExpand ? 'typo-h6' : 'typo-b3'} text-white font-bold">
