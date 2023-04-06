@@ -154,64 +154,99 @@
 	});
 </script>
 
-<svg
-	viewBox="0 0 {canvasWidth} {canvasHeight}"
-	class="w-full mx-6 sm:m-4 md:m-0 relative h-full {hasZoomed
-		? 'cursor-move'
-		: ''}"
-	id="waffle-map-svg"
->
-	<defs>
-		{#each $party.list as { Name, Color }}
-			<pattern
-				id="party-bg-{Name}"
-				x="0"
-				y="0"
-				width={CELL_SIZE}
-				height={CELL_SIZE}
+<div class="relative w-full flex-1">
+	<svg
+		viewBox="0 0 {canvasWidth} {canvasHeight}"
+		class="w-full relative h-full {hasZoomed ? 'cursor-move' : ''}"
+		id="waffle-map-svg"
+	>
+		<defs>
+			{#each $party.list as { Name, Color }}
+				<pattern
+					id="party-bg-{Name}"
+					x="0"
+					y="0"
+					width={CELL_SIZE}
+					height={CELL_SIZE}
+				>
+					<rect width="100%" height="100%" fill={Color} />
+					<image
+						href="/party-icons/{Name}.svg"
+						height={CELL_SIZE * 0.6}
+						width={CELL_SIZE * 0.6}
+						x={CELL_SIZE * 0.2}
+						y={CELL_SIZE * 0.2}
+					/>
+				</pattern>
+			{/each}
+		</defs>
+
+		<g id="map-container">
+			{#each electorialDistrictList as district}
+				<DistrictCell {...district} size={CELL_SIZE} bind:districtTooltip />
+			{/each}
+
+			{#each partylistMap as partylist}
+				<PartylistCell {...partylist} size={CELL_SIZE} bind:partylistTooltip />
+			{/each}
+
+			<text x="10" y="18" class="typo-b7">ส.ส. เขต</text>
+			<text
+				x={partylistMap[0].cells[0].x + 7}
+				y={partylistMap[0].cells[0].y - 10}
+				class="typo-b7">ส.ส. บัญชีรายชื่อ</text
 			>
-				<rect width="100%" height="100%" fill={Color} />
-				<image
-					href="/party-icons/{Name}.svg"
-					height={CELL_SIZE * 0.6}
-					width={CELL_SIZE * 0.6}
-					x={CELL_SIZE * 0.2}
-					y={CELL_SIZE * 0.2}
-				/>
-			</pattern>
-		{/each}
-	</defs>
+		</g>
+	</svg>
 
-	<g id="map-container">
-		{#each electorialDistrictList as district}
-			<DistrictCell {...district} size={CELL_SIZE} bind:districtTooltip />
-		{/each}
-
-		{#each partylistMap as partylist}
-			<PartylistCell {...partylist} size={CELL_SIZE} bind:partylistTooltip />
-		{/each}
-
-		<text x="10" y="18" class="typo-b7">ส.ส. เขต</text>
-		<text
-			x={partylistMap[0].cells[0].x + 7}
-			y={partylistMap[0].cells[0].y - 10}
-			class="typo-b7">ส.ส. บัญชีรายชื่อ</text
-		>
-	</g>
-</svg>
-
-{#if partylistTooltip}
-	<PartylistTooltip {partylistTooltip} />
-{/if}
-
-{#if districtTooltip}
-	<DistrictTooltip {districtTooltip} />
-{/if}
-
-<div class="absolute right-8 bottom-8 flex flex-col space-y-2">
-	{#if hasZoomed}
-		<button on:click={resetZoom}>รีเซ็ตแผนที่</button>
+	{#if partylistTooltip}
+		<PartylistTooltip {partylistTooltip} />
 	{/if}
-	<button on:click={zoomIn}>ซูมเข้า</button>
-	<button on:click={zoomOut}>ซูมออก</button>
+
+	{#if districtTooltip}
+		<DistrictTooltip {districtTooltip} />
+	{/if}
+
+	<div
+		class="absolute right-8 left-8 bottom-4 flex flex-row justify-center space-x-2"
+	>
+		{#if hasZoomed}
+			<button on:click={resetZoom}
+				><svg viewBox="0 0 32 32"
+					><path
+						fill="currentColor"
+						d="M22.448 21A10.855 10.855 0 0 0 25 14A10.99 10.99 0 0 0 6 6.466V2H4v8h8V8H7.332a8.977 8.977 0 1 1-2.1 8h-2.04A11.012 11.012 0 0 0 14 25a10.855 10.855 0 0 0 7-2.552L28.586 30L30 28.586Z"
+					/></svg
+				></button
+			>
+		{/if}
+		<button on:click={zoomIn}>
+			<svg viewBox="0 0 32 32"
+				><path
+					fill="currentColor"
+					d="M18 12h-4V8h-2v4H8v2h4v4h2v-4h4v-2z"
+				/><path
+					fill="currentColor"
+					d="M21.448 20A10.856 10.856 0 0 0 24 13a11 11 0 1 0-11 11a10.856 10.856 0 0 0 7-2.552L27.586 29L29 27.586ZM13 22a9 9 0 1 1 9-9a9.01 9.01 0 0 1-9 9Z"
+				/></svg
+			></button
+		>
+		<button on:click={zoomOut}
+			><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+				><path fill="currentColor" d="M8 12h10v2H8z" /><path
+					fill="currentColor"
+					d="M21.448 20A10.856 10.856 0 0 0 24 13a11 11 0 1 0-11 11a10.856 10.856 0 0 0 7-2.552L27.586 29L29 27.586ZM13 22a9 9 0 1 1 9-9a9.01 9.01 0 0 1-9 9Z"
+				/></svg
+			></button
+		>
+	</div>
 </div>
+
+<style lang="postcss">
+	button {
+		@apply p-2 bg-white rounded-full shadow bg-gray-100;
+	}
+	button > svg {
+		@apply w-5 h-5;
+	}
+</style>
