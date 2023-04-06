@@ -190,16 +190,12 @@ export default {
       this.electorate = electorate[0]
     }
   },
-  async asyncData({ params: { province, electorate }, payload }) {
-    console.log(payload)
-    if (payload?.people && payload?.parties) {
-      return payload
-    } else {
-      const people = await getPeople(province, electorate)
-      const parties = await getParties(province, electorate)
-
-      return { people, parties }
-    }
+  async asyncData({ params: { province, electorate }}) {
+    const [people, parties] = await Promise.all([
+      getPeople(province, electorate),
+      getParties(province, electorate),
+      ]);
+    return { people, parties }
   },
   data() {
     return {
