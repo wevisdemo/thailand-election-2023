@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { FC } from 'react';
 import Clipboard from '../Clipboard';
 import HowToLabel from '../HowToLabel';
@@ -21,9 +22,12 @@ const Intro: FC<any> = ({ party }) => {
 				<button className="typo-b4 border-[3px] mt-4 border-black rounded-full w-fit mx-auto py-2 px-4">
 					รู้จักพรรคนี้เพิ่มเติม
 				</button>
-				<button className="typo-b4 border-[3px] mt-4 border-black rounded-full w-fit mx-auto py-2 px-4">
+				<Link
+					href={`/compare`}
+					className="typo-b4 border-[3px] mt-4 border-black rounded-full w-fit mx-auto py-2 px-4"
+				>
 					เทียบนโยบาย
-				</button>
+				</Link>
 			</div>
 			<HowToLabel />
 			<div className="mt-2 text-center typo-b5">
