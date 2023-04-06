@@ -4,6 +4,10 @@ import Clipboard from '../Clipboard';
 import HowToLabel from '../HowToLabel';
 
 const Intro: FC<any> = ({ party }) => {
+	const onOpenModal = (): void => {
+		const elem = document.getElementById('ModalInfo') as HTMLElement;
+		if (elem) elem!.style.display = 'block';
+	};
 	return (
 		<div className="flex flex-col justify-center">
 			<div className="flex items-center justify-center">
@@ -19,7 +23,10 @@ const Intro: FC<any> = ({ party }) => {
 				<p className="font-bold typo-h3">{party?.Name}</p>
 			</div>
 			<div className="flex mx-auto mb-10 space-x-3 w-fit">
-				<button className="typo-b4 border-[3px] mt-4 border-black rounded-full w-fit mx-auto py-2 px-4">
+				<button
+					className="typo-b4 border-[3px] mt-4 border-black rounded-full w-fit mx-auto py-2 px-4"
+					onClick={() => onOpenModal()}
+				>
 					รู้จักพรรคนี้เพิ่มเติม
 				</button>
 				<Link

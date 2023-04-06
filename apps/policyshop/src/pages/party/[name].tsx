@@ -15,6 +15,7 @@ import TemplatePolicyList from '@/components/Template/PolicyList';
 import Dropdown from '@/components/Dropdown';
 import RandomButton from '@/components/RandomButton';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import ModalInfo from '@/components/Party/ModalInfo';
 
 export const getStaticPaths: GetStaticPaths = async () => {
 	const data = await fetchParties();
@@ -85,7 +86,8 @@ const PartyPage: NextPage<PropsType> = ({ parties }) => {
 
 	return (
 		<Layout title="พรรคนี้มีอะไรมาขายบ้าง">
-			<div id="header">
+			<div className="relative ">
+				<ModalInfo party={party} />
 				<Intro party={party} />
 				<PercentPolicies />
 				<div className="py-10 mt-10 border-y border-highlight-2">

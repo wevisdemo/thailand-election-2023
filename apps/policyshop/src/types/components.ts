@@ -31,6 +31,7 @@ export interface CircleTopicWrapper {
 	children?: React.ReactNode;
 	name?: string;
 	totalTopic?: number;
+	nameStyle?: string;
 }
 
 export interface IPolicyCategory {
