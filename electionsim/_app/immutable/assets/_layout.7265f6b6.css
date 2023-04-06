@@ -162,14 +162,17 @@
 .bottom-1 {
 		bottom: 0.25rem;
 }
-.bottom-8 {
-		bottom: 2rem;
+.bottom-4 {
+		bottom: 1rem;
 }
 .left-0 {
 		left: 0px;
 }
 .left-1\/2 {
 		left: 50%;
+}
+.left-8 {
+		left: 2rem;
 }
 .right-0 {
 		right: 0px;
@@ -197,10 +200,6 @@
 }
 .m-auto {
 		margin: auto;
-}
-.mx-6 {
-		margin-left: 1.5rem;
-		margin-right: 1.5rem;
 }
 .my-1 {
 		margin-top: 0.25rem;
@@ -393,6 +392,9 @@
 }
 .w-4\/6 {
 		width: 66.666667%;
+}
+.w-5 {
+		width: 1.25rem;
 }
 .w-7 {
 		width: 1.75rem;
@@ -642,6 +644,9 @@
 .stroke-white {
 		stroke: var(--color-white);
 }
+.p-2 {
+		padding: 0.5rem;
+}
 .px-4 {
 		padding-left: 1rem;
 		padding-right: 1rem;
@@ -742,6 +747,11 @@
 .opacity-70 {
 		opacity: 0.7;
 }
+.shadow {
+		--tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+		--tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+		box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
 .filter {
 		filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -783,21 +793,12 @@
 		background-color: var(--color-gray-4);
 }
 
-@media (min-width: 640px) {
-		.sm\:m-4 {
-				margin: 1rem;
-		}
-}
-
 @media (min-width: 768px) {
 		.md\:-right-\[100px\] {
 				right: -100px;
 		}
 		.md\:-top-1 {
 				top: -0.25rem;
-		}
-		.md\:m-0 {
-				margin: 0px;
 		}
 		.md\:mb-0 {
 				margin-bottom: 0px;
