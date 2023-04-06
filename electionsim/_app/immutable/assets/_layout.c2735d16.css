@@ -98,6 +98,34 @@
 		--tw-backdrop-saturate:  ;
 		--tw-backdrop-sepia:  ;
 }
+.container {
+		width: 100%;
+}
+@media (min-width: 640px) {
+		.container {
+				max-width: 640px;
+		}
+}
+@media (min-width: 768px) {
+		.container {
+				max-width: 768px;
+		}
+}
+@media (min-width: 1024px) {
+		.container {
+				max-width: 1024px;
+		}
+}
+@media (min-width: 1280px) {
+		.container {
+				max-width: 1280px;
+		}
+}
+@media (min-width: 1536px) {
+		.container {
+				max-width: 1536px;
+		}
+}
 .fixed {
 		position: fixed;
 }
@@ -145,6 +173,9 @@
 }
 .right-0 {
 		right: 0px;
+}
+.right-6 {
+		right: 1.5rem;
 }
 .right-8 {
 		right: 2rem;
@@ -396,8 +427,8 @@
 .max-w-4xl {
 		max-width: 56rem;
 }
-.max-w-\[312px\] {
-		max-width: 312px;
+.max-w-\[650px\] {
+		max-width: 650px;
 }
 .flex-1 {
 		flex: 1 1 0%;
@@ -619,6 +650,10 @@
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
 }
+.px-6 {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+}
 .px-\[10px\] {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -657,6 +692,9 @@
 }
 .pl-4 {
 		padding-left: 1rem;
+}
+.pt-10 {
+		padding-top: 2.5rem;
 }
 .pt-5 {
 		padding-top: 1.25rem;
@@ -814,9 +852,6 @@
 		}
 		.md\:w-auto {
 				width: auto;
-		}
-		.md\:max-w-\[650px\] {
-				max-width: 650px;
 		}
 		.md\:flex-nowrap {
 				flex-wrap: nowrap;
