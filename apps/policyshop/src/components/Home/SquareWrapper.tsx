@@ -9,7 +9,7 @@ const SquareWrapper: FC<SquareWrapperProps> = ({
 }) => {
 	return (
 		<div
-			className={` ${styles} ${bgColor} ${borderType} border-[3px] w-full border-black rounded-[20px] p-4 my-2 `}
+			className={` ${styles} ${bgColor} ${borderType} relative border-[3px] w-full border-black rounded-[20px] p-4 my-2 `}
 		>
 			{children}
 		</div>

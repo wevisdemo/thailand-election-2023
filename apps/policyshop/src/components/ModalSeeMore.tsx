@@ -83,6 +83,7 @@ const ModalSeeMore = () => {
 								bgColor="bg-highlight-2"
 								borderType="border-dashed"
 							>
+								<div className="bulletSeeMore typo-b6">1</div>
 								<p className="font-bold typo-b4">กฎหมาย</p>
 							</SquareWrapper>
 							<ul className="my-4 list-disc list-inside ">
@@ -148,6 +149,7 @@ const ModalSeeMore = () => {
 								bgColor="bg-highlight-2"
 								borderType="border-dashed"
 							>
+								<div className="bulletSeeMore typo-b6">2</div>
 								<p className="font-bold typo-b4">
 									กฎกระทรวง ระเบียบข้อบังคับต่างๆ
 								</p>

@@ -34,6 +34,9 @@ ul {
 .inputSearchPolicies {
 	@apply w-full my-4 border-[3px]  border-black rounded-[50px] h-[44px] p-4 focus:border-highlight-2;
 }
+.bulletSeeMore {
+	@apply absolute top-0 w-5 h-5 font-bold text-white bg-black rounded-full  translate-x-[-50%] translate-y-[-50%] left-[50%] flex items-center justify-center;
+}
 
 @media only screen and (max-width: 420px) {
 	.card-title {
