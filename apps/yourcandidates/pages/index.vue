@@ -17,9 +17,9 @@
       <div>
         <VoteInstruction />
       </div>
-      <election-bottom></election-bottom>
+      <election-bottom index-path="/yourcandidates" about-path="/yourcandidates/about"></election-bottom>
     </div>
-    <election-footer index-path="/yourcandidates" about-path="/yourcandidates/about"></election-footer>
+    <election-footer></election-footer>
     <election-cookie></election-cookie>
   </div>
 </template>

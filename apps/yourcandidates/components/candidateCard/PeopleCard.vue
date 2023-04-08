@@ -9,7 +9,7 @@
         <tbody>
           <tr>
             <th class="col1">สังกัด</th>
-            <td class="pl-2">{{ person.Party }}</td>
+            <td class="pl-2">{{ person.Party.Name }}</td>
           </tr>
           <tr>
             <th class="col1">อายุ</th>

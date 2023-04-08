@@ -207,6 +207,7 @@ export default {
   },
   async asyncData({ params: { province, electorate } }) {
     const { people, parties } = await getElectoralData(province, electorate)
+    console.log(people)
     return { people, parties }
   },
   data() {
@@ -274,7 +275,7 @@ export default {
   computed: {
     filteredByQueryPeople() {
       return this.people.filter((person) => {
-        return person.Party.includes(this.partyQuery)
+        return person.Party.Name.includes(this.partyQuery)
       })
     },
     filteredByQueryParties() {

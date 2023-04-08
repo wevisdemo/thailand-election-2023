@@ -16,7 +16,17 @@ export const getElectoralData = async (province, zone) => {
     electoralData = require(`~/data/electorals/${province}-${zone}.json`)
   } catch (error) {}
   const { People, Parties } = electoralData
-  return { people: People, parties: Parties.map((p) => allParties[p]) }
+  return {
+    people: People.map((person) => {
+      let p = { ...person }
+      p.Party = {
+        Name: allParties[p.Party].Name,
+        Image: allParties[p.Party].Image,
+      }
+      return p
+    }),
+    parties: Parties.map((p) => allParties[p]),
+  }
 }
 
 export const getParties = async (province, zone) => {
