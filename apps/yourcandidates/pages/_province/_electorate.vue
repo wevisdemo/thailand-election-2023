@@ -16,10 +16,7 @@
       </div>
     </div>
 
-    <nuxt-link to="/" class="tab-back">
-      <IconsArrow />
-      <span class="detail" target="_blank"> กลับไปหน้าค้นหา </span>
-    </nuxt-link>
+    <HomePageBack/>
 
     <div class="main-container">
       <div class="head-section">
@@ -195,7 +192,7 @@ import {
   ElectionCookie,
 } from '@thailand-election-2023/components'
 import { getElectorals } from '~/helpers/search'
-
+import HomePageBack from '~/components/HomePageBack.vue'
 export default {
   beforeMount() {
     const electorate = getElectorals(
@@ -231,6 +228,7 @@ export default {
     ElectionHeader,
     ElectionBottom,
     ElectionFooter,
+    HomePageBack
   },
   methods: {
     popupVoteInstruction() {
@@ -294,23 +292,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.tab-back {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px;
-  gap: 4px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.tab-back > .detail {
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
 .head-section {
   display: flex;
   flex-direction: column;
