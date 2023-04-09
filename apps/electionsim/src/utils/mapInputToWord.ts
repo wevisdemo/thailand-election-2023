@@ -115,25 +115,25 @@ export const quiz4ToWord = (key: ScaleAns | undefined): string[] => {
 export const quiz5ToWord = (key: ScaleAns | undefined): string[] => {
 	switch (key) {
 		case ScaleAns.Scale0:
-			return ['เปลี่ยนใจเลือกฝ่ายค้าน', '3 ใน 10 คน'];
+			return ['เทให้พรรคฝ่ายค้านเดิม', '3 ใน 10 คน'];
 
 		case ScaleAns.Scale10:
-			return ['เปลี่ยนใจเลือกฝ่ายค้าน', '2 ใน 10 คน'];
+			return ['เทให้พรรคฝ่ายค้านเดิม', '2 ใน 10 คน'];
 
 		case ScaleAns.Scale30:
-			return ['เปลี่ยนใจเลือกฝ่ายค้าน', '1 ใน 10 คน'];
+			return ['เทให้พรรคฝ่ายค้านเดิม', '1 ใน 10 คน'];
 
 		case ScaleAns.Scale50:
-			return ['ผลโหวต', 'ไม่เปลี่ยนแปลง'];
+			return ['ความนืยม', 'ไม่เปลี่ยนแปลง'];
 
 		case ScaleAns.Scale70:
-			return ['เปลี่ยนใจเลือกฝ่ายรัฐบาล', '1 ใน 10 คน'];
+			return ['เทให้พรรคร่วมรัฐบาลเดิม', '1 ใน 10 คน'];
 
 		case ScaleAns.Scale90:
-			return ['เปลี่ยนใจเลือกฝ่ายรัฐบาล', '2 ใน 10 คน'];
+			return ['เทให้พรรคร่วมรัฐบาลเดิม', '2 ใน 10 คน'];
 
 		case ScaleAns.Scale100:
-			return ['เปลี่ยนใจเลือกฝ่ายรัฐบาล', '3 ใน 10 คน'];
+			return ['เทให้พรรคร่วมรัฐบาลเดิม', '3 ใน 10 คน'];
 
 		default:
 			return ['', ''];
