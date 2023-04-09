@@ -3,19 +3,22 @@
     :id="elementId"
     class="search-list-item typo-b4"
     tabindex="0"
-    v-html="district.html"
+    style="display: flex; justify-content: space-between"
     @keypress.enter="onClickHandler"
     @click="onClickHandler"
-  ></div>
+  >
+    <div v-html="district.html"></div>
+    <div class="search-list-item__arrow">
+      <IconsArrowRight />
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
   props: ['selected', 'district', 'onClick'],
   data() {
-    return {
-      test: 'THIS IS TEST',
-    }
+    return {}
   },
   methods: {
     onClickHandler(e) {

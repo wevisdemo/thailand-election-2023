@@ -21,5 +21,14 @@ body {
   &:focus {
     border-radius: 5px;
     background: var(--color-highlight-2);
+
+    .search-list-item__arrow {
+      transform: translateX(0px);
+    }
+  }
+
+  &__arrow {
+    transform: translateX(-5px);
+    transition: transform 0.2s ease-in-out;
   }
 }
