@@ -104,7 +104,7 @@
       </p>
     </div>
 
-    <election-bottom index-path="/theyworkforyou" />
+    <election-bottom index-path="/yourcandidates" />
     <election-footer />
   </div>
 </template>
