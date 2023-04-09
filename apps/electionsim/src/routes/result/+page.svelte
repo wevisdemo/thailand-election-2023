@@ -118,6 +118,7 @@
 			{governmentParties}
 			{oppositionParties}
 			{governmentPoints}
+			toggleSide={party.toggleSide}
 		/>
 	</div>
 {/if}

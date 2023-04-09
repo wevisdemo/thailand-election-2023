@@ -1,6 +1,7 @@
 import { writable } from 'svelte/store';
 import { TheyWorkForUs } from '@thailand-election-2023/database';
 import type { Party } from '@thailand-election-2023/database';
+import { PartySide } from '@thailand-election-2023/database';
 
 type PartyMap = Map<Party['Name'], Party>;
 
@@ -37,6 +38,21 @@ const createPartiesStore = () => {
 				map,
 			}));
 		},
+		toggleSide: (partyName?: string) =>
+			update(({ list, ...state }) => ({
+				...state,
+				list: list.map((party) =>
+					!partyName || party.Name === partyName
+						? {
+								...party,
+								PartyGroup:
+									party.PartyGroup === PartySide.Government
+										? PartySide.Opposition
+										: PartySide.Government,
+						  }
+						: party
+				),
+			})),
 	};
 };
 

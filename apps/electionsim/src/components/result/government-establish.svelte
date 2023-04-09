@@ -8,6 +8,7 @@
 	export let governmentParties: RepresentativeRecord[];
 	export let oppositionParties: RepresentativeRecord[];
 	export let governmentPoints: number;
+	export let toggleSide: (party?: string) => void;
 
 	$: totalPoints = representativeRecord.reduce(
 		(acc, cur) => acc + cur.total,
@@ -128,7 +129,10 @@
 				</div>
 			{/if}
 			<div class="w-full h-[1px] bg-white opacity-40 mt-4" />
-			<span class="flex items-center justify-center mt-4 cursor-pointer">
+			<span
+				class="flex items-center justify-center mt-4 cursor-pointer"
+				on:click={() => toggleSide()}
+			>
 				<h4 class="typo-b4 underline">สลับรัฐบาล/ฝ่ายค้าน</h4>
 				<svg
 					width="20"
@@ -210,6 +214,7 @@
 							</h5>
 							<span
 								class="typo-b5 w-4/12 flex justify-end items-center cursor-pointer"
+								on:click={() => toggleSide(party.Name)}
 							>
 								<svg
 									width="20"
@@ -259,6 +264,7 @@
 						>
 							<span
 								class="typo-b5 w-4/12 flex items-center cursor-pointer flex-1"
+								on:click={() => toggleSide(party.Name)}
 							>
 								<svg
 									width="20"
