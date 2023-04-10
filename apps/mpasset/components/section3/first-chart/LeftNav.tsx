@@ -17,17 +17,20 @@ const LeftNav = ({ width, height, scrollControl }: Props) => {
         .attr('width', width)
         .attr('height', height)
 
-      const yScaleBand = d3.scaleBand().domain(person.map((d) => String(d.Id))).range([0, height]).paddingInner(0.1)
+      const yScaleBand = d3.scaleBand().domain(person.map((_, i) => `${i}`)).range([0, height])
 
-      const xScale = d3.scaleLinear().domain([0, 100]).range([0, width])
+      const [minPct, maxPct] = d3.extent(person, (d) => d.totalPctShare)
+      const xScale = d3.scaleLinear().domain([minPct || -20, maxPct || 100]).range([0, width])
 
       svg.selectAll('rect')
         .data(person)
         .join('rect')
-        .attr('x', 0)
-        .attr('y', (d) => yScaleBand(`${d.Id!}`)!)
-        .attr('width', (d) => xScale(Math.random() * 100))
-        .attr('height', (d) => yScaleBand.bandwidth())
+        .attr('x', (d) => d.totalPctShare <= 0 ? xScale(d.totalPctShare) : xScale(0))
+        .attr('y', (_, i) => yScaleBand(`${i}`)!)
+        .attr('width', (d) => d.totalPctShare <= 0 ? xScale(0) - xScale(d.totalPctShare) : xScale(d.totalPctShare) - xScale(0))
+        .attr('height', yScaleBand.bandwidth())
+        .attr('fill', (d) => d.Party ? d.Party.Color! : 'black')
+
     }
   }, [person, height, width])
 
@@ -46,8 +49,9 @@ const LeftNav = ({ width, height, scrollControl }: Props) => {
         .attr('class', 'scroll-control')
         .attr('width', width)
         .attr('height', yScale(scrollControl.clientHeight))
-        .attr('fill', 'none')
-        .attr('stroke', 'red')
+        .attr('fill', '#F6FF94')
+        .attr('opacity', '.5')
+        .attr('stroke', 'black')
         .attr('stroke-weight', '2px')
         .attr('x', 0)
         .attr('y', yScale(scrollControl.scrollTop))

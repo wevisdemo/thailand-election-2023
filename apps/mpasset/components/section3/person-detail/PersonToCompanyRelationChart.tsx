@@ -1,5 +1,6 @@
 import * as React from "react";
 import * as d3 from "d3";
+import { usePersonStore } from "../../../store/person";
 
 type NodeLinkType = {
   id: string,
@@ -18,10 +19,26 @@ interface NodeLink extends d3.HierarchyNode<NodeLinkType> {
 
 
 const PersonToCompanyRelationChart: React.FunctionComponent = () => {
+
+  const { selectedPerson } = usePersonStore()
+
   const svgRef = React.useRef<SVGSVGElement>(null);
   const [dataSet, setDataSet] = React.useState<NodeLink>()
   const [flag, setFlag] = React.useState(true)
   const [isDirty, setIsDirty] = React.useState(true)
+
+
+  const fetchPersonData = React.useCallback(
+    () => {
+      console.log(selectedPerson);
+
+    }, [selectedPerson])
+
+  React.useEffect(() => {
+    fetchPersonData()
+  }, [selectedPerson, fetchPersonData])
+
+
   const fetchData = React.useCallback(
     () => {
       // fetch here

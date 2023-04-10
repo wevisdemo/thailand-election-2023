@@ -1,4 +1,4 @@
-import { Party, Person, TheyWorkForUs } from '@thailand-election-2023/database'
+import { Party, } from '@thailand-election-2023/database'
 import React from 'react'
 
 import { usePersonStore } from '../../store/person'
@@ -7,6 +7,10 @@ import FirstChart from './first-chart'
 import Loading from './Loading'
 import SearchPerson from './SearchPerson'
 import SelectedPersonDetail from './person-detail/SelectedPersonDetail'
+
+import * as d3 from 'd3';
+import { PersonCustom } from '../../models/person'
+import { placeZerosAtEnd } from '../util/calculation'
 
 type Props = {}
 
@@ -60,6 +64,9 @@ const customParty: Party[] = [{
 }
 ]
 
+
+
+
 const Section3 = (props: Props) => {
   const [filter, setFilter] = React.useState<SelectedFilterType>({
     dataSet: 'ผู้สมัคร 66',
@@ -69,23 +76,38 @@ const Section3 = (props: Props) => {
   })
   const [isLoading, setIsLoading] = React.useState(true)
 
-  const { person, setPerson, selectedPerson,
+  const { person, setPerson, selectedPerson, setPersonOutlier, personOutlier,
     party, setParty } = usePersonStore();
+
+
+  const fetchFromGit = React.useCallback(async () => {
+    await d3.json<PersonCustom[]>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/people.json').then((value) => {
+      if (value) {
+        let sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
+        setPerson(sortArray.slice(1))
+        setPersonOutlier(sortArray.slice(0, 1))
+        setIsLoading(false)
+      }
+    })
+  }, [setPerson, setPersonOutlier])
+
 
   React.useEffect(() => {
     let ignore = false;
     if (person.length <= 0 && party.length <= 0)
-      Promise.all([TheyWorkForUs.People.fetchAll(), TheyWorkForUs.Parties.fetchAll()]).then((values) => {
-        if (!ignore) {
-          setPerson(values[0] as Person[])
-          setParty([...customParty, ...values[1].splice(3)] as Party[])
-          setIsLoading(false)
-        }
-      });
+
+      if (!ignore) { fetchFromGit() }
+    // Promise.all([TheyWorkForUs.People.fetchAll(), TheyWorkForUs.Parties.fetchAll()]).then((values) => {
+    //   if (!ignore) {
+    //     setPerson(values[0] as Person[])
+    //     setParty([...customParty, ...values[1].splice(3)] as Party[])
+    //     setIsLoading(false)
+    //   }
+    // });
     return () => {
       ignore = true;
     }
-  }, [person, setPerson, party, setParty])
+  }, [person, setPerson, party, setParty, fetchFromGit])
 
   // usePersonStore
 
@@ -94,8 +116,13 @@ const Section3 = (props: Props) => {
 
   if (isLoading) return <div className='h-screen flex flex-col'><Loading /></div>
 
+  console.log('person', person);
+
+  console.log('personOutlier', personOutlier);
+
+
   return (
-    <div className='h-full inset-0 flex flex-col relative'>
+    <div className='h-full inset-0 flex flex-col relative overflow-hidden'>
       {
         !selectedPerson ?
           <>

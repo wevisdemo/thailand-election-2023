@@ -36,22 +36,38 @@ const FirstChart = (props: Props) => {
     }
   }, [chartRef])
 
+  React.useLayoutEffect(() => {
+    function updateSize() {
+      if (chartRef.current) {
+        setResolution({
+          width: chartRef.current.clientWidth,
+          height: chartRef.current.clientHeight
+        })
+      }
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize();
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+
   return (
-    <div className='w-full h-full flex-grow-1  relative' ref={chartRef}>
-      <div className='w-full h-full flex flex-row'>
-        <div className='w-1/4 h-full'>
-          <LeftNav
-            width={resolution.width * .25}
-            height={resolution.height}
-            scrollControl={mainScroll}
-          />
+    <div className='px-0 w-full h-full flex-grow-1'>
+      <div className='w-full h-full flex-grow-1 relative' ref={chartRef}>
+        <div className='w-full h-full flex flex-row'>
+          <div className='w-1/4 h-full'>
+            <LeftNav
+              width={resolution.width * .25}
+              height={resolution.height}
+              scrollControl={mainScroll}
+            />
+          </div>
+          <div className='w-3/4'>
+            <MainNav width={resolution.width * .75} height={resolution.height} onScroll={setMainScroll} />
+          </div>
         </div>
-        <div className='w-3/4'>
-          <MainNav width={resolution.width * .75} height={resolution.height} onScroll={setMainScroll} />
+        <div className='absolute bottom-[10px] inset-x-0'>
+          <ClickGuide />
         </div>
-      </div>
-      <div className='absolute bottom-[10px] inset-x-0'>
-        <ClickGuide />
       </div>
     </div>
   )

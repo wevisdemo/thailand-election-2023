@@ -1,6 +1,6 @@
-import { Person } from '@thailand-election-2023/database'
 import React from 'react'
 
+import { PersonCustom } from '../../models/person'
 import { usePersonStore } from '../../store/person'
 
 type Props = {
@@ -10,7 +10,7 @@ type Props = {
 
 const SearchPerson = ({ open, onClose }: Props) => {
   const [searchTerm, setSearchTerm] = React.useState("")
-  const [searchResult, setSearchResult] = React.useState<Person[]>([])
+  const [searchResult, setSearchResult] = React.useState<PersonCustom[]>([])
 
   const { person, setSelectedPerson } = usePersonStore()
 
