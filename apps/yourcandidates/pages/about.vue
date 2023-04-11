@@ -1,35 +1,41 @@
 <template>
   <div>
     <election-header />
-    <HomePageBack/>
+    <HomePageBack />
 
     <div class="section-about">
       <h1>เกี่ยวกับโครงการ</h1>
 
       <h2>เป้าหมาย</h2>
       <p>
-        มาตรา ๒๒๒ คณะกรรมการการเลือกตั้ง ประกอบด้วย
-        กรรมการจำนวนเจ็ดคนซึ่งพระมหากษัตริย์ทรงแต่งตั้งตามคำแนะนำของวุฒิสภาจากบุคคล
-        ดังต่อไปนี้ (๑) ผู้มีความรู้ความเชี่ยวชาญในสาขาวิชาการต่าง ๆ
-        ที่จะยังประโยชน์แก่การบริหารและจัดการการเลือกตั้งให้เป็นไปโดยสุจริตและเที่ยงธรรม
-        และมีความซื่อสัตย์สุจริตเป็นที่ประจักษ์
-        ซึ่งได้รับการสรรหาจากคณะกรรมการสรรหา จำนวนห้าคน (๒) ผู้มีความรู้
-        ความเชี่ยวชาญ และประสบการณ์ด้านกฎหมาย
-        มีความซื่อสัตย์สุจริตเป็นที่ประจักษ์และเคยดำรงตำแหน่งไม่ต่ำกว่าอธิบดีผู้พิพากษา
-        หรือตำแหน่งไม่ต่ำกว่าอธิบดีอัยการมาแล้วเป็นเวลาไม่น้อยกว่าห้าปี
-        ซึ่งได้รับการคัดเลือกจากที่ประชุมใหญ่ศาลฎีกา จำนวนสองคน
-        ผู้ซึ่งจะได้รับการสรรหาเป็นกรรมการการเลือกตั้งตาม (๑)
-        ต้องมีคุณสมบัติตามมาตรา ๒๓๒ (๒) (๓) (๔) (๕) (๖) หรือ (๗)
-        หรือเป็นผู้ทำงานหรือเคยทำงานในภาคประชาสังคมมาแล้วเป็นเวลาไม่น้อยกว่ายี่สิบปี
-        ทั้งนี้ ตามที่คณะกรรมการสรรหาประกาศกำหนด
+        การเลือกตั้ง คือกลไกตามระบอบประชาธิปไตย
+        ที่เปิดโอกาสให้ประชาชนซึ่งเป็นเจ้าของอำนาจ เลือก ‘ผู้แทน’
+        เข้าไปทำหน้าที่แทนตัวเอง ทุกๆ การเข้าคูหาและทุกๆ กากบาท
+        จึงเป็นการตัดสินใจครั้งสำคัญ ว่าเราจะใช้อำนาจของเรา
+        เพื่อเปลี่ยนแปลงสังคมและประเทศที่เราอยู่ไปในทิศทางไหน
+      </p>
+      <br />
+      <p>
+        โปรเจกต์ ‘เลือกตั้งรอบนี้มีอะไรให้เลือกบ้าง?’ นี้ พวกเรา WeVis
+        จึงพยายามรวบรวมข้อมูลผู้สมัคร ทั้ง ส.ส. เขต (บัตรเลือกคน) และ ส.ส.
+        บัญชีรายชื่อ (บัตรเลือกพรรค)
+        มาให้ประชาชนผู้มีสิทธิเลือกตั้งอย่างพวกเราค้นหาได้ง่ายๆ
+        และสามารถลิงก์ไปดูข้อมูลที่เกี่ยวข้องของแต่ละคน แต่ละพรรคได้อย่างสะดวก
+      </p>
+      <br />
+
+      <p>
+        ก่อนเข้าคูหา #เลือกตั้ง66 นี้
+        พวกเราเลยออยากชวนทุกคนมาลองศึกษาข้อมูลให้ดี เพื่อตัดสินใจมอบอำนาจให้กับ
+        ‘ผู้แทน’ ที่จะเข้าไปในรัฐสภาเพื่อใช้สิทธิและเสียงแทนเราอย่างแท้จริง
       </p>
 
       <h2>ที่มาของข้อมูล</h2>
-      <p>
-        มาตรา ๕๙
-        รัฐต้องเปิดเผยข้อมูลหรือข่าวสารสาธารณะในครอบครองของหน่วยงานของรัฐที่มิใช่ข้อมูลเกี่ยวกับความมั่นคงของรัฐหรือเป็นความลับของทางราชการตามที่กฎหมายบัญญัติ
-        และต้องจัดให้ประชาชนเข้าถึงข้อมูลหรือข่าวสารดังกล่าวได้โดยสะดวก
-      </p>
+      <ul>
+        <li>
+          ข้อมูลเบื้องต้นจากเว็บไซต์/โซเชียลมีเดียหลักของแต่ละพรรคการเมือง
+        </li>
+      </ul>
 
       <h2>นโยบายการนำข้อมูลไปใช้ต่อ</h2>
       <p>
@@ -51,37 +57,20 @@
       </p>
 
       <h2>ทีมงานร่วมพัฒนา</h2>
-      <h3>เขียนโปรแกรม</h3>
-      <p>
-        <ul>
-          <li>น้องฟีน</li>
-          <li>น้องจิ๊ก</li>
-        </ul>
-      </p>
-      <h3>หัวข้อ</h3>
-      <p>
-        <ul>
-          <li>ลิสต์ 1</li>
-          <li>ลิสต์ 2</li>
-          <li>ลิสต์ 3</li>
-        </ul>
-      </p>
-      <h3>หัวข้อ</h3>
-      <p>
-        <ul>
-          <li>ลิสต์ 1</li>
-          <li>ลิสต์ 2</li>
-          <li>ลิสต์ 3</li>
-        </ul>
-      </p>
-      <h3>หัวข้อ</h3>
-      <p>
-        <ul>
-          <li>ลิสต์ 1</li>
-          <li>ลิสต์ 2</li>
-          <li>ลิสต์ 3</li>
-        </ul>
-      </p>
+      <div v-for="(group, i) in collaborators" :key="i">
+        <h3>{{ group.role }}</h3>
+        <div class="collaborators-list">
+          <span
+            v-for="(member, j) in group.members"
+            :key="i * collaborators.length + j"
+          >
+            <a :href="member.url" target="_blank" rel="noopener noreferrer">{{
+              member.name
+            }}</a>
+            <span v-if="j < group.members.length - 1">, </span>
+          </span>
+        </div>
+      </div>
 
       <h2>หมายเหตุ</h2>
       <p>
@@ -102,6 +91,35 @@
         ซึ่งนำมาใช้เป็นต้นทุนในการรวมรวมข้อมูล ออกแบบ พัฒนาเว็บไซต์ ประสานงาน
         บริหารจัดการ ตลอดจนการจัด Meetup เพื่อดำเนินโครงการ
       </p>
+
+      <div class="button-list-section">
+        <a class="button-rounded--black link-text" href="">
+          <div class="icon">
+            <IconsDownload />
+          </div>
+          ดาวน์โหลดข้อมูล
+        </a>
+        <a
+          class="button-rounded--black link-text"
+          href="https://airtable.com/shryu4errnlj1LWsM"
+          target="_blank"
+        >
+          <div class="icon">
+            <IconsMail />
+          </div>
+          Feedback
+        </a>
+        <a
+          class="button-rounded--black link-text"
+          target="_blank"
+          href="https://github.com/wevisdemo/thailand-election-2023/tree/main/apps/yourcandidates"
+        >
+          <div class="icon">
+            <IconsGithub />
+          </div>
+          View on Github
+        </a>
+      </div>
     </div>
 
     <election-bottom index-path="/yourcandidates" />
@@ -117,7 +135,68 @@ import {
 } from '@thailand-election-2023/components'
 export default {
   data() {
-    return {}
+    return {
+      collaborators: [
+        {
+          role: 'เขียนโปรแกรม',
+          members: [
+            {
+              name: 'napatswift',
+              url: 'https://github.com/napatswift',
+            },
+            {
+              name: 'JaeAiKay',
+              url: 'https://github.com/JaeAiKay',
+            },
+          ],
+        },
+        {
+          role: 'ออกแบบ',
+          members: [
+            {
+              name: 'Namsai Supavong',
+              url: 'https://www.instagram.com/namsaisupavong/',
+            },
+          ],
+        },
+        {
+          role: 'สืบค้นและรวบรวมข้อมูล',
+          members: [
+            {
+              name: 'Thanisara GG',
+              url: 'https://www.linkedin.com/in/thanisara-r/',
+            },
+            {
+              name: 'Fhy Pantira',
+              url: 'https://www.linkedin.com/in/pantira-monsumrith-b42018224/',
+            },
+          ],
+        },
+        {
+          role: 'บรรณาธิการ',
+          members: [
+            {
+              name: 'Thanisara GG',
+              url: 'https://www.linkedin.com/in/thanisara-r/',
+            },
+          ],
+        },
+        {
+          role: 'ประสานงานและจัดการอื่นๆ',
+          members: [
+            {
+              name: 'Phy pantira',
+              url: 'https://www.linkedin.com/in/pantira-monsumrith-b42018224/',
+            },
+            {
+              name: 'Th1nkK1D',
+              url: 'https://github.com/Th1nkK1D',
+            },
+          ],
+        },
+      ],
+      links: {},
+    }
   },
   components: {
     ElectionHeader,
@@ -126,3 +205,29 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.link-text {
+  font-weight: 700;
+  text-decoration: none !important;
+  color: var(--color-black);
+}
+
+.button-rounded--black .icon {
+  margin-right: 0.5rem;
+}
+
+.button-list-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 50px 0px;
+}
+
+@media (min-width: 560px) {
+  .button-list-section {
+    flex-direction: row;
+  }
+}
+</style>
