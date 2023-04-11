@@ -1,5 +1,5 @@
 <template>
-  <div v-show="open" class="popup flex flex-col justify-center items-center">
+  <div v-show="open" class="popup flex flex-col justify-center items-center" @click.self="closePopup">
     <div style="max-width: 450px;" class="party-list-container w-4/5 h-4/5 overflow-y-scroll scrollbar-hide ">
       <div class="w-full relative">
         <slot name="close"></slot>
@@ -31,6 +31,11 @@ export default{
     partyList: [],
     nameParty: ''
   },
+  methods: {
+    closePopup() {
+      this.$emit("closePopup")
+    }
+  }
 }
 </script>
 

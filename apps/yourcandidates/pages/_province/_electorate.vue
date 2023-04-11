@@ -2,6 +2,7 @@
   <div>
     <election-header></election-header>
     <div
+      @click.self="closePopup"
       v-show="openPopup"
       class="popup flex flex-col justify-center items-center relative"
     >

@@ -1,6 +1,7 @@
 <template>
   <div>
     <partyList
+      @closePopup="closePopup()"
       :partyList="party.PartyList"
       :open="openPopupPartyList"
       :nameParty="party.Name"
