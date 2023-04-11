@@ -4,6 +4,8 @@ import { Collapse, Expand } from '../../util/action'
 import { Asset } from '../../util/icon-main'
 import { usePersonStore } from '../../../store/person'
 import { numberWithCommas } from '../../util/calculation'
+import * as d3 from 'd3'
+import { CredenData } from '../../../models/person'
 
 const COMPANY_DATA = [{
   'company_name': 'ABC',
@@ -108,7 +110,33 @@ type Props = {
 const PersonDetail = ({ open, onToggle }: Props) => {
   const [isExpand, setIsExpand] = React.useState(false)
 
-  const { selectedPerson } = usePersonStore()
+  const { selectedPerson,
+    setDirectorData,
+    setShareholderData } = usePersonStore()
+
+  const fetchFromGit = React.useCallback(async (name: string) => {
+    const promises = [
+      d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/director/${name}.json`),
+      d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/shareholder/${name}.json`),
+    ]
+
+    await Promise.all(promises).then((value) => {
+      const directorData = value[0]
+      const shareholderData = value[1]
+
+      setDirectorData(directorData || [])
+      setShareholderData(shareholderData || [])
+
+    }).catch((err) => console.log(err))
+  }, [setDirectorData, setShareholderData])
+
+
+  React.useEffect(() => {
+    if (selectedPerson) {
+      fetchFromGit(selectedPerson.Name.replaceAll(' ', '-'))
+    }
+  }, [selectedPerson, fetchFromGit])
+
 
   return (
     <div className={`absolute w-full

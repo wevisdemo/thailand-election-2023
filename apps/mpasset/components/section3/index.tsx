@@ -66,7 +66,6 @@ const customParty: Party[] = [{
 
 
 
-
 const Section3 = (props: Props) => {
   const [filter, setFilter] = React.useState<SelectedFilterType>({
     dataSet: 'ผู้สมัคร 66',
@@ -115,11 +114,6 @@ const Section3 = (props: Props) => {
   const [isOpenSearchDialog, setIsOpenSearchDialog] = React.useState(false)
 
   if (isLoading) return <div className='h-screen flex flex-col'><Loading /></div>
-
-  console.log('person', person);
-
-  console.log('personOutlier', personOutlier);
-
 
   return (
     <div className='h-full inset-0 flex flex-col relative overflow-hidden'>

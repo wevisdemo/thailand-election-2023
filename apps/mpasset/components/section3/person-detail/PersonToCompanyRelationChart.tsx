@@ -1,11 +1,13 @@
 import * as React from "react";
 import * as d3 from "d3";
 import { usePersonStore } from "../../../store/person";
+import { CredenData, PersonCustom } from "../../../models/person";
 
 type NodeLinkType = {
   id: string,
   parentId: string,
-  is_gov: boolean
+  companyData?: CredenData
+  personData?: PersonCustom
 }
 
 interface NodeLink extends d3.HierarchyNode<NodeLinkType> {
@@ -20,7 +22,7 @@ interface NodeLink extends d3.HierarchyNode<NodeLinkType> {
 
 const PersonToCompanyRelationChart: React.FunctionComponent = () => {
 
-  const { selectedPerson } = usePersonStore()
+  const { selectedPerson, directorData, shareholderData } = usePersonStore()
 
   const svgRef = React.useRef<SVGSVGElement>(null);
   const [dataSet, setDataSet] = React.useState<NodeLink>()
@@ -28,51 +30,37 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
   const [isDirty, setIsDirty] = React.useState(true)
 
 
-  const fetchPersonData = React.useCallback(
-    () => {
-      console.log(selectedPerson);
-
-    }, [selectedPerson])
-
   React.useEffect(() => {
-    fetchPersonData()
-  }, [selectedPerson, fetchPersonData])
+    if (selectedPerson && directorData && shareholderData) {
+      let data: NodeLinkType[] = [
+        {
+          id: `pol-${selectedPerson.Id}`,
+          parentId: '',
+          personData: selectedPerson
+        },
+        ...directorData.map((d) => ({
+          id: `${d.tsic}`,
+          parentId: `pol-${selectedPerson.Id}`,
+          companyData: d
+        })),
+        ...shareholderData.map((d) => ({
+          id: `${d.tsic}`,
+          parentId: `pol-${selectedPerson.Id}`,
+          companyData: d
+        }))
+      ]
 
+      const stratify = d3.stratify<NodeLinkType>().id((d) => d.id).parentId((d) => d.parentId)
+      const root = stratify(data) as NodeLink;
 
-  const fetchData = React.useCallback(
-    () => {
-      // fetch here
-      // const csv = [12, 5, 6, 6, 9, 10];
-      d3.csv<NodeLinkType[] & string>("data/sample.csv").then(res => {
-        // code goes here
-        // convert data to there type
-        const data = res.slice(0, res.length) as NodeLinkType[]
+      root.descendants().forEach((d, i) => {
+        d._children = d.children;
+        if (d.depth > 0) d.children = undefined;
+      });
+      setDataSet(root)
+    }
 
-        if (data) {
-          const stratify = d3.stratify<NodeLinkType>().id((d) => d.id).parentId((d) => d.parentId)
-          const root = stratify(data) as NodeLink;
-          const dy = 192 / 6
-          root.descendants().forEach((d, i) => {
-            d._children = d.children;
-            if (d.depth > 0) d.children = undefined;
-          });
-          // data.forEach(d => {
-          //   d.revenue = Number(d.revenue)
-          //   d.profit = Number(d.profit)
-          // })
-          setDataSet(root)
-        }
-      }).catch(error => {
-        //best parctice
-        console.log(error)
-      })
-
-    },
-    [],)
-
-  React.useEffect(() => {
-    fetchData()
-  }, [fetchData])
+  }, [selectedPerson, directorData, shareholderData])
 
 
   const handleClickNode = (d: NodeLink) => {
@@ -80,13 +68,11 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
       d.children = d.children ? undefined : d._children
       setIsDirty(true)
     }
-    // console.log('ancestor', d.ancestors())
   }
 
 
   React.useEffect(() => {
     if (dataSet) {
-      // const data = flag ? dataSet?.slice(1) : dataSet
       const root = dataSet
 
       console.log(root);
@@ -107,23 +93,13 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         .attr("height", HEIGHT)
         .attr("transform", `translate(${MARGIN.LEFT}, ${MARGIN.TOP})`)
 
-      const radius = HEIGHT * .25
-      const nodeRadius = radius * .1
+      const radius = WIDTH * .45
+      const nodeRadius = WIDTH > 400 ? 40 : 30
       const tree = d3.tree<NodeLink>().size([2 * Math.PI, radius])
-        .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth).nodeSize([Math.PI * 2 / root.children!.length, WIDTH * .15])
+        .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth)
 
       const transition = d3.transition().duration(500)
-        // .attr("viewBox", [-MARGIN.LEFT, left.x - MARGIN.TOP, WIDTH, HEIGHT])
         .tween("resize", () => () => svg.dispatch("toggle"));
-
-      var fill = "#999", // fill for nodes
-        fillOpacity, // fill opacity for nodes
-        stroke = "#555", // stroke for links
-        strokeWidth = 1.5, // stroke width for links
-        strokeOpacity = 0.4 // stroke opacity for links
-        // strokeLinejoin, // stroke line join for links
-        // strokeLinecap // stroke line cap for links
-        ;
 
 
       const chartArea = svg.select('.chart-area')
@@ -137,7 +113,6 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
       }
 
       /// ------------ node layer ----------------
-
       const nodeRoot = chartArea.select('.node-layer')
 
       const node = nodeRoot.selectAll<SVGAElement, NodeLink>('g')
@@ -151,32 +126,17 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         .attr("pointer-events", "all")
         .on("click", (event, d) => {
           handleClickNode(d)
-        });
-
+        })
 
       nodeEnter.append('rect')
+        .attr('rx', '5')
         .attr('width', nodeRadius)
         .attr('height', nodeRadius)
-        .attr('fill', '#fff')
-
-      nodeEnter.append('text')
-        .attr("fill", '#F00')
-        .attr("stroke", stroke)
-        .attr('font-size', '10')
-        .style("transform", d => `rotate(${d.x <= (Math.PI / 8) ? 180 : 0}deg)`)
-        .text((d) => d.id!)
-
-      // Transition nodes to their new position.
-      const nodeUpdate = node.merge(node).transition(transition)
+        .attr('fill', '#000')
+        .transition(transition)
         .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y - nodeRadius * .5}, ${- nodeRadius * .5})`)
         .attr("fill-opacity", 1)
         .attr("stroke-opacity", 1);
-
-      // Transition exiting nodes to the parent's new position.
-      const nodeExit = node.exit<NodeLink>().transition(transition).remove()
-        .attr("transform", d => `rotate(${d.x0 * 180 / Math.PI - 90}) translate(${d.y0}, ${- nodeRadius * .5})`)
-        .attr("fill-opacity", 0)
-        .attr("stroke-opacity", 0);
 
       /// ------------ link layer ----------------
       const linkRoot = chartArea.select<SVGGElement>('.link-layer')
@@ -189,10 +149,6 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         .transition(transition)
         .attr("class", "link")
         .attr("stroke", "#ccc")
-        .attr("stroke-opacity", 0)
-
-
-      const linkUpdate = link.merge(link).transition(transition)
         .attr("stroke-opacity", 1)
         // @ts-ignore
         .attr("x1", d => radialPoint(d.source.x, d.source.y)[0])
@@ -203,9 +159,85 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         // @ts-ignore
         .attr("y2", (d) => radialPoint(d.target.x, d.target.y)[1])
 
-      const linkExit = link.exit().transition(transition).remove()
-        .attr("stroke-opacity", 0);
 
+
+      const avatar_size = 100
+      const logoSize = 30
+
+      chartArea.selectAll('defs').remove()
+      const defs = chartArea.select('.person-icon').append('svg:defs')
+
+      const rootNode = root.descendants()[0].data.personData
+      if (rootNode) {
+        // profile
+        defs.append("svg:pattern")
+          .attr("id", "pattern_person_avatar" + rootNode.Id)
+          .attr("width", 1)
+          .attr("height", 1)
+          // .attr("patternUnits", "userSpaceOnUse")
+          .attr("patternContentUnits", "objectBoundingBox")
+          .append('use')
+          .attr('xlink:href', "#person_avatar" + rootNode.Id)
+          .attr("transform", "scale(0.01)")
+        defs.append("svg:image")
+          .attr("id", "person_avatar" + rootNode.Id)
+          .attr("xlink:href", typeof rootNode.Images === 'string' ? rootNode.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
+          .attr("width", avatar_size)
+          .attr("height", avatar_size)
+          .attr("x", 0)
+          .attr("y", 0);
+
+        if (rootNode.Party) {
+          // profile
+          defs.append("svg:pattern")
+            .attr("id", "pattern_party_avatar" + rootNode.Party?.Id)
+            .attr("width", 1)
+            .attr("height", 1)
+            // .attr("patternUnits", "userSpaceOnUse")
+            .attr("patternContentUnits", "objectBoundingBox")
+            .append('use')
+            .attr('xlink:href', "#party_avatar" + rootNode.Party?.Id)
+            .attr("transform", "scale(0.01)")
+          defs.append("svg:image")
+            .attr("id", "party_avatar" + rootNode.Party?.Id)
+            .attr("xlink:href", typeof rootNode.Party?.Images === 'string' ? rootNode.Party?.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
+            .attr("width", avatar_size)
+            .attr("height", avatar_size)
+            .attr("x", 0)
+            .attr("y", 0);
+        }
+        const personIcon = chartArea.select('.person-icon')
+          .attr('transform', `translate(${-avatar_size * .5} ${-avatar_size * .5})`)
+        // .attr('y', )
+
+        personIcon.selectAll('rect').remove()
+
+        // personIcon.remove()
+        personIcon.append('rect')
+          // .attr('class', 'person-icon')
+          .attr('width', avatar_size)
+          .attr('height', avatar_size)
+          .attr('rx', 49)
+          .attr('stroke', '#000')
+          .attr('stroke-width', "2")
+          .attr("fill", "url(#pattern_person_avatar" + rootNode.Id + ")")
+          .attr('stroke', 'black')
+
+
+        personIcon.append('rect')
+          // .attr('class', 'person-icon')
+          .attr('x', avatar_size - logoSize)
+          .attr('y', avatar_size - logoSize)
+          .attr('width', logoSize)
+          .attr('height', logoSize)
+          .attr('rx', 49)
+          .attr('stroke', '#000')
+          .attr('stroke-width', "2")
+          .attr("fill", "url(#pattern_party_avatar" + rootNode.Party?.Id + ")")
+          .attr('stroke', 'black')
+
+
+      }
       root.eachBefore(d => {
         if (d.parent) {
           d.x0 = d.parent.x;
@@ -218,7 +250,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
   }, [svgRef, dataSet, flag, isDirty]);
 
   return (
-    <div className="w-full h-full bg-green-500 max-w-[800px] mx-auto">
+    <div className="w-full h-full max-w-[800px] mx-auto">
       <svg ref={svgRef}>
         <g className="chart-margin">
           <g className="x-axis" />
@@ -232,6 +264,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
           <g className="chart-area">
             <g className="link-layer" />
             <g className="node-layer" />
+            <g className="person-icon" />
           </g>
         </g>
       </svg>
