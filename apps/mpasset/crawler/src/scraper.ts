@@ -42,6 +42,7 @@ export interface Person {
 	countCompShare: number;
 	totalValueShare: number;
 	totalPctShare: number;
+	companyType: string[];
 }
 
 export interface NestedPeoplePartyHistory {
@@ -137,13 +138,22 @@ interface CredenResult {
 }
 [];
 
+const delayedFetch = (request: Function, delay: number) => {
+	return new Promise((resolve, reject) => {
+		setTimeout(() => {
+			request()
+				.then((res) => resolve(res))
+				.catch((err) => reject(err));
+		}, delay);
+	});
+};
+
 export const fetchShareholderData = async (people: Person[]) => {
-	const request: Promise<{
-		result: string | void;
-		fullname: string;
-	}>[] = [];
-	people.forEach((p) => {
-		request.push(fetchFromCreden(p.Name, 'shareholder'));
+	const request: any[] = [];
+	people.forEach((p, i) => {
+		request.push(
+			delayedFetch(() => fetchFromCreden(p.Name, 'shareholder'), i * 100)
+		);
 	});
 
 	let company: CredenResult[] = [];
@@ -164,7 +174,7 @@ export const fetchShareholderData = async (people: Person[]) => {
 
 						let totalValueShare = 0;
 
-						if (success && data) {
+						if (success && data && Array.isArray(data)) {
 							company = [...company, ...data];
 							fs.writeFileSync(
 								`./public/data/creden/shareholder/${String(fullname).replaceAll(
@@ -179,9 +189,14 @@ export const fetchShareholderData = async (people: Person[]) => {
 								(acc, cur) => acc + Number(cur.value_share),
 								0
 							);
+
+							peopleProcess[i].totalValueShare = totalValueShare;
+							peopleProcess[i].countCompShare = data ? data.length : 0;
+							peopleProcess[i].companyType = [
+								...peopleProcess[i].companyType,
+								...data.map((d) => d.submit_obj_big_type),
+							];
 						}
-						peopleProcess[i].totalValueShare = totalValueShare;
-						peopleProcess[i].countCompShare = data ? data.length : 0;
 					}
 				});
 			}
@@ -209,12 +224,11 @@ export const fetchShareholderData = async (people: Person[]) => {
 };
 
 export const fetchDirectorData = async (people: Person[]) => {
-	const request: Promise<{
-		result: string | void;
-		fullname: string;
-	}>[] = [];
-	people.forEach((p) => {
-		request.push(fetchFromCreden(p.Name, 'director'));
+	const request: any[] = [];
+	people.forEach((p, i) => {
+		request.push(
+			delayedFetch(() => fetchFromCreden(p.Name, 'director'), i * 100)
+		);
 	});
 
 	let company: CredenResult[] = [];
@@ -235,7 +249,7 @@ export const fetchDirectorData = async (people: Person[]) => {
 
 						let totalValueShare = 0;
 
-						if (success && data) {
+						if (success && data && Array.isArray(data)) {
 							company = [...company, ...data];
 							fs.writeFileSync(
 								`./public/data/creden/director/${String(fullname).replaceAll(
@@ -245,14 +259,12 @@ export const fetchDirectorData = async (people: Person[]) => {
 								JSON.stringify(data)
 							);
 
-							// sum value share of all company
-							// totalValueShare = data.reduce(
-							// 	(acc, cur) => acc + Number(cur.value_share),
-							// 	0
-							// );
+							peopleProcess[i].countDirector = data ? data.length : 0;
+							peopleProcess[i].companyType = [
+								...peopleProcess[i].companyType,
+								...data.map((d) => d.submit_obj_big_type),
+							];
 						}
-						// peopleProcess[i].totalValueShare = totalValueShare;
-						peopleProcess[i].countDirector = data ? data.length : 0;
 					}
 				});
 			}

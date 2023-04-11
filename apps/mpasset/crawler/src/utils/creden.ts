@@ -23,6 +23,14 @@ export const fetchFromCreden = async (
 		data: body,
 	};
 
+	const delay = () => {
+		return new Promise((resolve) => setTimeout(resolve, 2000));
+	};
+
+	await delay();
+
+	console.log(`req-${type}:${fullname}`);
+
 	const result = await axios
 		.request(config)
 		.then((response) => {

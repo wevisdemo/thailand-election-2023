@@ -26,7 +26,7 @@ const run = async () => {
 
 	// console.log(party);
 	// console.log(people);
-
+	people.forEach((p) => (p.companyType = []));
 	await fetchShareholderData(people);
 	await fetchDirectorData(people);
 };

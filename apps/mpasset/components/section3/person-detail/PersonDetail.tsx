@@ -115,21 +115,24 @@ const PersonDetail = ({ open, onToggle }: Props) => {
     setShareholderData } = usePersonStore()
 
   const fetchFromGit = React.useCallback(async (name: string) => {
-    const promises = [
-      d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/director/${name}.json`),
-      d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/shareholder/${name}.json`),
-    ]
+    if (selectedPerson) {
+      const promises: Promise<CredenData[] | undefined>[] = []
 
-    await Promise.all(promises).then((value) => {
-      const directorData = value[0]
-      const shareholderData = value[1]
+      if (selectedPerson.countDirector > 0)
+        promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/director/${name}.json`))
+      if (selectedPerson.countCompShare > 0)
+        promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/shareholder/${name}.json`))
 
-      setDirectorData(directorData || [])
-      setShareholderData(shareholderData || [])
+      await Promise.all(promises).then((value) => {
+        const directorData = value[0]
+        const shareholderData = value[1]
 
-    }).catch((err) => console.log(err))
-  }, [setDirectorData, setShareholderData])
+        setDirectorData(directorData || [])
+        setShareholderData(shareholderData || [])
 
+      }).catch((err) => console.log(err))
+    }
+  }, [setDirectorData, setShareholderData, selectedPerson])
 
   React.useEffect(() => {
     if (selectedPerson) {
