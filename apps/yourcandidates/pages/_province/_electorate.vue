@@ -7,7 +7,7 @@
       class="popup flex flex-col justify-center items-center relative"
     >
       <div
-        class="relative w-4/5 h-4/5 overflow-y-scroll scrollbar-hide"
+        class="relative w-4/5 h-4/5 overflow-y-scroll"
         style="max-width: 650px; border-radius: 10px"
       >
         <VoteInstruction />
@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <HomePageBack/>
+    <HomePageBack />
 
     <div class="main-container">
       <div class="head-section">
@@ -229,7 +229,7 @@ export default {
     ElectionHeader,
     ElectionBottom,
     ElectionFooter,
-    HomePageBack
+    HomePageBack,
   },
   methods: {
     popupVoteInstruction() {
@@ -351,15 +351,6 @@ export default {
   overflow-y: auto;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 41;
-}
-
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
 .candidate-card {
