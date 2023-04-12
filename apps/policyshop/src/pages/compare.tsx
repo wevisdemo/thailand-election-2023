@@ -2,6 +2,7 @@ import Clipboard from '@/components/Clipboard';
 import CompareFilter from '@/components/Compare/Filter';
 import ComparePolicyCardWrapper from '@/components/Compare/PolicyCardWrapper';
 import Layout from '@/components/Layout';
+import Metadata from '@/components/Metadata';
 import PolicyCard from '@/components/PolicyCard';
 import RandomButton from '@/components/RandomButton';
 import { Party, Policy } from '@/types/components';
@@ -25,27 +26,32 @@ const ComparePage: NextPage<PropsType> = ({ policies, parties }) => {
 	};
 
 	return (
-		<Layout title="เปรียบเทียบนโยบาย">
-			<Clipboard styles="mt-[32px]" />
-			<>
-				<CompareFilter
-					policies={policies}
-					setDisplayPolicies1={setDisplayPolicies1}
-					setDisplayPolicies2={setDisplayPolicies2}
-				/>
-				<div className="flex justify-between items-center mt-[24px]">
-					<p>เรียงตาม</p>
-					<RandomButton onClick={onClickShuffle} />
-				</div>
-				<div className="mt-[16px]">
-					<ComparePolicyCardWrapper
-						policyList={displayPolicies1}
-						secondList={displayPolicies2}
-						partyList={parties}
-					/>
-				</div>
-			</>
-		</Layout>
+		<>
+			<Metadata />
+			<main>
+				<Layout title="เปรียบเทียบนโยบาย">
+					<Clipboard styles="mt-[32px]" />
+					<>
+						<CompareFilter
+							policies={policies}
+							setDisplayPolicies1={setDisplayPolicies1}
+							setDisplayPolicies2={setDisplayPolicies2}
+						/>
+						<div className="flex justify-between items-center mt-[24px]">
+							<p>เรียงตาม</p>
+							<RandomButton onClick={onClickShuffle} />
+						</div>
+						<div className="mt-[16px]">
+							<ComparePolicyCardWrapper
+								policyList={displayPolicies1}
+								secondList={displayPolicies2}
+								partyList={parties}
+							/>
+						</div>
+					</>
+				</Layout>
+			</main>
+		</>
 	);
 };
 

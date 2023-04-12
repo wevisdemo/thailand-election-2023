@@ -16,6 +16,7 @@ import Dropdown from '@/components/Dropdown';
 import RandomButton from '@/components/RandomButton';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import ModalInfo from '@/components/Party/ModalInfo';
+import Metadata from '@/components/Metadata';
 
 export const getStaticPaths: GetStaticPaths = async () => {
 	const data = await fetchParties();
@@ -86,36 +87,47 @@ const PartyPage: NextPage<PropsType> = ({ parties, policies }) => {
 	}, [name]);
 
 	return (
-		<Layout title="พรรคนี้มีอะไรมาขายบ้าง">
-			<div className="relative ">
-				<ModalInfo party={party} />
-				<Intro party={party} />
-				<div className="mt-[10px]">
-					<PercentPolicies policies={displayPolicies} />
-				</div>
-				<div className="py-10 mt-10 border-y border-highlight-2">
-					<div className="flex items-center justify-between ">
-						<p className="font-bold typo-h7">นโยบายไฮไลท์</p>
-						<button className="typo-b4" onClick={handleHotPolicies}>
-							ดูทั้งหมด
-						</button>
+		<>
+			<Metadata />
+			<main>
+				<Layout title="พรรคนี้มีอะไรมาขายบ้าง">
+					<div className="relative ">
+						<ModalInfo party={party} />
+						<Intro party={party} />
+						<div className="mt-[10px]">
+							<PercentPolicies policies={displayPolicies} />
+						</div>
+						<div className="py-10 mt-10 border-y border-highlight-2">
+							<div className="flex items-center justify-between ">
+								<p className="font-bold typo-h7">นโยบายไฮไลท์</p>
+								<button className="typo-b4" onClick={handleHotPolicies}>
+									ดูทั้งหมด
+								</button>
+							</div>
+							<TemplatePolicyList
+								policyList={hotPolicies}
+								partyList={parties}
+							/>
+						</div>
+						<p className="mt-10 font-bold typo-h6">นโยบายตามประเด็น</p>
+						<TemplatePolicyList
+							policyList={displayPolicies}
+							partyList={parties}
+						>
+							<Dropdown
+								options={optionPolicies}
+								currentOption={chooseTopic}
+								onSelect={setChooseTopic}
+							/>
+							<div className="flex justify-between items-center mt-[32px]">
+								<p>เรียงตาม</p>
+								<RandomButton onClick={onClickShuffle} />
+							</div>
+						</TemplatePolicyList>
 					</div>
-					<TemplatePolicyList policyList={hotPolicies} partyList={parties} />
-				</div>
-				<p className="mt-10 font-bold typo-h6">นโยบายตามประเด็น</p>
-				<TemplatePolicyList policyList={displayPolicies} partyList={parties}>
-					<Dropdown
-						options={optionPolicies}
-						currentOption={chooseTopic}
-						onSelect={setChooseTopic}
-					/>
-					<div className="flex justify-between items-center mt-[32px]">
-						<p>เรียงตาม</p>
-						<RandomButton onClick={onClickShuffle} />
-					</div>
-				</TemplatePolicyList>
-			</div>
-		</Layout>
+				</Layout>
+			</main>
+		</>
 	);
 };
 

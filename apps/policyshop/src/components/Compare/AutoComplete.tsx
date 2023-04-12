@@ -69,6 +69,14 @@ const AutoComplete: FunctionComponent<PropsType> = ({
 		}
 	};
 
+	const getBorderColor = (): string => {
+		let borderColor = 'var(--color-black)';
+		if (expand) {
+			borderColor = 'var(--color-highlight-2)';
+		}
+		return borderColor;
+	};
+
 	useEffect(() => {
 		if (!showList) {
 			const regex = new RegExp(
@@ -87,7 +95,7 @@ const AutoComplete: FunctionComponent<PropsType> = ({
 			<div
 				className={`flex items-center justify-between px-[16px] py-[10px] bg-[var(--color-white)] border-[3px] rounded-[50px]`}
 				onClick={() => onClickDD()}
-				style={{ borderColor: 'var(--color-black)' }}
+				style={{ borderColor: getBorderColor() }}
 			>
 				<input
 					placeholder={placeholder}
@@ -110,18 +118,30 @@ const AutoComplete: FunctionComponent<PropsType> = ({
 				/>
 			</div>
 			{expand && (
-				<div className="absolute w-full max-h-[300px] overflow-y-auto z-50 mt-[12px] p-[15px] bg-[var(--color-white)] border-[3px] border-[var(--color-black)] rounded-[10px]">
-					{displayOptions.map((item, index) => {
-						return (
-							<div
-								className="[&:not(:first-child)]:border-t-[1px] border-[var(--color-black)] py-[5px] hover:cursor-pointer hover:bg-[var(--color-gray-1)]"
-								key={`option-${index}`}
-								onClick={() => onChangeOption(item)}
-							>
-								{item.label}
-							</div>
-						);
-					})}
+				<div className="absolute w-full max-h-[300px] overflow-y-auto z-50 mt-[12px] p-[15px] bg-[var(--color-highlight-1)] border-[3px] border-[var(--color-black)] rounded-[10px]">
+					{displayOptions.length === 0 ? (
+						<p>ไม่พบข้อมูล</p>
+					) : (
+						displayOptions.map((item, index) => {
+							return (
+								<div
+									key={`option-${index}`}
+									className="hover:cursor-pointer hover:bg-[var(--color-highlight-2)] rounded-[10px]"
+								>
+									<div
+										className="p-[5px]"
+										key={`option-${index}`}
+										onClick={() => onChangeOption(item)}
+									>
+										{item.label}
+									</div>
+									{index !== options.length - 1 && (
+										<hr className="border-t-[1px] border-[var(--color-highlight-2)] w-[98%] mx-auto" />
+									)}
+								</div>
+							);
+						})
+					)}
 				</div>
 			)}
 		</div>

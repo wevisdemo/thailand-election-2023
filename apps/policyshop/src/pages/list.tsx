@@ -9,6 +9,7 @@ import { GetStaticProps, NextPage } from 'next';
 import { memo, useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
 import { useRouter } from 'next/router';
+import Metadata from '@/components/Metadata';
 
 interface PropsType {
 	policies: Policy[];
@@ -207,30 +208,38 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 	}, [selectedParty, selectedTopic]);
 
 	return (
-		<Layout title={title}>
-			<HowToLabel />
-			<Clipboard />
-			{selectedTopic && selectedParty && (
-				<TemplatePolicyList policyList={displayPolicies} partyList={parties}>
-					<div className="flex flex-col md:flex-row gap-[16px]">
-						<Dropdown
-							options={optionTopics}
-							currentOption={selectedTopic}
-							onSelect={setSelectedTopic}
-						/>
-						<Dropdown
-							options={optionParties}
-							currentOption={selectedParty}
-							onSelect={setSelectedParty}
-						/>
-					</div>
-					<div className="flex justify-between items-center mt-[32px]">
-						<p>เรียงตาม</p>
-						<RandomButton onClick={onClickShuffle} />
-					</div>
-				</TemplatePolicyList>
-			)}
-		</Layout>
+		<>
+			<Metadata />
+			<main>
+				<Layout title={title}>
+					<HowToLabel />
+					<Clipboard />
+					{selectedTopic && selectedParty && (
+						<TemplatePolicyList
+							policyList={displayPolicies}
+							partyList={parties}
+						>
+							<div className="flex flex-col md:flex-row gap-[16px]">
+								<Dropdown
+									options={optionTopics}
+									currentOption={selectedTopic}
+									onSelect={setSelectedTopic}
+								/>
+								<Dropdown
+									options={optionParties}
+									currentOption={selectedParty}
+									onSelect={setSelectedParty}
+								/>
+							</div>
+							<div className="flex justify-between items-center mt-[32px]">
+								<p>เรียงตาม</p>
+								<RandomButton onClick={onClickShuffle} />
+							</div>
+						</TemplatePolicyList>
+					)}
+				</Layout>
+			</main>
+		</>
 	);
 };
 
