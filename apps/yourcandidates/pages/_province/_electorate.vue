@@ -7,7 +7,7 @@
       class="popup flex flex-col justify-center items-center relative"
     >
       <div
-        class="relative w-4/5 h-4/5 overflow-y-scroll"
+        class="relative w-4/5 h-4/5 overflow-y-scroll scrollbar"
         style="max-width: 650px; border-radius: 10px"
       >
         <VoteInstruction />
@@ -412,5 +412,8 @@ export default {
   &:hover {
     transform: rotate(3deg);
   }
+}
+.scrollbar::-webkit-scrollbar {
+  display: none;
 }
 </style>
