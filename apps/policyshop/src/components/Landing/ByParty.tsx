@@ -8,7 +8,7 @@ const ByParty: FC<ByPartyProps> = ({ parties }) => {
 	return (
 		<div className="container pt-20 mx-auto" id="ByParty">
 			<p className="px-4 py-2 font-bold typo-h6 bg-highlight-2">
-				ดูนโยบายตามพรรค
+				นโยบายตามพรรค
 			</p>
 			<div className="grid justify-center grid-cols-4 m-auto text-center w-fit">
 				{parties?.map((d: Party) => (

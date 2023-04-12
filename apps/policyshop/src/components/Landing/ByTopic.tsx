@@ -8,7 +8,7 @@ const ByTopic: FC<ByTopicProps> = ({ topics }) => {
 	return (
 		<div className="container relative pt-20 mx-auto" id="ByTopic">
 			<p className="px-4 py-2 font-bold typo-h6 bg-highlight-2">
-				นโยบายตามประเด็นต่าง ๆ
+				นโยบายตามประเด็น
 			</p>
 			<SearchBar />
 			<div className="flex flex-wrap justify-center ">

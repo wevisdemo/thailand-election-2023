@@ -31,19 +31,19 @@ const ShortCut: FC = () => {
 			<p className="mb-2 font-bold typo-b6 ">ทางลัด</p>
 			<a href="#HotTopicPolicy">
 				<ButtonWrapper bgColor="bg-highlight-2" alignItem="items-center">
-					<p>นโยบายประเด็นร้อน คัดมาแล้ว</p>
+					<p>นโยบายประเด็นร้อน</p>
 					<ArrowsType1 />
 				</ButtonWrapper>
 			</a>
 			<a href="#ByTopic">
 				<ButtonWrapper bgColor="bg-highlight-3" alignItem="items-center">
-					<p>ดูนโยบายตามประเด็น</p>
+					<p>นโยบายตามประเด็น</p>
 					<ArrowsType1 />
 				</ButtonWrapper>
 			</a>
 			<a href="#ByParty">
 				<ButtonWrapper bgColor="bg-highlight-2" alignItem="items-center">
-					<p>แต่ละพรรคมีนโยบายอะไรมาขายบ้าง</p>
+					<p>นโยบายตามพรรค</p>
 					<ArrowsType1 />
 				</ButtonWrapper>
 			</a>
@@ -51,19 +51,16 @@ const ShortCut: FC = () => {
 				<Link href={`/compare`} className="flex-1 ">
 					<ButtonWrapper bgColor="bg-highlight-3" styles="w-full">
 						<p>
-							เปรียบเทียบน
+							เปรียบเทียบ
 							<br className="hidden md:block" />
-							โยบายพรรคต่อพรรค
+							นโยบายพรรคต่อพรรค
 						</p>
 						<ArrowsType4 styles="p-1" />
 					</ButtonWrapper>
 				</Link>
 				<div className="flex-1" onClick={() => onOpenModal()}>
 					<ButtonWrapper bgColor="bg-highlight-2">
-						<p>
-							ดูยังไงว่านโยบายไหนจะทำได้จริง <br className="hidden md:block" />
-							นโยบายไหน อาจขายฝัน
-						</p>
+						<p>เส้นทางการผลักดันนโยบาย</p>
 						<ArrowsType4 styles="p-1" />
 					</ButtonWrapper>
 				</div>

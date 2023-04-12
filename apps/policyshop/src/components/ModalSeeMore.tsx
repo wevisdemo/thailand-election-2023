@@ -27,10 +27,7 @@ const ModalSeeMore = () => {
 					<img src={`${imgPrefix}/close.svg`} alt="close" />
 				</button>
 				<div className="flex flex-col items-center h-full mx-auto mt-3 ">
-					<p className="font-bold typo-h6">
-						นโยบายจะทำจริงได้ยังไง <br className="md:hidden" />
-						ทำไงให้ไม่จ้อจี้
-					</p>
+					<p className="font-bold typo-h6">ส้นทางการผลักดันนโยบาย</p>
 					<p className="mt-8 ">
 						เมื่อฤดูกาลการเลือกตั้งมาถึง ทุกพรรคก็จะเริ่มออกมาหาเสียง
 						ออกมาขายนโยบายต่าง ๆ ของตัวเอง

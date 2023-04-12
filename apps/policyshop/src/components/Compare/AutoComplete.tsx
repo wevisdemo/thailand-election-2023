@@ -99,7 +99,6 @@ const AutoComplete: FunctionComponent<PropsType> = ({
 						setValue(e.target.value);
 					}}
 				/>
-				{/* <span className={labelClass()}>{getLabel()}</span> */}
 				<img
 					src={`${imgPrefix}/Chevron.svg`}
 					alt="dropdown-arrow"

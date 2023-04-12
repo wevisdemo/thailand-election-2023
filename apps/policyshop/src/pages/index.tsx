@@ -38,10 +38,12 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 	};
 
 	const getPartyOptions = (): IDropdownOption<string>[] => {
-		return parties.map((party) => ({
-			label: party.Name,
-			value: party.Name,
-		}));
+		return parties
+			.map((party) => ({
+				label: party.Name,
+				value: party.Name,
+			}))
+			.sort((i, j) => (i.label < j.label ? -1 : 1));
 	};
 
 	const onSelectParty = (option: IDropdownOption<string>) => {
@@ -81,8 +83,8 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 							/>
 						</div>
 						<div className="flex flex-col items-center my-[40px]">
-							<div className="flex">
-								{/* <WvSharer url={`www.google.com`} /> */}
+							<div className="flex mb-[10px]">
+								<WvSharer url={`www.google.com`} />
 							</div>
 							<p className="font-bold typo-b3">#WeVisElection66</p>
 							<Link href={'/about'}>

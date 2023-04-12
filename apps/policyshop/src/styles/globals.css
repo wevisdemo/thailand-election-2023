@@ -1,4 +1,5 @@
 @import 'tailwindcss/base';
+@import '@wevisdemo/ui/styles/index.css';
 
 html {
 	scroll-behavior: smooth;
@@ -20,6 +21,7 @@ ul {
 
 @import 'tailwindcss/utilities';
 .card-title {
+	line-height: normal;
 	display: -webkit-box !important;
 	/* -webkit-line-clamp: 3; */
 	/* -webkit-box-orient: vertical; */
