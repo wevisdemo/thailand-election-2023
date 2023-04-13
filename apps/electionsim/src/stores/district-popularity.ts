@@ -34,7 +34,10 @@ const createDistrictPopularityStore = () => {
 			)) as RawPopularityRecord[];
 
 			const popularity = popularityRecord.reduce<PopularityTree>(
-				(obj, { province, electorialDistrictNumber, party, points }) => {
+				(
+					obj,
+					{ province, electorialDistrictNumber, party: partyName, points }
+				) => {
 					if (!obj[province]) {
 						obj[province] = {};
 					}
@@ -43,8 +46,12 @@ const createDistrictPopularityStore = () => {
 						obj[province][+electorialDistrictNumber] = [];
 					}
 
+					if (!$party.map.get(partyName)) {
+						party.add({ Name: partyName });
+					}
+
 					obj[province][+electorialDistrictNumber].push({
-						party: $party.map.get(party) as Party,
+						party: $party.map.get(partyName) as Party,
 						points: +points,
 					});
 

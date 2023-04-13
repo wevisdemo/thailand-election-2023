@@ -39,6 +39,20 @@ const createPartiesStore = () => {
 				map,
 			}));
 		},
+		add: (partialParty: Partial<Party>) => {
+			const party = {
+				Name: '',
+				Color: DEFAULT_PARTY_COLOR,
+				PartyGroup: 'ฝ่ายค้าน',
+				Images: null,
+				...partialParty,
+			};
+
+			update(({ list, map }) => ({
+				list: [...list, party],
+				map: map.set(party.Name, party),
+			}));
+		},
 		toggleSide: (partyName?: string) =>
 			update(({ list, ...state }) => ({
 				...state,

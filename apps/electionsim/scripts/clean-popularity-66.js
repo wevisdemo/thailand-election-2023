@@ -16,7 +16,16 @@ const output = popularity
 		ผลคะแนน: 'points',
 	})
 	.derive({
-		party: aq.escape((d) => (d.party === 'อนาคตใหม่' ? 'ก้าวไกล' : d.party)),
+		party: aq.escape(({ party }) => {
+			switch (party) {
+				case 'อนาคตใหม่':
+					return 'ก้าวไกล';
+				case 'ชาติพัฒนา':
+					return 'ชาติพัฒนากล้า';
+				default:
+					return party;
+			}
+		}),
 	});
 
 output.print();
