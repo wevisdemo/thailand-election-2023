@@ -3,7 +3,7 @@
 	import { ScaleAns, input } from '../../stores/input';
 	import { quiz8ToWord } from '../../utils/mapInputToWord';
 	import Dropdown from '../dropdown.svelte';
-	import type { Party } from '@thailand-election-2023/database';
+	import type { Party } from '../../stores/party';
 
 	export let parties: Party[];
 

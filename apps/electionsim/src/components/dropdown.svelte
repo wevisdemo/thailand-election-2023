@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Party } from '@thailand-election-2023/database';
+	import type { Party } from '../stores/party';
 
 	let isOpen = false;
 

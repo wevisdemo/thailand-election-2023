@@ -1,7 +1,7 @@
 import { get, writable } from 'svelte/store';
-import type { Party } from '@thailand-election-2023/database';
 import { csv } from 'd3-fetch';
 import { base } from '$app/paths';
+import type { Party } from '../stores/party';
 import { party } from './party';
 
 interface RawPopularityRecord {

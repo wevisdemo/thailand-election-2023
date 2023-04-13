@@ -11,7 +11,7 @@
 	import type { PartyListTooltipData } from './partylist-tooltip.svelte';
 	import { party } from '../../../stores/party';
 	import { representatives } from '../../../stores/representatives';
-	import type { Party } from '@thailand-election-2023/database';
+	import type { Party } from '../stores/party';
 	import type { Coordinate2D } from './coordinate';
 	import { districtPopularity } from '../../../stores/district-popularity';
 

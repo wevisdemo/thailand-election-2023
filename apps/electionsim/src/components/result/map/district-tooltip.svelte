@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-	import type { Party } from '@thailand-election-2023/database';
+	import type { Party } from '../../../stores/party';
 
 	const DISPLAY_RANK_MAX = 3;
 

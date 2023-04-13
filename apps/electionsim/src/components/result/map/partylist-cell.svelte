@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Party } from '@thailand-election-2023/database';
+	import type { Party } from '../../../stores/party';
 	import type { Coordinate2D } from './coordinate';
 	import type { PartyListTooltipData } from './partylist-tooltip.svelte';
 

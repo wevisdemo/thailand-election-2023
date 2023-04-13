@@ -1,10 +1,11 @@
 import { writable } from 'svelte/store';
 import { TheyWorkForUs } from '@thailand-election-2023/database';
-import type { Party } from '@thailand-election-2023/database';
+import type { Party as FullParty } from '@thailand-election-2023/database';
 import { PartySide } from '@thailand-election-2023/database';
 
-type PartyMap = Map<Party['Name'], Party>;
+export type Party = Pick<FullParty, 'Name' | 'Color' | 'PartyGroup' | 'Images'>;
 
+type PartyMap = Map<Party['Name'], Party>;
 interface PartyStore {
 	list: Party[];
 	map: PartyMap;
@@ -23,7 +24,7 @@ const createPartiesStore = () => {
 		load: async () => {
 			const list = (
 				await TheyWorkForUs.Parties.fetchAll({
-					fields: 'Name,Color,PartyGroup',
+					fields: 'Name,Color,PartyGroup,Images',
 					where: '(PartyType,eq,พรรค)',
 				})
 			).map(({ Color, ...rest }) => ({

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import type { RepresentativeRecord } from '../../stores/representatives';
-	import type { Party } from '@thailand-election-2023/database';
+	import type { Party } from '../../stores/party';
 	import GovernmentChartLabel from './government-chart-label.svelte';
 
 	export let representativeRecord: RepresentativeRecord[];
