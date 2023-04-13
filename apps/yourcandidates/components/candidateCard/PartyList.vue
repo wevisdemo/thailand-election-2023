@@ -78,7 +78,7 @@ export default {
   border-bottom: 1px solid var(--color-gray-2);
 }
 .scrollbar::-webkit-scrollbar {
-  width: 11px;
+  width: 5px;
 }
 
 .scrollbar::-webkit-scrollbar-button {
@@ -86,16 +86,14 @@ export default {
 }
 
 .scrollbar::-webkit-scrollbar-track {
-  /* background-color: var(--color-white); */
   position: absolute;
   background: transparent;
 
 }
 
 .scrollbar::-webkit-scrollbar-thumb {
-  background-color: var(--color-gray-3);
-  border: 4px solid var(--color-white);
-  border-radius: 16px;
+  background-color: var(--color-gray-2);
+  border-radius: 10px;
 }
 
 .col-name {
