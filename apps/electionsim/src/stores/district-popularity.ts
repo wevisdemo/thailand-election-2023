@@ -20,7 +20,7 @@ interface PopularityTree {
 	[province: string]: { [district: string]: PopularityRecord[] };
 }
 
-const BASE_POPULARITY_PATH = `${base}/data/popularity-2562.csv`; // POPULARITY MUST ORDER BY SCORE DESC
+const BASE_POPULARITY_PATH = `${base}/data/popularity-projection-2566.csv`; // POPULARITY MUST ORDER BY SCORE DESC
 
 const createDistrictPopularityStore = () => {
 	const { subscribe, update } = writable<PopularityTree>({});
