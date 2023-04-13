@@ -138,12 +138,18 @@ interface CredenResult {
 }
 [];
 
+type CredenResponse = {
+	success: boolean;
+	msg?: string;
+	data: CredenResult[];
+};
+
 const delayedFetch = (request: Function, delay: number) => {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
 			request()
-				.then((res) => resolve(res))
-				.catch((err) => reject(err));
+				.then((res: Promise<CredenResponse>) => resolve(res))
+				.catch((err: any) => reject(err));
 		}, delay);
 	});
 };
