@@ -45,7 +45,15 @@
 	<div class="flex justify-center flex-wrap gap-x-6">
 		{#each governmentParties as { party, total }}
 			<div class="flex flex-col items-center">
-				<div class="w-16 h-16" style="background-color: {party.Color};" />
+				<div class="w-16 h-16" style="background-color: {party.Color};">
+					{#if party.Images}
+						<img
+							class="w-16 h-16"
+							src={party.Images[0].url}
+							alt={party.Images[0].title}
+						/>
+					{/if}
+				</div>
 				<h6 class="typo-b6 mt-1">{party.Name}</h6>
 				<h6 class="typo-b6">{total}</h6>
 			</div>
@@ -58,7 +66,15 @@
 	<div class="flex justify-center flex-wrap gap-x-6">
 		{#each oppositionParties as { party, total }}
 			<div class="flex flex-col items-center">
-				<div class="w-8 h-8" style="background-color: {party.Color};" />
+				<div class="w-16 h-16" style="background-color: {party.Color};">
+					{#if party.Images}
+						<img
+							class="w-16 h-16"
+							src={party.Images[0].url}
+							alt={party.Images[0].title}
+						/>
+					{/if}
+				</div>
 				<h6 class="typo-b6 mt-1">{party.Name}</h6>
 				<h6 class="typo-b6">{total}</h6>
 			</div>
@@ -89,7 +105,7 @@
 			class="beyonx-text-gradient font-bold">ต้องไม่ลืมออกไปเลือกตั้ง</span
 		>
 		<br />
-		กำหนดชะตาประเทศไทย XX พ.ค. 66 นี้
+		กำหนดชะตาประเทศไทย 14 พ.ค. 66 นี้
 	</h4>
 	<div class="flex items-center mt-10 mb-5">
 		<h4 class="typo-b4 mr-4">ร่วมพัฒนาโดย</h4>
