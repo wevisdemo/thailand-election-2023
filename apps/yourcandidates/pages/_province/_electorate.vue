@@ -28,13 +28,14 @@
           <div class="typo-h7">
             <b> {{ province }} เขตเลือกตั้งที่ {{ electorateNumber }} </b>
           </div>
-          <div
-            v-for="(district, i) in electorate.district_list"
-            :key="i"
-            style="padding-left: 8px"
-          >
-            <li>{{ district }}</li>
-          </div>
+          <ul class="district-list">
+            <li v-for="(district, i) in electorate.districts" :key="i">
+              <b>{{ district.name }}</b>
+              <ul>
+                <li>{{ joinSubDistricts(district) }}</li>
+              </ul>
+            </li>
+          </ul>
         </div>
 
         <button
@@ -270,6 +271,13 @@ export default {
     selectTab(tab) {
       this.tabSelected = tab
     },
+    joinSubDistricts(district) {
+      return district.subDistricts
+        .map((subDistrict) => subDistrict)
+        .sort()
+        .join(', ')
+        .replace(/,([^,]*)$/, ' และ$1')
+    },
   },
   computed: {
     filteredByQueryPeople() {
@@ -415,5 +423,12 @@ export default {
 }
 .scrollbar::-webkit-scrollbar {
   display: none;
+}
+
+.district-list {
+  list-style: disc;
+  & > li {
+    margin-left: 20px;
+  }
 }
 </style>

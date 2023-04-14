@@ -11,8 +11,8 @@
       <span>เขตเลือกตั้งที่ {{ district.electoralDistrictNumber }}</span></b
     >
     <ul>
-      <li v-for="(d, i) in district.district_list" :key="i">
-        {{ d }}
+      <li v-for="(dist, i) in district.districts" :key="i">
+        {{ getDistrictListItemString(dist) }}
       </li>
     </ul>
   </div>
@@ -31,15 +31,35 @@ export default {
   },
   methods: {
     onClickHandler(e) {
-      this.$router.push(this.ahref)
+      this.$router.push(this.aHref)
+    },
+    getDistrictListItemString(district) {
+      if (district.belongsToOneElecDist)
+        return `${this.districtPrefix}${district.name} (ทุก${this.subdistrictPrefix})`
+      else
+        return `${this.districtPrefix}${district.name} (${district.subDistricts.length} ${this.subdistrictPrefix})`
     },
   },
   computed: {
-    ahref() {
+    aHref() {
       return `/${this.district.province}/${this.district.electoralDistrictNumber}`
     },
     elementId() {
       return `electoral-menu-${this.index}`
+    },
+    districtPrefix() {
+      if (this.district.province == 'กรุงเทพมหานคร') {
+        return 'เขต'
+      } else {
+        return 'อำเภอ'
+      }
+    },
+    subdistrictPrefix() {
+      if (this.district.province == 'กรุงเทพมหานคร') {
+        return 'แขวง'
+      } else {
+        return 'ตำบล'
+      }
     },
   },
 }

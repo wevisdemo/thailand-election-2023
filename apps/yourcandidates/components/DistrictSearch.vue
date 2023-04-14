@@ -92,7 +92,7 @@ export default {
     },
     electoralDistrics() {
       if (this.menuLevel == 2) {
-        return getElectorals(this.selectedDistrict.electoral.map((v) => v.fk))
+        return getElectorals(this.selectedDistrict.electoralFk)
       }
       return []
     },
@@ -127,7 +127,7 @@ export default {
     onDistrictSelected(district) {
       this.changeLevel(2)
       this.selectedDistrict = district
-      this.query = `อ. ${district.district} จ. ${district.province}`
+      this.query = `ต. ${district.subDistrict} อ. ${district.district} จ. ${district.province}`
     },
   },
 }

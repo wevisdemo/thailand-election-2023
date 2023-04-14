@@ -5,7 +5,7 @@ const SEARCH_KEYS = ['stringMenu']
 
 const DISTRICT_LIST = districts.map((district) => ({
   ...district,
-  stringMenu: `อ. ${district.district} จ. ${district.province}`,
+  stringMenu: `ต. ${district.subDistrict} อ. ${district.district} จ. ${district.province}`,
 }))
 
 function normalizeSearchQuery(query) {
