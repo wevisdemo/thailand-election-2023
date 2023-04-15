@@ -21,7 +21,7 @@ ul {
 
 @import 'tailwindcss/utilities';
 .card-title {
-	line-height: normal;
+	line-height: 2 !important;
 	display: -webkit-box !important;
 	/* -webkit-line-clamp: 3; */
 	/* -webkit-box-orient: vertical; */
@@ -29,7 +29,7 @@ ul {
 	text-overflow: ellipsis;
 	/* white-space: nowrap; */
 	overflow: hidden;
-	-webkit-line-clamp: 6;
+	-webkit-line-clamp: 5;
 	-webkit-box-orient: vertical;
 }
 
