@@ -5,7 +5,7 @@
 	export let representativeRecord: RepresentativeRecord[];
 	export let year: Tab;
 
-	const MINIMUM_PARTY = 5;
+	const OTHER_PARTY_POINTS_THRESHOLD = 5;
 	const otherParty = {
 		Name: 'อื่นๆ',
 		Color: '#CCCCCC',
@@ -22,7 +22,7 @@
 
 	$: otherPartyResult = representativeRecord.reduce<RepresentativeRecord>(
 		(acc, { fromDistrict, fromPartylist, total }) => {
-			if (total <= MINIMUM_PARTY) {
+			if (total <= OTHER_PARTY_POINTS_THRESHOLD) {
 				acc.fromDistrict += fromDistrict;
 				acc.fromPartylist += fromPartylist;
 				acc.total += total;
@@ -38,7 +38,9 @@
 	);
 
 	$: resultRecord = [
-		...representativeRecord.filter((p) => p.total > 5),
+		...representativeRecord.filter(
+			(p) => p.total > OTHER_PARTY_POINTS_THRESHOLD
+		),
 		otherPartyResult,
 	];
 </script>
