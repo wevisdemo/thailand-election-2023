@@ -224,7 +224,7 @@ export const fetchShareholderData = async (people: Person[]) => {
 		});
 
 	fs.writeFileSync(
-		`./public/data/creden/shareholder/all-company-shareholder.json`,
+		`./public/data/creden/all-company-shareholder.json`,
 		JSON.stringify(company)
 	);
 };
@@ -283,7 +283,7 @@ export const fetchDirectorData = async (people: Person[]) => {
 		});
 
 	fs.writeFileSync(
-		`./public/data/creden/director/all-company-director.json`,
+		`./public/data/creden/all-company-director.json`,
 		JSON.stringify(company)
 	);
 };
