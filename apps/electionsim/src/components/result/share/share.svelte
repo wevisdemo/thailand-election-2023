@@ -2,16 +2,71 @@
 	import { base } from '$app/paths';
 	import type { RepresentativeRecord } from '../../../stores/representatives';
 	import byxMobileLogo from '../../../images/byx-mobile.svg';
+	import type { Party } from '../../../stores/party';
 
 	export let representativeRecord: RepresentativeRecord[];
 	export let governmentParties: RepresentativeRecord[];
 	export let oppositionParties: RepresentativeRecord[];
 	export let governmentPoints: number;
 
+	const OTHER_PARTY_POINTS_THRESHOLD = 5;
+	const otherParty = {
+		Name: 'อื่นๆ',
+		Color: '#CCCCCC',
+	} as Party;
+
 	$: totalPoints = representativeRecord.reduce(
 		(acc, cur) => acc + cur.total,
 		0
 	);
+
+	$: governmentOtherParties = governmentParties.reduce<RepresentativeRecord>(
+		(acc, { fromDistrict, fromPartylist, total }) => {
+			if (total <= OTHER_PARTY_POINTS_THRESHOLD) {
+				acc.fromDistrict += fromDistrict;
+				acc.fromPartylist += fromPartylist;
+				acc.total += total;
+			}
+			return acc;
+		},
+		{
+			party: otherParty,
+			fromDistrict: 0,
+			fromPartylist: 0,
+			total: 0,
+		} as RepresentativeRecord
+	);
+
+	$: oppositionOtherParties = oppositionParties.reduce<RepresentativeRecord>(
+		(acc, { fromDistrict, fromPartylist, total }) => {
+			if (total <= OTHER_PARTY_POINTS_THRESHOLD) {
+				acc.fromDistrict += fromDistrict;
+				acc.fromPartylist += fromPartylist;
+				acc.total += total;
+			}
+			return acc;
+		},
+		{
+			party: otherParty,
+			fromDistrict: 0,
+			fromPartylist: 0,
+			total: 0,
+		} as RepresentativeRecord
+	);
+
+	$: governmentRecord = [
+		...governmentParties
+			.sort((a, b) => b.total - a.total)
+			.filter((p) => p.total > OTHER_PARTY_POINTS_THRESHOLD),
+		governmentOtherParties,
+	];
+
+	$: oppositionRecord = [
+		...oppositionParties
+			.sort((a, b) => b.total - a.total)
+			.filter((p) => p.total > OTHER_PARTY_POINTS_THRESHOLD),
+		oppositionOtherParties,
+	];
 </script>
 
 <div class="flex flex-col items-center w-[312px] md:w-[650px] py-10">
@@ -43,15 +98,22 @@
 		<h6 class="typo-h6">({governmentPoints})</h6>
 	</div>
 	<div class="flex justify-center flex-wrap gap-x-6">
-		{#each governmentParties as { party, total }}
+		{#each governmentRecord as { party, total }}
 			<div class="flex flex-col items-center">
-				<div class="w-16 h-16" style="background-color: {party.Color};">
+				<div
+					class="w-16 h-16 flex items-center justify-center gap-x-1"
+					style="background-color: {party.Color};"
+				>
 					{#if party.Images}
 						<img
 							class="w-16 h-16"
 							src={party.Images[0].url}
 							alt={party.Images[0].title}
 						/>
+					{:else}
+						<div class="w-1 h-1 bg-white rounded-full" />
+						<div class="w-1 h-1 bg-white rounded-full" />
+						<div class="w-1 h-1 bg-white rounded-full" />
 					{/if}
 				</div>
 				<h6 class="typo-b6 mt-1">{party.Name}</h6>
@@ -64,15 +126,22 @@
 		<h6 class="typo-h7">({totalPoints - governmentPoints})</h6>
 	</div>
 	<div class="flex justify-center flex-wrap gap-x-6">
-		{#each oppositionParties as { party, total }}
+		{#each oppositionRecord as { party, total }}
 			<div class="flex flex-col items-center">
-				<div class="w-16 h-16" style="background-color: {party.Color};">
+				<div
+					class="w-16 h-16 flex items-center justify-center gap-x-1"
+					style="background-color: {party.Color};"
+				>
 					{#if party.Images}
 						<img
 							class="w-16 h-16"
 							src={party.Images[0].url}
 							alt={party.Images[0].title}
 						/>
+					{:else}
+						<div class="w-1 h-1 bg-white rounded-full" />
+						<div class="w-1 h-1 bg-white rounded-full" />
+						<div class="w-1 h-1 bg-white rounded-full" />
 					{/if}
 				</div>
 				<h6 class="typo-b6 mt-1">{party.Name}</h6>

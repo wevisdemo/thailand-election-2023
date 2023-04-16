@@ -26,6 +26,17 @@ const createResultElect62Store = () => {
 
 			const resultElect62 = resultElect62Record.reduce<RepresentativeRecord[]>(
 				(result, { party: partyName, district, partylist }) => {
+					if (partyName === 'อนาคตใหม่') {
+						return [
+							...result,
+							{
+								party: $party.map.get('ก้าวไกล') as Party,
+								fromDistrict: parseInt(district),
+								fromPartylist: parseInt(partylist),
+								total: parseInt(district) + parseInt(partylist),
+							},
+						];
+					}
 					if (!$party.map.get(partyName)) {
 						party.add({ Name: partyName });
 					}

@@ -18,6 +18,60 @@
 	let hoveredPartyName: Party | null = null;
 	let isExpand = false;
 
+	const OTHER_PARTY_POINTS_THRESHOLD = 5;
+	const otherParty = {
+		Name: 'อื่นๆ',
+		Color: '#CCCCCC',
+	} as Party;
+
+	$: governmentOtherParties = governmentParties.reduce<RepresentativeRecord>(
+		(acc, { fromDistrict, fromPartylist, total }) => {
+			if (total <= OTHER_PARTY_POINTS_THRESHOLD) {
+				acc.fromDistrict += fromDistrict;
+				acc.fromPartylist += fromPartylist;
+				acc.total += total;
+			}
+			return acc;
+		},
+		{
+			party: otherParty,
+			fromDistrict: 0,
+			fromPartylist: 0,
+			total: 0,
+		} as RepresentativeRecord
+	);
+
+	$: oppositionOtherParties = oppositionParties.reduce<RepresentativeRecord>(
+		(acc, { fromDistrict, fromPartylist, total }) => {
+			if (total <= OTHER_PARTY_POINTS_THRESHOLD) {
+				acc.fromDistrict += fromDistrict;
+				acc.fromPartylist += fromPartylist;
+				acc.total += total;
+			}
+			return acc;
+		},
+		{
+			party: otherParty,
+			fromDistrict: 0,
+			fromPartylist: 0,
+			total: 0,
+		} as RepresentativeRecord
+	);
+
+	$: governmentRecord = [
+		...governmentParties
+			.sort((a, b) => b.total - a.total)
+			.filter((p) => p.total > OTHER_PARTY_POINTS_THRESHOLD),
+		governmentOtherParties,
+	];
+
+	$: oppositionRecord = [
+		...oppositionParties
+			.sort((a, b) => b.total - a.total)
+			.filter((p) => p.total > OTHER_PARTY_POINTS_THRESHOLD),
+		oppositionOtherParties,
+	];
+
 	const toggleIsExpand = () => (isExpand = !isExpand);
 </script>
 
@@ -195,7 +249,7 @@
 							<p class="hidden md:block">)</p>
 						</div>
 					</div>
-					{#each governmentParties as { party, total }}
+					{#each governmentRecord as { party, total }}
 						<div
 							class="flex flex-wrap items-center border-b border-opacity-40 pb-[10px] mt-[10px]"
 							style="border-color: rgba(255, 255, 255, 0.4);"
@@ -257,7 +311,7 @@
 						</div>
 						<h7 class="typo-h7 font-bold ml-1 w-full md:w-auto">ฝ่ายค้าน </h7>
 					</div>
-					{#each oppositionParties as { party, total }}
+					{#each oppositionRecord as { party, total }}
 						<div
 							class="flex items-center border-b border-opacity-40 pb-[10px] mt-[10px] flex-wrap-reverse"
 							style="border-color: rgba(255, 255, 255, 0.4);"
