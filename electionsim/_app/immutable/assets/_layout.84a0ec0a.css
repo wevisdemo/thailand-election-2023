@@ -360,6 +360,9 @@
 .h-screen {
 		height: 100vh;
 }
+.w-1 {
+		width: 0.25rem;
+}
 .w-1\/2 {
 		width: 50%;
 }
@@ -508,6 +511,10 @@
 }
 .justify-between {
 		justify-content: space-between;
+}
+.gap-x-1 {
+		-moz-column-gap: 0.25rem;
+		     column-gap: 0.25rem;
 }
 .gap-x-2 {
 		-moz-column-gap: 0.5rem;
