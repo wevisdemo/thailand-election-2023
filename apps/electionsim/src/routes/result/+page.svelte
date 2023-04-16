@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	import { districtPopularity } from '../../stores/district-popularity';
+	import { resultElect62 } from '../../stores/result-elect-62';
 	import { party } from '../../stores/party';
 	import type { RepresentativeRecord } from '../../stores/representatives';
 	import { PartySide } from '@thailand-election-2023/database';
@@ -21,6 +22,7 @@
 	onMount(async () => {
 		await party.load();
 		await districtPopularity.load();
+		await resultElect62.load();
 		isDataReady = true;
 	});
 
@@ -107,7 +109,7 @@
 					<div class="container">
 						<Graph
 							elect66Record={$representatives}
-							elect62Record={$representatives}
+							elect62Record={$resultElect62}
 						/>
 					</div>
 				{/if}
