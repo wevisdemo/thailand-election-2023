@@ -3,6 +3,7 @@ import { csv } from 'd3-fetch';
 import { base } from '$app/paths';
 import type { Party } from '../stores/party';
 import { party } from './party';
+import { Voteflow } from '../utils/voteflow';
 
 interface RawPopularityRecord {
 	province: string;
@@ -16,11 +17,13 @@ export interface PopularityRecord {
 	points: number;
 }
 
-interface PopularityTree {
+export interface PopularityTree {
 	[province: string]: { [district: string]: PopularityRecord[] };
 }
 
 const BASE_POPULARITY_PATH = `${base}/data/popularity-projection-2566.csv`; // POPULARITY MUST ORDER BY SCORE DESC
+
+let basePopularity: PopularityTree;
 
 const createDistrictPopularityStore = () => {
 	const { subscribe, update } = writable<PopularityTree>({});
@@ -33,7 +36,7 @@ const createDistrictPopularityStore = () => {
 				BASE_POPULARITY_PATH
 			)) as RawPopularityRecord[];
 
-			const popularity = popularityRecord.reduce<PopularityTree>(
+			basePopularity = popularityRecord.reduce<PopularityTree>(
 				(
 					obj,
 					{ province, electorialDistrictNumber, party: partyName, points }
@@ -60,10 +63,17 @@ const createDistrictPopularityStore = () => {
 				{}
 			);
 
-			update(() => popularity);
+			update(() => basePopularity);
 		},
 		calculate() {
-			// TODO: Re-Calculate from input store
+			const voteflow = new Voteflow();
+
+			voteflow.updateVoteFlow('พลังประชารัฐ', 'ก้าวไกล', 0.2);
+			voteflow.updateVoteFlow('พลังประชารัฐ', 'เพื่อไทย', 0.1);
+
+			console.log(voteflow.matrix['พลังประชารัฐ']);
+
+			update(() => voteflow.calculateVoteFlowResult(basePopularity));
 		},
 	};
 };
