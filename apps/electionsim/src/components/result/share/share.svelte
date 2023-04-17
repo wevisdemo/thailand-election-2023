@@ -8,6 +8,7 @@
 	export let governmentParties: RepresentativeRecord[];
 	export let oppositionParties: RepresentativeRecord[];
 	export let governmentPoints: number;
+	export let toggleIsShare: () => void;
 
 	const OTHER_PARTY_POINTS_THRESHOLD = 5;
 	const otherParty = {
@@ -59,37 +60,60 @@
 			.sort((a, b) => b.total - a.total)
 			.filter((p) => p.total > OTHER_PARTY_POINTS_THRESHOLD),
 		governmentOtherParties,
-	];
+	].filter((p) => p.total > 0);
 
 	$: oppositionRecord = [
 		...oppositionParties
 			.sort((a, b) => b.total - a.total)
 			.filter((p) => p.total > OTHER_PARTY_POINTS_THRESHOLD),
 		oppositionOtherParties,
-	];
+	].filter((p) => p.total > 0);
 </script>
 
 <div class="flex flex-col items-center w-[312px] md:w-[650px] py-10">
-	<a
-		href="{base}/result"
-		class="flex self-start items-center typo-b5 text-byx-blue mb-5 cursor-pointer"
-	>
-		<svg
-			width="25"
-			height="25"
-			viewBox="0 0 25 25"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
+	<div class="flex w-full">
+		<a
+			on:click={toggleIsShare}
+			class="flex items-center typo-b5 text-byx-blue mb-5 cursor-pointer mr-4"
 		>
-			<path
-				fill-rule="evenodd"
-				clip-rule="evenodd"
-				d="M8.16098 12.98L15.362 5.77999L16.3701 6.78799L10.1773 12.98L16.3701 19.172L15.362 20.18L8.16098 12.98Z"
-				fill="#0000FF"
-			/>
-		</svg>
-		ย้อนกลับ
-	</a>
+			<svg
+				width="25"
+				height="25"
+				viewBox="0 0 25 25"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M8.16098 12.98L15.362 5.77999L16.3701 6.78799L10.1773 12.98L16.3701 19.172L15.362 20.18L8.16098 12.98Z"
+					fill="#0000FF"
+				/>
+			</svg>
+			ย้อนกลับ
+		</a>
+		<a
+			href="{base}/"
+			class="flex items-center typo-b5 text-byx-blue mb-5 cursor-pointer"
+		>
+			<svg
+				width="21"
+				height="21"
+				viewBox="0 0 21 21"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				class="mr-1"
+			>
+				<path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M10.3847 1.88124C10.1575 1.70174 9.83682 1.70174 9.60967 1.88124L0.628418 8.88749L1.40342 9.87499L2.50342 9.01249V16.75C2.50342 17.4403 3.06306 18 3.75342 18H16.2534C16.9438 18 17.5034 17.4403 17.5034 16.75V9.01874L18.6034 9.87499L19.3784 8.89374L10.3847 1.88124ZM11.2534 16.75H8.75342V11.75H11.2534V16.75ZM12.5034 16.75V11.75C12.5034 11.0596 11.9438 10.5 11.2534 10.5H8.75342C8.06306 10.5 7.50342 11.0596 7.50342 11.75V16.75H3.75342V8.03749L10.0034 3.16874L16.2534 8.04374V16.75H12.5034Z"
+					fill="#0000FF"
+				/>
+			</svg>
+			หน้าแรก
+		</a>
+	</div>
 	<h4 class="typo-h4 font-bold beyonx-text-gradient text-center">
 		โฉมหน้า #สภา66 <br class="hidden md:inline" />จากการวิเคราะห์ของคุณ
 	</h4>

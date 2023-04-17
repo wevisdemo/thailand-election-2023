@@ -11,6 +11,8 @@
 	import GovernmentEstablish from '../../components/result/government-establish.svelte';
 	import Graph from '../../components/result/graph/graph.svelte';
 	import WaffleMap from '../../components/result/map/waffle-map.svelte';
+	import CalculateLoading from '../../components/analyze/calculate.svelte';
+	import Share from '../../components/result/share/share.svelte';
 
 	enum Tabs {
 		Map = 'map',
@@ -18,22 +20,25 @@
 	}
 
 	let isDataReady = false;
+	let isShare = false;
 
 	onMount(async () => {
 		await party.load();
 		await districtPopularity.load();
 		await resultElect62.load();
+		setTimeout(() => {}, 2000);
 		isDataReady = true;
 	});
 
 	$: selectedTab = Tabs.Map;
+	$: partiesClone = $party.list;
 
 	$: [governmentParties, oppositionParties, governmentPoints] =
 		$representatives.reduce<
 			[RepresentativeRecord[], RepresentativeRecord[], number]
 		>(
 			([government, opposition, governmentPoints], party) =>
-				$party.list.find(({ Name }) => party.party.Name === Name)
+				partiesClone.find(({ Name }) => party.party.Name === Name)
 					?.PartyGroup === PartySide.Government
 					? [[...government, party], opposition, governmentPoints + party.total]
 					: [government, [party, ...opposition], governmentPoints],
@@ -47,9 +52,31 @@
 	const onEditQuiz = () => {
 		contentManager.updateContent(Content.EditQuiz);
 	};
+
+	const toggleIsShare = () => {
+		isShare = !isShare;
+	};
+
+	const toggleParty = (partyName?: string) => {
+		partiesClone = partiesClone.map((party) =>
+			!partyName || party.Name === partyName
+				? {
+						...party,
+						PartyGroup:
+							party.PartyGroup === PartySide.Government
+								? PartySide.Opposition
+								: PartySide.Government,
+				  }
+				: party
+		);
+	};
 </script>
 
-{#if isDataReady}
+{#if !isDataReady}
+	<CalculateLoading />
+{/if}
+
+{#if isDataReady && !isShare}
 	<div class="h-screen flex flex-col relative">
 		<div class="w-full h-1 beyondx-gradient-bg" />
 		<div class="flex-1 flex flex-col items-center pt-10">
@@ -120,8 +147,27 @@
 			{governmentParties}
 			{oppositionParties}
 			{governmentPoints}
-			toggleSide={party.toggleSide}
+			toggleSide={toggleParty}
+			{toggleIsShare}
 		/>
+	</div>
+{/if}
+
+{#if isShare}
+	<div class="h-full flex flex-col">
+		<election-header />
+		<div class="w-full h-1 beyondx-gradient-bg" />
+		<div class="flex-1 flex justify-center items-center">
+			<Share
+				representativeRecord={$representatives}
+				{governmentParties}
+				{oppositionParties}
+				{governmentPoints}
+				{toggleIsShare}
+			/>
+		</div>
+		<election-bottom index-path={base} about-path="{base}/about" />
+		<election-footer />
 	</div>
 {/if}
 
