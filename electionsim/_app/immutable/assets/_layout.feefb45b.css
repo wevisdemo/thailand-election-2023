@@ -556,9 +556,6 @@
 		margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
 		margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
-.self-start {
-		align-self: flex-start;
-}
 .overflow-scroll {
 		overflow: scroll;
 }
