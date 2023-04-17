@@ -4,17 +4,20 @@ Monorepo for Thailand Election 2023 projects using [Turborepo](https://turbo.bui
 
 ## 🌎 Environments
 
+- Production: https://election66.wevis.info
 - Staging: https://staging.election66.wevis.info
-- Production: _Not deployed yet_
 
 ## 🍱 Directory structure
 
 - **/apps** - Application for each project.
 
+  - [designyourmp](apps/designyourmp) - Design your dream representative
   - [electionsim](apps/electionsim) - Election simulation
-  - [theyworkforyou](apps/theyworkforyou) - Your candidate matching quizes
-  - [yourcandidates](apps/yourcandidates) - Look Up Your Candidates
+  - [landing](apps/landing) - Landing page with projects directory
   - [mpasset](apps/mpasset) - MP asset (Politician-asset)
+  - [theyworkforyou](apps/theyworkforyou) - Your candidate matching quizes
+  - [underconstruction](apps/underconstruction) - Dummy page for coming soon project
+  - [yourcandidates](apps/yourcandidates) - Look Up Your Candidates
 
 - **/packages** - Packages shared between apps
 
@@ -104,4 +107,4 @@ Note that `...` at the end is nessesary to run dependencies script as well. With
 
 ## 🤝 License and Terms of Use
 
-อ่านรายละเอียดได้ที่ [ข้อตกลงในการใช้งาน (Terms of Use)](https://wevis.info/terms-of-use/)
+Read more at [WeVis's Terms of Use](https://wevis.info/terms-of-use/) (in Thai)
