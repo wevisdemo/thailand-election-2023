@@ -2,6 +2,7 @@ import electoral_district_table from './data/electoral_district_table.json'
 const TITLE = 'เลือกตั้ง 66 รอบนี้มีอะไรให้เลือกบ้าง?'
 const DESCRIPTION = 'ค้นหาผู้สมัคร ส.ส. และพรรคการเมืองในเขต/อำเภอบ้านคุณ'
 const PROD_URL = 'https://election66.wevis.info/yourcandidates'
+const IMAGE = `${PROD_URL}/og.png`
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -27,11 +28,7 @@ export default {
         content: DESCRIPTION,
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      {
-        hid: 'og:image',
-        property: 'og:image',
-        content: '/yourcandidates/og.png',
-      },
+      { hid: 'og:image', property: 'og:image', content: IMAGE },
       { hid: 'og:url', property: 'og:url', content: PROD_URL },
       { hid: 'twitter:title', name: 'twitter:title', content: TITLE },
       {
@@ -39,11 +36,7 @@ export default {
         name: 'twitter:description',
         content: DESCRIPTION,
       },
-      {
-        hid: 'twitter:image',
-        name: 'twitter:image',
-        content: '/yourcandidates/og.png',
-      },
+      { hid: 'twitter:image', name: 'twitter:image', content: IMAGE },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
