@@ -51,4 +51,5 @@ export interface CredenData {
     Firstname: string;
   }[];
   count_shareholder: number;
+  gov_fund_proj: []
 }

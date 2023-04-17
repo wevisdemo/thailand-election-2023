@@ -14,56 +14,11 @@ import { placeZerosAtEnd } from '../util/calculation'
 
 type Props = {}
 
-const customParty: Party[] = [{
-  Name: 'ทุกพรรค',
-  Color: null,
-  PartyType: null,
-  PartyOrdinal: null,
-  PartyGroup: 'ทุกพรรค',
-  Description: 'ทุกพรรค',
-  EstablishedDate: '',
-  DissolvedDate: null,
-  Speaker: null,
-  FirstDeputySpeaker: null,
-  SecondDeputySpeaker: null,
-  Whip: null,
-  OppositionLeader: null,
-  PartyLeader: null,
-  PartySecretary: null,
-  Website: null,
-  Facebook: null,
-  Twitter: null,
-  IsActive: null,
-  Id: -1,
-  EnName: null,
-  Images: null,
-},
-{
-  Name: 'ไม่สังกัดพรรค',
-  Color: null,
-  PartyType: null,
-  PartyOrdinal: null,
-  PartyGroup: 'ไม่สังกัดพรรค',
-  Description: 'ไม่สังกัดพรรค',
-  EstablishedDate: '',
-  DissolvedDate: null,
-  Speaker: null,
-  FirstDeputySpeaker: null,
-  SecondDeputySpeaker: null,
-  Whip: null,
-  OppositionLeader: null,
-  PartyLeader: null,
-  PartySecretary: null,
-  Website: null,
-  Facebook: null,
-  Twitter: null,
-  IsActive: null,
-  Id: -1,
-  EnName: null,
-  Images: null,
+enum VIEW_TYPE {
+  MAIN_VIEW = 0,
+  SELCTED_PERSON_CHART = 1,
+  SELECTED_COMPANY_CHART = 2
 }
-]
-
 
 
 const Section3 = (props: Props) => {
@@ -75,17 +30,30 @@ const Section3 = (props: Props) => {
   })
   const [isLoading, setIsLoading] = React.useState(true)
 
+  const [filterPerson, setFilterPerson] = React.useState<PersonCustom[]>([])
+
   const { person, setPerson, selectedPerson, setPersonOutlier, personOutlier,
     party, setParty } = usePersonStore();
+
+  const [view, setView] = React.useState(VIEW_TYPE.MAIN_VIEW)
 
 
   const fetchFromGit = React.useCallback(async () => {
     await d3.json<PersonCustom[]>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/people.json').then((value) => {
       if (value) {
-        let sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
-        setPerson(sortArray.slice(1))
+        value.forEach((d) => {
+          d.totalValueShare = d.totalValueShare || 0,
+            d.countCompShare = d.countCompShare || 0,
+            d.countDirector = d.countDirector || 0,
+            d.totalPctShare = d.totalPctShare || 0
+        })
+        let sortArray = value.sort((a, b) => b.totalValueShare - a.totalValueShare)
+        sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
+        console.log('fetch from git');
+
         setPersonOutlier(sortArray.slice(0, 1))
-        setIsLoading(false)
+        setPerson(sortArray.slice(1))
+
       }
     })
   }, [setPerson, setPersonOutlier])
@@ -93,22 +61,23 @@ const Section3 = (props: Props) => {
 
   React.useEffect(() => {
     let ignore = false;
-    if (person.length <= 0 && party.length <= 0)
-
+    if (person.length <= 0 && party.length <= 0) {
       if (!ignore) { fetchFromGit() }
-    // Promise.all([TheyWorkForUs.People.fetchAll(), TheyWorkForUs.Parties.fetchAll()]).then((values) => {
-    //   if (!ignore) {
-    //     setPerson(values[0] as Person[])
-    //     setParty([...customParty, ...values[1].splice(3)] as Party[])
-    //     setIsLoading(false)
-    //   }
-    // });
+    } else
+      setIsLoading(false)
     return () => {
       ignore = true;
     }
   }, [person, setPerson, party, setParty, fetchFromGit])
 
-  // usePersonStore
+  React.useLayoutEffect(() => {
+    if (selectedPerson) {
+      setView(VIEW_TYPE.SELCTED_PERSON_CHART)
+    } else {
+      setView(VIEW_TYPE.MAIN_VIEW)
+    }
+  }, [selectedPerson])
+
 
 
   const [isOpenSearchDialog, setIsOpenSearchDialog] = React.useState(false)
@@ -118,18 +87,19 @@ const Section3 = (props: Props) => {
   return (
     <div className='h-full inset-0 flex flex-col relative overflow-hidden'>
       {
-        !selectedPerson ?
-          <>
-            <Filter selectedFilter={filter} onOpenSeachDialog={setIsOpenSearchDialog} />
-            <div className='flex flex-row justify-between px-[10px]'>
-              <div className='typo-b7 text-gray-3 typo-ibmplex'>*แสดงสีเฉพาะพรรคที่อยู่ในสภาสมัยล่าสุด</div>
-              <div className='typo-b7 text-right'>ล้านบาท</div>
-            </div>
-            <FirstChart />
-            <SearchPerson open={isOpenSearchDialog} onClose={() => setIsOpenSearchDialog(false)} />
-          </>
-          :
-          <SelectedPersonDetail />
+        view === VIEW_TYPE.MAIN_VIEW &&
+        <>
+          <Filter selectedFilter={filter} onOpenSeachDialog={setIsOpenSearchDialog} />
+          <div className='flex flex-row justify-between px-[10px]'>
+            <div className='typo-b7 text-gray-3 typo-ibmplex'>*แสดงสีเฉพาะพรรคที่อยู่ในสภาสมัยล่าสุด</div>
+            <div className='typo-b7 text-right'>ล้านบาท</div>
+          </div>
+          <FirstChart />
+          <SearchPerson open={isOpenSearchDialog} onClose={() => setIsOpenSearchDialog(false)} />
+        </>
+      }
+      {view === VIEW_TYPE.SELCTED_PERSON_CHART &&
+        <SelectedPersonDetail />
       }
     </div>
   )

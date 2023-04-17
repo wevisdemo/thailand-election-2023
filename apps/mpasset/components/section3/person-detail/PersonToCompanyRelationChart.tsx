@@ -24,62 +24,25 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
 
   const { selectedPerson, directorData, shareholderData } = usePersonStore()
 
+  const chartRef = React.useRef<HTMLDivElement>(null)
   const svgRef = React.useRef<SVGSVGElement>(null);
   const [dataSet, setDataSet] = React.useState<NodeLink>()
-  const [flag, setFlag] = React.useState(true)
-  const [isDirty, setIsDirty] = React.useState(true)
 
-
-  React.useEffect(() => {
-    if (selectedPerson && directorData && shareholderData) {
-      let data: NodeLinkType[] = [
-        {
-          id: `pol-${selectedPerson.Id}`,
-          parentId: '',
-          personData: selectedPerson
-        },
-        ...directorData.map((d) => ({
-          id: `${d.tsic}`,
-          parentId: `pol-${selectedPerson.Id}`,
-          companyData: d
-        })),
-        ...shareholderData.map((d) => ({
-          id: `${d.tsic}`,
-          parentId: `pol-${selectedPerson.Id}`,
-          companyData: d
-        }))
-      ]
-
-      const stratify = d3.stratify<NodeLinkType>().id((d) => d.id).parentId((d) => d.parentId)
-      const root = stratify(data) as NodeLink;
-
-      root.descendants().forEach((d, i) => {
-        d._children = d.children;
-        if (d.depth > 0) d.children = undefined;
-      });
-      setDataSet(root)
-    }
-
-  }, [selectedPerson, directorData, shareholderData])
-
-
-  const handleClickNode = (d: NodeLink) => {
-    if (d.height !== 0) {
-      d.children = d.children ? undefined : d._children
-      setIsDirty(true)
-    }
-  }
-
+  const [chartDimension, setChartDimension] = React.useState({
+    width: 0,
+    height: 0,
+  })
 
   React.useEffect(() => {
+
+    console.log('yeas');
+
     if (dataSet) {
       const root = dataSet
 
-      console.log(root);
-
       const svg = d3.select(svgRef.current);
-      const w = Number(svgRef.current!.parentElement?.clientWidth);
-      const h = Number(svgRef.current!.parentElement?.clientHeight);
+      const w = Number(chartDimension.width);
+      const h = Number(chartDimension.height);
 
       svg.attr("width", w)
       svg.attr("height", h)
@@ -93,8 +56,8 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         .attr("height", HEIGHT)
         .attr("transform", `translate(${MARGIN.LEFT}, ${MARGIN.TOP})`)
 
-      const radius = WIDTH * .45
-      const nodeRadius = WIDTH > 400 ? 40 : 30
+      const radius = WIDTH * .4
+      const nodeRadius = WIDTH > 400 ? 40 : 20
       const tree = d3.tree<NodeLink>().size([2 * Math.PI, radius])
         .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth)
 
@@ -115,6 +78,8 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
       /// ------------ node layer ----------------
       const nodeRoot = chartArea.select('.node-layer')
 
+      nodeRoot.selectAll('g').remove()
+
       const node = nodeRoot.selectAll<SVGAElement, NodeLink>('g')
         .data(root.descendants())
 
@@ -132,7 +97,9 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         .attr('rx', '5')
         .attr('width', nodeRadius)
         .attr('height', nodeRadius)
-        .attr('fill', '#000')
+        .attr('fill', (d) => d.data.companyData?.gov_fund_proj ? '#000' : 'white')
+        .attr('stroke', '#000')
+        .attr('stroke-weight', '2px')
         .transition(transition)
         .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y - nodeRadius * .5}, ${- nodeRadius * .5})`)
         .attr("fill-opacity", 1)
@@ -140,6 +107,8 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
 
       /// ------------ link layer ----------------
       const linkRoot = chartArea.select<SVGGElement>('.link-layer')
+
+      linkRoot.selectAll('line').remove()
 
       const link = linkRoot.selectAll<SVGAElement, NodeLink>('.link')
         .data(root.links() as d3.HierarchyLink<NodeLinkType>[])
@@ -231,26 +200,76 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
           .attr('width', logoSize)
           .attr('height', logoSize)
           .attr('rx', 49)
-          .attr('stroke', '#000')
+          .attr('stroke', rootNode.Party ? '#000' : 'transparent')
           .attr('stroke-width', "2")
           .attr("fill", "url(#pattern_party_avatar" + rootNode.Party?.Id + ")")
-          .attr('stroke', 'black')
 
 
       }
+
       root.eachBefore(d => {
         if (d.parent) {
           d.x0 = d.parent.x;
           d.y0 = d.parent.y;
         }
       });
-      setIsDirty(false)
     }
 
-  }, [svgRef, dataSet, flag, isDirty]);
+  }, [svgRef, dataSet, chartDimension]);
+
+
+  React.useEffect(() => {
+    if (selectedPerson && directorData && shareholderData) {
+      let data: NodeLinkType[] = [
+        {
+          id: `pol-${selectedPerson.Id}`,
+          parentId: '',
+          personData: selectedPerson
+        },
+        ...directorData.map((d) => ({
+          id: `${d.tsic}`,
+          parentId: `pol-${selectedPerson.Id}`,
+          companyData: d
+        })),
+        ...shareholderData.map((d) => ({
+          id: `${d.tsic}`,
+          parentId: `pol-${selectedPerson.Id}`,
+          companyData: d
+        }))
+      ]
+
+      const stratify = d3.stratify<NodeLinkType>().id((d) => d.id).parentId((d) => d.parentId)
+      const root = stratify(data) as NodeLink;
+
+      root.descendants().forEach((d, i) => {
+        d._children = d.children;
+        if (d.depth > 0) d.children = undefined;
+      });
+      setDataSet(root)
+    }
+
+  }, [selectedPerson, directorData, shareholderData])
+
+
+  const handleClickNode = (d: NodeLink) => {
+    if (d.height !== 0) {
+      d.children = d.children ? undefined : d._children
+    }
+  }
+
+  React.useEffect(() => {
+    function updateSize() {
+      if (chartRef.current) {
+        setChartDimension({ width: chartRef.current.clientWidth, height: chartRef.current.clientHeight })
+      }
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize()
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
 
   return (
-    <div className="w-full h-full max-w-[800px] mx-auto">
+    <div className="w-full h-full max-w-[800px] mx-auto" ref={chartRef}>
       <svg ref={svgRef}>
         <g className="chart-margin">
           <g className="x-axis" />

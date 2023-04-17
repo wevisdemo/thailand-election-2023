@@ -8,7 +8,7 @@ type Props = {}
 
 const PersonToCompanyRelationChart = dynamic(() => import('./PersonToCompanyRelationChart'))
 const SelectedPersonDetail = (props: Props) => {
-  const { selectedPerson, setSelectedPerson } = usePersonStore()
+  const { setSelectedPerson } = usePersonStore()
   const [isOpenPersonDetail, setIsOpenPersonDetail] = React.useState(false)
 
 
@@ -22,18 +22,6 @@ const SelectedPersonDetail = (props: Props) => {
         </svg>
         <div className='mx-auto'>
           <div className='typo-b5'>ความเชื่อมโยงกับธุรกิจ</div>
-          <div className='flex flex-row gap-x-[5px] items-center
-            typo-b7'>
-            <div>รับโครงการรัฐ</div>
-            <div className='font-bold'>เคย</div>
-            <svg width={11} height={10} viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.5" width={10} height={10} rx={2} fill="#090909" />
-            </svg>
-            <div className='font-bold'>ไม่เคย</div>
-            <svg width={11} height={10} viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x={1} y="0.5" width={9} height={9} rx="1.5" stroke="#090909" />
-            </svg>
-          </div>
         </div>
         <div className='flex flex-row gap-x-[5px]'>
           <List />

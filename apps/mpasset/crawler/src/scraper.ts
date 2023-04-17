@@ -253,8 +253,6 @@ export const fetchDirectorData = async (people: Person[]) => {
 							data: CredenResult[];
 						};
 
-						let totalValueShare = 0;
-
 						if (success && data && Array.isArray(data)) {
 							company = [...company, ...data];
 							fs.writeFileSync(
