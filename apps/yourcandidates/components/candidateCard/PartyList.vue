@@ -93,6 +93,11 @@ export default {
   border-bottom: 1px solid var(--color-gray-2);
   cursor: pointer;
 }
+
+.party-list-box:hover {
+  background-color: var(--color-gray-1);
+}
+
 .scrollbar::-webkit-scrollbar {
   width: 5px;
 }
