@@ -127,7 +127,7 @@ export default {
     onDistrictSelected(district) {
       this.changeLevel(2)
       this.selectedDistrict = district
-      this.query = `ต. ${district.subDistrict} อ. ${district.district} จ. ${district.province}`
+      this.query = district.stringMenu
     },
   },
 }

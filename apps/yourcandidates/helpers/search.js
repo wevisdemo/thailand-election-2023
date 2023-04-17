@@ -3,10 +3,18 @@ import electorals from '~/data/electoral_district_table.json'
 import fuzzysort from 'fuzzysort'
 const SEARCH_KEYS = ['stringMenu']
 
-const DISTRICT_LIST = districts.map((district) => ({
-  ...district,
-  stringMenu: `ต. ${district.subDistrict} อ. ${district.district} จ. ${district.province}`,
-}))
+const DISTRICT_LIST = districts.map((district) => {
+  if (district.province === 'กรุงเทพมหานคร') {
+    return {
+      ...district,
+      stringMenu: `แขวง${district.subDistrict} เขต${district.district} ${district.province}`,
+    }
+  }
+  return {
+    ...district,
+    stringMenu: `ต. ${district.subDistrict} อ. ${district.district} จ. ${district.province}`,
+  }
+})
 
 function normalizeSearchQuery(query) {
   if (!query) return ''
@@ -18,7 +26,6 @@ function normalizeSearchQuery(query) {
 }
 
 export const searchDistrict = (query) => {
-  // console.log(normalizeSearchQuery(query))
   const results = fuzzysort.go(normalizeSearchQuery(query), DISTRICT_LIST, {
     keys: SEARCH_KEYS,
     limit: 20,
