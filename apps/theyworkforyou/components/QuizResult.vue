@@ -68,7 +68,7 @@
       />
       <RoundButton
         text="ดูผู้สมัครเลือกตั้ง 66"
-        link="/yourcandidates"
+        link="https://election66.wevis.info/yourcandidates"
         class="round-btn-wrap"
       />
     </div>
