@@ -33,7 +33,24 @@
       <h2>ที่มาของข้อมูล</h2>
       <ul>
         <li>
-          ข้อมูลเบื้องต้นจากเว็บไซต์/โซเชียลมีเดียหลักของแต่ละพรรคการเมือง
+          เอกสารเผยแพร่ศูนย์อำนวยความสะดวกแก่สื่อมวลชน
+          การรับสมัครรับเลือกตั้งสมาชิกสภาผู้แทนราษฎร เป็นการทั่วไป พ.ศ. 2566
+        </li>
+        <li>
+          <a
+            href="https://drive.google.com/drive/folders/11S_vXUR27TqM18s1823C8rjnmJhcv-rF"
+            target="_blank"
+            rel="noopener noreferrer"
+            >ข้อมูลผู้สมัครรับเลือกตั้ง ส.ส.แบบบัญชีรายชื่อ</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://drive.google.com/drive/folders/1rI1oheUoQs16odp9LpoZuHHCwGxLKqfZ"
+            target="_blank"
+            rel="noopener noreferrer"
+            >ข้อมูลผู้สมัครรับเลือกตั้ง ส.ส.แบบแบ่งเขตเลือกตั้ง</a
+          >
         </li>
       </ul>
 
