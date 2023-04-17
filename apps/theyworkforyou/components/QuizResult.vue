@@ -8,7 +8,8 @@
             v-for="mp in mp_data"
             :key="mp.Id"
             :class="{ 'old-mp': !mp.IsActive }"
-            >{{ mp.Name.split(' ')[0] }}{{ !mp.IsActive ? '/' : '' }}</span
+            >{{ mp.Name.split(' ')[0]
+            }}{{ mp_data.length > 1 && !mp.IsActive ? '/' : '' }}</span
           >
         </b>
       </p>
@@ -38,7 +39,13 @@
           v-for="mp in mp_data"
           :key="mp.Id"
           class="mp-icon"
-          :class="mp.IsActive ? 'mp-icon-new' : 'mp-icon-old'"
+          :class="
+            mp_data.length > 1 && mp.IsActive
+              ? 'mp-icon-new'
+              : mp_data.length > 1
+              ? 'mp-icon-old'
+              : ''
+          "
         >
           <img :src="mp.Images[0].url" :alt="mp.Name" />
         </div>
