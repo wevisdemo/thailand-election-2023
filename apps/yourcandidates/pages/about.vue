@@ -93,7 +93,10 @@
       </p>
 
       <div class="button-list-section">
-        <a class="button-rounded--black link-text" href="">
+        <a
+          class="button-rounded--black link-text"
+          href="https://docs.google.com/spreadsheets/d/1ooBHq0DWCbpH2KhHRmC2kwn4nV6gQO40PEYlDL8woCY"
+        >
           <div class="icon">
             <IconsDownload />
           </div>
