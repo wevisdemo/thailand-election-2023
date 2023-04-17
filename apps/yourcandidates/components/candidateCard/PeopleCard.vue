@@ -17,11 +17,11 @@
           </tr>
           <tr>
             <th class="col1">การศึกษา</th>
-            <td class="pl-2">{{ person.Education }}</td>
+            <td class="pl-2">{{ person.Education || '-' }}</td>
           </tr>
           <tr>
             <th class="col1">อาชีพเดิม</th>
-            <td class="pl-2">{{ person.ExOccupation }}</td>
+            <td class="pl-2">{{ person.ExOccupation || '-' }}</td>
           </tr>
         </tbody>
       </table>
@@ -58,6 +58,7 @@ export default {
   },
   methods: {
     getAge() {
+      if (!this.person.Birthdate) return '-'
       var birthday = new Date(this.person.Birthdate)
       var ageDifMs = Date.now() - birthday.getTime()
       var ageDate = new Date(ageDifMs)
