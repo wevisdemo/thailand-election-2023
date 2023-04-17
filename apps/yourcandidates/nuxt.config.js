@@ -18,7 +18,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: DESCRIPTION },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'og:title', property: 'og:title', content: TITLE },
       {
@@ -27,7 +27,11 @@ export default {
         content: DESCRIPTION,
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:image', property: 'og:image', content: '/og.png' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/yourcandidates/og.png',
+      },
       { hid: 'og:url', property: 'og:url', content: PROD_URL },
       { hid: 'twitter:title', name: 'twitter:title', content: TITLE },
       {
@@ -35,7 +39,11 @@ export default {
         name: 'twitter:description',
         content: DESCRIPTION,
       },
-      { hid: 'twitter:image', name: 'twitter:image', content: '/og.png' },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: '/yourcandidates/og.png',
+      },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
