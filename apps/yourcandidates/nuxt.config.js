@@ -1,5 +1,7 @@
 import electoral_district_table from './data/electoral_district_table.json'
-
+const TITLE = 'เลือกตั้ง 66 รอบนี้มีอะไรให้เลือกบ้าง?'
+const DESCRIPTION = 'ค้นหาผู้สมัคร ส.ส. และพรรคการเมืองในเขต/อำเภอบ้านคุณ'
+const PROD_URL = 'https://election66.wevis.info/yourcandidates'
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -9,7 +11,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'yourcandidates',
+    title: TITLE,
     htmlAttrs: {
       lang: 'en',
     },
@@ -18,6 +20,28 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'og:title', property: 'og:title', content: TITLE },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: DESCRIPTION,
+      },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:image', property: 'og:image', content: '/og.png' },
+      { hid: 'og:url', property: 'og:url', content: PROD_URL },
+      { hid: 'twitter:title', name: 'twitter:title', content: TITLE },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: DESCRIPTION,
+      },
+      { hid: 'twitter:image', name: 'twitter:image', content: '/og.png' },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      { hid: 'twitter:url', name: 'twitter:url', content: PROD_URL },
     ],
     link: [
       {
