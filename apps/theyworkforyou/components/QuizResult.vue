@@ -66,11 +66,11 @@
         )}`"
         class="round-btn-wrap"
       />
-      <!-- <RoundButton
-        text="ดูผู้สมัครทั้งหมดในพื้นที่ของคุณ"
-        link=""
+      <RoundButton
+        text="ดูผู้สมัครเลือกตั้ง 66"
+        link="/yourcandidates"
         class="round-btn-wrap"
-      /> -->
+      />
     </div>
   </div>
 </template>
