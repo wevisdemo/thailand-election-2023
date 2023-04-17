@@ -231,8 +231,7 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 									onSelect={setSelectedParty}
 								/>
 							</div>
-							<div className="flex justify-between items-center mt-[32px]">
-								<p>เรียงตาม</p>
+							<div className="flex justify-end items-center mt-[32px]">
 								<RandomButton onClick={onClickShuffle} />
 							</div>
 						</TemplatePolicyList>

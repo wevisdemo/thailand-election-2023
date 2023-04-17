@@ -81,16 +81,7 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 						<ShortCut />
 						<HotTopicPolicy topics={topics} />
 						<ByTopic topics={topics} />
-						<ByParty parties={hotParties} />
-
-						<div className="mt-[16px] px-4 md:px-0">
-							<AutoComplete
-								options={getPartyOptions()}
-								currentOption={selectedPartyOption}
-								onSelect={onSelectParty}
-								placeholder="เลือกพรรค"
-							/>
-						</div>
+						<ByParty parties={hotParties} partyOptions={getPartyOptions()} />
 						<div className="flex flex-col items-center my-[40px]">
 							<div className="flex mb-[10px]">
 								<WvSharer url="/" />

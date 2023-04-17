@@ -43,6 +43,7 @@ export interface IPolicyTopicCount {
 
 export interface ByPartyProps {
 	parties?: Party[];
+	partyOptions: IDropdownOption<string>[];
 }
 
 export interface GroupByTopics {

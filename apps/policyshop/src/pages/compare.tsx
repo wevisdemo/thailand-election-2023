@@ -37,8 +37,7 @@ const ComparePage: NextPage<PropsType> = ({ policies, parties }) => {
 							setDisplayPolicies1={setDisplayPolicies1}
 							setDisplayPolicies2={setDisplayPolicies2}
 						/>
-						<div className="flex justify-between items-center mt-[24px]">
-							<p>เรียงตาม</p>
+						<div className="flex justify-end items-center mt-[24px]">
 							<RandomButton onClick={onClickShuffle} />
 						</div>
 						<div className="mt-[16px]">

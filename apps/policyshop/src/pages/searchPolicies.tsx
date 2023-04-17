@@ -43,8 +43,7 @@ const SearchPolicies: NextPage<PropsType> = ({ policies, parties }) => {
 				<Layout title="ค้นหานโยบาย">
 					<SearchBar onClear={onClear} />
 					<TemplatePolicyList policyList={displayPolicies} partyList={parties}>
-						<div className="flex justify-between items-center mt-[32px]">
-							<p>เรียงตาม</p>
+						<div className="flex justify-end items-center mt-[32px]">
 							<RandomButton onClick={onClickShuffle} />
 						</div>
 					</TemplatePolicyList>
