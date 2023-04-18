@@ -4,6 +4,15 @@ import '../styles/globals.css';
 import React from 'react';
 
 
+import 'dayjs/locale/th'
+import customParseFormat from 'dayjs/plugin/customParseFormat'
+import buddhistEra from 'dayjs/plugin/buddhistEra'
+import dayjs from 'dayjs';
+
+dayjs.extend(customParseFormat)
+dayjs.extend(buddhistEra)
+dayjs().locale('th')
+
 function MyApp({ Component, pageProps }: AppProps) {
   React.useEffect(() => {
     // @ts-ignore

@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic';
+
 const Section1 = dynamic(() => import('../components/section1'));
 const Section2 = dynamic(() => import('../components/section2'));
 const Section3 = dynamic(() => import('../components/section3'));

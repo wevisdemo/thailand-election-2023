@@ -71,7 +71,8 @@ export const fetchFromThetWork = async (): Promise<{
 
 	console.log(`Fetch People`);
 	let people = await fetchAllRows<Person>(PEOPLE_VIEW_ID, {
-		fields: 'Id,Name,Title,IsMP,IsSenator,IsActive,Images,PeoplePartyHistory',
+		fields:
+			'Id,Name,Title,IsMP,IsSenator,IsActive,IsCabinet,MpType,MpProvince,MpZone,MPList,Images,PeoplePartyHistory',
 		'nested[PeoplePartyHistory][fields]': 'Party,EstablishedDate',
 	});
 
@@ -84,7 +85,7 @@ export const fetchFromThetWork = async (): Promise<{
 			}
 		}
 	});
-	people = people.filter((p) => p.IsActive === true);
+	// people = people.filter((p) => p.IsActive === true);
 	people = people.map((p) => {
 		if (!p.Party?.Id) {
 			return { ...p, Party: null };
@@ -116,6 +117,16 @@ export const fetchFromThetWork = async (): Promise<{
 	};
 };
 
+interface ShareholderData {
+	Lastname: string;
+	value_share: number;
+	Nationality: string;
+	pct_share: number;
+	count_share: number;
+	Firstname: string;
+	person?: Person;
+}
+
 interface CredenResult {
 	financial: {
 		year: string;
@@ -128,13 +139,14 @@ interface CredenResult {
 	company_name_th: string;
 	company_id: string;
 	obj_tname: string;
-	ompany_name_en: string;
+	company_name_en: string;
 	tsic: string;
 	cap_amt: number;
 	company_value: number;
 	company_type_th: string;
 	submit_obj_big_type: string;
 	full_address: string;
+	company_shareholder?: ShareholderData[];
 }
 [];
 
@@ -152,6 +164,10 @@ const delayedFetch = (request: Function, delay: number) => {
 				.catch((err: any) => reject(err));
 		}, delay);
 	});
+};
+
+const searchPeople = (people: Person[], name: string) => {
+	return people.find((p) => p.Name === name);
 };
 
 export const fetchShareholderData = async (people: Person[]) => {
@@ -181,26 +197,42 @@ export const fetchShareholderData = async (people: Person[]) => {
 						let totalValueShare = 0;
 
 						if (success && data && Array.isArray(data)) {
-							company = [...company, ...data];
+							const shareholderData = data.map((d) => ({
+								...d,
+								company_shareholder: d.company_shareholder
+									? d.company_shareholder.map((c) => ({
+											...c,
+											person: searchPeople(
+												people,
+												`${c.Firstname} ${c.Lastname}`
+											),
+									  }))
+									: undefined,
+							}));
+
+							company = [...company, ...shareholderData];
+
 							fs.writeFileSync(
 								`./public/data/creden/shareholder/${String(fullname).replaceAll(
 									' ',
 									'-'
 								)}.json`,
-								JSON.stringify(data)
+								JSON.stringify(shareholderData)
 							);
 
 							// sum value share of all company
-							totalValueShare = data.reduce(
+							totalValueShare = shareholderData.reduce(
 								(acc, cur) => acc + Number(cur.value_share),
 								0
 							);
 
 							peopleProcess[i].totalValueShare = totalValueShare;
-							peopleProcess[i].countCompShare = data ? data.length : 0;
+							peopleProcess[i].countCompShare = shareholderData
+								? shareholderData.length
+								: 0;
 							peopleProcess[i].companyType = [
 								...peopleProcess[i].companyType,
-								...data.map((d) => d.submit_obj_big_type),
+								...shareholderData.map((d) => d.submit_obj_big_type),
 							];
 						}
 					}
@@ -246,6 +278,25 @@ export const fetchDirectorData = async (people: Person[]) => {
 				value.forEach((v, i) => {
 					const { result, fullname } = v;
 
+					// fetch shareholder data if director company already exit in shareholder -> removed it
+					// remove duplicate company from shareholder
+					let shareholderData: CredenResult[] = fs.existsSync(
+						`./public/data/creden/shareholder/${String(fullname).replaceAll(
+							' ',
+							'-'
+						)}.json`
+					)
+						? JSON.parse(
+								String(
+									fs.readFileSync(
+										`./public/data/creden/shareholder/${String(
+											fullname
+										).replaceAll(' ', '-')}.json`
+									)
+								)
+						  )
+						: [];
+
 					if (result) {
 						const { success, data } = JSON.parse(result) as {
 							success: boolean;
@@ -253,22 +304,26 @@ export const fetchDirectorData = async (people: Person[]) => {
 							data: CredenResult[];
 						};
 
-						let totalValueShare = 0;
-
 						if (success && data && Array.isArray(data)) {
-							company = [...company, ...data];
+							const directorData = data.filter((d) =>
+								shareholderData.some((f) => f.company_id !== d.company_id)
+							);
+
+							company = [...company, ...directorData];
 							fs.writeFileSync(
 								`./public/data/creden/director/${String(fullname).replaceAll(
 									' ',
 									'-'
 								)}.json`,
-								JSON.stringify(data)
+								JSON.stringify(directorData)
 							);
 
-							peopleProcess[i].countDirector = data ? data.length : 0;
+							peopleProcess[i].countDirector = directorData
+								? directorData.length
+								: 0;
 							peopleProcess[i].companyType = [
 								...peopleProcess[i].companyType,
-								...data.map((d) => d.submit_obj_big_type),
+								...directorData.map((d) => d.submit_obj_big_type),
 							];
 						}
 					}
