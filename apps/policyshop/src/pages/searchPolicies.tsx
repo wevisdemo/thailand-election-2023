@@ -47,7 +47,7 @@ const SearchPolicies: NextPage<PropsType> = ({ policies, parties }) => {
 							<RandomButton onClick={onClickShuffle} />
 						</div>
 					</TemplatePolicyList>
-					{!topic && displayPolicies && (
+					{(!topic || displayPolicies.length == 0) && (
 						<div className="mt-20 text-center typo-b4">
 							ไม่พบนโยบายที่คุณค้นหา
 							<br /> กรุณาเปลี่ยนคำค้นหา

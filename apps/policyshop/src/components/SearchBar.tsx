@@ -24,6 +24,13 @@ const SearchBar: FC<SearchBarProps> = ({ onClear }) => {
 		if (onClear) onClear();
 		router.push(url, undefined, {});
 	};
+
+	const onKeyDownInput = (e: React.KeyboardEvent<HTMLInputElement>) => {
+		if (e.key === 'Enter') {
+			linkToSearch();
+		}
+	};
+
 	useEffect(() => {
 		if (topicQuery) setMessage(topicQuery);
 	}, [topicQuery]);
@@ -36,6 +43,7 @@ const SearchBar: FC<SearchBarProps> = ({ onClear }) => {
 				id="searchBar"
 				placeholder="ค้นหานโยบายด้วยคีย์เวิร์ด"
 				onChange={(t) => setMessage(t.target.value)}
+				onKeyDown={onKeyDownInput}
 				value={message || ''}
 			/>
 			<div className="absolute top-[50%] right-[20px] flex translate-y-[-50%] ">
