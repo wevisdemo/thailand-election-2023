@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { Content, contentManager } from '../../stores/content';
 	import { ScaleAns, input } from '../../stores/input';
 	import { quiz8ToWord } from '../../utils/mapInputToWord';
@@ -147,15 +148,15 @@
 					/>
 					<b>ย้อนกลับ</b>
 				</button>
-				<button
+				<a
+					href="{base}/result"
 					class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full flex items-center justify-between font-bold"
 					on:click={() => {
-						contentManager.updateContent(Content.Calculate);
 						contentManager.toggleFinished();
 					}}
 				>
 					ส่งข้อมูล
-				</button>
+				</a>
 			{/if}
 		</div>
 	</div>

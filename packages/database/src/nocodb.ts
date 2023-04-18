@@ -39,5 +39,26 @@ export async function getSharedViewRows<Row>(
 		}
 	);
 
-	return data.data;
+	return {
+		...data.data,
+		list: data.data.list.map(parseRecord),
+	};
+}
+
+function parseRecord<Row>(record: Row) {
+	if (record['Images']) {
+		return {
+			...record,
+			Images: (record['Images'] as unknown[]).map(({ path, ...rest }) =>
+				path
+					? {
+							...rest,
+							url: `${BASE_URL}/${path}`,
+					  }
+					: rest
+			),
+		};
+	}
+
+	return record;
 }
