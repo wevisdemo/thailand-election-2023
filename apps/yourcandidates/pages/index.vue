@@ -5,7 +5,7 @@
       <div class="cover-section">
         <div class="header-text">
           <h6 class="typo-h7">Look Up Your Candidates</h6>
-          <h2 class="typo-h2">เลือกตั้งรอบนี้มีอะไรให้เลือกบ้าง?</h2>
+          <h2 class="typo-h2"><b>เลือกตั้งรอบนี้มีอะไรให้เลือกบ้าง?</b></h2>
         </div>
         <div class="hero-image">
           <div class="lottie" id="hero-media" />
@@ -17,7 +17,10 @@
       <div>
         <VoteInstruction />
       </div>
-      <election-bottom index-path="/yourcandidates" about-path="/yourcandidates/about"></election-bottom>
+      <election-bottom
+        index-path="/yourcandidates"
+        about-path="/yourcandidates/about"
+      ></election-bottom>
     </div>
     <election-footer></election-footer>
     <election-cookie></election-cookie>
@@ -29,7 +32,7 @@ import {
   ElectionHeader,
   ElectionBottom,
   ElectionFooter,
-  ElectionCookie
+  ElectionCookie,
 } from '@thailand-election-2023/components'
 import lottie from 'lottie-web'
 
