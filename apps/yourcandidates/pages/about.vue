@@ -62,7 +62,7 @@
         คือสามารถนำไปเผยแพร่และดัดแปลงได้ โดยต้องระบุที่มา
         แต่ห้ามนำไปใช้เพื่อการค้า สามารถดูรายละเอียดเพิ่มเติมได้ที่
         <a
-          href="wevis.info/terms-of-use"
+          href="https://wevis.info/terms-of-use/"
           target="_blank"
           rel="noopener noreferrer"
           >wevis.info/terms-of-use</a
