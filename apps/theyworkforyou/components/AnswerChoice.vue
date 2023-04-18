@@ -68,7 +68,13 @@ export default {
   computed: {
     getColor() {
       if (this.hover) {
-        return '#00EAA4' // green
+        if(this.choice_id === 'approve') {
+          return '#00EAA4' // green
+        } else if(this.choice_id === 'disprove') {
+          return '#FF7070'; // red
+        } else if(this.choice_id === 'abstained') {
+          return '#7F8181'; // intense grey
+        }
       } else if (this.answer_selected) {
         return this.answer_selected === this.text ? '#FFFFFF' : '#DFDAD1' // grey
       } else {
