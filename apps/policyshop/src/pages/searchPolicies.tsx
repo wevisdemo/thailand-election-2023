@@ -8,7 +8,6 @@ import Layout from '@/components/Layout';
 import RandomButton from '@/components/RandomButton';
 import TemplatePolicyList from '@/components/Template/PolicyList';
 import { Party, Policy } from '@/types/components';
-import Metadata from '@/components/Metadata';
 
 interface PropsType {
 	policies: Policy[];

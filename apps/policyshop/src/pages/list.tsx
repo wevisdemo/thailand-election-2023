@@ -9,7 +9,6 @@ import { GetStaticProps, NextPage } from 'next';
 import { memo, useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
 import { useRouter } from 'next/router';
-import Metadata from '@/components/Metadata';
 
 interface PropsType {
 	policies: Policy[];

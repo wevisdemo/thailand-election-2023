@@ -3,7 +3,6 @@ import WvSharer from '@wevisdemo/ui/react/sharer';
 import { imgPrefix } from '@/utils/path';
 import { useEffect } from 'react';
 import Link from 'next/link';
-import Metadata from '@/components/Metadata';
 
 const AboutPage: NextPage = ({}) => {
 	useEffect(() => {
@@ -12,7 +11,7 @@ const AboutPage: NextPage = ({}) => {
 	}, []);
 
 	const getShareUrl = () => {
-		return 'https://staging.election66.wevis.info/policyshop/';
+		return 'https://election66.wevis.info/policyshop';
 	};
 
 	const handleClickDownload = () => {
@@ -97,7 +96,7 @@ const AboutPage: NextPage = ({}) => {
 							แต่ห้ามนำไปใช้เพื่อการค้า สามารถดูรายละเอียดเพิ่มเติมได้ที่{' '}
 							<a
 								href="wevis.info/terms-of-use"
-								className="underline  text-gray-3"
+								className="underline text-gray-3"
 							>
 								wevis.info/terms-of-use
 							</a>
