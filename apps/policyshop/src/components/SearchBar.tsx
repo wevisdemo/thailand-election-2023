@@ -41,7 +41,7 @@ const SearchBar: FC<SearchBarProps> = ({ onClear }) => {
 				type="text"
 				className="typo-b4 inputSearchPolicies"
 				id="searchBar"
-				placeholder="ค้นหานโยบายด้วยคีย์เวิร์ด"
+				placeholder="ค้นหานโยบายด้วยคีย์เวิร์ดอื่นๆ"
 				onChange={(t) => setMessage(t.target.value)}
 				onKeyDown={onKeyDownInput}
 				value={message || ''}

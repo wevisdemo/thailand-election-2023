@@ -80,7 +80,7 @@ const AboutPage: NextPage = ({}) => {
 							</li>
 							<li>
 								<a
-									className="underline-offset-1 decoration-solid text-gray-3"
+									className="underline-offset-1 decoration-solid text-gray-3 underline"
 									target="_blank"
 									href="https://drive.google.com/file/d/1HSKv9OjbxbfQbUcWVc5SADhRcwP_sYyt/view"
 								>
@@ -97,38 +97,47 @@ const AboutPage: NextPage = ({}) => {
 							Attribution-NonCommercial License (CC-BY-NC)
 							คือสามารถนำไปเผยแพร่และดัดแปลงได้ โดยต้องระบุที่มา
 							แต่ห้ามนำไปใช้เพื่อการค้า สามารถดูรายละเอียดเพิ่มเติมได้ที่{' '}
-							<a href="wevis.info/terms-of-use" className=" text-gray-3">
+							<a
+								href="wevis.info/terms-of-use"
+								className=" text-gray-3 underline"
+							>
 								wevis.info/terms-of-use
 							</a>
 							<br />
 							<br /> หากมีข้อสงสัยต้องการสอบถามเพิ่มเติม
 							ประสงค์แจ้งเปลี่ยนแปลงหรือเพิ่มเติมข้อมูลเพื่อความถูกต้อง
-							หรือมีข้อเสนอแนะใดๆ สามารถติดต่อได้ที่ team [at] punchup.world
+							หรือมีข้อเสนอแนะใดๆ สามารถติดต่อได้ที่ team@punchup.world
 						</p>
 					</div>
 					<div className="mt-[50px]">
 						<h2 className="font-bold typo-h5">ทีมงานร่วมพัฒนา</h2>
 						<div>
 							<p className="mt-[15px] font-bold">เขียนโปรแกรม</p>
-							<a className="text-gray-3" href="https://github.com/petchill">
+							<a
+								className="text-gray-3 underline"
+								href="https://github.com/petchill"
+							>
 								petchill
 							</a>
 							,{' '}
-							<a className="text-gray-3" href="https://github.com/MEEP00H">
+							<a
+								className="text-gray-3 underline"
+								href="https://github.com/MEEP00H"
+							>
 								MEEP00H
 							</a>
 						</div>
 						<div>
 							<p className="mt-[15px] font-bold">ออกแบบ</p>
 							<a
-								className="text-gray-3"
+								className="text-gray-3 underline"
 								href="https://www.linkedin.com/in/sapanya-srisook-693206104/"
 							>
 								Sapanya Srisook
 							</a>
 							,{' '}
 							<a
-								className="text-gray-3"
+								className="text-gray-3 underline"
 								href="https://www.instagram.com/namsaisupavong/"
 							>
 								Namsai Supavong
@@ -137,21 +146,21 @@ const AboutPage: NextPage = ({}) => {
 						<div>
 							<p className="mt-[15px] font-bold">สืบค้นและรวบรวมข้อมูล</p>
 							<a
-								className="text-gray-3"
+								className="text-gray-3 underline"
 								href="https://www.linkedin.com/in/thanisara-r/"
 							>
 								Thanisara GG
 							</a>
 							,{' '}
 							<a
-								className="text-gray-3"
+								className="text-gray-3 underline"
 								href="https://www.linkedin.com/in/suphisara-isaranugul-a943b017b/"
 							>
 								Mean Suphisara
 							</a>
 							,{' '}
 							<a
-								className="text-gray-3"
+								className="text-gray-3 underline"
 								href="https://www.linkedin.com/in/pantira-monsumrith-b42018224/"
 							>
 								Fhy Pantira
@@ -160,7 +169,7 @@ const AboutPage: NextPage = ({}) => {
 						<div>
 							<p className="mt-[15px] font-bold">บรรณาธิการ</p>
 							<a
-								className="text-gray-3"
+								className="text-gray-3 underline"
 								href="https://www.linkedin.com/in/thanisara-r/"
 							>
 								Thanisara GG
@@ -169,13 +178,16 @@ const AboutPage: NextPage = ({}) => {
 						<div>
 							<p className="mt-[15px] font-bold">ประสานงานและจัดการอื่นๆ</p>
 							<a
-								className="text-gray-3"
+								className="text-gray-3 underline"
 								href="https://www.linkedin.com/in/pantira-monsumrith-b42018224/"
 							>
 								Fhy Pantira
 							</a>
 							,{' '}
-							<a className="text-gray-3" href="https://github.com/Th1nkK1D">
+							<a
+								className="text-gray-3 underline"
+								href="https://github.com/Th1nkK1D"
+							>
 								Th1nkK1D
 							</a>
 						</div>
@@ -183,15 +195,18 @@ const AboutPage: NextPage = ({}) => {
 					<div className="mt-[50px]">
 						<h2 className="font-bold typo-h5">หมายเหตุ</h2>
 						<p className="mt-[15px]">
-							<a className="text-gray-3" href="https://punchup.world/">
+							<a
+								className="text-gray-3 underline"
+								href="https://punchup.world/"
+							>
 								Punch Up
 							</a>{' '}
 							และ{' '}
-							<a className="text-gray-3" href="https://wevis.info/">
+							<a className="text-gray-3 underline" href="https://wevis.info/">
 								WeVis
 							</a>{' '}
 							ได้รับการสนับสนุนทุนในการดำเนินงานจาก{' '}
-							<a className="text-gray-3" href="https://www.ned.org/">
+							<a className="text-gray-3 underline" href="https://www.ned.org/">
 								National Endowment for Democracy (NED)
 							</a>{' '}
 							ซึ่งนำมาใช้เป็นต้นทุนในการรวมรวมข้อมูล ออกแบบ พัฒนาเว็บไซต์
@@ -201,7 +216,7 @@ const AboutPage: NextPage = ({}) => {
 					<div className="py-[20px] md:py-[50px] flex md:flex-wrap flex-col md:flex-row  justify-center gap-[10px] w-fit m-auto">
 						<div
 							onClick={handleClickDownload}
-							className=" border-[var(--color-black)] border-[3px] rounded-[100px] py-[10px] px-[20px] flex gap-[10px] justify-items-center w-[200px] hover:cursor-pointer"
+							className=" border-[var(--color-black)] border-[3px] rounded-[100px] py-[10px] px-[20px] flex gap-[10px] justify-items-center hover:cursor-pointer"
 						>
 							<img
 								className="w-[20px] h-[20px] my-auto"
@@ -212,7 +227,7 @@ const AboutPage: NextPage = ({}) => {
 						</div>
 						<div
 							onClick={handleClickFeedback}
-							className=" border-[var(--color-black)] border-[3px] rounded-[100px] py-[10px] px-[20px] flex gap-[10px] justify-items-center w-[200px] hover:cursor-pointer"
+							className=" border-[var(--color-black)] border-[3px] rounded-[100px] py-[10px] px-[20px] flex gap-[10px] justify-items-center hover:cursor-pointer"
 						>
 							<img
 								className="w-[20px] h-[20px] my-auto"
@@ -223,7 +238,7 @@ const AboutPage: NextPage = ({}) => {
 						</div>
 						<div
 							onClick={handleClickGithub}
-							className=" border-[var(--color-black)] border-[3px] rounded-[100px] py-[10px] px-[20px] flex gap-[10px] justify-items-center w-[200px] hover:cursor-pointer"
+							className=" border-[var(--color-black)] border-[3px] rounded-[100px] py-[10px] px-[20px] flex gap-[10px] justify-items-center hover:cursor-pointer"
 						>
 							<img
 								className="w-[20px] h-[20px] my-auto"
