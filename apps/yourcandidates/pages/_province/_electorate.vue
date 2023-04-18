@@ -206,7 +206,6 @@ export default {
   },
   async asyncData({ params: { province, electorate } }) {
     const { people, parties } = await getElectoralData(province, electorate)
-    console.log(people)
     return { people, parties }
   },
   data() {

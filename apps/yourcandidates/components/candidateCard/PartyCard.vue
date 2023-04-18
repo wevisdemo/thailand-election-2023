@@ -23,7 +23,13 @@
       <template v-slot:infomation>
         <div class="info">
           <div class="candidate-section">
-            <p style="color: var(--color-gray-3)">แคนดิเดตนายก</p>
+            <p style="color: var(--color-gray-3)">
+              {{
+                party.Candidate.length > 0
+                  ? 'แคนดิเดตนายก'
+                  : 'ไม่มีแคนดิเดตนายก'
+              }}
+            </p>
             <div
               class="candidate-list"
               v-for="candidate in party.Candidate"
