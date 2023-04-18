@@ -21,6 +21,7 @@ const ByTopic: FC<ByTopicProps> = ({ topics }) => {
 					</Link>
 				))}
 			</div>
+			<SearchBar />
 		</div>
 	);
 };
