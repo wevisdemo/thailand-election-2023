@@ -27,6 +27,7 @@ export interface PersonCustom {
   countCompShare: number;
   totalValueShare: number;
   totalPctShare: number;
+  companyType: string[]
 }
 
 export interface CredenData {

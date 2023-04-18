@@ -2,27 +2,66 @@ import React from 'react'
 import { BusinessType, BusinessTypeData } from '../../models/business'
 import { usePersonStore } from '../../store/person'
 import { LottieNotFound } from '../util/lottie'
-
+import * as d3 from 'd3'
 type Props = {
   open: boolean
   onClose: Function
 }
 
+type CompanyTypeCount = {
+  type: string
+  count: number
+}
+
 const SearchBusinessType = ({ open, onClose }: Props) => {
   const [searchTerm, setSearchTerm] = React.useState("")
-  const [searchResult, setSearchResult] = React.useState<BusinessType[]>(BusinessTypeData)
+  const [businessData, setBusinessData] = React.useState<BusinessType[]>([])
+  const [searchResult, setSearchResult] = React.useState<BusinessType[]>([])
+  const [maxCount, setMaxCount] = React.useState(100)
 
   const { setSelectedBusinessType } = usePersonStore()
 
+  const fetchFromGit = React.useCallback(async () => {
+    await d3.csv<CompanyTypeCount[] & string>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/company_type_count.csv').then((value) => {
+      const data = value.slice(0, value.length) as CompanyTypeCount[]
+      if (data) {
+        data.forEach((d) => {
+          d.type = String(d.type)
+          d.count = Number(d.count)
+        })
+
+        const maxCount = d3.max(data, (d) => d.count) || 100
+        setMaxCount(maxCount)
+
+        const processData = BusinessTypeData.map((p) => {
+          const count = data.find((d) => d.type === p.code)?.count || 0
+          const percentage = count / maxCount * 100
+          return {
+            ...p,
+            count,
+            percentage
+          }
+        })
+
+        setBusinessData(processData)
+        setSearchResult(processData)
+      }
+    })
+  }, [])
+
   React.useEffect(() => {
-    if (searchTerm !== "" && BusinessTypeData.length > 0) {
-      const result = BusinessTypeData.filter((data) => data.name.includes(searchTerm))
+    if (searchTerm !== "" && businessData.length > 0) {
+      const result = businessData.filter((data) => data.name.includes(searchTerm))
       if (typeof result === "object")
         setSearchResult(result)
     } else {
-      setSearchResult(BusinessTypeData)
+      setSearchResult(businessData)
     }
-  }, [searchTerm])
+  }, [searchTerm, businessData])
+
+  React.useEffect(() => {
+    fetchFromGit()
+  }, [fetchFromGit])
 
   return (
     <div className={`absolute inset-0 overflow-x-hidden overflow-y-scroll 
@@ -58,7 +97,7 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
             onClick={() => { setSelectedBusinessType(data); onClose() }}
           >
             {data.code !== 'all' &&
-              <div className={`absolute inset-0 -z-10 bg-highlight-1`} style={{ width: `${data.percentage || Math.random() * 100}%` }} />
+              <div className={`absolute inset-0 -z-10 bg-highlight-1`} style={{ width: `${data.percentage}%` }} />
             }
             <div className=' flex flex-row justify-between '>
               <div className='flex flex-row'>
@@ -69,15 +108,16 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
               </div>
               {data.code !== 'all' &&
                 <div>
-                  {'xx'}
+                  {data.count}
                 </div>
               }
             </div>
           </button>
         )) :
           <div className='flex flex-col justify-center items-center gap-y-[20px]'>
-            <div className='w-[116.57px] h-[138.45px]'></div>
-            <LottieNotFound />
+            <div className='w-[116.57px] h-[138.45px]'>
+              <LottieNotFound />
+            </div>
             <div className='typo-ibmplex text-center'>
               <div className='typo-b4 '>ไม่พบสิ่งที่ค้นหา</div>
               <div className='typo-b6'>ลองตรวจสอบตัวสะกด หรือ หาคำใกล้เคียง</div>

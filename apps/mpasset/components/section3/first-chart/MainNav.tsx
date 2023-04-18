@@ -20,7 +20,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
     });
   };
 
-  React.useEffect(() => {
+  React.useLayoutEffect(() => {
     if (filterPerson.length > 0) {
       const countPerson = filterPerson.length + 2
       const contentHeight = countPerson * 40
@@ -31,18 +31,22 @@ const MainNav = ({ width, height, onScroll }: Props) => {
 
       let [minPct, maxPct] = d3.extent(filterPerson, (d) => d.totalPctShare)
 
-      const personData = [...personOutlier.map((d) => ({ ...d, totalPctShare: maxPct || 100 })), ...filterPerson.map((d) => ({ ...d }))]
+      const personData = [
+        // ...personOutlier.map((d) => ({ ...d, totalPctShare: maxPct || 100 })),
+        ...filterPerson.map((d) => ({ ...d }))
+      ]
 
       // const yScaleBand = d3.scaleBand().domain(filterPerson.map((d) => `${d.Id}`)).range([0, 40 * countPerson]).paddingInner(4)
       const yScaleBand = d3.scaleBand().domain(personData.map((_, i) => `${i}`)).range([0, 40 * countPerson]).paddingInner(.5).paddingOuter(.2)
 
       // let [minPct, maxPct] = d3.extent(person, (d) => d.totalPctShare)
 
+      console.log([minPct, maxPct]);
 
       // minPct = -30
-      const xScale = d3.scaleLinear().domain([minPct || -20, maxPct || 100]).range([0, width])
+      const xScale = d3.scaleLinear().domain([-10, 30]).range([0, width])
 
-      svg.select('line').remove()
+      svg.selectAll('line').remove()
       svg.append('line').attr('x1', xScale(0)).attr('y1', 0).attr('x2', xScale(0)).attr('y2', contentHeight).attr('stroke', 'black')
 
       const node = svg.selectAll('g')
@@ -51,15 +55,15 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .attr('transform', (_, i) => `translate(0, ${yScaleBand(`${i!}`)})`)
         .on('click', (_, d: PersonCustom) => { console.log(d); setSelectedPerson(d) })
 
-      node.select('rect').remove()
-      node.select('text').remove()
+      node.selectAll('rect').remove()
+      node.selectAll('text').remove()
 
 
       const getWidth = (totalPctShare: number) => {
         let w = (totalPctShare <= 0 ? xScale(0) - xScale(totalPctShare) : xScale(totalPctShare) - xScale(0))
 
         // return w <= 0 ? 10 : w
-        return totalPctShare > 10 ? w * .95 : w
+        return totalPctShare > 10 ? w : w
       }
 
       node.append('rect')
@@ -73,7 +77,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
 
       const avatar_size = 400
 
-      node.select('defs').remove()
+      node.selectAll('defs').remove()
 
       const defs = node.append('svg:defs')
       // profile
