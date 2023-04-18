@@ -92,21 +92,11 @@ const Section3 = (props: Props) => {
 
   if (isLoading) return <LoadingScreen />
 
-  const getView = (view: VIEW_TYPE) => {
-    switch (view) {
-      case VIEW_TYPE.MAIN_VIEW: return <FirstChart />;
-      case VIEW_TYPE.SELCTED_PERSON_CHART: return <SecondChart />;
-      case VIEW_TYPE.SELECTED_COMPANY_CHART: return <ThirdChart />;
-      default:
-        break;
-    }
-  }
+  if (view === VIEW_TYPE.MAIN_VIEW) return <div className='h-full inset-0 flex flex-col relative overflow-hidden'><FirstChart /></div>;
+  if (view === VIEW_TYPE.SELCTED_PERSON_CHART) return <div className='h-full inset-0 flex flex-col relative overflow-hidden'><SecondChart /></div>;
+  if (view === VIEW_TYPE.SELECTED_COMPANY_CHART) return <div className='h-full inset-0 flex flex-col relative overflow-hidden'><ThirdChart /></div>;
 
-  return (
-    <div className='h-full inset-0 flex flex-col relative overflow-hidden'>
-      {getView(view)}
-    </div>
-  )
+  return <LoadingScreen />
 }
 
 export default Section3
