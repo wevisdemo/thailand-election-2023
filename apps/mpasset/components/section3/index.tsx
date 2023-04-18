@@ -1,4 +1,3 @@
-import { Party, } from '@thailand-election-2023/database'
 import React from 'react'
 
 import { usePersonStore } from '../../store/person'
@@ -6,11 +5,13 @@ import Filter, { SelectedFilterType } from './Filter'
 import FirstChart from './first-chart'
 import Loading from './Loading'
 import SearchPerson from './SearchPerson'
-import SelectedPersonDetail from './person-detail/SelectedPersonDetail'
+import SelectedPersonDetail from './second-chart'
+import SelectedCompanyDetail from './third-chart'
 
 import * as d3 from 'd3';
 import { PersonCustom } from '../../models/person'
 import { placeZerosAtEnd } from '../util/calculation'
+import { TheyWorkForUs } from '@thailand-election-2023/database'
 
 type Props = {}
 
@@ -32,8 +33,14 @@ const Section3 = (props: Props) => {
 
   const [filterPerson, setFilterPerson] = React.useState<PersonCustom[]>([])
 
-  const { person, setPerson, selectedPerson, setPersonOutlier, personOutlier,
-    party, setParty } = usePersonStore();
+  const {
+    person, setPerson,
+    selectedPerson,
+    personOutlier, setPersonOutlier,
+    selectedCompany,
+    party, setParty,
+    setTheyWorkPerson
+  } = usePersonStore();
 
   const [view, setView] = React.useState(VIEW_TYPE.MAIN_VIEW)
 
@@ -58,25 +65,37 @@ const Section3 = (props: Props) => {
     })
   }, [setPerson, setPersonOutlier])
 
+  const fetchFromTheyWrok = React.useCallback(async () => {
+    const everyPeople = await TheyWorkForUs.People.fetchAll({
+      fields: 'Id,Name,Title,IsMP,IsSenator,IsActive,Images,PeoplePartyHistory',
+      'nested[PeoplePartyHistory][fields]': 'Party,EstablishedDate',
+    });
+    setTheyWorkPerson(everyPeople)
+  }, [setTheyWorkPerson])
 
   React.useEffect(() => {
     let ignore = false;
     if (person.length <= 0 && party.length <= 0) {
-      if (!ignore) { fetchFromGit() }
+      if (!ignore) {
+        fetchFromTheyWrok()
+        fetchFromGit()
+      }
     } else
       setIsLoading(false)
     return () => {
       ignore = true;
     }
-  }, [person, setPerson, party, setParty, fetchFromGit])
+  }, [person, setPerson, party, setParty, fetchFromGit, fetchFromTheyWrok])
 
   React.useLayoutEffect(() => {
-    if (selectedPerson) {
+    if (selectedCompany) {
+      setView(VIEW_TYPE.SELECTED_COMPANY_CHART)
+    } else if (selectedPerson) {
       setView(VIEW_TYPE.SELCTED_PERSON_CHART)
     } else {
       setView(VIEW_TYPE.MAIN_VIEW)
     }
-  }, [selectedPerson])
+  }, [selectedPerson, selectedCompany])
 
 
 
@@ -100,6 +119,9 @@ const Section3 = (props: Props) => {
       }
       {view === VIEW_TYPE.SELCTED_PERSON_CHART &&
         <SelectedPersonDetail />
+      }
+      {view === VIEW_TYPE.SELECTED_COMPANY_CHART &&
+        <SelectedCompanyDetail />
       }
     </div>
   )

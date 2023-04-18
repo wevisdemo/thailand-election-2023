@@ -57,3 +57,7 @@ export const BusinessTypeData: BusinessType[] = [
   { code: 'T', name: "กิจกรรมการจ้างงานในครัวเรือน กิจกรรมการผลิต สินค้าและบริการที่ทำขึ้นเอง เพื่อใช้ในครัวเรือน", short: 'จ้างงานในครัวเรือน', shortEn: 'Housing', icon: <Housing /> },
   { code: 'U', name: "กิจกรรมขององค์การระหว่างประเทศและภาคีสมาชิก", short: 'องค์การระหว่างประเทศ ภาคีสมาชิก', shortEn: 'IR', icon: <IR /> },
 ]
+
+export const getBusinessType = (code: string) => {
+  return BusinessTypeData.find((d) => d.code === code)
+}
