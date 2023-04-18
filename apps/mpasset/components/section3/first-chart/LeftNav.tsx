@@ -9,21 +9,21 @@ type Props = {
 }
 
 const LeftNav = ({ width, height, scrollControl }: Props) => {
-  const { person, selectedPerson } = usePersonStore()
+  const { filterPerson } = usePersonStore()
 
   React.useEffect(() => {
-    if (person.length > 0) {
+    if (filterPerson.length > 0) {
       const svg = d3.select('.chart-nav')
         .attr('width', width)
         .attr('height', height)
 
-      const yScaleBand = d3.scaleBand().domain(person.map((_, i) => `${i}`)).range([0, height])
+      const yScaleBand = d3.scaleBand().domain(filterPerson.map((_, i) => `${i}`)).range([0, height])
 
-      const [minPct, maxPct] = d3.extent(person, (d) => d.totalPctShare)
+      const [minPct, maxPct] = d3.extent(filterPerson, (d) => d.totalPctShare)
       const xScale = d3.scaleLinear().domain([minPct || -20, maxPct || 100]).range([0, width])
 
       svg.selectAll('rect')
-        .data(person)
+        .data(filterPerson)
         .join('rect')
         .attr('x', (d) => d.totalPctShare <= 0 ? xScale(d.totalPctShare) : xScale(0))
         .attr('y', (_, i) => yScaleBand(`${i}`)!)
@@ -32,11 +32,11 @@ const LeftNav = ({ width, height, scrollControl }: Props) => {
         .attr('fill', (d) => d.Party ? d.Party.Color! : 'black')
 
     }
-  }, [person, height, width])
+  }, [filterPerson, height, width])
 
 
   React.useEffect(() => {
-    if (person.length > 0) {
+    if (filterPerson.length > 0) {
       if (scrollControl.scrollHeight === 0 && scrollControl.clientHeight === 0 && scrollControl.scrollTop === 0) return;
 
       const svg = d3.select('.chart-nav')
@@ -57,13 +57,13 @@ const LeftNav = ({ width, height, scrollControl }: Props) => {
         .attr('y', yScale(scrollControl.scrollTop))
 
     }
-  }, [person, scrollControl, height, width])
+  }, [filterPerson, scrollControl, height, width])
 
   React.useEffect(() => {
-    if (person.length > 0) {
+    if (filterPerson.length > 0) {
       const svg = d3.select('.chart-nav')
     }
-  }, [person, scrollControl])
+  }, [filterPerson, scrollControl])
 
   return (
     <div className='w-full h-full' >

@@ -32,7 +32,7 @@ const Section3 = (props: Props) => {
     setPersonOutlier,
     selectedCompany,
     party, setParty,
-    setTheyWorkPerson
+    setFilterPerson,
   } = usePersonStore();
 
   const [view, setView] = React.useState(VIEW_TYPE.MAIN_VIEW)
@@ -53,24 +53,15 @@ const Section3 = (props: Props) => {
 
         setPersonOutlier(sortArray.slice(0, 1))
         setPerson(sortArray.slice(1))
-
+        setFilterPerson(sortArray.slice(1))
       }
     })
-  }, [setPerson, setPersonOutlier])
-
-  const fetchFromTheyWrok = React.useCallback(async () => {
-    const everyPeople = await TheyWorkForUs.People.fetchAll({
-      fields: 'Id,Name,Title,IsMP,IsSenator,IsActive,Images,PeoplePartyHistory',
-      'nested[PeoplePartyHistory][fields]': 'Party,EstablishedDate',
-    });
-    setTheyWorkPerson(everyPeople)
-  }, [setTheyWorkPerson])
+  }, [setPerson, setPersonOutlier, setFilterPerson])
 
   React.useEffect(() => {
     let ignore = false;
     if (person.length <= 0 && party.length <= 0) {
       if (!ignore) {
-        fetchFromTheyWrok()
         fetchFromGit()
       }
     } else
@@ -78,7 +69,7 @@ const Section3 = (props: Props) => {
     return () => {
       ignore = true;
     }
-  }, [person, setPerson, party, setParty, fetchFromGit, fetchFromTheyWrok])
+  }, [person, setPerson, party, setParty, fetchFromGit])
 
   React.useLayoutEffect(() => {
     if (selectedCompany) {

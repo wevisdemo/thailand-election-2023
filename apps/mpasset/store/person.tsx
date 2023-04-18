@@ -6,9 +6,6 @@ import { persist, createJSONStorage } from 'zustand/middleware'
 
 
 interface PersonState {
-  theyWorkPerson: Person[]
-  setTheyWorkPerson: (by: Person[]) => void
-
   person: PersonCustom[]
   setPerson: (by: PersonCustom[]) => void
   personOutlier: PersonCustom[]
@@ -41,9 +38,6 @@ interface PersonState {
 export const usePersonStore = create<PersonState>()(
   persist(
     (set, get) => ({
-      theyWorkPerson: [],
-      setTheyWorkPerson: (by) => { return set((state) => ({ ...state, theyWorkPerson: by })) },
-
       person: [],
       setPerson: (by) => { return set((state) => ({ ...state, person: by })) },
       personOutlier: [],
@@ -76,7 +70,7 @@ export const usePersonStore = create<PersonState>()(
       storage: createJSONStorage(() => sessionStorage), // (optional) by default, 'localStorage' is used
       partialize: (state) =>
         Object.fromEntries(
-          Object.entries(state).filter(([key]) => ['theyWorkPerson', 'person', 'personOutlier', 'party'].includes(key))
+          Object.entries(state).filter(([key]) => ['person', 'personOutlier', 'party', 'filterPerson'].includes(key))
         ),
       onRehydrateStorage: (state) => {
         console.log('hydration starts')

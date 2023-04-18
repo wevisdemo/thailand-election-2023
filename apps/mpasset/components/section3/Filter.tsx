@@ -30,7 +30,6 @@ const Filter = ({ selectedFilter, onOpenSeachDialog }: Props) => {
   const [isOpenSearchBusinessType, setIsOpenSearchBusinessType] = React.useState(false)
   const [isOpenSearchParty, setIsOpenSearchParty] = React.useState(false)
 
-
   return (
     <div className='flex flex-col gap-y-[5px]  py-[5px]'>
       <div className='flex flex-row gap-x-[5px] px-[10px]'>

@@ -17,14 +17,12 @@ export type ScrollChartControlType = {
 }
 
 const FirstChart = (props: Props) => {
-  const { personOutlier } = usePersonStore()
   const [filter, setFilter] = React.useState<SelectedFilterType>({
     dataSet: 'ผู้สมัคร 66',
     businessType: 'ทุกหมวดธุรกิจ',
     party: 'ทุกพรรค',
     sort: 'สูงสุด',
   })
-  const [filterPerson, setFilterPerson] = React.useState<PersonCustom[]>([])
   const [isOpenSearchDialog, setIsOpenSearchDialog] = React.useState(false)
 
   const chartRef = React.useRef<HTMLDivElement>(null)

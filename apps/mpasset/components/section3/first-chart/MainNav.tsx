@@ -11,7 +11,7 @@ type Props = {
 }
 
 const MainNav = ({ width, height, onScroll }: Props) => {
-  const { personOutlier, person, setSelectedPerson } = usePersonStore()
+  const { personOutlier, filterPerson, setSelectedPerson } = usePersonStore()
   const handleScroll = (e: React.UIEvent<HTMLDivElement, UIEvent>) => {
     onScroll({
       scrollHeight: e.currentTarget.scrollHeight,
@@ -21,19 +21,19 @@ const MainNav = ({ width, height, onScroll }: Props) => {
   };
 
   React.useEffect(() => {
-    if (person.length > 0) {
-      const countPerson = person.length + 2
+    if (filterPerson.length > 0) {
+      const countPerson = filterPerson.length + 2
       const contentHeight = countPerson * 40
 
       const svg = d3.select('.chart-main')
         .attr('width', width)
         .attr('height', contentHeight)
 
-      let [minPct, maxPct] = d3.extent(person, (d) => d.totalPctShare)
+      let [minPct, maxPct] = d3.extent(filterPerson, (d) => d.totalPctShare)
 
-      const personData = [...personOutlier.map((d) => ({ ...d, totalPctShare: maxPct || 100 })), ...person.map((d) => ({ ...d }))]
+      const personData = [...personOutlier.map((d) => ({ ...d, totalPctShare: maxPct || 100 })), ...filterPerson.map((d) => ({ ...d }))]
 
-      // const yScaleBand = d3.scaleBand().domain(person.map((d) => `${d.Id}`)).range([0, 40 * countPerson]).paddingInner(4)
+      // const yScaleBand = d3.scaleBand().domain(filterPerson.map((d) => `${d.Id}`)).range([0, 40 * countPerson]).paddingInner(4)
       const yScaleBand = d3.scaleBand().domain(personData.map((_, i) => `${i}`)).range([0, 40 * countPerson]).paddingInner(.5).paddingOuter(.2)
 
       // let [minPct, maxPct] = d3.extent(person, (d) => d.totalPctShare)
@@ -154,7 +154,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .text((d) => d.totalValueShare !== 0 ? convertToInternationalCurrencySystem(d.totalValueShare) : d.countDirector > 0 ? `เกี่ยวข้องกับธุรกิจแต่ไม่มีหุ้นอยู่` : 'ไม่เกี่ยวข้องกับธุรกิจ')
 
     }
-  }, [person, height, width, setSelectedPerson, personOutlier])
+  }, [filterPerson, height, width, setSelectedPerson, personOutlier])
 
   return (
     <div className={`overflow-y-scroll overflow-x-hidden
