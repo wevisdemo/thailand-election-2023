@@ -56,15 +56,18 @@ const AboutPage: NextPage = ({}) => {
 							ที่เปิดโอกาสให้ประชาชนซึ่งเป็นเจ้าของอำนาจ เลือก ‘ผู้แทน’
 							เข้าไปทำหน้าที่แทนตัวเอง ทุกๆ การเข้าคูหาและทุกๆ กากบาท
 							จึงเป็นการตัดสินใจครั้งสำคัญ ว่าเราจะใช้อำนาจของเรา
-							เพื่อเปลี่ยนแปลงสังคมและประเทศที่เราอยู่ไปในทิศทางไหน โปรเจกต์
-							‘เลือกตั้งรอบนี้ พรรคคุณพี่ขายอะไรหรอคะ?’ นี้ พวกเรา WeVis
-							จึงพยายามรวบรวมข้อมูลนโยบายต่างๆ
+							เพื่อเปลี่ยนแปลงสังคมและประเทศที่เราอยู่ไปในทิศทางไหน <br />
+							<br />
+							โปรเจกต์ ‘เลือกตั้งรอบนี้ พรรคคุณพี่ขายอะไรหรอคะ?’ นี้ พวกเรา
+							WeVis จึงพยายามรวบรวมข้อมูลนโยบายต่างๆ
 							ของพรรคการเมืองที่ลงรับสมัครเลือกตั้ง 66
 							มาให้ประชาชนผู้มีสิทธิเลือกตั้งอย่างพวกเราค้นหาได้ง่ายๆ
 							ดูว่ามีพรรคไหนเสนอนโยบายที่เราสนใจ ต้องการ
 							หรือช่วยให้ชีวิตเราดีขึ้นได้ โดยสามารถเลือกดูตามหมวดหมู่
-							คีย์เวิร์ด หรือเปรียบเทียบระหว่างพรรคได้อย่างสะดวก ก่อนเข้าคูหา
-							#เลือกตั้ง66 นี้ พวกเราเลยออยากชวนทุกคนมาลองศึกษาข้อมูลให้ดี
+							คีย์เวิร์ด หรือเปรียบเทียบระหว่างพรรคได้อย่างสะดวก
+							<br />
+							<br /> ก่อนเข้าคูหา #เลือกตั้ง66 นี้
+							พวกเราเลยออยากชวนทุกคนมาลองศึกษาข้อมูลให้ดี
 							เพื่อตัดสินใจมอบอำนาจให้กับ ‘ผู้แทน’
 							ที่จะเข้าไปในรัฐสภาเพื่อใช้สิทธิและเสียงแทนเราอย่างแท้จริง
 						</p>
@@ -76,13 +79,12 @@ const AboutPage: NextPage = ({}) => {
 								ข้อมูลเบื้องต้นจากเว็บไซต์/โซเชียลมีเดียหลักของแต่ละพรรคการเมือง
 							</li>
 							<li>
-								เอกสารรายขื่อผู้สมัครรับเลือกตั้งแบบบัญชีรายชื่อ จาก กกต.{' '}
 								<a
-									className="underline-offset-1 decoration-solid"
+									className="underline-offset-1 decoration-solid text-gray-3"
 									target="_blank"
 									href="https://drive.google.com/file/d/1HSKv9OjbxbfQbUcWVc5SADhRcwP_sYyt/view"
 								>
-									ลิ้งค์
+									เอกสารรายขื่อผู้สมัครรับเลือกตั้งแบบบัญชีรายชื่อ จาก กกต.
 								</a>
 							</li>
 						</ul>
@@ -94,64 +96,102 @@ const AboutPage: NextPage = ({}) => {
 							และเปิดข้อมูลเป็น Open Data ภายใต้เงื่อนไข Creative Commons
 							Attribution-NonCommercial License (CC-BY-NC)
 							คือสามารถนำไปเผยแพร่และดัดแปลงได้ โดยต้องระบุที่มา
-							แต่ห้ามนำไปใช้เพื่อการค้า สามารถดูรายละเอียดเพิ่มเติมได้ที่
-							wevis.info/terms-of-use หากมีข้อสงสัยต้องการสอบถามเพิ่มเติม
+							แต่ห้ามนำไปใช้เพื่อการค้า สามารถดูรายละเอียดเพิ่มเติมได้ที่{' '}
+							<a href="wevis.info/terms-of-use" className=" text-gray-3">
+								wevis.info/terms-of-use
+							</a>
+							<br />
+							<br /> หากมีข้อสงสัยต้องการสอบถามเพิ่มเติม
 							ประสงค์แจ้งเปลี่ยนแปลงหรือเพิ่มเติมข้อมูลเพื่อความถูกต้อง
-							หรือมีข้อเสนอแนะใดๆ สามารถติดต่อได้ที่ team@punchup.world
+							หรือมีข้อเสนอแนะใดๆ สามารถติดต่อได้ที่ team [at] punchup.world
 						</p>
 					</div>
 					<div className="mt-[50px]">
 						<h2 className="font-bold typo-h5">ทีมงานร่วมพัฒนา</h2>
 						<div>
 							<p className="mt-[15px] font-bold">เขียนโปรแกรม</p>
-							<a href="https://github.com/petchill">petchill</a>,{' '}
-							<a href="https://github.com/MEEP00H">MEEP00H</a>
+							<a className="text-gray-3" href="https://github.com/petchill">
+								petchill
+							</a>
+							,{' '}
+							<a className="text-gray-3" href="https://github.com/MEEP00H">
+								MEEP00H
+							</a>
 						</div>
 						<div>
 							<p className="mt-[15px] font-bold">ออกแบบ</p>
-							<a href="https://www.linkedin.com/in/sapanya-srisook-693206104/">
+							<a
+								className="text-gray-3"
+								href="https://www.linkedin.com/in/sapanya-srisook-693206104/"
+							>
 								Sapanya Srisook
 							</a>
 							,{' '}
-							<a href="https://www.instagram.com/namsaisupavong/">
+							<a
+								className="text-gray-3"
+								href="https://www.instagram.com/namsaisupavong/"
+							>
 								Namsai Supavong
 							</a>
 						</div>
 						<div>
 							<p className="mt-[15px] font-bold">สืบค้นและรวบรวมข้อมูล</p>
-							<a href="https://www.linkedin.com/in/thanisara-r/">
+							<a
+								className="text-gray-3"
+								href="https://www.linkedin.com/in/thanisara-r/"
+							>
 								Thanisara GG
 							</a>
 							,{' '}
-							<a href="https://www.linkedin.com/in/suphisara-isaranugul-a943b017b/">
+							<a
+								className="text-gray-3"
+								href="https://www.linkedin.com/in/suphisara-isaranugul-a943b017b/"
+							>
 								Mean Suphisara
 							</a>
 							,{' '}
-							<a href="https://www.linkedin.com/in/pantira-monsumrith-b42018224/">
+							<a
+								className="text-gray-3"
+								href="https://www.linkedin.com/in/pantira-monsumrith-b42018224/"
+							>
 								Fhy Pantira
 							</a>
 						</div>
 						<div>
 							<p className="mt-[15px] font-bold">บรรณาธิการ</p>
-							<a href="https://www.linkedin.com/in/thanisara-r/">
+							<a
+								className="text-gray-3"
+								href="https://www.linkedin.com/in/thanisara-r/"
+							>
 								Thanisara GG
 							</a>
 						</div>
 						<div>
 							<p className="mt-[15px] font-bold">ประสานงานและจัดการอื่นๆ</p>
-							<a href="https://www.linkedin.com/in/pantira-monsumrith-b42018224/">
+							<a
+								className="text-gray-3"
+								href="https://www.linkedin.com/in/pantira-monsumrith-b42018224/"
+							>
 								Fhy Pantira
 							</a>
-							, <a href="https://github.com/Th1nkK1D">Th1nkK1D</a>
+							,{' '}
+							<a className="text-gray-3" href="https://github.com/Th1nkK1D">
+								Th1nkK1D
+							</a>
 						</div>
 					</div>
 					<div className="mt-[50px]">
 						<h2 className="font-bold typo-h5">หมายเหตุ</h2>
 						<p className="mt-[15px]">
-							<a href="https://punchup.world/">Punch Up</a> และ{' '}
-							<a href="https://wevis.info/">WeVis</a>{' '}
+							<a className="text-gray-3" href="https://punchup.world/">
+								Punch Up
+							</a>{' '}
+							และ{' '}
+							<a className="text-gray-3" href="https://wevis.info/">
+								WeVis
+							</a>{' '}
 							ได้รับการสนับสนุนทุนในการดำเนินงานจาก{' '}
-							<a href="https://www.ned.org/">
+							<a className="text-gray-3" href="https://www.ned.org/">
 								National Endowment for Democracy (NED)
 							</a>{' '}
 							ซึ่งนำมาใช้เป็นต้นทุนในการรวมรวมข้อมูล ออกแบบ พัฒนาเว็บไซต์
