@@ -1,17 +1,18 @@
 import React from 'react'
 
 import { usePersonStore } from '../../store/person'
-import Filter, { SelectedFilterType } from './Filter'
-import FirstChart from './first-chart'
-import Loading from './Loading'
-import SearchPerson from './SearchPerson'
-import SelectedPersonDetail from './second-chart'
-import SelectedCompanyDetail from './third-chart'
+import { LoadingScreen } from './Loading'
 
-import * as d3 from 'd3';
+import { TheyWorkForUs } from '@thailand-election-2023/database'
+import * as d3 from 'd3'
+import dynamic from 'next/dynamic'
 import { PersonCustom } from '../../models/person'
 import { placeZerosAtEnd } from '../util/calculation'
-import { TheyWorkForUs } from '@thailand-election-2023/database'
+
+const FirstChart = dynamic(() => import('./first-chart'), { loading: () => <LoadingScreen /> })
+const SecondChart = dynamic(() => import('./second-chart'), { loading: () => <LoadingScreen /> })
+const ThirdChart = dynamic(() => import('./third-chart'), { loading: () => <LoadingScreen /> })
+
 
 type Props = {}
 
@@ -23,20 +24,12 @@ enum VIEW_TYPE {
 
 
 const Section3 = (props: Props) => {
-  const [filter, setFilter] = React.useState<SelectedFilterType>({
-    dataSet: 'ผู้สมัคร 66',
-    businessType: 'ทุกหมวดธุรกิจ',
-    party: 'ทุกพรรค',
-    sort: 'สูงสุด',
-  })
   const [isLoading, setIsLoading] = React.useState(true)
-
-  const [filterPerson, setFilterPerson] = React.useState<PersonCustom[]>([])
 
   const {
     person, setPerson,
     selectedPerson,
-    personOutlier, setPersonOutlier,
+    setPersonOutlier,
     selectedCompany,
     party, setParty,
     setTheyWorkPerson
@@ -97,32 +90,21 @@ const Section3 = (props: Props) => {
     }
   }, [selectedPerson, selectedCompany])
 
+  if (isLoading) return <LoadingScreen />
 
-
-  const [isOpenSearchDialog, setIsOpenSearchDialog] = React.useState(false)
-
-  if (isLoading) return <div className='h-screen flex flex-col'><Loading /></div>
+  const getView = (view: VIEW_TYPE) => {
+    switch (view) {
+      case VIEW_TYPE.MAIN_VIEW: return <FirstChart />;
+      case VIEW_TYPE.SELCTED_PERSON_CHART: return <SecondChart />;
+      case VIEW_TYPE.SELECTED_COMPANY_CHART: return <ThirdChart />;
+      default:
+        break;
+    }
+  }
 
   return (
     <div className='h-full inset-0 flex flex-col relative overflow-hidden'>
-      {
-        view === VIEW_TYPE.MAIN_VIEW &&
-        <>
-          <Filter selectedFilter={filter} onOpenSeachDialog={setIsOpenSearchDialog} />
-          <div className='flex flex-row justify-between px-[10px]'>
-            <div className='typo-b7 text-gray-3 typo-ibmplex'>*แสดงสีเฉพาะพรรคที่อยู่ในสภาสมัยล่าสุด</div>
-            <div className='typo-b7 text-right'>ล้านบาท</div>
-          </div>
-          <FirstChart />
-          <SearchPerson open={isOpenSearchDialog} onClose={() => setIsOpenSearchDialog(false)} />
-        </>
-      }
-      {view === VIEW_TYPE.SELCTED_PERSON_CHART &&
-        <SelectedPersonDetail />
-      }
-      {view === VIEW_TYPE.SELECTED_COMPANY_CHART &&
-        <SelectedCompanyDetail />
-      }
+      {getView(view)}
     </div>
   )
 }

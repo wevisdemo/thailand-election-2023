@@ -8,6 +8,11 @@ export interface PersonCustom {
   IsMp: boolean;
   IsSenator: boolean;
   IsActive: boolean;
+  IsCabinet: boolean;
+  MpType: string;
+  MpProvince: string | null;
+  MpZone: string | null;
+  MpList: '22';
 
   // custom field
   Images: ImageAttachment[] | string | null;
@@ -90,4 +95,5 @@ export interface ShareholderData {
   pct_share: number;
   count_share: number;
   Firstname: string;
+  person?: PersonCustom;
 }

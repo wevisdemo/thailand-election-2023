@@ -11,7 +11,7 @@ type Props = {
 }
 
 const MainNav = ({ width, height, onScroll }: Props) => {
-  const { person, setSelectedPerson } = usePersonStore()
+  const { personOutlier, person, setSelectedPerson } = usePersonStore()
   const handleScroll = (e: React.UIEvent<HTMLDivElement, UIEvent>) => {
     onScroll({
       scrollHeight: e.currentTarget.scrollHeight,
@@ -22,17 +22,22 @@ const MainNav = ({ width, height, onScroll }: Props) => {
 
   React.useEffect(() => {
     if (person.length > 0) {
-      const contentHeight = person.length * 40
+      const countPerson = person.length + 2
+      const contentHeight = countPerson * 40
 
       const svg = d3.select('.chart-main')
         .attr('width', width)
         .attr('height', contentHeight)
 
-      // const yScaleBand = d3.scaleBand().domain(person.map((d) => `${d.Id}`)).range([0, 40 * person.length]).paddingInner(4)
-      const yScaleBand = d3.scaleBand().domain(person.map((_, i) => `${i}`)).range([0, 40 * person.length]).paddingInner(.5).paddingOuter(.2)
+      let [minPct, maxPct] = d3.extent(person, (d) => d.totalPctShare)
+
+      const personData = [...personOutlier.map((d) => ({ ...d, totalPctShare: maxPct || 100 })), ...person.map((d) => ({ ...d }))]
+
+      // const yScaleBand = d3.scaleBand().domain(person.map((d) => `${d.Id}`)).range([0, 40 * countPerson]).paddingInner(4)
+      const yScaleBand = d3.scaleBand().domain(personData.map((_, i) => `${i}`)).range([0, 40 * countPerson]).paddingInner(.5).paddingOuter(.2)
 
       // let [minPct, maxPct] = d3.extent(person, (d) => d.totalPctShare)
-      let [minPct, maxPct] = d3.extent(person, (d) => d.totalPctShare)
+
 
       // minPct = -30
       const xScale = d3.scaleLinear().domain([minPct || -20, maxPct || 100]).range([0, width])
@@ -41,7 +46,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
       svg.append('line').attr('x1', xScale(0)).attr('y1', 0).attr('x2', xScale(0)).attr('y2', contentHeight).attr('stroke', 'black')
 
       const node = svg.selectAll('g')
-        .data(person.map((d) => ({ ...d, randX: Math.random() * 100 })))
+        .data(personData)
         .join('g')
         .attr('transform', (_, i) => `translate(0, ${yScaleBand(`${i!}`)})`)
         .on('click', (_, d: PersonCustom) => { console.log(d); setSelectedPerson(d) })
@@ -108,7 +113,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .attr("y", 0);
 
       const r = 15
-      const limiter = 30
+      const limiter = 25
       node.selectAll('circle').remove()
 
       let circleMargin = 5
@@ -135,9 +140,6 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .attr('r', rLogo)
         .attr("fill", (d, i) => d.Party ? "url(#pattern_party_avatar" + i + ")" : "none");
 
-
-
-
       node.append('text')
         .attr('x', (d) => d.totalPctShare < limiter ?
           d.totalPctShare < 0 ?
@@ -152,7 +154,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .text((d) => d.totalValueShare !== 0 ? convertToInternationalCurrencySystem(d.totalValueShare) : d.countDirector > 0 ? `เกี่ยวข้องกับธุรกิจแต่ไม่มีหุ้นอยู่` : 'ไม่เกี่ยวข้องกับธุรกิจ')
 
     }
-  }, [person, height, width, setSelectedPerson])
+  }, [person, height, width, setSelectedPerson, personOutlier])
 
   return (
     <div className={`overflow-y-scroll overflow-x-hidden
