@@ -5,6 +5,7 @@ import { imgPrefix } from '@/utils/path';
 const Metadata: FunctionComponent = () => {
 	return (
 		<Head>
+			<link rel="icon" href={`${imgPrefix}/favicon.png`} />
 			<title>policyshop</title>
 			<meta
 				name="description"

@@ -27,9 +27,6 @@ interface PropsType {
 const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 	const [hotParties, setHotParties] = useState<Party[]>([]);
 	const [topics, setTopics] = useState<GroupByTopics>({});
-	const [selectedPartyOption, setSelectedPartyOption] =
-		useState<IDropdownOption<string> | null>(null);
-	const router = useRouter();
 
 	const fetchParties = async (): Promise<void> => {
 		const data: Party[] = await TheyWorkForUs.Parties.fetchAll({
@@ -59,9 +56,9 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 		});
 	};
 
-	const onSelectParty = (option: IDropdownOption<string>) => {
-		setSelectedPartyOption(option);
-		router.push(`/party/${option.value}`);
+	const getShareUrl = () => {
+		const host = location.hostname;
+		return `${host}/policyshop`;
 	};
 
 	const fetchPolicies = async (): Promise<void> => {
@@ -84,7 +81,7 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 						<ByParty parties={hotParties} partyOptions={getPartyOptions()} />
 						<div className="flex flex-col items-center my-[40px]">
 							<div className="flex mb-[10px]">
-								<WvSharer url="/" />
+								<WvSharer url={getShareUrl()} />
 							</div>
 							<p className="font-bold typo-b3">#WeVisElection66</p>
 							<Link href={'/about'}>

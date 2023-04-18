@@ -12,6 +12,11 @@ const AboutPage: NextPage = ({}) => {
 		import('@thailand-election-2023/components');
 	}, []);
 
+	const getShareUrl = () => {
+		const host = location.hostname;
+		return `${host}/policyshop`;
+	};
+
 	const handleClickDownload = () => {
 		window.open(
 			'https://sheets.wevis.info/dashboard/#/nc/view/41ebf90e-33f4-43d3-859f-a09034169cfa',
@@ -185,7 +190,7 @@ const AboutPage: NextPage = ({}) => {
 					</div>
 				</div>
 				<div className="grid gap-[10px] justify-center justify-items-center m-auto pt-[20px] md:pt-[40px] pb-[30px] md:pb-[60px]">
-					<WvSharer url="/" />
+					<WvSharer url={getShareUrl()} />
 					<p className="font-bold typo-b3">#WeVisElection66</p>
 					<Link
 						href={'/'}
