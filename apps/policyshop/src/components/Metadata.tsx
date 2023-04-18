@@ -7,7 +7,7 @@ const Metadata: FunctionComponent = () => {
 	const desc = 'เทียบนโยบายหาเสียงเลือกตั้ง 66 ของแต่ละพรรคการเมือง';
 	const host = location.hostname;
 	const web_url = host + imgPrefix;
-	const og_img = '/policy_og.jpg';
+	const og_img = '/policy_og.png';
 	return (
 		<Head>
 			<title>{title}</title>
