@@ -57,8 +57,7 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 	};
 
 	const getShareUrl = () => {
-		const host = location.hostname;
-		return `${host}/policyshop`;
+		return 'https://staging.election66.wevis.info/policyshop/';
 	};
 
 	const fetchPolicies = async (): Promise<void> => {
@@ -70,7 +69,6 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 	}, []);
 	return (
 		<>
-			<Metadata />
 			<main>
 				<Layout title="landing">
 					<IntroPolicy />

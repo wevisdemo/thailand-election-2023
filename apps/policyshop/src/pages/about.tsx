@@ -12,8 +12,7 @@ const AboutPage: NextPage = ({}) => {
 	}, []);
 
 	const getShareUrl = () => {
-		const host = location.hostname;
-		return `${host}/policyshop`;
+		return 'https://staging.election66.wevis.info/policyshop/';
 	};
 
 	const handleClickDownload = () => {
@@ -36,7 +35,6 @@ const AboutPage: NextPage = ({}) => {
 
 	return (
 		<>
-			<Metadata />
 			<main className="bg-white">
 				<election-header></election-header>
 				<Link href="/" className="flex m-[20px] w-fit">
@@ -80,7 +78,7 @@ const AboutPage: NextPage = ({}) => {
 							</li>
 							<li>
 								<a
-									className="underline-offset-1 decoration-solid text-gray-3 underline"
+									className="underline underline-offset-1 decoration-solid text-gray-3"
 									target="_blank"
 									href="https://drive.google.com/file/d/1HSKv9OjbxbfQbUcWVc5SADhRcwP_sYyt/view"
 								>
@@ -99,7 +97,7 @@ const AboutPage: NextPage = ({}) => {
 							แต่ห้ามนำไปใช้เพื่อการค้า สามารถดูรายละเอียดเพิ่มเติมได้ที่{' '}
 							<a
 								href="wevis.info/terms-of-use"
-								className=" text-gray-3 underline"
+								className="underline  text-gray-3"
 							>
 								wevis.info/terms-of-use
 							</a>
@@ -114,14 +112,14 @@ const AboutPage: NextPage = ({}) => {
 						<div>
 							<p className="mt-[15px] font-bold">เขียนโปรแกรม</p>
 							<a
-								className="text-gray-3 underline"
+								className="underline text-gray-3"
 								href="https://github.com/petchill"
 							>
 								petchill
 							</a>
 							,{' '}
 							<a
-								className="text-gray-3 underline"
+								className="underline text-gray-3"
 								href="https://github.com/MEEP00H"
 							>
 								MEEP00H
@@ -130,14 +128,14 @@ const AboutPage: NextPage = ({}) => {
 						<div>
 							<p className="mt-[15px] font-bold">ออกแบบ</p>
 							<a
-								className="text-gray-3 underline"
+								className="underline text-gray-3"
 								href="https://www.linkedin.com/in/sapanya-srisook-693206104/"
 							>
 								Sapanya Srisook
 							</a>
 							,{' '}
 							<a
-								className="text-gray-3 underline"
+								className="underline text-gray-3"
 								href="https://www.instagram.com/namsaisupavong/"
 							>
 								Namsai Supavong
@@ -146,21 +144,21 @@ const AboutPage: NextPage = ({}) => {
 						<div>
 							<p className="mt-[15px] font-bold">สืบค้นและรวบรวมข้อมูล</p>
 							<a
-								className="text-gray-3 underline"
+								className="underline text-gray-3"
 								href="https://www.linkedin.com/in/thanisara-r/"
 							>
 								Thanisara GG
 							</a>
 							,{' '}
 							<a
-								className="text-gray-3 underline"
+								className="underline text-gray-3"
 								href="https://www.linkedin.com/in/suphisara-isaranugul-a943b017b/"
 							>
 								Mean Suphisara
 							</a>
 							,{' '}
 							<a
-								className="text-gray-3 underline"
+								className="underline text-gray-3"
 								href="https://www.linkedin.com/in/pantira-monsumrith-b42018224/"
 							>
 								Fhy Pantira
@@ -169,7 +167,7 @@ const AboutPage: NextPage = ({}) => {
 						<div>
 							<p className="mt-[15px] font-bold">บรรณาธิการ</p>
 							<a
-								className="text-gray-3 underline"
+								className="underline text-gray-3"
 								href="https://www.linkedin.com/in/thanisara-r/"
 							>
 								Thanisara GG
@@ -178,14 +176,14 @@ const AboutPage: NextPage = ({}) => {
 						<div>
 							<p className="mt-[15px] font-bold">ประสานงานและจัดการอื่นๆ</p>
 							<a
-								className="text-gray-3 underline"
+								className="underline text-gray-3"
 								href="https://www.linkedin.com/in/pantira-monsumrith-b42018224/"
 							>
 								Fhy Pantira
 							</a>
 							,{' '}
 							<a
-								className="text-gray-3 underline"
+								className="underline text-gray-3"
 								href="https://github.com/Th1nkK1D"
 							>
 								Th1nkK1D
@@ -196,17 +194,17 @@ const AboutPage: NextPage = ({}) => {
 						<h2 className="font-bold typo-h5">หมายเหตุ</h2>
 						<p className="mt-[15px]">
 							<a
-								className="text-gray-3 underline"
+								className="underline text-gray-3"
 								href="https://punchup.world/"
 							>
 								Punch Up
 							</a>{' '}
 							และ{' '}
-							<a className="text-gray-3 underline" href="https://wevis.info/">
+							<a className="underline text-gray-3" href="https://wevis.info/">
 								WeVis
 							</a>{' '}
 							ได้รับการสนับสนุนทุนในการดำเนินงานจาก{' '}
-							<a className="text-gray-3 underline" href="https://www.ned.org/">
+							<a className="underline text-gray-3" href="https://www.ned.org/">
 								National Endowment for Democracy (NED)
 							</a>{' '}
 							ซึ่งนำมาใช้เป็นต้นทุนในการรวมรวมข้อมูล ออกแบบ พัฒนาเว็บไซต์

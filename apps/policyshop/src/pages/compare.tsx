@@ -27,7 +27,6 @@ const ComparePage: NextPage<PropsType> = ({ policies, parties }) => {
 
 	return (
 		<>
-			<Metadata />
 			<main>
 				<Layout title="เปรียบเทียบนโยบาย">
 					<Clipboard styles="mt-[32px]" />

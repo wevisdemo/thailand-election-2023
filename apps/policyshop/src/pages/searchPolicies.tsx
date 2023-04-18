@@ -38,7 +38,6 @@ const SearchPolicies: NextPage<PropsType> = ({ policies, parties }) => {
 
 	return (
 		<>
-			<Metadata />
 			<main>
 				<Layout title="ค้นหานโยบาย">
 					<SearchBar onClear={onClear} />

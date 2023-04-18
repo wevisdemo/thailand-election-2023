@@ -5,8 +5,7 @@ import { imgPrefix } from '@/utils/path';
 const Metadata: FunctionComponent = () => {
 	const title = 'เลือกตั้ง 66 รอบนี้ พรรคคุณพี่ขายอะไรหรอคะ?';
 	const desc = 'เทียบนโยบายหาเสียงเลือกตั้ง 66 ของแต่ละพรรคการเมือง';
-	const host = location.hostname;
-	const web_url = host + imgPrefix;
+	const web_url = 'https://staging.election66.wevis.info/policyshop/';
 	const og_img = '/policy_og.png';
 	return (
 		<Head>

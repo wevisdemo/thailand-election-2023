@@ -209,7 +209,6 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 
 	return (
 		<>
-			<Metadata />
 			<main>
 				<Layout title={title}>
 					<HowToLabel />
