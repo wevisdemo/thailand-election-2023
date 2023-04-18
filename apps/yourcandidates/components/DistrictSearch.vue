@@ -11,6 +11,7 @@
           name="query"
           id="district-search"
           v-model.trim="query"
+          autocomplete="off"
           @input="() => changeLevel(1)"
           placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
         />

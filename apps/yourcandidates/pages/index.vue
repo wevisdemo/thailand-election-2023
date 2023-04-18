@@ -55,6 +55,7 @@ export default {
     ElectionHeader,
     ElectionBottom,
     ElectionFooter,
+    ElectionCookie,
   },
 }
 </script>

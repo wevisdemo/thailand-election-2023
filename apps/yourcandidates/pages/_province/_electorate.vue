@@ -52,6 +52,7 @@
 
       <!-- tabs -->
       <Tabs
+        id="tabs"
         :tabs="tabs"
         @selectTab="selectTab($event)"
         :activeTab="tabSelected"
@@ -78,6 +79,8 @@
                     name="query"
                     v-model.trim="partyQuery"
                     placeholder="ค้นหาด้วยชื่อพรรค"
+                    autocomplete="off"
+                    @keyup="resetShowItems"
                   />
                   <IconsSearch />
                 </div>
@@ -120,6 +123,8 @@
                     name="query"
                     v-model.trim="partyQuery"
                     placeholder="ค้นหาด้วยชื่อพรรค"
+                    autocomplete="off"
+                    @keyup="resetShowItems"
                   />
                   <IconsSearch />
                 </div>
@@ -221,6 +226,7 @@ export default {
       ],
       showBtnBackToTop: false,
       tabSelected: 0,
+      maxShowItems: 10,
     }
   },
   components: {
@@ -229,6 +235,7 @@ export default {
     ElectionHeader,
     ElectionBottom,
     ElectionFooter,
+    ElectionCookie,
     HomePageBack,
   },
   methods: {
@@ -266,9 +273,17 @@ export default {
       } else {
         this.showBtnBackToTop = false
       }
+
+      // increase maxShowItems when scroll to bottom
+      const tab = document.getElementById('tabs')
+      if (window.scrollY >= tab.offsetHeight - window.innerHeight) {
+        this.maxShowItems += 10
+      }
     },
     selectTab(tab) {
       this.tabSelected = tab
+      // reset maxShowItems
+      this.maxShowItems = 10
     },
     joinSubDistricts(district) {
       return district.subDistricts
@@ -277,17 +292,24 @@ export default {
         .join(', ')
         .replace(/,([^,]*)$/, ' และ$1')
     },
+    resetShowItems() {
+      this.maxShowItems = 10
+    },
   },
   computed: {
     filteredByQueryPeople() {
-      return this.people.filter((person) => {
-        return person.Party.Name.includes(this.partyQuery)
-      })
+      return this.people
+        .filter((person) => {
+          return person.Party.Name.includes(this.partyQuery)
+        })
+        .slice(0, this.maxShowItems)
     },
     filteredByQueryParties() {
-      return this.parties.filter((party) => {
-        return party.Name.includes(this.partyQuery)
-      })
+      return this.parties
+        .filter((party) => {
+          return party.Name.includes(this.partyQuery)
+        })
+        .slice(0, this.maxShowItems)
     },
   },
   created() {
