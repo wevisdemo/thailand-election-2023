@@ -99,21 +99,72 @@ const CompanyToPersonRelationChart = (props: Props) => {
       // })
 
       nodeEnter.append('g')
-        // .attr("transform", d => `rotate(${d.x}) translate(${nodeRadius * .5}, ${nodeRadius * .5})`)
-        .append('rect')
+      // .attr("transform", d => `rotate(${d.x}) translate(${nodeRadius * .5}, ${nodeRadius * .5})`)
+
+
+      nodeEnter.select('defs').remove()
+
+      const avatar_size = 100
+      const logoSize = 30
+      console.log(root.descendants());
+
+
+      const defs = nodeEnter.append('svg:defs')
+      // profile
+      defs.append("svg:pattern")
+        .attr("id", (_, i) => "pattern_person_avatar" + i)
+        .attr("width", 1)
+        .attr("height", 1)
+        // .attr("patternUnits", "userSpaceOnUse")
+        .attr("patternContentUnits", "objectBoundingBox")
+        .append('use')
+        .attr('xlink:href', (_, i) => "#person_avatar" + i)
+        .attr("transform", "scale(0.01)")
+      defs.append("svg:image")
+        .attr("id", (_, i) => "person_avatar" + i)
+        .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Images === 'string' ? d.data.shareholderData?.person.Images :
+          typeof d.data.personData?.Images === 'string' ? d.data.personData?.Images :
+            process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
+        .attr("width", avatar_size)
+        .attr("height", avatar_size)
+        .attr("x", 0)
+        .attr("y", 0);
+
+      // profile
+      defs.append("svg:pattern")
+        .attr("id", (_, i) => "pattern_party_avatar" + i)
+        .attr("width", 1)
+        .attr("height", 1)
+        // .attr("patternUnits", "userSpaceOnUse")
+        .attr("patternContentUnits", "objectBoundingBox")
+        .append('use')
+        .attr('xlink:href', (_, i) => "#party_avatar" + i)
+        .attr("transform", "scale(0.0025)")
+      defs.append("svg:image")
+        .attr("id", (_, i) => "party_avatar" + i)
+        .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Party?.Images === 'string' ? d.data.shareholderData?.person?.Party?.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
+        .attr("width", avatar_size)
+        .attr("height", avatar_size)
+        .attr("x", 0)
+        .attr("y", 0);
+
+      nodeEnter.append('rect')
         .attr('rx', (_, i) => i == 0 ? '5' : '49')
         .attr('width', nodeRadius)
         .attr('height', nodeRadius)
-        .attr('fill', (d) => d.data.companyData?.gov_fund_proj ? '#000'
-          : d.id === `${selectedPerson?.Name.replaceAll(' ', '-')}`
-            ? "url(#pattern_person_avatar" + selectedPerson.Id + ")"
-            : 'url(#pattern_unknown_person_avatar)')
+        .attr('fill', (d, i) => i == 0 ? (Array.isArray(d.data.companyData?.gov_fund_proj) ? 'black' : 'white')
+          : d.data.companyData?.gov_fund_proj ? '#000'
+            // : d.id === `${selectedPerson?.Name.replaceAll(' ', '-')}`
+            : "url(#pattern_person_avatar" + i + ")"
+          // : 'url(#pattern_unknown_person_avatar)')
+        )
         .attr('stroke', '#000')
         .attr('stroke-weight', '2px')
         .transition(transition)
 
         .attr("fill-opacity", 1)
         .attr("stroke-opacity", 1);
+
 
       /// ------------ link layer ----------------
       const linkRoot = chartArea.select<SVGGElement>('.link-layer')
@@ -140,67 +191,9 @@ const CompanyToPersonRelationChart = (props: Props) => {
 
 
 
-      const avatar_size = 100
-      const logoSize = 30
-
-      chartArea.selectAll('defs').remove()
-      const defs = chartArea.select('.person-icon').append('svg:defs')
 
 
-      // profile
-      defs.append("svg:pattern")
-        .attr("id", "pattern_person_avatar" + selectedPerson.Id)
-        .attr("width", 1)
-        .attr("height", 1)
-        // .attr("patternUnits", "userSpaceOnUse")
-        .attr("patternContentUnits", "objectBoundingBox")
-        .append('use')
-        .attr('xlink:href', "#person_avatar" + selectedPerson.Id)
-        .attr("transform", "scale(0.01)")
-      defs.append("svg:image")
-        .attr("id", "person_avatar" + selectedPerson.Id)
-        .attr("xlink:href", typeof selectedPerson.Images === 'string' ? selectedPerson.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
-        .attr("width", avatar_size)
-        .attr("height", avatar_size)
-        .attr("x", 0)
-        .attr("y", 0);
 
-      defs.append("svg:pattern")
-        .attr("id", "pattern_unknown_person_avatar")
-        .attr("width", 1)
-        .attr("height", 1)
-        // .attr("patternUnits", "userSpaceOnUse")
-        .attr("patternContentUnits", "objectBoundingBox")
-        .append('use')
-        .attr('xlink:href', "#unknown_person_avatar")
-        .attr("transform", "scale(0.01)")
-      defs.append("svg:image")
-        .attr("id", "unknown_person_avatar")
-        .attr("xlink:href", process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
-        .attr("width", avatar_size)
-        .attr("height", avatar_size)
-        .attr("x", 0)
-        .attr("y", 0);
-
-      if (selectedPerson.Party) {
-        // profile
-        defs.append("svg:pattern")
-          .attr("id", "pattern_party_avatar" + selectedPerson.Party?.Id)
-          .attr("width", 1)
-          .attr("height", 1)
-          // .attr("patternUnits", "userSpaceOnUse")
-          .attr("patternContentUnits", "objectBoundingBox")
-          .append('use')
-          .attr('xlink:href', "#party_avatar" + selectedPerson.Party?.Id)
-          .attr("transform", "scale(0.01)")
-        defs.append("svg:image")
-          .attr("id", "party_avatar" + selectedPerson.Party?.Id)
-          .attr("xlink:href", typeof selectedPerson.Party?.Images === 'string' ? selectedPerson.Party?.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
-          .attr("width", avatar_size)
-          .attr("height", avatar_size)
-          .attr("x", 0)
-          .attr("y", 0);
-      }
       const personIcon = chartArea.select('.person-icon')
         .attr('transform', `translate(${-avatar_size * .5} ${-avatar_size * .5})`)
       // .attr('y', )

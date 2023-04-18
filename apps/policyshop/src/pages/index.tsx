@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
-import Head from 'next/head';
 import IntroPolicy from '@/components/Landing/IntroPolicy';
 import HotTopicPolicy from '@/components/Landing/HotTopicPolicy';
 import ByTopic from '@/components/Landing/ByTopic';
@@ -11,13 +10,9 @@ import { Policy } from '@thailand-election-2023/database/src/models/policy';
 import { fetchParties, fetchPolicy, groupBy } from '@/utils';
 import { GroupByTopics, IDropdownOption } from '@/types/components';
 import ShortCut from '@/components/ShortCut';
-import AutoComplete from '@/components/Compare/AutoComplete';
 import WvSharer from '@wevisdemo/ui/react/sharer';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import { GetStaticProps, NextPage } from 'next';
-import { imgPrefix } from '@/utils/path';
-import Metadata from '@/components/Metadata';
 
 interface PropsType {
 	policies: Policy[];
@@ -57,8 +52,7 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 	};
 
 	const getShareUrl = () => {
-		const host = location.hostname;
-		return `${host}/policyshop`;
+		return 'https://election66.wevis.info/policyshop';
 	};
 
 	const fetchPolicies = async (): Promise<void> => {
@@ -70,7 +64,6 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 	}, []);
 	return (
 		<>
-			<Metadata />
 			<main>
 				<Layout title="landing">
 					<IntroPolicy />

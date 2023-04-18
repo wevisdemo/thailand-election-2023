@@ -194,8 +194,11 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
                 <div className='flex flex-col'>
                   {selectedCompany && Array.isArray(selectedCompany.company_shareholder) && selectedCompany.company_shareholder.sort((a, b) => b.pct_share - a.pct_share).map((d) => (
                     <div key={`shareholder-${d.Firstname.replaceAll(' ', '-')}-${d.Lastname.replaceAll(' ', '-')}`}
-                      className='inline-flex justify-between items-center border-b-[2px] border-b-black py-[9.5px]'>
-                      <div className='typo-b5'>
+                      className='inline-flex justify-between items-center border-b-[2px] border-b-black py-[9.5px] gap-x-[10px]'>
+                      <div className={`flex-shrink-0 w-[40px] h-[40px]  bg-cover bg-center rounded-full`} style={{
+                        backgroundImage: `url('${d.person?.Images || process.env.BASE_PATH + '/design_assets/profile_pic.jpg'}')`
+                      }} />
+                      <div className='flex-grow typo-b5 text-left'>
                         {d.Firstname} {d.Lastname}
                       </div>
                       <div className='whitespace-nowrap font-bold typo-b4'>{Number(d.pct_share).toFixed(2)} %</div>
@@ -231,7 +234,7 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
               <div className='flex flex-col gap-y-[10px]
              '>
                 {selectedCompany?.gov_fund_proj.map((data) => (
-                  <div key={`comp-${data.เลขที่สัญญา}`}
+                  <div key={`gov-fund-proj-${data.เลขที่สัญญา}`}
                     className={`px-[15px] py-[10px] 
                   flex flex-row justify-between border-b-highlight-2 border-b-[1px]`}>
                     <div>

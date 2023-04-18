@@ -71,11 +71,11 @@ const CompanyList = ({ type, companyData, selectedPerson }: Props) => {
             </div>
           </div>
           {isExpandShareholder &&
-            <div className='max-h-[50vh] overflow-y-scroll pb-[100px] scrollbar-hide' >
+            <div className='max-h-[50vh] overflow-y-scroll pb-[150px] scrollbar-hide' >
               <div className='flex flex-col gap-y-[10px]
                overflow-y-scroll'>
                 {companyData.map((data) => (
-                  <div key={`comp-${data.company_name_en}`}
+                  <div key={`comp-data-${data.company_id}`}
                     className={`px-[15px] py-[10px] 
                     ${Array.isArray(data.gov_fund_proj) ? 'bg-black text-white border-[3px] border-transparent' : ' text-black bg-white border-[3px] border-black '}
                     flex flex-row rounded-[5px] justify-between items-center`}>

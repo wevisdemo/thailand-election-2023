@@ -70,7 +70,6 @@ const GovProject: React.FunctionComponent = () => {
 
       // reverse to bar chart
       const [minIncome, maxIncome] = d3.extent(data, (d) => Number(d.income))
-      console.log([minIncome, maxIncome]);
 
       const yScale = d3.scaleLinear()
         .domain([minIncome || 0, maxIncome || 100000])
@@ -155,9 +154,6 @@ const GovProject: React.FunctionComponent = () => {
         .x((d) => xScale(new Date(Number(d.year) - 543, 0, 1)))
         .y(d => yScale(d.income))
 
-      console.log(xScale(new Date(Number('2566') - 543, 3, 2)));
-
-
       const lineChart = svg.select('.chart-area')
 
       lineChart.selectAll('path').remove()
@@ -170,7 +166,7 @@ const GovProject: React.FunctionComponent = () => {
         .transition(t)
         .attr("d", line(data))
 
-      if (selectedCompany.gov_fund_proj.length > 0) {
+      if (Array.isArray(selectedCompany.gov_fund_proj) && selectedCompany.gov_fund_proj.length > 0) {
         chartArea.append('g')
           .selectAll('line')
           .data(selectedCompany.gov_fund_proj)
@@ -178,9 +174,6 @@ const GovProject: React.FunctionComponent = () => {
           .append('line')
           .attr("class", "plot-gov-fund")
           .attr("x1", (d) => {
-            console.log(new Date(d.วันที่ลงนามในสัญญา));
-            console.log(d.วันที่ลงนามในสัญญา);
-
             return xScale(new Date(d.วันที่ลงนามในสัญญา));
           })
           .attr("x2", (d) => xScale(new Date(d.วันที่ลงนามในสัญญา)))

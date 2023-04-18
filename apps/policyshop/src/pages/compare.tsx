@@ -2,14 +2,12 @@ import Clipboard from '@/components/Clipboard';
 import CompareFilter from '@/components/Compare/Filter';
 import ComparePolicyCardWrapper from '@/components/Compare/PolicyCardWrapper';
 import Layout from '@/components/Layout';
-import Metadata from '@/components/Metadata';
-import PolicyCard from '@/components/PolicyCard';
 import RandomButton from '@/components/RandomButton';
 import { Party, Policy } from '@/types/components';
 import { shufflePolicies } from '@/utils';
 import { fetchParties, fetchPolicy } from '@/utils/fetchData';
 import { GetStaticProps, NextPage } from 'next';
-import { FunctionComponent, useEffect, useRef, useState } from 'react';
+import { useState } from 'react';
 
 interface PropsType {
 	policies: Policy[];
@@ -27,7 +25,6 @@ const ComparePage: NextPage<PropsType> = ({ policies, parties }) => {
 
 	return (
 		<>
-			<Metadata />
 			<main>
 				<Layout title="เปรียบเทียบนโยบาย">
 					<Clipboard styles="mt-[32px]" />

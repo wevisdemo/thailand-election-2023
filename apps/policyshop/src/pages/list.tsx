@@ -9,7 +9,6 @@ import { GetStaticProps, NextPage } from 'next';
 import { memo, useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
 import { useRouter } from 'next/router';
-import Metadata from '@/components/Metadata';
 
 interface PropsType {
 	policies: Policy[];
@@ -209,7 +208,6 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 
 	return (
 		<>
-			<Metadata />
 			<main>
 				<Layout title={title}>
 					<HowToLabel />

@@ -167,7 +167,7 @@ const delayedFetch = (request: Function, delay: number) => {
 };
 
 const searchPeople = (people: Person[], name: string) => {
-	return people.find((p) => p.Name === name);
+	return people.find((p) => name.includes(p.Name.split(' ')[0]));
 };
 
 export const fetchShareholderData = async (people: Person[]) => {
@@ -306,7 +306,9 @@ export const fetchDirectorData = async (people: Person[]) => {
 
 						if (success && data && Array.isArray(data)) {
 							const directorData = data.filter((d) =>
-								shareholderData.some((f) => f.company_id !== d.company_id)
+								shareholderData.find((f) => f.company_id === d.company_id)
+									? false
+									: true
 							);
 
 							company = [...company, ...directorData];

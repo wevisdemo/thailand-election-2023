@@ -150,17 +150,24 @@ const PersonDetail = ({ open, onToggle }: Props) => {
         }} />
         <div className='flex flex-col gap-y-[5px]'>
           <div className='flex flex-row gap-x-[5px]'>
-            <Tag>ผู้สมัคร 66</Tag>
-            <Tag>ส.ส.62</Tag>
+            {selectedPerson?.IsActive && !selectedPerson.IsSenator && !selectedPerson.IsCabinet && <Tag>ผู้สมัคร 66</Tag>}
+            {selectedPerson?.IsCabinet && <Tag>ค.ร.ม.</Tag>}
+            {selectedPerson?.IsMp && <Tag>ส.ส.62</Tag>}
+            {selectedPerson?.IsSenator && <Tag>ส.ว.</Tag>}
           </div>
           <div className='flex flex-row gap-[5px]
               typo-b5'>
             <div>พรรค</div>
-            <div className='font-bold'>{selectedPerson?.Party?.Name}</div>
+            {selectedPerson?.Party ?
+              <div className='font-bold'>{selectedPerson?.Party?.Name}</div> :
+              <div className='font-bold'>ไม่มีสังกัด</div>
+            }
             {selectedPerson?.Party && <div className={`w-[20px] h-[20px] rounded-full bg-contain bg-center`} style={{ backgroundImage: `url(${selectedPerson?.Party?.Images}` }} />}
 
           </div>
-          <div>แบบแบ่งเขต จังหวัดน่าน เขต 1</div>
+          {(selectedPerson?.IsActive && !selectedPerson?.IsCabinet && !selectedPerson?.IsSenator) &&
+            <div className='typo-b5'> {`แบบ${selectedPerson?.MpType} จังหวัด${selectedPerson?.MpProvince} เขต${selectedPerson?.MpZone}`}</div>
+          }
         </div>
       </div >
       <div className='flex flex-col divide-y-[1px] divide-gray-2 divide-dashed'>

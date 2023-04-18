@@ -8,7 +8,7 @@ type Props = {}
 
 const PersonToCompanyRelationChart = dynamic(() => import('./PersonToCompanyRelationChart'))
 const SelectedPersonDetail = (props: Props) => {
-  const { setSelectedPerson } = usePersonStore()
+  const { setSelectedPerson, setSelectedCompany } = usePersonStore()
   const [isOpenPersonDetail, setIsOpenPersonDetail] = React.useState(false)
 
 
@@ -24,7 +24,9 @@ const SelectedPersonDetail = (props: Props) => {
           <div className='typo-b5'>ความเชื่อมโยงกับธุรกิจ</div>
         </div>
         <div className='flex flex-row gap-x-[5px]'>
-          <List />
+          <button onClick={() => { setSelectedCompany(null); setSelectedPerson(null) }} >
+            <List />
+          </button>
           <Search />
           <Shuffle />
         </div>

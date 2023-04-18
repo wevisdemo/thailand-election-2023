@@ -33,6 +33,18 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
     height: 0,
   })
 
+
+  const handleClickNode = React.useCallback((d: NodeLink) => {
+    console.log(d.data.companyData);
+
+    setSelectedCompany(d.data.companyData!)
+    if (d.height !== 0) {
+      d.children = d.children ? undefined : d._children
+
+    }
+  }, [setSelectedCompany])
+
+
   React.useEffect(() => {
 
     console.log('yeas');
@@ -215,7 +227,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
       });
     }
 
-  }, [svgRef, dataSet, chartDimension]);
+  }, [svgRef, dataSet, chartDimension, handleClickNode]);
 
 
   React.useEffect(() => {
@@ -247,17 +259,14 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
       });
       setDataSet(root)
     }
+    if (!selectedPerson || typeof selectedPerson === 'undefined') {
+      setDataSet(undefined)
+    }
 
   }, [selectedPerson, directorData, shareholderData])
 
 
-  const handleClickNode = (d: NodeLink) => {
-    setSelectedCompany(d.data.companyData!)
-    if (d.height !== 0) {
-      d.children = d.children ? undefined : d._children
 
-    }
-  }
 
   React.useEffect(() => {
     function updateSize() {
