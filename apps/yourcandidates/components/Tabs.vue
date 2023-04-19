@@ -6,7 +6,8 @@
           v-for="(tab, index) in tabs"
           :key="index"
           :class="{ active: activeTab === index }"
-          @click="selectTab(index)" 
+          @click="selectTab(index)"
+          :style="{ color: tab.color || 'var(--color-black)' }"
         >
           {{ tab.label }}
         </li>
@@ -26,13 +27,13 @@ export default {
       type: Array,
       required: true,
     },
-    activeTab: 0
+    activeTab: 0,
   },
   methods: {
-    async selectTab(index){
+    async selectTab(index) {
       // this.activeTab = index
-      this.$emit("selectTab", index)
-    }
+      this.$emit('selectTab', index)
+    },
   },
 }
 </script>

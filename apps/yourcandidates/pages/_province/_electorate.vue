@@ -90,7 +90,7 @@
           <div class="candidate-card">
             <PeopleCard
               v-for="person in filteredByQueryPeople"
-              :key="person.number"
+              :key="person.Number"
               :person="person"
             />
             <div
@@ -134,7 +134,7 @@
           <div class="candidate-card">
             <PartyCard
               v-for="party in filteredByQueryParties"
-              :key="party.number"
+              :key="party.Number"
               :party="party"
             />
             <div
@@ -221,8 +221,8 @@ export default {
       openPopup: false,
       partyQuery: '',
       tabs: [
-        { name: 'tab1', label: '1. เลือกคนที่รัก' },
-        { name: 'tab2', label: '2. เลือกพรรคที่ชอบ' },
+        { name: 'tab1', label: '1. เลือกคนที่รัก', color: '#932C88' },
+        { name: 'tab2', label: '2. เลือกพรรคที่ชอบ', color: '#008343' },
       ],
       showBtnBackToTop: false,
       tabSelected: 0,
@@ -290,7 +290,7 @@ export default {
         .map((subDistrict) => subDistrict)
         .sort()
         .join(', ')
-        .replace(/,([^,]*)$/, ' และ$1')
+        .replace(/, ([^,]*)$/, ' และ$1')
     },
     resetShowItems() {
       this.maxShowItems = 10

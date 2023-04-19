@@ -86,8 +86,8 @@ export default {
       if (this.menuLevel == 1)
         return searchDistrict(this.query).map((r, i) => ({
           id: i,
-          html: `${r.stringMenu}`,
-          district: r.obj,
+          html: r.highlightedHtml,
+          district: r,
         }))
       return []
     },
