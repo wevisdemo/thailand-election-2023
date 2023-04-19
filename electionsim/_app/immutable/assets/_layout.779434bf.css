@@ -135,6 +135,9 @@
 .relative {
 		position: relative;
 }
+.sticky {
+		position: sticky;
+}
 .inset-0 {
 		top: 0px;
 		right: 0px;
@@ -162,17 +165,11 @@
 .bottom-1 {
 		bottom: 0.25rem;
 }
-.bottom-4 {
-		bottom: 1rem;
-}
 .left-0 {
 		left: 0px;
 }
 .left-1\/2 {
 		left: 50%;
-}
-.left-8 {
-		left: 2rem;
 }
 .right-0 {
 		right: 0px;
@@ -180,14 +177,14 @@
 .right-6 {
 		right: 1.5rem;
 }
-.right-8 {
-		right: 2rem;
-}
 .top-0 {
 		top: 0px;
 }
 .top-1 {
 		top: 0.25rem;
+}
+.top-6 {
+		top: 1.5rem;
 }
 .z-10 {
 		z-index: 10;
@@ -395,9 +392,6 @@
 }
 .w-4\/6 {
 		width: 66.666667%;
-}
-.w-5 {
-		width: 1.25rem;
 }
 .w-7 {
 		width: 1.75rem;
@@ -656,8 +650,8 @@
 .stroke-white {
 		stroke: var(--color-white);
 }
-.p-2 {
-		padding: 0.5rem;
+.p-1 {
+		padding: 0.25rem;
 }
 .px-4 {
 		padding-left: 1rem;
@@ -871,5 +865,8 @@
 		}
 		.md\:items-center {
 				align-items: center;
+		}
+		.md\:p-2 {
+				padding: 0.5rem;
 		}
 }
