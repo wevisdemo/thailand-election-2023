@@ -60,8 +60,8 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr("transform", `translate(${MARGIN.LEFT}, ${MARGIN.TOP})`)
 
       const radius = WIDTH * .4
-      const nodeRadius =
-        WIDTH > 400 ? 40 : 20
+      const nodeRadius = 40
+      // WIDTH > 400 ? 40 : 20
       const tree = d3.tree<NodeLink>().size([2 * Math.PI, radius])
         .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth)
 
@@ -152,6 +152,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr('rx', (_, i) => i == 0 ? '5' : '49')
         .attr('width', nodeRadius)
         .attr('height', nodeRadius)
+        .attr('transform', (d) => `rotate(${(d.x * 180 / Math.PI - 90) * -1} ${nodeRadius * .5} ${nodeRadius * .5})`)
         .attr('fill', (d, i) => i == 0 ? (Array.isArray(d.data.companyData?.gov_fund_proj) ? 'black' : 'white')
           : d.data.companyData?.gov_fund_proj ? '#000'
             // : d.id === `${selectedPerson?.Name.replaceAll(' ', '-')}`

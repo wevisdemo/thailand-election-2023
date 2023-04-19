@@ -53,6 +53,21 @@ const SearchParty = ({ open, onClose }: Props) => {
         </div>
       </div>
       <div className='flex flex-col divide-y-2 divide-gray-3 divide-dashed h-full overflow-scroll'>
+        <button key={`search-result-party-ทุกพรรค`}
+          className=" w-full text-left py-[16px] px-[20px]
+            relative"
+          onClick={() => { setSelectedParty(null); onClose() }}
+        >
+          <div className=' flex flex-row justify-between '>
+            <div className='flex flex-row'>
+              <div className='w-[20px] h-[20px] rounded-full bg-center bg-contain' />
+              <div className='typo-b4 typo-ibmplex leading-[150%] ml-[12px]'>
+                ทุกพรรค
+              </div>
+            </div>
+
+          </div>
+        </button>
         {searchResult.length > 0 ? searchResult.map((data) => (
           <button key={`search-result-party-${data.Name}`}
             className=" w-full text-left py-[16px] px-[20px]

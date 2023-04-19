@@ -1,3 +1,5 @@
+import { LottieNotFound } from "./lottie"
+
 export const Expand: React.FC<{ onClick: Function }> = (props) => <svg {...props} onClick={() => props.onClick()} width={20} height={20} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M2.68115 10.2786C3.34851 10.0359 4.23237 10.1161 4.92857 10.0934C6.23672 10.0509 7.54997 9.90829 8.85769 9.90829C10.4993 9.90829 12.1414 9.81572 13.7794 9.81572C14.8411 9.81572 15.896 9.72314 16.9371 9.72314" stroke="#090909" strokeWidth={2} strokeLinecap="round" />
   <path d="M9 3C9.17146 3.1929 9.08897 3.53527 9.09771 3.77142C9.12569 4.52668 9.22379 5.29462 9.31886 6.04455C9.50372 7.50292 9.648 8.87412 9.648 10.344C9.648 12.2473 9.648 14.145 9.648 16.0525" stroke="#090909" strokeWidth={2} strokeLinecap="round" />
@@ -36,3 +38,15 @@ export const SortAsc = () => <svg width={15} height={15} viewBox="0 0 15 15" fil
 
 
 // export const Gesture = () => 
+
+export const NotFound = () => {
+  return <div className='flex flex-col justify-center items-center gap-y-[20px]'>
+    <div className='w-[116.57px] h-[138.45px]'>
+      <LottieNotFound />
+    </div>
+    <div className='typo-ibmplex text-center'>
+      <div className='typo-b4 '>ไม่พบสิ่งที่ค้นหา</div>
+      <div className='typo-b6'>ลองตรวจสอบตัวสะกด หรือ หาคำใกล้เคียง</div>
+    </div>
+  </div>
+}

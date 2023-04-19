@@ -167,7 +167,11 @@ const delayedFetch = (request: Function, delay: number) => {
 };
 
 const searchPeople = (people: Person[], name: string) => {
-	return people.find((p) => name.includes(p.Name.split(' ')[0]));
+	return people.find(
+		(p) =>
+			name.split(' ')[0] === p.Name.split(' ')[0] &&
+			name.split(' ')[1] === p.Name.split(' ')[1]
+	);
 };
 
 export const fetchShareholderData = async (people: Person[]) => {

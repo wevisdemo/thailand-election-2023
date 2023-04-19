@@ -6,9 +6,6 @@ import { persist, createJSONStorage } from 'zustand/middleware'
 
 
 interface PersonState {
-  theyWorkPerson: Person[]
-  setTheyWorkPerson: (by: Person[]) => void
-
   person: PersonCustom[]
   setPerson: (by: PersonCustom[]) => void
   personOutlier: PersonCustom[]
@@ -36,14 +33,13 @@ interface PersonState {
   setParty: (by: Party[]) => void
   selectedParty?: Party | null
   setSelectedParty: (by: Party | null) => void
+  selectedSort: 'asc' | 'desc'
+  toggleSort: () => void
 }
 
 export const usePersonStore = create<PersonState>()(
   persist(
     (set, get) => ({
-      theyWorkPerson: [],
-      setTheyWorkPerson: (by) => { return set((state) => ({ ...state, theyWorkPerson: by })) },
-
       person: [],
       setPerson: (by) => { return set((state) => ({ ...state, person: by })) },
       personOutlier: [],
@@ -70,14 +66,20 @@ export const usePersonStore = create<PersonState>()(
       setParty: (by) => { return set((state) => ({ ...state, party: by })) },
       selectedParty: undefined,
       setSelectedParty: (by) => { return set((state) => ({ ...state, selectedParty: by })) },
+      selectedSort: 'desc',
+      toggleSort: () => { return set((state) => ({ ...state, selectedSort: state.selectedSort === 'asc' ? 'desc' : 'asc' })) },
     }),
     {
       name: 'person', // name of the item in the storage (must be unique)
       storage: createJSONStorage(() => sessionStorage), // (optional) by default, 'localStorage' is used
       partialize: (state) =>
-        Object.fromEntries(
-          Object.entries(state).filter(([key]) => ['theyWorkPerson', 'person', 'personOutlier', 'party'].includes(key))
-        ),
+      (
+        {
+          ...Object.fromEntries(
+            Object.entries(state).filter(([key]) => ['person', 'personOutlier', 'party'].includes(key))
+          ),
+          filterPerson: state.person
+        }),
       onRehydrateStorage: (state) => {
         console.log('hydration starts')
 

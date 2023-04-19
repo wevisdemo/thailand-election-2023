@@ -31,6 +31,7 @@ export type BusinessType = {
   value?: number
   percentage?: number
   icon?: ReactNode
+  count?: number,
 }
 
 export const BusinessTypeData: BusinessType[] = [

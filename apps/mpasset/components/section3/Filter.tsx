@@ -4,6 +4,7 @@ import { Information, Shuffle } from '../util/icon-main'
 import InfoDialog from './first-chart/InfoDialog'
 import SearchBusinessType from './SearchBusinessType'
 import SearchParty from './SearchParty'
+import { usePersonStore } from '../../store/person'
 
 export type SelectedFilterType = {
   dataSet: string | 'ผู้สมัคร 66',
@@ -19,7 +20,7 @@ type Props = {
 
 
 const SelectedFilterButton = ({ wording, onClick }: { wording: string | React.ReactElement, onClick?: Function }) => {
-  return <button className='shrink-0 bg-highlight-2 text-black px-[10px] py-[5px] typo-ibmplex typo-b6 leading-[150%] rounded-[100px]'
+  return <button className='truncate max-w-[160px] shrink-0 bg-highlight-2 text-black px-[10px] py-[5px] typo-ibmplex typo-b6 leading-[150%] rounded-[100px]'
     onClick={() => { onClick && onClick() }}>
     {wording}
   </button>
@@ -30,6 +31,7 @@ const Filter = ({ selectedFilter, onOpenSeachDialog }: Props) => {
   const [isOpenSearchBusinessType, setIsOpenSearchBusinessType] = React.useState(false)
   const [isOpenSearchParty, setIsOpenSearchParty] = React.useState(false)
 
+  const { selectedBusinessType, selectedParty, selectedSort, toggleSort } = usePersonStore()
 
   return (
     <div className='flex flex-col gap-y-[5px]  py-[5px]'>
@@ -55,22 +57,22 @@ const Filter = ({ selectedFilter, onOpenSeachDialog }: Props) => {
           <button onClick={() => setIsOpenInfoDialog(true)}>
             <Information />
           </button>
-          <SelectedFilterButton wording={selectedFilter.sort === "สูงสุด" ?
+          <SelectedFilterButton wording={selectedSort === "desc" ?
             <div className='flex flex-row items-center gap-x-[5px]'>
               <SortDesc />
-              {selectedFilter.sort}
+              <span>สูงสุด</span>
             </div>
             : <div className='flex flex-row items-center gap-x-[5px]'>
               <SortAsc />
-              {selectedFilter.sort}
+              <span>ต่ำสุด</span>
             </div>
-          } />
+          } onClick={() => { toggleSort() }} />
         </div>
         <div className='flex flex-row gap-x-[5px] items-center'>
           <div>จาก</div>
-          <SelectedFilterButton wording={selectedFilter.businessType} onClick={() => setIsOpenSearchBusinessType(true)} />
+          <SelectedFilterButton wording={selectedBusinessType?.name || 'ทุกหมวดธุรกิจ'} onClick={() => setIsOpenSearchBusinessType(true)} />
           <div>จาก</div>
-          <SelectedFilterButton wording={selectedFilter.party} onClick={() => setIsOpenSearchParty(true)} />
+          <SelectedFilterButton wording={selectedParty?.Name || 'ทุกพรรค'} onClick={() => setIsOpenSearchParty(true)} />
         </div>
       </div>
       <InfoDialog open={isOpenInfoDialog} onClose={() => setIsOpenInfoDialog(false)} />

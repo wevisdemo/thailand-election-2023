@@ -1,9 +1,11 @@
 import { get, writable } from 'svelte/store';
 import { csv } from 'd3-fetch';
 import { base } from '$app/paths';
-import type { Party } from '../stores/party';
-import { party } from './party';
+import { party, type Party } from '../stores/party';
 import { Voteflow } from '../utils/voteflow';
+import { input as inputStore } from './input';
+import { mapPositiveRatio, mapRangeRatio } from '../utils/map-input-to-value';
+import { PartySide } from '@thailand-election-2023/database';
 
 interface RawPopularityRecord {
 	province: string;
@@ -66,12 +68,86 @@ const createDistrictPopularityStore = () => {
 			update(() => basePopularity);
 		},
 		calculate() {
+			const { input } = get(inputStore);
+			const $party = get(party);
 			const voteflow = new Voteflow();
 
-			voteflow.updateVoteFlow('พลังประชารัฐ', 'ก้าวไกล', 0.2);
-			voteflow.updateVoteFlow('พลังประชารัฐ', 'เพื่อไทย', 0.1);
+			// คุณคิดว่า คนเคยเลือก (บัตรเขต) พรรคพลังประชารัฐ จะเปลี่ยนไปเลือก พรรครวมไทยสร้างชาติ มากแค่ไหน?
+			if (input.quiz2) {
+				voteflow.updateVoteFlow(
+					'พลังประชารัฐ',
+					'รวมไทยสร้างชาติ',
+					mapPositiveRatio[input.quiz2]
+				);
+			}
 
-			console.log(voteflow.matrix['พลังประชารัฐ']);
+			// จากกระแส Strategic Voting ระหว่างพรรคเพื่อไทย และพรรคก้าวไกล คุณคิดว่า ผลโหวตจะถูกเทไปทางใด
+			if (input.quiz3) {
+				const ratio = mapRangeRatio[input.quiz3];
+
+				if (ratio > 0) {
+					voteflow.updateVoteFlow('ก้าวไกล', 'เพื่อไทย', ratio);
+				} else if (ratio < 0) {
+					voteflow.updateVoteFlow('เพื่อไทย', 'ก้าวไกล', -ratio);
+				}
+			}
+
+			// ในทางกลับกัน คุณคิดว่าใน กลุ่มคนเลือกพรรคฝั่งรัฐบาล ผลโหลตจะเทเข้าหรือออกจากพรรคพลังประชารัฐ/รวมไทยสร้างชาติ หรือไม่?
+			if (input.quiz4) {
+				const ratio = mapRangeRatio[input.quiz4];
+
+				if (ratio !== 0) {
+					const targetGovernmentParties = ['พลังประชารัฐ', 'รวมไทยสร้างชาติ'];
+					const otherGovernmentParties = $party.list
+						.filter(
+							({ Name, PartyGroup }) =>
+								PartyGroup === PartySide.Government &&
+								!targetGovernmentParties.includes(Name)
+						)
+						.map(({ Name }) => Name);
+
+					voteflow.updateVoteFlowBetweenGroups(
+						otherGovernmentParties,
+						targetGovernmentParties,
+						ratio
+					);
+				}
+			}
+
+			// คุณคิดว่า เมื่อเทียบกับการ เลือกตั้งปี 62 ความนิยมต่อ ส.ส. ของคนไทย เบนไปจาก เดิมหรือไม่? ไปทางฝ่ายใด?
+			if (input.quiz5) {
+				const ratio = mapRangeRatio[input.quiz5];
+
+				if (ratio !== 0) {
+					const oppositionParties = $party.list
+						.filter(({ PartyGroup }) => PartyGroup === PartySide.Opposition)
+						.map(({ Name }) => Name);
+
+					const governmentParties = $party.list
+						.filter(({ PartyGroup }) => PartyGroup === PartySide.Government)
+						.map(({ Name }) => Name);
+
+					voteflow.updateVoteFlowBetweenGroups(
+						oppositionParties,
+						governmentParties,
+						ratio
+					);
+				}
+			}
+
+			// Extra custom voteflow
+			if (
+				input.quiz7 &&
+				input.quiz8?.percent &&
+				input.quiz8?.from &&
+				input.quiz8?.to
+			) {
+				voteflow.updateVoteFlow(
+					input.quiz8.from,
+					input.quiz8.to,
+					mapRangeRatio[input.quiz8.percent]
+				);
+			}
 
 			update(() => voteflow.calculateVoteFlowResult(basePopularity));
 		},

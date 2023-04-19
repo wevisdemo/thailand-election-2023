@@ -32,12 +32,18 @@ const Section3 = (props: Props) => {
     setPersonOutlier,
     selectedCompany,
     party, setParty,
-    setTheyWorkPerson
+    filterPerson, setFilterPerson,
+    selectedBusinessType,
+    selectedParty,
+    selectedSort
   } = usePersonStore();
 
   const [view, setView] = React.useState(VIEW_TYPE.MAIN_VIEW)
 
-
+  const fetchFromTheyWork = React.useCallback(async () => {
+    const party = await TheyWorkForUs.Parties.fetch();
+    setParty(party.list)
+  }, [setParty])
   const fetchFromGit = React.useCallback(async () => {
     await d3.json<PersonCustom[]>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/people.json').then((value) => {
       if (value) {
@@ -50,35 +56,27 @@ const Section3 = (props: Props) => {
         let sortArray = value.sort((a, b) => b.totalValueShare - a.totalValueShare)
         sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
         console.log('fetch from git');
-
+        const outlier = sortArray.slice(0, 1)
         setPersonOutlier(sortArray.slice(0, 1))
-        setPerson(sortArray.slice(1))
-
+        setPerson([...outlier.map((d) => ({ ...d, totalPctShare: 30 })), ...sortArray.slice(1)])
+        setFilterPerson(sortArray.slice(1))
       }
     })
-  }, [setPerson, setPersonOutlier])
-
-  const fetchFromTheyWrok = React.useCallback(async () => {
-    const everyPeople = await TheyWorkForUs.People.fetchAll({
-      fields: 'Id,Name,Title,IsMP,IsSenator,IsActive,Images,PeoplePartyHistory',
-      'nested[PeoplePartyHistory][fields]': 'Party,EstablishedDate',
-    });
-    setTheyWorkPerson(everyPeople)
-  }, [setTheyWorkPerson])
+  }, [setPerson, setPersonOutlier, setFilterPerson])
 
   React.useEffect(() => {
     let ignore = false;
     if (person.length <= 0 && party.length <= 0) {
       if (!ignore) {
-        fetchFromTheyWrok()
         fetchFromGit()
+        fetchFromTheyWork()
       }
     } else
       setIsLoading(false)
     return () => {
       ignore = true;
     }
-  }, [person, setPerson, party, setParty, fetchFromGit, fetchFromTheyWrok])
+  }, [person, setPerson, party, setParty, fetchFromGit, fetchFromTheyWork])
 
   React.useLayoutEffect(() => {
     if (selectedCompany) {
@@ -89,6 +87,34 @@ const Section3 = (props: Props) => {
       setView(VIEW_TYPE.MAIN_VIEW)
     }
   }, [selectedPerson, selectedCompany])
+
+
+  React.useLayoutEffect(() => {
+    if (person.length > 0) {
+      let outFilter = person
+      if (selectedBusinessType && selectedBusinessType.code !== 'all') {
+        outFilter = outFilter.filter((d) => d.companyType.includes(selectedBusinessType.code))
+      }
+      if (selectedParty && selectedParty.Name !== 'ทุกพรรค') {
+        outFilter = outFilter.filter((p) => p.Party?.Id === selectedParty?.Id)
+      }
+      if (selectedSort === 'desc')
+        outFilter = outFilter.sort((a, b) => b.totalValueShare - a.totalValueShare)
+      else
+        outFilter = outFilter.sort((a, b) => a.totalValueShare - b.totalValueShare)
+
+
+      setFilterPerson(placeZerosAtEnd(outFilter, 'countCompShare', 'countDirector'))
+      console.log(selectedSort);
+
+    }
+  }, [selectedBusinessType, selectedParty, selectedSort, setFilterPerson, person])
+
+  React.useEffect(() => {
+    if (person.length > 0) {
+
+    }
+  }, [selectedParty, setFilterPerson, person])
 
   if (isLoading) return <LoadingScreen />
 

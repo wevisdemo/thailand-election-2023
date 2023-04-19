@@ -6,6 +6,7 @@ import { usePersonStore } from '../../../store/person';
 import { PersonCustom } from '../../../models/person';
 import SearchPerson from '../SearchPerson';
 import Filter, { SelectedFilterType } from '../Filter';
+import { NotFound } from '../../util/action';
 
 // Project = TheyWorkForUs, Table = Person
 type Props = {}
@@ -17,15 +18,15 @@ export type ScrollChartControlType = {
 }
 
 const FirstChart = (props: Props) => {
-  const { personOutlier } = usePersonStore()
   const [filter, setFilter] = React.useState<SelectedFilterType>({
     dataSet: 'ผู้สมัคร 66',
     businessType: 'ทุกหมวดธุรกิจ',
     party: 'ทุกพรรค',
     sort: 'สูงสุด',
   })
-  const [filterPerson, setFilterPerson] = React.useState<PersonCustom[]>([])
   const [isOpenSearchDialog, setIsOpenSearchDialog] = React.useState(false)
+
+  const { filterPerson } = usePersonStore()
 
   const chartRef = React.useRef<HTMLDivElement>(null)
 
@@ -70,25 +71,32 @@ const FirstChart = (props: Props) => {
         <div className='typo-b7 text-gray-3 typo-ibmplex'>*แสดงสีเฉพาะพรรคที่อยู่ในสภาสมัยล่าสุด</div>
         <div className='typo-b7 text-right'>ล้านบาท</div>
       </div>
-
-
       <div className='px-0 w-full h-full flex-grow-1'>
         <div className='w-full h-full flex-grow-1 relative' ref={chartRef}>
-          <div className='w-full h-full flex flex-row'>
-            <div className='w-1/4 h-full'>
-              <LeftNav
-                width={resolution.width * .25}
-                height={resolution.height}
-                scrollControl={mainScroll}
-              />
+
+          {filterPerson.length > 0 ?
+            <>
+              <div className='w-full h-full flex flex-row'>
+                <div className='w-1/4 h-full'>
+                  <LeftNav
+                    width={resolution.width * .25}
+                    height={resolution.height}
+                    scrollControl={mainScroll}
+                  />
+                </div>
+                <div className='w-3/4'>
+                  <MainNav width={resolution.width * .75} height={resolution.height} onScroll={setMainScroll} />
+                </div>
+              </div>
+              <div className='absolute bottom-[10px] inset-x-0'>
+                <ClickGuide />
+              </div>
+            </>
+            :
+            <div className='py-28'>
+              <NotFound />
             </div>
-            <div className='w-3/4'>
-              <MainNav width={resolution.width * .75} height={resolution.height} onScroll={setMainScroll} />
-            </div>
-          </div>
-          <div className='absolute bottom-[10px] inset-x-0'>
-            <ClickGuide />
-          </div>
+          }
         </div>
       </div>
       <SearchPerson open={isOpenSearchDialog} onClose={() => setIsOpenSearchDialog(false)} />

@@ -49,12 +49,19 @@ const SearchPerson = ({ open, onClose }: Props) => {
         {searchResult.map((data) => (
           <button key={`search-result-${data.Id}`}
             className="py-[5.5px] px-[20px] w-full text-left"
-            onClick={() => { setSelectedPerson(data); onClose() }}
+            onClick={() => {
+              setSelectedPerson(data);
+              onClose()
+            }}
           >
             <div className='typo-b4 typo-ibmplex leading-[150%]'>
               {data.Name}
             </div>
-            <div className='typo-b7 typo-ibmplex text-gray-3 leading-[150%]'>{`ส.ส.62 พรรคพลังประชารัฐ, เขต 1 จังหวัดชลบุรี`}</div>
+            <div className='typo-b7 typo-ibmplex text-gray-3 leading-[150%] inline-flex gap-x-[5px]'>
+              {!data.IsCabinet && !data.IsSenator && <div>{data.IsActive ? 'ผู้สมัคร ส.ส. 66' : ' ส.ส. 62'} {data.Party ? `พรรค${data.Party.Name}` : ''} แบบ{data.MpType} {data.MpType === 'แบ่งเขต' ? `จังหวัด${data.MpProvince} เขต ${data.MpZone}` : ``} </div>}
+              {data.IsCabinet && <div>ค.ร.ม.</div>}
+              {data.IsSenator && <div>ส.ว.</div>}
+            </div>
           </button>
         ))}
       </div>

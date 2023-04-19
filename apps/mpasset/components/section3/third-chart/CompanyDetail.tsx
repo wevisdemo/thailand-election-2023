@@ -26,11 +26,13 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
   const [relatedCompanyToGovernmentCount, setRelatedCompanyToGovernmentCount] = React.useState
     <{
       countGovFund: number,
-      countShareholder: number
+      countShareholder: number,
+      countPolShareholder: number
       type: 'director' | 'shareholder'
     }>({
       countGovFund: 0,
-      countShareholder: 0,
+      countShareholder: 1,
+      countPolShareholder: 1,
       type: 'director',
     })
 
@@ -47,14 +49,16 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
       // const r
       // const total = (Array.isArray(selectedCompany.company_shareholder) ? selectedCompany.company_shareholder.length : 0)
       // const total = (Array.isArray(directorData) ? directorData.length : 0) + (Array.isArray(shareholderData) ? shareholderData.length : 0)
-      const countShareholder = (Array.isArray(selectedCompany.company_shareholder) ? selectedCompany.company_shareholder.length : 0)
+      const countShareholder = (Array.isArray(selectedCompany.company_shareholder) ? selectedCompany.company_shareholder.length : 1)
       const countGovFund = (Array.isArray(selectedCompany.gov_fund_proj) ? selectedCompany.gov_fund_proj.length : 0)
       //   + (Array.isArray(shareholderData) ? shareholderData.reduce((acc, cur) => acc + (Array.isArray(cur.gov_fund_proj) ? 1 : 0), 0) : 0)
+      const countPolShareholder = (Array.isArray(selectedCompany.company_shareholder) ? selectedCompany.company_shareholder.reduce((sum, cur) => sum + (cur.person ? 1 : 0), 0) : 1)
       setRelatedCompanyToGovernmentCount({
         //   total,
         countShareholder,
         countGovFund,
-        type: countShareholder > 0 ? 'shareholder' : 'director'
+        type: countShareholder > 0 ? 'shareholder' : 'director',
+        countPolShareholder,
         //   notRelated: total - related
       })
 
@@ -75,6 +79,7 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
       h-header
       bg-white
       overflow-y-scroll 
+      scrollbar-hide
       pb-[100px]
       `}>
       <div className='flex flex-row justify-between items-center mb-[10.5px]'>
@@ -100,8 +105,9 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
             <div className='typo-ibmplex typo-b7'>คน</div>
           </div>
           <div>
-            {relatedCompanyToGovernmentCount.countGovFund > 0 ?
-              <>
+            <>
+              {relatedCompanyToGovernmentCount.countGovFund > 0 ?
+
                 <div className='flex flex-row gap-x-[5px] items-center
             typo-b7'>
                   <svg width={11} height={10} viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -111,28 +117,29 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
                   <div>รับโครงการรัฐ</div>
                   <div><span className='font-bold'>{relatedCompanyToGovernmentCount.countGovFund}</span> โครงการ</div>
                 </div>
-                <div className='inline-flex gap-x-[5px]'>
-                  <div className='relative'>
-                    <svg width={15} height={16} viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M13.6082 7.2008C13.535 6.95217 13.301 7.40847 13.1372 7.20957C13.0466 6.4637 12.8828 5.72661 12.5844 5.08896C12.2714 4.41329 11.7888 3.87216 11.2916 3.36322C10.7943 2.85427 10.221 2.39212 9.5629 2.10255C8.90478 1.81297 8.21156 1.5 7.46276 1.5C6.71397 1.5 6.02952 1.83345 5.37432 2.1201C4.71913 2.40675 4.04638 2.73434 3.53158 3.26084C3.01678 3.78734 2.58389 4.37819 2.27091 5.05386C1.95794 5.72953 1.90236 6.48125 1.81169 7.22712C1.64789 7.42602 1.26179 6.91707 1.18574 7.16277C0.940044 7.99347 0.93712 8.09584 1.18282 8.92654C1.25594 9.17516 1.56599 8.73057 1.72686 8.92654C1.81754 9.67241 1.97256 10.389 2.27384 11.0296C2.58681 11.7053 3.01971 12.3312 3.51696 12.8402C4.01421 13.3491 4.7279 13.6416 5.38895 13.9341C6.05 14.2266 6.71689 14.525 7.46569 14.525C8.21449 14.525 8.90771 14.2763 9.56583 13.9868C10.224 13.6972 10.7855 13.2526 11.3003 12.7261C11.8151 12.1996 12.2539 11.6614 12.5698 10.9887C12.8857 10.3159 13.1168 9.67534 13.2104 8.93239C13.3742 8.73349 13.5877 9.15176 13.7456 8.94702C14.2721 8.26257 13.8568 8.02857 13.6111 7.19787L13.6082 7.2008Z" stroke="#090909" strokeWidth="1.01144" strokeMiterlimit={10} strokeLinejoin="round" />
-                    </svg>
-                    <div className='absolute text-[6px] font-bold inset-0 top-[4px] left-[5px]'>1</div>
-                  </div>
-                  <div className='typo-igmplex typo-b7'>
-                    = มีนักการเมืองเกี่ยวข้องกับบริษัทนั้นอีกกี่คน
-                  </div>
+                :
+                <div className='flex flex-row gap-x-[5px] items-center
+              typo-b7'>
+                  <svg width={11} height={10} viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x={1} y="0.5" width={9} height={9} rx="1.5" stroke="#090909" />
+                  </svg>
+                  <div className='font-bold'>ไม่เคย</div>
+                  <div>รับโครงการรัฐ</div>
                 </div>
-              </>
-              :
-              <div className='flex flex-row gap-x-[5px] items-center
-            typo-b7'>
-                <svg width={11} height={10} viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x={1} y="0.5" width={9} height={9} rx="1.5" stroke="#090909" />
-                </svg>
-                <div className='font-bold'>ไม่เคย</div>
-                <div>รับโครงการรัฐ</div>
+              }
+              <div className='inline-flex gap-x-[5px]'>
+                <div className='relative'>
+                  <svg width={15} height={16} viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.6082 7.2008C13.535 6.95217 13.301 7.40847 13.1372 7.20957C13.0466 6.4637 12.8828 5.72661 12.5844 5.08896C12.2714 4.41329 11.7888 3.87216 11.2916 3.36322C10.7943 2.85427 10.221 2.39212 9.5629 2.10255C8.90478 1.81297 8.21156 1.5 7.46276 1.5C6.71397 1.5 6.02952 1.83345 5.37432 2.1201C4.71913 2.40675 4.04638 2.73434 3.53158 3.26084C3.01678 3.78734 2.58389 4.37819 2.27091 5.05386C1.95794 5.72953 1.90236 6.48125 1.81169 7.22712C1.64789 7.42602 1.26179 6.91707 1.18574 7.16277C0.940044 7.99347 0.93712 8.09584 1.18282 8.92654C1.25594 9.17516 1.56599 8.73057 1.72686 8.92654C1.81754 9.67241 1.97256 10.389 2.27384 11.0296C2.58681 11.7053 3.01971 12.3312 3.51696 12.8402C4.01421 13.3491 4.7279 13.6416 5.38895 13.9341C6.05 14.2266 6.71689 14.525 7.46569 14.525C8.21449 14.525 8.90771 14.2763 9.56583 13.9868C10.224 13.6972 10.7855 13.2526 11.3003 12.7261C11.8151 12.1996 12.2539 11.6614 12.5698 10.9887C12.8857 10.3159 13.1168 9.67534 13.2104 8.93239C13.3742 8.73349 13.5877 9.15176 13.7456 8.94702C14.2721 8.26257 13.8568 8.02857 13.6111 7.19787L13.6082 7.2008Z" stroke="#090909" strokeWidth="1.01144" strokeMiterlimit={10} strokeLinejoin="round" />
+                  </svg>
+                  <div className='absolute text-[6px] font-bold inset-0 top-[4px] left-[5px]'>{relatedCompanyToGovernmentCount.countPolShareholder}</div>
+                </div>
+                <div className='typo-igmplex typo-b7'>
+                  = มีนักการเมืองเกี่ยวข้องกับบริษัทนั้นอีกกี่คน
+                </div>
               </div>
-            }
+            </>
+
           </div>
         </div>
 

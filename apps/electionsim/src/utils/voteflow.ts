@@ -34,11 +34,30 @@ export class Voteflow {
 	}
 
 	public updateVoteFlow(from: string, to: string, value: number) {
+		const deductableValue =
+			value < this.matrix[from][from] ? value : this.matrix[from][from];
+
 		this.matrix[from][to] += value;
-		this.matrix[from][from] -= Object.entries(this.matrix[from]).reduce(
-			(sum, [party, value]) => (party === from ? sum : sum + value),
-			0
-		);
+		this.matrix[from][from] -= deductableValue;
+	}
+
+	public updateVoteFlowBetweenGroups(
+		partiesA: string[],
+		partiesB: string[],
+		changes: number
+	) {
+		const [fromParties, toParties] =
+			changes > 0 ? [partiesA, partiesB] : [partiesB, partiesA];
+
+		fromParties.forEach((from) => {
+			const deductableValue =
+				Math.min(Math.abs(changes), this.matrix[from][from]) /
+				(fromParties.length + toParties.length);
+
+			toParties.forEach((to) => {
+				this.updateVoteFlow(from, to, Math.min(deductableValue));
+			});
+		});
 	}
 
 	private applyVoteFlow(records: PopularityRecord[]): PopularityRecord[] {
@@ -73,14 +92,13 @@ export class Voteflow {
 			(provice, [province, districts]) => ({
 				...provice,
 				[province]: Object.entries(districts).reduce(
-					(provice, [district, popularities]) => {
-						if (!popularities) return provice;
-
-						return {
-							...provice,
-							[district]: this.applyVoteFlow(popularities),
-						};
-					},
+					(provice, [district, popularities]) =>
+						popularities
+							? {
+									...provice,
+									[district]: this.applyVoteFlow(popularities),
+							  }
+							: provice,
 					{}
 				),
 			}),
