@@ -221,8 +221,8 @@ export default {
       openPopup: false,
       partyQuery: '',
       tabs: [
-        { name: 'tab1', label: '1. เลือกคนที่รัก' },
-        { name: 'tab2', label: '2. เลือกพรรคที่ชอบ' },
+        { name: 'tab1', label: '1. เลือกคนที่รัก', color: '#932C88' },
+        { name: 'tab2', label: '2. เลือกพรรคที่ชอบ', color: '#008343' },
       ],
       showBtnBackToTop: false,
       tabSelected: 0,
