@@ -3,6 +3,7 @@ import WvSharer from '@wevisdemo/ui/react/sharer';
 import { imgPrefix } from '@/utils/path';
 import { useEffect } from 'react';
 import Link from 'next/link';
+import config from '../../tsconfig.json';
 
 const AboutPage: NextPage = ({}) => {
 	useEffect(() => {
@@ -11,9 +12,9 @@ const AboutPage: NextPage = ({}) => {
 	}, []);
 
 	const getShareUrl = () => {
-		const host = process.env.SECURE_HOST;
+		// const host = process.env.SECURE_HOST;
 		// const host = window.location.hostname;
-		return `${host}/policyshop`;
+		return config.web_url;
 	};
 
 	const handleClickDownload = () => {
