@@ -6,9 +6,11 @@ import Metadata from '@/components/Metadata';
 
 export default function App({ Component, pageProps }: AppProps) {
 	return (
-		<SafeHydrate>
+		// <SafeHydrate>
+		<>
 			<Metadata />
 			<Component {...pageProps} />
-		</SafeHydrate>
+		</>
+		// </SafeHydrate>
 	);
 }

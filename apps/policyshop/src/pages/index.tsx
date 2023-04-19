@@ -13,6 +13,7 @@ import ShortCut from '@/components/ShortCut';
 import WvSharer from '@wevisdemo/ui/react/sharer';
 import Link from 'next/link';
 import { GetStaticProps, NextPage } from 'next';
+import config from '../../tsconfig.json';
 
 interface PropsType {
 	policies: Policy[];
@@ -52,7 +53,8 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 	};
 
 	const getShareUrl = () => {
-		return 'https://election66.wevis.info/policyshop';
+		// const host = process.env.SECURE_HOST;
+		return config.web_url;
 	};
 
 	const fetchPolicies = async (): Promise<void> => {
