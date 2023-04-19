@@ -14,6 +14,7 @@
 	import type { Party } from '../../../stores/party';
 	import type { Coordinate2D } from './coordinate';
 	import { districtPopularity } from '../../../stores/district-popularity';
+	import { base } from '$app/paths';
 
 	interface DistrictListData {
 		province: string;
@@ -171,7 +172,7 @@
 				>
 					<rect width="100%" height="100%" fill={Color} />
 					<image
-						href="/party-icons/{Name}.svg"
+						href="{base}/party-icons/{Name}.svg"
 						height={CELL_SIZE * 0.6}
 						width={CELL_SIZE * 0.6}
 						x={CELL_SIZE * 0.2}
