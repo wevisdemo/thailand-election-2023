@@ -14,7 +14,7 @@ export const TheyWorkForUs = {
 	PeopleVotes: createTableProvider<PeopleVote>(
 		'e58433cc-f4fd-499b-926d-05431412cbba'
 	),
-	Policies: createTableProvider<Policy>('d930acb2-b1f8-4a85-9ed9-04c2b1edc951'),
+	Policies: createTableProvider<Policy>('4842fd3b-4f2c-45c7-b7e2-92f7e2e60ab2'),
 };
 
 export * from './models/party';
