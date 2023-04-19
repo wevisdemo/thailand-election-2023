@@ -90,7 +90,7 @@
           <div class="candidate-card">
             <PeopleCard
               v-for="person in filteredByQueryPeople"
-              :key="person.number"
+              :key="person.Number"
               :person="person"
             />
             <div
@@ -134,7 +134,7 @@
           <div class="candidate-card">
             <PartyCard
               v-for="party in filteredByQueryParties"
-              :key="party.number"
+              :key="party.Number"
               :party="party"
             />
             <div
