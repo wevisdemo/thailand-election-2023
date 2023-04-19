@@ -11,7 +11,9 @@ const AboutPage: NextPage = ({}) => {
 	}, []);
 
 	const getShareUrl = () => {
-		return 'https://election66.wevis.info/policyshop';
+		const host = process.env.SECURE_HOST;
+		// const host = window.location.hostname;
+		return `${host}/policyshop`;
 	};
 
 	const handleClickDownload = () => {

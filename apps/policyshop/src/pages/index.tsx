@@ -52,7 +52,8 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 	};
 
 	const getShareUrl = () => {
-		return 'https://election66.wevis.info/policyshop';
+		const host = process.env.SECURE_HOST;
+		return `${host}/policyshop`;
 	};
 
 	const fetchPolicies = async (): Promise<void> => {
