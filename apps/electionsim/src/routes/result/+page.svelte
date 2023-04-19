@@ -13,6 +13,7 @@
 	import WaffleMap from '../../components/result/map/waffle-map.svelte';
 	import CalculateLoading from '../../components/analyze/calculate.svelte';
 	import Share from '../../components/result/share/share.svelte';
+	import { partylistPopularity } from '../../stores/partylist-popularity';
 
 	enum Tabs {
 		Map = 'map',
@@ -20,18 +21,22 @@
 	}
 
 	let isDataReady = false;
+	let isDelayTimeout = false;
 	let isShare = false;
 
 	onMount(async () => {
+		setTimeout(() => {
+			isDelayTimeout = true;
+		}, 2000);
 		await party.load();
 		await districtPopularity.load();
+		await partylistPopularity.load();
 		await resultElect62.load();
-		setTimeout(() => {}, 2000);
 		isDataReady = true;
 	});
 
-	$: selectedTab = Tabs.Map;
-	$: partiesClone = $party.list;
+	let selectedTab = Tabs.Map;
+	let partiesClone = $party.list;
 
 	$: [governmentParties, oppositionParties, governmentPoints] =
 		$representatives.reduce<
@@ -72,11 +77,9 @@
 	};
 </script>
 
-{#if !isDataReady}
+{#if !isDataReady && !isDelayTimeout}
 	<CalculateLoading />
-{/if}
-
-{#if isDataReady && !isShare}
+{:else if !isShare}
 	<div class="h-screen flex flex-col relative">
 		<div class="w-full h-1 beyondx-gradient-bg" />
 		<div class="flex-1 flex flex-col items-center pt-10">
@@ -151,9 +154,7 @@
 			{toggleIsShare}
 		/>
 	</div>
-{/if}
-
-{#if isShare}
+{:else}
 	<div class="h-full flex flex-col">
 		<election-header />
 		<div class="w-full h-1 beyondx-gradient-bg" />

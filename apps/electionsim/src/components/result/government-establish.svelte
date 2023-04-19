@@ -23,7 +23,7 @@
 <div
 	class="w-100 h-28 bg-black pt-5 flex flex-col items-center text-white {isExpand
 		? 'fixed h-full w-full inset-0 mt-1'
-		: ''}"
+		: 'sticky bottom-0'}"
 >
 	<div
 		class="flex flex-col px-6 w-full max-w-[650px] relative {isExpand

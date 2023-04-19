@@ -11,7 +11,7 @@
 	import type { PartyListTooltipData } from './partylist-tooltip.svelte';
 	import { party } from '../../../stores/party';
 	import { representatives } from '../../../stores/representatives';
-	import type { Party } from '../stores/party';
+	import type { Party } from '../../../stores/party';
 	import type { Coordinate2D } from './coordinate';
 	import { districtPopularity } from '../../../stores/district-popularity';
 
@@ -23,8 +23,8 @@
 
 	const CANVAS_PADDING = 30;
 	const CELL_SIZE = 10;
-	const PARTYLIST_COL = 10;
-	const PARTYLIST_MARGIN = CELL_SIZE * 6;
+	const PARTYLIST_COL = 5;
+	const PARTYLIST_MARGIN = CELL_SIZE * 7;
 
 	const electorialDistrictTable = mapString
 		.split('\r\n')
@@ -191,11 +191,14 @@
 			{/each}
 
 			<text x="10" y="18" class="typo-b7">ส.ส. เขต</text>
-			<text
-				x={partylistMap[0].cells[0].x + 7}
-				y={partylistMap[0].cells[0].y - 10}
-				class="typo-b7">ส.ส. บัญชีรายชื่อ</text
-			>
+
+			{#if partylistMap.length > 0}
+				<text
+					x={partylistMap[0].cells[0].x - 18}
+					y={partylistMap[0].cells[0].y - 10}
+					class="typo-b7">ส.ส. บัญชีรายชื่อ</text
+				>
+			{/if}
 		</g>
 	</svg>
 
@@ -207,19 +210,7 @@
 		<DistrictTooltip {districtTooltip} />
 	{/if}
 
-	<div
-		class="absolute right-8 left-8 bottom-4 flex flex-row justify-center space-x-2"
-	>
-		{#if hasZoomed}
-			<button on:click={resetZoom}
-				><svg viewBox="0 0 32 32"
-					><path
-						fill="currentColor"
-						d="M22.448 21A10.855 10.855 0 0 0 25 14A10.99 10.99 0 0 0 6 6.466V2H4v8h8V8H7.332a8.977 8.977 0 1 1-2.1 8h-2.04A11.012 11.012 0 0 0 14 25a10.855 10.855 0 0 0 7-2.552L28.586 30L30 28.586Z"
-					/></svg
-				></button
-			>
-		{/if}
+	<div class="absolute right-0 top-6 flex flex-col space-y-2">
 		<button on:click={zoomIn}>
 			<svg viewBox="0 0 32 32"
 				><path
@@ -239,14 +230,24 @@
 				/></svg
 			></button
 		>
+		{#if hasZoomed}
+			<button on:click={resetZoom}
+				><svg viewBox="0 0 32 32"
+					><path
+						fill="currentColor"
+						d="M22.448 21A10.855 10.855 0 0 0 25 14A10.99 10.99 0 0 0 6 6.466V2H4v8h8V8H7.332a8.977 8.977 0 1 1-2.1 8h-2.04A11.012 11.012 0 0 0 14 25a10.855 10.855 0 0 0 7-2.552L28.586 30L30 28.586Z"
+					/></svg
+				></button
+			>
+		{/if}
 	</div>
 </div>
 
 <style lang="postcss">
 	button {
-		@apply p-2 bg-white rounded-full shadow bg-gray-100;
+		@apply p-1 md:p-2 bg-white rounded-full shadow bg-gray-100;
 	}
 	button > svg {
-		@apply w-5 h-5;
+		@apply w-4 h-4;
 	}
 </style>
