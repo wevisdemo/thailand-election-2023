@@ -290,7 +290,7 @@ export default {
         .map((subDistrict) => subDistrict)
         .sort()
         .join(', ')
-        .replace(/,([^,]*)$/, ' และ$1')
+        .replace(/, ([^,]*)$/, ' และ$1')
     },
     resetShowItems() {
       this.maxShowItems = 10
