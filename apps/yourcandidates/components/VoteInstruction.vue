@@ -8,19 +8,27 @@
       <p>เมื่อเข้าคูหา ประชาชนจะได้รับบัตรเลือกตั้งสองใบ ที่มีสีที่ต่างกัน</p>
       <div class="ballot-type-container">
         <div>
-          <img src="~/assets/images/people-ballot.png" alt="" class="img-people-ballot">
+          <img
+            src="~/assets/images/people-ballot.webp"
+            alt="district ballot"
+            class="img-people-ballot"
+          />
           <p>
-            <b class="text-[color:#932C88]">บัตรใบแรก</b> เราจะต้องเลือกผู้สมัคร ส.ส. เขต 1
-            คนให้เป็นผู้แทนเขตเลือกตั้งของตนเอง
+            <b class="text-[color:#932C88]">บัตรใบแรก</b> เราจะต้องเลือกผู้สมัคร
+            ส.ส. เขต 1 คนให้เป็นผู้แทนเขตเลือกตั้งของตนเอง
           </p>
         </div>
         <span class="vline"></span>
         <div>
-          <img src="~/assets/images/party-list-ballot.png" alt="" class="img-party-list-ballot">
+          <img
+            src="~/assets/images/party-list-ballot.webp"
+            alt="party list ballot"
+            class="img-party-list-ballot"
+          />
           <p>
-            <b class="text-[color:#008343]">บัตรใบที่สอง</b> เราจะต้องเลือกพรรคการเมือง
-            โดยคะแนนที่แต่ละพรรคได้รับ จะนำไปถูกคิดคำนวณเพื่อจัดสรรที่นั่ง ส.ส.
-            บัญชีรายชื่อตามสัดส่วนต่อไป
+            <b class="text-[color:#008343]">บัตรใบที่สอง</b>
+            เราจะต้องเลือกพรรคการเมือง โดยคะแนนที่แต่ละพรรคได้รับ
+            จะนำไปถูกคิดคำนวณเพื่อจัดสรรที่นั่ง ส.ส. บัญชีรายชื่อตามสัดส่วนต่อไป
           </p>
         </div>
       </div>
@@ -137,18 +145,15 @@
   background: var(--color-gray-2);
   border: 1px solid $border-color;
   border-radius: 2px;
-
 }
 
 .img-party-list-ballot {
-  @include img-80-80(#008343)
+  @include img-80-80(#008343);
 }
 
 .img-people-ballot {
-  @include img-80-80(#932C88)
+  @include img-80-80(#932c88);
 }
-
-
 
 .image-container {
   margin: auto;

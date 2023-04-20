@@ -1,7 +1,5 @@
 import districts from '~/data/district_province_list.json'
 import electorals from '~/data/electoral_district_table.json'
-import fuzzysort from 'fuzzysort'
-const SEARCH_KEYS = ['stringMenu']
 
 const DISTRICT_LIST = districts.map((district) => {
   if (district.province === 'กรุงเทพมหานคร') {

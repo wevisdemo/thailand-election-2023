@@ -39,9 +39,7 @@ import lottie from 'lottie-web'
 export default {
   name: 'IndexPage',
   data() {
-    return {
-      heroMedia: require('~/assets/images/candidate-look-up.png'),
-    }
+    return {}
   },
   mounted() {
     lottie.loadAnimation({

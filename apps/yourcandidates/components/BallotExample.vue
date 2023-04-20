@@ -19,8 +19,8 @@ export default {
       type: this.isGood == 'true' ? 'บัตรดี' : 'บัตรเสีย',
       imageSource:
         this.isGood == 'true'
-          ? require('~/assets/images/good-ballots.png')
-          : require('~/assets/images/spoiled-ballots.png'),
+          ? require('~/assets/images/good-ballots.webp')
+          : require('~/assets/images/spoiled-ballots.webp'),
     }
   },
 }
