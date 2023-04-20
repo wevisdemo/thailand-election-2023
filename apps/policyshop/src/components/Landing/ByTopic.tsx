@@ -23,7 +23,9 @@ const ByTopic: FC<ByTopicProps> = ({ topics }) => {
 						className="mt-4 mx-[8px] md:mx-[10px]"
 					>
 						<CircleTopicWrapper name={key} totalTopic={topics[key].length}>
-							<img src={getTopicImgSrc(key)} alt={`topic-icon-${key}`} />
+							{getTopicImgSrc(key) && (
+								<img src={getTopicImgSrc(key)} alt={`topic-icon-${key}`} />
+							)}
 						</CircleTopicWrapper>
 					</Link>
 				))}

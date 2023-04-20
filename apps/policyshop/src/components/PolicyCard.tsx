@@ -1,4 +1,5 @@
 import { Party, Policy } from '@/types/components';
+import { TopicType, getSmallTopicIconUrl } from '@/utils/data';
 import { getTopicIconSrc, imgPrefix } from '@/utils/path';
 import { FunctionComponent } from 'react';
 interface PropsType {
@@ -41,7 +42,7 @@ const PolicyCard: FunctionComponent<PropsType> = ({
 				<div
 					className={`relative mt-[8px] w-full pb-[100%] h-0 rounded-[5px] bg-red-400`}
 					style={{
-						backgroundColor: partyInfo?.Color || 'var(---color-grey-3)',
+						backgroundColor: partyInfo?.Color || 'var(--color-gray-3)',
 					}}
 				>
 					<span
@@ -62,10 +63,10 @@ const PolicyCard: FunctionComponent<PropsType> = ({
 				)}
 			</div>
 			<div className="py-[8px] px-[16px] flex items-center bg-[var(--color-highlight-1)]">
-				{getTopicIconSrc(policyInfo.Topic) && (
+				{getSmallTopicIconUrl(policyInfo.Topic as TopicType) && (
 					<img
 						className="w-[20px]"
-						src={getTopicIconSrc(policyInfo.Topic)}
+						src={getSmallTopicIconUrl(policyInfo.Topic as TopicType)}
 						alt="cat-icon"
 					/>
 				)}

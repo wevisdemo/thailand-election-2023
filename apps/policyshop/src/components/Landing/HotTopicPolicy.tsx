@@ -4,7 +4,7 @@ import SquareTopicWrapper from '../SquareTopicWarpper';
 import { ByTopicProps } from '@/types/components';
 
 const HotTopicPolicy: FC<ByTopicProps> = ({ topics }) => {
-	const hotTopics = Object.keys(topics).slice(0, 6);
+	const hotTopics = Object.keys(topics);
 	return (
 		<div className="container pt-20 mx-auto" id="HotTopicPolicy">
 			<p className="pb-10 font-bold text-center typo-h4">

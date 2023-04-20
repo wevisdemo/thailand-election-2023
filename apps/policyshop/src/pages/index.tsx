@@ -14,6 +14,7 @@ import WvSharer from '@wevisdemo/ui/react/sharer';
 import Link from 'next/link';
 import { GetStaticProps, NextPage } from 'next';
 import config from '../../tsconfig.json';
+import { hotTopicList } from '@/utils/data';
 
 interface PropsType {
 	policies: Policy[];
@@ -23,6 +24,7 @@ interface PropsType {
 const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 	const [hotParties, setHotParties] = useState<Party[]>([]);
 	const [topics, setTopics] = useState<GroupByTopics>({});
+	const [hotTopics, setHotTopics] = useState<GroupByTopics>({});
 
 	const fetchParties = async (): Promise<void> => {
 		const data: Party[] = await TheyWorkForUs.Parties.fetchAll({
@@ -57,8 +59,16 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 		return config.web_url;
 	};
 
+	const fetchHotTopic = () => {
+		const filteredPolicy = policies.filter((policy) =>
+			hotTopicList.includes(policy.Topic)
+		);
+		setHotTopics(groupBy(filteredPolicy, 'Topic'));
+	};
+
 	const fetchPolicies = async (): Promise<void> => {
 		setTopics(groupBy(policies, 'Topic'));
+		fetchHotTopic();
 	};
 	useEffect(() => {
 		fetchParties();
@@ -71,7 +81,7 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 					<IntroPolicy />
 					<div className="max-w-[728px] mx-auto">
 						<ShortCut />
-						<HotTopicPolicy topics={topics} />
+						<HotTopicPolicy topics={hotTopics} />
 						<ByTopic topics={topics} />
 						<ByParty parties={hotParties} partyOptions={getPartyOptions()} />
 						<div className="flex flex-col items-center my-[40px]">
