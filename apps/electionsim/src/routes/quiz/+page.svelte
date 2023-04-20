@@ -27,7 +27,7 @@
 <div class="h-screen">
 	<ProgressBar />
 	<div
-		class="flex flex-col items-center w-full max-w-4xl m-auto bg-white py-10"
+		class="flex flex-col items-center w-full max-w-4xl m-auto bg-white py-10 min-h-full"
 	>
 		<ContentWrapper id={Content.Analytics}>
 			<Analytic />

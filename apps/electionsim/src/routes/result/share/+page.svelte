@@ -21,7 +21,7 @@
 
 <div class="h-full flex flex-col">
 	<election-header />
-	<div class="w-full h-1 beyondx-gradient-bg" />
+	<div class="sticky top-0 w-full h-1 beyondx-gradient-bg" />
 	<div class="flex-1 flex justify-center items-center">
 		<Share
 			representativeRecord={$representatives}

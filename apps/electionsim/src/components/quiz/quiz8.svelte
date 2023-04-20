@@ -33,31 +33,38 @@
 	};
 </script>
 
-<div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
-	<p class="typo-h7 text-xl">#8: อื่นๆ</p>
-	<h6 class="typo-h6 font-bold">
-		ปัจจัยที่ว่า จะทำให้คน เปลี่ยนใจจากพรรคไหน ไปเลือกพรรคไหนแทน?
-	</h6>
-	<div class="w-full flex flex-col items-center mt-20">
-		<div
-			class="w-full flex flex-col items-start justify-between mt-1 space-y-4"
-		>
-			<div class="w-full">
-				<h4 class="typo-b4 font-bold">เปลี่ยนใจจากเลือก...</h4>
-				<Dropdown
-					selectedInput={ans?.from}
-					options={partiesOption.filter(({ Name }) => Name !== ans?.to)}
-					onSelect={onFromSelect}
-				/>
-			</div>
-			<div class="w-full">
-				<h4 class="typo-b4 font-bold">ไปเลือก...</h4>
-				<Dropdown
-					selectedInput={ans?.to}
-					options={partiesOption.filter(({ Name }) => Name !== ans?.from)}
-					onSelect={onToSelect}
-				/>
-			</div>
+<div
+	class="text-left h-full grow flex flex-col justify-between w-full max-w-[698px] px-6 py-0 md:py-10"
+>
+	<div>
+		<p class="typo-h7 text-xl">#8: อื่นๆ</p>
+		<h6 class="typo-h6 font-bold">
+			ปัจจัยที่ว่า จะทำให้คนเปลี่ยนใจจากพรรคไหน ไปเลือกพรรคไหนแทน?
+		</h6>
+	</div>
+	<div
+		class="w-full max-w-[400px] mx-auto flex flex-col items-center justify-between my-10 space-y-5"
+	>
+		<!-- <div
+			class="w-full flex flex-col justify-between mt-1 items-center"
+		> -->
+		<div class="w-full">
+			<h4 class="typo-b4 font-bold">เปลี่ยนใจจากเลือก...</h4>
+			<Dropdown
+				selectedInput={ans?.from}
+				options={partiesOption.filter(({ Name }) => Name !== ans?.to)}
+				onSelect={onFromSelect}
+			/>
+		</div>
+		<div class="w-full">
+			<h4 class="typo-b4 font-bold">ไปเลือก...</h4>
+			<Dropdown
+				selectedInput={ans?.to}
+				options={partiesOption.filter(({ Name }) => Name !== ans?.from)}
+				onSelect={onToSelect}
+			/>
+		</div>
+		<div class="w-full">
 			<div class="w-full">
 				<h4 class="typo-b4 font-bold">มีคนเปลี่ยนใจมากแค่ไหน?</h4>
 				<div class="w-full flex justify-between my-1">
@@ -116,48 +123,52 @@
 					/>
 				</div>
 			</div>
+			<div class="h-28 text-center mt-1">
+				{#if ans}
+					<h4 class="typo-b4">{word}</h4>
+					<h6 class="typo-h6 font-bold">{percent}</h6>
+				{/if}
+			</div>
 		</div>
-		<div class="h-20 md:h-40 text-center mt-1">
-			{#if ans}
-				<h4 class="typo-b4">{word}</h4>
-				<h6 class="typo-h6 font-bold">{percent}</h6>
-			{/if}
-		</div>
-		<div class="w-full flex items-center justify-between space-x-5">
-			{#if isFinished}
-				<button
-					class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
-					on:click={() => {
-						contentManager.updateContent(Content.EditQuiz);
-					}}
-				>
-					<b>บันทึกคำตอบ</b>
-					<div
-						class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
-					/>
-				</button>
-			{:else}
-				<button
-					class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
-					on:click={() => {
-						contentManager.updateContent(Content.Quiz7);
-					}}
-				>
-					<div
-						class="border-1 border-t border-l w-2 h-2 -rotate-45 border-black"
-					/>
-					<b>ย้อนกลับ</b>
-				</button>
-				<a
-					href="{base}/result"
-					class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full flex items-center justify-between font-bold"
-					on:click={() => {
-						contentManager.toggleFinished();
-					}}
-				>
-					ส่งข้อมูล
-				</a>
-			{/if}
-		</div>
+		<!-- </div> -->
+	</div>
+	<div class="w-full flex items-center justify-between space-x-5">
+		{#if isFinished}
+			<button
+				class="hover:opacity-1 typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
+				on:click={() => {
+					contentManager.updateContent(Content.EditQuiz);
+				}}
+			>
+				<b>บันทึกคำตอบ</b>
+				<div
+					class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
+				/>
+			</button>
+		{:else}
+			<button
+				class="hover:opacity-1 typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
+				on:click={() => {
+					contentManager.updateContent(Content.Quiz7);
+				}}
+			>
+				<div
+					class="border-1 border-t border-l w-2 h-2 -rotate-45 border-black"
+				/>
+				<b>ย้อนกลับ</b>
+			</button>
+			<a
+				href="{base}/result"
+				class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full flex items-center justify-between font-bold"
+				on:click={() => {
+					contentManager.toggleFinished();
+				}}
+			>
+				ส่งข้อมูล
+				<div
+					class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
+				/>
+			</a>
+		{/if}
 	</div>
 </div>

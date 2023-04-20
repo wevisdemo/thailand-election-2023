@@ -81,11 +81,11 @@
 	<CalculateLoading />
 {:else if !isShare}
 	<div class="h-screen flex flex-col relative">
-		<div class="w-full h-1 beyondx-gradient-bg" />
+		<div class="fixed top-0 w-full h-1 beyondx-gradient-bg" />
 		<div class="flex-1 flex flex-col items-center pt-10">
-			<div class="flex-1 flex flex-col items-center">
-				<div class="container flex items-start md:items-center">
-					<h7 class="typo-h7 font-bold"
+			<div class="flex-1 flex flex-col items-center container">
+				<div class="flex w-full items-start md:items-center">
+					<h7 class="typo-h7 font-bold grow"
 						>จำลองผล #เลือกตั้ง66 <br class="inline md:hidden" /> จากคำตอบของคุณ</h7
 					>
 					<a
@@ -93,9 +93,7 @@
 						class="cursor-pointer flex"
 						on:click={onEditQuiz}
 					>
-						<h5 class="typo-b5 text-byx-blue ml-1 md:ml-5 underline">
-							แก้ไขคำตอบ
-						</h5>
+						<h5 class="typo-b5 text-byx-blue ml-1 underline">แก้ไขคำตอบ</h5>
 						<svg
 							width="24"
 							height="24"
@@ -113,7 +111,7 @@
 						</svg>
 					</a>
 				</div>
-				<div class="container flex justify-center items-center mt-3">
+				<div class="w-full flex justify-center items-center mt-3">
 					<button
 						class="w-1/2 cetner pb-1 pl-4 border-b-2 cursor-pointer {selectedTab ===
 						Tabs.Map
@@ -121,7 +119,7 @@
 							: ''}"
 						on:click={() => onTabChange(Tabs.Map)}
 					>
-						แผนที่
+						รายเขต
 					</button>
 					<button
 						class="w-1/2 cetner pb-1 pl-4 border-b-2 cursor-pointer {selectedTab ===
@@ -130,13 +128,15 @@
 							: ''}"
 						on:click={() => onTabChange(Tabs.Graph)}
 					>
-						กราฟ
+						รวมจำนวน ส.ส.
 					</button>
 				</div>
 				{#if selectedTab === Tabs.Map}
-					<WaffleMap />
+					<div class="w-full mb-[132px]">
+						<WaffleMap />
+					</div>
 				{:else}
-					<div class="container">
+					<div class="w-full">
 						<Graph
 							elect66Record={$representatives}
 							elect62Record={$resultElect62}
@@ -157,7 +157,7 @@
 {:else}
 	<div class="h-full flex flex-col">
 		<election-header />
-		<div class="w-full h-1 beyondx-gradient-bg" />
+		<div class="sticky top-0 w-full h-1 beyondx-gradient-bg" />
 		<div class="flex-1 flex justify-center items-center">
 			<Share
 				representativeRecord={$representatives}
@@ -174,6 +174,6 @@
 
 <style lang="postcss">
 	.container {
-		@apply w-full max-w-[650px] px-6;
+		@apply w-full max-w-[698px] px-6;
 	}
 </style>

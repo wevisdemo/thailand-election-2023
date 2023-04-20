@@ -21,12 +21,12 @@
 </script>
 
 <div
-	class="w-100 h-28 bg-black pt-5 flex flex-col items-center text-white {isExpand
-		? 'fixed h-full w-full inset-0 mt-1'
-		: 'sticky bottom-0'}"
+	class="w-100 h-28 bg-black pt-5 flex flex-col items-center text-white transition-all duration-300 bottom-0 fixed w-full {isExpand
+		? 'fixed h-full w-full inset-0 mt-1 overflow-y-scroll scrollbar-hide pb-[154px]'
+		: ''}"
 >
 	<div
-		class="flex flex-col px-6 w-full max-w-[650px] relative {isExpand
+		class="flex flex-col px-6 w-full max-w-[698px] relative transition-all duration-300 {isExpand
 			? 'mt-10'
 			: ''}"
 	>
@@ -114,10 +114,10 @@
 				รัฐบาล ({governmentPoints})
 			</div>
 			<div class="flex space-x-1 items-center">
-				<div class="w-4 h-4 mr-2" style="background-color: #CCCCCC;">
+				ฝ่ายค้าน ({totalPoints - governmentPoints})
+				<div class="w-4 h-4 ml-2" style="background-color: #CCCCCC;">
 					<div class="stripe-white w-full h-full" />
 				</div>
-				ฝ่ายค้าน ({totalPoints - governmentPoints})
 			</div>
 		</div>
 
@@ -187,7 +187,7 @@
 			<div class="flex items-start w-full">
 				<div class="w-1/2 flex flex-col">
 					<div class="flex flex-wrap md:flex-nowrap">
-						<h7 class="typo-h7 font-bold w-full">ฝ่ายรัฐบาล </h7>
+						<h7 class="typo-h7 font-bold w-full md:w-auto">ฝ่ายรัฐบาล </h7>
 						<div class="flex typo-h7 md:ml-1">
 							<p class="hidden md:block">(</p>
 							{governmentPoints}
@@ -296,7 +296,7 @@
 							</span>
 							<h5 class="typo-b5 opacity-70 w-2/12 mr-6 md:mr-0">{total}</h5>
 							<span
-								class="typo-b5 w-full md:w-1/2 flex justify-end mb-2 md:mb-0"
+								class="typo-b5 w-full md:w-1/2 flex justify-end mb-2 md:mb-0 items-center"
 							>
 								{party.Name}
 								<span
@@ -308,13 +308,17 @@
 					{/each}
 				</div>
 			</div>
-			<a
-				on:click={toggleIsShare}
-				class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full md:w-52 h-[50px] flex items-center justify-between font-bold m-auto mt-2 md:mt-20 cursor-pointer"
+			<div
+				class="fixed bottom-0 left-0 right-0 w-full flex justify-center py-10 px-6 bg-gradient-to-t from-black"
 			>
-				สรุปผล
-				<div class="border-1 border-t border-r w-2 h-2 rotate-45" />
-			</a>
+				<a
+					on:click={toggleIsShare}
+					class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full md:w-52 h-[50px] flex items-center justify-between font-bold m-auto mt-2 md:mt-10 cursor-pointer"
+				>
+					สรุปผล
+					<div class="border-1 border-t border-r w-2 h-2 rotate-45" />
+				</a>
+			</div>
 		{/if}
 	</div>
 </div>

@@ -2,10 +2,12 @@
 </script>
 
 <div class="h-screen flex flex-col relative">
-	<div class="w-full h-1 beyondx-gradient-bg" />
-	<div class="flex-1 flex flex-col items-center">
+	<div class="fixed top-0 w-full h-1 beyondx-gradient-bg" />
+	<div
+		class="flex-1 flex flex-col items-center w-full max-w-[698px] px-6 h-full py-10 mx-auto"
+	>
 		<div
-			class="text-center flex flex-col items-center justify-center w-[312px] md:w-[650px] h-full"
+			class="grow text-center flex flex-col items-center justify-center w-full"
 		>
 			<svg
 				class="animate-spin"
@@ -36,16 +38,20 @@
 			</svg>
 
 			<h6 class="typo-h6 font-bold mt-5">กำลังคำนวณ</h6>
-			<h4 class="typo-b4 mt-1">มาดูแบบจำลองผล #เลือกตั้ง66จากคำตอบของคุณกัน</h4>
-			<div class="w-full bg-gray-4 mt-[180px] text-left">
-				<p class="typo-b6 py-2 px-4">
-					<b>Disclaimer</b>: ผลการวิเคราะห์นี้เป็นเพียงการ
-					ทดลองประมาณการแบบคร่าวๆ บนฐานข้อมูลผลการ
-					เลือกตั้งเดิมบนกติกาเลือกตั้งใหม่และข้อสันนิษฐานที่กำหนดไว้เท่านั้น
-					อาจมีปัจจัยอื่นที่ส่งผลต่อ ผลลัพธ์ในการเลือกตั้ง
-					และไม่ได้มีเจตนาในการชี้นำผลการเลือกตั้งแต่อย่างใด
-				</p>
-			</div>
+			<h4 class="typo-b4 mt-1">
+				มาดูแบบจำลองผล #เลือกตั้ง66 <br
+					class="inline md:hidden"
+				/>จากคำตอบของคุณกัน
+			</h4>
+		</div>
+		<div class="w-full bg-gray-4 text-left">
+			<p class="typo-b6 py-2 px-4">
+				<b>Disclaimer</b>: ผลการวิเคราะห์นี้เป็นเพียงการ ทดลองประมาณการแบบคร่าวๆ
+				บนฐานข้อมูลผลการ
+				เลือกตั้งเดิมบนกติกาเลือกตั้งใหม่และข้อสันนิษฐานที่กำหนดไว้เท่านั้น
+				อาจมีปัจจัยอื่นที่ส่งผลต่อ ผลลัพธ์ในการเลือกตั้ง
+				และไม่ได้มีเจตนาในการชี้นำผลการเลือกตั้งแต่อย่างใด
+			</p>
 		</div>
 	</div>
 </div>

@@ -4,7 +4,7 @@
 	$: currentContent = $contentManager.currentContent;
 </script>
 
-<div class="w-full h-1 flex space-x-2">
+<div class="w-full fixed h-1 flex space-x-2">
 	{#if currentContent == Content.Calculate || currentContent == Content.EditQuiz}
 		<div class="beyondx-gradient-bg h-full w-full" />
 	{/if}

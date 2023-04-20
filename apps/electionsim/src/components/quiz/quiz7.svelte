@@ -7,13 +7,17 @@
 	$: isFinished = $contentManager.isFinished;
 </script>
 
-<div class="text-left flex flex-col w-[312px] md:w-[650px] py-10">
-	<p class="typo-h7 text-xl">#7: อื่นๆ</p>
-	<h6 class="typo-h6 font-bold">
-		คุณคิดว่านอกจากปัจจัยเหล่านี้ จะมีอย่างอื่นที่ทำให้คนไทย เปลี่ยนใจไปเลือก
-		ส.ส. เขต พรรคอื่นอีกไหม?
-	</h6>
-	<div class="w-full flex flex-col items-center mt-20">
+<div
+	class="text-left h-full grow flex flex-col justify-between w-full max-w-[698px] md:max-h-[650px] my-auto px-6 py-0 md:py-10"
+>
+	<div>
+		<p class="typo-h7 text-xl">#7: อื่นๆ</p>
+		<h6 class="typo-h6 font-bold">
+			คุณคิดว่านอกจากปัจจัยเหล่านี้จะมีอย่างอื่นที่ทำให้คนไทยเปลี่ยนใจไปเลือก
+			ส.ส. เขตพรรคอื่นอีกไหม?
+		</h6>
+	</div>
+	<div class="w-full flex flex-col items-center">
 		<div
 			class="w-full flex flex-col items-center justify-between mt-1 space-y-4"
 		>
@@ -63,55 +67,58 @@
 				</svg>
 			</div>
 		</div>
-		<div class="w-full mt-20 flex items-center justify-between space-x-5">
-			{#if isFinished}
+	</div>
+	<div class="w-full flex items-center justify-between space-x-5">
+		{#if isFinished}
+			<button
+				class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
+				on:click={() => {
+					contentManager.updateContent(Content.EditQuiz);
+				}}
+			>
+				<b>บันทึกคำตอบ</b>
+				<div
+					class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
+				/>
+			</button>
+		{:else}
+			<button
+				class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
+				on:click={() => {
+					contentManager.updateContent(Content.Quiz6);
+				}}
+			>
+				<div
+					class="border-1 border-t border-l w-2 h-2 -rotate-45 border-black"
+				/>
+				<b>ย้อนกลับ</b>
+			</button>
+			{#if ans}
 				<button
 					class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
 					on:click={() => {
-						contentManager.updateContent(Content.EditQuiz);
+						contentManager.updateContent(Content.Quiz8);
 					}}
 				>
-					<b>บันทึกคำตอบ</b>
+					<b>ต่อไป</b>
 					<div
 						class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
 					/>
 				</button>
 			{:else}
-				<button
-					class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
+				<a
+					href="{base}/result"
+					class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full flex items-center justify-between font-bold"
 					on:click={() => {
-						contentManager.updateContent(Content.Quiz6);
+						contentManager.toggleFinished();
 					}}
 				>
+					ส่งข้อมูล
 					<div
-						class="border-1 border-t border-l w-2 h-2 -rotate-45 border-black"
+						class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
 					/>
-					<b>ย้อนกลับ</b>
-				</button>
-				{#if ans}
-					<button
-						class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
-						on:click={() => {
-							contentManager.updateContent(Content.Quiz8);
-						}}
-					>
-						<b>ต่อไป</b>
-						<div
-							class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
-						/>
-					</button>
-				{:else}
-					<a
-						href="{base}/result"
-						class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full flex items-center justify-between font-bold"
-						on:click={() => {
-							contentManager.toggleFinished();
-						}}
-					>
-						ส่งข้อมูล
-					</a>
-				{/if}
+				</a>
 			{/if}
-		</div>
+		{/if}
 	</div>
 </div>

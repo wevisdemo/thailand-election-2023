@@ -70,11 +70,11 @@
 	].filter((p) => p.total > 0);
 </script>
 
-<div class="flex flex-col items-center w-[312px] md:w-[650px] py-10">
+<div class="flex flex-col items-center w-full max-w-[698px] px-6 py-10">
 	<div class="flex w-full">
 		<a
 			on:click={toggleIsShare}
-			class="flex items-center typo-b5 text-byx-blue mb-5 cursor-pointer mr-4"
+			class="flex items-center typo-b5 text-byx-blue mb-5 cursor-pointer mr-5"
 		>
 			<svg
 				width="25"
@@ -173,7 +173,7 @@
 			</div>
 		{/each}
 	</div>
-	<div class="py-3 px-5 flex items-center my-5 bg-gray-4">
+	<div class="py-3 px-5 flex items-center my-10 bg-gray-4">
 		<svg
 			width="24"
 			height="24"
@@ -200,16 +200,15 @@
 		<br />
 		กำหนดชะตาประเทศไทย 14 พ.ค. 66 นี้
 	</h4>
-	<div class="flex items-center mt-10 mb-5">
+	<div class="flex items-center my-10">
 		<h4 class="typo-b4 mr-4">ร่วมพัฒนาโดย</h4>
 		<img src={byxMobileLogo} alt="beyondx" />
 	</div>
 	<div class="w-full bg-gray-4">
 		<p class="typo-b6 py-2 px-4">
-			<b>Disclaimer</b>: ผลการวิเคราะห์นี้เป็นเพียงการ ทดลองประมาณการแบบคร่าวๆ
-			บนฐานข้อมูลผลการ
-			เลือกตั้งเดิมบนกติกาเลือกตั้งใหม่และข้อสันนิษฐานที่กำหนดไว้เท่านั้น
-			อาจมีปัจจัยอื่นที่ส่งผลต่อ ผลลัพธ์ในการเลือกตั้ง
+			<b>Disclaimer</b>: ผลการวิเคราะห์นี้เป็นเพียงการทดลองประมาณการแบบคร่าวๆ
+			บนฐานข้อมูลผลการเลือกตั้งเดิมบนกติกาเลือกตั้งใหม่และข้อสันนิษฐานที่กำหนดไว้เท่านั้น
+			อาจมีปัจจัยอื่นที่ส่งผลต่อผลลัพธ์ในการเลือกตั้ง
 			และไม่ได้มีเจตนาในการชี้นำผลการเลือกตั้งแต่อย่างใด
 		</p>
 	</div>

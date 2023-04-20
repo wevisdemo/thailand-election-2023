@@ -12,7 +12,7 @@ export const quiz1ToWord = (key: ScaleAns | undefined): string[] => {
 			return ['เลือกตัวบุคคล', '7 ใน 10 คน'];
 
 		case ScaleAns.Scale50:
-			return ['เลือกคน/พรรค', 'เท่าๆกัน'];
+			return ['เลือกคน/พรรค', 'เท่าๆ กัน'];
 
 		case ScaleAns.Scale70:
 			return ['เลือกพรรค', '7 ใน 10 คน'];

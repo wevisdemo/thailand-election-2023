@@ -44,4 +44,6 @@
 	</button>
 </div>
 
-<BarChart year={selectedTab} representativeRecord={currentRecord} />
+<div class="w-full mb-[172px]">
+	<BarChart year={selectedTab} representativeRecord={currentRecord} />
+</div>

@@ -22,7 +22,7 @@
 </script>
 
 <div
-	class="text-left flex flex-col w-[312px] md:w-[650px] pb-10 mt-10 relative bg-white h-full"
+	class="text-left flex flex-col w-full max-w-[698px] px-6 pb-10 mt-10 relative bg-white h-full"
 >
 	<svg
 		class="absolute right-0 -top-6 cursor-pointer"

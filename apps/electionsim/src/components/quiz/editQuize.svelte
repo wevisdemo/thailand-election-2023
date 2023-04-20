@@ -16,55 +16,55 @@
 	$: choices = [
 		{
 			question:
-				'คุณคิดว่า คนไทยทุกๆ 10 คน จะเลือก ส.ส. เขตจากตัวบุคคลหรือพรรคอย่างละกี่คน?',
+				'คุณคิดว่า คนไทยทุกๆ 10 คนจะเลือก ส.ส. เขตจากตัวบุคคลหรือพรรคอย่างละกี่คน?',
 			answer: quiz1ToWord($input.input.quiz1).join(' '),
 			page: Content.Quiz1,
 		},
 		{
 			question:
-				'คุณคิดว่า คนเคยเลือก พรรค พลังประชารัฐ จะย้ายไปเลือก พรรครวมไทยสร้างชาติ มากแค่ไหน?',
+				'คุณคิดว่า คนเคยเลือกพรรคพลังประชารัฐ ทุกๆ 10 คน จะเปลี่ยนใจไปเลือก ส.ส. เขตพรรครวมไทยสร้างชาติกี่คน?',
 			answer: quiz2ToWord($input.input.quiz2).join(' '),
 			page: Content.Quiz2,
 		},
 		{
 			question:
-				'จากกระแส Strategic Voting ระหว่างพรรคเพื่อไทย และพรรคก้าวไกล คุณคิดว่าผลโหวตจะถูกเทไปทางใด',
+				'จากกระแส Strategic Voting ระหว่างพรรคเพื่อไทยและพรรคก้าวไกล คุณคิดว่าผลโหวตจะถูกเทไปทางใด?',
 			answer: quiz3ToWord($input.input.quiz3).join(' '),
 			page: Content.Quiz3,
 		},
 		{
 			question:
-				'ในทางกลับกัน คุณคิดว่าใน กลุ่มคนเลือกพรรคฝั่งรัฐบาลผลโหลตจะเทเข้าหรือออกจากพรรคพลังประชารัฐ/รวมไทยสร้างชาติ หรือไม่?',
+				'ในทางกลับกัน คุณคิดว่าในกลุ่มคนเลือกพรรคฝั่งรัฐบาลเดิม ผลโหวตจะเทเข้าหรือออกจากพรรคพลังประชารัฐ/รวมไทยสร้างชาติ?',
 			answer: quiz4ToWord($input.input.quiz4).join(' '),
 			page: Content.Quiz4,
 		},
 		{
 			question:
-				'คุณคิดว่า เมื่อเทียบกับการ เลือกตั้งปี 62 ความนิยมต่อ ส.ส. ของคนไทย เบนไปจากเดิมหรือไม่? ไปทางฝ่ายใด?',
+				'คุณคิดว่า เมื่อเทียบกับการเลือกตั้งปี 62 ความนิยมต่อ ส.ส. ของคนไทยเบนไปจากเดิมหรือไม่? ไปทางฝ่ายใด?',
 			answer: quiz5ToWord($input.input.quiz5).join(' '),
 			page: Content.Quiz5,
 		},
 		{
 			question:
-				'คุณคิดว่าโพลสำนักไหนจะ คาดการณ์คะแนนนิยมของ พรรคได้แม่นยำที่สุด?',
+				'คุณคิดว่าโพลสำนักไหนจะคาดการณ์คะแนนนิยมของพรรคได้แม่นยำที่สุด?',
 			answer: quiz6ToWord($input.input.quiz6),
 			page: Content.Quiz6,
 		},
 		{
 			question:
-				'คุณคิดว่านอกจากปัจจัยเหล่านี้ จะมีอย่างอื่นที่ทำให้คนไทย เปลี่ยนใจไปเลือกส.ส. เขต พรรคอื่นอีกไหม?',
+				'คุณคิดว่านอกจากปัจจัยเหล่านี้จะมีอย่างอื่นที่ทำให้คนไทยเปลี่ยนใจไปเลือก ส.ส. เขตพรรคอื่นอีกไหม?',
 			answer: quiz7ToWord($input.input.quiz7),
 			page: Content.Quiz7,
 		},
 		{
-			question: 'ปัจจัยที่ว่า จะทำให้คน เปลี่ยนใจจากพรรคไหน ไปเลือกพรรคไหนแทน?',
+			question: 'ปัจจัยที่ว่า จะทำให้คนเปลี่ยนใจจากพรรคไหน ไปเลือกพรรคไหนแทน?',
 			answer: quiz8ToWord($input.input.quiz8?.percent).join(' '),
 			page: Content.Quiz8,
 		},
 	];
 </script>
 
-<div class="text-left flex flex-col w-[312px] md:w-[650px] py-10 relative">
+<div class="text-left flex flex-col w-full max-w-[698px] px-6 py-10 relative">
 	<a href="{base}/result">
 		<svg
 			width="32"
@@ -84,12 +84,12 @@
 	</a>
 	<h6 class="typo-h6 font-bold mb-5">แก้ไขคำตอบ</h6>
 	<div class="flex flex-col w-100">
-		<div class="flex w-100 pb-4 border-b border-gray-4">
+		<div class="flex w-100 pb-4 border-b border-[#231F2020]">
 			<div class="w-4/6 typo-b5 font-bold">คำถาม</div>
 			<div class="w-2/6 typo-b5 font-bold text-right">คำตอบของคุณ</div>
 		</div>
 		{#each choices as choice}
-			<div class="flex w-100 py-4 border-b border-gray-4 gap-x-2">
+			<div class="flex w-100 py-4 border-b border-[#231F2020] gap-x-2">
 				<div class="w-4/6 typo-b5">
 					{choice.question}
 				</div>
