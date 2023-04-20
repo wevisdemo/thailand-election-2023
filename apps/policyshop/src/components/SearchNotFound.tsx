@@ -4,7 +4,7 @@ import { imgPrefix } from '@/utils/path';
 
 const SearchNotFound: FC = () => {
 	return (
-		<div className="mt-20 text-center typo-b4">
+		<div className="mx-auto mt-20 text-center typo-b4">
 			<img
 				className="mx-auto mb-5 "
 				src={`${imgPrefix}/sad-face.svg`}
