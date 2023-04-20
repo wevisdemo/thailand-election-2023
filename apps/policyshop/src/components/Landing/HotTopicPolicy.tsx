@@ -2,6 +2,7 @@ import React, { FC } from 'react';
 import Link from 'next/link';
 import SquareTopicWrapper from '../SquareTopicWarpper';
 import { ByTopicProps } from '@/types/components';
+import SqualWithFace from '../Home/SqualWithFace';
 
 const HotTopicPolicy: FC<ByTopicProps> = ({ topics }) => {
 	const hotTopics = Object.keys(topics);
@@ -14,6 +15,12 @@ const HotTopicPolicy: FC<ByTopicProps> = ({ topics }) => {
 			<p className="px-4 py-2 font-bold typo-h6 bg-highlight-2">
 				นโยบายประเด็นร้อน
 			</p>
+			<div className="max-w-[278px] mb-7 ">
+				<SqualWithFace>
+					นโยบายที่ออกมาแล้วเป็นที่ถกเถียงในสังคม
+					หรือเป็นประเด็นที่สังคมให้ความสนใจ
+				</SqualWithFace>
+			</div>
 			<div className="grid grid-cols-2 gap-1 mx-auto text-center md:grid-cols-3 w-fit ">
 				{hotTopics.map((topic) => (
 					<Link

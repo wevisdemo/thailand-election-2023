@@ -5,7 +5,7 @@ import { imgPrefix } from '@/utils/path';
 const SqualWithFace: FC<SqualWithFace> = ({ children }) => {
 	return (
 		<div
-			className={`  relative border-[2px] w-full border-gray-3 text-gray-3 rounded-[20px] p-5 px-2 my-2 `}
+			className={`  relative border-[2px] w-full border-gray-2 text-gray-3 rounded-[20px] p-5 px-[10px] my-2 `}
 		>
 			{children}
 			<img

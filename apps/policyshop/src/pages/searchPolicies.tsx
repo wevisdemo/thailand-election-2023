@@ -1,13 +1,13 @@
 import React, { memo, useEffect, useState } from 'react';
 import { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 import { fetchParties, fetchPolicy, shufflePolicies } from '@/utils';
 import SearchBar from '@/components/SearchBar';
 import Layout from '@/components/Layout';
 import RandomButton from '@/components/RandomButton';
 import TemplatePolicyList from '@/components/Template/PolicyList';
 import { Party, Policy } from '@/types/components';
+import SearchNotFound from '@/components/SearchNotFound';
 
 interface PropsType {
 	policies: Policy[];
@@ -45,16 +45,7 @@ const SearchPolicies: NextPage<PropsType> = ({ policies, parties }) => {
 							<RandomButton onClick={onClickShuffle} />
 						</div>
 					</TemplatePolicyList>
-					{(!topic || displayPolicies.length == 0) && (
-						<div className="mt-20 text-center typo-b4">
-							ไม่พบนโยบายที่คุณค้นหา
-							<br /> กรุณาเปลี่ยนคำค้นหา
-							<br /> หรือกลับ
-							<Link href={'/'} className="font-bold underline ">
-								หน้าแรก
-							</Link>
-						</div>
-					)}
+					{(!topic || displayPolicies.length == 0) && <SearchNotFound />}
 				</Layout>
 			</main>
 		</>
