@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowsType1, ArrowsType2, ArrowsType3 } from '@/components/Arrows';
 import CircleWrapper from '@/components/Home/CircleWrapper';
 import SquareWrapper from '@/components/Home/SquareWrapper';
+import SqualWithFace from '@/components/Home/SqualWithFace';
 import { imgPrefix } from '@/utils/path';
 import { onCloseModal } from '@/utils';
 
@@ -28,20 +29,22 @@ const ModalSeeMore = () => {
 				</button>
 				<div className="flex flex-col items-center h-full mx-auto mt-3 ">
 					<p className="font-bold typo-h6">เส้นทางการผลักดันนโยบาย</p>
-					<p className="mt-8 ">
-						เมื่อฤดูกาลการเลือกตั้งมาถึง ทุกพรรคก็จะเริ่มออกมาหาเสียง
-						ออกมาขายนโยบายต่าง ๆ ของตัวเอง
-					</p>
-					<p className="mt-8 ">
-						ประชาชนอย่างเราเลือกช็อปนโยบายของพรรคได้ตามชอบ
-					</p>
-					<p className="mt-8 ">
-						แล้วจริง ๆ แล้วนโยบายต่าง ๆ จะทำจริงได้จริงไหม? จะแน่ใจได้อย่างไรว่า
-						พี่เขาไม่ได้มาหลอกขายฝัน
-					</p>
-					<p className="mt-8 font-bold ">
-						ลองมาดูเส้นทางที่นโยบายหนึ่งๆ จะถูกทำจริงกันดีกว่า
-					</p>
+					<div className="max-w-[350px]">
+						<p className="mt-8 ">
+							เมื่อฤดูกาลการเลือกตั้งมาถึง ทุกพรรคก็จะเริ่มออกมาหาเสียง
+							ออกมาขายนโยบายต่าง ๆ ของตัวเอง
+						</p>
+						<p className="mt-8 ">
+							ประชาชนอย่างเราก็เลือกช็อปนโยบายแต่ละพรรคได้ตามใจชอบ
+						</p>
+						<p className="mt-8 ">
+							แล้วจริง ๆ แล้วนโยบายต่าง ๆ จะทำจริงได้จริงไหม?
+							จะแน่ใจได้อย่างไรว่า พี่เขาไม่ได้มาหลอกขายฝัน
+						</p>
+						<p className="mt-8 font-bold ">
+							ลองมาดูเส้นทางที่นโยบายหนึ่งๆ จะถูกทำจริงกันดีกว่า
+						</p>
+					</div>
 					<ArrowsType1 styles=" my-9" />
 					<p>หลังเลือกตั้ง ถ้าพรรคที่คุณเลือกเป็น...</p>
 					<div className="flex mt-4 ">
@@ -74,7 +77,7 @@ const ModalSeeMore = () => {
 						</p>
 					</SquareWrapper>
 					<ArrowsType3 />
-					<div className="flex space-x-[24px] w-full  border-b-[3px] border-gray-3 border-dashed pb-8">
+					<div className="flex space-x-[24px] w-full   pb-8">
 						<div className="flex flex-col items-center flex-1">
 							<SquareWrapper
 								bgColor="bg-highlight-2"
@@ -87,6 +90,10 @@ const ModalSeeMore = () => {
 								<li>ไม่เคยมีกฎหมายเกี่ยวกับเรื่องนี้</li>
 								<li>จะทำเรื่องนี้ได้ต้องแก้กฎหมาย</li>
 							</ul>
+							<ArrowsType2 />
+							<SqualWithFace>
+								เช่น นโยบายกัญชา กัญชาเคยผิดกฎหมายก็แก้ให้ถูกกฎหมาย
+							</SqualWithFace>
 							<ArrowsType2 />
 							<SquareWrapper
 								bgColor="bg-highlight-2"
@@ -141,6 +148,7 @@ const ModalSeeMore = () => {
 								<p className="font-bold typo-b4">ทำได้จริง!</p>
 							</SquareWrapper>
 						</div>
+
 						<div className="flex flex-col items-center flex-1 ">
 							<SquareWrapper
 								bgColor="bg-highlight-2"
@@ -157,7 +165,67 @@ const ModalSeeMore = () => {
 									ฝ่ายบริหารและครม. ประชุมกันแล้วบังคับใช้ใน ราชการได้เลย
 								</p>
 							</SquareWrapper>
+							<ArrowsType2 />
+							<SqualWithFace>
+								เช่น นโยบายคนละครึ่ง, บัตรสวัสดิการแห่งรัฐ
+							</SqualWithFace>
 						</div>
+					</div>
+					<div className="border-b-[3px] w-full border-gray-3 border-dashed py-8 ">
+						<p className="max-w-[350px] mx-auto">
+							แต่ขั้นตอนด้านบนนี้เป็นเพียงขั้นตอนในทางทฤษฎีเท่านั้น
+							<br />
+							<br />
+							ในเชิงปฏิบัติแล้ว
+							อย่าลืมว่าทุกนโยบายต้องใช้งบประมาณในการทำให้เป็นจริง
+							<br />
+							<br />
+							เพราะฉะนั้นชอบนโยบายไหน อย่าลืมไปศึกษาต่อด้วยว่า
+							พรรคที่มาขายได้บอกไว้ไหมว่า..
+						</p>
+						<SquareWrapper
+							bgColor="bg-highlight-2"
+							borderType="border-dashed"
+							styles=" text-left my-8 "
+						>
+							<ul className="mt-2 font-bold list-decimal list-inside ">
+								<li>จะใช้งบเท่าไหร่</li>
+								<li>
+									จะใช้งบจากส่วนไหนมาทำ หาเพิ่ม? กู้เพิ่ม?
+									หรือแบ่งสรรปันส่วนจากงบเดิม?
+								</li>
+								<li>สัญญาว่าจะทำในเวลานานแค่ไหน</li>
+							</ul>
+						</SquareWrapper>
+						<div className="max-w-[350px] mx-auto mb-8 ">
+							ไม่อย่างนั้นแล้ว จะกลายเป็นนโยบายขายฝันแค่ตอนเลือกตั้ง
+							แต่ทำจริงไม่ได้
+							<br />
+							<br />
+							นอกจากนั้นยังต้องดูเพิ่มว่า
+							<p className="font-bold">
+								ใครเป็นผู้ได้รับประโยชน์จาก
+								<br />
+								นโยบายนั้นบ้าง
+							</p>
+							<br />
+							<br />
+							นโยบายนั้นได้ส่งเสริมการกระจายอำนาจอย่างทั่วถึงหรือไม่ผลประโยชน์ตกอยู่กับผู้มีอำนาจ
+							กลุ่มทุนบางกลุ่มเท่านั้นหรือเปล่า
+						</div>
+
+						<SqualWithFace>
+							<p>
+								ย้อนดูผลลัพธ์จากคำสัญญาที่พรรคการเมืองเคยให้ไว้ในอดีตได้ที่งานนี้
+							</p>
+							<a
+								className="text-black underline "
+								target="_blank"
+								href="https://promisetracker.wevis.info/"
+							>
+								Promise Tracker (wevis.info)
+							</a>
+						</SqualWithFace>
 					</div>
 					<SquareWrapper
 						bgColor="bg-highlight-3"
@@ -176,6 +244,7 @@ const ModalSeeMore = () => {
 							ความยากก็คือ อาจจะโดนตีตกง่าย ๆ เพราะมี ส.ส.หรือส.ว. โหวตให้ไม่พอ
 						</p>
 					</SquareWrapper>
+					<SqualWithFace>เช่น กรณี xxxxxxxxxx</SqualWithFace>
 					<ArrowsType2 />
 					<SquareWrapper
 						bgColor="bg-black"
@@ -191,7 +260,7 @@ const ModalSeeMore = () => {
 							<li>อภิปรายไม่ไว้วางใจ</li>
 						</ul>
 					</SquareWrapper>
-					<div className="mt-8 font-bold typo-h7">
+					<div className="mt-8 font-bold typo-h7 max-w-[350px]">
 						<p>เพราะฉะนั้นถ้าชอบนโยบายของพรรคไหน</p>
 						<p className="mt-8 ">
 							อย่าลืมโหวตให้พรรคนั้นมี ส.ส. ในสภาให้ได้มากที่สุด

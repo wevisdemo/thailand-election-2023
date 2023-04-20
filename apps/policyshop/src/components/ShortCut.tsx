@@ -18,7 +18,7 @@ const ButtonWrapper: FC<ButtonWrapperPropsType> = ({
 }) => {
 	return (
 		<button
-			className={`border-[3px] border-black mb-1 text-start rounded-[24px] w-full  px-4 py-2 flex ite justify-between ${bgColor} ${alignItem} ${styles}`}
+			className={`border-[3px] border-black mb-1 h-full items-center text-start rounded-[24px] w-full  px-4 py-2 flex ite justify-between ${bgColor} ${alignItem} ${styles}`}
 		>
 			{children}
 		</button>

@@ -15,3 +15,7 @@ export interface SquareWrapperProps {
 export interface ArrowsProps {
 	styles?: string;
 }
+
+export interface SqualWithFace {
+	children: React.ReactNode;
+}
