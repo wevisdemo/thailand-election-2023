@@ -148,6 +148,7 @@ export default {
   box-sizing: border-box;
   width: 50px;
   height: 50px;
+  object-fit: cover;
   margin-left: 0px;
   margin-top: 0px;
   border: 1px solid var(--color-black);
@@ -163,6 +164,7 @@ export default {
   position: absolute;
   width: 30px;
   height: 30px;
+  object-fit: cover;
   margin-left: 40px;
   margin-top: 20px;
   border: 1px solid var(--color-gray-2);
