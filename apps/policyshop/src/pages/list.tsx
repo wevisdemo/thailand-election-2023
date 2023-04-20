@@ -9,6 +9,7 @@ import { GetStaticProps, NextPage } from 'next';
 import { memo, useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
 import { useRouter } from 'next/router';
+import { hotTopicList } from '@/utils/data';
 
 interface PropsType {
 	policies: Policy[];
@@ -93,6 +94,13 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 		};
 		policyOptions = [...policyOptions, defaultPolicyOption];
 
+		// if hot fetch only hot topic
+		if (hotQuery) {
+			policyOptions = policyOptions.filter((option) =>
+				hotTopicList.includes(option.value || '')
+			);
+		}
+
 		const topicOptionMatch = policyOptions.find(
 			(option) => option.value === topicQuery
 		);
@@ -166,6 +174,13 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 				(policy) => policy.Topic === topicQuery?.toString()
 			);
 		}
+
+		if (hotQuery?.toString()) {
+			filterPolicies = filterPolicies.filter((policy) =>
+				hotTopicList.includes(policy.Topic)
+			);
+		}
+
 		setDisplayPolicies(filterPolicies);
 	};
 
