@@ -15,7 +15,7 @@ const DISTRICT_LIST = districts.map((district) => {
 })
 
 function normalizeSearchQuery(query) {
-  return query.replace(/\.([^\s])/g, /. \1/g)
+  return query.replace(/\.([^\s])/g, '. $1')
 }
 
 const HIGHTLIGHT_STYLE = {
