@@ -37,9 +37,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
 interface PropsType {
 	parties: Party[];
 	policies: Policy[];
+	upToDate: string;
 }
 
-const PartyPage: NextPage<PropsType> = ({ parties, policies }) => {
+const PartyPage: NextPage<PropsType> = ({ parties, policies, upToDate }) => {
 	const router = useRouter();
 	const { name } = router.query;
 	const [party, setParty] = useState<Party>();
@@ -93,7 +94,7 @@ const PartyPage: NextPage<PropsType> = ({ parties, policies }) => {
 				<Layout title="พรรคนี้มีอะไรมาขายบ้าง">
 					<div className="relative ">
 						<ModalInfo party={party} />
-						<Intro party={party} />
+						<Intro party={party} upToDate={upToDate} />
 						<div className="mt-[10px]">
 							<PercentPolicies policies={displayPolicies} />
 						</div>
@@ -133,6 +134,8 @@ const PartyPage: NextPage<PropsType> = ({ parties, policies }) => {
 export const getStaticProps: GetStaticProps<PropsType> = async () => {
 	let policies = await fetchPolicy();
 	const parties = await fetchParties();
+	const upToDate = new Date().toLocaleDateString('TH-th');
+
 	policies = policies.map((policy) => {
 		if (!policy.Topic) {
 			return { ...policy, Topic: 'ไม่ระบุ' };
@@ -140,7 +143,7 @@ export const getStaticProps: GetStaticProps<PropsType> = async () => {
 		return policy;
 	});
 	return {
-		props: { parties, policies },
+		props: { parties, policies, upToDate },
 	};
 };
 

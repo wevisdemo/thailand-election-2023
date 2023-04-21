@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 import Clipboard from '../Clipboard';
 import HowToLabel from '../HowToLabel';
 
-const Intro: FC<any> = ({ party }) => {
+const Intro: FC<any> = ({ party, upToDate }) => {
 	const onOpenModal = (): void => {
 		const elem = document.getElementById('ModalInfo') as HTMLElement;
 		if (elem) elem!.style.display = 'block';
@@ -38,7 +38,7 @@ const Intro: FC<any> = ({ party }) => {
 			</div>
 			<HowToLabel />
 			<div className="mt-2 text-center typo-b5">
-				<p>ข้อมูลนี้อัปเดตในวันที่ xx/xx/xxxx</p>
+				<p>ข้อมูลนี้อัปเดตในวันที่ {upToDate}</p>
 				<Clipboard />
 			</div>
 		</div>

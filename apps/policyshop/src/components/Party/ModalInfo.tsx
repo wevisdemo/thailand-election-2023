@@ -1,17 +1,21 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import { imgPrefix } from '@/utils/path';
-import CircleTopicWrapper from '@/components/CircleTopicWrapper';
 import { ArrowsType5 } from '../Arrows';
 import { Party } from '@thailand-election-2023/database';
+import candidate_json from './data/66_WV_PMCandidate.json';
 
 interface PropsType {
 	party: Party | undefined;
 }
-
+type WrapperLinkProps = {
+	children: React.ReactNode;
+};
+interface CandidateProps {
+	name: string;
+	party: string;
+}
 const ModalInfo: FC<PropsType> = ({ party }) => {
-	type WrapperLinkProps = {
-		children: React.ReactNode;
-	};
+	const [candidate, setCandidate] = useState<CandidateProps[]>([]);
 	const WrapperLink: FC<WrapperLinkProps> = ({ children }) => {
 		return (
 			<button className=" border-b-[2px] border-gray-2 w-full mt-4 flex  items-center justify-between  ">
@@ -25,6 +29,12 @@ const ModalInfo: FC<PropsType> = ({ party }) => {
 		const elem = document.getElementById('ModalInfo') as HTMLElement;
 		if (elem) elem!.style.display = 'none';
 	};
+
+	useEffect(() => {
+		if (party) {
+			setCandidate(candidate_json.filter((c) => c.party === party.Name));
+		}
+	}, [party]);
 
 	return (
 		<div
@@ -66,9 +76,25 @@ const ModalInfo: FC<PropsType> = ({ party }) => {
 							</div>
 
 							<div className="my-[20px]">
-								<p className="typo-b5 text-gray-3">แคนดิเดตนายก</p>
-								{/* TODO: candidate */}
+								<p className="mb-2 typo-b5 text-gray-3">แคนดิเดตนายก</p>
+								{candidate.map((c) => (
+									<div className="flex items-center" key={c.name}>
+										<img
+											src={`${imgPrefix}/profile_pic.svg`}
+											alt="profile_pic"
+										/>
+										<p className="ml-2 typo-b4">{c.name}</p>
+									</div>
+								))}
 							</div>
+							<button className=" w-fit px-[10px] py-1 rounded-full bg-gray-2 flex items-center typo-b5">
+								<img
+									src={`${imgPrefix}/plus.svg`}
+									alt="plus"
+									className="mr-2 "
+								/>
+								ดูบัญชีรายชื่อ
+							</button>
 						</div>
 						<div className="flex flex-col items-start">
 							<WrapperLink>
