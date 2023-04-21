@@ -32,11 +32,12 @@
 		await districtPopularity.load();
 		await partylistPopularity.load();
 		await resultElect62.load();
+		districtPopularity.calculate();
 		isDataReady = true;
 	});
 
 	let selectedTab = Tabs.Map;
-	let partiesClone = $party.list;
+	$: partiesClone = [...$party.list];
 
 	$: [governmentParties, oppositionParties, governmentPoints] =
 		$representatives.reduce<

@@ -18,9 +18,8 @@
 	import { party } from '../../stores/party';
 	import { onMount } from 'svelte';
 
-	onMount(async () => {
-		await party.load();
-		console.log($party);
+	onMount(() => {
+		party.load();
 	});
 </script>
 
