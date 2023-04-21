@@ -134,17 +134,15 @@
 	</div>
 	<div class="w-full flex items-center justify-between space-x-5">
 		{#if isFinished}
-			<button
-				class="hover:opacity-1 typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
-				on:click={() => {
-					contentManager.updateContent(Content.EditQuiz);
-				}}
+			<a
+				href="{base}/result"
+				class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
 			>
 				<b>บันทึกคำตอบ</b>
 				<div
 					class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
 				/>
-			</button>
+			</a>
 		{:else}
 			<button
 				class="hover:opacity-1 typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full"
