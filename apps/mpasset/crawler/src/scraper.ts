@@ -72,7 +72,7 @@ export const fetchFromThetWork = async (): Promise<{
 	console.log(`Fetch People`);
 	let people = await fetchAllRows<Person>(PEOPLE_VIEW_ID, {
 		fields:
-			'Id,Name,Title,IsMP,IsSenator,IsActive,IsCabinet,MpType,MpProvince,MpZone,MPList,Images,PeoplePartyHistory',
+			'Id,Name,Title,IsMp,IsSenator,IsActive,IsCabinet,MpType,MpProvince,MpZone,MPList,Images,PeoplePartyHistory',
 		'nested[PeoplePartyHistory][fields]': 'Party,EstablishedDate',
 	});
 
@@ -117,7 +117,7 @@ export const fetchFromThetWork = async (): Promise<{
 	};
 };
 
-interface ShareholderData {
+export interface ShareholderData {
 	Lastname: string;
 	value_share: number;
 	Nationality: string;
@@ -127,7 +127,7 @@ interface ShareholderData {
 	person?: Person;
 }
 
-interface CredenResult {
+export interface CredenResult {
 	financial: {
 		year: string;
 		income: number;
@@ -156,7 +156,7 @@ type CredenResponse = {
 	data: CredenResult[];
 };
 
-const delayedFetch = (request: Function, delay: number) => {
+export const delayedFetch = (request: Function, delay: number) => {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
 			request()

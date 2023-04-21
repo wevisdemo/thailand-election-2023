@@ -27,7 +27,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
 
       const svg = d3.select('.chart-main')
         .attr('width', width)
-        .attr('height', contentHeight)
+        .attr('height', Math.max(contentHeight, height))
 
       let [minPct, maxPct] = d3.extent(filterPerson, (d) => d.totalPctShare)
 
@@ -47,13 +47,27 @@ const MainNav = ({ width, height, onScroll }: Props) => {
       const xScale = d3.scaleLinear().domain([-10, 30]).range([0, width])
 
       svg.selectAll('line').remove()
-      svg.append('line').attr('x1', xScale(0)).attr('y1', 0).attr('x2', xScale(0)).attr('y2', contentHeight).attr('stroke', 'black')
+      svg.append('line').attr('x1', xScale(0)).attr('y1', 0).attr('x2', xScale(0)).attr('y2', Math.max(contentHeight, height)).attr('stroke', 'black')
+
+      //tooltip
+      const tooltip = d3.select('#tooltip-main-nav')
+        .style("position", "absolute")
+        .style("visibility", "hidden")
+        .style("background-color", "white")
+        .style("border", "solid")
+        .style("border-width", "1px")
+        .style("border-radius", "5px")
+        .style("padding", "10px")
 
       const node = svg.selectAll('g')
         .data(personData)
         .join('g')
         .attr('transform', (_, i) => `translate(0, ${yScaleBand(`${i!}`)})`)
-        .on('click', (_, d: PersonCustom) => { console.log(d); setSelectedPerson(d) })
+        .attr('class', 'cursor-pointer')
+        .on('click', (_, d: PersonCustom) => { setSelectedPerson(d) })
+        .on("mouseover", function (_, d) { tooltip.style("visibility", "visible"); tooltip.html(d.Name) })
+        .on("mousemove", function (e) { return tooltip.style("top", (e.offsetY + 10) + "px").style("left", (e.offsetX + 10) + "px"); })
+        .on("mouseout", function () { return tooltip.style("visibility", "hidden"); });
 
       node.selectAll('rect').remove()
       node.selectAll('text').remove()
@@ -157,14 +171,16 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .attr('class', 'typo-b7')
         .text((d) => d.totalValueShare !== 0 ? convertToInternationalCurrencySystem(d.totalValueShare) : d.countDirector > 0 ? `เกี่ยวข้องกับธุรกิจแต่ไม่มีหุ้นอยู่` : 'ไม่เกี่ยวข้องกับธุรกิจ')
 
+
     }
   }, [filterPerson, height, width, setSelectedPerson, personOutlier])
 
   return (
-    <div className={`overflow-y-scroll overflow-x-hidden
+    <div className={`overflow-y-scroll overflow-x-hidden relative
       border-l-[1px] border-l-black`} style={{ maxHeight: `${height}px` }}
       onScroll={(e) => handleScroll(e)}>
       <svg className='chart-main' />
+      <div id='tooltip-main-nav' />
     </div>
   )
 }

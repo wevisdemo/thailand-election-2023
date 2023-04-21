@@ -88,6 +88,15 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         return [(y = +y) * Math.cos(x -= Math.PI / 2), y * Math.sin(x)];
       }
 
+      const tooltip = d3.select('#tooltip-main-nav')
+        .style("position", "absolute")
+        .style("visibility", "hidden")
+        .style("background-color", "white")
+        .style("border", "solid")
+        .style("border-width", "1px")
+        .style("border-radius", "5px")
+        .style("padding", "10px")
+
       /// ------------ node layer ----------------
       const nodeRoot = chartArea.select('.node-layer')
 
@@ -104,22 +113,13 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         // .attr("stroke-opacity", 0)
         .attr("cursor", "pointer")
         .attr("pointer-events", "all")
-        .on("click", (event, d) => {
+        .on("click", (_, d) => {
           handleClickNode(d)
         })
+        .on("mouseover", function (_, d) { tooltip.style("visibility", "visible"); tooltip.html(String(d.data.companyData?.company_name_th)) })
+        .on("mousemove", function (e) { return tooltip.style("top", (e.offsetY + 10) + "px").style("left", (e.offsetX + 10) + "px"); })
+        .on("mouseout", function () { return tooltip.style("visibility", "hidden"); });
 
-
-
-      // nodeEnter
-      //   .append('path')
-      //   // .attr('d', 'M25.257 12.0554C25.1218 11.5957 24.6891 12.4394 24.3862 12.0716C24.2186 10.6924 23.9157 9.32947 23.364 8.15039C22.7853 6.90101 21.8929 5.90041 20.9734 4.95932C20.0539 4.01822 18.9939 3.16366 17.7769 2.62821C16.56 2.09276 15.2782 1.51404 13.8936 1.51404C12.5089 1.51404 11.2433 2.13062 10.0318 2.66066C8.82028 3.1907 7.5763 3.79647 6.62439 4.77001C5.67248 5.74356 4.872 6.8361 4.29328 8.08549C3.71456 9.33487 3.6118 10.7249 3.44413 12.1041C3.14125 12.4719 2.42732 11.5308 2.28669 11.9851C1.83237 13.5211 1.82696 13.7104 2.28129 15.2465C2.4165 15.7062 2.98981 14.8841 3.28728 15.2465C3.45495 16.6257 3.74161 17.9508 4.29869 19.1353C4.87741 20.3846 5.67789 21.5421 6.59735 22.4832C7.51681 23.4243 8.83651 23.9651 10.0589 24.506C11.2812 25.0469 12.5144 25.5985 13.899 25.5985C15.2836 25.5985 16.5654 25.1388 17.7823 24.6034C18.9993 24.0679 20.0377 23.2458 20.9896 22.2722C21.9415 21.2987 22.7528 20.3035 23.337 19.0595C23.9211 17.8156 24.3484 16.6311 24.5214 15.2573C24.8243 14.8895 25.2192 15.6629 25.5112 15.2843C26.4848 14.0187 25.7167 13.586 25.2624 12.05L25.257 12.0554Z')
-      //   .attr('d', 'M150 0 L75 200 L225 200 Z')
-      //   .attr('transform', 'scale(0.09)')
-      //   .attr('stroke', "#090909")
-      //   .attr('stroke-width', "2")
-      //   .attr('stroke-miterlimit', "10")
-      //   .attr('stroke-linejoin', "round")
-      //   .attr('fill', 'black')
       nodeEnter.append('rect')
         .attr('rx', '5')
         .attr('width', nodeRadius)
@@ -325,7 +325,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
   }, []);
 
   return (
-    <div className="w-full h-full max-w-[800px] mx-auto" ref={chartRef}>
+    <div className="w-full h-full max-w-[800px] mx-auto relative" ref={chartRef}>
       <svg ref={svgRef}>
         <g className="chart-margin">
           <g className="x-axis" />
@@ -343,6 +343,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
           </g>
         </g>
       </svg>
+      <div id='tooltip-main-nav' />
     </div>
   );
 };

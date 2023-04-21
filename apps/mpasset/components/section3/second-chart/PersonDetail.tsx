@@ -157,7 +157,7 @@ const PersonDetail = ({ open, onToggle }: Props) => {
             {selectedPerson?.Party && <div className={`w-[20px] h-[20px] rounded-full bg-cover bg-center`} style={{ backgroundImage: `url(${selectedPerson?.Party?.Images}` }} />}
 
           </div>
-          {(selectedPerson?.IsActive && !selectedPerson?.IsCabinet && !selectedPerson?.IsSenator) &&
+          {(!selectedPerson?.IsCabinet && !selectedPerson?.IsSenator) &&
             <div className='typo-b5'> {`แบบ${selectedPerson?.MpType} ${selectedPerson?.MpType === 'แบ่งเขต' ? `จังหวัด${selectedPerson?.MpProvince} เขต${selectedPerson?.MpZone}` : ''}`}</div>
           }
         </div>

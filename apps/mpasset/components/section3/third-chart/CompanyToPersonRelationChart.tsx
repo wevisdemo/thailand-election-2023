@@ -84,6 +84,15 @@ const CompanyToPersonRelationChart = (props: Props) => {
 
       nodeRoot.selectAll('g').remove()
 
+      const tooltip = d3.select('#tooltip-main-nav')
+        .style("position", "absolute")
+        .style("visibility", "hidden")
+        .style("background-color", "white")
+        .style("border", "solid")
+        .style("border-width", "1px")
+        .style("border-radius", "5px")
+        .style("padding", "10px")
+
       const node = nodeRoot.selectAll<SVGAElement, NodeLink>('g')
         .data(root.descendants())
 
@@ -94,9 +103,17 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr("cursor", "pointer")
         .attr("pointer-events", "all")
         .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y - nodeRadius * .5}, ${- nodeRadius * .5})`)
-      // .on("click", (event, d) => {
-      //   handleClickNode(d)
-      // })
+        .on("mouseover", (_, d) => {
+          tooltip.style("visibility", "visible");
+          if (d.height === 0) {
+            tooltip.html(`${String(d.data.shareholderData?.Firstname)} ${String(d.data.shareholderData?.Lastname)}`)
+          } else {
+            tooltip.html(String(d.data.companyData?.company_name_th))
+          }
+        })
+        .on("mousemove", (e) => { return tooltip.style("top", (e.offsetY + 10) + "px").style("left", (e.offsetX + 10) + "px"); })
+        .on("mouseout", () => { return tooltip.style("visibility", "hidden"); });
+
 
       nodeEnter.append('g')
       // .attr("transform", d => `rotate(${d.x}) translate(${nodeRadius * .5}, ${nodeRadius * .5})`)
@@ -307,7 +324,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
   }, []);
 
   return (
-    <div className="w-full h-full max-w-[800px] mx-auto" ref={chartRef}>
+    <div className="w-full h-full max-w-[800px] mx-auto relative" ref={chartRef}>
       <svg ref={svgRef}>
         <g className="chart-margin">
           <g className="x-axis" />
@@ -325,6 +342,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
           </g>
         </g>
       </svg>
+      <div id='tooltip-main-nav' />
     </div>
   );
 };

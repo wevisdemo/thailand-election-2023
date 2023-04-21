@@ -5,6 +5,7 @@ import InfoDialog from './first-chart/InfoDialog'
 import SearchBusinessType from './SearchBusinessType'
 import SearchParty from './SearchParty'
 import { usePersonStore } from '../../store/person'
+import { BusinessTypeData } from '../../models/business'
 
 export type SelectedFilterType = {
   dataSet: string | 'ผู้สมัคร 66',
@@ -14,7 +15,6 @@ export type SelectedFilterType = {
 }
 
 type Props = {
-  selectedFilter: SelectedFilterType
   onOpenSeachDialog: Function
 }
 
@@ -26,17 +26,19 @@ const SelectedFilterButton = ({ wording, onClick }: { wording: string | React.Re
   </button>
 }
 
-const Filter = ({ selectedFilter, onOpenSeachDialog }: Props) => {
+const Filter = ({ onOpenSeachDialog }: Props) => {
   const [isOpenInfoDialog, setIsOpenInfoDialog] = React.useState(false)
   const [isOpenSearchBusinessType, setIsOpenSearchBusinessType] = React.useState(false)
   const [isOpenSearchParty, setIsOpenSearchParty] = React.useState(false)
 
-  const { selectedBusinessType, selectedParty, selectedSort, toggleSort } = usePersonStore()
+  const { selectedBusinessType, selectedParty, selectedSort,
+    party, setSelectedParty,
+    toggleSort, setSelectedBusinessType } = usePersonStore()
 
   return (
     <div className='flex flex-col gap-y-[5px]  py-[5px]'>
       <div className='flex flex-row gap-x-[5px] px-[10px]'>
-        <div className='px-[15px] py-[5px] inline-flex gap-x-[5px] items-center border-[3px] rounded-[50px] border-black w-full'>
+        <div className='px-[15px] py-[5px] inline-flex gap-x-[5px] items-center border-[3px] rounded-[50px] border-black w-full cursor-pointer'>
           <div
             className=' border-transparent focus:border-transparent focus:ring-0 p-0 flex-grow
               typo-ibmplex typo-b5 leading-[150%]'
@@ -47,12 +49,19 @@ const Filter = ({ selectedFilter, onOpenSeachDialog }: Props) => {
             <path d="M11.7864 12.761C12.6911 13.2133 13.1092 13.8446 13.7142 14.5168C14.3766 15.2528 14.7908 16.667 15.5316 17.2597C16.4331 17.9809 17.1718 19.0385 17.8033 19.9857" stroke="#090909" strokeWidth={2} strokeLinecap="round" />
           </svg>
         </div>
-        <Shuffle />
+        <button onClick={() => {
+          // business type
+          setSelectedBusinessType(BusinessTypeData[Math.floor(Math.random() * BusinessTypeData.length)])
+          // party
+          setSelectedParty(party[Math.floor(Math.random() * party.length)])
+        }}>
+          <Shuffle />
+        </button>
       </div>
       <div className='flex flex-col tablet:flex-row gap-y-[5px] typo-b5 typo-ibmplex ml-[10px]'>
         <div className='flex flex-row gap-x-[5px] items-center w-auto overflow-x-scroll scrollbar-hide pr-[10px]'>
           <div className='shrink-0'>รายชื่อของ</div>
-          <SelectedFilterButton wording={selectedFilter.dataSet} />
+          <SelectedFilterButton wording={'ผู้สมัคร 66'} />
           <div className='shrink-0'>ที่มีมูลค่าหุ้น</div>
           <button onClick={() => setIsOpenInfoDialog(true)}>
             <Information />

@@ -38,7 +38,7 @@ const CompanyList = ({ type, companyData, selectedPerson }: Props) => {
                 <div className='flex flex-row gap-x-[5px] '>
                   <div className='font-bold'>{numberWithCommas(Number(selectedPerson?.countCompShare))}</div>
                   <div>บริษัท</div>
-                  {!isExpandShareholder ? <Expand onClick={() => setIsExpandShareholder(true)} /> : <Collapse onClick={() => setIsExpandShareholder(false)} />}
+                  {!isExpandShareholder ? <Expand className='cursor-pointer' onClick={() => setIsExpandShareholder(true)} /> : <Collapse className='cursor-pointer' onClick={() => setIsExpandShareholder(false)} />}
                 </div>
               </div>
             </>
@@ -48,7 +48,7 @@ const CompanyList = ({ type, companyData, selectedPerson }: Props) => {
               <div className='flex flex-row gap-x-[5px] '>
                 <div className='font-bold'>{numberWithCommas(Number(selectedPerson?.countDirector))}</div>
                 <div>บริษัท</div>
-                {!isExpandShareholder ? <Expand onClick={() => setIsExpandShareholder(true)} /> : <Collapse onClick={() => setIsExpandShareholder(false)} />}
+                {!isExpandShareholder ? <Expand className='cursor-pointer' onClick={() => setIsExpandShareholder(true)} /> : <Collapse className='cursor-pointer' onClick={() => setIsExpandShareholder(false)} />}
               </div>
             </div>
           }

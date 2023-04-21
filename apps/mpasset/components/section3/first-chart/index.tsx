@@ -18,14 +18,7 @@ export type ScrollChartControlType = {
 }
 
 const FirstChart = (props: Props) => {
-  const [filter, setFilter] = React.useState<SelectedFilterType>({
-    dataSet: 'ผู้สมัคร 66',
-    businessType: 'ทุกหมวดธุรกิจ',
-    party: 'ทุกพรรค',
-    sort: 'สูงสุด',
-  })
   const [isOpenSearchDialog, setIsOpenSearchDialog] = React.useState(false)
-
   const { filterPerson } = usePersonStore()
 
   const chartRef = React.useRef<HTMLDivElement>(null)
@@ -66,14 +59,13 @@ const FirstChart = (props: Props) => {
 
   return (
     <>
-      <Filter selectedFilter={filter} onOpenSeachDialog={setIsOpenSearchDialog} />
+      <Filter onOpenSeachDialog={setIsOpenSearchDialog} />
       <div className='flex flex-row justify-between px-[10px]'>
         <div className='typo-b7 text-gray-3 typo-ibmplex'>*แสดงสีเฉพาะพรรคที่อยู่ในสภาสมัยล่าสุด</div>
         <div className='typo-b7 text-right'>ล้านบาท</div>
       </div>
       <div className='px-0 w-full h-full flex-grow-1'>
         <div className='w-full h-full flex-grow-1 relative' ref={chartRef}>
-
           {filterPerson.length > 0 ?
             <>
               <div className='w-full h-full flex flex-row'>
@@ -84,7 +76,7 @@ const FirstChart = (props: Props) => {
                     scrollControl={mainScroll}
                   />
                 </div>
-                <div className='w-3/4'>
+                <div className='w-3/4 h-full'>
                   <MainNav width={resolution.width * .75} height={resolution.height} onScroll={setMainScroll} />
                 </div>
               </div>

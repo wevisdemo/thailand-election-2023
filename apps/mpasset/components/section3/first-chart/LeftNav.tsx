@@ -35,7 +35,7 @@ const LeftNav = ({ width, height, scrollControl }: Props) => {
   }, [filterPerson, height, width])
 
 
-  React.useEffect(() => {
+  React.useLayoutEffect(() => {
     if (filterPerson.length > 0) {
       if (scrollControl.scrollHeight === 0 && scrollControl.clientHeight === 0 && scrollControl.scrollTop === 0) return;
 

@@ -95,7 +95,15 @@ const Section3 = (props: Props) => {
       if (selectedBusinessType && selectedBusinessType.code !== 'all') {
         outFilter = outFilter.filter((d) => d.companyType.includes(selectedBusinessType.code))
       }
-      if (selectedParty && selectedParty.Name !== 'ทุกพรรค') {
+      console.log(outFilter);
+
+      if (selectedParty && selectedParty.Name === 'สภาผู้แทนราษฎร') {
+        outFilter = outFilter.filter((p) => p.IsMp === true)
+      } else if (selectedParty && selectedParty.Name === 'วุฒิสภา') {
+        outFilter = outFilter.filter((p) => p.IsSenator === true)
+      } else if (selectedParty && selectedParty.Name === 'คณะรัฐมนตรี') {
+        outFilter = outFilter.filter((p) => p.IsCabinet === true)
+      } else if (selectedParty && selectedParty.Name !== 'ทุกพรรค') {
         outFilter = outFilter.filter((p) => p.Party?.Id === selectedParty?.Id)
       }
       if (selectedSort === 'desc')
