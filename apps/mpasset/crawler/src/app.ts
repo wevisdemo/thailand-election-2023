@@ -1,4 +1,5 @@
 import {
+	Person,
 	fetchDirectorData,
 	fetchFromThetWork,
 	fetchShareholderData,
@@ -46,7 +47,7 @@ const run66 = async () => {
 		String(
 			fs.readFileSync('./public/data/yourcandidate/process/all-person.json')
 		)
-	);
+	) as Person[];
 
 	// console.log(party);
 	// console.log(people);

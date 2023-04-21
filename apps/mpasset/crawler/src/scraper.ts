@@ -21,7 +21,7 @@ export interface Party {
 	Images: ImageAttachment[] | string | null;
 }
 
-export interface Person {
+export type Person = {
 	Id: number;
 	Title: string;
 	Name: string;
@@ -43,7 +43,7 @@ export interface Person {
 	totalValueShare: number;
 	totalPctShare: number;
 	companyType: string[];
-}
+};
 
 export interface NestedPeoplePartyHistory {
 	EstablishedDate: string;
