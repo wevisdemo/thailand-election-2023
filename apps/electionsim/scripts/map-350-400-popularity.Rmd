@@ -1,0 +1,138 @@
+---
+title: "Map 350-400-popularity"
+---
+
+```{r, echo=FALSE}
+library(tidyverse)
+```
+
+Parse Popularity
+
+```{r}
+popularity350 <- read_csv('./2019_with_PT_projection.csv')
+popularity350
+```
+
+```{r}
+popularity350 <- popularity350 %>%
+  select(-`...1`, -ภาค) %>%
+  rename(province = 'จังหวัด',electorialDistrictNumber = 'เขต',party = 'พรรค', points = 'ผลคะแนน') %>%
+  mutate(party = if_else(party == 'อนาคตใหม่',  'ก้าวไกล',  if_else(party == 'ชาติพัฒนา', 'ชาติพัฒนากล้า', party)))
+popularity350
+```
+
+```{r}
+popularity350 %>%
+  group_by(province, electorialDistrictNumber) %>%
+  summarise(totalPoints = sum(points))
+```
+
+```{r}
+sum(popularity350$points)
+```
+
+Parse population and district 350
+
+```{r}
+district350 <- read_csv('./electoral-districts-2562.csv')
+district350
+```
+
+```{r}
+population <- read_csv('./populations.csv')
+population
+```
+
+```{r}
+district350WholeProvince <- district350 %>%
+  filter(is.na(district)) %>%
+  select(-district, -subdistrict) %>%
+  left_join(population, 'province')
+  
+district350WholeProvince
+```
+
+```{r}
+district350WholeDistrict <- district350 %>%
+  filter(!is.na(district), is.na(subdistrict)) %>%
+  select(-subdistrict) %>%
+  left_join(population, c('province', 'district'))
+
+district350WholeDistrict
+```
+
+```{r}
+district350SomeSubdistrict <- district350 %>%
+  filter(!is.na(subdistrict)) %>%
+  left_join(population, c('province', 'district', 'subdistrict'))
+
+district350SomeSubdistrict
+```
+
+```{r}
+population350 <- bind_rows(district350WholeProvince, district350WholeDistrict, district350SomeSubdistrict) %>%
+  arrange(province, electorialDistrictNumber)
+
+population350
+```
+
+```{r}
+popularityBySubdistrict <- population350 %>%
+  left_join(population350 %>%
+              group_by(province, electorialDistrictNumber) %>%
+              summarize(electorialDistrictPopulation = sum(population)),
+            c('province', 'electorialDistrictNumber')) %>%
+  left_join(popularity350, c('province', 'electorialDistrictNumber')) %>%
+  mutate(points = points * population/electorialDistrictPopulation, .keep="unused") %>%
+  select(-electorialDistrictNumber)
+
+popularityBySubdistrict
+```
+
+```{r}
+sum(popularityBySubdistrict$points)
+```
+
+400 district (election66)
+
+```{r}
+district400 <- read_csv('../../yourcandidates/data/66_Vote62_election-zones.csv')
+
+district400
+```
+
+```{r}
+district400 <- district400 %>%
+  select(-เทศบาล, -`เขตเลือกตั้ง...7`, -index) %>%
+  rename(province = 'จังหวัด', district = 'อำเภอ', subdistrict = 'ตำบล', electorialDistrictNumber = 'เขตเลือกตั้ง...4')
+
+district400
+```
+
+```{r}
+popularity400 <- popularityBySubdistrict %>%
+  left_join(district400, c('province', 'district', 'subdistrict')) %>%
+  group_by(province, electorialDistrictNumber, party) %>%
+  summarize(points = sum(points)) %>%
+  arrange(province, electorialDistrictNumber, desc(points)) %>%
+  drop_na(electorialDistrictNumber)
+  
+popularity400
+```
+
+```{r}
+sum(popularity400$points)
+```
+
+```{r}
+popularity400 %>%
+  group_by(province, electorialDistrictNumber) %>%
+  summarize(points = sum(points))
+```
+
+Write output
+
+```{r}
+write_csv(popularity400, '../static/data/popularity-projection-2566.csv')
+```
+
