@@ -27,9 +27,6 @@ const Landing: NextPage<PropsType> = ({ policies, parties }) => {
 	const [hotTopics, setHotTopics] = useState<GroupByTopics>({});
 
 	const fetchParties = async (): Promise<void> => {
-		const data: Party[] = await TheyWorkForUs.Parties.fetchAll({
-			where: '(PartyType,eq,พรรค)',
-		});
 		//mock get hot parties
 		setHotParties(parties.slice(0, 8)); // TODO: refactor when hot party has defined
 	};

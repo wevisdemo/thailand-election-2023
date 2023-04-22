@@ -1,11 +1,12 @@
 import React, { FC, useEffect, useState } from 'react';
 import { imgPrefix } from '@/utils/path';
 import { ArrowsType5 } from '../Arrows';
-import { Party } from '@thailand-election-2023/database';
+import { Party, Person } from '@/types/components';
 import candidate_json from './data/66_WV_PMCandidate.json';
 
 interface PropsType {
 	party: Party | undefined;
+	people: Person[];
 }
 type WrapperLinkProps = {
 	children: React.ReactNode;
@@ -14,7 +15,7 @@ interface CandidateProps {
 	name: string;
 	party: string;
 }
-const ModalInfo: FC<PropsType> = ({ party }) => {
+const ModalInfo: FC<PropsType> = ({ party, people }) => {
 	const [candidate, setCandidate] = useState<CandidateProps[]>([]);
 	const WrapperLink: FC<WrapperLinkProps> = ({ children }) => {
 		return (
@@ -28,6 +29,14 @@ const ModalInfo: FC<PropsType> = ({ party }) => {
 	const onCloseModal = (): void => {
 		const elem = document.getElementById('ModalInfo') as HTMLElement;
 		if (elem) elem!.style.display = 'none';
+	};
+
+	const getImage = (pl: string) => {
+		console.log(people.find((p) => p.Name === pl)?.Images[0]);
+		return (
+			people.find((p) => p.Name === pl)?.Images[0].url ||
+			`${imgPrefix}/profile_pic.svg`
+		);
 	};
 
 	useEffect(() => {
@@ -76,12 +85,15 @@ const ModalInfo: FC<PropsType> = ({ party }) => {
 							</div>
 
 							<div className="my-[20px]">
-								<p className="mb-2 typo-b5 text-gray-3">แคนดิเดตนายก</p>
+								<p className="mb-2 typo-b5 text-gray-3">
+									{candidate.length > 0 ? 'แคนดิเดตนายก' : 'ไม่มีแคนดิเดตนายก'}
+								</p>
 								{candidate.map((c) => (
 									<div className="flex items-center" key={c.name}>
 										<img
-											src={`${imgPrefix}/profile_pic.svg`}
+											src={`${getImage(c.name)}`}
 											alt="profile_pic"
+											className="w-[30px] h-[30px] rounded-full"
 										/>
 										<p className="ml-2 typo-b4">{c.name}</p>
 									</div>

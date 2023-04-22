@@ -1,10 +1,17 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import Layout from '@/components/Layout';
-import { Policy, Party, IDropdownOption, SetPaths } from '@/types/components';
+import {
+	Policy,
+	Party,
+	IDropdownOption,
+	SetPaths,
+	Person,
+} from '@/types/components';
 import {
 	fetchParties,
 	fetchPolicy,
+	fetchPeople,
 	formatOption,
 	groupBy,
 	shufflePolicies,
@@ -38,9 +45,15 @@ interface PropsType {
 	parties: Party[];
 	policies: Policy[];
 	upToDate: string;
+	people: Person[];
 }
 
-const PartyPage: NextPage<PropsType> = ({ parties, policies, upToDate }) => {
+const PartyPage: NextPage<PropsType> = ({
+	parties,
+	policies,
+	upToDate,
+	people,
+}) => {
 	const router = useRouter();
 	const { name } = router.query;
 	const [party, setParty] = useState<Party>();
@@ -93,7 +106,7 @@ const PartyPage: NextPage<PropsType> = ({ parties, policies, upToDate }) => {
 			<main>
 				<Layout title="พรรคนี้มีอะไรมาขายบ้าง">
 					<div className="relative ">
-						<ModalInfo party={party} />
+						<ModalInfo party={party} people={people} />
 						<Intro party={party} upToDate={upToDate} />
 						<div className="mt-[10px]">
 							<PercentPolicies policies={displayPolicies} />
@@ -134,6 +147,7 @@ const PartyPage: NextPage<PropsType> = ({ parties, policies, upToDate }) => {
 export const getStaticProps: GetStaticProps<PropsType> = async () => {
 	let policies = await fetchPolicy();
 	const parties = await fetchParties();
+	const people = await fetchPeople();
 	const upToDate = new Date().toLocaleDateString('TH-th');
 
 	policies = policies.map((policy) => {
@@ -143,7 +157,7 @@ export const getStaticProps: GetStaticProps<PropsType> = async () => {
 		return policy;
 	});
 	return {
-		props: { parties, policies, upToDate },
+		props: { parties, policies, upToDate, people },
 	};
 };
 
