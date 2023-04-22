@@ -4,7 +4,6 @@ import IntroPolicy from '@/components/Landing/IntroPolicy';
 import HotTopicPolicy from '@/components/Landing/HotTopicPolicy';
 import ByTopic from '@/components/Landing/ByTopic';
 import ByParty from '@/components/Landing/ByParty';
-import { TheyWorkForUs } from '@thailand-election-2023/database';
 import { Party } from '@thailand-election-2023/database/src/models/party';
 import { Policy } from '@thailand-election-2023/database/src/models/policy';
 import { fetchParties, fetchPolicy, groupBy } from '@/utils';

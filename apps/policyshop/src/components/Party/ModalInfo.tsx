@@ -1,12 +1,13 @@
 import React, { FC, useEffect, useState } from 'react';
 import { imgPrefix } from '@/utils/path';
 import { ArrowsType5 } from '../Arrows';
-import { Party, Person } from '@/types/components';
+import { Party } from '@/types/components';
 import candidate_json from './data/66_WV_PMCandidate.json';
+import PartyList from './PartyList';
 
 interface PropsType {
 	party: Party | undefined;
-	people: Person[];
+	partyData: any;
 }
 type WrapperLinkProps = {
 	children: React.ReactNode;
@@ -15,8 +16,9 @@ interface CandidateProps {
 	name: string;
 	party: string;
 }
-const ModalInfo: FC<PropsType> = ({ party, people }) => {
+const ModalInfo: FC<PropsType> = ({ party, partyData }) => {
 	const [candidate, setCandidate] = useState<CandidateProps[]>([]);
+	const [filterParty, setFilterParty] = useState<any>([]);
 	const WrapperLink: FC<WrapperLinkProps> = ({ children }) => {
 		return (
 			<button className=" border-b-[2px] border-gray-2 w-full mt-4 flex  items-center justify-between  ">
@@ -31,10 +33,14 @@ const ModalInfo: FC<PropsType> = ({ party, people }) => {
 		if (elem) elem!.style.display = 'none';
 	};
 
+	const onOpenPartyListModal = (): void => {
+		const elem = document.getElementById('PartyListModal') as HTMLElement;
+		if (elem) elem!.style.display = 'block';
+	};
+
 	const getImage = (pl: string) => {
-		console.log(people.find((p) => p.Name === pl)?.Images[0]);
 		return (
-			people.find((p) => p.Name === pl)?.Images[0].url ||
+			filterParty[0].Candidate.filter((p: any) => p.Name === pl)[0].Image ||
 			`${imgPrefix}/profile_pic.svg`
 		);
 	};
@@ -42,14 +48,19 @@ const ModalInfo: FC<PropsType> = ({ party, people }) => {
 	useEffect(() => {
 		if (party) {
 			setCandidate(candidate_json.filter((c) => c.party === party.Name));
+			const filterParty: any = Object.values(partyData).filter(
+				(p: any) => p.Name === party.Name
+			);
+			setFilterParty(filterParty);
 		}
 	}, [party]);
 
 	return (
 		<div
-			className="fixed w-full  py-12  inset-0 z-[99] h-auto overflow-scroll hidden "
+			className="fixed w-full  py-12  inset-0 z-[89] h-auto overflow-scroll hidden "
 			id="ModalInfo"
 		>
+			<PartyList party_list={filterParty[0]} party={party} />
 			<div
 				className="fixed inset-0 opacity-60 z-[-1]"
 				onClick={() => onCloseModal()}
@@ -99,7 +110,10 @@ const ModalInfo: FC<PropsType> = ({ party, people }) => {
 									</div>
 								))}
 							</div>
-							<button className=" w-fit px-[10px] py-1 rounded-full bg-gray-2 flex items-center typo-b5">
+							<button
+								className=" w-fit px-[10px] py-1 rounded-full bg-gray-2 flex items-center typo-b5"
+								onClick={() => onOpenPartyListModal()}
+							>
 								<img
 									src={`${imgPrefix}/plus.svg`}
 									alt="plus"

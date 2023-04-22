@@ -1,5 +1,6 @@
 import { TheyWorkForUs } from '@thailand-election-2023/database';
-import { Party, Policy, Person } from '@/types/components';
+import { Party, Policy } from '@/types/components';
+import partyData from '../components/Party/data/parties.json';
 
 export const fetchParties = async (): Promise<Party[]> => {
 	const data: Party[] = await TheyWorkForUs.Parties.fetchAll({
@@ -13,7 +14,6 @@ export const fetchPolicy = async (): Promise<Policy[]> => {
 	return data;
 };
 
-export const fetchPeople = async (): Promise<Person[]> => {
-	const data: Person[] = await TheyWorkForUs.People.fetchAll({});
-	return data;
+export const fetchPartyData = async (): Promise<any> => {
+	return partyData;
 };

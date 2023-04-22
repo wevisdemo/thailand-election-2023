@@ -1,6 +1,6 @@
 import { Party } from '@thailand-election-2023/database/src/models/party';
 import { Policy } from '@thailand-election-2023/database/src/models/policy';
-import { Person } from '@thailand-election-2023/database/src/models/person';
+
 export interface IDropdownOption<T> {
 	label: string;
 	value?: T;
@@ -8,7 +8,6 @@ export interface IDropdownOption<T> {
 
 export type { Policy };
 export type { Party };
-export type { Person };
 
 export interface IPolicyCard {
 	party_name: string;
