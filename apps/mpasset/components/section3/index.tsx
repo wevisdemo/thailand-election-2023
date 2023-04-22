@@ -28,11 +28,13 @@ const Section3 = (props: Props) => {
 
   const {
     person, setPerson,
+    yourCandidatePerson, setYourCandidatePerson,
     selectedPerson,
     setPersonOutlier,
     selectedCompany,
     party, setParty,
-    filterPerson, setFilterPerson,
+    setFilterPerson,
+    selectedDataSet,
     selectedBusinessType,
     selectedParty,
     selectedSort
@@ -64,19 +66,42 @@ const Section3 = (props: Props) => {
     })
   }, [setPerson, setPersonOutlier, setFilterPerson])
 
+  const fetchFromGitYourCandidate = React.useCallback(async () => {
+    await d3.json<PersonCustom[]>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/people.json').then((value) => {
+      if (value) {
+        console.log(value);
+
+        value.forEach((d) => {
+          d.totalValueShare = d.totalValueShare || 0,
+            d.countCompShare = d.countCompShare || 0,
+            d.countDirector = d.countDirector || 0,
+            d.totalPctShare = d.totalPctShare || 0
+        })
+        let sortArray = value.sort((a, b) => b.totalValueShare - a.totalValueShare)
+        // sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
+        // console.log('fetch from git');
+        // const outlier = sortArray.slice(0, 1)
+        // setPersonOutlier(sortArray.slice(0, 1))
+        setYourCandidatePerson(sortArray)
+        setFilterPerson(sortArray)
+      }
+    })
+  }, [setYourCandidatePerson, setFilterPerson])
+
   React.useEffect(() => {
     let ignore = false;
-    if (person.length <= 0 && party.length <= 0) {
+    if (person.length <= 0 && party.length <= 0 && yourCandidatePerson.length <= 0) {
       if (!ignore) {
         fetchFromGit()
         fetchFromTheyWork()
+        fetchFromGitYourCandidate()
       }
     } else
       setIsLoading(false)
     return () => {
       ignore = true;
     }
-  }, [person, setPerson, party, setParty, fetchFromGit, fetchFromTheyWork])
+  }, [person, setPerson, party, setParty, fetchFromGit, fetchFromTheyWork, yourCandidatePerson, fetchFromGitYourCandidate])
 
   React.useLayoutEffect(() => {
     if (selectedCompany) {
@@ -91,7 +116,13 @@ const Section3 = (props: Props) => {
 
   React.useLayoutEffect(() => {
     if (person.length > 0) {
-      let outFilter = person
+      let outFilter: PersonCustom[] = []
+      if (selectedDataSet === 'นักการเมือง 62') {
+        outFilter = person
+      } else if (selectedDataSet === 'ผู้สมัคร 66') {
+        outFilter = yourCandidatePerson
+      }
+
       if (selectedBusinessType && selectedBusinessType.code !== 'all') {
         outFilter = outFilter.filter((d) => d.companyType.includes(selectedBusinessType.code))
       }
@@ -116,7 +147,8 @@ const Section3 = (props: Props) => {
       console.log(selectedSort);
 
     }
-  }, [selectedBusinessType, selectedParty, selectedSort, setFilterPerson, person])
+  }, [selectedBusinessType, selectedParty, selectedSort, setFilterPerson, person, yourCandidatePerson, selectedDataSet])
+
 
   React.useEffect(() => {
     if (person.length > 0) {

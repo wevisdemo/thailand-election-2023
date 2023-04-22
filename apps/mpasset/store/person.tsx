@@ -4,12 +4,19 @@ import { BusinessType } from '../models/business'
 import { CredenData, PersonCustom } from '../models/person'
 import { persist, createJSONStorage } from 'zustand/middleware'
 
+type DataSetType = 'นักการเมือง 62' | 'ผู้สมัคร 66'
 
 interface PersonState {
+  //62
   person: PersonCustom[]
   setPerson: (by: PersonCustom[]) => void
   personOutlier: PersonCustom[]
   setPersonOutlier: (by: PersonCustom[]) => void
+
+  // 66 yourcandidate
+  yourCandidatePerson: PersonCustom[]
+  setYourCandidatePerson: (by: PersonCustom[]) => void
+
   filterPerson: PersonCustom[]
   setFilterPerson: (by: PersonCustom[]) => void
 
@@ -27,6 +34,8 @@ interface PersonState {
 
 
   // filter
+  selectedDataSet: DataSetType
+  setSelectedDataSet: (by: DataSetType) => void
   selectedBusinessType?: BusinessType | null
   setSelectedBusinessType: (by: BusinessType | null) => void
   party: Party[]
@@ -40,10 +49,16 @@ interface PersonState {
 export const usePersonStore = create<PersonState>()(
   persist(
     (set, get) => ({
+      // 62
       person: [],
       setPerson: (by) => { return set((state) => ({ ...state, person: by })) },
       personOutlier: [],
       setPersonOutlier: (by) => { return set((state) => ({ ...state, personOutlier: by })) },
+
+      //66 yourcandidate
+      yourCandidatePerson: [],
+      setYourCandidatePerson: (by) => { return set((state) => ({ ...state, yourCandidatePerson: by })) },
+
       filterPerson: [],
       setFilterPerson: (by) => { return set((state) => ({ ...state, filterPerson: by })) },
 
@@ -60,6 +75,8 @@ export const usePersonStore = create<PersonState>()(
       setSelectedCompany: (by) => { return set((state) => ({ ...state, selectedCompany: by })) },
 
       // filter
+      selectedDataSet: 'ผู้สมัคร 66',
+      setSelectedDataSet: (by) => { return set((state) => ({ ...state, selectedDataSet: by })) },
       selectedBusinessType: undefined,
       setSelectedBusinessType: (by) => { return set((state) => ({ ...state, selectedBusinessType: by })) },
       party: [],
@@ -76,7 +93,7 @@ export const usePersonStore = create<PersonState>()(
       (
         {
           ...Object.fromEntries(
-            Object.entries(state).filter(([key]) => ['person', 'personOutlier', 'party'].includes(key))
+            Object.entries(state).filter(([key]) => ['person', 'personOutlier', 'yourCandidatePerson', 'party'].includes(key))
           ),
           filterPerson: state.person
         }),
