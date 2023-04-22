@@ -1,9 +1,12 @@
 import { get } from 'svelte/store';
+import { randomNormal } from 'd3-random';
 import { party, type Party } from '../stores/party';
 import type {
 	PopularityRecord,
 	PopularityTree,
 } from '../stores/district-popularity';
+
+const FLOW_VALUE_GAUSSSIAN_SIGMA = 0.03;
 
 export interface VoteFlowMatrix {
 	[from: string]: { [to: string]: number };
@@ -108,10 +111,20 @@ export class Voteflow {
 			.map((partyA) => ({
 				party: partyMap.get(partyA) as Party,
 				points:
-					partyNames.reduce(
-						(sum, partyB) => sum + voteVector[partyB] * matrix[partyB][partyA],
-						0
-					) * totalVote,
+					partyNames.reduce((sum, partyB) => {
+						const flowValue = Math.max(
+							0,
+							Math.min(
+								randomNormal(
+									matrix[partyB][partyA],
+									FLOW_VALUE_GAUSSSIAN_SIGMA
+								)(),
+								1
+							)
+						);
+
+						return sum + voteVector[partyB] * flowValue;
+					}, 0) * totalVote,
 			}))
 			.filter(({ points }) => points > 0)
 			.sort((a, z) => z.points - a.points);

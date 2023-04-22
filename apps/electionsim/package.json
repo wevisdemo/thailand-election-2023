@@ -15,6 +15,7 @@
 		"@thailand-election-2023/database": "*",
 		"@thailand-election-2023/styles": "*",
 		"d3-fetch": "^3.0.1",
+		"d3-random": "^3.0.1",
 		"d3-selection": "^3.0.0",
 		"d3-zoom": "^3.0.0"
 	},
