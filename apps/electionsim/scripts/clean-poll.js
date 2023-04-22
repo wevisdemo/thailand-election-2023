@@ -1,10 +1,9 @@
 import * as aq from 'arquero';
 import fs from 'fs';
 
-const INPUT =
-	'apps/electionsim/scripts/[WeVis-BX] Public View - Required Data - Poll.csv';
+const INPUT = './poll-mock.csv';
 
-const OUTPUT = 'apps/electionsim/static/data/poll-dusit.csv';
+const OUTPUT = '../src/data/poll-dusit.csv';
 
 const data = await aq.loadCSV(INPUT);
 
