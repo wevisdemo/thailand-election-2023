@@ -29,13 +29,13 @@
 		{
 			question:
 				'จากกระแส Strategic Voting ระหว่างพรรคเพื่อไทยและพรรคก้าวไกล คุณคิดว่าผลโหวตจะถูกเทไปทางใด?',
-			answer: quiz3ToWord($input.input.quiz3).join(' '),
+			answer: quiz3ToWord($input.input.quiz3).join(''),
 			page: Content.Quiz3,
 		},
 		{
 			question:
 				'ในทางกลับกัน คุณคิดว่าในกลุ่มคนเลือกพรรคฝั่งรัฐบาลเดิม ผลโหวตจะเทเข้าหรือออกจากพรรคพลังประชารัฐ/รวมไทยสร้างชาติ?',
-			answer: quiz4ToWord($input.input.quiz4).join(' '),
+			answer: quiz4ToWord($input.input.quiz4).join(''),
 			page: Content.Quiz4,
 		},
 		{
