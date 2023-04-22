@@ -25,7 +25,9 @@ export const getElectoralData = async (province, zone) => {
       }
       return p
     }),
-    parties: Object.values(allParties).filter((party) => party.Number > 0),
+    parties: Object.values(allParties)
+      .filter((party) => party.Number > 0)
+      .sort((a, b) => a.Number - b.Number),
   }
 }
 
