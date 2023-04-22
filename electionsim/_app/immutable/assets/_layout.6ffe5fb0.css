@@ -210,10 +210,6 @@
 		margin-top: 2.5rem;
 		margin-bottom: 2.5rem;
 }
-.my-4 {
-		margin-top: 1rem;
-		margin-bottom: 1rem;
-}
 .my-5 {
 		margin-top: 1.25rem;
 		margin-bottom: 1.25rem;
@@ -503,6 +499,9 @@
 .cursor-pointer {
 		cursor: pointer;
 }
+.list-decimal {
+		list-style-type: decimal;
+}
 .flex-row {
 		flex-direction: row;
 }
@@ -753,6 +752,9 @@
 }
 .pl-4 {
 		padding-left: 1rem;
+}
+.pl-5 {
+		padding-left: 1.25rem;
 }
 .pt-10 {
 		padding-top: 2.5rem;
