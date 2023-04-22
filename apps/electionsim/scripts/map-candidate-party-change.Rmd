@@ -1,0 +1,99 @@
+---
+title: "Map district with candidate party changes"
+---
+
+```{r, echo=FALSE}
+library(tidyverse)
+```
+
+Map candidate and subdistrict 62
+
+```{r}
+candidate62 <- read_csv('./party-original.csv')
+candidate62
+```
+
+```{r}
+district350 <- read_csv('./electoral-districts-2562.csv')
+district350
+```
+
+```{r}
+population <- read_csv('./populations.csv')
+population
+```
+
+```{r}
+subdistrict350 <- bind_rows(
+  district350 %>%
+    filter(is.na(district)) %>%
+    select(-district, -subdistrict) %>%
+    left_join(population, 'province'),
+  district350 %>%
+    filter(!is.na(district), is.na(subdistrict)) %>%
+    select(-subdistrict) %>%
+    left_join(population, c('province', 'district')),
+  district350 %>%
+    filter(!is.na(subdistrict)) %>%
+    left_join(population, c('province', 'district', 'subdistrict'))
+  ) %>%
+  select(-population) %>%
+  arrange(province, electorialDistrictNumber)
+
+subdistrict350
+```
+
+
+```{r}
+candidate62WithSubdistrict <- candidate62 %>%
+  left_join(subdistrict350, c('province','electorialDistrictNumber')) %>%
+  select(-electorialDistrictNumber)
+
+candidate62WithSubdistrict
+```
+
+Map candidate and subdistrict 66
+
+```{r}
+candidate66 <- read_csv('../../yourcandidates/data/66_WV_Candidates.csv') %>%
+  filter(mptype == 'เขต') %>%
+  select(name, party, province, zone) %>%
+  rename(electorialDistrictNumber = 'zone')
+
+candidate66
+```
+
+```{r}
+district400 <- read_csv('../../yourcandidates/data/66_Vote62_election-zones.csv') %>%
+  select(-เทศบาล, -`เขตเลือกตั้ง...7`, -index) %>%
+  rename(province = 'จังหวัด', district = 'อำเภอ', subdistrict = 'ตำบล', electorialDistrictNumber = 'เขตเลือกตั้ง...4')
+
+district400
+```
+
+```{r}
+candidate66WithSubdistrict <- candidate66 %>%
+  left_join(district400, c('province','electorialDistrictNumber')) 
+
+candidate66WithSubdistrict
+```
+
+Find district with candidate who changed the party
+
+```{r}
+district400CandidatePartyChange <- candidate62WithSubdistrict %>%
+  inner_join(candidate66WithSubdistrict, c('name','province','district', 'subdistrict')) %>%
+  filter(fromParty != party) %>%
+  select(-district, -subdistrict) %>%
+  rename(toParty = party) %>%
+  relocate(electorialDistrictNumber, .after = province) %>%
+  distinct() %>%
+  arrange(province, electorialDistrictNumber)
+
+district400CandidatePartyChange
+```
+
+```{r}
+write_csv(district400CandidatePartyChange, '../static/data/candidate-party-changes-66.csv')
+```
+

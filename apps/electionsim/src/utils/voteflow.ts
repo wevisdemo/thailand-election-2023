@@ -10,18 +10,21 @@ export interface VoteFlowMatrix {
 }
 
 export class Voteflow {
-	matrix: VoteFlowMatrix;
+	parties: Party[];
+	globalMatrix: VoteFlowMatrix;
+	districtMatrix: Map<string, VoteFlowMatrix>;
 
 	constructor() {
-		const $party = get(party);
-		this.matrix = this.createVoteFlowMatrix($party.list);
+		this.parties = get(party).list;
+		this.globalMatrix = this.createVoteFlowMatrix();
+		this.districtMatrix = new Map();
 	}
 
-	private createVoteFlowMatrix(parties: Party[]): VoteFlowMatrix {
-		return parties.reduce(
+	private createVoteFlowMatrix(): VoteFlowMatrix {
+		return this.parties.reduce(
 			(obj, from) => ({
 				...obj,
-				[from.Name]: parties.reduce(
+				[from.Name]: this.parties.reduce(
 					(obj, to) => ({
 						...obj,
 						[to.Name]: from.Name === to.Name ? 1 : 0,
@@ -33,12 +36,37 @@ export class Voteflow {
 		);
 	}
 
-	public updateVoteFlow(from: string, to: string, value: number) {
+	public updateVoteFlow(
+		from: string,
+		to: string,
+		value: number,
+		matrix: VoteFlowMatrix = this.globalMatrix
+	) {
 		const deductableValue =
-			value < this.matrix[from][from] ? value : this.matrix[from][from];
+			value < matrix[from][from] ? value : matrix[from][from];
 
-		this.matrix[from][to] += value;
-		this.matrix[from][from] -= deductableValue;
+		matrix[from][to] += value;
+		matrix[from][from] -= deductableValue;
+	}
+
+	public updateDistrictVoteFlow(
+		province: string,
+		district: string,
+		from: string,
+		to: string,
+		value: number
+	) {
+		const key = this.getDistrictVoteFlowKey(province, district);
+
+		if (!this.districtMatrix.has(key)) {
+			this.districtMatrix.set(key, this.createVoteFlowMatrix());
+		}
+
+		this.updateVoteFlow(from, to, value, this.districtMatrix.get(key));
+	}
+
+	private getDistrictVoteFlowKey(province: string, district: string) {
+		return `${province}-${district}`;
 	}
 
 	public updateVoteFlowBetweenGroups(
@@ -51,7 +79,7 @@ export class Voteflow {
 
 		fromParties.forEach((from) => {
 			const deductableValue =
-				Math.min(Math.abs(changes), this.matrix[from][from]) /
+				Math.min(Math.abs(changes), this.globalMatrix[from][from]) /
 				(fromParties.length + toParties.length);
 
 			toParties.forEach((to) => {
@@ -60,9 +88,12 @@ export class Voteflow {
 		});
 	}
 
-	private applyVoteFlow(records: PopularityRecord[]): PopularityRecord[] {
-		const $party = get(party);
-		const partyNames = Object.keys(this.matrix);
+	private applyVoteFlow(
+		records: PopularityRecord[],
+		matrix: VoteFlowMatrix
+	): PopularityRecord[] {
+		const partyMap = get(party).map;
+		const partyNames = Object.keys(matrix);
 		const voteVector: { [name: string]: number } = partyNames.reduce(
 			(obj, name) => ({
 				...obj,
@@ -75,11 +106,10 @@ export class Voteflow {
 
 		return partyNames
 			.map((partyA) => ({
-				party: $party.map.get(partyA) as Party,
+				party: partyMap.get(partyA) as Party,
 				points:
 					partyNames.reduce(
-						(sum, partyB) =>
-							sum + voteVector[partyB] * this.matrix[partyB][partyA],
+						(sum, partyB) => sum + voteVector[partyB] * matrix[partyB][partyA],
 						0
 					) * totalVote,
 			}))
@@ -89,16 +119,26 @@ export class Voteflow {
 
 	public calculateVoteFlowResult(popularity: PopularityTree): PopularityTree {
 		return Object.entries(popularity).reduce(
-			(provice, [province, districts]) => ({
-				...provice,
+			(proviceObj, [province, districts]) => ({
+				...proviceObj,
 				[province]: Object.entries(districts).reduce(
-					(provice, [district, popularities]) =>
-						popularities
-							? {
-									...provice,
-									[district]: this.applyVoteFlow(popularities),
-							  }
-							: provice,
+					(districtObj, [district, popularities]) => {
+						if (!popularities) return districtObj;
+
+						const districtVoteflow = this.districtMatrix.get(
+							this.getDistrictVoteFlowKey(province, district)
+						);
+
+						return {
+							...districtObj,
+							[district]: this.applyVoteFlow(
+								districtVoteflow
+									? this.applyVoteFlow(popularities, districtVoteflow)
+									: popularities,
+								this.globalMatrix
+							),
+						};
+					},
 					{}
 				),
 			}),

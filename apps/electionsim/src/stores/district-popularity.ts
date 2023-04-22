@@ -23,9 +23,16 @@ export interface PopularityTree {
 	[province: string]: { [district: string]: PopularityRecord[] };
 }
 
-const BASE_POPULARITY_PATH = `${base}/data/popularity-projection-2566.csv`; // POPULARITY MUST ORDER BY SCORE DESC
+interface CandidatesPartyChange {
+	name: string;
+	province: string;
+	electorialDistrictNumber: string;
+	fromParty: string;
+	toParty: string;
+}
 
 let basePopularity: PopularityTree;
+let candidatesPartyChanges: CandidatesPartyChange[];
 
 const createDistrictPopularityStore = () => {
 	const { subscribe, update } = writable<PopularityTree>({});
@@ -34,8 +41,9 @@ const createDistrictPopularityStore = () => {
 		subscribe,
 		load: async () => {
 			const $party = get(party);
+			// POPULARITY MUST ORDER BY SCORE DESC
 			const popularityRecord = (await csv(
-				BASE_POPULARITY_PATH
+				`${base}/data/popularity-projection-2566.csv`
 			)) as RawPopularityRecord[];
 
 			basePopularity = popularityRecord.reduce<PopularityTree>(
@@ -65,12 +73,34 @@ const createDistrictPopularityStore = () => {
 				{}
 			);
 
+			candidatesPartyChanges = (await csv(
+				`${base}/data/candidate-party-changes-66.csv`
+			)) as CandidatesPartyChange[];
+
 			update(() => basePopularity);
 		},
 		calculate() {
 			const { input } = get(inputStore);
 			const $party = get(party);
 			const voteflow = new Voteflow();
+
+			// คุณคิดว่า คนไทยทุกๆ 10 คนจะเลือก ส.ส. เขตจากตัวบุคคลหรือพรรคอย่างละกี่คน?
+			if (input.quiz1) {
+				const value = 1 - mapPositiveRatio[input.quiz1];
+
+				if (value > 0) {
+					candidatesPartyChanges.forEach(
+						({ province, electorialDistrictNumber, fromParty, toParty }) =>
+							voteflow.updateDistrictVoteFlow(
+								province,
+								electorialDistrictNumber,
+								fromParty,
+								toParty,
+								value
+							)
+					);
+				}
+			}
 
 			// คุณคิดว่า คนเคยเลือก (บัตรเขต) พรรคพลังประชารัฐ จะเปลี่ยนไปเลือก พรรครวมไทยสร้างชาติ มากแค่ไหน?
 			if (input.quiz2) {
