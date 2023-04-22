@@ -10,6 +10,8 @@
 	export let toggleSide: (party?: string) => void;
 	export let toggleIsShare: () => void;
 
+	const PRIME_MISTER_POINT = 376;
+
 	$: totalPoints = representativeRecord.reduce(
 		(acc, cur) => acc + cur.total,
 		0
@@ -161,29 +163,33 @@
 					</defs>
 				</svg>
 			</span>
-			<div
-				class="w-full py-3 px-5 flex items-center my-5"
-				style="background-color: #3D3D3D;"
-			>
-				<svg
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-					class="mr-[10px]"
+			{#if governmentPoints <= PRIME_MISTER_POINT}
+				<div
+					class="w-full py-3 px-5 flex items-center my-5"
+					style="background-color: #3D3D3D;"
 				>
-					<rect width="24" height="24" rx="12" fill="#D09D03" />
-					<path
-						d="M11.5778 13.42L10.9198 9.444V6.728H13.1038V9.444L12.4598 13.42H11.5778ZM11.9978 16.668C11.5498 16.668 11.2278 16.5653 11.0318 16.36C10.8451 16.1547 10.7518 15.9027 10.7518 15.604V15.268C10.7518 14.9693 10.8451 14.7173 11.0318 14.512C11.2278 14.3067 11.5498 14.204 11.9978 14.204C12.4458 14.204 12.7631 14.3067 12.9498 14.512C13.1458 14.7173 13.2438 14.9693 13.2438 15.268V15.604C13.2438 15.9027 13.1458 16.1547 12.9498 16.36C12.7631 16.5653 12.4458 16.668 11.9978 16.668Z"
-						fill="#231F20"
-					/>
-				</svg>
-				<h5 class="typo-b5 flex-1">
-					ต้องการเสียงสนับสนุนจาก ส.ว. เพื่อเลือกนายกฯ อีก
-				</h5>
-				<h5 class="typo-b4 font-bold">122+</h5>
-			</div>
+					<svg
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+						class="mr-[10px]"
+					>
+						<rect width="24" height="24" rx="12" fill="#D09D03" />
+						<path
+							d="M11.5778 13.42L10.9198 9.444V6.728H13.1038V9.444L12.4598 13.42H11.5778ZM11.9978 16.668C11.5498 16.668 11.2278 16.5653 11.0318 16.36C10.8451 16.1547 10.7518 15.9027 10.7518 15.604V15.268C10.7518 14.9693 10.8451 14.7173 11.0318 14.512C11.2278 14.3067 11.5498 14.204 11.9978 14.204C12.4458 14.204 12.7631 14.3067 12.9498 14.512C13.1458 14.7173 13.2438 14.9693 13.2438 15.268V15.604C13.2438 15.9027 13.1458 16.1547 12.9498 16.36C12.7631 16.5653 12.4458 16.668 11.9978 16.668Z"
+							fill="#231F20"
+						/>
+					</svg>
+					<h5 class="typo-b5 flex-1">
+						ต้องการเสียงสนับสนุนจาก ส.ว. เพื่อเลือกนายกฯ อีก
+					</h5>
+					<h5 class="typo-b4 font-bold">
+						{PRIME_MISTER_POINT - governmentPoints}+
+					</h5>
+				</div>
+			{/if}
 			<div class="flex items-start w-full">
 				<div class="w-1/2 flex flex-col">
 					<div class="flex flex-wrap md:flex-nowrap">
