@@ -124,26 +124,38 @@ const ModalInfo: FC<PropsType> = ({ party, partyData }) => {
 						</div>
 						<div className="flex flex-col items-start">
 							<WrapperLink>
-								<div className="flex">
+								<a
+									className="flex"
+									target="_blank"
+									href={`https://promisetracker.wevis.info/explore/?party=${party.Name}`}
+								>
 									<img src={`${imgPrefix}/icon-link-1.svg`} alt="icon-link-1" />
 									<p className="ml-2 font-bold typo-b5">
 										นโยบายที่เคยขายไว้ ทำได้จริงแค่ไหน
 									</p>
-								</div>
+								</a>
 							</WrapperLink>
 							<WrapperLink>
-								<div className="flex">
+								<a
+									className="flex"
+									target="_blank"
+									href={`https://wevis.info/law-watch#investigate-section`}
+								>
 									<img src={`${imgPrefix}/icon-link-2.svg`} alt="icon-link-2" />
 									<p className="ml-2 font-bold typo-b5">
 										เคยเสนอร่างกฏหมายอะไรบ้าง
 									</p>
-								</div>
+								</a>
 							</WrapperLink>
 							<WrapperLink>
-								<div className="flex">
+								<a
+									className="flex"
+									target="_blank"
+									href={`https://theyworkforus.wevis.info/party/${party.Name}`}
+								>
 									<img src={`${imgPrefix}/icon-link-3.svg`} alt="icon-link-3" />
 									<p className="ml-2 font-bold typo-b5">ข้อมูลอื่นๆ</p>
-								</div>
+								</a>
 							</WrapperLink>
 						</div>
 					</>
