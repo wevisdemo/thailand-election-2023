@@ -94,7 +94,9 @@
 						class="cursor-pointer flex"
 						on:click={onEditQuiz}
 					>
-						<span class="typo-b5 text-byx-blue ml-1 underline text-right">แก้ไขคำตอบ</span>
+						<span class="typo-b5 text-byx-blue ml-1 underline text-right"
+							>แก้ไขคำตอบ</span
+						>
 						<svg
 							width="24"
 							height="24"

@@ -110,12 +110,12 @@
 		</div>
 		<div class="flex flex-row relative">
 			<div
-				class="h-4 mt-1"
+				class="h-4 mt-1 transition-all duration-300"
 				style="width: {(total / topTotal.total) *
 					100}%; background-color: {party.Color};"
 			/>
 			<div
-				class="absolute top-0 bottom-0 right-0 stripe-white"
+				class="absolute top-0 bottom-0 right-0 stripe-white transition-all duration-300"
 				style="left: {(fromDistrict / topTotal.total) *
 					100}%; pointer-events: none; border-left: 1px solid white;"
 			/>

@@ -2,6 +2,8 @@
 	import { base } from '$app/paths';
 	import { Content, contentManager } from '../../stores/content';
 	import { input } from '../../stores/input';
+	import { fade, fly } from 'svelte/transition';
+
 	import {
 		quiz1ToWord,
 		quiz2ToWord,
@@ -64,7 +66,10 @@
 	];
 </script>
 
-<div class="text-left flex flex-col w-full max-w-[698px] px-6 py-10 relative">
+<div
+	class="text-left flex flex-col w-full max-w-[698px] px-6 py-10 relative"
+	transition:fly={{ y: 400 }}
+>
 	<a href="{base}/result">
 		<svg
 			width="32"

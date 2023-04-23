@@ -3,6 +3,7 @@
 	import type { RepresentativeRecord } from '../../../stores/representatives';
 	import byxMobileLogo from '../../../images/byx-mobile.svg';
 	import type { Party } from '../../../stores/party';
+	import { fade, fly } from 'svelte/transition';
 
 	export let representativeRecord: RepresentativeRecord[];
 	export let governmentParties: RepresentativeRecord[];
@@ -70,7 +71,10 @@
 	].filter((p) => p.total > 0);
 </script>
 
-<div class="flex flex-col items-center w-full max-w-[698px] px-6 py-10">
+<div
+	class="flex flex-col items-center w-full max-w-[698px] px-6 py-10"
+	transition:fly={{ x: 400 }}
+>
 	<div class="flex w-full">
 		<a
 			on:click={toggleIsShare}
