@@ -15,8 +15,8 @@ interface PropsType {
 }
 
 const ComparePage: NextPage<PropsType> = ({ policies, parties }) => {
-	const [displayPolicies1, setDisplayPolicies1] = useState<Policy[]>([]);
-	const [displayPolicies2, setDisplayPolicies2] = useState<Policy[]>([]);
+	const [displayPolicies1, setDisplayPolicies1] = useState<Policy[]>(policies);
+	const [displayPolicies2, setDisplayPolicies2] = useState<Policy[]>(policies);
 
 	const onClickShuffle = () => {
 		setDisplayPolicies1((curr) => [...shufflePolicies(curr)]);
