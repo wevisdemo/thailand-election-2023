@@ -3,7 +3,9 @@
 	import type { RepresentativeRecord } from '../../../stores/representatives';
 	import byxMobileLogo from '../../../images/byx-mobile.svg';
 	import type { Party } from '../../../stores/party';
-	import { fade, fly } from 'svelte/transition';
+	import { fly } from 'svelte/transition';
+	import { input } from '../../../stores/input';
+	import { Content, contentManager } from '../../../stores/content';
 
 	export let representativeRecord: RepresentativeRecord[];
 	export let governmentParties: RepresentativeRecord[];
@@ -71,6 +73,12 @@
 			.filter((p) => p.total > OTHER_PARTY_POINTS_THRESHOLD),
 		oppositionOtherParties,
 	].filter((p) => p.total > 0);
+
+	const reset = () => {
+		input.reset();
+		contentManager.updateContent(Content.Analytics);
+		contentManager.reset();
+	};
 </script>
 
 <div
@@ -100,6 +108,7 @@
 		</a>
 		<a
 			href="{base}/"
+			on:click={reset}
 			class="flex items-center typo-b5 text-byx-blue mb-5 cursor-pointer"
 		>
 			<svg

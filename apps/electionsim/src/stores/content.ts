@@ -44,6 +44,12 @@ const createContentManagerStore = () => {
 				isFinished: true,
 			}));
 		},
+		reset: () => {
+			update((store) => ({
+				...store,
+				isFinished: false,
+			}));
+		},
 	};
 };
 
