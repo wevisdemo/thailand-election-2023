@@ -44,7 +44,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
       console.log([minPct, maxPct]);
 
       // minPct = -30
-      const xScale = d3.scaleLinear().domain([-10, maxPct || 30]).range([0, width])
+      const xScale = d3.scaleLinear().domain([-10, 30]).range([0, width])
 
       svg.selectAll('line').remove()
       svg.append('line').attr('x1', xScale(0)).attr('y1', 0).attr('x2', xScale(0)).attr('y2', Math.max(contentHeight, height)).attr('stroke', 'black')
@@ -117,7 +117,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
       const defs = node.filter((d) => typeof d.Images === 'string' && d.Images !== '').append('svg:defs')
       // profile
       defs.append("svg:pattern")
-        .attr("id", (_, i) => "pattern_person_avatar" + i)
+        .attr("id", (d) => "pattern_person_avatar" + d.Id)
         .attr("width", 1)
         .attr("height", 1)
         // .attr("patternUnits", "userSpaceOnUse")
@@ -163,10 +163,10 @@ const MainNav = ({ width, height, onScroll }: Props) => {
           d.totalPctShare < 0 ?
             xScale(0) + r + circleMargin
             : xScale(0) - r - circleMargin
-          : xScale(Number(maxPct)) - (r + 2))
+          : xScale(d.totalPctShare) - (r + 2))
         .attr('cy', yScaleBand.bandwidth() * .5)
         .attr('r', r)
-        .attr("fill", (d, i) => typeof d.Images === 'string' && d.Images !== '' ? "url(#pattern_person_avatar" + i + ")" : "url(#pattern_person_avatar_default)")
+        .attr("fill", (d) => typeof d.Images === 'string' && d.Images !== '' ? "url(#pattern_person_avatar" + d.Id + ")" : "url(#pattern_person_avatar_default)")
         .attr('stroke', 'black')
 
       const rLogo = 5

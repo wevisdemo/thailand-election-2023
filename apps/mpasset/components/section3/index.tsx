@@ -69,20 +69,12 @@ const Section3 = (props: Props) => {
   const fetchFromGitYourCandidate = React.useCallback(async () => {
     await d3.json<PersonCustom[]>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/people.json').then((value) => {
       if (value) {
-        console.log(value);
-
-        value.forEach((d) => {
-          d.totalValueShare = d.totalValueShare || 0,
-            d.countCompShare = d.countCompShare || 0,
-            d.countDirector = d.countDirector || 0,
-            d.totalPctShare = d.totalPctShare || 0
-        })
-        let sortArray = value.sort((a, b) => b.totalValueShare - a.totalValueShare)
+        let sortArray = value.sort((a, b) => b.totalPctShare - a.totalPctShare)
         sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
         // console.log('fetch from git');
         // const outlier = sortArray.slice(0, 1)
         // setPersonOutlier(sortArray.slice(0, 1))
-        setYourCandidatePerson(sortArray)
+        setYourCandidatePerson(sortArray.map((d) => ({ ...d, totalPctShare: d.totalPctShare > 30 ? 30 : d.totalPctShare })))
         // setFilterPerson(sortArray)
       }
     })
