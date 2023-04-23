@@ -8,11 +8,13 @@ import SearchNotFound from './SearchNotFound';
 interface PropsType {
 	policyList: Policy[];
 	partyList: Party[];
+	page?: string;
 }
 
 const PolicyCardWrapper: FunctionComponent<PropsType> = ({
 	policyList,
 	partyList,
+	page,
 }) => {
 	const findParty = (partyName: string) => {
 		const result = partyList.find((party) => party.Name === partyName);
@@ -35,7 +37,7 @@ const PolicyCardWrapper: FunctionComponent<PropsType> = ({
 						))}
 					</Masonry>
 				) : (
-					<SearchNotFound />
+					<SearchNotFound page={page} />
 				)}
 			</ResponsiveMasonry>
 			{/* <div ref={refx} className="flex"></div> */}

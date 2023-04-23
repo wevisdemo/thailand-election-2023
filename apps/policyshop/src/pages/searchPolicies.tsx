@@ -7,7 +7,6 @@ import Layout from '@/components/Layout';
 import RandomButton from '@/components/RandomButton';
 import TemplatePolicyList from '@/components/Template/PolicyList';
 import { Party, Policy } from '@/types/components';
-import SearchNotFound from '@/components/SearchNotFound';
 
 interface PropsType {
 	policies: Policy[];
@@ -40,12 +39,15 @@ const SearchPolicies: NextPage<PropsType> = ({ policies, parties }) => {
 			<main>
 				<Layout title="ค้นหานโยบาย">
 					<SearchBar onClear={onClear} />
-					<TemplatePolicyList policyList={displayPolicies} partyList={parties}>
+					<TemplatePolicyList
+						policyList={displayPolicies}
+						partyList={parties}
+						page="SearchPolicies"
+					>
 						<div className="flex justify-end items-center mt-[32px]">
 							<RandomButton onClick={onClickShuffle} />
 						</div>
 					</TemplatePolicyList>
-					{(!topic || displayPolicies.length == 0) && <SearchNotFound />}
 				</Layout>
 			</main>
 		</>

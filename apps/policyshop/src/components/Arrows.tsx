@@ -108,7 +108,7 @@ export const ArrowsType5: FC<ArrowsProps> = ({ styles }) => {
 	);
 };
 
-export const ArrowsType6: FC<ArrowsProps> = ({ styles }) => {
+export const ArrowsType: FC<ArrowsProps> = ({ styles }) => {
 	return (
 		<div className={styles}>
 			<svg
