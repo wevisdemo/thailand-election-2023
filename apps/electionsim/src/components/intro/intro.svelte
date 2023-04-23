@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import byxMobileLogo from '../../images/byx-mobile.svg';
-	import simulatorBx from '../../images/simulator_bx.png';
+	import simulatorBx from '../../images/simulator_bx.svg';
 </script>
 
 <div class="flex flex-col items-center w-full max-w-[698px] px-6 py-10">
@@ -11,9 +11,9 @@
 	</h2>
 	<div class="flex items-center mt-1 mb-10">
 		<h4 class="typo-b4 mr-4">ร่วมพัฒนาโดย</h4>
-		<img src={byxMobileLogo} alt="beyondx" />
+		<img src={byxMobileLogo} alt="Beyond X" />
 	</div>
-	<img src={simulatorBx} alt="beyondx" />
+	<img src={simulatorBx} alt="" class="w-full max-w-[400px]" />
 	<p class="typo-b4 text-center my-10">
 		การเลือกตั้งปี 66 จะให้ผลเป็นอย่างไร? ปัจจัยอะไรบ้างที่มีผลต่อการเลือกตั้ง?
 		ลองมาสวมบทบาทนักวิเคราะห์การเมือง แล้ววิเคราะห์ความเป็นไปได้ต่างๆ

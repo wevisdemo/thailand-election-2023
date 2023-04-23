@@ -44,3 +44,19 @@ button:hover {
 	scrollbar-width: none;
 	/* Firefox */
 }
+
+.party-text-rtsc {
+	color: #1445C3;
+}
+
+.party-text-plpcr {
+	color: #2276EF;
+}
+
+.party-text-pt {
+	color: #F41724;
+}
+
+.party-text-kk {
+	color: #FF711E;
+}

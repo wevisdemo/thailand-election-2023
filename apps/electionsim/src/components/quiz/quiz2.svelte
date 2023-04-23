@@ -26,8 +26,10 @@
 	<div>
 		<p class="typo-h7 text-xl">#2: การแยกพรรค</p>
 		<h6 class="typo-h6 font-bold">
-			คุณคิดว่า คนเคยเลือกพรรคพลังประชารัฐ ทุกๆ 10 คน จะเปลี่ยนใจไปเลือก ส.ส.
-			เขตพรรครวมไทยสร้างชาติกี่คน?
+			คุณคิดว่า คนเคยเลือก<span class="party-text-plpcr">พรรคพลังประชารัฐ</span>
+			ทุกๆ 10 คน จะเปลี่ยนใจไปเลือก ส.ส. เขต<span class="party-text-rtsc"
+				>พรรครวมไทยสร้างชาติ</span
+			>กี่คน?
 		</h6>
 		<span
 			class="flex items-center space-x-2 cursor-pointer"

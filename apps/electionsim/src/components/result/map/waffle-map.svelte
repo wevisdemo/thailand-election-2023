@@ -155,7 +155,7 @@
 	});
 </script>
 
-<div class="relative w-full flex-1">
+<div class="absolute inset-0 w-full flex-1">
 	<svg
 		viewBox="0 0 {canvasWidth} {canvasHeight}"
 		class="w-full relative h-full {hasZoomed ? 'cursor-move' : ''}"

@@ -95,7 +95,7 @@
 				</div>
 				<div class="w-2/6 flex text-right justify-end">
 					{#if choice.answer === ' ' || choice.answer === ''}
-						<h5 class="typo-b5 font-bold text-[#eee]">ข้าม</h5>
+						<h5 class="typo-b5 font-bold text-[#ccc]">ข้าม</h5>
 					{:else}
 						<h5 class="typo-b5 font-bold">{choice.answer}</h5>
 					{/if}

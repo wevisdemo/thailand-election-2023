@@ -27,7 +27,9 @@
 		<p class="typo-h7 text-xl">#4: Strategic Voting (ต่อ)</p>
 		<h6 class="typo-h6 font-bold">
 			ในทางกลับกัน คุณคิดว่าในกลุ่มคนเลือกพรรคฝั่งรัฐบาลเดิม
-			ผลโหวตจะเทเข้าหรือออกจากพรรคพลังประชารัฐ/รวมไทยสร้างชาติ?
+			ผลโหวตจะเทเข้าหรือออกจาก<span class="party-text-plpcr"
+				>พรรคพลังประชารัฐ</span
+			>/<span class="party-text-rtsc">รวมไทยสร้างชาติ</span>?
 		</h6>
 		<span
 			class="flex items-center space-x-2 cursor-pointer"

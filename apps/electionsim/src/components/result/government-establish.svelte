@@ -131,7 +131,7 @@
 			{/if}
 			<div class="w-full h-[1px] bg-white opacity-40 mt-4" />
 			<span
-				class="flex items-center justify-center mt-4 cursor-pointer"
+				class="flex items-center justify-center my-5 cursor-pointer"
 				on:click={() => toggleSide()}
 			>
 				<h4 class="typo-b4 underline">สลับรัฐบาล/ฝ่ายค้าน</h4>
@@ -165,7 +165,7 @@
 			</span>
 			{#if governmentPoints <= PRIME_MISTER_POINT}
 				<div
-					class="w-full py-3 px-5 flex items-center my-5"
+					class="w-full py-3 px-5 flex items-center mb-5"
 					style="background-color: #3D3D3D;"
 				>
 					<svg
@@ -174,7 +174,7 @@
 						viewBox="0 0 24 24"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
-						class="mr-[10px]"
+						class="mr-2"
 					>
 						<rect width="24" height="24" rx="12" fill="#D09D03" />
 						<path
@@ -185,7 +185,7 @@
 					<h5 class="typo-b5 flex-1">
 						ต้องการเสียงสนับสนุนจาก ส.ว. เพื่อเลือกนายกฯ อีก
 					</h5>
-					<h5 class="typo-b4 font-bold">
+					<h5 class="typo-b4 font-bold ml-2">
 						{PRIME_MISTER_POINT - governmentPoints}+
 					</h5>
 				</div>

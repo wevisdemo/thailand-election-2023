@@ -117,13 +117,13 @@
 	<h4 class="typo-h4 font-bold beyonx-text-gradient text-center">
 		โฉมหน้า #สภา66 <br class="hidden md:inline" />จากการวิเคราะห์ของคุณ
 	</h4>
-	<div class="flex w-full justify-center mt-10 mb-[10px]">
+	<div class="flex w-full justify-center mt-5 mb-3">
 		<h6 class="typo-h6 font-bold">ฝ่ายรัฐบาล</h6>
 		<h6 class="typo-h6">({governmentPoints})</h6>
 	</div>
-	<div class="flex justify-center flex-wrap gap-x-6">
+	<div class="flex justify-center flex-wrap gap-x-10">
 		{#each governmentRecord as { party, total }}
-			<div class="flex flex-col items-center">
+			<div class="flex flex-col items-center mb-2 w-16 overflow-visible">
 				<div
 					class="w-16 h-16 flex items-center justify-center gap-x-1"
 					style="background-color: {party.Color};"
@@ -140,18 +140,18 @@
 						<div class="w-1 h-1 bg-white rounded-full" />
 					{/if}
 				</div>
-				<h6 class="typo-b6 mt-1">{party.Name}</h6>
+				<h6 class="typo-b6 mt-1 text-center whitespace-nowrap">{party.Name}</h6>
 				<h6 class="typo-b6">{total}</h6>
 			</div>
 		{/each}
 	</div>
-	<div class="flex w-full justify-center mt-5 mb-[10px]">
+	<div class="flex w-full justify-center mt-3 mb-3">
 		<h6 class="typo-h7 font-bold">ฝ่ายค้าน</h6>
 		<h6 class="typo-h7">({totalPoints - governmentPoints})</h6>
 	</div>
-	<div class="flex justify-center flex-wrap gap-x-6">
+	<div class="flex justify-center flex-wrap gap-x-10">
 		{#each oppositionRecord as { party, total }}
-			<div class="flex flex-col items-center">
+			<div class="flex flex-col items-center mb-2 w-16 overflow-visible">
 				<div
 					class="w-16 h-16 flex items-center justify-center gap-x-1"
 					style="background-color: {party.Color};"
@@ -168,12 +168,12 @@
 						<div class="w-1 h-1 bg-white rounded-full" />
 					{/if}
 				</div>
-				<h6 class="typo-b6 mt-1">{party.Name}</h6>
+				<h6 class="typo-b6 mt-1 text-center whitespace-nowrap">{party.Name}</h6>
 				<h6 class="typo-b6">{total}</h6>
 			</div>
 		{/each}
 	</div>
-	<div class="py-3 px-5 flex items-center my-10 bg-gray-4">
+	<div class="py-3 px-5 flex items-center mt-5 mb-10 bg-gray-4">
 		<svg
 			width="24"
 			height="24"
