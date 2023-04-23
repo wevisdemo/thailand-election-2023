@@ -61,10 +61,10 @@ const Section3 = (props: Props) => {
         const outlier = sortArray.slice(0, 1)
         setPersonOutlier(sortArray.slice(0, 1))
         setPerson([...outlier.map((d) => ({ ...d, totalPctShare: 30 })), ...sortArray.slice(1)])
-        setFilterPerson(sortArray.slice(1))
+        // setFilterPerson(sortArray.slice(1))
       }
     })
-  }, [setPerson, setPersonOutlier, setFilterPerson])
+  }, [setPerson, setPersonOutlier])
 
   const fetchFromGitYourCandidate = React.useCallback(async () => {
     await d3.json<PersonCustom[]>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/people.json').then((value) => {
@@ -78,15 +78,15 @@ const Section3 = (props: Props) => {
             d.totalPctShare = d.totalPctShare || 0
         })
         let sortArray = value.sort((a, b) => b.totalValueShare - a.totalValueShare)
-        // sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
+        sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
         // console.log('fetch from git');
         // const outlier = sortArray.slice(0, 1)
         // setPersonOutlier(sortArray.slice(0, 1))
         setYourCandidatePerson(sortArray)
-        setFilterPerson(sortArray)
+        // setFilterPerson(sortArray)
       }
     })
-  }, [setYourCandidatePerson, setFilterPerson])
+  }, [setYourCandidatePerson])
 
   React.useEffect(() => {
     let ignore = false;
@@ -114,8 +114,8 @@ const Section3 = (props: Props) => {
   }, [selectedPerson, selectedCompany])
 
 
-  React.useLayoutEffect(() => {
-    if (person.length > 0) {
+  React.useMemo(async () => {
+    if (person.length > 0 && yourCandidatePerson.length > 0) {
       let outFilter: PersonCustom[] = []
       if (selectedDataSet === 'นักการเมือง 62') {
         outFilter = person
@@ -148,13 +148,6 @@ const Section3 = (props: Props) => {
 
     }
   }, [selectedBusinessType, selectedParty, selectedSort, setFilterPerson, person, yourCandidatePerson, selectedDataSet])
-
-
-  React.useEffect(() => {
-    if (person.length > 0) {
-
-    }
-  }, [selectedParty, setFilterPerson, person])
 
   if (isLoading) return <LoadingScreen />
 

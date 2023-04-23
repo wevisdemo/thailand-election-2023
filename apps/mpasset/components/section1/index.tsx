@@ -11,7 +11,9 @@ const Section1 = (props: Props) => {
         นักการเมืองเกี่ยวข้องกับ<br />
         ธุรกิจแค่ไหน?
       </div>
-      <LottieBusiness />
+      <div className='w-[288px] h-[210px]'>
+        <LottieBusiness />
+      </div>
       <div className='flex flex-row justify-center items-center gap-x-[5px]'>
         <div className='typo-ibmplex typo-b6 leading-[150%]'>สนับสนุนข้อมูล โดย</div>
         <svg className="w-[83px] h-[22px]" width={164} height={43} viewBox="0 0 164 43" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">

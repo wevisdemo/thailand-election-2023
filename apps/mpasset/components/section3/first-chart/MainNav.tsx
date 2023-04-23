@@ -44,10 +44,33 @@ const MainNav = ({ width, height, onScroll }: Props) => {
       console.log([minPct, maxPct]);
 
       // minPct = -30
-      const xScale = d3.scaleLinear().domain([-10, 30]).range([0, width])
+      const xScale = d3.scaleLinear().domain([-10, maxPct || 30]).range([0, width])
 
       svg.selectAll('line').remove()
       svg.append('line').attr('x1', xScale(0)).attr('y1', 0).attr('x2', xScale(0)).attr('y2', Math.max(contentHeight, height)).attr('stroke', 'black')
+
+      const avatar_size = 400
+      svg.selectAll('defs').remove()
+      // default unknown person
+      const defsDefaultAvatar = svg.append('svg:defs')
+      defsDefaultAvatar.append("svg:pattern")
+        .attr("id", "pattern_person_avatar_default")
+        .attr("width", 1)
+        .attr("height", 1)
+        // .attr("patternUnits", "userSpaceOnUse")
+        .attr("patternContentUnits", "objectBoundingBox")
+        .append('use')
+        .attr('xlink:href', "#person_avatar_default")
+        .attr("transform", "scale(0.0025)")
+      defsDefaultAvatar.append("svg:image")
+        .attr("id", "person_avatar_default")
+        .attr("xlink:href", process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
+        .attr("width", avatar_size)
+        .attr("height", avatar_size)
+        .attr("x", 0)
+        .attr("y", 0);
+
+
 
       //tooltip
       const tooltip = d3.select('#tooltip-main-nav')
@@ -87,13 +110,11 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .attr('height', (_) => yScaleBand.bandwidth())
         .attr('fill', (d) => d.Party ? d.Party.Color! : 'black')
 
-
-
-      const avatar_size = 400
-
       node.selectAll('defs').remove()
 
-      const defs = node.append('svg:defs')
+      // const defs = node.append('svg:defs')
+
+      const defs = node.filter((d) => typeof d.Images === 'string' && d.Images !== '').append('svg:defs')
       // profile
       defs.append("svg:pattern")
         .attr("id", (_, i) => "pattern_person_avatar" + i)
@@ -106,14 +127,15 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .attr("transform", "scale(0.0025)")
       defs.append("svg:image")
         .attr("id", (_, i) => "person_avatar" + i)
-        .attr("xlink:href", (d) => typeof d.Images === 'string' ? d.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
+        .attr("xlink:href", (d) => String(d.Images))
         .attr("width", avatar_size)
         .attr("height", avatar_size)
         .attr("x", 0)
         .attr("y", 0);
 
+      const defsParty = node.filter((d) => typeof d.Party?.Images === 'string' && d.Party?.Images !== '').append('svg:defs')
       // profile
-      defs.append("svg:pattern")
+      defsParty.append("svg:pattern")
         .attr("id", (_, i) => "pattern_party_avatar" + i)
         .attr("width", 1)
         .attr("height", 1)
@@ -122,9 +144,9 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .append('use')
         .attr('xlink:href', (_, i) => "#party_avatar" + i)
         .attr("transform", "scale(0.0025)")
-      defs.append("svg:image")
+      defsParty.append("svg:image")
         .attr("id", (_, i) => "party_avatar" + i)
-        .attr("xlink:href", (d) => typeof d.Party?.Images === 'string' ? d.Party?.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
+        .attr("xlink:href", (d) => String(d.Party?.Images))
         .attr("width", avatar_size)
         .attr("height", avatar_size)
         .attr("x", 0)
@@ -141,14 +163,14 @@ const MainNav = ({ width, height, onScroll }: Props) => {
           d.totalPctShare < 0 ?
             xScale(0) + r + circleMargin
             : xScale(0) - r - circleMargin
-          : xScale(d.totalPctShare) - (r + 2))
+          : xScale(Number(maxPct)) - (r + 2))
         .attr('cy', yScaleBand.bandwidth() * .5)
         .attr('r', r)
-        .attr("fill", (_, i) => "url(#pattern_person_avatar" + i + ")")
+        .attr("fill", (d, i) => typeof d.Images === 'string' && d.Images !== '' ? "url(#pattern_person_avatar" + i + ")" : "url(#pattern_person_avatar_default)")
         .attr('stroke', 'black')
 
       const rLogo = 5
-      node.append('circle')
+      node.filter((d) => typeof d.Party?.Images === 'string' && d.Party?.Images !== '').append('circle')
         .attr('cx', (d) => d.totalPctShare < limiter ?
           d.totalPctShare < 0 ?
             xScale(0) + circleMargin
