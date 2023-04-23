@@ -85,15 +85,16 @@ const ModalInfo: FC<PropsType> = ({ party, partyData }) => {
 								</div>
 							)}
 							<p className={'mt-2 typo-h5 font-bold'}>{party.Name}</p>
-
-							<div className="flex items-center bg-[var(--color-highlight-1)] px-[5px] w-fit mt-[8px]">
-								<img
-									className="w-[12px] h-[12px]"
-									src={`${imgPrefix}/green-check.svg`}
-									alt="green-check"
-								/>
-								<span className="ml-[4px] typo-b5">{party.PartyGroup}</span>
-							</div>
+							{party.PartyGroup && (
+								<div className="flex items-center bg-[var(--color-highlight-1)] px-[5px] w-fit mt-[8px]">
+									<img
+										className="w-[12px] h-[12px]"
+										src={`${imgPrefix}/green-check.svg`}
+										alt="green-check"
+									/>
+									<span className="ml-[4px] typo-b5">{party.PartyGroup}</span>
+								</div>
+							)}
 
 							<div className="my-[20px]">
 								<p className="mb-2 typo-b5 text-gray-3">
@@ -110,54 +111,67 @@ const ModalInfo: FC<PropsType> = ({ party, partyData }) => {
 									</div>
 								))}
 							</div>
-							<button
-								className=" w-fit px-[10px] py-1 rounded-full bg-gray-2 flex items-center typo-b5"
-								onClick={() => onOpenPartyListModal()}
-							>
-								<img
-									src={`${imgPrefix}/plus.svg`}
-									alt="plus"
-									className="mr-2 "
-								/>
-								ดูบัญชีรายชื่อ
-							</button>
+							{filterParty[0] && (
+								<button
+									className=" w-fit px-[10px] py-1 rounded-full bg-gray-2 flex items-center typo-b5"
+									onClick={() => onOpenPartyListModal()}
+								>
+									<img
+										src={`${imgPrefix}/plus.svg`}
+										alt="plus"
+										className="mr-2 "
+									/>
+									ดูบัญชีรายชื่อ
+								</button>
+							)}
 						</div>
-						<div className="flex flex-col items-start">
-							<WrapperLink>
-								<a
-									className="flex"
-									target="_blank"
-									href={`https://promisetracker.wevis.info/explore/?party=${party.Name}`}
-								>
-									<img src={`${imgPrefix}/icon-link-1.svg`} alt="icon-link-1" />
-									<p className="ml-2 font-bold typo-b5">
-										นโยบายที่เคยขายไว้ ทำได้จริงแค่ไหน
-									</p>
-								</a>
-							</WrapperLink>
-							<WrapperLink>
-								<a
-									className="flex"
-									target="_blank"
-									href={`https://wevis.info/law-watch#investigate-section`}
-								>
-									<img src={`${imgPrefix}/icon-link-2.svg`} alt="icon-link-2" />
-									<p className="ml-2 font-bold typo-b5">
-										เคยเสนอร่างกฏหมายอะไรบ้าง
-									</p>
-								</a>
-							</WrapperLink>
-							<WrapperLink>
-								<a
-									className="flex"
-									target="_blank"
-									href={`https://theyworkforus.wevis.info/party/${party.Name}`}
-								>
-									<img src={`${imgPrefix}/icon-link-3.svg`} alt="icon-link-3" />
-									<p className="ml-2 font-bold typo-b5">ข้อมูลอื่นๆ</p>
-								</a>
-							</WrapperLink>
-						</div>
+						{party.PartyGroup && (
+							<div className="flex flex-col items-start">
+								<WrapperLink>
+									<a
+										className="flex"
+										target="_blank"
+										href={`https://promisetracker.wevis.info/explore/?party=${party.Name}`}
+									>
+										<img
+											src={`${imgPrefix}/icon-link-1.svg`}
+											alt="icon-link-1"
+										/>
+										<p className="ml-2 font-bold typo-b5">
+											นโยบายที่เคยขายไว้ ทำได้จริงแค่ไหน
+										</p>
+									</a>
+								</WrapperLink>
+								<WrapperLink>
+									<a
+										className="flex"
+										target="_blank"
+										href={`https://wevis.info/law-watch#investigate-section`}
+									>
+										<img
+											src={`${imgPrefix}/icon-link-2.svg`}
+											alt="icon-link-2"
+										/>
+										<p className="ml-2 font-bold typo-b5">
+											เคยเสนอร่างกฏหมายอะไรบ้าง
+										</p>
+									</a>
+								</WrapperLink>
+								<WrapperLink>
+									<a
+										className="flex"
+										target="_blank"
+										href={`https://theyworkforus.wevis.info/party/${party.Name}`}
+									>
+										<img
+											src={`${imgPrefix}/icon-link-3.svg`}
+											alt="icon-link-3"
+										/>
+										<p className="ml-2 font-bold typo-b5">ข้อมูลอื่นๆ</p>
+									</a>
+								</WrapperLink>
+							</div>
+						)}
 					</>
 				)}
 			</div>

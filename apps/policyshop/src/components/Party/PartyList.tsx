@@ -8,20 +8,26 @@ interface PartyListType {
 	party: Party | undefined;
 }
 
-const onCloseModal = (): void => {
-	const elem = document.getElementById('PartyListModal') as HTMLElement;
-	if (elem) elem!.style.display = 'none';
-};
-
-const clickItem = (item: any) => {
-	const path = item.PastMP
-		? 'https://theyworkforus.wevis.info/people/' +
-		  item.Name.replaceAll(' ', '-')
-		: 'https://www.google.com/search?q=' + item.Name;
-	window.open(path, '_blank');
-};
-
 const PartyList: FC<PartyListType> = ({ party_list, party }) => {
+	const onCloseModal = (): void => {
+		const elem = document.getElementById('PartyListModal') as HTMLElement;
+		if (elem) elem!.style.display = 'none';
+	};
+
+	const clickItem = (item: any) => {
+		const path = item.PastMP
+			? 'https://theyworkforus.wevis.info/people/' +
+			  item.Name.replaceAll(' ', '-')
+			: 'https://www.google.com/search?q=' + item.Name;
+		window.open(path, '_blank');
+	};
+
+	const sortPartyList = (list: any) => {
+		return list.sort(
+			(a: any, b: any) => parseFloat(a.Number) - parseFloat(b.Number)
+		);
+	};
+
 	return (
 		<div
 			className="fixed w-full  py-12  inset-0 z-[99] h-auto overflow-scroll hidden  "
@@ -48,7 +54,7 @@ const PartyList: FC<PartyListType> = ({ party_list, party }) => {
 							<div className="w-[45px]">ลำดับ</div>
 							<div>ชื่อ</div>
 						</div>
-						{party_list.PartyList.map((p: any) => (
+						{sortPartyList(party_list.PartyList).map((p: any) => (
 							<button
 								className={`flex items-center pr-2 justify-between w-full border-b typo-b4 border-b-gray-2 ${
 									p.PastMP ? 'bg-highlight-1' : ''
