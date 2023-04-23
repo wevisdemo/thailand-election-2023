@@ -12,7 +12,7 @@
 
 	const PRIME_MISTER_POINT = 376;
 
-	$: totalPoints = representativeRecord.reduce(
+	const totalPoints = representativeRecord.reduce(
 		(acc, cur) => acc + cur.total,
 		0
 	);
@@ -20,6 +20,10 @@
 	let hoveredPartyName: Party | null = null;
 	let isExpand = false;
 	const toggleIsExpand = () => (isExpand = !isExpand);
+
+	if (totalPoints - governmentPoints > governmentPoints) {
+		toggleSide();
+	}
 </script>
 
 <div
