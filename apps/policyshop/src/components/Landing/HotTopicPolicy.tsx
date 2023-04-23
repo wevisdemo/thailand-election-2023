@@ -15,7 +15,7 @@ const HotTopicPolicy: FC<ByTopicProps> = ({ topics }) => {
 			<p className="px-4 py-2 font-bold typo-h6 bg-highlight-2">
 				นโยบายประเด็นร้อน
 			</p>
-			<div className="max-w-[278px] mb-7 ">
+			<div className="max-w-[90%] mx-auto mb-7 ">
 				<SqualWithFace>
 					นโยบายที่ออกมาแล้วเป็นที่ถกเถียงในสังคม
 					หรือเป็นประเด็นที่สังคมให้ความสนใจ
