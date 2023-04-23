@@ -1,5 +1,5 @@
 import { Policy } from '@/types/components';
-import { FunctionComponent, useEffect, useRef } from 'react';
+import { FunctionComponent } from 'react';
 import PolicyCard from './PolicyCard';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import { Party } from '@thailand-election-2023/database';
