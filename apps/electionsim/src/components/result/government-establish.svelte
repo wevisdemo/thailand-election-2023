@@ -24,8 +24,9 @@
 
 <div
 	class="w-100 h-28 bg-black pt-5 flex flex-col items-center text-white transition-all duration-300 bottom-0 fixed w-full {isExpand
-		? 'fixed h-full w-full inset-0 mt-1 overflow-y-scroll scrollbar-hide pb-[154px]'
+		? 'fixed mt-1 overflow-y-scroll scrollbar-hide pb-[154px]'
 		: ''}"
+	style={isExpand ? 'height: calc(100% - 0.25rem)' : ''}
 >
 	<div
 		class="flex flex-col px-6 w-full max-w-[698px] relative transition-all duration-300 {isExpand

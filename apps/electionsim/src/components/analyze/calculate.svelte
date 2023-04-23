@@ -1,7 +1,8 @@
 <script lang="ts">
+	import { fade, fly } from 'svelte/transition';
 </script>
 
-<div class="h-screen flex flex-col relative">
+<div class="h-screen flex flex-col relative" out:fly={{ x: -400 }}>
 	<div class="fixed top-0 w-full h-1 beyondx-gradient-bg" />
 	<div
 		class="flex-1 flex flex-col items-center w-full max-w-[698px] px-6 h-full py-10 mx-auto"
