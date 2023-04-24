@@ -8,6 +8,7 @@ import {
 	useState,
 } from 'react';
 import Dropdown from '../Dropdown';
+import AutoComplete from './AutoComplete';
 
 interface PropsType {
 	setDisplayPolicies1: Dispatch<SetStateAction<Policy[]>>;
@@ -33,8 +34,8 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 	setDisplayPolicies2,
 }) => {
 	// unduplicate party options
-	const partyOptionsDefault: IDropdownOption<string>[] = policies.reduce(
-		(pre, curr) => {
+	const partyOptionsDefault: IDropdownOption<string>[] = policies
+		.reduce((pre, curr) => {
 			const partyIsExist = pre.find(
 				(option) => option.label === curr.Party.Name
 			);
@@ -42,21 +43,19 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 				pre = [...pre, { label: curr.Party.Name, value: curr.Party.Name }];
 			}
 			return pre;
-		},
-		[] as IDropdownOption<string>[]
-	);
+		}, [] as IDropdownOption<string>[])
+		.sort((i, j) => (i.label < j.label ? -1 : 1));
 
 	// unduplicate topic options
-	const topicOptionsDefault: IDropdownOption<string>[] = policies.reduce(
-		(pre, curr) => {
+	const topicOptionsDefault: IDropdownOption<string>[] = policies
+		.reduce((pre, curr) => {
 			const topicIsExist = pre.find((option) => option.label === curr.Topic);
 			if (!topicIsExist) {
 				pre = [...pre, { label: curr.Topic, value: curr.Topic }];
 			}
 			return pre;
-		},
-		[] as IDropdownOption<string>[]
-	);
+		}, [] as IDropdownOption<string>[])
+		.sort((i, j) => (i.label < j.label ? -1 : 1));
 
 	const filterObjectDefault: ICurrentFilter = {
 		party1: null,
@@ -79,11 +78,14 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 	const choosePoliciesByFilter = (
 		policies: Policy[],
 		partyName: string,
-		topic: string
+		topic?: string
 	): Policy[] => {
-		return policies.filter(
-			(policy) => policy.Party.Name === partyName && policy.Topic === topic
-		);
+		if (topic) {
+			return policies.filter(
+				(policy) => policy.Party.Name === partyName && policy.Topic === topic
+			);
+		}
+		return policies.filter((policy) => policy.Party.Name === partyName);
 	};
 
 	useEffect(() => {
@@ -115,13 +117,20 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 			setDisplayPolicies2(
 				choosePoliciesByFilter(policies, party2?.value || '', topic.value || '')
 			);
+		} else {
+			setDisplayPolicies1(
+				choosePoliciesByFilter(policies, party1?.value || '')
+			);
+			setDisplayPolicies2(
+				choosePoliciesByFilter(policies, party2?.value || '')
+			);
 		}
 	}, [filterObject]);
 
 	return (
 		<div className="flex flex-col w-full">
 			<div className="flex gap-[16px]">
-				<Dropdown
+				<AutoComplete
 					options={filterOptions.party1}
 					currentOption={filterObject.party1}
 					onSelect={(item) => {
@@ -129,7 +138,7 @@ const CompareFilter: FunctionComponent<PropsType> = ({
 					}}
 					placeholder="เลือกพรรคที่1"
 				/>
-				<Dropdown
+				<AutoComplete
 					options={filterOptions.party2}
 					currentOption={filterObject.party2}
 					onSelect={(item) => {

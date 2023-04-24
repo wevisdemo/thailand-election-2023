@@ -18,6 +18,7 @@ import RandomButton from '@/components/RandomButton';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import ModalInfo from '@/components/Party/ModalInfo';
 import Metadata from '@/components/Metadata';
+import { hotTopicList } from '@/utils/data';
 
 export const getStaticPaths: GetStaticPaths = async () => {
 	const data = await fetchParties();
@@ -73,14 +74,23 @@ const PartyPage: NextPage<PropsType> = ({
 			'policies'
 		);
 
+		const newHotPolicies = policyList.filter((policy) =>
+			hotTopicList.includes(policy.Topic)
+		);
 		setDisplayPolicies(policyList);
-		setHotPolicies(policyList.slice(0, 1));
+		setHotPolicies(newHotPolicies.slice(0, 6));
 
-		await setOptionPolicies([{ label: 'นโยบายทั้งหมด' }, ...options]);
+		const newOptions = [{ label: 'นโยบายทั้งหมด' }, ...options].sort((i, j) =>
+			i.label < j.label ? -1 : 1
+		);
+		setOptionPolicies(newOptions);
 	}, [name]);
 
 	const handleHotPolicies = () => {
-		setHotPolicies(displayPolicies);
+		const newHotPolicies = displayPolicies.filter((policy) =>
+			hotTopicList.includes(policy.Topic)
+		);
+		setHotPolicies(newHotPolicies);
 	};
 
 	const onClickShuffle = () => {
@@ -107,7 +117,7 @@ const PartyPage: NextPage<PropsType> = ({
 						</div>
 						<div className="py-10 mt-10 border-y border-highlight-2">
 							<div className="flex items-center justify-between ">
-								<p className="font-bold typo-h7">นโยบายไฮไลท์</p>
+								<p className="font-bold typo-h7">นโยบายประเด็นร้อน</p>
 								<button className="typo-b4" onClick={handleHotPolicies}>
 									ดูทั้งหมด
 								</button>
@@ -150,6 +160,8 @@ export const getStaticProps: GetStaticProps<PropsType> = async () => {
 		}
 		return policy;
 	});
+	policies = shufflePolicies(policies); // shuffle
+
 	return {
 		props: { parties, policies, upToDate, partyData },
 	};

@@ -93,6 +93,7 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 			value: 'นโยบายทั้งหมด',
 		};
 		policyOptions = [...policyOptions, defaultPolicyOption];
+		policyOptions = policyOptions.sort((i, j) => (i.label < j.label ? -1 : 1));
 
 		// if hot fetch only hot topic
 		if (hotQuery) {
@@ -137,12 +138,14 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 			value: 'ดูของทุกพรรค',
 		};
 		partyOptions = [...partyOptions, defaultPartyOption];
+		partyOptions = partyOptions.sort((i, j) => (i.label < j.label ? -1 : 1));
 		setOptionParties(partyOptions);
 
 		// update
 		const partyOptionMatch = partyOptions.find(
 			(option) => option.value === partyQuery
 		);
+		console.log('partyOptionMatch => ', partyOptionMatch);
 
 		if (partyQuery && partyOptionMatch) {
 			setSelectedParty(partyOptionMatch);
@@ -216,9 +219,7 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 			!!hotQuery
 		);
 
-		if (query) {
-			replaceUrl(query);
-		}
+		replaceUrl(query);
 	}, [selectedParty, selectedTopic]);
 
 	return (

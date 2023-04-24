@@ -15,8 +15,8 @@ interface PropsType {
 }
 
 const ComparePage: NextPage<PropsType> = ({ policies, parties }) => {
-	const [displayPolicies1, setDisplayPolicies1] = useState<Policy[]>(policies);
-	const [displayPolicies2, setDisplayPolicies2] = useState<Policy[]>(policies);
+	const [displayPolicies1, setDisplayPolicies1] = useState<Policy[]>([]);
+	const [displayPolicies2, setDisplayPolicies2] = useState<Policy[]>([]);
 
 	const onClickShuffle = () => {
 		setDisplayPolicies1((curr) => [...shufflePolicies(curr)]);
@@ -52,8 +52,10 @@ const ComparePage: NextPage<PropsType> = ({ policies, parties }) => {
 };
 
 export const getStaticProps: GetStaticProps<PropsType> = async (context) => {
-	const policies = await fetchPolicy();
+	let policies = await fetchPolicy();
 	const parties = await fetchParties();
+	policies = shufflePolicies(policies); // shuffle
+
 	return {
 		props: { policies, parties },
 	};

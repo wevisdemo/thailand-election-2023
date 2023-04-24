@@ -51,6 +51,7 @@ const AutoComplete: FunctionComponent<PropsType> = ({
 	};
 
 	const onChangeOption = (option: IDropdownOption<any>) => {
+		setValue(option.value);
 		onSelect(option);
 		setExpand(false);
 	};

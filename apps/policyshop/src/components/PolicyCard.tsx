@@ -1,6 +1,7 @@
 import { Party, Policy } from '@/types/components';
 import { TopicType, getSmallTopicIconUrl } from '@/utils/data';
 import { getTopicIconSrc, imgPrefix } from '@/utils/path';
+import { isLightColor } from '@/utils/translate';
 import { FunctionComponent } from 'react';
 interface PropsType {
 	policyInfo: Policy;
@@ -23,6 +24,16 @@ const PolicyCard: FunctionComponent<PropsType> = ({
 		return partyInfo.Images[0].url;
 	};
 
+	const getPartyColor = (): string => {
+		return partyInfo?.Color || '#9a948c'; // default --color-gray-3
+	};
+
+	const getTitleColor = (): string => {
+		return isLightColor(getPartyColor())
+			? 'var(--color-black)'
+			: 'var(--color-white)';
+	};
+
 	return (
 		<div className="bg-[var(--color-white)] border-[1px] border-[var(--color-gray-2)] rounded-[10px] overflow-hidden h-fit w-full max-w-[155px] md:max-w-[232px] mx-auto">
 			<div className="p-[12px] ">
@@ -35,7 +46,7 @@ const PolicyCard: FunctionComponent<PropsType> = ({
 						/>
 					)}
 
-					<span className="ml-[4px] typo-b7 font-bold">
+					<span className={`ml-[4px] typo-b7 font-bold`}>
 						{policyInfo.Party.Name}
 					</span>
 				</div>
@@ -46,9 +57,10 @@ const PolicyCard: FunctionComponent<PropsType> = ({
 					}}
 				>
 					<span
-						className={
-							'card-title absolute px-[4px] top-[50%] left-[50%] w-full translate-x-[-50%] translate-y-[-50%] text-center typo-b4 text-[var(--color-white)] font-bold'
-						}
+						className={`card-title absolute px-[4px] top-[50%] left-[50%] w-full translate-x-[-50%] translate-y-[-50%] text-center typo-b4 font-bold`}
+						style={{
+							color: getTitleColor(),
+						}}
 					>
 						{policyInfo.Title}
 					</span>
