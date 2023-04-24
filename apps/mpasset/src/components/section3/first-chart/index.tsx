@@ -59,7 +59,7 @@ const FirstChart = (props: Props) => {
 
   return (
     <>
-      <Filter onOpenSeachDialog={setIsOpenSearchDialog} />
+      <Filter onOpenSeachDialog={() => setIsOpenSearchDialog(true)} />
       <div className='flex flex-row justify-between px-[10px]'>
         <div className='typo-b7 text-gray-3 typo-ibmplex'>*แสดงสีเฉพาะพรรคที่อยู่ในสภาสมัยล่าสุด</div>
         <div className='typo-b7 text-right'>ล้านบาท</div>

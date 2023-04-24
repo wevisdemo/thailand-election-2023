@@ -35,20 +35,14 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
 
 
   const handleClickNode = React.useCallback((d: NodeLink) => {
-    console.log(d.data.companyData);
-
     setSelectedCompany(d.data.companyData!)
     if (d.height !== 0) {
       d.children = d.children ? undefined : d._children
-
     }
   }, [setSelectedCompany])
 
 
   React.useEffect(() => {
-
-    console.log('yeas');
-
     if (dataSet) {
       const root = dataSet
 
@@ -207,7 +201,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
           .attr("transform", "scale(0.01)")
         defs.append("svg:image")
           .attr("id", "person_avatar" + rootNode.Id)
-          .attr("xlink:href", typeof rootNode.Images === 'string' ? rootNode.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
+          .attr("xlink:href", typeof rootNode.Images === 'string' && rootNode.Images !== "" ? rootNode.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
           .attr("width", avatar_size)
           .attr("height", avatar_size)
           .attr("x", 0)

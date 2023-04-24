@@ -5,10 +5,10 @@ import { List, Search, Shuffle } from '../../util/icon-main'
 import PersonDetail from './PersonDetail'
 import SearchPerson from '../SearchPerson'
 
-type Props = {}
 
 const PersonToCompanyRelationChart = dynamic(() => import('./PersonToCompanyRelationChart'))
-const SelectedPersonDetail = (props: Props) => {
+
+const SelectedPersonDetail = () => {
   const { setSelectedPerson, setSelectedCompany } = usePersonStore()
   const [isOpenPersonDetail, setIsOpenPersonDetail] = React.useState(false)
   const [isOpenSearchDialog, setIsOpenSearchDialog] = React.useState(false)

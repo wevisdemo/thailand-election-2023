@@ -29,18 +29,17 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .attr('width', width)
         .attr('height', Math.max(contentHeight, height))
 
-      let [minPct, maxPct] = d3.extent(filterPerson, (d) => d.totalPctShare)
+      // let [minPct, maxPct] = d3.extent(filterPerson, (d) => d.totalPctShare)
 
       const personData = [
         ...filterPerson.map((d) => ({ ...d }))
       ]
 
-      // const yScaleBand = d3.scaleBand().domain(filterPerson.map((d) => `${d.Id}`)).range([0, 40 * countPerson]).paddingInner(4)
       const yScaleBand = d3.scaleBand().domain(personData.map((_, i) => `${i}`)).range([0, 40 * countPerson]).paddingInner(.5).paddingOuter(.2)
 
       // let [minPct, maxPct] = d3.extent(person, (d) => d.totalPctShare)
 
-      console.log([minPct, maxPct]);
+      // console.log([minPct, maxPct]);
 
       // minPct = -30
       const xScale = d3.scaleLinear().domain([-10, 30]).range([0, width])

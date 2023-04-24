@@ -13,9 +13,6 @@ const FirstChart = dynamic(() => import('./first-chart'), { loading: () => <Load
 const SecondChart = dynamic(() => import('./second-chart'), { loading: () => <LoadingScreen /> })
 const ThirdChart = dynamic(() => import('./third-chart'), { loading: () => <LoadingScreen /> })
 
-
-type Props = {}
-
 enum VIEW_TYPE {
   MAIN_VIEW = 0,
   SELCTED_PERSON_CHART = 1,
@@ -23,7 +20,7 @@ enum VIEW_TYPE {
 }
 
 
-const Section3 = (props: Props) => {
+const Section3 = () => {
   const [isLoading, setIsLoading] = React.useState(true)
 
   const {
@@ -62,7 +59,6 @@ const Section3 = (props: Props) => {
         const outlier = sortArray.slice(0, 1)
         setPersonOutlier(sortArray.slice(0, 1))
         setPerson([...outlier.map((d) => ({ ...d, totalPctShare: 30 })), ...sortArray.slice(1)])
-        // setFilterPerson(sortArray.slice(1))
       }
     })
   }, [setPerson, setPersonOutlier])
@@ -74,7 +70,8 @@ const Section3 = (props: Props) => {
           d.totalValueShare = d.totalValueShare || 0,
             d.countCompShare = d.countCompShare || 0,
             d.countDirector = d.countDirector || 0,
-            d.totalPctShare = d.totalPctShare || 0
+            d.totalPctShare = d.totalPctShare || 0,
+            d.MpType = d.MpType || 'บัญชีรายชื่อ'
         })
         value.forEach((d) => {
           d.totalPctShare = (d.totalPctShare > 30 ? 30 : d.totalPctShare)
@@ -82,9 +79,6 @@ const Section3 = (props: Props) => {
         let sortArray = value.sort((a, b) => b.totalPctShare - a.totalPctShare)
         sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
         sortArray = placeZerosAtEnd(value, 'totalValueShare', 'countDirector')
-        // console.log('fetch from git');
-        // const outlier = sortArray.slice(0, 1)
-        // setPersonOutlier(sortArray.slice(0, 1))
         setYourCandidatePerson(sortArray)
         setFilterPerson(sortArray)
       }
@@ -130,7 +124,6 @@ const Section3 = (props: Props) => {
       if (selectedBusinessType && selectedBusinessType.code !== 'all') {
         outFilter = outFilter.filter((d) => d.companyType.includes(selectedBusinessType.code))
       }
-      console.log(outFilter);
 
       if (selectedParty && selectedParty.Name === 'สภาผู้แทนราษฎร') {
         outFilter = outFilter.filter((p) => p.IsMp === true)
@@ -141,15 +134,13 @@ const Section3 = (props: Props) => {
       } else if (selectedParty && selectedParty.Name !== 'ทุกพรรค') {
         outFilter = outFilter.filter((p) => p.Party?.Id === selectedParty?.Id)
       }
+
       if (selectedSort === 'desc')
         outFilter = outFilter.sort((a, b) => b.totalValueShare - a.totalValueShare)
       else
         outFilter = outFilter.sort((a, b) => a.totalValueShare - b.totalValueShare)
 
-
       setFilterPerson(placeZerosAtEnd(outFilter, 'countCompShare', 'countDirector'))
-      console.log(selectedSort);
-
     }
   }, [selectedBusinessType, selectedParty, selectedSort, setFilterPerson, person, yourCandidatePerson, selectedDataSet])
 

@@ -203,9 +203,14 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
                   {selectedCompany && Array.isArray(selectedCompany.company_shareholder) && selectedCompany.company_shareholder.sort((a, b) => b.pct_share - a.pct_share).map((d) => (
                     <div key={`shareholder-${d.Firstname.replaceAll(' ', '-')}-${d.Lastname.replaceAll(' ', '-')}`}
                       className='inline-flex justify-between items-center border-b-[2px] border-b-black py-[9.5px] gap-x-[10px]'>
-                      <div className={`flex-shrink-0 w-[40px] h-[40px]  bg-cover bg-center rounded-full`} style={{
-                        backgroundImage: `url('${d.person?.Images || process.env.BASE_PATH + '/design_assets/profile_pic.jpg'}')`
-                      }} />
+                      <div className='relative'>
+                        <div className={`flex-shrink-0 w-[40px] h-[40px]  bg-cover bg-center rounded-full`} style={{
+                          backgroundImage: `url('${d.person?.Images || process.env.BASE_PATH + '/design_assets/profile_pic.jpg'}')`
+                        }} />
+                        <div className='absolute bottom-0 right-0 w-[20px] h-[20px]  bg-cover bg-center rounded-full' style={{
+                          backgroundImage: `url('${d.person?.Party?.Images}')`
+                        }} />
+                      </div>
                       <div className='flex-grow typo-b5 text-left'>
                         {d.Firstname} {d.Lastname}
                       </div>

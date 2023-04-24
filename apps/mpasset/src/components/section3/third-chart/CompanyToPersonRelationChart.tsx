@@ -122,8 +122,8 @@ const CompanyToPersonRelationChart = (props: Props) => {
       nodeEnter.select('defs').remove()
 
       const avatar_size = 100
-      const logoSize = 30
-      console.log(root.descendants());
+      const logoSize = 20
+      // console.log(root.descendants());
 
 
       const defs = nodeEnter.append('svg:defs')
@@ -139,7 +139,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr("transform", "scale(0.01)")
       defs.append("svg:image")
         .attr("id", (_, i) => "person_avatar" + i)
-        .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Images === 'string' ? d.data.shareholderData?.person.Images :
+        .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Images === 'string' && d.data.shareholderData?.person?.Images !== "" ? d.data.shareholderData?.person.Images :
           typeof d.data.personData?.Images === 'string' ? d.data.personData?.Images :
             process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
         .attr("width", avatar_size)
@@ -156,10 +156,10 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr("patternContentUnits", "objectBoundingBox")
         .append('use')
         .attr('xlink:href', (_, i) => "#party_avatar" + i)
-        .attr("transform", "scale(0.0025)")
+        .attr("transform", "scale(0.01)")
       defs.append("svg:image")
         .attr("id", (_, i) => "party_avatar" + i)
-        .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Party?.Images === 'string' ? d.data.shareholderData?.person?.Party?.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
+        .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Party?.Images === 'string' && d.data.shareholderData?.person?.Party?.Images !== "" ? d.data.shareholderData?.person?.Party?.Images : "")
         .attr("width", avatar_size)
         .attr("height", avatar_size)
         .attr("x", 0)
@@ -183,7 +183,19 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr("fill-opacity", 1)
         .attr("stroke-opacity", 1);
 
-
+      nodeEnter.append('rect')
+        // .attr('class', 'person-icon')
+        .attr('x', nodeRadius - logoSize)
+        .attr('y', nodeRadius - logoSize)
+        .attr('transform', (d) => `rotate(${(d.x * 180 / Math.PI - 90) * -1} ${nodeRadius * .5} ${nodeRadius * .5})`)
+        .attr('width', logoSize)
+        .attr('height', logoSize)
+        .attr('rx', 49)
+        .attr('stroke', (d) => typeof d.data.shareholderData?.person?.Party?.Images === 'string' && d.data.shareholderData?.person?.Party?.Images !== "" ? '#000' : 'transparent')
+        .attr('stroke-width', "2px")
+        .attr("fill", (_, i) => "url(#pattern_party_avatar" + i + ")")
+        .attr("fill-opacity", 1)
+      // .attr("stroke-opacity", 1);
       /// ------------ link layer ----------------
       const linkRoot = chartArea.select<SVGGElement>('.link-layer')
 
@@ -217,33 +229,6 @@ const CompanyToPersonRelationChart = (props: Props) => {
       // .attr('y', )
 
       personIcon.selectAll('rect').remove()
-
-      // if (type === 'director') {
-      //   personIcon.remove()
-      //   personIcon.append('rect')
-      //     // .attr('class', 'person-icon')
-      //     .attr('width', avatar_size)
-      //     .attr('height', avatar_size)
-      //     .attr('rx', 49)
-      //     .attr('stroke', '#000')
-      //     .attr('stroke-width', "2")
-      //     .attr("fill", "url(#pattern_person_avatar" + selectedPerson.Id + ")")
-      //     .attr('stroke', 'black')
-
-
-      //   personIcon.append('rect')
-      //     // .attr('class', 'person-icon')
-      //     .attr('x', avatar_size - logoSize)
-      //     .attr('y', avatar_size - logoSize)
-      //     .attr('width', logoSize)
-      //     .attr('height', logoSize)
-      //     .attr('rx', 49)
-      //     .attr('stroke', selectedPerson.Party ? '#000' : 'transparent')
-      //     .attr('stroke-width', "2")
-      //     .attr("fill", "url(#pattern_party_avatar" + selectedPerson.Party?.Id + ")")
-
-      // }
-
 
       root.eachBefore(d => {
         if (d.parent) {
@@ -296,21 +281,12 @@ const CompanyToPersonRelationChart = (props: Props) => {
         if (d.depth > 0) d.children = undefined;
       });
 
-      console.log(root);
+      // console.log(root);
 
       setDataSet(root)
     }
 
   }, [selectedPerson, selectedCompany])
-
-
-  const handleClickNode = (d: NodeLink) => {
-    // setSelectedCompany(d.data.companyData!)
-    if (d.height !== 0) {
-      d.children = d.children ? undefined : d._children
-
-    }
-  }
 
   React.useEffect(() => {
     function updateSize() {

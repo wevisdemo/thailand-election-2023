@@ -1,8 +1,9 @@
 import dynamic from 'next/dynamic';
+import { LoadingScreen } from '../components/section3/Loading';
 
-const Section1 = dynamic(() => import('../components/section1'));
-const Section2 = dynamic(() => import('../components/section2'));
-const Section3 = dynamic(() => import('../components/section3'));
+const Section1 = dynamic(() => import('../components/section1'), { loading: () => <LoadingScreen /> });
+const Section2 = dynamic(() => import('../components/section2'), { loading: () => <LoadingScreen /> });
+const Section3 = dynamic(() => import('../components/section3'), { loading: () => <LoadingScreen /> });
 
 export default function Home() {
   return (

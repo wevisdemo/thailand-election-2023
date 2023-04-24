@@ -91,7 +91,7 @@ const TreeMapChart: React.FunctionComponent = () => {
 
       const root = dataSet
 
-      console.log(root);
+      // console.log(root);
 
       const svg = d3.select(svgRef.current);
       const w = Number(svgRef.current!.parentElement?.clientWidth);
@@ -122,17 +122,11 @@ const TreeMapChart: React.FunctionComponent = () => {
       // setup leave
       const leaves = root.leaves();
 
-      console.log('leaves', leaves);
+      // console.log('leaves', leaves);
 
       const chartArea = svg.select('.chart-area').style("overflow", "hidden")
       // .attr('transform', `translate(${WIDTH * .5},${HEIGHT * .5})`)
-
-
-
       // Compute the treemap layout.
-
-
-
       d3.treemap<NodeLinkType>()
         .tile(d3.treemapBinary)
         .size([WIDTH, HEIGHT])
@@ -144,7 +138,7 @@ const TreeMapChart: React.FunctionComponent = () => {
         .round(true)
         (root);
 
-      console.log(root);
+      // console.log(root);
 
       const node = chartArea.selectAll("g")
         .data(leaves)
