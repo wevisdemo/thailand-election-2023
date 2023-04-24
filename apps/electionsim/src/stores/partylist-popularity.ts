@@ -32,19 +32,35 @@ const createPartylistPopularityStore = () => {
 				`${base}/data/${mapPollCsv[input.quiz6]}`
 			)) as RawPollRecord[];
 
-			const totalKnownPartyRepresentatives = pollData.reduce(
-				(sum, { popularity }) => sum + +popularity,
+			const pointsPerRepresentative =
+				pollData.reduce((sum, { popularity }) => sum + +popularity, 0) /
+				EXPECTED_PARTYLIST_REPRESENTATIVE;
+
+			const partyPoints = pollData
+				.map(({ party, popularity }) => ({
+					party: $party.map.get(party) as Party,
+					representatives: Math.floor(+popularity / pointsPerRepresentative),
+					remainder: +popularity % pointsPerRepresentative,
+				}))
+				.sort((a, z) => z.remainder - a.remainder);
+
+			const currentPresentatives = partyPoints.reduce(
+				(sum, { representatives }) => sum + representatives,
 				0
 			);
 
+			for (
+				let i = 0;
+				i < EXPECTED_PARTYLIST_REPRESENTATIVE - currentPresentatives;
+				i++
+			) {
+				partyPoints[i].representatives++;
+			}
+
 			update(() =>
-				pollData.map<PartylistRecord>(({ party, popularity }) => ({
-					party: $party.map.get(party) as Party,
-					representatives: Math.round(
-						(+popularity * EXPECTED_PARTYLIST_REPRESENTATIVE) /
-							totalKnownPartyRepresentatives
-					),
-				}))
+				partyPoints
+					.map(({ remainder, ...rest }) => rest)
+					.sort((a, z) => z.representatives - a.representatives)
 			);
 		},
 	};
