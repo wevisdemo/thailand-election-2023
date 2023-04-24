@@ -59,7 +59,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr("height", HEIGHT)
         .attr("transform", `translate(${MARGIN.LEFT}, ${MARGIN.TOP})`)
 
-      const radius = WIDTH * .4
+      const radius = WIDTH * .35
       const nodeRadius = 40
       // WIDTH > 400 ? 40 : 20
       const tree = d3.tree<NodeLink>().size([2 * Math.PI, radius])
@@ -324,7 +324,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
   }, []);
 
   return (
-    <div className="w-full h-full max-w-[800px] mx-auto relative" ref={chartRef}>
+    <div className="w-full h-full max-w-[800px] mx-auto relative desktop:ml-[calc(95vw-800px)]" ref={chartRef}>
       <svg ref={svgRef}>
         <g className="chart-margin">
           <g className="x-axis" />

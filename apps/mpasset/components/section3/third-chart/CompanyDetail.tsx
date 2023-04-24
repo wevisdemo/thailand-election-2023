@@ -74,17 +74,18 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
       rounded-[10px] py-[10px] px-[15px]
       border-black border-[3px]
       gap-y-[5px] gap-x-[10px]
-      ${!open ? 'top-[calc(100%-105px)]' : 'top-[58px]'}
+      ${!open ? 'top-[calc(100%-105px)] desktop:top-[58px]' : 'top-[58px]'}
       transition-all
       h-header
       bg-white
       overflow-y-scroll 
       scrollbar-hide
       pb-[100px]
+      max-w-[480px]
       `}>
       <div className='flex flex-row justify-between items-center mb-[10.5px]'>
         <div className='flex-shrink truncate typo-h7 font-bold text-kondolar leadin-[140%]'>{selectedCompany?.company_name_th}</div>
-        <div className='flex-grow'>
+        <div className='flex-grow desktop:hidden'>
           <div className='flex flex-row flex-nowrap justify-end gap-x-[9px]'>
             <div className='whitespace-nowrap'>สองเพิ่มเติม</div>
             <svg className='cursor-pointer'
@@ -101,7 +102,7 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
         <div className={`flex flex-row gap-x-[10px] ${!open ? 'visible block' : 'none hidden'}
           items-center min-h-[50px]`}>
           <div className='w-[40px] h-[40px] flex flex-col px-[7px] py-[5px] rounded-full border-[2px] border-black items-center text-center'>
-            <div className='typo-ibmplex typo-b7 font-bold'>{relatedCompanyToGovernmentCount.countShareholder}</div>
+            <div className='typo-ibmplex typo-b7 font-bold leading-[100%]'>{relatedCompanyToGovernmentCount.countShareholder}</div>
             <div className='typo-ibmplex typo-b7'>คน</div>
           </div>
           <div>

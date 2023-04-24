@@ -11,7 +11,7 @@ type Props = {
 }
 
 const MainNav = ({ width, height, onScroll }: Props) => {
-  const { personOutlier, filterPerson, setSelectedPerson } = usePersonStore()
+  const { filterPerson, setSelectedPerson } = usePersonStore()
   const handleScroll = (e: React.UIEvent<HTMLDivElement, UIEvent>) => {
     onScroll({
       scrollHeight: e.currentTarget.scrollHeight,
@@ -32,7 +32,6 @@ const MainNav = ({ width, height, onScroll }: Props) => {
       let [minPct, maxPct] = d3.extent(filterPerson, (d) => d.totalPctShare)
 
       const personData = [
-        // ...personOutlier.map((d) => ({ ...d, totalPctShare: maxPct || 100 })),
         ...filterPerson.map((d) => ({ ...d }))
       ]
 
@@ -195,7 +194,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
 
 
     }
-  }, [filterPerson, height, width, setSelectedPerson, personOutlier])
+  }, [filterPerson, height, width, setSelectedPerson])
 
   return (
     <div className={`overflow-y-scroll overflow-x-hidden relative

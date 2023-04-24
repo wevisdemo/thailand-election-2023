@@ -9,6 +9,7 @@ const PEOPLE_VIEW_ID = '572c5e5c-a3d8-440f-9a70-3c4c773543ec';
 interface ImageAttachment {
 	title: string;
 	url: string;
+	path: string;
 	mimetype: string;
 }
 
@@ -53,7 +54,7 @@ export interface NestedPeoplePartyHistory {
 	};
 }
 
-export const fetchFromThetWork = async (): Promise<{
+export const fetchFromTheyWork = async (): Promise<{
 	party: Party[];
 	people: Person[];
 }> => {
@@ -64,10 +65,14 @@ export const fetchFromThetWork = async (): Promise<{
 
 	party.forEach((p) => {
 		if (p.Images && p.Images.length) {
-			if (Array.isArray(p.Images)) p.Images = p.Images[0].url;
+			if (Array.isArray(p.Images))
+				p.Images =
+					p.Images[0].url ||
+					`https://sheets.wevis.info/${p.Images[0].path}` ||
+					null;
 		}
 	});
-	party = party.filter((p) => p.IsActive === true);
+	// party = party.filter((p) => p.IsActive === true);
 
 	console.log(`Fetch People`);
 	let people = await fetchAllRows<Person>(PEOPLE_VIEW_ID, {
@@ -78,7 +83,11 @@ export const fetchFromThetWork = async (): Promise<{
 
 	people.forEach((p) => {
 		if (p.Images && p.Images.length) {
-			if (Array.isArray(p.Images)) p.Images = p.Images[0].url;
+			if (Array.isArray(p.Images))
+				p.Images =
+					p.Images[0].url ||
+					`https://sheets.wevis.info/${p.Images[0].path}` ||
+					null;
 			if (Array.isArray(p.PeoplePartyHistory)) {
 				p.Party = p.PeoplePartyHistory[p.PeoplePartyHistory.length - 1]?.Party;
 				delete p.PeoplePartyHistory;

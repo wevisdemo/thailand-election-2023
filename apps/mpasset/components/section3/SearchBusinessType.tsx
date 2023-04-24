@@ -19,10 +19,38 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
   const [searchResult, setSearchResult] = React.useState<BusinessType[]>([])
   const [maxCount, setMaxCount] = React.useState(100)
 
-  const { setSelectedBusinessType } = usePersonStore()
+  const { selectedDataSet, setSelectedBusinessType } = usePersonStore()
 
   const fetchFromGit = React.useCallback(async () => {
     await d3.csv<CompanyTypeCount[] & string>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/company_type_count.csv').then((value) => {
+      const data = value.slice(0, value.length) as CompanyTypeCount[]
+      if (data) {
+        data.forEach((d) => {
+          d.type = String(d.type)
+          d.count = Number(d.count)
+        })
+
+        const maxCount = d3.max(data, (d) => d.count) || 100
+        setMaxCount(maxCount)
+
+        const processData = BusinessTypeData.map((p) => {
+          const count = data.find((d) => d.type === p.code)?.count || 0
+          const percentage = count / maxCount * 100
+          return {
+            ...p,
+            count,
+            percentage
+          }
+        })
+
+        setBusinessData(processData)
+        setSearchResult(processData)
+      }
+    })
+  }, [])
+
+  const fetchFromGitYourCandidate = React.useCallback(async () => {
+    await d3.csv<CompanyTypeCount[] & string>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/company_type_count.csv').then((value) => {
       const data = value.slice(0, value.length) as CompanyTypeCount[]
       if (data) {
         data.forEach((d) => {
@@ -60,8 +88,11 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
   }, [searchTerm, businessData])
 
   React.useEffect(() => {
-    fetchFromGit()
-  }, [fetchFromGit])
+    if (selectedDataSet == 'นักการเมือง 62')
+      fetchFromGit()
+    else
+      fetchFromGitYourCandidate()
+  }, [fetchFromGit, fetchFromGitYourCandidate, selectedDataSet])
 
   return (
     <div className={`absolute inset-0 overflow-x-hidden overflow-y-scroll 

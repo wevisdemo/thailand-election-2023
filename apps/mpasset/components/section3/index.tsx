@@ -46,6 +46,7 @@ const Section3 = (props: Props) => {
     const party = await TheyWorkForUs.Parties.fetch();
     setParty(party.list)
   }, [setParty])
+
   const fetchFromGit = React.useCallback(async () => {
     await d3.json<PersonCustom[]>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/people.json').then((value) => {
       if (value) {
@@ -69,16 +70,26 @@ const Section3 = (props: Props) => {
   const fetchFromGitYourCandidate = React.useCallback(async () => {
     await d3.json<PersonCustom[]>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/people.json').then((value) => {
       if (value) {
+        value.forEach((d) => {
+          d.totalValueShare = d.totalValueShare || 0,
+            d.countCompShare = d.countCompShare || 0,
+            d.countDirector = d.countDirector || 0,
+            d.totalPctShare = d.totalPctShare || 0
+        })
+        value.forEach((d) => {
+          d.totalPctShare = (d.totalPctShare > 30 ? 30 : d.totalPctShare)
+        })
         let sortArray = value.sort((a, b) => b.totalPctShare - a.totalPctShare)
         sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
+        sortArray = placeZerosAtEnd(value, 'totalValueShare', 'countDirector')
         // console.log('fetch from git');
         // const outlier = sortArray.slice(0, 1)
         // setPersonOutlier(sortArray.slice(0, 1))
-        setYourCandidatePerson(sortArray.map((d) => ({ ...d, totalPctShare: d.totalPctShare > 30 ? 30 : d.totalPctShare })))
-        // setFilterPerson(sortArray)
+        setYourCandidatePerson(sortArray)
+        setFilterPerson(sortArray)
       }
     })
-  }, [setYourCandidatePerson])
+  }, [setYourCandidatePerson, setFilterPerson])
 
   React.useEffect(() => {
     let ignore = false;
@@ -87,6 +98,7 @@ const Section3 = (props: Props) => {
         fetchFromGit()
         fetchFromTheyWork()
         fetchFromGitYourCandidate()
+        setIsLoading(false)
       }
     } else
       setIsLoading(false)

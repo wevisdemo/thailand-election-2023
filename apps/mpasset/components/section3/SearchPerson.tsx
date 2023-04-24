@@ -9,7 +9,7 @@ type Props = {
 }
 
 const SearchPerson = ({ open, onClose }: Props) => {
-  const { person, setSelectedPerson } = usePersonStore()
+  const { person, yourCandidatePerson, selectedDataSet, setSelectedPerson } = usePersonStore()
 
   const [searchTerm, setSearchTerm] = React.useState("")
   const [searchResult, setSearchResult] = React.useState<PersonCustom[]>(person)
@@ -17,16 +17,18 @@ const SearchPerson = ({ open, onClose }: Props) => {
 
 
   React.useEffect(() => {
-    if (person.length > 0) {
+    if (person.length > 0 && yourCandidatePerson.length > 0) {
+      const data = selectedDataSet === 'นักการเมือง 62' ? person : yourCandidatePerson
       if (searchTerm !== "") {
-        const result = person.filter((data) => data.Name.includes(searchTerm))
+
+        const result = data.filter((data, i) => i < 40 && data.Name.includes(searchTerm))
         if (typeof result === "object")
           setSearchResult(result)
       } else {
-        setSearchResult(person)
+        setSearchResult(data)
       }
     }
-  }, [searchTerm, person])
+  }, [searchTerm, person, yourCandidatePerson, selectedDataSet])
 
   return (
     <div className={`absolute inset-0 overflow-x-hidden overflow-y-scroll 
@@ -53,8 +55,8 @@ const SearchPerson = ({ open, onClose }: Props) => {
         </div>
       </div>
       <div className='flex flex-col divide-y-2 divide-gray-3 divide-dashed'>
-        {searchResult.map((data) => (
-          <button key={`search-result-${data.Id}`}
+        {searchResult.map((data, i) => (
+          <button key={`search-result-${data.Id}-${i}`}
             className="py-[5.5px] px-[20px] w-full text-left"
             onClick={() => {
               setSelectedPerson(data);

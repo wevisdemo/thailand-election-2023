@@ -39,18 +39,25 @@ const PersonDetail = ({ open, onToggle }: Props) => {
     setDirectorData,
     directorData,
     setShareholderData,
-    shareholderData
+    shareholderData,
+    selectedDataSet,
   } = usePersonStore()
 
   const fetchFromGit = React.useCallback(async (name: string) => {
     if (selectedPerson) {
       const promises: Promise<CredenData[] | undefined>[] = []
 
-      if (selectedPerson.countDirector > 0)
-        promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/director/${name}.json`))
-      if (selectedPerson.countCompShare > 0)
-        promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/shareholder/${name}.json`))
-
+      if (selectedDataSet === 'นักการเมือง 62') {
+        if (selectedPerson.countDirector > 0)
+          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/director/${name}.json`))
+        if (selectedPerson.countCompShare > 0)
+          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/shareholder/${name}.json`))
+      } else {
+        if (selectedPerson.countDirector > 0)
+          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/creden/director/${name}.json`))
+        if (selectedPerson.countCompShare > 0)
+          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/creden/shareholder/${name}.json`))
+      }
       await Promise.all(promises).then((value) => {
         const directorData = value[0]
         const shareholderData = value[1]
@@ -60,7 +67,7 @@ const PersonDetail = ({ open, onToggle }: Props) => {
 
       }).catch((err) => console.log(err))
     }
-  }, [setDirectorData, setShareholderData, selectedPerson])
+  }, [setDirectorData, setShareholderData, selectedPerson, selectedDataSet])
 
   React.useEffect(() => {
     if (selectedPerson) {
@@ -88,15 +95,16 @@ const PersonDetail = ({ open, onToggle }: Props) => {
       rounded-[10px] py-[10px] px-[15px]
       border-black border-[3px]
       gap-y-[5px] gap-x-[10px]
-      ${!open ? 'top-[calc(100%-105px)]' : 'top-[58px]'}
+      ${!open ? 'top-[calc(100%-105px)] desktop:top-[58px]' : 'top-[58px]'}
       transition-all
       h-header
       bg-white
+      max-w-[480px]
       `}>
       <div>
-        <div className='flex flex-row justify-between items-center mb-[10.5px]'>
+        <div className='flex flex-row justify-between items-center'>
           <div className='typo-h7 font-bold text-kondolar leadin-[140%]'>{selectedPerson?.Name}</div>
-          <div>
+          <div className='desktop:hidden'>
             <div className='flex flex-row gap-x-[9px]'>
               <div>สองเพิ่มเติม</div>
               <svg className='cursor-pointer'
@@ -142,9 +150,10 @@ const PersonDetail = ({ open, onToggle }: Props) => {
         }} />
         <div className='flex flex-col gap-y-[5px]'>
           <div className='flex flex-row gap-x-[5px]'>
-            {selectedPerson?.IsActive && !selectedPerson.IsSenator && !selectedPerson.IsCabinet && <Tag>ผู้สมัคร 66</Tag>}
+            {selectedDataSet === 'ผู้สมัคร 66' && <Tag>ผู้สมัคร 66</Tag>}
+            {selectedDataSet === 'ผู้สมัคร 66' && selectedPerson?.IsPmCandidate && <Tag>แคนดิเดต นายก</Tag>}
+            {selectedDataSet === 'นักการเมือง 62' && !selectedPerson?.IsCabinet && !selectedPerson?.IsSenator && <Tag>ส.ส.62</Tag>}
             {selectedPerson?.IsCabinet && <Tag>ค.ร.ม.</Tag>}
-            {selectedPerson?.IsMp && <Tag>ส.ส.62</Tag>}
             {selectedPerson?.IsSenator && <Tag>ส.ว.</Tag>}
           </div>
           <div className='flex flex-row gap-[5px]

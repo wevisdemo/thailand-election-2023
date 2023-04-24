@@ -69,7 +69,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         .attr("height", HEIGHT)
         .attr("transform", `translate(${MARGIN.LEFT}, ${MARGIN.TOP})`)
 
-      const radius = WIDTH * .4
+      const radius = WIDTH * .35
       const nodeRadius = WIDTH > 400 ? 40 : 20
       const tree = d3.tree<NodeLink>().size([2 * Math.PI, radius])
         .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth)
@@ -325,7 +325,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
   }, []);
 
   return (
-    <div className="w-full h-full max-w-[800px] mx-auto relative" ref={chartRef}>
+    <div className="w-full h-full max-w-[800px] mx-auto relative desktop:ml-[calc(95vw-800px)]" ref={chartRef}>
       <svg ref={svgRef}>
         <g className="chart-margin">
           <g className="x-axis" />

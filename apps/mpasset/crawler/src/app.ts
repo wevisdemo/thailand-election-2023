@@ -1,7 +1,7 @@
 import {
 	Person,
 	fetchDirectorData,
-	fetchFromThetWork,
+	fetchFromTheyWork,
 	fetchShareholderData,
 } from './scraper';
 
@@ -13,7 +13,7 @@ import {
 import * as fs from 'fs';
 
 const run62 = async () => {
-	let { party, people } = await fetchFromThetWork();
+	let { party, people } = await fetchFromTheyWork();
 
 	fs.writeFileSync('./public/data/raw_party.json', JSON.stringify(party));
 	fs.writeFileSync('./public/data/raw_people.json', JSON.stringify(people));
@@ -34,15 +34,15 @@ const run62 = async () => {
 };
 
 const run66 = async () => {
-	// let { party } = await fetchFromThetWork();
+	// let { party } = await fetchFromTheyWork();
 
 	// fs.writeFileSync('./public/data/raw_party.json', JSON.stringify(party));
 	// fs.writeFileSync('./public/data/raw_people.json', JSON.stringify(people));
 
 	// from local
-	// let party = JSON.parse(
-	// 	String(fs.readFileSync('./public/data/raw_party.json'))
-	// );
+	let party = JSON.parse(
+		String(fs.readFileSync('./public/data/raw_party.json'))
+	);
 	const people = JSON.parse(
 		String(
 			fs.readFileSync('./public/data/yourcandidate/process/all-person.json')
@@ -63,5 +63,6 @@ const run66 = async () => {
 	}
 };
 
-// run62();
+// runTheyWork();
+run62();
 run66();

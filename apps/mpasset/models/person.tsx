@@ -9,6 +9,7 @@ export interface PersonCustom {
   IsSenator: boolean;
   IsActive: boolean;
   IsCabinet: boolean;
+  IsPmCandidate?: boolean;
   MpType: string;
   MpProvince: string | null;
   MpZone: string | null;

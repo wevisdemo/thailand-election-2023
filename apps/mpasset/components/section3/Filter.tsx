@@ -1,11 +1,12 @@
 import React from 'react'
 import { SortAsc, SortDesc } from '../util/action'
-import { Information, Shuffle } from '../util/icon-main'
+import { Clear, Information, Shuffle } from '../util/icon-main'
 import InfoDialog from './first-chart/InfoDialog'
 import SearchBusinessType from './SearchBusinessType'
 import SearchParty from './SearchParty'
 import { usePersonStore } from '../../store/person'
 import { BusinessTypeData } from '../../models/business'
+import SelectDataset from './SelectDataset'
 
 export type SelectedFilterType = {
   dataSet: string | 'ผู้สมัคร 66',
@@ -30,9 +31,10 @@ const Filter = ({ onOpenSeachDialog }: Props) => {
   const [isOpenInfoDialog, setIsOpenInfoDialog] = React.useState(false)
   const [isOpenSearchBusinessType, setIsOpenSearchBusinessType] = React.useState(false)
   const [isOpenSearchParty, setIsOpenSearchParty] = React.useState(false)
+  const [isOpenSelectDataset, setIsOpenSelectDataset] = React.useState(false)
 
   const { selectedBusinessType, selectedParty, selectedSort,
-    party, setSelectedParty,
+    party, setSelectedParty, selectedDataSet,
     toggleSort, setSelectedBusinessType } = usePersonStore()
 
   return (
@@ -57,11 +59,17 @@ const Filter = ({ onOpenSeachDialog }: Props) => {
         }}>
           <Shuffle />
         </button>
+        <button onClick={() => {
+          setSelectedBusinessType(BusinessTypeData[0])
+          setSelectedParty(null)
+        }}>
+          <Clear />
+        </button>
       </div>
       <div className='flex flex-col tablet:flex-row gap-y-[5px] typo-b5 typo-ibmplex ml-[10px]'>
         <div className='flex flex-row gap-x-[5px] items-center w-auto overflow-x-scroll scrollbar-hide pr-[10px]'>
           <div className='shrink-0'>รายชื่อของ</div>
-          <SelectedFilterButton wording={'ผู้สมัคร 66'} />
+          <SelectedFilterButton wording={selectedDataSet} onClick={() => setIsOpenSelectDataset(true)} />
           <div className='shrink-0'>ที่มีมูลค่าหุ้น</div>
           <button onClick={() => setIsOpenInfoDialog(true)}>
             <Information />
@@ -87,6 +95,7 @@ const Filter = ({ onOpenSeachDialog }: Props) => {
       <InfoDialog open={isOpenInfoDialog} onClose={() => setIsOpenInfoDialog(false)} />
       <SearchBusinessType open={isOpenSearchBusinessType} onClose={() => setIsOpenSearchBusinessType(false)} />
       <SearchParty open={isOpenSearchParty} onClose={() => setIsOpenSearchParty(false)} />
+      <SelectDataset open={isOpenSelectDataset} onClose={() => setIsOpenSelectDataset(false)} />
     </div>
   )
 }
