@@ -11,6 +11,9 @@ export default function App({ Component, pageProps }: AppProps) {
 			<SafeHydrate>
 				<Component {...pageProps} />
 			</SafeHydrate>
+			{process.env.NODE_ENV !== 'development' && (
+				<election-cookie></election-cookie>
+			)}
 		</>
 	);
 }
