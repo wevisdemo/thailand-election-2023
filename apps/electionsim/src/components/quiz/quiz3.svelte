@@ -26,7 +26,7 @@
 	<div>
 		<p class="typo-h7 text-xl">#3: Strategic Voting</p>
 		<h6 class="typo-h6 font-bold">
-			จากกระแส Strategic Voting ระหว่าง<span class="party-text-pt"
+			จากกระแสการโหวตเชิงยุทธศาสตร์ระหว่าง<span class="party-text-pt"
 				>พรรคเพื่อไทย</span
 			>และ<span class="party-text-kk">พรรคก้าวไกล</span>
 			คุณคิดว่าผลโหวตจะถูกเทไปทางใด?
