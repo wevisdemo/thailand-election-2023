@@ -26,13 +26,13 @@
 		<h6 class="typo-h6 font-bold">
 			คุณคิดว่าโพลสำนักไหนจะคาดการณ์คะแนนนิยมของพรรคได้แม่นยำที่สุด?
 		</h6>
-		<span
+		<button
 			class="flex items-center space-x-2 cursor-pointer"
 			on:click={toggleIsInfoOpen}
 		>
-			<h4 class="typo-b4 text-blue underline text-byx-blue">
+			<span class="typo-b4 text-blue underline text-byx-blue">
 				เรื่องนี้มีผลอย่างไร?
-			</h4>
+			</span>
 			<svg
 				width="14"
 				height="14"
@@ -47,20 +47,20 @@
 					fill="#0000FF"
 				/>
 			</svg>
-		</span>
+		</button>
 	</div>
 	<div class="w-full flex flex-col items-center my-10">
 		<div
 			class="w-full flex flex-col items-center justify-between mt-1 space-y-4"
 		>
-			<div
+			<button
 				class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {ans ==
 				PollAns.Nida
 					? 'beyondx-gradient-bg text-white'
 					: ''}"
 				on:click={() => input.updateQuize6(PollAns.Nida)}
 			>
-				<div class="flex-1">
+				<div class="flex-1 text-left">
 					<h3 class="typo-b3 font-bold">นิด้าโพล</h3>
 					<h3 class="typo-b3">(สำรวจเมื่อ XX X.X. XX)</h3>
 				</div>
@@ -78,15 +78,15 @@
 						fill={ans == PollAns.Nida ? '#fff' : '#161616'}
 					/>
 				</svg>
-			</div>
-			<div
+			</button>
+			<button
 				class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {ans ==
 				PollAns.Dusit
 					? 'beyondx-gradient-bg text-white'
 					: ''}"
 				on:click={() => input.updateQuize6(PollAns.Dusit)}
 			>
-				<div class="flex-1">
+				<div class="flex-1 text-left">
 					<h3 class="typo-b3 font-bold">สวนดุสิตโพล</h3>
 					<h3 class="typo-b3">(สำรวจเมื่อ XX X.X. XX)</h3>
 				</div>
@@ -104,15 +104,15 @@
 						fill={ans == PollAns.Dusit ? '#fff' : '#161616'}
 					/>
 				</svg>
-			</div>
-			<div
+			</button>
+			<button
 				class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {ans ==
 				PollAns.Thairath
 					? 'beyondx-gradient-bg text-white'
 					: ''}"
 				on:click={() => input.updateQuize6(PollAns.Thairath)}
 			>
-				<div class="flex-1">
+				<div class="flex-1 text-left">
 					<h3 class="typo-b3 font-bold">ไทยรัฐโพล</h3>
 					<h3 class="typo-b3">(สำรวจเมื่อ XX X.X. XX)</h3>
 				</div>
@@ -130,15 +130,15 @@
 						fill={ans == PollAns.Thairath ? '#fff' : '#161616'}
 					/>
 				</svg>
-			</div>
-			<div
+			</button>
+			<button
 				class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {ans ==
 				PollAns.Prapok
 					? 'beyondx-gradient-bg text-white'
 					: ''}"
 				on:click={() => input.updateQuize6(PollAns.Prapok)}
 			>
-				<div class="flex-1">
+				<div class="flex-1 text-left">
 					<h3 class="typo-b3 font-bold">สถาบันประปกเกล้า</h3>
 					<h3 class="typo-b3">(สำรวจเมื่อ XX X.X. XX)</h3>
 				</div>
@@ -156,15 +156,15 @@
 						fill={ans == PollAns.Prapok ? '#fff' : '#161616'}
 					/>
 				</svg>
-			</div>
-			<div
+			</button>
+			<button
 				class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {ans ==
 				PollAns.Super
 					? 'beyondx-gradient-bg text-white'
 					: ''}"
 				on:click={() => input.updateQuize6(PollAns.Super)}
 			>
-				<div class="flex-1">
+				<div class="flex-1 text-left">
 					<h3 class="typo-b3 font-bold">ซุเปอร์โพล</h3>
 					<h3 class="typo-b3">(สำรวจเมื่อ XX X.X. XX)</h3>
 				</div>
@@ -182,7 +182,7 @@
 						fill={ans == PollAns.Super ? '#fff' : '#161616'}
 					/>
 				</svg>
-			</div>
+			</button>
 		</div>
 	</div>
 	<div class="w-full flex items-center justify-between space-x-5">

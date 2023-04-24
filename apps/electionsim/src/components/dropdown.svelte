@@ -11,7 +11,7 @@
 </script>
 
 <button
-	class="border border-black mt-2 w-full px-4 py-2 flex items-center justify-start relative"
+	class="border border-black mt-2 w-full px-4 py-2 flex items-center justify-start relative hover:opacity-100"
 	on:click={toggleOpen}
 >
 	<h3 class="typo-b3 font-bold flex-1 opacity-30 text-left">

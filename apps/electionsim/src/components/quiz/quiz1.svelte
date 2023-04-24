@@ -28,13 +28,13 @@
 		<h6 class="typo-h6 font-bold">
 			คุณคิดว่า คนไทยทุกๆ 10 คนจะเลือก ส.ส. เขตจากตัวบุคคลหรือพรรคอย่างละกี่คน?
 		</h6>
-		<span
+		<button
 			class="flex items-center space-x-2 cursor-pointer"
 			on:click={toggleIsInfoOpen}
 		>
-			<h4 class="typo-b4 text-blue underline text-byx-blue">
+			<span class="typo-b4 text-blue underline text-byx-blue">
 				เรื่องนี้มีผลอย่างไร?
-			</h4>
+			</span>
 			<svg
 				width="14"
 				height="14"
@@ -49,7 +49,7 @@
 					fill="#0000FF"
 				/>
 			</svg>
-		</span>
+		</button>
 	</div>
 	<div class="w-full flex flex-col items-center">
 		<div class="w-full max-w-[400px]">
@@ -62,49 +62,49 @@
 				</p>
 			</div>
 			<div class="w-full flex items-center justify-between mt-1">
-				<div
+				<button
 					class="border border-black w-10 h-10 rounded-full cursor-pointer {ans ==
 					ScaleAns.Scale0
 						? 'bg-byx-red'
 						: ''}"
 					on:click={() => input.updateQuize1(ScaleAns.Scale0)}
 				/>
-				<div
+				<button
 					class="border border-black w-9 h-9 rounded-full cursor-pointer {ans ==
 					ScaleAns.Scale10
 						? 'bg-byx-red'
 						: ''}"
 					on:click={() => input.updateQuize1(ScaleAns.Scale10)}
 				/>
-				<div
+				<button
 					class="border border-black w-8 h-8 rounded-full cursor-pointer {ans ==
 					ScaleAns.Scale30
 						? 'bg-byx-red'
 						: ''}"
 					on:click={() => input.updateQuize1(ScaleAns.Scale30)}
 				/>
-				<div
+				<button
 					class="border border-black w-7 h-7 rounded-full cursor-pointer {ans ==
 					ScaleAns.Scale50
 						? 'bg-byx-red'
 						: ''}"
 					on:click={() => input.updateQuize1(ScaleAns.Scale50)}
 				/>
-				<div
+				<button
 					class="border border-black w-8 h-8 rounded-full cursor-pointer {ans ==
 					ScaleAns.Scale70
 						? 'bg-byx-red'
 						: ''}"
 					on:click={() => input.updateQuize1(ScaleAns.Scale70)}
 				/>
-				<div
+				<button
 					class="border border-black w-9 h-9 rounded-full cursor-pointer {ans ==
 					ScaleAns.Scale90
 						? 'bg-byx-red'
 						: ''}"
 					on:click={() => input.updateQuize1(ScaleAns.Scale90)}
 				/>
-				<div
+				<button
 					class="border border-black w-10 h-10 rounded-full cursor-pointer {ans ==
 					ScaleAns.Scale100
 						? 'bg-byx-red'

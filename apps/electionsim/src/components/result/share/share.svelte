@@ -86,7 +86,7 @@
 	transition:fly={{ x: 400 }}
 >
 	<div class="flex w-full">
-		<a
+		<button
 			on:click={toggleIsShare}
 			class="flex items-center typo-b5 text-byx-blue mb-5 cursor-pointer mr-5"
 		>
@@ -105,7 +105,7 @@
 				/>
 			</svg>
 			ย้อนกลับ
-		</a>
+		</button>
 		<a
 			href="{base}/"
 			on:click={reset}

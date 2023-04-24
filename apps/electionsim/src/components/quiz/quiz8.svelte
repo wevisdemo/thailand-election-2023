@@ -72,49 +72,49 @@
 					<p class="typo-h7 text-xl">เปลี่ยนใจทุกคน</p>
 				</div>
 				<div class="w-full flex items-center justify-between mt-1">
-					<div
+					<button
 						class="border border-black w-10 h-10 rounded-full cursor-pointer {ans?.percent ==
 						ScaleAns.Scale0
 							? 'bg-byx-red'
 							: ''}"
 						on:click={() => input.updateQuize8Percent(ScaleAns.Scale0)}
 					/>
-					<div
+					<button
 						class="border border-black w-9 h-9 rounded-full cursor-pointer {ans?.percent ==
 						ScaleAns.Scale10
 							? 'bg-byx-red'
 							: ''}"
 						on:click={() => input.updateQuize8Percent(ScaleAns.Scale10)}
 					/>
-					<div
+					<button
 						class="border border-black w-8 h-8 rounded-full cursor-pointer {ans?.percent ==
 						ScaleAns.Scale30
 							? 'bg-byx-red'
 							: ''}"
 						on:click={() => input.updateQuize8Percent(ScaleAns.Scale30)}
 					/>
-					<div
+					<button
 						class="border border-black w-7 h-7 rounded-full cursor-pointer {ans?.percent ==
 						ScaleAns.Scale50
 							? 'bg-byx-red'
 							: ''}"
 						on:click={() => input.updateQuize8Percent(ScaleAns.Scale50)}
 					/>
-					<div
+					<button
 						class="border border-black w-8 h-8 rounded-full cursor-pointer {ans?.percent ==
 						ScaleAns.Scale70
 							? 'bg-byx-red'
 							: ''}"
 						on:click={() => input.updateQuize8Percent(ScaleAns.Scale70)}
 					/>
-					<div
+					<button
 						class="border border-black w-9 h-9 rounded-full cursor-pointer {ans?.percent ==
 						ScaleAns.Scale90
 							? 'bg-byx-red'
 							: ''}"
 						on:click={() => input.updateQuize8Percent(ScaleAns.Scale90)}
 					/>
-					<div
+					<button
 						class="border border-black w-10 h-10 rounded-full cursor-pointer {ans?.percent ==
 						ScaleAns.Scale100
 							? 'bg-byx-red'

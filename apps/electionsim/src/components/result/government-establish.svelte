@@ -135,11 +135,11 @@
 				</div>
 			{/if}
 			<div class="w-full h-[1px] bg-white opacity-40 mt-4" />
-			<span
+			<button
 				class="flex items-center justify-center my-5 cursor-pointer"
 				on:click={() => toggleSide()}
 			>
-				<h4 class="typo-b4 underline">สลับรัฐบาล/ฝ่ายค้าน</h4>
+				<span class="typo-b4 underline">สลับรัฐบาล/ฝ่ายค้าน</span>
 				<svg
 					width="20"
 					height="20"
@@ -167,7 +167,7 @@
 						</clipPath>
 					</defs>
 				</svg>
-			</span>
+			</button>
 			{#if governmentPoints <= PRIME_MISTER_POINT}
 				<div
 					class="w-full py-3 px-5 flex items-center mb-5"
@@ -222,7 +222,7 @@
 							<h5 class="typo-b5 opacity-70 flex-1 w-2/12 ml-6 md:ml-0">
 								{total}
 							</h5>
-							<span
+							<button
 								class="typo-b5 w-4/12 flex justify-end items-center cursor-pointer"
 								on:click={() => toggleSide(party.Name)}
 							>
@@ -253,8 +253,8 @@
 										</clipPath>
 									</defs>
 								</svg>
-								<p class="hidden md:block">เปลี่ยนขั้ว</p>
-							</span>
+								<span class="hidden md:block">เปลี่ยนขั้ว</span>
+							</button>
 						</div>
 					{/each}
 				</div>
@@ -272,7 +272,7 @@
 							class="flex items-center border-b border-opacity-40 pb-[10px] mt-[10px] flex-wrap-reverse"
 							style="border-color: rgba(255, 255, 255, 0.4);"
 						>
-							<span
+							<button
 								class="typo-b5 w-4/12 flex items-center cursor-pointer flex-1"
 								on:click={() => toggleSide(party.Name)}
 							>
@@ -303,8 +303,8 @@
 										</clipPath>
 									</defs>
 								</svg>
-								<p class="hidden md:block">เปลี่ยนขั้ว</p>
-							</span>
+								<span class="hidden md:block">เปลี่ยนขั้ว</span>
+							</button>
 							<h5 class="typo-b5 opacity-70 w-2/12 mr-6 md:mr-0">{total}</h5>
 							<span
 								class="typo-b5 w-full md:w-1/2 flex justify-end mb-2 md:mb-0 items-center"
@@ -322,13 +322,13 @@
 			<div
 				class="fixed bottom-0 left-0 right-0 w-full flex justify-center py-10 px-6 bg-gradient-to-t from-black"
 			>
-				<a
+				<button
 					on:click={toggleIsShare}
 					class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-full md:w-52 h-[50px] flex items-center justify-between font-bold m-auto mt-2 md:mt-10 cursor-pointer"
 				>
 					สรุปผล
 					<div class="border-1 border-t border-r w-2 h-2 rotate-45" />
-				</a>
+				</button>
 			</div>
 		{/if}
 	</div>

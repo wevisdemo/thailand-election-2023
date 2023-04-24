@@ -2,6 +2,7 @@
 	import electMap from '../../images/elect-map.svg';
 	import compareChart from '../../images/compare-chart.png';
 	import { Content, contentManager } from '../../stores/content';
+	import { slide } from 'svelte/transition';
 
 	let isInfor1Open = false;
 	let isInfor2Open = false;
@@ -38,14 +39,14 @@
 			<span class="beyonx-text-gradient">เลือกคนที่รัก เลือกพรรคที่ชอบ</span>
 		</b>
 	</h7>
-	<span
+	<button
 		class="flex items-center space-x-1 cursor-pointer"
 		on:click={() => {
 			isInfor1Open = !isInfor1Open;
 		}}
 	>
 		{#if isInfor1Open}
-			<h4 class="typo-b4 text-blue underline text-byx-blue">ปิดส่วนนี้</h4>
+			<span class="typo-b4 text-blue underline text-byx-blue">ปิดส่วนนี้</span>
 			<svg
 				width="16"
 				height="17"
@@ -62,7 +63,9 @@
 				/>
 			</svg>
 		{:else}
-			<h4 class="typo-b4 text-blue underline text-byx-blue">อ่านเพิ่มเติม</h4>
+			<span class="typo-b4 text-blue underline text-byx-blue"
+				>อ่านเพิ่มเติม</span
+			>
 			<svg
 				width="16"
 				height="17"
@@ -78,21 +81,24 @@
 				/>
 			</svg>
 		{/if}
-	</span>
+	</button>
 	{#if isInfor1Open}
-		<p class="typo-b4 mt-5">
-			การเลือกตั้ง 66 มีการเปลี่ยนแปลงกติกาหลักๆ จากปี 62 คือการ <b
-				>กลับไปใช้ระบบบัตร 2 ใบ</b
-			>
-			แบบ “เลือกคนที่รัก เลือกพรรคที่ชอบ” คล้ายกติกาปี 40 ที่มีโควตาสำหรับจำนวน ส.ส.
-			เขตและ ส.ส. บัญชีรายชื่อแยกจากกันชัดเจน
-		</p>
-		<p class="typo-b4 mt-5">
-			ในการปรับฐานนี้ เราจะเรานำกติกาของการเลือกตั้งปี 66
-			ไปลองใช้กับข้อมูลคะแนนเสียงจากปี 62 โดย<b>
-				สมมติว่าทุกคนกาบัตรเลือกตั้งทั้งสองใบเหมือนกับที่กาบัตรใบเดียวเมื่อปี 62
-			</b> และลองคำนวณผลใหม่ตามกติกาการเลือกตั้งปี 66
-		</p>
+		<div transition:slide>
+			<p class="typo-b4 mt-5">
+				การเลือกตั้ง 66 มีการเปลี่ยนแปลงกติกาหลักๆ จากปี 62 คือการ <b
+					>กลับไปใช้ระบบบัตร 2 ใบ</b
+				>
+				แบบ “เลือกคนที่รัก เลือกพรรคที่ชอบ” คล้ายกติกาปี 40 ที่มีโควตาสำหรับจำนวน
+				ส.ส. เขตและ ส.ส. บัญชีรายชื่อแยกจากกันชัดเจน
+			</p>
+			<p class="typo-b4 mt-5">
+				ในการปรับฐานนี้ เราจะเรานำกติกาของการเลือกตั้งปี 66
+				ไปลองใช้กับข้อมูลคะแนนเสียงจากปี 62 โดย<b>
+					สมมติว่าทุกคนกาบัตรเลือกตั้งทั้งสองใบเหมือนกับที่กาบัตรใบเดียวเมื่อปี
+					62
+				</b> และลองคำนวณผลใหม่ตามกติกาการเลือกตั้งปี 66
+			</p>
+		</div>
 	{/if}
 
 	<hr class="my-10" />
@@ -104,14 +110,14 @@
 			<span class="beyonx-text-gradient">400 เขต </span>
 		</b>
 	</h7>
-	<span
+	<button
 		class="flex items-center space-x-1 cursor-pointer"
 		on:click={() => {
 			isInfor2Open = !isInfor2Open;
 		}}
 	>
 		{#if isInfor2Open}
-			<h4 class="typo-b4 text-blue underline text-byx-blue">ปิดส่วนนี้</h4>
+			<span class="typo-b4 text-blue underline text-byx-blue">ปิดส่วนนี้</span>
 			<svg
 				width="16"
 				height="17"
@@ -128,7 +134,9 @@
 				/>
 			</svg>
 		{:else}
-			<h4 class="typo-b4 text-blue underline text-byx-blue">อ่านเพิ่มเติม</h4>
+			<span class="typo-b4 text-blue underline text-byx-blue"
+				>อ่านเพิ่มเติม</span
+			>
 			<svg
 				width="16"
 				height="17"
@@ -144,26 +152,28 @@
 				/>
 			</svg>
 		{/if}
-	</span>
+	</button>
 	{#if isInfor2Open}
-		<p class="typo-b4 mt-5">
-			ความเปลี่ยนแปลงอีกอย่างในการเลือกตั้ง 66 ปีนี้คือจำนวน ส.ส. เขต
-			ที่เพิ่มจำนวน<b>จาก 350 คน เป็น 400 คน</b>
-			ทำให้ต้องมีการแบ่งเขตเลือกตั้งใหม่
-		</p>
-		<p class="typo-b4 mt-5">
-			ในแบบจำลองนี้ เราจะนำผลการเลือกตั้งปี 62
-			มาประมาณเป็นฐานการคำนวณใหม่สำหรับแบบจำลองผลเลือกตั้งปี 66 ด้วยวิธีดังนี้
-		</p>
-		<ol class="pl-5 list-decimal mt-5">
-			<li>ดูผลคะแนนการเลือกตั้งจากปี 62 ย่อยลงไปในระดับตำบล</li>
-			<li>นำคะแนนของแต่ละตำบลมารวมกันตามเขตเลือกตั้งใหม่</li>
-			<li>คะแนนรวมที่ได้ให้เป็นผลจำลองคะแนนของเขตเลือกตั้งนั้น</li>
-		</ol>
-		<p class="typo-b4 mt-5">
-			ซึ่งวิธีนี้ อาจพบความคลาดเคลื่อนจากการแบ่งเขตเลือกตั้งปี 66
-			ที่มีการแบ่งบางตำบลออกเป็นหลายส่วน เนื่องจากตำบลเหล่านี้จะถูกนับซ้ำ
-		</p>
+		<div transition:slide>
+			<p class="typo-b4 mt-5">
+				ความเปลี่ยนแปลงอีกอย่างในการเลือกตั้ง 66 ปีนี้คือจำนวน ส.ส. เขต
+				ที่เพิ่มจำนวน<b>จาก 350 คน เป็น 400 คน</b>
+				ทำให้ต้องมีการแบ่งเขตเลือกตั้งใหม่
+			</p>
+			<p class="typo-b4 mt-5">
+				ในแบบจำลองนี้ เราจะนำผลการเลือกตั้งปี 62
+				มาประมาณเป็นฐานการคำนวณใหม่สำหรับแบบจำลองผลเลือกตั้งปี 66 ด้วยวิธีดังนี้
+			</p>
+			<ol class="pl-5 list-decimal mt-5">
+				<li>ดูผลคะแนนการเลือกตั้งจากปี 62 ย่อยลงไปในระดับตำบล</li>
+				<li>นำคะแนนของแต่ละตำบลมารวมกันตามเขตเลือกตั้งใหม่</li>
+				<li>คะแนนรวมที่ได้ให้เป็นผลจำลองคะแนนของเขตเลือกตั้งนั้น</li>
+			</ol>
+			<p class="typo-b4 mt-5">
+				ซึ่งวิธีนี้ อาจพบความคลาดเคลื่อนจากการแบ่งเขตเลือกตั้งปี 66
+				ที่มีการแบ่งบางตำบลออกเป็นหลายส่วน เนื่องจากตำบลเหล่านี้จะถูกนับซ้ำ
+			</p>
+		</div>
 	{/if}
 
 	<hr class="my-10" />
@@ -174,14 +184,14 @@
 			ครบทุกเขตเมื่อปี 62?
 		</b>
 	</h7>
-	<span
+	<button
 		class="flex items-center space-x-1 cursor-pointer"
 		on:click={() => {
 			isInfor3Open = !isInfor3Open;
 		}}
 	>
 		{#if isInfor3Open}
-			<h4 class="typo-b4 text-blue underline text-byx-blue">ปิดส่วนนี้</h4>
+			<span class="typo-b4 text-blue underline text-byx-blue">ปิดส่วนนี้</span>
 			<svg
 				width="16"
 				height="17"
@@ -198,7 +208,9 @@
 				/>
 			</svg>
 		{:else}
-			<h4 class="typo-b4 text-blue underline text-byx-blue">อ่านเพิ่มเติม</h4>
+			<span class="typo-b4 text-blue underline text-byx-blue"
+				>อ่านเพิ่มเติม</span
+			>
 			<svg
 				width="16"
 				height="17"
@@ -214,20 +226,23 @@
 				/>
 			</svg>
 		{/if}
-	</span>
+	</button>
 	{#if isInfor3Open}
-		<p class="typo-b4 mt-5">
-			ในการเลือกตั้งปี 62 พรรคไทยรักษาชาติ แยกตัวออกมาจากพรรคเพื่อไทย ทำให้
-			<b
-				>พรรคเพื่อไทยส่งผู้สมัครรับเลือกตั้ง ส.ส. เขต เพียง 258 เขต จาก 350 เขต</b
-			>
-		</p>
-		<p class="typo-b4 mt-5">
-			เพื่อสร้างแบบจำลองผลเลือกตั้ง 66 ที่แม่นยำขึ้น
-			เราจึงต้องประมาณการผลเลือกตั้ง 62 โดย<b
-				>สมมติว่าพรรคเพื่อไทยส่งผู้สมัครครบทุกเขตเลือกตั้ง</b
-			> โดยใช้วิธีประมาณคะแนนของพรรคเพื่อไทยในเขตที่ไม่ได้ลงสมัครจากเขตเลือกตั้งรอบข้างที่มีพรรคเพื่อไทยลงสมัครรับเลือกตั้ง
-		</p>
+		<div transition:slide>
+			<p class="typo-b4 mt-5">
+				ในการเลือกตั้งปี 62 พรรคไทยรักษาชาติ แยกตัวออกมาจากพรรคเพื่อไทย ทำให้
+				<b
+					>พรรคเพื่อไทยส่งผู้สมัครรับเลือกตั้ง ส.ส. เขต เพียง 258 เขต จาก 350
+					เขต</b
+				>
+			</p>
+			<p class="typo-b4 mt-5">
+				เพื่อสร้างแบบจำลองผลเลือกตั้ง 66 ที่แม่นยำขึ้น
+				เราจึงต้องประมาณการผลเลือกตั้ง 62 โดย<b
+					>สมมติว่าพรรคเพื่อไทยส่งผู้สมัครครบทุกเขตเลือกตั้ง</b
+				> โดยใช้วิธีประมาณคะแนนของพรรคเพื่อไทยในเขตที่ไม่ได้ลงสมัครจากเขตเลือกตั้งรอบข้างที่มีพรรคเพื่อไทยลงสมัครรับเลือกตั้ง
+			</p>
+		</div>
 	{/if}
 
 	<hr class="my-10" />
@@ -242,9 +257,7 @@
 		class="my-10 w-full max-w-[350px] mx-auto"
 	/>
 
-	<h4 class="typo-b4">
-		และนี่คือคะแนนตั้งต้นที่เราจะนำไปใช้คำนวณแบบจำลองต่อไป
-	</h4>
+	<p class="typo-b4">และนี่คือคะแนนตั้งต้นที่เราจะนำไปใช้คำนวณแบบจำลองต่อไป</p>
 
 	<div class="w-full mt-10 flex items-center justify-between space-x-5">
 		<button
