@@ -13,7 +13,6 @@ type Props = {
 const SelectDataset = ({ open, onClose }: Props) => {
   const { selectedDataSet, setSelectedDataSet } = usePersonStore()
 
-
   return (
     <div className={`absolute inset-0 overflow-x-hidden overflow-y-scroll 
       bg-white h-screen z-30
@@ -22,10 +21,10 @@ const SelectDataset = ({ open, onClose }: Props) => {
         <button onClick={() => onClose()}><Close /></button>
       </div>
       <div className='flex flex-row items-center px-[10px] gap-x-[8px] py-[5px]'>
-        <button onClick={() => { setSelectedDataSet('นักการเมือง 62'); onClose() }}>
+        <button onClick={() => { onClose(); setSelectedDataSet('นักการเมือง 62'); }}>
           <Tag selected={selectedDataSet === 'นักการเมือง 62'}>นักการเมือง 62</Tag>
         </button>
-        <button onClick={() => { setSelectedDataSet('ผู้สมัคร 66'); onClose(); }}>
+        <button onClick={() => { onClose(); setSelectedDataSet('ผู้สมัคร 66'); }}>
           <Tag selected={selectedDataSet === 'ผู้สมัคร 66'}>ผู้สมัคร 66</Tag>
         </button>
       </div>

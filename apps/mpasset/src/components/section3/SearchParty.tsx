@@ -56,7 +56,7 @@ const SearchParty = ({ open, onClose }: Props) => {
         <button key={`search-result-party-ทุกพรรค`}
           className=" w-full text-left py-[16px] px-[20px]
             relative"
-          onClick={() => { setSelectedParty(null); onClose() }}
+          onClick={() => { onClose(); setSelectedParty(null); }}
         >
           <div className=' flex flex-row justify-between '>
             <div className='flex flex-row'>
@@ -72,7 +72,7 @@ const SearchParty = ({ open, onClose }: Props) => {
           <button key={`search-result-party-${data.Name}`}
             className=" w-full text-left py-[16px] px-[20px]
             relative"
-            onClick={() => { setSelectedParty(data); onClose() }}
+            onClick={() => { onClose(); setSelectedParty(data); }}
           >
             <div className=' flex flex-row justify-between '>
               <div className='flex flex-row'>

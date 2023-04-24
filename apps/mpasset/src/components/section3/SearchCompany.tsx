@@ -52,8 +52,8 @@ const SearchPerson = ({ open, onClose }: Props) => {
           <button key={`search-result-${data.Id}`}
             className="py-[5.5px] px-[20px] w-full text-left"
             onClick={() => {
+              onClose();
               setSelectedPerson(data);
-              onClose()
             }}
           >
             <div className='typo-b4 typo-ibmplex leading-[150%]'>
