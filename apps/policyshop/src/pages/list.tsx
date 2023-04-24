@@ -145,7 +145,6 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 		const partyOptionMatch = partyOptions.find(
 			(option) => option.value === partyQuery
 		);
-		console.log('partyOptionMatch => ', partyOptionMatch);
 
 		if (partyQuery && partyOptionMatch) {
 			setSelectedParty(partyOptionMatch);
