@@ -14,6 +14,13 @@
 	import CalculateLoading from '../../components/analyze/calculate.svelte';
 	import Share from '../../components/result/share/share.svelte';
 	import { partylistPopularity } from '../../stores/partylist-popularity';
+	import { goto } from '$app/navigation';
+
+	onMount(() => {
+		if (!$contentManager.isFinished) {
+			goto('/');
+		}
+	});
 
 	enum Tabs {
 		Map = 'map',
@@ -37,14 +44,13 @@
 	});
 
 	let selectedTab = Tabs.Map;
-	$: partiesClone = [...$party.list];
 
 	$: [governmentParties, oppositionParties, governmentPoints] =
 		$representatives.reduce<
 			[RepresentativeRecord[], RepresentativeRecord[], number]
 		>(
 			([government, opposition, governmentPoints], party) =>
-				partiesClone.find(({ Name }) => party.party.Name === Name)
+				$party.list.find(({ Name }) => party.party.Name === Name)
 					?.PartyGroup === PartySide.Government
 					? [[...government, party], opposition, governmentPoints + party.total]
 					: [government, [party, ...opposition], governmentPoints],
@@ -61,20 +67,6 @@
 
 	const toggleIsShare = () => {
 		isShare = !isShare;
-	};
-
-	const toggleParty = (partyName?: string) => {
-		partiesClone = partiesClone.map((party) =>
-			!partyName || party.Name === partyName
-				? {
-						...party,
-						PartyGroup:
-							party.PartyGroup === PartySide.Government
-								? PartySide.Opposition
-								: PartySide.Government,
-				  }
-				: party
-		);
 	};
 </script>
 
@@ -153,7 +145,7 @@
 			{governmentParties}
 			{oppositionParties}
 			{governmentPoints}
-			toggleSide={toggleParty}
+			toggleSide={party.toggleSide}
 			{toggleIsShare}
 		/>
 	</div>

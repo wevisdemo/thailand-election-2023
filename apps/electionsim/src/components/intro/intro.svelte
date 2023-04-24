@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import byxMobileLogo from '../../images/byx-mobile.svg';
 	import simulatorBx from '../../images/simulator_bx.svg';
+	import { contentManager } from '../../stores/content';
 </script>
 
 <div class="flex flex-col items-center w-full max-w-[698px] px-6 py-10">
@@ -22,6 +23,7 @@
 	<a
 		href="{base}/quiz"
 		class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-[160px] md:w-52 h-[50px] flex items-center justify-between font-bold"
+		on:click={() => contentManager.startQuiz()}
 	>
 		เริ่มเลย
 		<div class="border-1 border-t border-r w-2 h-2 rotate-45" />

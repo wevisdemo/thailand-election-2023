@@ -20,11 +20,13 @@ export enum Content {
 export interface ContentStore {
 	currentContent: Content;
 	isFinished: boolean;
+	isQuizing: boolean;
 }
 
 const initialContent: ContentStore = {
 	currentContent: Content.Analytics,
 	isFinished: false,
+	isQuizing: false,
 };
 
 const createContentManagerStore = () => {
@@ -48,6 +50,18 @@ const createContentManagerStore = () => {
 			update((store) => ({
 				...store,
 				isFinished: false,
+			}));
+		},
+		startQuiz: () => {
+			update((store) => ({
+				...store,
+				isQuizing: true,
+			}));
+		},
+		endQuiz: () => {
+			update((store) => ({
+				...store,
+				isQuizing: false,
 			}));
 		},
 	};
