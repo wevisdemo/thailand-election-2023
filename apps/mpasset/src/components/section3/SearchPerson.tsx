@@ -21,7 +21,7 @@ const SearchPerson = ({ open, onClose }: Props) => {
       const data = selectedDataSet === 'นักการเมือง 62' ? person : yourCandidatePerson
       if (searchTerm !== "") {
 
-        const result = data.filter((data, i) => i < 40 && data.Name.includes(searchTerm))
+        const result = data.filter((data) => data.Name.includes(searchTerm))
         if (typeof result === "object")
           setSearchResult(result)
       } else {

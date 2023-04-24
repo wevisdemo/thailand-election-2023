@@ -9,7 +9,7 @@ export default function Document() {
           data-domain="election66.wevis.info/mpasset"
           src="https://analytics.punchup.world/js/plausible.js"
         ></script>
-        <link rel="icon" href="/design_assets/sns/favicon.png" />
+        <link rel="icon" href={`${process.env.SECURE_HOST}${process.env.BASE_PATH}/design_assets/sns/favicon.png`} />
         <meta property="og:url" content={`${process.env.SECURE_HOST}${process.env.BASE_PATH}`} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Politician Asset" />
@@ -22,6 +22,7 @@ export default function Document() {
         <meta name="twitter:description" content="นักการเมืองเกี่ยวข้องกับธุรกิจแค่ไหน?" />
         <meta name="twitter:image" content={`${process.env.SECURE_HOST}/design_assets/sns/og.jpg`} />
       </Head>
+      <title>นักการเมืองเกี่ยวข้องกับธุรกิจแค่ไหน?</title>
       <body className="scroll-smooth">
         <Main />
         <NextScript />

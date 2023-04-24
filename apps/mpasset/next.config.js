@@ -1,15 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
-	swcMinify: true,
-	trailingSlash: true,
 	basePath: '/mpasset',
-	assetPrefix: '/mpasset/',
-	// basePath: "/mpasset",
-	// assetPrefix: "/mpasset/",
-	images: {
-		unoptimized: true,
-	},
+	assetPrefix: '/mpasset',
 	env: {
 		BASE_PATH: '/mpasset',
 		HOST:
@@ -20,7 +13,6 @@ const nextConfig = {
 			process.env.NODE_ENV !== 'development'
 				? 'https://wevisdemo.github.io'
 				: '',
-		NETLIFY_NEXT_PLUGIN_SKIP: true,
 	},
 };
 

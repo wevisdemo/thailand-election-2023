@@ -40,9 +40,9 @@ const run66 = async () => {
 	// fs.writeFileSync('./public/data/raw_people.json', JSON.stringify(people));
 
 	// from local
-	let party = JSON.parse(
-		String(fs.readFileSync('./public/data/raw_party.json'))
-	);
+	// let party = JSON.parse(
+	// 	String(fs.readFileSync('./public/data/raw_party.json'))
+	// );
 	const people = JSON.parse(
 		String(
 			fs.readFileSync('./public/data/yourcandidate/process/all-person.json')
@@ -64,5 +64,5 @@ const run66 = async () => {
 };
 
 // runTheyWork();
-run62();
+// run62();
 run66();
