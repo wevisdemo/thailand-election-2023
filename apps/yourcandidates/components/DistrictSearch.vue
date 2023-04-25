@@ -65,6 +65,19 @@
         </div>
       </div>
     </div>
+    <p class="typo-b4 text-center">
+      ถ้ายังไม่รู้ว่ามีสิทธิอยู่ในเขตเลือกตั้งไหน
+      <span style="white-space: nowrap"
+        >ไปตรวจสอบได้<a
+          href="https://boraservices.bora.dopa.go.th/election/enqelection/"
+          target="_blank"
+          class="outer-link-button"
+        >
+          <b>ที่นี่</b>
+          <IconsNewTab />
+        </a>
+      </span>
+    </p>
   </div>
 </template>
 <script>
@@ -151,7 +164,7 @@ export default {
   flex-direction: column;
   align-items: center;
   padding: 20px 0px 40px;
-  gap: 5px;
+  gap: 15px;
 }
 
 .search-container {
@@ -228,6 +241,13 @@ export default {
     top: 0px;
     padding: 15px 15px;
     transition: 200ms ease-in-out;
+  }
+}
+
+.outer-link-button {
+  white-space: nowrap;
+  & svg {
+    display: inline;
   }
 }
 </style>
