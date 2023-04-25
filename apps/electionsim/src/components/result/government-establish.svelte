@@ -205,7 +205,9 @@
 							<p class="hidden md:block">)</p>
 						</div>
 					</div>
-					{#each governmentParties.sort((a, b) => b.total - a.total) as { party, total }}
+					{#each governmentParties
+						.sort((a, b) => b.total - a.total)
+						.filter((p) => p.total > 0) as { party, total }}
 						<div
 							class="flex flex-wrap items-center border-b border-opacity-40 pb-[10px] mt-[10px]"
 							style="border-color: rgba(255, 255, 255, 0.4);"
@@ -267,7 +269,9 @@
 						</div>
 						<h7 class="typo-h7 font-bold ml-1 w-full md:w-auto">ฝ่ายค้าน </h7>
 					</div>
-					{#each oppositionParties.sort((a, b) => b.total - a.total) as { party, total }}
+					{#each oppositionParties
+						.sort((a, b) => b.total - a.total)
+						.filter((p) => p.total > 0) as { party, total }}
 						<div
 							class="flex items-center border-b border-opacity-40 pb-[10px] mt-[10px] flex-wrap-reverse"
 							style="border-color: rgba(255, 255, 255, 0.4);"
