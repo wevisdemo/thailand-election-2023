@@ -5,9 +5,9 @@ export interface Party {
 	Color: string | null;
 	PartyType: string | null;
 	PartyOrdinal: string | null;
-	PartyGroup: string;
-	Description: string;
-	EstablishedDate: string;
+	PartyGroup: string | null;
+	Description: string | null;
+	EstablishedDate: string | null;
 	DissolvedDate: string | null;
 	Speaker: string | null;
 	FirstDeputySpeaker: string | null;
