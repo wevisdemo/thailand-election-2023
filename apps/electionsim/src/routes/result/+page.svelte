@@ -18,7 +18,7 @@
 
 	onMount(() => {
 		if (!$contentManager.isFinished) {
-			goto('/');
+			goto(base);
 		}
 	});
 

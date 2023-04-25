@@ -6,7 +6,7 @@
 
 	onMount(() => {
 		if (!$contentManager.isQuizing) {
-			goto('/');
+			goto(base);
 		}
 	});
 </script>
