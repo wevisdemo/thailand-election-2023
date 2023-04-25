@@ -112,18 +112,22 @@ export class Voteflow {
 				party: partyMap.get(partyA) as Party,
 				points:
 					partyNames.reduce((sum, partyB) => {
-						const flowValue = Math.max(
-							0,
-							Math.min(
-								randomNormal(
-									matrix[partyB][partyA],
-									FLOW_VALUE_GAUSSSIAN_SIGMA
-								)(),
-								1
-							)
-						);
+						const originalValue = matrix[partyB][partyA];
+						const adjustedValue =
+							originalValue > 0 && originalValue < 1
+								? Math.max(
+										0,
+										Math.min(
+											randomNormal(
+												matrix[partyB][partyA],
+												FLOW_VALUE_GAUSSSIAN_SIGMA
+											)(),
+											1
+										)
+								  )
+								: originalValue;
 
-						return sum + voteVector[partyB] * flowValue;
+						return sum + voteVector[partyB] * adjustedValue;
 					}, 0) * totalVote,
 			}))
 			.filter(({ points }) => points > 0)
