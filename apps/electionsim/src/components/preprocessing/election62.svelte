@@ -1,6 +1,6 @@
 <script lang="ts">
 	import electMap from '../../images/elect-map.svg';
-	import compareChart from '../../images/compare-chart.png';
+	import compareChart from '../../images/compare-chart.svg';
 	import { Content, contentManager } from '../../stores/content';
 	import { slide } from 'svelte/transition';
 

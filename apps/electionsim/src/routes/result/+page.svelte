@@ -15,6 +15,7 @@
 	import Share from '../../components/result/share/share.svelte';
 	import { partylistPopularity } from '../../stores/partylist-popularity';
 	import { goto } from '$app/navigation';
+	import { fly } from 'svelte/transition';
 
 	onMount(() => {
 		if (!$contentManager.isFinished) {
@@ -127,11 +128,14 @@
 					</button>
 				</div>
 				{#if selectedTab === Tabs.Map}
-					<div class="grow relative w-full mb-[112px]">
+					<div
+						class="grow relative w-full mb-[112px]"
+						transition:fly={{ x: -400 }}
+					>
 						<WaffleMap />
 					</div>
 				{:else}
-					<div class="w-full">
+					<div class="w-full" transition:fly={{ x: 400 }}>
 						<Graph
 							elect66Record={$representatives}
 							elect62Record={$resultElect62}

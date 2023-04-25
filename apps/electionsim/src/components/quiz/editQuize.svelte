@@ -70,14 +70,14 @@
 	class="text-left flex flex-col w-full max-w-[698px] px-6 py-10 relative"
 	transition:fly={{ y: 400 }}
 >
-	<a href="{base}/result">
+	<a href="{base}/result" role="button">
 		<svg
 			width="32"
 			height="33"
 			viewBox="0 0 32 33"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
-			class="absolute top-0 right-0 cursor-pointer"
+			class="absolute top-0 right-5 cursor-pointer"
 		>
 			<path
 				fill-rule="evenodd"
@@ -98,11 +98,11 @@
 				<div class="w-4/6 typo-b5">
 					{choice.question}
 				</div>
-				<div class="w-2/6 flex text-right justify-end">
+				<button class="w-2/6 flex text-right justify-end">
 					{#if choice.answer === ' ' || choice.answer === ''}
-						<h5 class="typo-b5 font-bold text-[#ccc]">ข้าม</h5>
+						<span class="typo-b5 font-bold text-[#ccc]">ข้าม</span>
 					{:else}
-						<h5 class="typo-b5 font-bold">{choice.answer}</h5>
+						<span class="typo-b5 font-bold">{choice.answer}</span>
 					{/if}
 					<div class="ml-[10px] cursor-pointer">
 						<svg
@@ -123,7 +123,7 @@
 							/>
 						</svg>
 					</div>
-				</div>
+				</button>
 			</div>
 		{/each}
 	</div>
