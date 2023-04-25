@@ -80,9 +80,8 @@ const PartyPage: NextPage<PropsType> = ({
 		setDisplayPolicies(policyList);
 		setHotPolicies(newHotPolicies.slice(0, 6));
 
-		const newOptions = [{ label: 'นโยบายทั้งหมด' }, ...options].sort((i, j) =>
-			i.label < j.label ? -1 : 1
-		);
+		const sortedOptions = options.sort((i, j) => (i.label < j.label ? -1 : 1));
+		const newOptions = [{ label: 'นโยบายทั้งหมด' }, ...sortedOptions];
 		setOptionPolicies(newOptions);
 	}, [name]);
 
@@ -105,9 +104,12 @@ const PartyPage: NextPage<PropsType> = ({
 	}, [name]);
 
 	useEffect(() => {
-		const policyList: Policy[] = policies.filter(
-			(p) => p.Topic === chooseTopic?.label && p.Party.Name === name
-		);
+		let policyList: Policy[] = policies.filter((p) => p.Party.Name === name);
+		if (chooseTopic) {
+			if (chooseTopic.label !== 'นโยบายทั้งหมด') {
+				policyList = policyList.filter((p) => p.Topic === chooseTopic?.label);
+			}
+		}
 		setDisplayPolicies(policyList);
 	}, [chooseTopic, name]);
 
