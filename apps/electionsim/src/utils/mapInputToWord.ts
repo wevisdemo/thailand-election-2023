@@ -140,8 +140,8 @@ export const quiz5ToWord = (key: ScaleAns | undefined): string[] => {
 	}
 };
 
-export const quiz6ToWord = (poll: PollAns | undefined): string =>
-	poll?.source || '';
+export const quiz6ToWord = (poll: PollAns): string =>
+	poll?.source || 'ไม่ใช้ผลโพลคำนวณคะแนน';
 
 export const quiz7ToWord = (key: boolean | undefined): string => {
 	return key ? 'ยังมีอีก' : 'คงไม่มี/ยังนึกไม่ออก';

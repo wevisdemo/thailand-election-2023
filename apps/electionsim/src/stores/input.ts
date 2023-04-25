@@ -11,7 +11,7 @@ export enum ScaleAns {
 	Scale100 = 'scale100',
 }
 
-export type PollAns = (typeof polls)[0];
+export type PollAns = (typeof polls)[0] | undefined;
 
 export type Party = string;
 

@@ -54,6 +54,31 @@
 		<div
 			class="w-full flex flex-col items-center justify-between mt-1 space-y-4"
 		>
+			<button
+				class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {!ans
+					? 'beyondx-gradient-bg text-white'
+					: ''}"
+				on:click={() => input.updateQuize6(undefined)}
+			>
+				<div class="flex-1 text-left">
+					<h3 class="typo-b3 font-bold">ไม่ใช้ผลโพลคำนวณคะแนน</h3>
+					<h3 class="typo-b3">สมมติว่าทุกคนกาบัตรบัญชีรายชื่อเหมือนบัตรเขต</h3>
+				</div>
+				<svg
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M18.72 6.71953L9.59999 15.8395L4.31999 10.5595L3.23999 11.6395L8.51999 16.9195L9.59999 17.9995L19.8 7.79953L18.72 6.71953Z"
+						fill={!ans ? '#fff' : '#161616'}
+					/>
+				</svg>
+			</button>
 			{#each polls as poll}
 				{@const isActive = ans?.source == poll.source}
 				<button
@@ -109,31 +134,17 @@
 				/>
 				<b>ย้อนกลับ</b>
 			</button>
-			{#if ans}
-				<button
-					class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full text-white bg-black"
-					on:click={() => {
-						contentManager.updateContent(Content.Quiz7);
-					}}
-				>
-					<b>ต่อไป</b>
-					<div
-						class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
-					/>
-				</button>
-			{:else}
-				<button
-					class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full text-black"
-					on:click={() => {
-						contentManager.updateContent(Content.Quiz7);
-					}}
-				>
-					<b>ข้าม</b>
-					<div
-						class="border-1 border-t border-r w-2 h-2 rotate-45 border-black"
-					/>
-				</button>
-			{/if}
+			<button
+				class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full text-white bg-black"
+				on:click={() => {
+					contentManager.updateContent(Content.Quiz7);
+				}}
+			>
+				<b>ต่อไป</b>
+				<div
+					class="border-1 border-t border-r w-2 h-2 rotate-45 border-white"
+				/>
+			</button>
 		{/if}
 	</div>
 </div>
