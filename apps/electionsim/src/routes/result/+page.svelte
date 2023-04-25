@@ -17,12 +17,6 @@
 	import { goto } from '$app/navigation';
 	import { fly } from 'svelte/transition';
 
-	onMount(() => {
-		if (!$contentManager.isFinished) {
-			goto(base);
-		}
-	});
-
 	enum Tabs {
 		Map = 'map',
 		Graph = 'graph',
@@ -33,6 +27,11 @@
 	let isShare = false;
 
 	onMount(async () => {
+		if (!$contentManager.isFinished) {
+			goto(base);
+			isDataReady = true;
+			isDelayTimeout = true;
+		}
 		setTimeout(() => {
 			isDelayTimeout = true;
 		}, 2000);
@@ -64,6 +63,7 @@
 
 	const onEditQuiz = () => {
 		contentManager.updateContent(Content.EditQuiz);
+		contentManager.startEdit();
 	};
 
 	const toggleIsShare = () => {
