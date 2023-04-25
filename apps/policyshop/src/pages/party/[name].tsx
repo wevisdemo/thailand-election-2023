@@ -104,6 +104,13 @@ const PartyPage: NextPage<PropsType> = ({
 		}
 	}, [name]);
 
+	useEffect(() => {
+		const policyList: Policy[] = policies.filter(
+			(p) => p.Topic === chooseTopic?.label && p.Party.Name === name
+		);
+		setDisplayPolicies(policyList);
+	}, [chooseTopic, name]);
+
 	return (
 		<>
 			<Metadata />
