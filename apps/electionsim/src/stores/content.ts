@@ -21,12 +21,14 @@ export interface ContentStore {
 	currentContent: Content;
 	isFinished: boolean;
 	isQuizing: boolean;
+	isEdited: boolean;
 }
 
 const initialContent: ContentStore = {
 	currentContent: Content.Analytics,
 	isFinished: false,
 	isQuizing: false,
+	isEdited: false,
 };
 
 const createContentManagerStore = () => {
@@ -62,6 +64,12 @@ const createContentManagerStore = () => {
 			update((store) => ({
 				...store,
 				isQuizing: false,
+			}));
+		},
+		startEdit: () => {
+			update((store) => ({
+				...store,
+				isEdited: true,
 			}));
 		},
 	};

@@ -14,12 +14,14 @@
 	import Calculate from '../../components/analyze/calculate.svelte';
 	import ContentWrapper from '../../components/content.svelte';
 	import EditQuiz from '../../components/quiz/editQuize.svelte';
-	import { Content } from '../../stores/content';
+	import { Content, contentManager } from '../../stores/content';
 	import { party } from '../../stores/party';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		party.load();
+		if (!$contentManager.isEdited) {
+			party.load();
+		}
 	});
 </script>
 

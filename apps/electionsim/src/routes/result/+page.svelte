@@ -35,7 +35,9 @@
 		setTimeout(() => {
 			isDelayTimeout = true;
 		}, 2000);
-		await party.load();
+		if (!$contentManager.isEdited) {
+			await party.load();
+		}
 		await districtPopularity.load();
 		await partylistPopularity.load();
 		await resultElect62.load();
@@ -62,8 +64,8 @@
 	};
 
 	const onEditQuiz = () => {
-		contentManager.updateContent(Content.EditQuiz);
 		contentManager.startEdit();
+		contentManager.updateContent(Content.EditQuiz);
 	};
 
 	const toggleIsShare = () => {
