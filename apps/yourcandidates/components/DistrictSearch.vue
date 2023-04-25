@@ -40,21 +40,28 @@
         >
           <div ref="menuLevel1" :style="menuContainerStyels(1)">
             <p class="typo-b4" v-if="noresult">ไม่มีชื่อเขต/อำเภอนี้</p>
-            <SearchListDistrict
-              v-for="(r, i) in queryResultList"
-              :key="i"
-              :district="r"
-              :onClick="() => onDistrictSelected(r.district)"
-            />
+            <template v-for="(r, i) in queryResultList">
+              <SearchListDistrict
+                v-if="r.type == 'district'"
+                :key="i"
+                :district="r"
+                :onClick="() => onDistrictSelected(r.object)"
+              />
+              <SearchListElectoral
+                v-if="r.type == 'electoral'"
+                :key="i"
+                :district="r.object"
+              />
+            </template>
           </div>
           <div ref="menuLevel2" :style="menuContainerStyels(2)">
             <div class="typo-b6">
               มี {{ electoralDistrics.length }} เขตเลือกตั้ง
             </div>
             <SearchListElectoral
+              v-for="(r, i) in electoralDistrics"
               :index="i"
               :district="r"
-              v-for="(r, i) in electoralDistrics"
               :key="i"
             />
           </div>
@@ -87,7 +94,8 @@ export default {
         return searchDistrict(this.query).map((r, i) => ({
           id: i,
           html: r.highlightedHtml,
-          district: r,
+          object: r,
+          type: r.type,
         }))
       return []
     },

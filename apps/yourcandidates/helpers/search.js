@@ -1,21 +1,38 @@
 import districts from '~/data/district_province_list.json'
 import electorals from '~/data/electoral_district_table.json'
 
-const DISTRICT_LIST = districts.map((district) => {
-  if (district.province === 'กรุงเทพมหานคร') {
+const SEARCH_ITEMS = districts
+  .map((district) => {
+    if (district.province === 'กรุงเทพมหานคร') {
+      return {
+        ...district,
+        stringMenu: `แขวง${district.subDistrict} เขต${district.district} ${district.province}`,
+        type: 'district',
+      }
+    }
     return {
       ...district,
-      stringMenu: `แขวง${district.subDistrict} เขต${district.district} ${district.province}`,
+      stringMenu: `ต. ${district.subDistrict} อ. ${district.district} จ. ${district.province}`,
+      type: 'district',
     }
-  }
-  return {
-    ...district,
-    stringMenu: `ต. ${district.subDistrict} อ. ${district.district} จ. ${district.province}`,
-  }
-})
+  })
+  .concat(
+    Object.values(electorals).map((electoral) => {
+      return {
+        ...electoral,
+        stringMenu: `${electoral.province} ${electoral.electoralDistrictNumber}`,
+        type: 'electoral',
+      }
+    })
+  )
 
 function normalizeSearchQuery(query) {
-  return query.replace(/\.([^\s])/g, '. $1')
+  return query
+    .replace(/\.([^\s])/g, '. $1')
+    .replace(/(\d+)/g, ' $1 ')
+    .split(/\s/g)
+    .filter((q) => q.length > 0)
+    .filter((q, index, self) => self.indexOf(q) === index)
 }
 
 const HIGHTLIGHT_STYLE = {
@@ -72,13 +89,10 @@ function highlight(indices, target) {
 }
 
 export const searchDistrict = (query) => {
+  // Normalize query
   const queries = normalizeSearchQuery(query)
-    .split(/\s/g)
-    .filter((q) => q.length > 0)
-    // remove duplicate
-    .filter((q, index, self) => self.indexOf(q) === index)
 
-  const districts = DISTRICT_LIST.map((district) => {
+  const districts = SEARCH_ITEMS.map((district) => {
     let score = 0
     let matchedIndices = []
     for (let index = 0; index < queries.length; index++) {
@@ -87,18 +101,27 @@ export const searchDistrict = (query) => {
       const stringMenu = district.stringMenu
       let matchedIndex = 0
       let startIndex = 0
+      let addedScore = 0
       while ((matchedIndex = stringMenu.indexOf(query, startIndex)) >= 0) {
         const endMatchedIndex = matchedIndex + query.length
 
-        score += query.length / stringMenu.length
+        addedScore += query.length / stringMenu.length
         for (let i = matchedIndex; i < endMatchedIndex; i++) {
           if (matchedIndices.includes(i)) continue
           matchedIndices.push(i)
         }
 
         startIndex = endMatchedIndex
+        if (district.type === 'electoral') break
       }
-      if (score == 0) break
+      if (addedScore == 0) {
+        return {
+          ...district,
+          score: 0,
+          matchedIndices: [],
+        }
+      }
+      score += addedScore
     }
 
     return {
@@ -108,10 +131,14 @@ export const searchDistrict = (query) => {
     }
   })
 
+  const meanScore =
+    districts.reduce((acc, district) => acc + district.score, 0) /
+    districts.length
+
   return (
     districts
       // filter score > 0
-      .filter((d) => d.score > 0)
+      .filter((d) => d.score > meanScore)
       // sort by score
       .sort((a, b) => b.score - a.score)
       // take top 30
