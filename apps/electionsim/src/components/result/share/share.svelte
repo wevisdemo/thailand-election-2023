@@ -140,12 +140,12 @@
 		{#each governmentRecord as { party, total }}
 			<div class="flex flex-col items-center mb-2 w-16 overflow-visible">
 				<div
-					class="w-16 h-16 flex items-center justify-center gap-x-1"
+					class="w-16 h-16 flex items-center justify-center gap-x-1 rounded-full"
 					style="background-color: {party.Color};"
 				>
 					{#if party.Images}
 						<img
-							class="w-16 h-16"
+							class="w-16 h-16 rounded-full border-slate-200 border"
 							src={party.Images[0].url}
 							alt={party.Images[0].title}
 						/>
@@ -168,12 +168,12 @@
 		{#each oppositionRecord as { party, total }}
 			<div class="flex flex-col items-center mb-2 w-16 overflow-visible">
 				<div
-					class="w-16 h-16 flex items-center justify-center gap-x-1"
+					class="w-16 h-16 flex items-center justify-center gap-x-1 rounded-full"
 					style="background-color: {party.Color};"
 				>
 					{#if party.Images}
 						<img
-							class="w-16 h-16"
+							class="w-16 h-16 rounded-full border-slate-200 border"
 							src={party.Images[0].url}
 							alt={party.Images[0].title}
 						/>
@@ -189,7 +189,7 @@
 		{/each}
 	</div>
 	{#if governmentPoints <= PRIME_MISTER_POINT}
-		<div class="py-3 px-5 flex items-center my-10 bg-gray-4">
+		<div class="py-3 px-5 flex items-center mt-5 mb-10 bg-gray-4">
 			<svg
 				width="24"
 				height="24"
