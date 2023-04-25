@@ -33,6 +33,8 @@ interface CandidatesPartyChange {
 
 let basePopularity: PopularityTree;
 let candidatesPartyChanges: CandidatesPartyChange[];
+let governmentParties: string[];
+let oppositionParties: string[];
 
 const createDistrictPopularityStore = () => {
 	const { subscribe, update } = writable<PopularityTree>({});
@@ -77,11 +79,18 @@ const createDistrictPopularityStore = () => {
 				`${base}/data/candidate-party-changes-66.csv`
 			)) as CandidatesPartyChange[];
 
+			oppositionParties = $party.list
+				.filter(({ PartyGroup }) => PartyGroup === PartySide.Opposition)
+				.map(({ Name }) => Name);
+
+			governmentParties = $party.list
+				.filter(({ PartyGroup }) => PartyGroup === PartySide.Government)
+				.map(({ Name }) => Name);
+
 			update(() => basePopularity);
 		},
 		calculate() {
 			const { input } = get(inputStore);
-			const $party = get(party);
 			const voteflow = new Voteflow();
 
 			// คุณคิดว่า คนไทยทุกๆ 10 คนจะเลือก ส.ส. เขตจากตัวบุคคลหรือพรรคอย่างละกี่คน?
@@ -128,14 +137,9 @@ const createDistrictPopularityStore = () => {
 
 				if (ratio !== 0) {
 					const targetGovernmentParties = ['พลังประชารัฐ', 'รวมไทยสร้างชาติ'];
-					const otherGovernmentParties = $party.list
-						.filter(
-							({ Name, PartyGroup }) =>
-								PartyGroup === PartySide.Government &&
-								!targetGovernmentParties.includes(Name)
-						)
-						.map(({ Name }) => Name);
-
+					const otherGovernmentParties = governmentParties.filter(
+						(name) => !targetGovernmentParties.includes(name)
+					);
 					voteflow.updateVoteFlowBetweenGroups(
 						otherGovernmentParties,
 						targetGovernmentParties,
@@ -149,14 +153,6 @@ const createDistrictPopularityStore = () => {
 				const ratio = mapRangeRatio[input.quiz5];
 
 				if (ratio !== 0) {
-					const oppositionParties = $party.list
-						.filter(({ PartyGroup }) => PartyGroup === PartySide.Opposition)
-						.map(({ Name }) => Name);
-
-					const governmentParties = $party.list
-						.filter(({ PartyGroup }) => PartyGroup === PartySide.Government)
-						.map(({ Name }) => Name);
-
 					voteflow.updateVoteFlowBetweenGroups(
 						oppositionParties,
 						governmentParties,
