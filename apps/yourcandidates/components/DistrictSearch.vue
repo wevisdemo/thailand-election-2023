@@ -5,12 +5,9 @@
     </p>
     <div class="search-container">
       <div class="search-box">
-        <p
-          class="search-box__placeholder"
-          :style="{ display: query === '' ? 'block' : 'none' }"
-        >
+        <p class="search-box__placeholder" v-if="showPlaceholder">
           <span> <b>พิมพ์ชื่อตำบล/อำเภอ</b> หรือ </span>
-          <span> <b>ชื่อเขตเลือกตั้ง</b>&nbsp;(เช่น&nbsp;ลำพูน&nbsp;2) </span>
+          <span> <b>ชื่อเขตเลือกตั้ง</b> (เช่น ลำพูน 2) </span>
         </p>
         <input
           v-model.trim="query"
@@ -19,7 +16,7 @@
           name="query"
           id="district-search"
           autocomplete="off"
-          @input="() => changeLevel(1)"
+          @input="onSearchInput"
         />
         <IconsSearch v-if="menuLevel == 1" />
         <button v-if="menuLevel == 2" @click="onButtonDiscardClick">
@@ -96,20 +93,11 @@ export default {
       menuHeight: '0px',
       menuLevel: 1,
       selectedDistrict: {},
-      searchPlaceholder: '',
+      showPlaceholder: true,
+      queryResultList: [],
     }
   },
   computed: {
-    queryResultList() {
-      if (this.menuLevel == 1)
-        return searchDistrict(this.query).map((r, i) => ({
-          id: i,
-          html: r.highlightedHtml,
-          object: r,
-          type: r.type,
-        }))
-      return []
-    },
     electoralDistrics() {
       if (this.menuLevel == 2) {
         return getElectorals(this.selectedDistrict.electoralFk)
@@ -125,6 +113,16 @@ export default {
     },
   },
   methods: {
+    getQueryResultList() {
+      if (this.menuLevel == 1)
+        return searchDistrict(this.query).map((r, i) => ({
+          id: i,
+          html: r.highlightedHtml,
+          object: r,
+          type: r.type,
+        }))
+      return []
+    },
     getMenuHeight() {
       if (this.menuLevel == 1) {
         return Math.min(this.$refs.menuLevel1.clientHeight + 6, 360) + 'px' // 6px for border
@@ -153,6 +151,11 @@ export default {
       this.query = ''
       this.menuHeight = '0px'
       this.menuLevel = 1
+    },
+    onSearchInput() {
+      this.changeLevel(1)
+      this.showPlaceholder = false
+      this.queryResultList = this.getQueryResultList()
     },
   },
 }
