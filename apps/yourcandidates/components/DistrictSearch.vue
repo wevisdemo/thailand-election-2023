@@ -1,31 +1,28 @@
 <template>
   <div class="search-section">
-    <p class="typo-b4">
-      <b>ค้นหารายชื่อผู้สมัคร ส.ส. และพรรคการเมืองในเขต/อำเภอบ้านคุณ</b>
+    <p class="typo-b4 text-center">
+      <b>ค้นหารายชื่อผู้สมัคร ส.ส. และพรรคการเมืองในตำบล/อำเภอบ้านคุณ</b>
     </p>
     <div class="search-container">
       <div class="search-box">
+        <p
+          class="search-box__placeholder"
+          :style="{ display: query === '' ? 'block' : 'none' }"
+        >
+          <span> <b>พิมพ์ชื่อตำบล/อำเภอ</b> หรือ </span>
+          <span> <b>ชื่อเขตเลือกตั้ง</b>&nbsp;(เช่น&nbsp;ลำพูน&nbsp;2) </span>
+        </p>
         <input
+          v-model.trim="query"
           class="typo-b3"
           type="text"
           name="query"
           id="district-search"
-          v-model.trim="query"
           autocomplete="off"
           @input="() => changeLevel(1)"
-          placeholder="พิมพ์ชื่อเขต/อำเภอบ้านคุณ"
         />
         <IconsSearch v-if="menuLevel == 1" />
-        <button
-          v-if="menuLevel == 2"
-          @click="
-            () => {
-              query = ''
-              menuHeight = '0px'
-              menuLevel = 1
-            }
-          "
-        >
+        <button v-if="menuLevel == 2" @click="onButtonDiscardClick">
           <IconsClose />
         </button>
         <div
@@ -86,6 +83,7 @@ export default {
       menuHeight: '0px',
       menuLevel: 1,
       selectedDistrict: {},
+      searchPlaceholder: '',
     }
   },
   computed: {
@@ -138,6 +136,11 @@ export default {
       this.selectedDistrict = district
       this.query = district.stringMenu
     },
+    onButtonDiscardClick() {
+      this.query = ''
+      this.menuHeight = '0px'
+      this.menuLevel = 1
+    },
   },
 }
 </script>
@@ -159,6 +162,7 @@ export default {
 }
 
 .search-container > .search-box {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -189,6 +193,16 @@ export default {
     &:focus {
       outline: none;
     }
+  }
+}
+
+.search-box__placeholder {
+  color: var(--color-black);
+  opacity: 0.5;
+  position: absolute;
+  pointer-events: none;
+  & span {
+    white-space: nowrap;
   }
 }
 
