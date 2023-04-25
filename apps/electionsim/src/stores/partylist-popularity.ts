@@ -3,7 +3,6 @@ import { csv } from 'd3-fetch';
 import { base } from '$app/paths';
 import { party, type Party } from '../stores/party';
 import { input as inputStore } from './input';
-import { mapPollCsv } from '../utils/map-input-to-value';
 
 const EXPECTED_PARTYLIST_REPRESENTATIVE = 100;
 
@@ -29,7 +28,7 @@ const createPartylistPopularityStore = () => {
 			if (!input.quiz6) return;
 
 			const pollData = (await csv(
-				`${base}/data/${mapPollCsv[input.quiz6]}`
+				`${base}/data/${input.quiz6.filename}`
 			)) as RawPollRecord[];
 
 			const pointsPerRepresentative =

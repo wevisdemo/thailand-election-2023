@@ -1,18 +1,36 @@
-import * as aq from 'arquero';
-import fs from 'fs';
+import { loadCSV, escape, desc } from 'arquero';
+import { writeFileSync } from 'fs';
+import { join } from 'path';
 
-const INPUT = './poll-mock.csv';
+const data = await loadCSV('./polls.csv');
 
-const OUTPUT = '../src/data/poll-dusit.csv';
-
-const data = await aq.loadCSV(INPUT);
-
-const output = data
-	.filter(aq.escape((d) => !d.party.includes('อื่นๆ')))
+const cleanedPoll = data
+	.filter(escape((d) => d.party && !d.party.includes('อื่นๆ')))
 	.derive({
-		popularity: aq.escape((d) => +d['popularity (%)'].replace('%', '')),
+		popularity: escape((d) => +d['popularity (%)'].replace('%', '')),
 	})
-	.select('party', 'popularity')
+	.rename({
+		poll_source: 'source',
+		poll_date: 'date',
+	})
+	.select('party', 'popularity', 'source', 'date');
+
+const pollIndex = cleanedPoll
+	.select('source', 'date')
+	.dedupe()
+	.derive({
+		filename: escape((d) => `poll-${d.source}.csv`),
+	})
 	.print();
 
-fs.writeFileSync(OUTPUT, output.toCSV());
+writeFileSync('../src/data/polls.json', JSON.stringify(pollIndex.objects()));
+
+pollIndex.objects().forEach(({ source, filename }) => {
+	const records = cleanedPoll
+		.filter(escape((d) => d.source === source))
+		.select('party', 'popularity')
+		.orderby(desc('popularity'))
+		.print();
+
+	writeFileSync(join('../static/data', filename), records.toCSV());
+});

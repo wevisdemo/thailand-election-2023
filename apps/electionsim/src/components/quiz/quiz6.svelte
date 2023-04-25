@@ -1,9 +1,10 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { Content, contentManager } from '../../stores/content';
-	import { input, PollAns } from '../../stores/input';
+	import { input } from '../../stores/input';
 	import Quiz6Info from '../infomation/quiz6Info.svelte';
 	import ModalInfo from '../modal.svelte';
+	import polls from '../../data/polls.json';
 
 	$: ans = $input.input.quiz6;
 	$: isInfoOpen = false;
@@ -53,143 +54,43 @@
 		<div
 			class="w-full flex flex-col items-center justify-between mt-1 space-y-4"
 		>
-			<button
-				class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {ans ==
-				PollAns.Nida
-					? 'beyondx-gradient-bg text-white'
-					: ''}"
-				on:click={() => input.updateQuize6(PollAns.Nida)}
-			>
-				<div class="flex-1 text-left">
-					<h3 class="typo-b3 font-bold">นิด้าโพล</h3>
-					<h3 class="typo-b3">(สำรวจเมื่อ XX X.X. XX)</h3>
-				</div>
-				<svg
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
+			{#each polls as poll}
+				{@const isActive = ans?.source == poll.source}
+				<button
+					class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {isActive
+						? 'beyondx-gradient-bg text-white'
+						: ''}"
+					on:click={() => input.updateQuize6(poll)}
 				>
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M18.72 6.71953L9.59999 15.8395L4.31999 10.5595L3.23999 11.6395L8.51999 16.9195L9.59999 17.9995L19.8 7.79953L18.72 6.71953Z"
-						fill={ans == PollAns.Nida ? '#fff' : '#161616'}
-					/>
-				</svg>
-			</button>
-			<button
-				class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {ans ==
-				PollAns.Dusit
-					? 'beyondx-gradient-bg text-white'
-					: ''}"
-				on:click={() => input.updateQuize6(PollAns.Dusit)}
-			>
-				<div class="flex-1 text-left">
-					<h3 class="typo-b3 font-bold">สวนดุสิตโพล</h3>
-					<h3 class="typo-b3">(สำรวจเมื่อ XX X.X. XX)</h3>
-				</div>
-				<svg
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M18.72 6.71953L9.59999 15.8395L4.31999 10.5595L3.23999 11.6395L8.51999 16.9195L9.59999 17.9995L19.8 7.79953L18.72 6.71953Z"
-						fill={ans == PollAns.Dusit ? '#fff' : '#161616'}
-					/>
-				</svg>
-			</button>
-			<button
-				class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {ans ==
-				PollAns.Thairath
-					? 'beyondx-gradient-bg text-white'
-					: ''}"
-				on:click={() => input.updateQuize6(PollAns.Thairath)}
-			>
-				<div class="flex-1 text-left">
-					<h3 class="typo-b3 font-bold">ไทยรัฐโพล</h3>
-					<h3 class="typo-b3">(สำรวจเมื่อ XX X.X. XX)</h3>
-				</div>
-				<svg
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M18.72 6.71953L9.59999 15.8395L4.31999 10.5595L3.23999 11.6395L8.51999 16.9195L9.59999 17.9995L19.8 7.79953L18.72 6.71953Z"
-						fill={ans == PollAns.Thairath ? '#fff' : '#161616'}
-					/>
-				</svg>
-			</button>
-			<button
-				class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {ans ==
-				PollAns.Prapok
-					? 'beyondx-gradient-bg text-white'
-					: ''}"
-				on:click={() => input.updateQuize6(PollAns.Prapok)}
-			>
-				<div class="flex-1 text-left">
-					<h3 class="typo-b3 font-bold">สถาบันประปกเกล้า</h3>
-					<h3 class="typo-b3">(สำรวจเมื่อ XX X.X. XX)</h3>
-				</div>
-				<svg
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M18.72 6.71953L9.59999 15.8395L4.31999 10.5595L3.23999 11.6395L8.51999 16.9195L9.59999 17.9995L19.8 7.79953L18.72 6.71953Z"
-						fill={ans == PollAns.Prapok ? '#fff' : '#161616'}
-					/>
-				</svg>
-			</button>
-			<button
-				class="border border-black w-full px-4 py-2 flex items-center cursor-pointer {ans ==
-				PollAns.Super
-					? 'beyondx-gradient-bg text-white'
-					: ''}"
-				on:click={() => input.updateQuize6(PollAns.Super)}
-			>
-				<div class="flex-1 text-left">
-					<h3 class="typo-b3 font-bold">ซุเปอร์โพล</h3>
-					<h3 class="typo-b3">(สำรวจเมื่อ XX X.X. XX)</h3>
-				</div>
-				<svg
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M18.72 6.71953L9.59999 15.8395L4.31999 10.5595L3.23999 11.6395L8.51999 16.9195L9.59999 17.9995L19.8 7.79953L18.72 6.71953Z"
-						fill={ans == PollAns.Super ? '#fff' : '#161616'}
-					/>
-				</svg>
-			</button>
+					<div class="flex-1 text-left">
+						<h3 class="typo-b3 font-bold">{poll.source}</h3>
+						<h3 class="typo-b3">
+							({poll.date ? `สำรวจเมื่อ ${poll.date}` : `ไม่ทราบวันที่สำรวจ`})
+						</h3>
+					</div>
+					<svg
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M18.72 6.71953L9.59999 15.8395L4.31999 10.5595L3.23999 11.6395L8.51999 16.9195L9.59999 17.9995L19.8 7.79953L18.72 6.71953Z"
+							fill={isActive ? '#fff' : '#161616'}
+						/>
+					</svg>
+				</button>
+			{/each}
 		</div>
 	</div>
 	<div class="w-full flex items-center justify-between space-x-5">
 		{#if isFinished}
 			<a
 				href="{base}/result"
-				class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
+				class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full text-white bg-black"
 			>
 				<b>บันทึกคำตอบ</b>
 				<div
@@ -210,7 +111,7 @@
 			</button>
 			{#if ans}
 				<button
-					class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-white bg-black"
+					class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full text-white bg-black"
 					on:click={() => {
 						contentManager.updateContent(Content.Quiz7);
 					}}
@@ -222,7 +123,7 @@
 				</button>
 			{:else}
 				<button
-					class="typo-b3 px-4 py-2 border border flex items-center justify-between border-black w-full text-black"
+					class="typo-b3 px-4 py-2 border flex items-center justify-between border-black w-full text-black"
 					on:click={() => {
 						contentManager.updateContent(Content.Quiz7);
 					}}

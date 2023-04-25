@@ -1,4 +1,5 @@
 import { writable } from 'svelte/store';
+import type polls from '../data/polls.json';
 
 export enum ScaleAns {
 	Scale0 = 'scale0',
@@ -10,13 +11,7 @@ export enum ScaleAns {
 	Scale100 = 'scale100',
 }
 
-export enum PollAns {
-	Nida = 'nida',
-	Dusit = 'dusit',
-	Thairath = 'thairath',
-	Prapok = 'prapok',
-	Super = 'super',
-}
+export type PollAns = (typeof polls)[0];
 
 export type Party = string;
 
