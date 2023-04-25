@@ -6,8 +6,8 @@
     <div class="search-container">
       <div class="search-box">
         <p class="search-box__placeholder" v-if="showPlaceholder">
-          <span> <b>พิมพ์ชื่อตำบล/อำเภอ</b> หรือ </span>
-          <span> <b>ชื่อเขตเลือกตั้ง</b> (เช่น ลำพูน 2) </span>
+          <span><b>พิมพ์ชื่อตำบล/อำเภอ</b> หรือ</span>
+          <span><b>เขตเลือกตั้ง</b> (เช่น ลำพูน 2) </span>
         </p>
         <input
           v-model.trim="query"
@@ -150,11 +150,12 @@ export default {
     onButtonDiscardClick() {
       this.query = ''
       this.menuHeight = '0px'
+      this.showPlaceholder = true
       this.menuLevel = 1
     },
     onSearchInput() {
       this.changeLevel(1)
-      this.showPlaceholder = false
+      this.showPlaceholder = this.query.length == 0
       this.queryResultList = this.getQueryResultList()
     },
   },
