@@ -327,6 +327,11 @@
 					{/each}
 				</div>
 			</div>
+			<p class="typo-b6 mt-10 opacity-70">
+				<b>Note</b>: จำนวนที่นั่ง ส.ส.
+				ของแต่ละพรรคอาจให้ผลไม่เท่ากันเล็กน้อยในการจำลองผลแต่ละครั้ง
+				เนื่องจากมีขั้นตอนการสุ่มในการคำนวณ
+			</p>
 			<div
 				class="fixed bottom-0 left-0 right-0 w-full flex justify-center py-10 px-6 bg-gradient-to-t from-black"
 			>
