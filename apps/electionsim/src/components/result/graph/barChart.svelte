@@ -83,9 +83,6 @@
 			>
 				{total}
 				{#if year === Tab.Elect66}
-					{#if party.Name === otherParty.Name || total === elect62PartiesPoints[party.Name]}
-						<div class="w-[16px] h-[17px]" />
-					{/if}
 					{#if total > elect62PartiesPoints[party.Name]}
 						<svg
 							width="16"
@@ -101,8 +98,7 @@
 								fill="#1FE43F"
 							/>
 						</svg>
-					{/if}
-					{#if total < elect62PartiesPoints[party.Name]}
+					{:else if total < elect62PartiesPoints[party.Name]}
 						<svg
 							width="16"
 							height="17"
@@ -117,6 +113,8 @@
 								fill="#FF0000"
 							/>
 						</svg>
+					{:else}
+						<div class="w-[16px] h-[17px]" />
 					{/if}
 				{/if}
 			</div>

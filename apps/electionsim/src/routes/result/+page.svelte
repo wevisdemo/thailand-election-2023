@@ -30,8 +30,9 @@
 	onMount(async () => {
 		if (!$contentManager.isFinished) {
 			goto(base);
-			isDataReady = true;
-			isDelayTimeout = true;
+			isDataReady = false;
+			isDelayTimeout = false;
+			isShare = false;
 		}
 		setTimeout(() => {
 			isDelayTimeout = true;
