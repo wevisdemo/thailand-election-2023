@@ -45,5 +45,9 @@
 </div>
 
 <div class="w-full mb-[172px]">
-	<BarChart year={selectedTab} representativeRecord={currentRecord} />
+	<BarChart
+		year={selectedTab}
+		representativeRecord={currentRecord}
+		{elect62Record}
+	/>
 </div>

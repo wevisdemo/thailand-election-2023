@@ -3,13 +3,22 @@
 	import type { Party } from '../../../stores/party';
 
 	export let representativeRecord: RepresentativeRecord[];
+	export let elect62Record: RepresentativeRecord[];
 	export let year: Tab;
+
+	type PartyPoint = {
+		[key: string]: number;
+	};
 
 	const OTHER_PARTY_POINTS_THRESHOLD = 5;
 	const otherParty = {
 		Name: 'อื่นๆ',
 		Color: '#CCCCCC',
 	} as Party;
+	const elect62PartiesPoints = elect62Record.reduce<PartyPoint>((acc, cur) => {
+		acc[cur.party.Name] = cur.total;
+		return acc;
+	}, {});
 
 	enum Tab {
 		Elect66 = 'elect66',
@@ -74,7 +83,10 @@
 			>
 				{total}
 				{#if year === Tab.Elect66}
-					{#if total % 2 === 0}
+					{#if party.Name === otherParty.Name || total === elect62PartiesPoints[party.Name]}
+						<div class="w-[16px] h-[17px]" />
+					{/if}
+					{#if total > elect62PartiesPoints[party.Name]}
 						<svg
 							width="16"
 							height="17"
@@ -89,7 +101,8 @@
 								fill="#1FE43F"
 							/>
 						</svg>
-					{:else}
+					{/if}
+					{#if total < elect62PartiesPoints[party.Name]}
 						<svg
 							width="16"
 							height="17"
