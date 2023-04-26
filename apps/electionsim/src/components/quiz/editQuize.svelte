@@ -14,6 +14,7 @@
 		quiz7ToWord,
 		quiz8ToWord,
 	} from '../../utils/mapInputToWord';
+	import Quiz1 from './quiz1.svelte';
 
 	$: choices = [
 		{
@@ -70,7 +71,13 @@
 	class="text-left flex flex-col w-full max-w-[698px] px-6 py-10 relative"
 	transition:fly={{ y: 400 }}
 >
-	<a href="{base}/result" role="button">
+	<a
+		href="{base}/result"
+		on:click={() => {
+			contentManager.updateContent(Content.Analytics);
+		}}
+		role="button"
+	>
 		<svg
 			width="32"
 			height="33"
