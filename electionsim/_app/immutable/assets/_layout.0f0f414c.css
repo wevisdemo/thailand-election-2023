@@ -366,6 +366,9 @@
 .h-9 {
 		height: 2.25rem;
 }
+.h-\[17px\] {
+		height: 17px;
+}
 .h-\[1px\] {
 		height: 1px;
 }
@@ -431,6 +434,9 @@
 }
 .w-\[160px\] {
 		width: 160px;
+}
+.w-\[16px\] {
+		width: 16px;
 }
 .w-\[1px\] {
 		width: 1px;
