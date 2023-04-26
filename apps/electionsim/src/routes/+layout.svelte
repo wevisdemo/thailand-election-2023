@@ -7,3 +7,5 @@
 </script>
 
 <slot />
+
+<election-cookie />
