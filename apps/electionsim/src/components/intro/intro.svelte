@@ -1,18 +1,35 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { onMount } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
 	import lottie from 'lottie-web';
 	import byxMobileLogo from '../../images/byx-mobile.svg';
 	import { contentManager } from '../../stores/content';
 
+	const DISABLE_PERIOD = ['2023-05-07 GMT+7', '2023-05-14 17:30 GMT+7'];
+
 	let lottieContainer: HTMLDivElement;
+	let isDisabled = false;
+	let disableCheckInterval: NodeJS.Timer;
 
 	onMount(() => {
+		checkDisablePeriod();
+		disableCheckInterval = setInterval(checkDisablePeriod, 60000);
+
 		lottie.loadAnimation({
 			container: lottieContainer,
 			path: `${base}/lottie-hero.json`,
 		});
 	});
+
+	function checkDisablePeriod() {
+		const currentMs = new Date().getTime();
+
+		isDisabled =
+			currentMs >= new Date(DISABLE_PERIOD[0]).getTime() &&
+			currentMs < new Date(DISABLE_PERIOD[1]).getTime();
+	}
+
+	onDestroy(() => clearInterval(disableCheckInterval));
 </script>
 
 <div class="flex flex-col items-center w-full max-w-[698px] px-6 py-10">
@@ -32,16 +49,19 @@
 	</p>
 	<a
 		href="{base}/quiz"
-		class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-[160px] md:w-52 h-[50px] flex items-center justify-between font-bold"
+		class="typo-b3 beyondx-gradient-bg text-white py-2 px-4 w-[160px] md:w-52 h-[50px] flex items-center justify-between font-bold {isDisabled
+			? 'opacity-30 pointer-events-none'
+			: ''}"
 		on:click={() => contentManager.startQuiz()}
 	>
 		เริ่มเลย
 		<div class="border-1 border-t border-r w-2 h-2 rotate-45" />
 	</a>
-	<!-- TODO: on 7 may, disable the "continue" button and show the text below -->
-	<!-- <p class="typo-b5 text-center mt-5">
-		เพื่อปฏิบัติตามกฎหมายการเลือกตั้งเกี่ยวกับการห้ามเผยแพร่ผลสำรวจความคิดเห็นของประชาชนเกี่ยวกับการเลือกตั้ง
-		เราจะปิดระบบนี้ตั้งแต่วันที่ 7 พ.ค. 66
-		แล้วมาพบกันใหม่หลังปิดหีบเลือกตั้งในวันที่ 14 พ.ค. 66
-	</p> -->
+	{#if isDisabled}
+		<p class="typo-b5 text-center mt-5 italic">
+			เพื่อปฏิบัติตามกฎหมายการเลือกตั้งเกี่ยวกับการห้ามเผยแพร่ผลสำรวจความคิดเห็นของประชาชนเกี่ยวกับการเลือกตั้ง
+			เราจะปิดระบบนี้ตั้งแต่วันที่ 7 พ.ค. 66
+			แล้วมาพบกันใหม่หลังปิดหีบเลือกตั้งในวันที่ 14 พ.ค. 66
+		</p>
+	{/if}
 </div>
