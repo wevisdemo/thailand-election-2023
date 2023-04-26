@@ -81,7 +81,11 @@
 		</p>
 
 		<div class="flex flex-row h-6 relative {isExpand ? 'mt-[30px]' : ''}">
-			{#each [...governmentParties, ...oppositionParties] as { party, total }}
+			{#each [...governmentParties
+					.sort((a, b) => b.total - a.total)
+					.filter((p) => p.total > 0), ...oppositionParties
+					.sort((a, b) => b.total - a.total)
+					.filter((p) => p.total > 0)] as { party, total }}
 				<div
 					class="flex justify-center"
 					style="width: {(total / totalPoints) *
