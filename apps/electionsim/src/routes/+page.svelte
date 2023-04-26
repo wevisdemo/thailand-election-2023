@@ -1,7 +1,10 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import Intro from '../components/intro/intro.svelte';
+	import Metadata from '../components/metadata.svelte';
 </script>
+
+<Metadata />
 
 <div class="h-full flex flex-col">
 	<election-header />

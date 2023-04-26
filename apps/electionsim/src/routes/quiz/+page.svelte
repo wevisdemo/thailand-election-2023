@@ -17,6 +17,7 @@
 	import { Content, contentManager } from '../../stores/content';
 	import { party } from '../../stores/party';
 	import { onMount } from 'svelte';
+	import Metadata from '../../components/metadata.svelte';
 
 	onMount(() => {
 		if (!$contentManager.isEdited) {
@@ -24,6 +25,8 @@
 		}
 	});
 </script>
+
+<Metadata pageTitle="เริ่มวิเคราะห์" />
 
 <div class="h-screen">
 	<ProgressBar />

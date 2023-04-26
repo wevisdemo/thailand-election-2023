@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import Metadata from '../../components/metadata.svelte';
 
 	const sources = [
 		['ผลการเลือกตั้ง 62', 'https://www.ect.go.th/ect_th/news_all.php?cid=26'],
@@ -51,6 +52,8 @@
 		],
 	];
 </script>
+
+<Metadata pageTitle="เกี่ยวกับโครงการ" />
 
 <election-header />
 

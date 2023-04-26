@@ -16,6 +16,7 @@
 	import { partylistPopularity } from '../../stores/partylist-popularity';
 	import { goto } from '$app/navigation';
 	import { fly } from 'svelte/transition';
+	import Metadata from '../../components/metadata.svelte';
 
 	enum Tabs {
 		Map = 'map',
@@ -72,6 +73,8 @@
 		isShare = !isShare;
 	};
 </script>
+
+<Metadata pageTitle="ผลลัพธ์" />
 
 {#if !isDataReady && !isDelayTimeout}
 	<CalculateLoading />
