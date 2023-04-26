@@ -1,14 +1,10 @@
 <template>
   <div class="search-section">
-    <p class="typo-b4 text-center">
+    <p class="typo-b4 text-center pb-1">
       <b>ค้นหารายชื่อผู้สมัคร ส.ส. และพรรคการเมืองในตำบล/อำเภอบ้านคุณ</b>
     </p>
     <div class="search-container">
       <div class="search-box">
-        <p class="search-box__placeholder" v-if="showPlaceholder">
-          <span><b>พิมพ์ชื่อตำบล/อำเภอ</b> หรือ</span>
-          <span><b>เขตเลือกตั้ง</b> (เช่น ลำพูน 2) </span>
-        </p>
         <input
           v-model.trim="query"
           class="typo-b3"
@@ -16,7 +12,9 @@
           name="query"
           id="district-search"
           autocomplete="off"
+          placeholder="ตำบล/อำเภอ หรือ เขตเลือกตั้ง"
           @input="onSearchInput"
+          :rows="isMobile ? 2 : 1"
         />
         <IconsSearch v-if="menuLevel == 1" />
         <button v-if="menuLevel == 2" @click="onButtonDiscardClick">
@@ -62,7 +60,10 @@
         </div>
       </div>
     </div>
-    <p class="typo-b4 text-center">
+    <p class="typo-b5 text-center" style="opacity: 50%; z-index: -1">
+      ตัวอย่างเขตเลือกตั้ง เช่น ลำพูน 2
+    </p>
+    <p class="typo-b5 text-center">
       ถ้ายังไม่รู้ว่ามีสิทธิอยู่ในเขตเลือกตั้งไหน
       <span style="white-space: nowrap"
         >ไปตรวจสอบได้<a
@@ -168,7 +169,7 @@ export default {
   flex-direction: column;
   align-items: center;
   padding: 20px 0px 40px;
-  gap: 15px;
+  gap: 10px;
 }
 
 .search-container {
