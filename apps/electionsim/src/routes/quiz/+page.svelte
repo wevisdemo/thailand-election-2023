@@ -19,9 +19,9 @@
 	import { onMount } from 'svelte';
 	import Metadata from '../../components/metadata.svelte';
 
-	onMount(() => {
+	onMount(async () => {
 		if (!$contentManager.isEdited) {
-			party.load();
+			await party.load();
 		}
 	});
 </script>
