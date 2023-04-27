@@ -80,7 +80,10 @@ const createDistrictPopularityStore = () => {
 			)) as CandidatesPartyChange[];
 
 			oppositionParties = $party.list
-				.filter(({ PartyGroup }) => PartyGroup === PartySide.Opposition)
+				.filter(
+					({ PartyGroup, Name }) =>
+						PartyGroup === PartySide.Opposition && Name !== 'อนาคตใหม่'
+				)
 				.map(({ Name }) => Name);
 
 			governmentParties = $party.list
