@@ -386,7 +386,6 @@ export default {
   display: flex;
   flex-direction: column;
   padding: 0px;
-  gap: 10px;
   z-index: 0;
 
   & .no-item-found {

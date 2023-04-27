@@ -61,7 +61,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0px 0px 10px 0px;
   border-top: 1px dashed var(--color-black);
 }
 
