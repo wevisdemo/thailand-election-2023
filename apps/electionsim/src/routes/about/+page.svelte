@@ -22,7 +22,7 @@
 		[
 			'เขียนโปรแกรม',
 			[
-				['Th1nkK1D', 'https://th1nkk1d.xyz'],
+				['Th1nkK1D', 'https://github.com/Th1nkK1D'],
 				['tesol2y090', 'https://github.com/tesol2y090'],
 			],
 		],
@@ -202,7 +202,7 @@
 			<span>Feedback</span></a
 		>
 		<a
-			href="https://github.com/wevisdemo/thailand-election-2023"
+			href="https://github.com/wevisdemo/thailand-election-2023/tree/main/apps/electionsim"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="button-rounded--black flex-1"
