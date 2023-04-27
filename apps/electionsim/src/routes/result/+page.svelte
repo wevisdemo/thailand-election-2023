@@ -41,9 +41,9 @@
 			await party.load();
 		}
 		await districtPopularity.load();
+		districtPopularity.calculate();
 		await partylistPopularity.load();
 		await resultElect62.load();
-		districtPopularity.calculate();
 		isDataReady = true;
 	});
 
