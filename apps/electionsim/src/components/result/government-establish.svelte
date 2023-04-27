@@ -12,7 +12,7 @@
 
 	const PRIME_MISTER_POINT = 376;
 
-	const totalPoints = representativeRecord.reduce(
+	$: totalPoints = representativeRecord.reduce(
 		(acc, cur) => acc + cur.total,
 		0
 	);
@@ -21,9 +21,7 @@
 	let isExpand = false;
 	const toggleIsExpand = () => (isExpand = !isExpand);
 
-	if (totalPoints - governmentPoints > governmentPoints) {
-		toggleSide();
-	}
+	$: totalPoints / 2 > governmentPoints && toggleSide();
 </script>
 
 <div
