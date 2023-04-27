@@ -17,11 +17,14 @@
 	import { goto } from '$app/navigation';
 	import { fly } from 'svelte/transition';
 	import Metadata from '../../components/metadata.svelte';
+	import type { PageData } from './$types';
 
 	enum Tabs {
 		Map = 'map',
 		Graph = 'graph',
 	}
+
+	export let data: PageData;
 
 	let isDataReady = false;
 	let isDelayTimeout = false;
@@ -138,7 +141,7 @@
 						class="grow relative w-full mb-[112px]"
 						transition:fly={{ x: -400 }}
 					>
-						<WaffleMap />
+						<WaffleMap availablePartyIcons={data.availablePartyIcons} />
 					</div>
 				{:else}
 					<div class="w-full" transition:fly={{ x: 400 }}>

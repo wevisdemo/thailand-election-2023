@@ -27,6 +27,8 @@
 	const PARTYLIST_COL = 5;
 	const PARTYLIST_MARGIN = CELL_SIZE * 7;
 
+	export let availablePartyIcons: string[];
+
 	const electorialDistrictTable = mapString
 		.split('\r\n')
 		.map((row) => row.split(','));
@@ -171,13 +173,15 @@
 					height={CELL_SIZE}
 				>
 					<rect width="100%" height="100%" fill={Color} />
-					<image
-						href="{base}/party-icons/{Name}.svg"
-						height={CELL_SIZE * 0.6}
-						width={CELL_SIZE * 0.6}
-						x={CELL_SIZE * 0.2}
-						y={CELL_SIZE * 0.2}
-					/>
+					{#if availablePartyIcons.includes(Name)}
+						<image
+							href="{base}/party-icons/{Name}.svg"
+							height={CELL_SIZE * 0.6}
+							width={CELL_SIZE * 0.6}
+							x={CELL_SIZE * 0.2}
+							y={CELL_SIZE * 0.2}
+						/>
+					{/if}
 				</pattern>
 			{/each}
 		</defs>
