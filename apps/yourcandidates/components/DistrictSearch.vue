@@ -14,7 +14,6 @@
           autocomplete="off"
           placeholder="ตำบล/อำเภอ หรือ เขตเลือกตั้ง"
           @input="onSearchInput"
-          :rows="isMobile ? 2 : 1"
         />
         <IconsSearch v-if="menuLevel == 1" />
         <button v-if="menuLevel == 2" @click="onButtonDiscardClick">

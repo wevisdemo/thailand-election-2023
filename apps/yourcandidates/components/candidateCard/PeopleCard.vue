@@ -8,7 +8,6 @@
       <TemplateCard
       :key="person.Number"
       :candidate="person"
-      :partyGroup="partyGroup"
       >
       <template v-slot:infomation>
           <table class="table-container">
@@ -71,16 +70,6 @@ export default {
     },
   },
   computed: {
-    partyGroup() {
-      if (this.person.PastGovernment && this.person.PastOpposition) {
-        return 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน'
-      } else if (this.person.PastOpposition) {
-        return 'ฝ่ายค้าน'
-      } else if (this.person.PastGovernment) {
-        return 'ร่วมรัฐบาล'
-      }
-      return ''
-    },
     pastMP() {
       return this.person.PastGovernment || this.person.PastOpposition
     },

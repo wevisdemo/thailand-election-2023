@@ -24,7 +24,7 @@
           </div>
           <div v-if="partyGroup !== ''" class="inline-block">
             <BadgeWithCheck
-              :checks="partyGroup === 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน' ? 2 : 1"
+              :checks="candidate.PastGovernment && candidate.PastOpposition ? 2 : 1"
             >
               <p>อดีต ส.ส. {{ partyGroup }}</p>
             </BadgeWithCheck>
@@ -50,9 +50,20 @@ import CheckMark from '~/components/icons/CheckMark.vue'
 export default {
   props: {
     candidate: {},
-    partyGroup: '',
   },
   components: { CheckMark },
+  computed: {
+    partyGroup() {
+      if (this.candidate.PastGovernment && this.candidate.PastOpposition) {
+        return 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน'
+      } else if (this.candidate.PastOpposition) {
+        return 'ฝ่ายค้าน'
+      } else if (this.candidate.PastGovernment) {
+        return 'ร่วมรัฐบาล'
+      }
+      return ''
+    }
+  }
 }
 </script>
 
@@ -149,6 +160,7 @@ export default {
   width: 50px;
   height: 50px;
   object-fit: cover;
+  object-position: top;
   margin-left: 0px;
   margin-top: 0px;
   border: 1px solid var(--color-black);

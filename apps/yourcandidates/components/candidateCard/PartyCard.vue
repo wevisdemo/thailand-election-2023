@@ -18,7 +18,6 @@
     <TemplateCard
       :key="party.Number"
       :candidate="party"
-      :partyGroup="partyGroup"
     >
       <template v-slot:infomation>
         <div class="info">
@@ -94,18 +93,6 @@ export default {
     },
     closePopup() {
       this.openPopupPartyList = false
-    },
-  },
-  computed: {
-    partyGroup() {
-      if (this.party.PastGovernment && this.party.PastOpposition) {
-        return 'ทั้งฝ่ายรัฐบาลและฝ่ายค้าน'
-      } else if (this.party.PastOpposition) {
-        return 'ฝ่ายค้าน'
-      } else if (this.party.PastGovernment) {
-        return 'ร่วมรัฐบาล'
-      }
-      return ''
     },
   },
   components: {
