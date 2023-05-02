@@ -5,7 +5,7 @@
       <div class="loading-container" />
       <div class="container">
         <div class="logo-wrap">
-          <img :src="logo" alt="wevis election 66 logo" />
+          <img :src="logo" alt="wevis election 66" />
         </div>
         <p class="typo-h6 head">เปิดข้อมูลที่ต้องรู้ ก่อนเปิดคูหา</p>
         <p class="typo-b4 subhead">
