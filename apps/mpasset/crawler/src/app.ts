@@ -52,7 +52,15 @@ const run66 = async () => {
 	// console.log(party);
 	// console.log(people);
 
-	people.forEach((p) => (p.companyType = []));
+	people.forEach((p) => {
+		(p.companyType = []),
+			(p.totalValueShare = p.totalValueShare || 0),
+			(p.countCompShare = p.countCompShare || 0),
+			(p.countDirector = p.countDirector || 0),
+			(p.totalPctShare = p.totalPctShare || 0),
+			(p.MpType = p.MpType || 'บัญชีรายชื่อ'),
+			(p.Images = `${process.env.SECURE_HOST}${p.Images}`);
+	});
 	const step = 1000;
 	console.log('total-step', Math.ceil(people.length / step));
 	for (let i = 0; i < Math.ceil(people.length / step); i++) {

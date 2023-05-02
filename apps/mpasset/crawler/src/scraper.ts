@@ -44,6 +44,8 @@ export type Person = {
 	totalValueShare: number;
 	totalPctShare: number;
 	companyType: string[];
+	PartyName: string;
+	MpType: string;
 };
 
 export interface NestedPeoplePartyHistory {

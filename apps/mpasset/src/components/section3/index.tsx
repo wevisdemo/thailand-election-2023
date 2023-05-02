@@ -67,11 +67,8 @@ const Section3 = () => {
     await d3.json<PersonCustom[]>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/people.json').then((value) => {
       if (value) {
         value.forEach((d) => {
-          d.totalValueShare = d.totalValueShare || 0,
-            d.countCompShare = d.countCompShare || 0,
-            d.countDirector = d.countDirector || 0,
-            d.totalPctShare = d.totalPctShare || 0,
-            d.MpType = d.MpType || 'บัญชีรายชื่อ'
+          d.MpType = d.MpType || 'บัญชีรายชื่อ'
+          d.Images = `${process.env.SECURE_HOST}/yourcandidates/candidates/${d.PartyName}/${d.Name.replaceAll(' ', '-')}.webp`
         })
         value.forEach((d) => {
           d.totalPctShare = (d.totalPctShare > 30 ? 30 : d.totalPctShare)

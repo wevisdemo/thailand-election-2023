@@ -18,6 +18,7 @@ export interface PersonCustom {
   // custom field
   Images: ImageAttachment[] | string | null;
   PeoplePartyHistory?: NestedPeoplePartyHistory[];
+  PartyName: string
   Party: {
     Id: number;
     Name: string;
