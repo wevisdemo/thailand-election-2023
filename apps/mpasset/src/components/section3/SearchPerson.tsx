@@ -67,7 +67,11 @@ const SearchPerson = ({ open, onClose }: Props) => {
               {data.Name}
             </div>
             <div className='typo-b7 typo-ibmplex text-gray-3 leading-[150%] inline-flex gap-x-[5px]'>
-              {!data.IsCabinet && !data.IsSenator && <div>{'ส.ส. 62'} {data.Party ? `พรรค${data.Party.Name}` : ''} แบบ{data.MpType} {data.MpType === 'แบ่งเขต' ? `จังหวัด${data.MpProvince} เขต ${data.MpZone}` : ``} </div>}
+              {!data.IsCabinet && !data.IsSenator &&
+                <div>{selectedDataSet === 'นักการเมือง 62' ? 'ส.ส. 62' :
+                  'ผู้สมัคร 66'
+                } {data.Party ? `พรรค ${data.Party.Name}` : ''} แบบ{data.MpType} {data.MpType === 'แบ่งเขต' ? `จังหวัด${data.MpProvince} เขต ${data.MpZone}` : ``} </div>}
+              {data.IsPmCandidate && <div>แคนดิเดตนายก</div>}
               {data.IsCabinet && <div>ค.ร.ม.</div>}
               {data.IsSenator && <div>ส.ว.</div>}
             </div>

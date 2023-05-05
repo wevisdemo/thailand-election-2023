@@ -43,7 +43,7 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
           }
         })
 
-        setBusinessData(processData)
+        setBusinessData(processData.sort((a, b) => b.count - a.count))
         setSearchResult(processData)
       }
     })
@@ -70,9 +70,9 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
             percentage
           }
         })
-
-        setBusinessData(processData)
-        setSearchResult(processData)
+        const sorted = [...processData.slice(0, 1), ...processData.slice(1).sort((a, b) => b.count - a.count)]
+        setBusinessData(sorted)
+        setSearchResult(sorted)
       }
     })
   }, [])

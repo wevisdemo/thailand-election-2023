@@ -27,7 +27,7 @@ type Props = {
 
 const CompanyToPersonRelationChart = (props: Props) => {
 
-  const { selectedPerson, selectedCompany } = usePersonStore()
+  const { selectedPerson, selectedCompany, selectedDataSet } = usePersonStore()
 
   const chartRef = React.useRef<HTMLDivElement>(null)
   const svgRef = React.useRef<SVGSVGElement>(null);
@@ -139,8 +139,9 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr("transform", "scale(0.01)")
       defs.append("svg:image")
         .attr("id", (_, i) => "person_avatar" + i)
-        .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Images === 'string' && d.data.shareholderData?.person?.Images !== "" ? d.data.shareholderData?.person.Images :
-          typeof d.data.personData?.Images === 'string' ? d.data.personData?.Images :
+        .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Images === 'string' && d.data.shareholderData?.person?.Images !== "" ?
+          `${d.data.shareholderData?.person.Images}` :
+          typeof d.data.personData?.Images === 'string' ? `${d.data.personData?.Images}` :
             process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
         .attr("width", avatar_size)
         .attr("height", avatar_size)
@@ -159,7 +160,8 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr("transform", "scale(0.01)")
       defs.append("svg:image")
         .attr("id", (_, i) => "party_avatar" + i)
-        .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Party?.Images === 'string' && d.data.shareholderData?.person?.Party?.Images !== "" ? d.data.shareholderData?.person?.Party?.Images : "")
+        .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Party?.Images === 'string' && d.data.shareholderData?.person?.Party?.Images !== "" ?
+          `${d.data.shareholderData?.person?.Party?.Images}` : "")
         .attr("width", avatar_size)
         .attr("height", avatar_size)
         .attr("x", 0)

@@ -1,6 +1,6 @@
 import { Party } from '@thailand-election-2023/database'
 import React from 'react'
-import { BusinessType, BusinessTypeData } from '../../models/business'
+import { BusinessTypeData } from '../../models/business'
 import { usePersonStore } from '../../store/person'
 import { LottieNotFound } from '../util/lottie'
 
@@ -10,19 +10,24 @@ type Props = {
 }
 
 const SearchParty = ({ open, onClose }: Props) => {
-  const { party, setSelectedParty } = usePersonStore()
+  const { party, setSelectedParty, selectedDataSet } = usePersonStore()
   const [searchTerm, setSearchTerm] = React.useState("")
   const [searchResult, setSearchResult] = React.useState<Party[]>(party)
 
   React.useEffect(() => {
+    let partySlice: Party[] = []
+    if (selectedDataSet === 'ผู้สมัคร 66')
+      partySlice = party.slice(3)
     if (searchTerm !== "" && BusinessTypeData.length > 0) {
-      const result = party.filter((data) => data.Name.includes(searchTerm))
+
+
+      const result = partySlice.filter((data) => data.Name.includes(searchTerm))
       if (typeof result === "object")
         setSearchResult(result)
     } else {
-      setSearchResult(party)
+      setSearchResult(partySlice)
     }
-  }, [searchTerm, party])
+  }, [searchTerm, party, selectedDataSet])
 
   return (
     <div className={`absolute inset-0 overflow-x-hidden overflow-y-scroll 
@@ -81,7 +86,7 @@ const SearchParty = ({ open, onClose }: Props) => {
                   {data.Name}
                 </div>
               </div>
-              <div className='w-[20px] h-[20px] rounded-full' style={{ backgroundColor: `${data.Name !== 'ทุกพรรค' && (data.Name !== 'ไม่สังกัดพรรค' ? (data.IsActive ? '#F41724' : '#9A948C') : '#000000')}` }} />
+              <div className='w-[20px] h-[20px] rounded-full' style={{ backgroundColor: `${data.Name !== 'ทุกพรรค' && (data.Name !== 'ไม่สังกัดพรรค' ? (data.IsActive ? data.Color : '#9A948C') : '#000000')}` }} />
             </div>
           </button>
         )) :

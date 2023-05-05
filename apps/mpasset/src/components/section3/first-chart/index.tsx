@@ -69,15 +69,15 @@ const FirstChart = (props: Props) => {
           {filterPerson.length > 0 ?
             <>
               <div className='w-full h-full flex flex-row'>
-                <div className='w-1/4 h-full'>
+                <div className='w-1/6 h-full'>
                   <LeftNav
-                    width={resolution.width * .25}
+                    width={resolution.width * .1666}
                     height={resolution.height}
                     scrollControl={mainScroll}
                   />
                 </div>
-                <div className='w-3/4 h-full'>
-                  <MainNav width={resolution.width * .75} height={resolution.height} onScroll={setMainScroll} />
+                <div className='w-5/6 h-full'>
+                  <MainNav width={resolution.width * .83333} height={resolution.height} onScroll={setMainScroll} />
                 </div>
               </div>
               <div className='absolute bottom-[10px] inset-x-0'>
