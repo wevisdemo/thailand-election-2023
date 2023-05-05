@@ -84,7 +84,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
 
       nodeRoot.selectAll('g').remove()
 
-      const tooltip = d3.select('#tooltip-main-nav')
+      const tooltip = d3.select('#tooltip-c3-nav')
         .style("position", "absolute")
         .style("visibility", "hidden")
         .style("background-color", "white")
@@ -100,9 +100,9 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .append('g')
         .attr("fill-opacity", 0)
         .attr("stroke-opacity", 0)
-        .attr("cursor", "pointer")
+        .attr("cursor", "help")
         .attr("pointer-events", "all")
-        .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y - nodeRadius * .5}, ${- nodeRadius * .5})`)
+        // .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y - nodeRadius * .5}, ${- nodeRadius * .5})`)
         .on("mouseover", (_, d) => {
           tooltip.style("visibility", "visible");
           if (d.height === 0) {
@@ -113,6 +113,12 @@ const CompanyToPersonRelationChart = (props: Props) => {
         })
         .on("mousemove", (e) => { return tooltip.style("top", (e.offsetY + 10) + "px").style("left", (e.offsetX + 10) + "px"); })
         .on("mouseout", () => { return tooltip.style("visibility", "hidden"); });
+
+      if (root.descendants().length > 10)
+        nodeEnter.attr("transform", (d, i) => `rotate(${d.x * 180 / Math.PI - 90}) translate(${(d.y - nodeRadius * .5) * (i % 2 === 0 ? .65 : 1)}, ${- nodeRadius * .5})`)
+      else
+        nodeEnter.attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y - nodeRadius * .5}, ${- nodeRadius * .5})`)
+
 
 
       nodeEnter.append('g')
@@ -129,16 +135,16 @@ const CompanyToPersonRelationChart = (props: Props) => {
       const defs = nodeEnter.append('svg:defs')
       // profile
       defs.append("svg:pattern")
-        .attr("id", (_, i) => "pattern_person_avatar" + i)
+        .attr("id", (_, i) => "c3pattern_person_avatar" + i)
         .attr("width", 1)
         .attr("height", 1)
         // .attr("patternUnits", "userSpaceOnUse")
         .attr("patternContentUnits", "objectBoundingBox")
         .append('use')
-        .attr('xlink:href', (_, i) => "#person_avatar" + i)
+        .attr('xlink:href', (_, i) => "#c3person_avatar" + i)
         .attr("transform", "scale(0.01)")
       defs.append("svg:image")
-        .attr("id", (_, i) => "person_avatar" + i)
+        .attr("id", (_, i) => "c3person_avatar" + i)
         .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Images === 'string' && d.data.shareholderData?.person?.Images !== "" ?
           `${d.data.shareholderData?.person.Images}` :
           typeof d.data.personData?.Images === 'string' ? `${d.data.personData?.Images}` :
@@ -150,16 +156,16 @@ const CompanyToPersonRelationChart = (props: Props) => {
 
       // profile
       defs.append("svg:pattern")
-        .attr("id", (_, i) => "pattern_party_avatar" + i)
+        .attr("id", (_, i) => "c3pattern_party_avatar" + i)
         .attr("width", 1)
         .attr("height", 1)
         // .attr("patternUnits", "userSpaceOnUse")
         .attr("patternContentUnits", "objectBoundingBox")
         .append('use')
-        .attr('xlink:href', (_, i) => "#party_avatar" + i)
+        .attr('xlink:href', (_, i) => "#c3party_avatar" + i)
         .attr("transform", "scale(0.01)")
       defs.append("svg:image")
-        .attr("id", (_, i) => "party_avatar" + i)
+        .attr("id", (_, i) => "c3party_avatar" + i)
         .attr("xlink:href", (d) => typeof d.data.shareholderData?.person?.Party?.Images === 'string' && d.data.shareholderData?.person?.Party?.Images !== "" ?
           `${d.data.shareholderData?.person?.Party?.Images}` : "")
         .attr("width", avatar_size)
@@ -175,7 +181,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr('fill', (d, i) => i == 0 ? (Array.isArray(d.data.companyData?.gov_fund_proj) ? 'black' : 'white')
           : d.data.companyData?.gov_fund_proj ? '#000'
             // : d.id === `${selectedPerson?.Name.replaceAll(' ', '-')}`
-            : "url(#pattern_person_avatar" + i + ")"
+            : "url(#c3pattern_person_avatar" + i + ")"
           // : 'url(#pattern_unknown_person_avatar)')
         )
         .attr('stroke', '#000')
@@ -195,7 +201,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr('rx', 49)
         .attr('stroke', (d) => typeof d.data.shareholderData?.person?.Party?.Images === 'string' && d.data.shareholderData?.person?.Party?.Images !== "" ? '#000' : 'transparent')
         .attr('stroke-width', "2px")
-        .attr("fill", (_, i) => "url(#pattern_party_avatar" + i + ")")
+        .attr("fill", (_, i) => "url(#c3pattern_party_avatar" + i + ")")
         .attr("fill-opacity", 1)
       // .attr("stroke-opacity", 1);
       /// ------------ link layer ----------------
@@ -216,15 +222,18 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .attr("x1", d => radialPoint(d.source.x, d.source.y)[0])
         // @ts-ignore
         .attr("y1", (d) => radialPoint(d.source.x, d.source.y)[1])
+
+      if (root.descendants().length > 10) {
         // @ts-ignore
-        .attr("x2", (d) => radialPoint(d.target.x, d.target.y)[0])
+        linkEnter.attr("x2", (d, i) => radialPoint(d.target.x, d.target.y)[0] * (i % 2 !== 0 ? .65 : 1))
         // @ts-ignore
-        .attr("y2", (d) => radialPoint(d.target.x, d.target.y)[1])
-
-
-
-
-
+        linkEnter.attr("y2", (d, i) => radialPoint(d.target.x, d.target.y)[1] * (i % 2 !== 0 ? .65 : 1))
+      } else {
+        // @ts-ignore
+        linkEnter.attr("x2", (d) => radialPoint(d.target.x, d.target.y)[0])
+        // @ts-ignore
+        linkEnter.attr("y2", (d) => radialPoint(d.target.x, d.target.y)[1])
+      }
 
       const personIcon = chartArea.select('.person-icon')
         .attr('transform', `translate(${-avatar_size * .5} ${-avatar_size * .5})`)
@@ -320,7 +329,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
           </g>
         </g>
       </svg>
-      <div id='tooltip-main-nav' />
+      <div id='tooltip-c3-nav' />
     </div>
   );
 };

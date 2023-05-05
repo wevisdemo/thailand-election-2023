@@ -246,7 +246,7 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
             {isExpand &&
               <div className='flex flex-col gap-y-[10px]
              '>
-                {selectedCompany?.gov_fund_proj.map((data) => (
+                {selectedCompany?.gov_fund_proj?.map((data) => (
                   <div key={`gov-fund-proj-${data.เลขที่สัญญา}`}
                     className={`px-[15px] py-[10px] 
                   flex flex-row justify-between border-b-highlight-2 border-b-[1px]`}>

@@ -82,7 +82,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         return [(y = +y) * Math.cos(x -= Math.PI / 2), y * Math.sin(x)];
       }
 
-      const tooltip = d3.select('#tooltip-main-nav')
+      const tooltip = d3.select('#tooltip-chart2-nav')
         .style("position", "absolute")
         .style("visibility", "hidden")
         .style("background-color", "white")
@@ -101,10 +101,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
 
       const nodeEnter = node.enter()
         .append('g')
-        .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y - nodeRadius * .5}, ${- nodeRadius * .5})`)
-        // .attr('fill', 'none')
-        // .attr("fill-opacity", 0)
-        // .attr("stroke-opacity", 0)
+
         .attr("cursor", "pointer")
         .attr("pointer-events", "all")
         .on("click", (_, d) => {
@@ -113,6 +110,11 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         .on("mouseover", function (_, d) { tooltip.style("visibility", "visible"); tooltip.html(String(d.data.companyData?.company_name_th)) })
         .on("mousemove", function (e) { return tooltip.style("top", (e.offsetY + 10) + "px").style("left", (e.offsetX + 10) + "px"); })
         .on("mouseout", function () { return tooltip.style("visibility", "hidden"); });
+
+      if (root.descendants().length > 10)
+        nodeEnter.attr("transform", (d, i) => `rotate(${d.x * 180 / Math.PI - 90}) translate(${(d.y - nodeRadius * .5) * (i % 2 === 0 ? .65 : 1)}, ${- nodeRadius * .5})`)
+      else
+        nodeEnter.attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y - nodeRadius * .5}, ${- nodeRadius * .5})`)
 
       nodeEnter.append('rect')
         .attr('rx', '5')
@@ -141,22 +143,6 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         // .attr('transform')
         .text((d) => (d.data.companyData && Array.isArray(d.data.companyData?.company_shareholder) ? d.data.companyData.company_shareholder.reduce((sum, cur) => sum + (cur.person ? 1 : 0), 0) : 1))
 
-
-
-
-      // const circleSize = nodeRadius * .5
-      // nodeEnter.append('rect')
-      //   .attr('rx', '49')
-      //   .attr('width', circleSize)
-      //   .attr('height', circleSize)
-      //   .attr('transform', `translate(${circleSize * .5} ${circleSize * .5})`)
-      //   .attr('fill', (d) => d.data.companyData?.gov_fund_proj ? '#000' : 'white')
-      //   .attr('stroke', '#000')
-      //   .attr('stroke-weight', '2px')
-      //   .transition(transition)
-      //   .attr("fill-opacity", 1)
-      //   .attr("stroke-opacity", 1);
-
       /// ------------ link layer ----------------
       const linkRoot = chartArea.select<SVGGElement>('.link-layer')
 
@@ -175,11 +161,18 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         .attr("x1", d => radialPoint(d.source.x, d.source.y)[0])
         // @ts-ignore
         .attr("y1", (d) => radialPoint(d.source.x, d.source.y)[1])
-        // @ts-ignore
-        .attr("x2", (d) => radialPoint(d.target.x, d.target.y)[0])
-        // @ts-ignore
-        .attr("y2", (d) => radialPoint(d.target.x, d.target.y)[1])
 
+      if (root.descendants().length > 10) {
+        // @ts-ignore
+        linkEnter.attr("x2", (d, i) => radialPoint(d.target.x, d.target.y)[0] * (i % 2 !== 0 ? .65 : 1))
+        // @ts-ignore
+        linkEnter.attr("y2", (d, i) => radialPoint(d.target.x, d.target.y)[1] * (i % 2 !== 0 ? .65 : 1))
+      } else {
+        // @ts-ignore
+        linkEnter.attr("x2", (d) => radialPoint(d.target.x, d.target.y)[0])
+        // @ts-ignore
+        linkEnter.attr("y2", (d) => radialPoint(d.target.x, d.target.y)[1])
+      }
 
       const avatar_size = 100
       const logoSize = 30
@@ -191,16 +184,16 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
       if (rootNode) {
         // profile
         defs.append("svg:pattern")
-          .attr("id", "pattern_person_avatar" + rootNode.Id)
+          .attr("id", "c2-pattern_person_avatar" + rootNode.Id)
           .attr("width", 1)
           .attr("height", 1)
           // .attr("patternUnits", "userSpaceOnUse")
           .attr("patternContentUnits", "objectBoundingBox")
           .append('use')
-          .attr('xlink:href', "#person_avatar" + rootNode.Id)
+          .attr('xlink:href', "#c2-person_avatar" + rootNode.Id)
           .attr("transform", "scale(0.01)")
         defs.append("svg:image")
-          .attr("id", "person_avatar" + rootNode.Id)
+          .attr("id", "c2-person_avatar" + rootNode.Id)
           .attr("xlink:href", typeof rootNode.Images === 'string' && rootNode.Images !== "" ? rootNode.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
           .attr("width", avatar_size)
           .attr("height", avatar_size)
@@ -210,16 +203,16 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         if (rootNode.Party) {
           // profile
           defs.append("svg:pattern")
-            .attr("id", "pattern_party_avatar" + rootNode.Party?.Id)
+            .attr("id", "c2-pattern_party_avatar" + rootNode.Party?.Id)
             .attr("width", 1)
             .attr("height", 1)
             // .attr("patternUnits", "userSpaceOnUse")
             .attr("patternContentUnits", "objectBoundingBox")
             .append('use')
-            .attr('xlink:href', "#party_avatar" + rootNode.Party?.Id)
+            .attr('xlink:href', "#c2-party_avatar" + rootNode.Party?.Id)
             .attr("transform", "scale(0.01)")
           defs.append("svg:image")
-            .attr("id", "party_avatar" + rootNode.Party?.Id)
+            .attr("id", "c2-party_avatar" + rootNode.Party?.Id)
             .attr("xlink:href", typeof rootNode.Party?.Images === 'string' ? rootNode.Party?.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg')
             .attr("width", avatar_size)
             .attr("height", avatar_size)
@@ -240,7 +233,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
           .attr('rx', 49)
           .attr('stroke', '#000')
           .attr('stroke-width', "2")
-          .attr("fill", "url(#pattern_person_avatar" + rootNode.Id + ")")
+          .attr("fill", "url(#c2-pattern_person_avatar" + rootNode.Id + ")")
           .attr('stroke', 'black')
 
 
@@ -253,7 +246,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
           .attr('rx', 49)
           .attr('stroke', rootNode.Party ? '#000' : 'transparent')
           .attr('stroke-width', "2")
-          .attr("fill", "url(#pattern_party_avatar" + rootNode.Party?.Id + ")")
+          .attr("fill", "url(#c2-pattern_party_avatar" + rootNode.Party?.Id + ")")
 
 
       }
@@ -337,7 +330,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
           </g>
         </g>
       </svg>
-      <div id='tooltip-main-nav' />
+      <div id='tooltip-chart2-nav' />
     </div>
   );
 };

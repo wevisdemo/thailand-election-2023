@@ -8,6 +8,7 @@ import * as d3 from 'd3'
 import dynamic from 'next/dynamic'
 import { PersonCustom } from '../../models/person'
 import { placeZerosAtEnd } from '../util/calculation'
+import Dialog from './Dialog'
 
 const FirstChart = dynamic(() => import('./first-chart'), { loading: () => <LoadingScreen /> })
 const SecondChart = dynamic(() => import('./second-chart'), { loading: () => <LoadingScreen /> })
@@ -140,14 +141,14 @@ const Section3 = () => {
       setFilterPerson(placeZerosAtEnd(outFilter, 'countCompShare', 'countDirector'))
     }
   }, [selectedBusinessType, selectedParty, selectedSort, setFilterPerson, person, yourCandidatePerson, selectedDataSet])
-
-  if (isLoading) return <LoadingScreen />
-
-  if (view === VIEW_TYPE.MAIN_VIEW) return <div className='h-full inset-0 flex flex-col relative overflow-hidden'><FirstChart /></div>;
-  if (view === VIEW_TYPE.SELCTED_PERSON_CHART) return <div className='h-full inset-0 flex flex-col relative overflow-hidden'><SecondChart /></div>;
-  if (view === VIEW_TYPE.SELECTED_COMPANY_CHART) return <div className='h-full inset-0 flex flex-col relative overflow-hidden'><ThirdChart /></div>;
-
-  return <LoadingScreen />
+  return <>
+    <div className='h-full inset-0 flex flex-col relative overflow-hidden'>
+      <FirstChart />
+      <Dialog open={view === VIEW_TYPE.SELCTED_PERSON_CHART}><SecondChart /></Dialog>
+      <Dialog open={view === VIEW_TYPE.SELECTED_COMPANY_CHART}><ThirdChart /></Dialog>
+      <Dialog open={isLoading}><LoadingScreen /></Dialog>
+    </div>
+  </>
 }
 
 export default Section3

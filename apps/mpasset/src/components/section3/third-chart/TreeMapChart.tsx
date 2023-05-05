@@ -160,8 +160,8 @@ const TreeMapChart: React.FunctionComponent = () => {
         .selectAll('tspan')
         .data((d) => d.data.percentage > 2 ? [`${d.data.percentage}%`] : [])
         .join('tspan')
-        .attr("x", 2)
-        .attr("y", `21px`)
+        .attr("x", 4)
+        .attr("y", `24px`)
         .attr('font-size', '21px')
         .text((d: any) => d)
     }
@@ -236,8 +236,6 @@ const TreeMapChart: React.FunctionComponent = () => {
             <text />
           </g>
           <g className="chart-area">
-            {/* <g className="link-layer" />
-            <g className="node-layer" /> */}
           </g>
         </g>
       </svg>

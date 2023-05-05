@@ -125,7 +125,10 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
           <button key={`search-result-${data.code}`}
             className=" w-full text-left py-[16px] px-[20px]
             relative"
-            onClick={() => { onClose(); setSelectedBusinessType(data); }}
+            onClick={() => {
+              onClose();
+              setSelectedBusinessType(data);
+            }}
           >
             {data.code !== 'all' &&
               <div className={`absolute inset-0 -z-10 bg-highlight-1`} style={{ width: `${data.percentage}%` }} />
