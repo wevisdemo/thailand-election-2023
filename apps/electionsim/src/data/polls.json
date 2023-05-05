@@ -19,5 +19,9 @@
 		"date": "23 มีนาคม 2566",
 		"filename": "poll-ไทยรัฐโพล.csv"
 	},
-	{ "source": "เนชั่นโพล", "date": null, "filename": "poll-เนชั่นโพล.csv" }
+	{
+		"source": "เนชั่นโพล",
+		"date": "7-12 เมษายน 2566",
+		"filename": "poll-เนชั่นโพล.csv"
+	}
 ]
