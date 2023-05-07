@@ -3,6 +3,7 @@ import { usePersonStore } from '../../../store/person'
 import * as d3 from 'd3'
 import { convertToInternationalCurrencySystem } from '../../util/calculation'
 import { PersonCustom } from '../../../models/person'
+import { useTour } from '@reactour/tour'
 
 type Props = {
   width: number
@@ -12,6 +13,10 @@ type Props = {
 
 const MainNav = ({ width, height, onScroll }: Props) => {
   const { filterPerson, setSelectedPerson } = usePersonStore()
+
+  // tour
+  const { currentStep, setCurrentStep } = useTour()
+
   const handleScroll = (e: React.UIEvent<HTMLDivElement, UIEvent>) => {
     onScroll({
       scrollHeight: e.currentTarget.scrollHeight,
@@ -84,8 +89,14 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .data(personData)
         .join('g')
         .attr('transform', (_, i) => `translate(0, ${yScaleBand(`${i!}`)})`)
-        .attr('class', 'cursor-pointer')
-        .on('click', (_, d: PersonCustom) => { setSelectedPerson(d) })
+        .attr('class', `cursor-pointer`)
+        .on('click', (_, d: PersonCustom) => {
+          setSelectedPerson(d)
+          if (currentStep === 0)
+            setCurrentStep(1)
+          else
+            setCurrentStep(5)
+        })
         .on("mouseover", function (_, d) { tooltip.style("visibility", "visible"); tooltip.html(d.Name) })
         .on("mousemove", function (e) { return tooltip.style("top", (e.offsetY + 10) + "px").style("left", (e.offsetX + 10) + "px"); })
         .on("mouseout", function () { return tooltip.style("visibility", "hidden"); });
@@ -193,14 +204,20 @@ const MainNav = ({ width, height, onScroll }: Props) => {
 
 
     }
-  }, [filterPerson, height, width, setSelectedPerson])
+  }, [filterPerson, height, width, setSelectedPerson, currentStep, setCurrentStep])
 
   return (
     <div className={`overflow-y-scroll overflow-x-hidden relative
-      border-l-[1px] border-l-black`} style={{ maxHeight: `${height}px` }}
+      border-l-[1px] border-l-black 
+      `}
+      style={{ maxHeight: `${height}px` }}
       onScroll={(e) => handleScroll(e)}>
+      <div className='absolute top-0 inset-x-0 h-1/2 pointer-events-none
+      tour1-first-step 
+      tour3-first-step'/>
       <svg className='chart-main' />
       <div id='tooltip-main-nav' />
+
     </div>
   )
 }

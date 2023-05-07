@@ -7,6 +7,7 @@ import SearchParty from './SearchParty'
 import { usePersonStore } from '../../store/person'
 import { BusinessTypeData } from '../../models/business'
 import SelectDataset from './SelectDataset'
+import { useTour } from '@reactour/tour'
 
 export type SelectedFilterType = {
   dataSet: string | 'ผู้สมัคร 66',
@@ -36,6 +37,9 @@ const Filter = ({ onOpenSeachDialog }: Props) => {
   const { selectedBusinessType, selectedParty, selectedSort,
     party, setSelectedParty, selectedDataSet,
     toggleSort, setSelectedBusinessType } = usePersonStore()
+
+  // onboard
+  const { setCurrentStep, isOpen } = useTour()
 
   return (
     <div className='flex flex-col gap-y-[5px]  py-[5px]'>
@@ -87,7 +91,15 @@ const Filter = ({ onOpenSeachDialog }: Props) => {
         </div>
         <div className='flex flex-row gap-x-[5px] items-center'>
           <div>จาก</div>
-          <SelectedFilterButton wording={selectedBusinessType?.name || 'ทุกหมวดธุรกิจ'} onClick={() => setIsOpenSearchBusinessType(true)} />
+          <div className='tour2-first-step'>
+            <SelectedFilterButton wording={selectedBusinessType?.name || 'ทุกหมวดธุรกิจ'}
+              onClick={() => {
+                if (isOpen) {
+                  setCurrentStep(3)
+                }
+                setIsOpenSearchBusinessType(true);
+              }} />
+          </div>
           <div>จาก</div>
           <SelectedFilterButton wording={selectedParty?.Name || 'ทุกพรรค'} onClick={() => setIsOpenSearchParty(true)} />
         </div>

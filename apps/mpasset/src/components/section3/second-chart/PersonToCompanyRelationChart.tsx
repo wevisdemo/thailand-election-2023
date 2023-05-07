@@ -2,6 +2,7 @@ import * as React from "react";
 import * as d3 from "d3";
 import { usePersonStore } from "../../../store/person";
 import { CredenData, PersonCustom } from "../../../models/person";
+import { useTour } from "@reactour/tour";
 
 type NodeLinkType = {
   id: string,
@@ -21,8 +22,8 @@ interface NodeLink extends d3.HierarchyNode<NodeLinkType> {
 
 
 const PersonToCompanyRelationChart: React.FunctionComponent = () => {
-
   const { selectedPerson, directorData, shareholderData, setSelectedCompany } = usePersonStore()
+  const { isOpen, setIsOpen, currentStep, setCurrentStep } = useTour()
 
   const chartRef = React.useRef<HTMLDivElement>(null)
   const svgRef = React.useRef<SVGSVGElement>(null);
@@ -39,7 +40,9 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
     if (d.height !== 0) {
       d.children = d.children ? undefined : d._children
     }
-  }, [setSelectedCompany])
+    if (currentStep !== 5) setIsOpen(false)
+    else setCurrentStep(6)
+  }, [setSelectedCompany, currentStep, setIsOpen, setCurrentStep])
 
 
   React.useEffect(() => {
@@ -259,7 +262,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
       });
     }
 
-  }, [svgRef, dataSet, chartDimension, handleClickNode]);
+  }, [svgRef, dataSet, chartDimension, handleClickNode, isOpen]);
 
 
   React.useEffect(() => {
@@ -312,10 +315,15 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
   }, []);
 
   return (
-    <div className="w-full h-full max-w-[800px] mx-auto relative desktop:ml-[calc(95vw-800px)]" ref={chartRef}>
+    <div id='second-chart' className="w-full h-full max-w-[800px] mx-auto relative desktop:ml-[calc(95vw-800px)]"
+      ref={chartRef}>
+      <div className='absolute top-0 inset-x-0 h-[90%] pointer-events-none
+        tour1-second-step 
+        tour3-second-step'
+      />
       <svg ref={svgRef}>
         <g className="chart-margin">
-          <g className="x-axis" />
+          < g className="x-axis" />
           <g className="y-axis" />
           <g className="x-label">
             <text />
@@ -323,15 +331,15 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
           <g className="y-label" >
             <text />
           </g>
-          <g className="chart-area">
+          <g className="chart-area ">
             <g className="link-layer" />
             <g className="node-layer" />
             <g className="person-icon" />
           </g>
-        </g>
-      </svg>
+        </g >
+      </svg >
       <div id='tooltip-chart2-nav' />
-    </div>
+    </div >
   );
 };
 

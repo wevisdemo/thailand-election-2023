@@ -311,8 +311,12 @@ const CompanyToPersonRelationChart = (props: Props) => {
   }, []);
 
   return (
-    <div className="w-full h-full max-w-[800px] mx-auto relative desktop:ml-[calc(95vw-800px)]" ref={chartRef}>
-      <svg ref={svgRef}>
+    <div id='third-chart' className="w-full h-full max-w-[800px] mx-auto relative desktop:ml-[calc(95vw-800px)]"
+      ref={chartRef}>
+      <div className='absolute top-0 inset-x-0 h-[90%] pointer-events-none
+        tour3-third-step'
+      />
+      <svg ref={svgRef} >
         <g className="chart-margin">
           <g className="x-axis" />
           <g className="y-axis" />

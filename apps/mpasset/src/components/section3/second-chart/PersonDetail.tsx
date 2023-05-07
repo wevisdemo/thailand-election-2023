@@ -60,6 +60,16 @@ const PersonDetail = ({ open, onToggle }: Props) => {
         const directorData = value[0]
         const shareholderData = value[1]
 
+        if (selectedDataSet === 'ผู้สมัคร 66') {
+          if (shareholderData) {
+            shareholderData.forEach((d) => {
+              d.company_shareholder?.forEach((c) => {
+                if (typeof c.person?.Images === 'string')
+                  c.person.Images = `${process.env.SECURE_HOST}/yourcandidates/candidates/${c.person?.PartyName}/${c.person?.Name.replaceAll(' ', '-')}.webp`
+              })
+            })
+          }
+        }
         setDirectorData(directorData || [])
         setShareholderData(shareholderData || [])
 
@@ -92,7 +102,7 @@ const PersonDetail = ({ open, onToggle }: Props) => {
       gap-y-[5px] gap-x-[10px]
       ${!open ? 'top-[calc(100%-105px)] desktop:top-[58px]' : 'top-[58px]'}
       transition-all
-      h-header
+      h-header tablet:h-tablet-header
       bg-white
       max-w-[480px]
       `}>

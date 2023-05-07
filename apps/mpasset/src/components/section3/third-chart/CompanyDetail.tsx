@@ -76,7 +76,7 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
       gap-y-[5px] gap-x-[10px]
       ${!open ? 'top-[calc(100%-105px)] desktop:top-[58px]' : 'top-[58px]'}
       transition-all
-      h-header
+      h-header tablet:h-tablet-header
       bg-white
       overflow-y-scroll 
       scrollbar-hide
@@ -205,9 +205,10 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
                       className='inline-flex justify-between items-center border-b-[2px] border-b-black py-[9.5px] gap-x-[10px]'>
                       <div className='relative'>
                         <div className={`flex-shrink-0 w-[40px] h-[40px]  bg-cover bg-center rounded-full`} style={{
-                          backgroundImage: `url('${d.person?.Images || process.env.BASE_PATH + '/design_assets/profile_pic.jpg'}')`
-                        }} />
-                        <div className='absolute bottom-0 right-0 w-[20px] h-[20px]  bg-cover bg-center rounded-full' style={{
+                          backgroundImage: `url('${typeof d.person !== 'undefined' ? d.person?.Images : `${process.env.BASE_PATH + '/design_assets/profile_pic.jpg'}`}')`
+                        }}
+                        />
+                        < div className='absolute bottom-0 right-0 w-[20px] h-[20px]  bg-cover bg-center rounded-full' style={{
                           backgroundImage: `url('${d.person?.Party?.Images}')`
                         }} />
                       </div>

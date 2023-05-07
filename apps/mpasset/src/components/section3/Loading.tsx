@@ -17,5 +17,7 @@ const Loading = (props: Props) => {
 export default Loading
 
 export const LoadingScreen = () => {
-  return (<div className='h-screen flex flex-col'><Loading /></div>)
+  return (<div className='
+  h-header tablet:h-tablet-header
+  flex flex-col'><Loading /></div>)
 }

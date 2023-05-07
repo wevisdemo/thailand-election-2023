@@ -9,6 +9,10 @@ import dynamic from 'next/dynamic'
 import { PersonCustom } from '../../models/person'
 import { placeZerosAtEnd } from '../util/calculation'
 import Dialog from './Dialog'
+import Tutorial from './tutorial'
+import { Question, Share } from '../util/icon-main'
+import Tour from 'reactour'
+import OnBoard from './tutorial/OnBoard'
 
 const FirstChart = dynamic(() => import('./first-chart'), { loading: () => <LoadingScreen /> })
 const SecondChart = dynamic(() => import('./second-chart'), { loading: () => <LoadingScreen /> })
@@ -35,7 +39,10 @@ const Section3 = () => {
     selectedDataSet,
     selectedBusinessType,
     selectedParty,
-    selectedSort
+    selectedSort,
+
+    openTutorial,
+    setOpenTutorial
   } = usePersonStore();
 
   const [view, setView] = React.useState(VIEW_TYPE.MAIN_VIEW)
@@ -141,14 +148,34 @@ const Section3 = () => {
       setFilterPerson(placeZerosAtEnd(outFilter, 'countCompShare', 'countDirector'))
     }
   }, [selectedBusinessType, selectedParty, selectedSort, setFilterPerson, person, yourCandidatePerson, selectedDataSet])
-  return <>
+
+  return (
     <div className='h-full inset-0 flex flex-col relative overflow-hidden'>
-      <FirstChart />
-      <Dialog open={view === VIEW_TYPE.SELCTED_PERSON_CHART}><SecondChart /></Dialog>
-      <Dialog open={view === VIEW_TYPE.SELECTED_COMPANY_CHART}><ThirdChart /></Dialog>
-      <Dialog open={isLoading}><LoadingScreen /></Dialog>
-    </div>
-  </>
+      <OnBoard>
+        <FirstChart />
+        <Dialog open={view === VIEW_TYPE.SELCTED_PERSON_CHART}>
+          <div className='w-full h-full bg-white bg-opacity-50'>
+            <SecondChart />
+          </div>
+        </Dialog>
+        <Dialog open={view === VIEW_TYPE.SELECTED_COMPANY_CHART}>
+          <div className='w-full h-full bg-white bg-opacity-50'>
+            <ThirdChart />
+          </div>
+        </Dialog>
+        <Dialog open={openTutorial} onClose={() => setOpenTutorial(false)}><Tutorial /></Dialog>
+        <div className='absolute bottom-[10px] right-[10px]'>
+          <div className='flex flex-col gap-[5px]'>
+            <button onClick={() => setOpenTutorial(true)}>
+              <Question />
+            </button>
+            <Share />
+          </div>
+        </div>
+        <Dialog open={isLoading}><LoadingScreen /></Dialog>
+      </OnBoard>
+    </div >
+  )
 }
 
 export default Section3

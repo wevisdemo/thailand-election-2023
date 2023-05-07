@@ -15,7 +15,9 @@ const SelectDataset = ({ open, onClose }: Props) => {
 
   return (
     <div className={`absolute inset-0 overflow-x-hidden overflow-y-scroll 
-      bg-white h-screen z-30
+      bg-white 
+      h-header tablet:h-tablet-header
+      z-30
       ${open ? 'visible opacity-100' : 'invisible opacity-0'} transition-all`}>
       <div className='flex flex-row justify-end px-[10px]'>
         <button onClick={() => onClose()}><Close /></button>

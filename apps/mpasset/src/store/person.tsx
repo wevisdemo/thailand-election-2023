@@ -32,7 +32,6 @@ interface PersonState {
   selectedCompany?: CredenData | null
   setSelectedCompany: (by: CredenData | null) => void
 
-
   // filter
   selectedDataSet: DataSetType
   setSelectedDataSet: (by: DataSetType) => void
@@ -44,6 +43,10 @@ interface PersonState {
   setSelectedParty: (by: Party | null) => void
   selectedSort: 'asc' | 'desc'
   toggleSort: () => void
+
+  // tutorial
+  openTutorial: boolean
+  setOpenTutorial: (by: boolean) => void
 }
 
 export const usePersonStore = create<PersonState>()(
@@ -85,6 +88,10 @@ export const usePersonStore = create<PersonState>()(
       setSelectedParty: (by) => { return set((state) => ({ ...state, selectedParty: by })) },
       selectedSort: 'desc',
       toggleSort: () => { return set((state) => ({ ...state, selectedSort: state.selectedSort === 'asc' ? 'desc' : 'asc' })) },
+
+      // tutorial
+      openTutorial: true,
+      setOpenTutorial: (by) => { return set((state) => ({ ...state, openTutorial: by })) },
     }),
     {
       name: 'person', // name of the item in the storage (must be unique)
