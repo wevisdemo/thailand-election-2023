@@ -13,6 +13,7 @@ import Tutorial from './tutorial'
 import { Question, Share } from '../util/icon-main'
 import Tour from 'reactour'
 import OnBoard from './tutorial/OnBoard'
+import { FacebookShareButton } from 'react-share'
 
 const FirstChart = dynamic(() => import('./first-chart'), { loading: () => <LoadingScreen /> })
 const SecondChart = dynamic(() => import('./second-chart'), { loading: () => <LoadingScreen /> })
@@ -169,7 +170,10 @@ const Section3 = () => {
             <button onClick={() => setOpenTutorial(true)}>
               <Question />
             </button>
-            <Share />
+            <FacebookShareButton url={`${process.env.SECURE_HOST}${process.env.BASE_PATH}`}
+              className='cursor-pointer'>
+              <Share />
+            </FacebookShareButton>
           </div>
         </div>
         <Dialog open={isLoading}><LoadingScreen /></Dialog>
