@@ -77,7 +77,7 @@ const Section3 = () => {
       if (value) {
         value.forEach((d) => {
           d.MpType = d.MpType || 'บัญชีรายชื่อ'
-          d.Images = `${process.env.SECURE_HOST}/yourcandidates/candidates/${d.PartyName}/${d.Name.replaceAll(' ', '-')}.webp`
+          d.Images = `${process.env.SECURE_HOST}${d.Images}`
         })
         value.forEach((d) => {
           d.totalPctShare = (d.totalPctShare > 30 ? 30 : d.totalPctShare)

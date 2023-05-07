@@ -65,7 +65,7 @@ const PersonDetail = ({ open, onToggle }: Props) => {
             shareholderData.forEach((d) => {
               d.company_shareholder?.forEach((c) => {
                 if (typeof c.person?.Images === 'string')
-                  c.person.Images = `${process.env.SECURE_HOST}/yourcandidates/candidates/${c.person?.PartyName}/${c.person?.Name.replaceAll(' ', '-')}.webp`
+                  c.person.Images = `${process.env.SECURE_HOST}${c.person.Images}`
               })
             })
           }
