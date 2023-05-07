@@ -15,12 +15,10 @@ const SearchParty = ({ open, onClose }: Props) => {
   const [searchResult, setSearchResult] = React.useState<Party[]>(party)
 
   React.useEffect(() => {
-    let partySlice: Party[] = []
+    let partySlice: Party[] = party
     if (selectedDataSet === 'ผู้สมัคร 66')
       partySlice = party.slice(3)
     if (searchTerm !== "" && BusinessTypeData.length > 0) {
-
-
       const result = partySlice.filter((data) => data.Name.includes(searchTerm))
       if (typeof result === "object")
         setSearchResult(result)
@@ -70,7 +68,6 @@ const SearchParty = ({ open, onClose }: Props) => {
                 ทุกพรรค
               </div>
             </div>
-
           </div>
         </button>
         {searchResult.length > 0 ? searchResult.map((data) => (

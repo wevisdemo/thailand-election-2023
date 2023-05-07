@@ -58,8 +58,7 @@ const run66 = async () => {
 			(p.countCompShare = p.countCompShare || 0),
 			(p.countDirector = p.countDirector || 0),
 			(p.totalPctShare = p.totalPctShare || 0),
-			(p.MpType = p.MpType || 'บัญชีรายชื่อ'),
-			(p.Images = `${process.env.SECURE_HOST}${p.Images}`);
+			(p.MpType = p.MpType || 'บัญชีรายชื่อ');
 	});
 	const step = 1000;
 	console.log('total-step', Math.ceil(people.length / step));

@@ -204,7 +204,7 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
                     <div key={`shareholder-${d.Firstname.replaceAll(' ', '-')}-${d.Lastname.replaceAll(' ', '-')}`}
                       className='inline-flex justify-between items-center border-b-[2px] border-b-black py-[9.5px] gap-x-[10px]'>
                       <div className='relative'>
-                        <div className={`flex-shrink-0 w-[40px] h-[40px]  bg-cover bg-center rounded-full`} style={{
+                        <div className={`flex-shrink-0 w-[40px] h-[40px]  bg-cover bg-top rounded-full`} style={{
                           backgroundImage: `url('${typeof d.person !== 'undefined' ? d.person?.Images : `${process.env.BASE_PATH + '/design_assets/profile_pic.jpg'}`}')`
                         }}
                         />

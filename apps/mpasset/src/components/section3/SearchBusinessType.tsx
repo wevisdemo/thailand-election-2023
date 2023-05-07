@@ -89,7 +89,7 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
   }, [searchTerm, businessData])
 
   React.useEffect(() => {
-    if (selectedDataSet == 'นักการเมือง 62')
+    if (selectedDataSet === 'นักการเมือง 62')
       fetchFromGit()
     else
       fetchFromGitYourCandidate()

@@ -150,7 +150,7 @@ const PersonDetail = ({ open, onToggle }: Props) => {
         </div>
       </div>
       <div className='flex flex-row border-b-[1px] border-dashed border-b-gray-2 pb-[10px] gap-x-[10px]'>
-        <div className='w-[70px] h-[70px] rounded-full border-[2px] border-black bg-cover bg-center' style={{
+        <div className='w-[70px] h-[70px] rounded-full border-[2px] border-black bg-cover bg-top' style={{
           backgroundImage: `url(${typeof selectedPerson?.Images === 'string' && selectedPerson?.Images !== "" ? selectedPerson?.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg'}`
         }} />
         <div className='flex flex-col gap-y-[5px]'>
