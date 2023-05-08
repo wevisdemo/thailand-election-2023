@@ -60,19 +60,20 @@ const PersonDetail = ({ open, onToggle }: Props) => {
           promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/creden/shareholder/${name}.json`))
       }
       await Promise.all(promises).then((value) => {
-        const directorData = value[0]
-        const shareholderData = value[1]
+        let directorData = value[0]
+        let shareholderData = value[1]
 
-        if (selectedDataSet === 'ผู้สมัคร 66') {
-          if (shareholderData) {
-            shareholderData.forEach((d) => {
-              d.company_shareholder?.forEach((c) => {
+        if (shareholderData) {
+          shareholderData.forEach((d) => {
+            d.company_shareholder?.forEach((c) => {
+              if (selectedDataSet === 'ผู้สมัคร 66') {
                 if (typeof c.person?.Images === 'string')
                   c.person.Images = `${process.env.SECURE_HOST}${c.person.Images}`
-              })
+              }
             })
-          }
+          })
         }
+
         setDirectorData(directorData || [])
         setShareholderData(shareholderData || [])
 
@@ -97,6 +98,9 @@ const PersonDetail = ({ open, onToggle }: Props) => {
       notRelated: total - related
     })
   }, [directorData, shareholderData])
+
+  console.log(shareholderData);
+
 
   return (
     <div className={`absolute w-full

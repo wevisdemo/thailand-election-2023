@@ -54,22 +54,24 @@ const Section3 = () => {
   }, [setParty])
 
   const fetchFromGit = React.useCallback(async () => {
-    await d3.json<PersonCustom[]>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/people.json').then((value) => {
-      if (value) {
-        value.forEach((d) => {
-          d.totalValueShare = d.totalValueShare || 0,
-            d.countCompShare = d.countCompShare || 0,
-            d.countDirector = d.countDirector || 0,
-            d.totalPctShare = d.totalPctShare || 0
-        })
-        let sortArray = value.sort((a, b) => b.totalValueShare! - a.totalValueShare!)
-        sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
-        console.log('fetch from git');
-        const outlier = sortArray.slice(0, 1)
-        setPersonOutlier(sortArray.slice(0, 1))
-        setPerson([...outlier.map((d) => ({ ...d, totalPctShare: 30 })), ...sortArray.slice(1)])
-      }
-    })
+    let res = await d3.csv<PersonCustom & string>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/people-optim.csv', d3.autoType)
+    if (res) {
+      const value = res.slice(0, -1) as PersonCustom[]
+
+      value.forEach((d) => {
+        d.totalValueShare = d.totalValueShare || 0,
+          d.countCompShare = d.countCompShare || 0,
+          d.countDirector = d.countDirector || 0,
+          d.totalPctShare = d.totalPctShare || 0
+      })
+      let sortArray = value.sort((a, b) => b.totalValueShare! - a.totalValueShare!)
+      sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
+      console.log('fetch from git');
+      const outlier = sortArray.slice(0, 1)
+      setPersonOutlier(sortArray.slice(0, 1))
+      setPerson([...outlier.map((d) => ({ ...d, totalPctShare: 30 })), ...sortArray.slice(1)])
+    }
+
   }, [setPerson, setPersonOutlier])
 
   const fetchFromGitYourCandidate = React.useCallback(async () => {
@@ -79,11 +81,11 @@ const Section3 = () => {
       value.forEach((d) => {
         d.Number = Number(d.Number),
           d.IsMp = Boolean(d.IsMp),
-          // d.IsPmCandidate = Boolean(d.IsPmCandidate),
+          d.IsPmCandidate = String(d.IsPmCandidate) === "True",
           d.IsCabinet = Boolean(d.IsCabinet),
           d.companyType = JSON.parse(String(d.companyType).replace(/'/g, '"')),
           d.MpType = d.MpType || 'บัญชีรายชื่อ',
-          d.Images = `${process.env.SECURE_HOST}/mpasset/candidates/${d.PartyName}/${d.Name.replaceAll(' ', '-')}.webp`,
+          d.Images = `/mpasset/candidates/${d.PartyName}/${d.Name.replaceAll(' ', '-')}.webp`,
           d.totalValueShare = Number(d.totalValueShare) || 0,
           d.countCompShare = Number(d.countCompShare) || 0,
           d.countDirector = Number(d.countDirector) || 0,

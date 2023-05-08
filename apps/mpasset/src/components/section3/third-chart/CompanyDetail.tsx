@@ -66,9 +66,6 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
     }
   }, [selectedCompany])
 
-  console.log(selectedCompany);
-
-
   return (
     <div className={`absolute w-full
       rounded-[10px] py-[10px] px-[15px]
@@ -215,7 +212,7 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
                       <div className='flex-grow typo-b5 text-left'>
                         {d.Firstname} {d.Lastname}
                       </div>
-                      <div className='whitespace-nowrap font-bold typo-b4'>{Number(d.pct_share).toFixed(2)} %</div>
+                      <div className='whitespace-nowrap font-bold typo-b4'>{d.pct_share} %</div>
                     </div>
                   ))}
                 </div>
