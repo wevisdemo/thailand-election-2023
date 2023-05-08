@@ -317,7 +317,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
   return (
     <div id='second-chart' className="w-full h-full max-w-[800px] mx-auto relative desktop:ml-[calc(95vw-800px)]"
       ref={chartRef}>
-      <div className='absolute top-0 inset-x-0 h-[90%] pointer-events-none
+      <div className='absolute top-0 inset-x-0 h-[95%] pointer-events-none
         tour1-second-step 
         tour3-second-step'
       />
