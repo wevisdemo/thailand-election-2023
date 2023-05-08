@@ -7,6 +7,7 @@ import { PersonCustom } from '../../../models/person';
 import SearchPerson from '../SearchPerson';
 import Filter, { SelectedFilterType } from '../Filter';
 import { NotFound } from '../../util/action';
+import { debounce } from 'debounce';
 
 // Project = TheyWorkForUs, Table = Person
 type Props = {}
@@ -52,7 +53,7 @@ const FirstChart = (props: Props) => {
         })
       }
     }
-    window.addEventListener('resize', updateSize);
+    window.addEventListener('resize', debounce(updateSize, 1000));
     updateSize();
     return () => window.removeEventListener('resize', updateSize);
   }, []);

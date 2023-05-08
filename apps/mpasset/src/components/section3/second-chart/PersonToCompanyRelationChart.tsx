@@ -3,6 +3,7 @@ import * as d3 from "d3";
 import { usePersonStore } from "../../../store/person";
 import { CredenData, PersonCustom } from "../../../models/person";
 import { useTour } from "@reactour/tour";
+import { debounce } from "debounce";
 
 type NodeLinkType = {
   id: string,
@@ -309,7 +310,7 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
         setChartDimension({ width: chartRef.current.clientWidth, height: chartRef.current.clientHeight })
       }
     }
-    window.addEventListener('resize', updateSize);
+    window.addEventListener('resize', debounce(updateSize, 1000));
     updateSize()
     return () => window.removeEventListener('resize', updateSize);
   }, []);
