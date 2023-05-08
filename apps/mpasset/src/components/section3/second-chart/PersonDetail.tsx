@@ -41,6 +41,9 @@ const PersonDetail = ({ open, onToggle }: Props) => {
     selectedDataSet,
   } = usePersonStore()
 
+  console.log(selectedPerson);
+
+
   const fetchFromGit = React.useCallback(async (name: string) => {
     if (selectedPerson) {
       const promises: Promise<CredenData[] | undefined>[] = []
@@ -156,7 +159,7 @@ const PersonDetail = ({ open, onToggle }: Props) => {
         <div className='flex flex-col gap-y-[5px]'>
           <div className='flex flex-row gap-x-[5px]'>
             {selectedDataSet === 'ผู้สมัคร 66' && <Tag>ผู้สมัคร 66</Tag>}
-            {selectedDataSet === 'ผู้สมัคร 66' && selectedPerson?.IsPmCandidate && <Tag>แคนดิเดต นายก</Tag>}
+            {selectedDataSet === 'ผู้สมัคร 66' && selectedPerson?.IsPmCandidate && typeof selectedPerson?.IsPmCandidate !== 'undefined' && <Tag>แคนดิเดต นายก</Tag>}
             {selectedDataSet === 'นักการเมือง 62' && !selectedPerson?.IsCabinet && !selectedPerson?.IsSenator && <Tag>ส.ส.62</Tag>}
             {selectedPerson?.IsCabinet && <Tag>ค.ร.ม.</Tag>}
             {selectedPerson?.IsSenator && <Tag>ส.ว.</Tag>}

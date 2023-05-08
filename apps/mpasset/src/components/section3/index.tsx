@@ -49,8 +49,8 @@ const Section3 = () => {
   const [view, setView] = React.useState(VIEW_TYPE.MAIN_VIEW)
 
   const fetchFromTheyWork = React.useCallback(async () => {
-    const party = await TheyWorkForUs.Parties.fetch();
-    setParty(party.list)
+    const party = await TheyWorkForUs.Parties.fetchAll();
+    setParty(party)
   }, [setParty])
 
   const fetchFromGit = React.useCallback(async () => {
@@ -62,7 +62,7 @@ const Section3 = () => {
             d.countDirector = d.countDirector || 0,
             d.totalPctShare = d.totalPctShare || 0
         })
-        let sortArray = value.sort((a, b) => b.totalValueShare - a.totalValueShare)
+        let sortArray = value.sort((a, b) => b.totalValueShare! - a.totalValueShare!)
         sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
         console.log('fetch from git');
         const outlier = sortArray.slice(0, 1)
@@ -73,39 +73,51 @@ const Section3 = () => {
   }, [setPerson, setPersonOutlier])
 
   const fetchFromGitYourCandidate = React.useCallback(async () => {
-    await d3.json<PersonCustom[]>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/people.json').then((value) => {
-      if (value) {
-        value.forEach((d) => {
-          d.MpType = d.MpType || 'บัญชีรายชื่อ'
-          d.Images = `${process.env.SECURE_HOST}${d.Images}`
-        })
-        value.forEach((d) => {
-          d.totalPctShare = (d.totalPctShare > 30 ? 30 : d.totalPctShare)
-        })
-        let sortArray = value.sort((a, b) => b.totalPctShare - a.totalPctShare)
-        sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
-        sortArray = placeZerosAtEnd(value, 'totalValueShare', 'countDirector')
-        setYourCandidatePerson(sortArray)
-        setFilterPerson(sortArray)
-      }
-    })
+    let res = await d3.csv<PersonCustom & string>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/people-optim.csv', d3.autoType)
+    if (res) {
+      const value = res.slice(0, -1) as PersonCustom[]
+      value.forEach((d) => {
+        d.Number = Number(d.Number),
+          d.IsMp = Boolean(d.IsMp),
+          // d.IsPmCandidate = Boolean(d.IsPmCandidate),
+          d.IsCabinet = Boolean(d.IsCabinet),
+          d.companyType = JSON.parse(String(d.companyType).replace(/'/g, '"')),
+          d.MpType = d.MpType || 'บัญชีรายชื่อ',
+          d.Images = `${process.env.SECURE_HOST}/mpasset/candidates/${d.PartyName}/${d.Name.replaceAll(' ', '-')}.webp`,
+          d.totalValueShare = Number(d.totalValueShare) || 0,
+          d.countCompShare = Number(d.countCompShare) || 0,
+          d.countDirector = Number(d.countDirector) || 0,
+          d.totalPctShare = Number(d.totalPctShare) || 0,
+          d.totalPctShare = Number(d.totalPctShare) ? (Number(d.totalPctShare) > 30 ? 30 : Number(d.totalPctShare)) : 0
+      })
+      let sortArray = value.sort((a, b) => b.totalPctShare - a.totalPctShare)
+      sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
+      sortArray = placeZerosAtEnd(value, 'totalValueShare', 'countDirector')
+      setYourCandidatePerson(sortArray)
+      setFilterPerson(sortArray)
+      console.log(sortArray)
+    }
   }, [setYourCandidatePerson, setFilterPerson])
+
+  const fetchData = React.useCallback(async () => {
+    await fetchFromGit()
+    await fetchFromTheyWork()
+    await fetchFromGitYourCandidate()
+    setIsLoading(false)
+  }, [fetchFromGit, fetchFromGitYourCandidate, fetchFromTheyWork, setIsLoading])
 
   React.useEffect(() => {
     let ignore = false;
     if (person.length <= 0 && party.length <= 0 && yourCandidatePerson.length <= 0) {
       if (!ignore) {
-        fetchFromGit()
-        fetchFromTheyWork()
-        fetchFromGitYourCandidate()
-        setIsLoading(false)
+        fetchData()
       }
     } else
       setIsLoading(false)
     return () => {
       ignore = true;
     }
-  }, [person, setPerson, party, setParty, fetchFromGit, fetchFromTheyWork, yourCandidatePerson, fetchFromGitYourCandidate])
+  }, [person, setPerson, party, setParty, yourCandidatePerson, fetchData])
 
   React.useLayoutEffect(() => {
     if (selectedCompany) {
@@ -128,7 +140,7 @@ const Section3 = () => {
       }
 
       if (selectedBusinessType && selectedBusinessType.code !== 'all') {
-        outFilter = outFilter.filter((d) => d.companyType.includes(selectedBusinessType.code))
+        outFilter = outFilter.filter((d) => d.companyType!.includes(selectedBusinessType.code))
       }
 
       if (selectedParty && selectedParty.Name === 'สภาผู้แทนราษฎร') {
@@ -142,9 +154,9 @@ const Section3 = () => {
       }
 
       if (selectedSort === 'desc')
-        outFilter = outFilter.sort((a, b) => b.totalValueShare - a.totalValueShare)
+        outFilter = outFilter.sort((a, b) => b.totalValueShare! - a.totalValueShare!)
       else
-        outFilter = outFilter.sort((a, b) => a.totalValueShare - b.totalValueShare)
+        outFilter = outFilter.sort((a, b) => a.totalValueShare! - b.totalValueShare!)
 
       setFilterPerson(placeZerosAtEnd(outFilter, 'countCompShare', 'countDirector'))
     }
@@ -167,7 +179,7 @@ const Section3 = () => {
             <ThirdChart />
           </div>
         </Dialog>
-        <Dialog open={openTutorial} onClose={() => setOpenTutorial(false)}><Tutorial /></Dialog>
+        <Dialog open={(!isLoading && openTutorial)} onClose={() => setOpenTutorial(false)}><Tutorial /></Dialog>
         <div className='absolute bottom-[10px] right-[10px]'>
           <div className='flex flex-col gap-[5px]'>
             <button onClick={() => setOpenTutorial(true)}>

@@ -2,7 +2,7 @@
 import { ImageAttachment } from "@thailand-election-2023/database/dist/models/image";
 
 export interface PersonCustom {
-  Id: number;
+  Id?: number;
   Title: string;
   Name: string;
   IsMp: boolean;
@@ -16,21 +16,24 @@ export interface PersonCustom {
   MpList: '22';
 
   // custom field
+  Number: number;
   Images: ImageAttachment[] | string | null;
   PeoplePartyHistory?: NestedPeoplePartyHistory[];
   PartyName: string
-  Party: {
-    Id: number;
-    Name: string;
-    Color?: string | null;
-    Images?: string | null;
-  } | null;
+  Party: PartyCustom | null;
   countDirector: number;
   countCompShare: number;
   totalValueShare: number;
   totalPctShare: number;
-  companyType: string[]
+  companyType: string[] | string
 }
+
+export interface PartyCustom {
+  Id: number;
+  Name: string;
+  Color?: string | null;
+  Images?: string | null;
+};
 
 export interface CredenData {
   full_address: string;
