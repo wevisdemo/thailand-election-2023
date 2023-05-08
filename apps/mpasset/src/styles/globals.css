@@ -10,3 +10,15 @@ html {
 	outline: none;
 	overflow-x: hidden;
 }
+
+@supports (-webkit-touch-callout: none) {
+	.h-screen {
+		height: -webkit-fill-available;
+	}
+	.h-header {
+		height: -webkit-fill-available;
+	}
+	.h-tablet-header {
+		height: -webkit-fill-available;
+	}
+}

@@ -9,7 +9,7 @@ type Props = {}
 
 const CompanyToPersonRelationChart = dynamic(() => import('./CompanyToPersonRelationChart'))
 const SelectCompanyDetail = (props: Props) => {
-  const { selectedCompany, setSelectedCompany, setSelectedPerson } = usePersonStore()
+  const { setSelectedCompany, setSelectedPerson } = usePersonStore()
   const [isOpenCompanyDetail, setIsOpenCompanyDetail] = React.useState(false)
 
   const { isOpen, setIsOpen } = useTour()

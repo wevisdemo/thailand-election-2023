@@ -301,9 +301,6 @@ const PersonToCompanyRelationChart: React.FunctionComponent = () => {
 
   }, [selectedPerson, directorData, shareholderData])
 
-
-
-
   React.useEffect(() => {
     function updateSize() {
       if (chartRef.current) {

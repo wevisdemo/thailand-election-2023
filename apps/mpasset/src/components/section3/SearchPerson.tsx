@@ -14,8 +14,6 @@ const SearchPerson = ({ open, onClose }: Props) => {
   const [searchTerm, setSearchTerm] = React.useState("")
   const [searchResult, setSearchResult] = React.useState<PersonCustom[]>(person)
 
-
-
   React.useEffect(() => {
     if (person.length > 0 && yourCandidatePerson.length > 0) {
       const data = selectedDataSet === 'นักการเมือง 62' ? person : yourCandidatePerson

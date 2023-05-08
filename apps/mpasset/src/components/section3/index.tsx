@@ -97,7 +97,6 @@ const Section3 = () => {
       sortArray = placeZerosAtEnd(value, 'totalValueShare', 'countDirector')
       setYourCandidatePerson(sortArray)
       setFilterPerson(sortArray)
-      console.log(sortArray)
     }
   }, [setYourCandidatePerson, setFilterPerson])
 

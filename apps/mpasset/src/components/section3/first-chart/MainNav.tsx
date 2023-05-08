@@ -25,6 +25,18 @@ const MainNav = ({ width, height, onScroll }: Props) => {
     });
   };
 
+  const handleClick = (d: PersonCustom) => {
+    const p = party.find((p) => p.Name === d.PartyName)
+    if (p)
+      setSelectedPerson({ ...d, Party: { Id: p.Id, Name: p.Name, Color: p.Color, Images: Array.isArray(p.Images) ? p.Images[0]!.url : null } })
+    else
+      setSelectedPerson(d)
+    if (currentStep === 0)
+      setCurrentStep(1)
+    else
+      setCurrentStep(5)
+  }
+
   React.useLayoutEffect(() => {
     if (filterPerson.length > 0) {
       const countPerson = filterPerson.length + 2
@@ -72,17 +84,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .join('g')
         .attr('transform', (_, i) => `translate(0, ${yScaleBand(`${i!}`)})`)
         .attr('class', `cursor-pointer`)
-        .on('click', (_, d: PersonCustom) => {
-          const p = party.find((p) => p.Name === d.PartyName)
-          if (p)
-            setSelectedPerson({ ...d, Party: { Id: p.Id, Name: p.Name, Color: p.Color, Images: Array.isArray(p.Images) ? p.Images[0]!.url : null } })
-          else
-            setSelectedPerson(d)
-          if (currentStep === 0)
-            setCurrentStep(1)
-          else
-            setCurrentStep(5)
-        })
+        .on('click', (_, d: PersonCustom) => handleClick(d))
         .on("mouseover", function (_, d) { tooltip.style("visibility", "visible"); tooltip.html(d.Name!) })
         .on("mousemove", function (e) { return tooltip.style("top", (e.offsetY + 10) + "px").style("left", (e.offsetX + 10) + "px"); })
         .on("mouseout", function () { return tooltip.style("visibility", "hidden"); });

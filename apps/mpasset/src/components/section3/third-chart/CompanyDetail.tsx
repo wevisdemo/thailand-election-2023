@@ -1,17 +1,11 @@
-import React from 'react'
-import { ReactElement } from 'react'
-import { Collapse, Expand } from '../../util/action'
-import { Asset } from '../../util/icon-main'
-import { usePersonStore } from '../../../store/person'
-import { convertToInternationalCurrencySystem, numberWithCommas } from '../../util/calculation'
-import * as d3 from 'd3'
-import { CredenData } from '../../../models/person'
-import { BusinessType, getBusinessType } from '../../../models/business'
 import dayjs from 'dayjs'
 import dynamic from 'next/dynamic'
-// import CompanyList from './CompanyList'
-
-
+import React from 'react'
+import { BusinessType, getBusinessType } from '../../../models/business'
+import { usePersonStore } from '../../../store/person'
+import { Collapse, Expand } from '../../util/action'
+import { convertToInternationalCurrencySystem } from '../../util/calculation'
+import { Asset } from '../../util/icon-main'
 
 type Props = {
   open: boolean

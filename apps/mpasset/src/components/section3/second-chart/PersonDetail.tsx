@@ -1,11 +1,7 @@
-import React from 'react'
-import { ReactElement } from 'react'
-import { Collapse, Expand } from '../../util/action'
-import { Asset } from '../../util/icon-main'
-import { usePersonStore } from '../../../store/person'
-import { numberWithCommas } from '../../util/calculation'
 import * as d3 from 'd3'
+import React, { ReactElement } from 'react'
 import { CredenData } from '../../../models/person'
+import { usePersonStore } from '../../../store/person'
 import CompanyList from './CompanyList'
 
 type TagProps = {
@@ -40,9 +36,6 @@ const PersonDetail = ({ open, onToggle }: Props) => {
     shareholderData,
     selectedDataSet,
   } = usePersonStore()
-
-  console.log(selectedPerson);
-
 
   const fetchFromGit = React.useCallback(async (name: string) => {
     if (selectedPerson) {
@@ -99,18 +92,17 @@ const PersonDetail = ({ open, onToggle }: Props) => {
     })
   }, [directorData, shareholderData])
 
-  console.log(shareholderData);
-
-
   return (
     <div className={`absolute w-full
       rounded-[10px] py-[10px] px-[15px]
       border-black border-[3px]
       gap-y-[5px] gap-x-[10px]
-      ${!open ? 'top-[calc(100%-105px)] desktop:top-[58px]' : 'top-[58px]'}
+      ${!open ? 'top-[calc(100%-96px)] desktop:top-[58px]' : 'top-[58px]'}
       transition-all
       h-header tablet:h-tablet-header
       bg-white
+      overflow-y-scroll 
+      scrollbar-hide
       max-w-[480px]
       `}>
       <div>
@@ -183,7 +175,7 @@ const PersonDetail = ({ open, onToggle }: Props) => {
           }
         </div>
       </div >
-      <div className='flex flex-col divide-y-[1px] divide-gray-2 divide-dashed'>
+      <div className='flex flex-col divide-y-[1px] divide-gray-2 divide-dashed pb-[50px]'>
         <CompanyList type='shareholder' companyData={shareholderData} selectedPerson={selectedPerson} />
         <CompanyList type='director' companyData={directorData} selectedPerson={selectedPerson} />
       </div>

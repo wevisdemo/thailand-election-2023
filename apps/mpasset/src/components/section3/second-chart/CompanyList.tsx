@@ -1,6 +1,5 @@
 import React from 'react'
 import { CredenData, PersonCustom } from '../../../models/person'
-import { numberWithCommas } from '../../util/calculation'
 import { Asset } from '../../util/icon-main'
 import { Collapse, Expand } from '../../util/action'
 import { usePersonStore } from '../../../store/person'
@@ -28,7 +27,7 @@ const CompanyList = ({ type, companyData, selectedPerson }: Props) => {
                   <div className='font-bold'>มูลค่าหุ้นทั้งหมด</div>
                 </div>
                 <div className='flex flex-row gap-x-[5px] '>
-                  <div className='font-bold'>{numberWithCommas(Number(selectedPerson?.totalValueShare))}</div>
+                  <div className='font-bold'>{Number(selectedPerson?.totalValueShare).toLocaleString('en')}</div>
                   <div>ล้านบาท</div>
                 </div>
               </div>
@@ -36,7 +35,7 @@ const CompanyList = ({ type, companyData, selectedPerson }: Props) => {
               <div className='flex flex-row justify-between typo-b5 typo-ibmplex items-center'>
                 <div className='font-bold'>ถือหุ้นด้วยตนเอง</div>
                 <div className='flex flex-row gap-x-[5px] '>
-                  <div className='font-bold'>{numberWithCommas(Number(selectedPerson?.countCompShare))}</div>
+                  <div className='font-bold'>{Number(selectedPerson?.countCompShare).toLocaleString('en')}</div>
                   <div>บริษัท</div>
                   {!isExpandShareholder ? <Expand className='cursor-pointer' onClick={() => setIsExpandShareholder(true)} /> : <Collapse className='cursor-pointer' onClick={() => setIsExpandShareholder(false)} />}
                 </div>
@@ -46,7 +45,7 @@ const CompanyList = ({ type, companyData, selectedPerson }: Props) => {
             <div className='flex flex-row justify-between typo-b5 typo-ibmplex items-center'>
               <div className='font-bold'>เป็นกรรมการบริษัท (ไม่ได้ถือหุ้น)</div>
               <div className='flex flex-row gap-x-[5px] '>
-                <div className='font-bold'>{numberWithCommas(Number(companyData.length))}</div>
+                <div className='font-bold'>{Number(companyData.length).toLocaleString('en')}</div>
                 <div>บริษัท</div>
                 {!isExpandShareholder ? <Expand className='cursor-pointer' onClick={() => setIsExpandShareholder(true)} /> : <Collapse className='cursor-pointer' onClick={() => setIsExpandShareholder(false)} />}
               </div>
@@ -71,10 +70,9 @@ const CompanyList = ({ type, companyData, selectedPerson }: Props) => {
             </div>
           </div>
           {isExpandShareholder &&
-            <div className={`max-h-[50vh] overflow-y-scroll pb-[150px] scrollbar-hide
-              ${type === 'director' && 'pb-[300px]'}`} >
-              <div className='flex flex-col gap-y-[10px]
-               overflow-y-scroll'>
+            <div className={`
+              ${type === 'director' ? 'pb-[150px]' : 'pb-[30px]'}`} >
+              <div className='flex flex-col gap-y-[10px]'>
                 {companyData.map((data) => (
                   <div key={`comp-data-${data.company_id}`}
                     onClick={() => setSelectedCompany(data)}
