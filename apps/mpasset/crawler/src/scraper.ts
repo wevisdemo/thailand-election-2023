@@ -91,7 +91,9 @@ export const fetchFromTheyWork = async (): Promise<{
 					`https://sheets.wevis.info/${p.Images[0].path}` ||
 					null;
 			if (Array.isArray(p.PeoplePartyHistory)) {
-				p.Party = p.PeoplePartyHistory[p.PeoplePartyHistory.length - 1]?.Party;
+				// p.Party = p.PeoplePartyHistory[p.PeoplePartyHistory.length - 1]?.Party;
+				p.PartyName =
+					p.PeoplePartyHistory[p.PeoplePartyHistory.length - 1]?.Party.Name;
 				delete p.PeoplePartyHistory;
 			}
 		}
