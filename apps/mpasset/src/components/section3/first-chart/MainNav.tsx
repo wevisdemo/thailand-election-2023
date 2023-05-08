@@ -25,7 +25,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
     });
   };
 
-  const handleClick = (d: PersonCustom) => {
+  const handleClick = React.useCallback((d: PersonCustom) => {
     const p = party.find((p) => p.Name === d.PartyName)
     if (p)
       setSelectedPerson({ ...d, Party: { Id: p.Id, Name: p.Name, Color: p.Color, Images: Array.isArray(p.Images) ? p.Images[0]!.url : null } })
@@ -35,7 +35,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
       setCurrentStep(1)
     else
       setCurrentStep(5)
-  }
+  }, [currentStep, party, setCurrentStep, setSelectedPerson])
 
   React.useLayoutEffect(() => {
     if (filterPerson.length > 0) {
@@ -220,7 +220,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
         .attr("stop-color", (d) => d.Color)
 
     }
-  }, [filterPerson, height, width, setSelectedPerson, currentStep, setCurrentStep, party])
+  }, [filterPerson, height, width, setSelectedPerson, currentStep, setCurrentStep, party, handleClick])
 
   return (
     <div className={`overflow-y-scroll overflow-x-hidden relative
