@@ -21,9 +21,9 @@ const Tutorial = (props: Props) => {
   return (
     <div className='w-full h-full relative
       bg-[#FFFFFFc7] flex flex-col justify-center items-center'>
-      <div className={`flex w-[340px] justify-center items-center bg-white`}>
+      <div className={`flex w-[340px] justify-center items-center`}>
         <div className='flex flex-col gap-y-[20px] justify-center w-full'>
-          <div className='relative flex flex-col justify-center gap-y-[10px]
+          <div className='relative flex flex-col justify-center gap-y-[10px] bg-white
       border-black border-[3px] rounded-[10px] p-[20px]'>
             <button className='absolute top-[20px] right-[20px]' onClick={() => setOpenTutorial(false)}>
               <svg width={24} height={25} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">

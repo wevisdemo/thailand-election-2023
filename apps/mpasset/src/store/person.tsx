@@ -49,73 +49,47 @@ interface PersonState {
   setOpenTutorial: (by: boolean) => void
 }
 
-export const usePersonStore = create<PersonState>()(
-  persist(
-    (set, get) => ({
-      // 62
-      person: [],
-      setPerson: (by) => { return set((state) => ({ ...state, person: by })) },
-      personOutlier: [],
-      setPersonOutlier: (by) => { return set((state) => ({ ...state, personOutlier: by })) },
+export const usePersonStore = create<PersonState>(
+  (set, get) => ({
+    // 62
+    person: [],
+    setPerson: (by) => { return set((state) => ({ ...state, person: by })) },
+    personOutlier: [],
+    setPersonOutlier: (by) => { return set((state) => ({ ...state, personOutlier: by })) },
 
-      //66 yourcandidate
-      yourCandidatePerson: [],
-      setYourCandidatePerson: (by) => { return set((state) => ({ ...state, yourCandidatePerson: by })) },
+    //66 yourcandidate
+    yourCandidatePerson: [],
+    setYourCandidatePerson: (by) => { return set((state) => ({ ...state, yourCandidatePerson: by })) },
 
-      filterPerson: [],
-      setFilterPerson: (by) => { return set((state) => ({ ...state, filterPerson: by })) },
+    filterPerson: [],
+    setFilterPerson: (by) => { return set((state) => ({ ...state, filterPerson: by })) },
 
-      // chart2
-      selectedPerson: undefined,
-      setSelectedPerson: (by) => { return set((state) => ({ ...state, selectedPerson: by })) },
-      directorData: [],
-      setDirectorData: (by) => { return set((state) => ({ ...state, directorData: by })) },
-      shareholderData: [],
-      setShareholderData: (by) => { return set((state) => ({ ...state, shareholderData: by })) },
+    // chart2
+    selectedPerson: undefined,
+    setSelectedPerson: (by) => { return set((state) => ({ ...state, selectedPerson: by })) },
+    directorData: [],
+    setDirectorData: (by) => { return set((state) => ({ ...state, directorData: by })) },
+    shareholderData: [],
+    setShareholderData: (by) => { return set((state) => ({ ...state, shareholderData: by })) },
 
-      // chart3
-      selectedCompany: undefined,
-      setSelectedCompany: (by) => { return set((state) => ({ ...state, selectedCompany: by })) },
+    // chart3
+    selectedCompany: undefined,
+    setSelectedCompany: (by) => { return set((state) => ({ ...state, selectedCompany: by })) },
 
-      // filter
-      selectedDataSet: 'ผู้สมัคร 66',
-      setSelectedDataSet: (by) => { return set((state) => ({ ...state, selectedDataSet: by })) },
-      selectedBusinessType: undefined,
-      setSelectedBusinessType: (by) => { return set((state) => ({ ...state, selectedBusinessType: by })) },
-      party: [],
-      setParty: (by) => { return set((state) => ({ ...state, party: by })) },
-      selectedParty: undefined,
-      setSelectedParty: (by) => { return set((state) => ({ ...state, selectedParty: by })) },
-      selectedSort: 'desc',
-      toggleSort: () => { return set((state) => ({ ...state, selectedSort: state.selectedSort === 'asc' ? 'desc' : 'asc' })) },
+    // filter
+    selectedDataSet: 'ผู้สมัคร 66',
+    setSelectedDataSet: (by) => { return set((state) => ({ ...state, selectedDataSet: by })) },
+    selectedBusinessType: undefined,
+    setSelectedBusinessType: (by) => { return set((state) => ({ ...state, selectedBusinessType: by })) },
+    party: [],
+    setParty: (by) => { return set((state) => ({ ...state, party: by })) },
+    selectedParty: undefined,
+    setSelectedParty: (by) => { return set((state) => ({ ...state, selectedParty: by })) },
+    selectedSort: 'desc',
+    toggleSort: () => { return set((state) => ({ ...state, selectedSort: state.selectedSort === 'asc' ? 'desc' : 'asc' })) },
 
-      // tutorial
-      openTutorial: true,
-      setOpenTutorial: (by) => { return set((state) => ({ ...state, openTutorial: by })) },
-    }),
-    {
-      name: 'person', // name of the item in the storage (must be unique)
-      storage: createJSONStorage(() => sessionStorage), // (optional) by default, 'localStorage' is used
-      partialize: (state) =>
-      (
-        {
-          ...Object.fromEntries(
-            Object.entries(state).filter(([key]) => ['person', 'personOutlier', 'yourCandidatePerson', 'party'].includes(key))
-          ),
-          filterPerson: state.person
-        }),
-      onRehydrateStorage: (state) => {
-        console.log('hydration starts')
-
-        // optional
-        return (state, error) => {
-          if (error) {
-            console.log('an error happened during hydration', error)
-          } else {
-            console.log('hydration finished')
-          }
-        }
-      },
-    }
-  )
+    // tutorial
+    openTutorial: true,
+    setOpenTutorial: (by) => { return set((state) => ({ ...state, openTutorial: by })) },
+  })
 )

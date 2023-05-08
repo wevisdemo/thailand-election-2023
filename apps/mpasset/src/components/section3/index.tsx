@@ -150,6 +150,9 @@ const Section3 = () => {
     }
   }, [selectedBusinessType, selectedParty, selectedSort, setFilterPerson, person, yourCandidatePerson, selectedDataSet])
 
+  if (isLoading)
+    return <LoadingScreen />
+
   return (
     <div className='h-full inset-0 flex flex-col relative overflow-hidden'>
       <OnBoard>
