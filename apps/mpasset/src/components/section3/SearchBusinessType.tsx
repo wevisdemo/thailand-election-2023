@@ -51,7 +51,7 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
   }, [])
 
   const fetchFromGitYourCandidate = React.useCallback(async () => {
-    await d3.csv<CompanyTypeCount[] & string>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/company_type_count.csv').then((value) => {
+    await d3.csv<CompanyTypeCount[] & string>('/mpasset/data/yourcandidate/company_type_count.csv').then((value) => {
       const data = value.slice(0, value.length) as CompanyTypeCount[]
       if (data) {
         data.forEach((d) => {

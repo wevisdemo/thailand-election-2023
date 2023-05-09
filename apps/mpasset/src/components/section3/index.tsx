@@ -54,7 +54,7 @@ const Section3 = () => {
   }, [setParty])
 
   const fetchFromGit = React.useCallback(async () => {
-    let res = await d3.csv<PersonCustom & string>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/people-optim.csv', d3.autoType)
+    let res = await d3.csv<PersonCustom & string>('/mpasset/data/people-optim.csv', d3.autoType)
     if (res) {
       const value = res.slice(0, -1) as PersonCustom[]
       console.log(value);
@@ -79,7 +79,7 @@ const Section3 = () => {
   }, [setPerson])
 
   const fetchFromGitYourCandidate = React.useCallback(async () => {
-    let res = await d3.csv<PersonCustom & string>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/people-optim.csv', d3.autoType)
+    let res = await d3.csv<PersonCustom & string>('/mpasset/data/yourcandidate/people-optim.csv', d3.autoType)
     if (res) {
       const value = res.slice(0, -1) as PersonCustom[]
       await value.forEach((d) => {

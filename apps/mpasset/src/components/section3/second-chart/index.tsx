@@ -30,14 +30,14 @@ const SelectedPersonDetail = () => {
 
       if (selectedDataSet === 'นักการเมือง 62') {
         if (selectedPerson.countDirector > 0)
-          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/director/${name}.json`))
+          promises.push(d3.json<CredenData[]>(`/mpasset/data/creden/director/${name}.json`))
         if (selectedPerson.countCompShare > 0)
-          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/shareholder/${name}.json`))
+          promises.push(d3.json<CredenData[]>(`/mpasset/data/creden/shareholder/${name}.json`))
       } else {
         if (selectedPerson.countDirector > 0)
-          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/creden/director/${name}.json`))
+          promises.push(d3.json<CredenData[]>(`/mpasset/data/yourcandidate/creden/director/${name}.json`))
         if (selectedPerson.countCompShare > 0)
-          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/creden/shareholder/${name}.json`))
+          promises.push(d3.json<CredenData[]>(`/mpasset/data/yourcandidate/creden/shareholder/${name}.json`))
       }
       await Promise.all(promises).then((value) => {
         let directorData = value[0]
