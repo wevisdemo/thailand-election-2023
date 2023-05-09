@@ -65,7 +65,7 @@ const CompanyList = ({ type, companyData, selectedPerson }: Props) => {
             <div className='font-bold'>ไม่เคย</div>
             <div>รับโครงการรัฐ</div>
             <div className='flex flex-row gap-x-[5px] '>
-              <div>{Array.isArray(companyData) ? companyData.reduce((acc, cur) => acc + (!Array.isArray(cur.gov_fund_proj) ? 1 : 0), 0) : 0}</div>
+              <div className='font-bold'>{Array.isArray(companyData) ? companyData.reduce((acc, cur) => acc + (!Array.isArray(cur.gov_fund_proj) ? 1 : 0), 0) : 0}</div>
               <div>บริษัท</div>
             </div>
           </div>

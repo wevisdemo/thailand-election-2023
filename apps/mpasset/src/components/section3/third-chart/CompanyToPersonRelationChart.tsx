@@ -254,7 +254,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
       });
     }
 
-  }, [svgRef, dataSet, chartDimension, selectedPerson]);
+  }, [svgRef, dataSet, chartDimension, selectedPerson, type]);
 
 
   React.useEffect(() => {
