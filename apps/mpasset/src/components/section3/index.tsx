@@ -57,28 +57,32 @@ const Section3 = () => {
     let res = await d3.csv<PersonCustom & string>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/people-optim.csv', d3.autoType)
     if (res) {
       const value = res.slice(0, -1) as PersonCustom[]
+      console.log(value);
 
-      value.forEach((d) => {
-        d.totalValueShare = d.totalValueShare || 0,
+      await value.forEach((d) => {
+        d.IsActive = String(d.IsActive) === "True",
+          d.IsMp = String(d.IsMp) === "True",
+          d.IsPmCandidate = String(d.IsPmCandidate) === "True",
+          d.IsCabinet = String(d.IsCabinet) === "True",
+          d.IsSenator = String(d.IsSenator) === "True",
+          d.companyType = JSON.parse(String(d.companyType).replace(/'/g, '"')),
+          d.totalValueShare = d.totalValueShare || 0,
           d.countCompShare = d.countCompShare || 0,
           d.countDirector = d.countDirector || 0,
           d.totalPctShare = d.totalPctShare || 0
       })
-      let sortArray = value.sort((a, b) => b.totalValueShare! - a.totalValueShare!)
-      sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
-      console.log('fetch from git');
-      const outlier = sortArray.slice(0, 1)
-      setPersonOutlier(sortArray.slice(0, 1))
-      setPerson([...outlier.map((d) => ({ ...d, totalPctShare: 30 })), ...sortArray.slice(1)])
+      const indexOfOutlier = value.map((d) => d.Name).indexOf('พิบูลย์ รัชกิจประการ')
+      value[indexOfOutlier].totalPctShare = 30
+      setPerson(value)
     }
 
-  }, [setPerson, setPersonOutlier])
+  }, [setPerson])
 
   const fetchFromGitYourCandidate = React.useCallback(async () => {
     let res = await d3.csv<PersonCustom & string>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/people-optim.csv', d3.autoType)
     if (res) {
       const value = res.slice(0, -1) as PersonCustom[]
-      value.forEach((d) => {
+      await value.forEach((d) => {
         d.Number = Number(d.Number),
           d.IsMp = Boolean(d.IsMp),
           d.IsPmCandidate = String(d.IsPmCandidate) === "True",
@@ -92,13 +96,11 @@ const Section3 = () => {
           d.totalPctShare = Number(d.totalPctShare) || 0,
           d.totalPctShare = Number(d.totalPctShare) ? (Number(d.totalPctShare) > 30 ? 30 : Number(d.totalPctShare)) : 0
       })
-      let sortArray = value.sort((a, b) => b.totalPctShare - a.totalPctShare)
-      sortArray = placeZerosAtEnd(value, 'countCompShare', 'countDirector')
-      sortArray = placeZerosAtEnd(value, 'totalValueShare', 'countDirector')
-      setYourCandidatePerson(sortArray)
-      setFilterPerson(sortArray)
+
+      setYourCandidatePerson(value)
+
     }
-  }, [setYourCandidatePerson, setFilterPerson])
+  }, [setYourCandidatePerson])
 
   const fetchData = React.useCallback(async () => {
     await fetchFromGit()
@@ -130,15 +132,9 @@ const Section3 = () => {
     }
   }, [selectedPerson, selectedCompany])
 
-
   React.useMemo(async () => {
     if (person.length > 0 && yourCandidatePerson.length > 0) {
-      let outFilter: PersonCustom[] = []
-      if (selectedDataSet === 'นักการเมือง 62') {
-        outFilter = person
-      } else if (selectedDataSet === 'ผู้สมัคร 66') {
-        outFilter = yourCandidatePerson
-      }
+      let outFilter: PersonCustom[] = selectedDataSet === 'นักการเมือง 62' ? Array.from(person) : Array.from(yourCandidatePerson)
 
       if (selectedBusinessType && selectedBusinessType.code !== 'all') {
         outFilter = outFilter.filter((d) => d.companyType!.includes(selectedBusinessType.code))

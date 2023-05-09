@@ -1,6 +1,4 @@
-import * as d3 from 'd3'
 import React, { ReactElement } from 'react'
-import { CredenData } from '../../../models/person'
 import { usePersonStore } from '../../../store/person'
 import CompanyList from './CompanyList'
 
@@ -30,55 +28,11 @@ const PersonDetail = ({ open, onToggle }: Props) => {
   })
 
   const { selectedPerson,
-    setDirectorData,
     directorData,
-    setShareholderData,
     shareholderData,
     selectedDataSet,
   } = usePersonStore()
 
-  const fetchFromGit = React.useCallback(async (name: string) => {
-    if (selectedPerson) {
-      const promises: Promise<CredenData[] | undefined>[] = []
-
-      if (selectedDataSet === 'นักการเมือง 62') {
-        if (selectedPerson.countDirector > 0)
-          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/director/${name}.json`))
-        if (selectedPerson.countCompShare > 0)
-          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/shareholder/${name}.json`))
-      } else {
-        if (selectedPerson.countDirector > 0)
-          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/creden/director/${name}.json`))
-        if (selectedPerson.countCompShare > 0)
-          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/creden/shareholder/${name}.json`))
-      }
-      await Promise.all(promises).then((value) => {
-        let directorData = value[0]
-        let shareholderData = value[1]
-
-        if (shareholderData) {
-          shareholderData.forEach((d) => {
-            d.company_shareholder?.forEach((c) => {
-              if (selectedDataSet === 'ผู้สมัคร 66') {
-                if (typeof c.person?.Images === 'string')
-                  c.person.Images = `${process.env.SECURE_HOST}${c.person.Images}`
-              }
-            })
-          })
-        }
-
-        setDirectorData(directorData || [])
-        setShareholderData(shareholderData || [])
-
-      }).catch((err) => console.log(err))
-    }
-  }, [setDirectorData, setShareholderData, selectedPerson, selectedDataSet])
-
-  React.useEffect(() => {
-    if (selectedPerson) {
-      fetchFromGit(selectedPerson.Name.replaceAll(' ', '-'))
-    }
-  }, [selectedPerson, fetchFromGit])
 
   React.useEffect(() => {
     const total = (Array.isArray(directorData) ? directorData.length : 0) + (Array.isArray(shareholderData) ? shareholderData.length : 0)
@@ -171,7 +125,7 @@ const PersonDetail = ({ open, onToggle }: Props) => {
 
           </div>
           {(!selectedPerson?.IsCabinet && !selectedPerson?.IsSenator) &&
-            <div className='typo-b5'> {`แบบ${selectedPerson?.MpType} ${selectedPerson?.MpType === 'แบ่งเขต' ? `จังหวัด${selectedPerson?.MpProvince} เขต${selectedPerson?.MpZone}` : ''}`}</div>
+            <div className='typo-b5'> {`แบบ${selectedPerson?.MpType || ""} ${selectedPerson?.MpType === 'แบ่งเขต' ? `จังหวัด${selectedPerson?.MpProvince} เขต${selectedPerson?.MpZone}` : ''}`}</div>
           }
         </div>
       </div >

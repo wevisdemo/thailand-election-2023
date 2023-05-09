@@ -1,20 +1,77 @@
+import { useTour } from '@reactour/tour'
+import * as d3 from 'd3'
 import dynamic from 'next/dynamic'
 import React from 'react'
+import { CredenData } from '../../../models/person'
 import { usePersonStore } from '../../../store/person'
 import { List, Search, Shuffle } from '../../util/icon-main'
-import PersonDetail from './PersonDetail'
 import SearchPerson from '../SearchPerson'
-import { useTour } from '@reactour/tour'
-
+import PersonDetail from './PersonDetail'
+import { LoadingScreen } from '../Loading'
+import ShuffleButton from '../ShuffleButton'
 
 const PersonToCompanyRelationChart = dynamic(() => import('./PersonToCompanyRelationChart'))
 
 const SelectedPersonDetail = () => {
-  const { setSelectedPerson, setSelectedCompany } = usePersonStore()
+  const { selectedPerson, setSelectedPerson,
+    setSelectedCompany,
+    selectedDataSet,
+    setDirectorData,
+    setShareholderData,
+  } = usePersonStore()
   const [isOpenPersonDetail, setIsOpenPersonDetail] = React.useState(false)
   const [isOpenSearchDialog, setIsOpenSearchDialog] = React.useState(false)
+  const [isLoading, setIsLoading] = React.useState(true)
 
   const { isOpen, setIsOpen } = useTour()
+
+  const fetchFromGit = React.useCallback(async (name: string) => {
+    if (selectedPerson) {
+      const promises: Promise<CredenData[] | undefined>[] = []
+
+      if (selectedDataSet === 'นักการเมือง 62') {
+        if (selectedPerson.countDirector > 0)
+          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/director/${name}.json`))
+        if (selectedPerson.countCompShare > 0)
+          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/creden/shareholder/${name}.json`))
+      } else {
+        if (selectedPerson.countDirector > 0)
+          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/creden/director/${name}.json`))
+        if (selectedPerson.countCompShare > 0)
+          promises.push(d3.json<CredenData[]>(`https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/yourcandidate/creden/shareholder/${name}.json`))
+      }
+      await Promise.all(promises).then((value) => {
+        let directorData = value[0]
+        let shareholderData = value[1]
+
+        if (shareholderData) {
+          shareholderData.forEach((d) => {
+            d.company_shareholder?.forEach((c) => {
+              if (selectedDataSet === 'ผู้สมัคร 66') {
+                if (typeof c.person?.Images === 'string')
+                  c.person.Images = `${process.env.SECURE_HOST}${c.person.Images}`
+              }
+            })
+          })
+        }
+
+        setDirectorData(directorData || [])
+        setShareholderData(shareholderData || [])
+        setIsLoading(false)
+
+      }).catch((err) => console.log(err))
+    }
+  }, [setDirectorData, setShareholderData, selectedPerson, selectedDataSet])
+
+  React.useEffect(() => {
+    if (selectedPerson) {
+      setIsLoading(true)
+      fetchFromGit(selectedPerson.Name.replaceAll(' ', '-'))
+    }
+  }, [selectedPerson, fetchFromGit])
+
+  if (isLoading)
+    return <LoadingScreen />
 
   return (
     <div className='relative w-full h-full flex flex-col'>
@@ -38,7 +95,7 @@ const SelectedPersonDetail = () => {
           <button onClick={() => { setIsOpenSearchDialog(true) }} >
             <Search />
           </button>
-          <Shuffle />
+          <ShuffleButton />
         </div>
       </div>
       <div className='flex-grow-1 h-full'>

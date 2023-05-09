@@ -1,9 +1,10 @@
+import { useTour } from '@reactour/tour'
 import dynamic from 'next/dynamic'
 import React from 'react'
 import { usePersonStore } from '../../../store/person'
-import { List, Search, Shuffle } from '../../util/icon-main'
+import { List } from '../../util/icon-main'
+import ShuffleButton from '../ShuffleButton'
 import CompanyDetail from './CompanyDetail'
-import { useTour } from '@reactour/tour'
 
 type Props = {}
 
@@ -32,8 +33,7 @@ const SelectCompanyDetail = (props: Props) => {
           <button onClick={() => { setSelectedCompany(null); setSelectedPerson(null) }} >
             <List />
           </button>
-          <Search />
-          <Shuffle />
+          <ShuffleButton />
         </div>
       </div>
       <div className='flex-grow-1 h-full'>

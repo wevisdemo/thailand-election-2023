@@ -4,6 +4,7 @@ import { PersonCustom } from '../../models/person'
 import { usePersonStore } from '../../store/person'
 import { Tag } from './Tag'
 import { Close } from '../util/icon-main'
+import { debounce } from 'debounce'
 
 type Props = {
   open: boolean
@@ -23,10 +24,10 @@ const SelectDataset = ({ open, onClose }: Props) => {
         <button onClick={() => onClose()}><Close /></button>
       </div>
       <div className='flex flex-row items-center px-[10px] gap-x-[8px] py-[5px]'>
-        <button onClick={() => { onClose(); setSelectedDataSet('นักการเมือง 62'); }}>
+        <button onClick={async () => { onClose(); setTimeout(() => setSelectedDataSet('นักการเมือง 62'), 100); }}>
           <Tag selected={selectedDataSet === 'นักการเมือง 62'}>นักการเมือง 62</Tag>
         </button>
-        <button onClick={() => { onClose(); setSelectedDataSet('ผู้สมัคร 66'); }}>
+        <button onClick={async () => { onClose(); setTimeout(() => setSelectedDataSet('ผู้สมัคร 66'), 100); }}>
           <Tag selected={selectedDataSet === 'ผู้สมัคร 66'}>ผู้สมัคร 66</Tag>
         </button>
       </div>
