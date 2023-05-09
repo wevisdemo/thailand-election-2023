@@ -48,11 +48,24 @@ const SelectedPersonDetail = () => {
             d.company_shareholder?.forEach((c) => {
               if (selectedDataSet === 'ผู้สมัคร 66') {
                 if (typeof c.person?.Images === 'string')
-                  c.person.Images = `${process.env.SECURE_HOST}${c.person.Images}`
+                  c.person.Images = `${c.person.Images.replace('yourcandidates', 'mpasset')}`
               }
               c.pct_share = c.pct_share < 0.01 ? 0.01 : c.pct_share % 1 != 0 ? Number(c.pct_share.toFixed(2)) : c.pct_share
             })
             d.pct_share = d.pct_share < 0.01 ? 0.01 : d.pct_share % 1 != 0 ? Number(d.pct_share.toFixed(2)) : d.pct_share
+          })
+        }
+        if (directorData) {
+          directorData.forEach((d) => {
+            if (Array.isArray(d.company_shareholder)) {
+              d.company_shareholder?.forEach((c) => {
+                if (selectedDataSet === 'ผู้สมัคร 66') {
+                  if (typeof c.person?.Images === 'string')
+                    c.person.Images = `${c.person.Images.replace('yourcandidates', 'mpasset')}`
+                }
+                c.pct_share = c.pct_share < 0.01 ? 0.01 : c.pct_share % 1 != 0 ? Number(c.pct_share.toFixed(2)) : c.pct_share
+              })
+            }
           })
         }
 

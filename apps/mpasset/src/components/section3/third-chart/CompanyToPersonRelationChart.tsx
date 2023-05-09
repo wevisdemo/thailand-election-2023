@@ -271,7 +271,7 @@ const CompanyToPersonRelationChart = (props: Props) => {
 
       if (Array.isArray(selectedCompany.company_shareholder) && selectedCompany.company_shareholder.length > 0) {
         data = [...data,
-        ...selectedCompany.company_shareholder!.map((d) => ({
+        ...selectedCompany.company_shareholder!.filter(d => `${d.Firstname} ${d.Lastname}`.includes(selectedPerson.Name) || typeof d.person?.Images === 'string').map((d) => ({
           id: `${d.Firstname.replaceAll(' ', '-')}-${d.Lastname.replaceAll(' ', '-')}`,
           parentId: `company-${selectedCompany.company_id}`,
           shareholderData: d
