@@ -28,7 +28,7 @@ const CompanyList = ({ type, companyData, selectedPerson }: Props) => {
                 </div>
                 <div className='flex flex-row gap-x-[5px] '>
                   <div className='font-bold'>{Number(selectedPerson?.totalValueShare).toLocaleString('en')}</div>
-                  <div>ล้านบาท</div>
+                  <div>บาท</div>
                 </div>
               </div>
 

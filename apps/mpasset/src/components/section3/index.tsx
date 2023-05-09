@@ -147,7 +147,7 @@ const Section3 = () => {
       } else if (selectedParty && selectedParty.Name === 'คณะรัฐมนตรี') {
         outFilter = outFilter.filter((p) => p.IsCabinet === true)
       } else if (selectedParty && selectedParty.Name !== 'ทุกพรรค') {
-        outFilter = outFilter.filter((p) => p.Party?.Id === selectedParty?.Id)
+        outFilter = outFilter.filter((p) => p.PartyName === selectedParty?.Name)
       }
 
       if (selectedSort === 'desc')

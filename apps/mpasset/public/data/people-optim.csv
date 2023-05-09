@@ -1,0 +1,849 @@
+Title,Name,IsMp,IsSenator,IsCabinet,IsActive,MpType,MpProvince,MpZone,Images,PartyName,Party,companyType,countDirector,totalValueShare,countCompShare,totalPctShare
+พลเอก,ประยุทธ์ จันทร์โอชา,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประยุทธ์-จันทร์โอชา.jpg,รวมไทยสร้างชาติ,,[],,,,
+พลเอก,ประวิตร วงษ์สุวรรณ,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประวิตร-วงษ์สุวรรณ.jpg,พลังประชารัฐ,,[],,,,
+ดร.,สมคิด จาตุศรีพิทักษ์,False,False,True,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมคิด-จาตุศรีพิทักษ์.jpg,พลังประชารัฐ,,"['C', 'L', 'M', 'C', 'G', 'I', 'N', 'J', 'L']",9.0,,,
+ดร.,วิษณุ เครืองาม,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิษณุ-เครืองาม.jpg,,,['H'],1.0,,,
+พลเอก,ชัยชาญ ช้างมงคล,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัยชาญ-ช้างมงคล.jpg,,,[],,,,
+ดร.,อุตตม สาวนายน,False,False,True,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อุตตม-สาวนายน.jpg,พลังประชารัฐ,,"['K', 'K']",2.0,,,
+นาย,ดอน ปรมัตถ์วินัย,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ดอน-ปรมัตถ์วินัย.jpg,,,[],,,,
+นาย,พิพัฒน์ รัชกิจประการ,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิพัฒน์-รัชกิจประการ.jpg,ภูมิใจไทย,,"['H', 'R', 'G', 'K', 'L', 'G', 'H', 'G', 'G']",4.0,166001924.0,5.0,7.692256894771798
+นาย,จุติ ไกรฤกษ์,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จุติ-ไกรฤกษ์.jpg,ประชาธิปัตย์,,"['C', 'N']",2.0,,,
+นาย,การุณ โหสกุล,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,10.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/การุณ-โหสกุล.jpg,ไทยสร้างไทย,,"['L', 'I', 'I', 'R']",1.0,7831488.0,3.0,0.36289830932515305
+ดร.,สุวิทย์ เมษินทรีย์,False,False,True,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุวิทย์-เมษินทรีย์.jpg,พลังประชารัฐ,,"['G', 'K', 'C', 'C', 'N']",4.0,3926407.0,1.0,0.18194326059395702
+นาย,เฉลิมชัย ศรีอ่อน,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เฉลิมชัย-ศรีอ่อน.jpg,ประชาธิปัตย์,,"['G', 'F']",2.0,,,
+นางสาว,มนัญญา ไทยเศรษฐ์,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มนัญญา-ไทยเศรษฐ์.jpg,ภูมิใจไทย,,[],,,,
+นาย,สนธิรัตน์ สนธิจิรวงศ์,False,False,True,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สนธิรัตน์-สนธิจิรวงศ์.jpg,พลังประชารัฐ,,"['G', 'G', 'G', 'F', 'F', 'L', 'Q', 'G', 'C', 'G', 'L']",11.0,,,
+นาย,วีรศักดิ์ หวังศุภกิจโกศล,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วีรศักดิ์-หวังศุภกิจโกศล.jpg,เพื่อไทย,,['C'],1.0,,,
+พลเอก,อนุพงษ์ เผ่าจินดา,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุพงษ์-เผ่าจินดา.jpg,,,[],,,,
+นาย,นิพนธ์ บุญญามณี,False,False,True,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิพนธ์-บุญญามณี.jpg,ประชาธิปัตย์,,['A'],1.0,,,
+ดร.,ทรงศักดิ์ ทองศรี,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทรงศักดิ์-ทองศรี.jpg,ภูมิใจไทย,,[],,,,
+นาย,เกียรติ สิทธีอมร,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เกียรติ-สิทธีอมร.jpg,ประชาธิปัตย์,,"['M', 'K', 'L', 'M', 'D', 'M', 'C']",3.0,38280645.0,4.0,1.7738623043764332
+หม่อมราชวงศ์,จัตุมงคล โสณกุล,False,False,True,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จัตุมงคล-โสณกุล.jpg,,,"['F', 'I', 'L', 'G', 'C', 'M', 'K', 'C', 'B', 'G', 'H']",10.0,20893969.0,1.0,0.9681922548042161
+นาย,กรณ์ จาติกวณิช,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กรณ์-จาติกวณิช.jpg,ประชาธิปัตย์,,"['J', 'L', 'L', 'G']",3.0,1162546.0,1.0,0.053870474922865
+นาย,อิทธิพล คุณปลื้ม,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อิทธิพล-คุณปลื้ม.jpg,พลังประชารัฐ,,['I'],,1114927.0,1.0,0.051663888563829
+ดร. คุณหญิง,กัลยา โสภณพนิช,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กัลยา-โสภณพนิช.jpg,ประชาธิปัตย์,,['C'],1.0,,,
+ดร.,กนกวรรณ วิลาวัลย์,True,False,True,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กนกวรรณ-วิลาวัลย์.jpg,ภูมิใจไทย,,[],,,,
+นาย,กนก ลิ้มตระกูล,True,False,False,True,แบ่งเขต,อุตรดิตถ์,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กนก-ลิ้มตระกูล.jpg,เพื่อไทย,,"['Q', 'N', 'F']",3.0,,,
+นาย,กมลศักดิ์ ลีวาเมาะ,True,False,False,True,แบ่งเขต,นราธิวาส,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กมลศักดิ์-ลีวาเมาะ.jpg,ประชาชาติ,,['M'],0.0,6862980.0,1.0,0.318019237076318
+ศาสตราจารย์ ดร.,กนก วงษ์ตระหง่าน,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กนก-วงษ์ตระหง่าน.jpg,ชาติไทยพัฒนา,,"['R', 'G', 'J', 'G']",3.0,2145737.0,1.0,0.09942993330979001
+นาง,กรณิศ งามสุคนธ์รัตนา,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กรณิศ-งามสุคนธ์รัตนา.jpg,ภูมิใจไทย,,[],,,,
+นาย,กรวีร์ ปริศนานันทกุล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กรวีร์-ปริศนานันทกุล.jpg,ภูมิใจไทย,,[],,,,
+นาย,กรุงศรีวิไล สุทินเผือก,True,False,False,True,แบ่งเขต,สมุทรปราการ,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กรุงศรีวิไล-สุทินเผือก.jpg,พลังประชารัฐ,,['R'],1.0,,,
+นาย,กฤติเดช สันติวชิระกุล,True,False,False,True,แบ่งเขต,แพร่,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กฤติเดช-สันติวชิระกุล.jpg,อนาคตใหม่,,[],,,,
+นาย,กฤษฎา ตันเทอดทิตย์,True,False,False,True,แบ่งเขต,หนองคาย,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กฤษฎา-ตันเทอดทิตย์.jpg,เพื่อไทย,,[],,,,
+นาย,กฤษณ์ แก้วอยู่,True,False,False,False,แบ่งเขต,เพชรบุรี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กฤษณ์-แก้วอยู่.jpg,ภูมิใจไทย,,[],,,,
+นางสาว,กวินนาถ ตาคีย์,True,False,False,True,แบ่งเขต,ชลบุรี,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กวินนาถ-ตาคีย์.jpg,พลังประชารัฐ,,['C'],0.0,119200.0,1.0,0.005523532497471
+นาย,กษิดิ์เดช ชุติมันต์,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,8.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กษิดิ์เดช-ชุติมันต์.jpg,ภูมิใจไทย,,['F'],0.0,-391569.0,1.0,-0.018144665239114
+นาย,กัญจน์พงศ์ จงสุทธนามณี,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กัญจน์พงศ์-จงสุทธนามณี.jpg,ก้าวไกล,,[],,,,
+นาง,กันตวรรณ ตันเถียร,True,False,False,True,แบ่งเขต,พังงา,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กันตวรรณ-ตันเถียร.jpg,ประชาธิปัตย์,,[],,,,
+นางสาว,กัลยา รุ่งวิจิตรชัย,True,False,False,True,แบ่งเขต,สระบุรี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กัลยา-รุ่งวิจิตรชัย.jpg,พลังประชารัฐ,,[],,,,
+ดร.,พิสิฐ ลี้อาธรรม,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิสิฐ-ลี้อาธรรม.jpg,ประชาธิปัตย์,,"['C', 'M', 'D', 'C', 'K', 'K', 'L', 'J', 'C', 'C', 'C', 'G', 'G']",13.0,,,
+นางสาว,กานต์กนิษฐ์ แห้วสันตติ,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กานต์กนิษฐ์-แห้วสันตติ.jpg,เพื่อไทย,,[],,,,
+นาย,กิตติ สมทรัพย์,True,False,False,True,แบ่งเขต,ร้อยเอ็ด,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กิตติ-สมทรัพย์.jpg,เพื่อไทย,,[],,,,
+นาย,กิตติกร โล่ห์สุนทร,True,False,False,True,แบ่งเขต,ลำปาง,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กิตติกร-โล่ห์สุนทร.jpg,เพื่อไทย,,[],,,,
+นาย,กิตติชัย เรืองสวัสดิ์,True,False,False,True,แบ่งเขต,ฉะเชิงเทรา,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กิตติชัย-เรืองสวัสดิ์.jpg,อนาคตใหม่,,[],,,,
+นางสาว,กิตติ์ธัญญา วาจาดี,True,False,False,True,แบ่งเขต,อุบลราชธานี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กิตติ์ธัญญา-วาจาดี.jpg,เพื่อไทย,,['G'],,8196.0,1.0,0.000379789197561
+นายแพทย์,กิตติศักดิ์ คณาสวัสดิ์,True,False,False,True,แบ่งเขต,มหาสารคาม,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กิตติศักดิ์-คณาสวัสดิ์.jpg,เพื่อไทย,,"['I', 'G']",2.0,,,
+นางสาว,กุลธิดา รุ่งเรืองเกียรติ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กุลธิดา-รุ่งเรืองเกียรติ.jpg,อนาคตใหม่,,[],,,,
+นางสาว,กุลวลี นพอมรบดี,True,False,False,True,แบ่งเขต,ราชบุรี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กุลวลี-นพอมรบดี.jpg,รวมไทยสร้างชาติ,,"['F', 'G', 'D', 'H']",1.0,1503950.0,3.0,0.06969057633869301
+นาย,กูเฮง ยาวอหะซัน,True,False,False,True,แบ่งเขต,นราธิวาส,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กูเฮง-ยาวอหะซัน.jpg,ประชาชาติ,,[],,,,
+นาย,เกรียงศักดิ์ ฝ้ายสีงาม,True,False,False,True,แบ่งเขต,อุดรธานี,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เกรียงศักดิ์-ฝ้ายสีงาม.jpg,เพื่อไทย,,['L'],1.0,,,
+นาย,เกษม ศุภรานนท์,True,False,False,True,แบ่งเขต,นครราชสีมา,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เกษม-ศุภรานนท์.jpg,พลังประชารัฐ,,"['F', 'P']",2.0,,,
+นาย,เกษม อุประ,True,False,False,True,แบ่งเขต,สกลนคร,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เกษม-อุประ.jpg,เพื่อไทย,,[],,,,
+นาย,เกษมสันต์ มีทิพย์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เกษมสันต์-มีทิพย์.jpg,ภูมิใจไทย,,"['C', 'G', 'G']",1.0,182775.0,2.0,0.008469493726722
+นาย,เกียรติ เหลืองขจรวิทย์,True,False,False,True,แบ่งเขต,ลพบุรี,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เกียรติ-เหลืองขจรวิทย์.jpg,ภูมิใจไทย,,['C'],1.0,,,
+นาย,เกื้อกูล ด่านชัยวิจิตร,True,False,False,True,แบ่งเขต,พระนครศรีอยุธยา,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เกื้อกูล-ด่านชัยวิจิตร.jpg,ภูมิใจไทย,,"['L', 'I', 'L', 'G', 'L', 'F', 'F']",4.0,59434009.0,3.0,2.754074498041234
+ศาสตราจารย์ ดร.,โกวิทย์ พวงงาม,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/โกวิทย์-พวงงาม.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,โกศล ปัทมะ,True,False,False,True,แบ่งเขต,นครราชสีมา,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/โกศล-ปัทมะ.jpg,เพื่อไทย,,"['L', 'C', 'G', 'N', 'J']",4.0,374.0,1.0,1.7330546594e-05
+นาย,ไกลก้อง ไวทยการ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไกลก้อง-ไวทยการ.jpg,อนาคตใหม่,,['J'],1.0,,,
+นาย,ขจิตร ชัยนิคม,True,False,False,True,แบ่งเขต,อุดรธานี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ขจิตร-ชัยนิคม.jpg,เพื่อไทย,,"['D', 'G', 'B', 'G']",3.0,34021.0,1.0,0.001576477341413
+นาย,ขวัญเลิศ พานิชมาท,True,False,False,False,แบ่งเขต,ชลบุรี,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ขวัญเลิศ-พานิชมาท.jpg,ภูมิใจไทย,,[],,,,
+นาย,เขตรัฐ เหล่าธรรมทัศน์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เขตรัฐ-เหล่าธรรมทัศน์.jpg,รวมไทยสร้างชาติ,,['Q'],1.0,,,
+นาย,คงกฤษ ฉัตรมาลีรัตน์,True,False,False,True,แบ่งเขต,ระนอง,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/คงกฤษ-ฉัตรมาลีรัตน์.jpg,ภูมิใจไทย,,[],,,,
+นาย,คฑาเทพ เตชะเดชเรืองกุล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/คฑาเทพ-เตชะเดชเรืองกุล.jpg,เพื่อชาติไทย,,[],,,,
+นาย,คมเดช ไชยศิวามงคล,True,False,False,True,แบ่งเขต,กาฬสินธุ์,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/คมเดช-ไชยศิวามงคล.jpg,เพื่อไทย,,['K'],1.0,,,
+นาย,ครูมานิตย์ สังข์พุ่ม,True,False,False,True,แบ่งเขต,สุรินทร์,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ครูมานิตย์-สังข์พุ่ม.jpg,เพื่อไทย,,[],,,,
+นาย,คารม พลพรกลาง,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/คารม-พลพรกลาง.jpg,ภูมิใจไทย,,"['M', 'C']",2.0,,,
+นาย,คำพอง เทพาคำ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/คำพอง-เทพาคำ.jpg,ก้าวไกล,,[],,,,
+นาย,คุณากร ปรีชาชนะชัย,True,False,False,True,แบ่งเขต,สุรินทร์,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/คุณากร-ปรีชาชนะชัย.jpg,เพื่อไทย,,[],,,,
+นาย,จตุพร เจริญเชื้อ,True,False,False,True,แบ่งเขต,ขอนแก่น,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จตุพร-เจริญเชื้อ.jpg,เพื่อไทย,,[],,,,
+นาย,จรัส คุ้มไข่น้ำ,True,False,False,True,แบ่งเขต,ชลบุรี,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จรัส-คุ้มไข่น้ำ.jpg,ก้าวไกล,,[],,,,
+นาย,จรัสฤทธิ์ จันทรสุรินทร์,True,False,False,True,แบ่งเขต,ลำปาง,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จรัสฤทธิ์-จันทรสุรินทร์.jpg,เพื่อไทย,,"['G', 'B', 'I', 'F']",4.0,,,
+ร้อยเอก ดร.,จองชัย วงศ์ทรายทอง,True,False,False,True,แบ่งเขต,ชลบุรี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จองชัย-วงศ์ทรายทอง.jpg,พลังประชารัฐ,,[],,,,
+นางสาว,จอมขวัญ กลับบ้านเกาะ,True,False,False,True,แบ่งเขต,สมุทรสาคร,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จอมขวัญ-กลับบ้านเกาะ.jpg,พลังประชารัฐ,,[],,,,
+นาย,จักรกฤษณ์ ทองศรี,True,False,False,True,แบ่งเขต,บุรีรัมย์,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จักรกฤษณ์-ทองศรี.jpg,ภูมิใจไทย,,[],,,,
+นาย,จักรพรรดิ ไชยสาส์น,True,False,False,False,แบ่งเขต,อุดรธานี,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จักรพรรดิ-ไชยสาส์น.jpg,ภูมิใจไทย,,[],,,,
+นางสาว,จุฑาฑัตต เหล่าธรรมทัศน์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จุฑาฑัตต-เหล่าธรรมทัศน์.jpg,รวมพลัง,,"['L', 'C', 'C', 'L']",0.0,22198125.0,4.0,1.028624704869422
+ผู้ช่วยศาสตราจารย์ ดร.,จักรพันธ์ พรนิมิตร,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,30.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จักรพันธ์-พรนิมิตร.jpg,ภูมิใจไทย,,['L'],0.0,2973852.0,1.0,0.137803424200257
+นาย,จักรพล ตั้งสุทธิธรรม,True,False,False,True,แบ่งเขต,เชียงใหม่,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จักรพล-ตั้งสุทธิธรรม.jpg,เพื่อไทย,,"['I', 'F', 'L', 'F', 'I']",3.0,256235.0,2.0,0.011873509643369001
+นาย,จักรัตน์ พั้วช่วย,True,False,False,True,แบ่งเขต,เพชรบูรณ์,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จักรัตน์-พั้วช่วย.jpg,พลังประชารัฐ,,['F'],1.0,,,
+ดร.,จาตุรงค์ เพ็งนรพัฒน์,True,False,False,True,แบ่งเขต,ศรีสะเกษ,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จาตุรงค์-เพ็งนรพัฒน์.jpg,เพื่อไทย,,[],,,,
+นาย,จารึก ศรีอ่อน,True,False,False,True,แบ่งเขต,จันทบุรี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จารึก-ศรีอ่อน.jpg,รวมไทยสร้างชาติ,,[],,,,
+ผู้ช่วยศาสตราจารย์ ดร.,อิสระ เสรีวัฒนวุฒิ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อิสระ-เสรีวัฒนวุฒิ.jpg,ประชาธิปัตย์,,"['C', 'C']",0.0,30344174.0,2.0,1.406099255016195
+นาย,จิรวัฒน์ อรัณยกานนท์,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,27.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิรวัฒน์-อรัณยกานนท์.jpg,เพื่อไทย,,['P'],,725100.0,1.0,0.033599944747622006
+นาย,จิรวัฒน์ ศิริพานิชย์,True,False,False,True,แบ่งเขต,มหาสารคาม,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิรวัฒน์-ศิริพานิชย์.jpg,เพื่อไทย,,['L'],,24888.0,1.0,0.0011532691006460002
+นางสาว,จารุวรรณ ศรัณย์เกตุ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จารุวรรณ-ศรัณย์เกตุ.jpg,อนาคตใหม่,,"['C', 'C', 'G', 'M', 'G', 'G', 'I', 'I', 'C']",3.0,-253072.0,6.0,-0.011726941411074
+นางสาว,จิตภัสร์ กฤดากร,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิตภัสร์-กฤดากร.jpg,ประชาธิปัตย์,,[],,,,
+นาย,จิรทัศ ไกรเดชา,True,False,False,True,แบ่งเขต,พระนครศรีอยุธยา,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิรทัศ-ไกรเดชา.jpg,เพื่อไทย,,[],,,,
+นาย,จิรพงษ์ ทรงวัชราภรณ์,True,False,False,True,แบ่งเขต,นนทบุรี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิรพงษ์-ทรงวัชราภรณ์.jpg,เพื่อไทย,,"['G', 'G']",2.0,,,
+นาย,จิรัฏฐ์ ทองสุวรรณ์,True,False,False,True,แบ่งเขต,ฉะเชิงเทรา,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิรัฏฐ์-ทองสุวรรณ์.jpg,ก้าวไกล,,[],,,,
+นางสาว,จิราพร สินธุไพร,True,False,False,True,แบ่งเขต,ร้อยเอ็ด,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิราพร-สินธุไพร.jpg,เพื่อไทย,,['F'],1.0,,,
+นาย,จิรายุ ห่วงทรัพย์,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,16.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิรายุ-ห่วงทรัพย์.jpg,เพื่อไทย,,[],,,,
+นาย,จีรเดช ศรีวิราช,True,False,False,True,แบ่งเขต,พะเยา,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จีรเดช-ศรีวิราช.jpg,พลังประชารัฐ,,['H'],1.0,,,
+นาง,จุฑาพัตธน์ เมนะสวัสดิ์,True,False,False,True,แบ่งเขต,อุดรธานี,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จุฑาพัตธน์-เมนะสวัสดิ์.jpg,เพื่อไทย,,['F'],1.0,,,
+นาง,จุมพิตา จันทรขจร,True,False,False,False,แบ่งเขต,นครปฐม,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จุมพิตา-จันทรขจร.jpg,อนาคตใหม่,,[],,,,
+นาย,ประภัตร โพธสุธน,True,False,True,True,แบ่งเขต,สุพรรณบุรี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประภัตร-โพธสุธน.jpg,ชาติไทยพัฒนา,,[],,,,
+นาย,จุลพันธ์ โนนศรีชัย,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จุลพันธ์-โนนศรีชัย.jpg,ชาติไทยพัฒนา,,['H'],1.0,,,
+นาย,จุลพันธ์ อมรวิวัฒน์,True,False,False,True,แบ่งเขต,เชียงใหม่,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จุลพันธ์-อมรวิวัฒน์.jpg,เพื่อไทย,,"['L', 'L']",0.0,67591.0,2.0,0.0031320560825210003
+นาย,เจนวิทย์ ไกรสินธุ์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เจนวิทย์-ไกรสินธุ์.jpg,อนาคตใหม่,,[],,,,
+นาง,เจริญ เรี่ยวแรง,True,False,False,False,แบ่งเขต,นนทบุรี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เจริญ-เรี่ยวแรง.jpg,ภูมิใจไทย,,[],,,,
+นาย,เจเศรษฐ์ ไทยเศรษฐ์,True,False,False,True,แบ่งเขต,อุทัยธานี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เจเศรษฐ์-ไทยเศรษฐ์.jpg,ภูมิใจไทย,,[],,,,
+นาย,ฉลอง เทอดวีระพงศ์,True,False,False,False,แบ่งเขต,พัทลุง,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ฉลอง-เทอดวีระพงศ์.jpg,ภูมิใจไทย,,[],,,,
+นาย,ฉลาด ขามช่วง,True,False,False,True,แบ่งเขต,ร้อยเอ็ด,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ฉลาด-ขามช่วง.jpg,เพื่อไทย,,[],,,,
+นางสาว,ชนก จันทาทอง,True,False,False,True,แบ่งเขต,หนองคาย,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชนก-จันทาทอง.jpg,เพื่อไทย,,['G'],1.0,,,
+นาย,ชยุต ภุมมะกาญจนะ,True,False,False,True,แบ่งเขต,ปราจีนบุรี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชยุต-ภุมมะกาญจนะ.jpg,ภูมิใจไทย,,['M'],1.0,,,
+นาย,ชลน่าน ศรีแก้ว,True,False,False,True,แบ่งเขต,น่าน,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชลน่าน-ศรีแก้ว.jpg,เพื่อไทย,,[],,,,
+นาย,ชวน หลีกภัย,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชวน-หลีกภัย.jpg,ประชาธิปัตย์,,[],,,,
+พันตำรวจตรี,ชวลิต เลาหอุดมพันธ์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชวลิต-เลาหอุดมพันธ์.jpg,ก้าวไกล,,[],,,,
+นาย,ชวลิต วิชยสุทธิ์,True,False,False,False,แบ่งเขต,นครพนม,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชวลิต-วิชยสุทธิ์.jpg,ไทยสร้างไทย,,[],,,,
+นาย,ชัชวาลล์ คงอุดม,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัชวาลล์-คงอุดม.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,ชัย ชิดชอบ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัย-ชิดชอบ.jpg,ภูมิใจไทย,,[],,,,
+นาย,ชัยชนะ เดชเดโช,True,False,False,True,แบ่งเขต,นครศรีธรรมราช,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัยชนะ-เดชเดโช.jpg,ประชาธิปัตย์,,"['M', 'N', 'I']",3.0,,,
+นาย,ชัยยันต์ ผลสุวรรณ์,True,False,False,True,แบ่งเขต,ปทุมธานี,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัยยันต์-ผลสุวรรณ์.jpg,เพื่อไทย,,"['F', 'L', 'G', 'G']",4.0,,,
+นาย,ชัยวัฒน์ เป้าเปี่ยมทรัพย์,True,False,False,True,แบ่งเขต,ฉะเชิงเทรา,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัยวัฒน์-เป้าเปี่ยมทรัพย์.jpg,รวมไทยสร้างชาติ,,['L'],1.0,,,
+นาย,ชัยวุฒิ ธนาคมานุสรณ์,True,False,True,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัยวุฒิ-ธนาคมานุสรณ์.jpg,พลังประชารัฐ,,['G'],1.0,,,
+นาย,ชาญวิทย์ วิภูศิริ,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,15.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชาญวิทย์-วิภูศิริ.jpg,พลังประชารัฐ,,"['I', 'I', 'I', 'L', 'I', 'L', 'L', 'L', 'L', 'C', 'I', 'F', 'I', 'L', 'I', 'I', 'I']",4.0,292590232.0,13.0,13.558151467237693
+นาย,ฐานิสร์ เทียนทอง,True,False,False,False,แบ่งเขต,สระแก้ว,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ฐานิสร์-เทียนทอง.jpg,พลังประชารัฐ,,"['Q', 'I', 'I']",1.0,55575376.0,2.0,2.575271773449656
+นางสาว,ตรีนุช เทียนทอง,True,False,True,True,แบ่งเขต,สระแก้ว,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ตรีนุช-เทียนทอง.jpg,พลังประชารัฐ,,['Q'],,30493673.0,1.0,1.413026793479614
+นาย,เดชอิศม์ ขาวทอง,True,False,False,True,แบ่งเขต,สงขลา,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เดชอิศม์-ขาวทอง.jpg,ประชาธิปัตย์,,"['L', 'I', 'M']",1.0,10736917.0,2.0,0.49753112392747006
+นาย,ชูศักดิ์ แอกทอง,True,False,False,True,แบ่งเขต,สุรินทร์,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชูศักดิ์-แอกทอง.jpg,เพื่อไทย,,['L'],0.0,7905722.0,1.0,0.366338191132345
+นางสาว,ณธีภัสร์ กุลเศรษฐสิทธิ์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณธีภัสร์-กุลเศรษฐสิทธิ์.jpg,ก้าวไกล,,['C'],0.0,2697702.0,1.0,0.125007086119915
+นาย,ชูวิทย์ พิทักษ์พรพัลลภ,True,False,False,True,แบ่งเขต,อุบลราชธานี,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชูวิทย์-พิทักษ์พรพัลลภ.jpg,เพื่อไทย,,"['R', 'F', 'F', 'G']",2.0,893820.0,2.0,0.041418152826258006
+นาย,ชัยวุฒิ บรรณวัฒน์,True,False,False,True,แบ่งเขต,ตาก,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัยวุฒิ-บรรณวัฒน์.jpg,รวมไทยสร้างชาติ,,"['P', 'G', 'G', 'G', 'G']",4.0,16981.0,1.0,0.0007868716890900001
+นาย,ชาดา ไทยเศรษฐ์,True,False,False,True,แบ่งเขต,อุทัยธานี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชาดา-ไทยเศรษฐ์.jpg,ภูมิใจไทย,,"['M', 'R']",2.0,,,
+นาย,ฐาปกรณ์ กุลเจริญ,True,False,False,True,แบ่งเขต,สมุทรปราการ,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ฐาปกรณ์-กุลเจริญ.jpg,พลังประชารัฐ,,['N'],0.0,311774.0,1.0,0.014447095812639001
+นาย,ชำนาญ จันทร์เรือง,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชำนาญ-จันทร์เรือง.jpg,อนาคตใหม่,,['Q'],,3792.0,1.0,0.00017571506065700002
+นาย,ชินวรณ์ บุณยเกียรติ,True,False,False,True,แบ่งเขต,นครศรีธรรมราช,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชินวรณ์-บุณยเกียรติ.jpg,ประชาธิปัตย์,,['L'],1.0,,,
+นาย,ชุมพล จุลใส,True,False,False,False,แบ่งเขต,ชุมพร,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชุมพล-จุลใส.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,ชูศักดิ์ คีรีมาศทอง,True,False,False,False,แบ่งเขต,สุโขทัย,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชูศักดิ์-คีรีมาศทอง.jpg,เพื่อไทย,,[],,,,
+นาย,เชิงชาย ชาลีรินทร์,True,False,False,True,แบ่งเขต,ชัยภูมิ,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เชิงชาย-ชาลีรินทร์.jpg,เพื่อไทย,,[],,,,
+นาย,เชิดพงศ์ ราชป้องขันธ์,True,False,False,True,แบ่งเขต,บึงกาฬ,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เชิดพงศ์-ราชป้องขันธ์.jpg,เพื่อไทย,,[],,,,
+นาย,โชติพิพัฒน์ เตชะโสภณมณี,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,23.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/โชติพิพัฒน์-เตชะโสภณมณี.jpg,อนาคตใหม่,,['G'],0.0,491095.0,1.0,0.022756536844343003
+นาย,โชติวุฒิ ธนาคมานุสรณ์,True,False,False,True,แบ่งเขต,สิงห์บุรี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/โชติวุฒิ-ธนาคมานุสรณ์.jpg,พลังประชารัฐ,,['G'],1.0,,,
+นาย,ไชยวัฒนา ติณรัตน์,True,False,False,True,แบ่งเขต,มหาสารคาม,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไชยวัฒนา-ติณรัตน์.jpg,เพื่อไทย,,[],,,,
+นาย,ไชยา พรหมา,True,False,False,True,แบ่งเขต,หนองบัวลำภู,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไชยา-พรหมา.jpg,เพื่อไทย,,[],,,,
+นาย,ซูการ์โน มะทา,True,False,False,True,แบ่งเขต,ยะลา,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ซูการ์โน-มะทา.jpg,ประชาชาติ,,[],,,,
+นางสาว,ญาณธิชา บัวเผื่อน,True,False,False,True,แบ่งเขต,จันทบุรี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ญาณธิชา-บัวเผื่อน.jpg,ก้าวไกล,,[],,,,
+พันตำรวจโท ดร.,ฐนภัทร กิตติวงศา,True,False,False,True,แบ่งเขต,จันทบุรี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ฐนภัทร-กิตติวงศา.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,ฐิตินันท์ แสงนาค,True,False,False,True,แบ่งเขต,ขอนแก่น,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ฐิตินันท์-แสงนาค.jpg,อนาคตใหม่,,[],,,,
+นางสาว,ฐิติภัสร์ โชติเดชาชัยนันต์,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,13.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ฐิติภัสร์-โชติเดชาชัยนันต์.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,ณัฏฐ์ชนน ศรีก่อเกื้อ,True,False,False,True,แบ่งเขต,สงขลา,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณัฏฐ์ชนน-ศรีก่อเกื้อ.jpg,ภูมิใจไทย,,[],,,,
+นาย,ณัฏฐพล จรัสรพีพงษ์,True,False,False,False,แบ่งเขต,สุรินทร์,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณัฏฐพล-จรัสรพีพงษ์.jpg,พลังประชารัฐ,,[],,,,
+นาย,ณัฐพงษ์ เรืองปัญญาวุฒิ,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,28.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณัฐพงษ์-เรืองปัญญาวุฒิ.jpg,ก้าวไกล,,"['G', 'L', 'L', 'A', 'J', 'J']",1.0,64809886.0,5.0,3.003183821127725
+นาย,วราวุธ ศิลปอาชา,True,False,True,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วราวุธ-ศิลปอาชา.jpg,ชาติไทยพัฒนา,,"['G', 'L', 'L', 'J']",3.0,52663.0,1.0,0.0024403170462610002
+นาย,ณัฐชา บุญไชยอินสวัสดิ์,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,25.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณัฐชา-บุญไชยอินสวัสดิ์.jpg,ก้าวไกล,,[],,,,
+นาย,ณัฐพงษ์ สุปริยศิลป์,True,False,False,True,แบ่งเขต,น่าน,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณัฐพงษ์-สุปริยศิลป์.jpg,เพื่อไทย,,[],,,,
+นาย,ณัฐพล สืบศักดิ์วงศ์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณัฐพล-สืบศักดิ์วงศ์.jpg,ก้าวไกล,,[],,,,
+นาย,ณัฐวุฒิ กองจันทร์ดี,True,False,False,False,แบ่งเขต,หนองบัวลำภู,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณัฐวุฒิ-กองจันทร์ดี.jpg,ไทยสร้างไทย,,[],,,,
+นาย,ณัฐวุฒิ บัวประทุม,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณัฐวุฒิ-บัวประทุม.jpg,ก้าวไกล,,[],,,,
+นาย,ณัฐวุฒิ ประเสริฐสุวรรณ,True,False,False,True,แบ่งเขต,สุพรรณบุรี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณัฐวุฒิ-ประเสริฐสุวรรณ.jpg,ชาติไทยพัฒนา,,['G'],1.0,,,
+นาย,ดล เหตระกูล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ดล-เหตระกูล.jpg,ชาติพัฒนากล้า,,"['L', 'J', 'G', 'M', 'J']",5.0,,,
+นาย,ดะนัย มะหิพันธ์,True,False,False,True,แบ่งเขต,อำนาจเจริญ,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ดะนัย-มะหิพันธ์.jpg,เพื่อไทย,,[],,,,
+นาย,ดำรงค์ พิเดช,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ดำรงค์-พิเดช.jpg,รักษ์ผืนป่าประเทศไทย,,[],,,,
+นาย,ตี๋ใหญ่ พูนศรีธนากูล,True,False,False,False,แบ่งเขต,สุรินทร์,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ตี๋ใหญ่-พูนศรีธนากูล.jpg,เพื่อไทย,,['G'],1.0,,,
+นาย,ไตรเทพ งามกมล,True,False,False,True,แบ่งเขต,บุรีรัมย์,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไตรเทพ-งามกมล.jpg,ภูมิใจไทย,,[],,,,
+นาย,ไตรรงค์ ติธรรม,True,False,False,True,แบ่งเขต,บึงกาฬ,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไตรรงค์-ติธรรม.jpg,เพื่อไทย,,[],,,,
+นาย,เทวัญ ลิปตพัลลภ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เทวัญ-ลิปตพัลลภ.jpg,ชาติพัฒนากล้า,,"['C', 'N', 'L', 'M', 'L', 'L']",6.0,,,
+พลตรี,ทรงกลด ทิพย์รัตน์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทรงกลด-ทิพย์รัตน์.jpg,รวมแผ่นดิน,,"['C', 'G']",2.0,,,
+พันเอก ดร.,เศรษฐพงค์ มะลิสุวรรณ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เศรษฐพงค์-มะลิสุวรรณ.jpg,ภูมิใจไทย,,[],,,,
+นาย,ทวิรัฐ รัตนเศรษฐ,True,False,False,True,แบ่งเขต,นครราชสีมา,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทวิรัฐ-รัตนเศรษฐ.jpg,พลังประชารัฐ,,"['L', 'L', 'L', 'D']",,88461244.0,4.0,4.099148959737903
+นาย,ทวีศักดิ์ ทักษิณ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทวีศักดิ์-ทักษิณ.jpg,ก้าวไกล,,['A'],1.0,,,
+นาย,ทศพร ทองศิริ,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,24.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทศพร-ทองศิริ.jpg,รวมไทยสร้างชาติ,,['I'],1.0,,,
+นาย,ทองแดง เบ็ญจะปัก,True,False,False,True,แบ่งเขต,สมุทรสาคร,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทองแดง-เบ็ญจะปัก.jpg,ก้าวไกล,,[],,,,
+นาง,ทัศนาพร เกษเมธีการุณ,True,False,False,False,แบ่งเขต,นครราชสีมา,8.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทัศนาพร-เกษเมธีการุณ.jpg,พลังประชารัฐ,,[],,,,
+นางสาว,ทัศนีย์ บูรณุปกรณ์,True,False,False,True,แบ่งเขต,เชียงใหม่,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทัศนีย์-บูรณุปกรณ์.jpg,เพื่อไทย,,"['L', 'L', 'I', 'M', 'L', 'G', 'L', 'L', 'L']",4.0,5540255.0,5.0,0.256726330006536
+นาง,ทัศนียา รัตนเศรษฐ,True,False,False,False,แบ่งเขต,นครราชสีมา,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทัศนียา-รัตนเศรษฐ.jpg,พลังประชารัฐ,,['L'],1.0,,,
+นาย,ทายาท เกียรติชูศักดิ์,True,False,False,True,แบ่งเขต,นครสวรรค์,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทายาท-เกียรติชูศักดิ์.jpg,เพื่อไทย,,['F'],1.0,,,
+นาย,เทพไท เสนพงศ์,True,False,False,False,แบ่งเขต,นครศรีธรรมราช,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เทพไท-เสนพงศ์.jpg,ประชาธิปัตย์,,"['L', 'C', 'G']",3.0,,,
+นาย,จุรินทร์ ลักษณวิศิษฏ์,True,False,True,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จุรินทร์-ลักษณวิศิษฏ์.jpg,ประชาธิปัตย์,,['Q'],1.0,,,
+นาย,เทอดพงษ์ ไชยนันทน์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เทอดพงษ์-ไชยนันทน์.jpg,ประชาธิปัตย์,,[],,,,
+นาย,เท่าพิภพ ลิ้มจิตรกร,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,22.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เท่าพิภพ-ลิ้มจิตรกร.jpg,ก้าวไกล,,[],,,,
+นาง,เทียบจุฑา ขาวขำ,True,False,False,True,แบ่งเขต,อุดรธานี,8.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เทียบจุฑา-ขาวขำ.jpg,เพื่อไทย,,"['G', 'F']",2.0,,,
+นางสาว,ธณิกานต์ พรพงษาโรจน์,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธณิกานต์-พรพงษาโรจน์.jpg,พลังประชารัฐ,,[],,,,
+ดร.,ธนกร ไชยกุล,True,False,False,True,แบ่งเขต,ยโสธร,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธนกร-ไชยกุล.jpg,เพื่อไทย,,['F'],,3513434.0,1.0,0.16280676910001102
+นางสาว,ธนภร โสมทองแดง,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธนภร-โสมทองแดง.jpg,เสรีรวมไทย,,[],,,,
+นาย,นิยม ช่างพินิจ,True,False,False,True,แบ่งเขต,พิษณุโลก,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิยม-ช่างพินิจ.jpg,ภูมิใจไทย,,"['I', 'G']",1.0,3379191.0,1.0,0.156586168654893
+นาย,นพ ชีวานันท์,True,False,False,False,แบ่งเขต,พระนครศรีอยุธยา,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นพ-ชีวานันท์.jpg,ภูมิใจไทย,,"['L', 'L', 'L', 'G', 'G']",2.0,995839.0,3.0,0.046145545962663
+ดร.,นภาพร เพ็ชร์จินดา,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นภาพร-เพ็ชร์จินดา.jpg,เสรีรวมไทย,,"['S', 'G']",1.0,983658.0,1.0,0.045581098400988
+นาย,นิยม วิวรรธนดิฐกุล,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิยม-วิวรรธนดิฐกุล.jpg,เพื่อไทย,,"['G', 'K', 'K', 'C']",3.0,500070.0,1.0,0.023172423624249
+นาย,นพดล มาตรศรี,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นพดล-มาตรศรี.jpg,ชาติไทยพัฒนา,,['Q'],,93383.0,1.0,0.004327215060498
+นาย,ธนยศ ทิมสุวรรณ,True,False,False,True,แบ่งเขต,เลย,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธนยศ-ทิมสุวรรณ.jpg,ภูมิใจไทย,,['I'],,-617660.0,1.0,-0.028621351362317003
+นาย,ธนะสิทธิ์ โควสุรัตน์,True,False,False,False,แบ่งเขต,อุบลราชธานี,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธนะสิทธิ์-โควสุรัตน์.jpg,เศรษฐกิจไทย,,['G'],1.0,,,
+นาย,ธนาธร จึงรุ่งเรืองกิจ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธนาธร-จึงรุ่งเรืองกิจ.jpg,อนาคตใหม่,,"['D', 'G', 'K', 'I', 'D', 'D', 'D', 'G', 'M', 'C', 'C', 'C', 'G', 'D', 'C', 'K', 'C', 'C', 'N', 'C', 'C', 'D', 'D', 'G', 'C']",18.0,43317688.0,7.0,2.007270615631982
+นาย,นิคม บุญวิเศษ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิคม-บุญวิเศษ.jpg,เพื่อไทย,,['C'],,0.0,1.0,0.0
+นาย,ธนัสถ์ ทวีเกื้อกูลกิจ,True,False,False,False,แบ่งเขต,ตาก,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธนัสถ์-ทวีเกื้อกูลกิจ.jpg,ภูมิใจไทย,,"['G', 'C']",,-18744636.0,2.0,-0.8685956887523041
+นาย,ถาวร เสนเนียม,True,False,True,False,แบ่งเขต,สงขลา,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ถาวร-เสนเนียม.jpg,ไทยภักดี,,"['B', 'G']",2.0,,,
+นาย,ธรรมวิชญ์ โพธิพิพิธ,True,False,False,False,แบ่งเขต,กาญจนบุรี,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธรรมวิชญ์-โพธิพิพิธ.jpg,ภูมิใจไทย,,[],,,,
+นาย,ธัญญ์วาริน สุขะพิสิษฐ์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธัญญ์วาริน-สุขะพิสิษฐ์.jpg,ก้าวไกล,,"['G', 'J', 'M']",2.0,433.0,1.0,2.0064509827e-05
+นาย,ธัญวัจน์ กมลวงศ์วัฒน์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธัญวัจน์-กมลวงศ์วัฒน์.jpg,ก้าวไกล,,"['J', 'J']",2.0,,,
+นาย,ธารา ปิตุเตชะ,True,False,False,True,แบ่งเขต,ระยอง,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธารา-ปิตุเตชะ.jpg,ประชาธิปัตย์,,['G'],1.0,,,
+นาย,ธีรภัทร พริ้งศุลกะ,True,False,False,True,แบ่งเขต,สุราษฎร์ธานี,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธีรภัทร-พริ้งศุลกะ.jpg,ประชาธิปัตย์,,['M'],1.0,,,
+ดร.,ธีรรัตน์ สำเร็จวาณิชย์,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,18.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธีรรัตน์-สำเร็จวาณิชย์.jpg,เพื่อไทย,,[],,,,
+นาย,ธีระ ไตรสรณกุล,True,False,False,False,แบ่งเขต,ศรีสะเกษ,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธีระ-ไตรสรณกุล.jpg,ภูมิใจไทย,,"['F', 'G']",2.0,,,
+นาย,ธีระ วงศ์สมุทร,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธีระ-วงศ์สมุทร.jpg,ชาติไทยพัฒนา,,[],,,,
+นาย,ธีรัจชัย พันธุมาศ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธีรัจชัย-พันธุมาศ.jpg,ก้าวไกล,,[],,,,
+นาย,นพคุณ รัฐผไท,True,False,False,True,แบ่งเขต,เชียงใหม่,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นพคุณ-รัฐผไท.jpg,เพื่อไทย,,[],,,,
+ดร.,นพดล แก้วสุพัฒน์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นพดล-แก้วสุพัฒน์.jpg,เพื่อไทย,,['G'],1.0,,,
+นาย,นพพล เหลืองทองนารา,True,False,False,True,แบ่งเขต,พิษณุโลก,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นพพล-เหลืองทองนารา.jpg,เพื่อไทย,,"['G', 'F']",2.0,,,
+นาย,นริศ ขำนุรักษ์,True,False,False,True,แบ่งเขต,พัทลุง,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นริศ-ขำนุรักษ์.jpg,ประชาธิปัตย์,,[],,,,
+นาย,พรชัย ตระกูลวรานนท์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พรชัย-ตระกูลวรานนท์.jpg,พลังประชารัฐ,,['I'],1.0,,,
+นาย,นวัธ เตาะเจริญสุข,True,False,False,False,แบ่งเขต,ขอนแก่น,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นวัธ-เตาะเจริญสุข.jpg,เพื่อไทย,,['M'],1.0,,,
+ดร.,นาที รัชกิจประการ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นาที-รัชกิจประการ.jpg,ภูมิใจไทย,,"['G', 'G', 'N']",2.0,550920.0,1.0,0.025528729224052003
+นาย,นัทธี ถิ่นสาคู,True,False,False,True,แบ่งเขต,ภูเก็ต,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นัทธี-ถิ่นสาคู.jpg,พลังประชารัฐ,,['I'],0.0,-1323542.0,1.0,-0.061330765509802
+นาย,นิกร จำนง,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิกร-จำนง.jpg,ชาติไทยพัฒนา,,['G'],1.0,,,
+นาย,นิติพล ผิวเหมาะ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิติพล-ผิวเหมาะ.jpg,ก้าวไกล,,[],,,,
+นาย,นิพันธ์ ศิริธร,True,False,False,True,แบ่งเขต,ตรัง,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิพันธ์-ศิริธร.jpg,พลังประชารัฐ,,[],,,,
+ดร.,นิยม เวชกามา,True,False,False,True,แบ่งเขต,สกลนคร,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิยม-เวชกามา.jpg,เพื่อไทย,,"['C', 'G']",2.0,,,
+นาย,นิรมิต สุจารี,True,False,False,True,แบ่งเขต,ร้อยเอ็ด,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิรมิต-สุจารี.jpg,เพื่อไทย,,[],,,,
+นาย,นิรันดร์ นาเมืองรักษ์,True,False,False,True,แบ่งเขต,ร้อยเอ็ด,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิรันดร์-นาเมืองรักษ์.jpg,เพื่อไทย,,"['C', 'G']",2.0,,,
+นาย,นิรามาน สุไลมาน,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิรามาน-สุไลมาน.jpg,อนาคตใหม่,,[],,,,
+นาย,นิโรธ สุนทรเลขา,True,False,False,True,แบ่งเขต,นครสวรรค์,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิโรธ-สุนทรเลขา.jpg,รวมไทยสร้างชาติ,,"['L', 'I']",2.0,,,
+นางสาว,แนน บุณย์ธิดา สมชัย,True,False,False,False,แบ่งเขต,อุบลราชธานี,8.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/แนน-บุณย์ธิดา-สมชัย.jpg,ภูมิใจไทย,,[],,,,
+นายแพทย์,บัญญัติ เจตนจันทร์,True,False,False,True,แบ่งเขต,ระยอง,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บัญญัติ-เจตนจันทร์.jpg,ประชาธิปัตย์,,"['C', 'Q']",0.0,215143.0,2.0,0.009969373759257001
+นาย,บัญญัติ บรรทัดฐาน,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บัญญัติ-บรรทัดฐาน.jpg,ประชาธิปัตย์,,[],,,,
+นาย,บัลลังก์ อรรณนพพร,True,False,False,True,แบ่งเขต,ขอนแก่น,10.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บัลลังก์-อรรณนพพร.jpg,พลังประชารัฐ,,[],,,,
+นาย,บุญแก้ว สมวงศ์,True,False,False,True,แบ่งเขต,ยโสธร,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุญแก้ว-สมวงศ์.jpg,เพื่อไทย,,[],,,,
+นาย,บุญฐิณ ประทุมลี,True,False,False,True,แบ่งเขต,มุกดาหาร,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุญฐิณ-ประทุมลี.jpg,เพื่อไทย,,[],,,,
+นาง,บุญยิ่ง นิติกาญจนา,True,False,False,True,แบ่งเขต,ราชบุรี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุญยิ่ง-นิติกาญจนา.jpg,พลังประชารัฐ,,['G'],1.0,,,
+นาง,บุญรื่น ศรีธเรศ,True,False,False,True,แบ่งเขต,กาฬสินธุ์,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุญรื่น-ศรีธเรศ.jpg,เพื่อไทย,,[],,,,
+ดร.,บุญลือ ประเสริฐโสภา,True,False,False,True,แบ่งเขต,ราชบุรี,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุญลือ-ประเสริฐโสภา.jpg,ภูมิใจไทย,,['L'],1.0,,,
+นาย,บุญสิงห์ วรินทร์รักษ์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุญสิงห์-วรินทร์รักษ์.jpg,พลังประชารัฐ,,[],,,,
+นางสาว,เบญจา แสงจันทร์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เบญจา-แสงจันทร์.jpg,ก้าวไกล,,[],,,,
+นาย,ปกรณ์ มุ่งเจริญพร,True,False,False,True,แบ่งเขต,สุรินทร์,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปกรณ์-มุ่งเจริญพร.jpg,ภูมิใจไทย,,[],,,,
+นาย,ปกรณ์วุฒิ อุดมพิพัฒน์สกุล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปกรณ์วุฒิ-อุดมพิพัฒน์สกุล.jpg,ก้าวไกล,,[],,,,
+นาย,ปฐมพงศ์ สูญจันทร์,True,False,False,False,แบ่งเขต,นครปฐม,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปฐมพงศ์-สูญจันทร์.jpg,ภูมิใจไทย,,['G'],,16171949.0,1.0,0.7493815926925511
+นาย,ปดิพัทธ์ สันติภาดา,True,False,False,True,แบ่งเขต,พิษณุโลก,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปดิพัทธ์-สันติภาดา.jpg,ก้าวไกล,,[],,,,
+นาย,ประกอบ รัตนพันธ์,True,False,False,True,แบ่งเขต,นครศรีธรรมราช,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประกอบ-รัตนพันธ์.jpg,ประชาธิปัตย์,,[],,,,
+นาย,ประเดิมชัย บุญช่วยเหลือ,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประเดิมชัย-บุญช่วยเหลือ.jpg,ภูมิใจไทย,,[],,,,
+นาย,ประทวน สุทธิอำนวยเดช,True,False,False,False,แบ่งเขต,ลพบุรี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประทวน-สุทธิอำนวยเดช.jpg,ภูมิใจไทย,,[],,,,
+นาย,พิบูลย์ รัชกิจประการ,True,False,False,True,แบ่งเขต,สตูล,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิบูลย์-รัชกิจประการ.jpg,ภูมิใจไทย,,"['A', 'L', 'K', 'F', 'A', 'L', 'A']",4.0,2158039263.0,3.0,100.0
+นาย,พงศ์กวิน จึงรุ่งเรืองกิจ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พงศ์กวิน-จึงรุ่งเรืองกิจ.jpg,พลังประชารัฐ,,"['L', 'C', 'L', 'G', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L']",12.0,9887877.0,2.0,0.45818800285655403
+นาย,พนิต วิกิตเศรษฐ์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พนิต-วิกิตเศรษฐ์.jpg,ประชาธิปัตย์,,['M'],,9670180.0,1.0,0.44810028092616705
+ดร.,สาธิต ปิตุเตชะ,True,False,True,True,แบ่งเขต,ระยอง,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สาธิต-ปิตุเตชะ.jpg,ประชาธิปัตย์,,"['G', 'N', 'G', 'I', 'F']",4.0,806521.0,1.0,0.037372860347258
+นาย,ประภูศักดิ์ จินตะเวช,True,False,False,True,แบ่งเขต,อุบลราชธานี,9.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประภูศักดิ์-จินตะเวช.jpg,เพื่อไทย,,['F'],1.0,,,
+นาย,ประมวล พงศ์ถาวราเดช,True,False,False,True,แบ่งเขต,ประจวบคีรีขันธ์,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประมวล-พงศ์ถาวราเดช.jpg,ประชาธิปัตย์,,"['G', 'G']",1.0,4342697.0,1.0,0.20123345642761803
+นายแพทย์,ประสงค์ บูรณ์พงศ์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประสงค์-บูรณ์พงศ์.jpg,เสรีรวมไทย,,['L'],1.0,,,
+นาย,ประสิทธิ์ มะหะหมัด,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,19.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประสิทธิ์-มะหะหมัด.jpg,รวมไทยสร้างชาติ,,"['G', 'L']",0.0,510119.0,2.0,0.023638077802665
+นาย,ประสิทธิ์ วุฒินันชัย,True,False,False,True,แบ่งเขต,เชียงใหม่,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประสิทธิ์-วุฒินันชัย.jpg,เพื่อไทย,,[],,,,
+นาย,ประเสริฐ จันทรรวงทอง,True,False,False,True,แบ่งเขต,นครราชสีมา,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประเสริฐ-จันทรรวงทอง.jpg,เพื่อไทย,,[],,,,
+นาย,ประเสริฐ บุญเรือง,True,False,False,True,แบ่งเขต,กาฬสินธุ์,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประเสริฐ-บุญเรือง.jpg,เพื่อไทย,,"['C', 'L', 'M', 'G', 'F', 'G', 'M', 'L', 'K', 'G']",10.0,,,
+นาย,ประเสริฐพงษ์ ศรนุวัตร์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประเสริฐพงษ์-ศรนุวัตร์.jpg,ก้าวไกล,,[],,,,
+นาย,ปริญญา ช่วยเกตุ คีรีรัตน์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปริญญา-ช่วยเกตุ-คีรีรัตน์.jpg,ก้าวไกล,,[],,,,
+นาย,ปริญญา ฤกษ์หร่าย,True,False,False,True,แบ่งเขต,กำแพงเพชร,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปริญญา-ฤกษ์หร่าย.jpg,พลังประชารัฐ,,[],,,,
+นาย,ปรีดา บุญเพลิง,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปรีดา-บุญเพลิง.jpg,ครูไทยเพื่อประชาชน,,"['P', 'G', 'G']",3.0,,,
+นาย,ปัญญา จีนาคำ,True,False,False,True,แบ่งเขต,แม่ฮ่องสอน,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปัญญา-จีนาคำ.jpg,พลังประชารัฐ,,[],,,,
+นาย,พรเทพ วิสุทธิ์วัฒนศักดิ์,True,False,False,True,แบ่งเขต,ประจวบคีรีขันธ์,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พรเทพ-วิสุทธิ์วัฒนศักดิ์.jpg,เพื่อไทย,,"['B', 'C', 'C', 'C', 'H']",1.0,28538428.0,4.0,1.322423947019725
+นางสาว,ปารีณา ไกรคุปต์,True,False,False,False,แบ่งเขต,ราชบุรี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปารีณา-ไกรคุปต์.jpg,พลังประชารัฐ,,"['A', 'A']",0.0,3035584.0,2.0,0.140663983832253
+ดร.,ปิยบุตร แสงกนกกุล,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปิยบุตร-แสงกนกกุล.jpg,อนาคตใหม่,,[],,,,
+นาย,ปิยวัฒน พันธ์สายเชื้อ,True,False,False,True,แบ่งเขต,ยโสธร,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปิยวัฒน-พันธ์สายเชื้อ.jpg,เพื่อไทย,,['G'],1.0,,,
+นางสาว,ปิยะรัฐชย์ ติยะไพรัช,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปิยะรัฐชย์-ติยะไพรัช.jpg,เพื่อไทย,,"['M', 'G', 'A', 'L']",2.0,5773698.0,2.0,0.267543695751563
+นาง,ผ่องศรี แซ่จึง,True,False,False,True,แบ่งเขต,ศรีสะเกษ,8.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ผ่องศรี-แซ่จึง.jpg,เพื่อไทย,,[],,,,
+นาย,ไผ่ ลิกค์,True,False,False,True,แบ่งเขต,กำแพงเพชร,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไผ่-ลิกค์.jpg,พลังประชารัฐ,,[],,,,
+พลโท ดร.,พงศกร รอดชมภู,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พงศกร-รอดชมภู.jpg,อนาคตใหม่,,"['F', 'D', 'G', 'M', 'D', 'N', 'I']",3.0,2773162.0,4.0,0.12850377875631802
+นาย,พยม พรหมเพชร,True,False,False,False,แบ่งเขต,สงขลา,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พยม-พรหมเพชร.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,พรชัย อำนวยทรัพย์,True,False,False,True,แบ่งเขต,นครราชสีมา,10.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พรชัย-อำนวยทรัพย์.jpg,ภูมิใจไทย,,['F'],1.0,,,
+นาย,พรชัย อินทร์สุข,True,False,False,True,แบ่งเขต,พิจิตร,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พรชัย-อินทร์สุข.jpg,พลังประชารัฐ,,[],,,,
+นางสาว,พรพิมล ธรรมสาร,True,False,False,True,แบ่งเขต,ปทุมธานี,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พรพิมล-ธรรมสาร.jpg,เพื่อไทย,,['G'],1.0,,,
+นาง,พรเพ็ญ บุญศิริวัฒนกุล,True,False,False,True,แบ่งเขต,ชัยภูมิ,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พรเพ็ญ-บุญศิริวัฒนกุล.jpg,เพื่อไทย,,[],,,,
+ดร.,พรรณสิริ กุลนาถศิริ,True,False,False,True,แบ่งเขต,สุโขทัย,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พรรณสิริ-กุลนาถศิริ.jpg,เพื่อไทย,,[],,,,
+นางสาว,พรรณิการ์ วานิช,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พรรณิการ์-วานิช.jpg,อนาคตใหม่,,['I'],1.0,,,
+นาย,พลภูมิ วิภัติภูมิประเทศ,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,14.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พลภูมิ-วิภัติภูมิประเทศ.jpg,เพื่อไทย,,['M'],1.0,,,
+ดร.,พัชรินทร์ ซำศิริพงษ์,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พัชรินทร์-ซำศิริพงษ์.jpg,ภูมิใจไทย,,[],,,,
+นาย,พัฒนา สัพโส,True,False,False,True,แบ่งเขต,สกลนคร,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พัฒนา-สัพโส.jpg,เพื่อไทย,,[],,,,
+ดร.,พาณุวัฒณ์ สะสมทรัพย์,True,False,False,True,แบ่งเขต,นครปฐม,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พาณุวัฒณ์-สะสมทรัพย์.jpg,ชาติไทยพัฒนา,,[],,,,
+นาย,พิจารณ์ เชาวพัฒนวงศ์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิจารณ์-เชาวพัฒนวงศ์.jpg,ก้าวไกล,,['G'],1.0,,,
+นาง,พิชชารัตน์ เลาหพงศ์ชนะ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิชชารัตน์-เลาหพงศ์ชนะ.jpg,รวมไทยสร้างชาติ,,"['I', 'L', 'C', 'R']",0.0,383732.0,4.0,0.017781511512749003
+นาย,พิเชษฐ สถิรชวาล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิเชษฐ-สถิรชวาล.jpg,เปลี่ยน,,"['C', 'G', 'C', 'F', 'M', 'F']",6.0,,,
+นาย,พิธา ลิ้มเจริญรัตน์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิธา-ลิ้มเจริญรัตน์.jpg,ก้าวไกล,,"['L', 'I', 'G']",1.0,406420.0,2.0,0.018832836221664002
+นางสาว,พิมพ์พร พรพฤฒิพันธุ์,True,False,False,True,แบ่งเขต,เพชรบูรณ์,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิมพ์พร-พรพฤฒิพันธุ์.jpg,พลังประชารัฐ,,[],,,,
+นางสาว,พิมพ์ภัทรา วิชัยกุล,True,False,False,False,แบ่งเขต,นครศรีธรรมราช,8.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิมพ์ภัทรา-วิชัยกุล.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,พิษณุ พลธี,True,False,False,True,แบ่งเขต,ปทุมธานี,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิษณุ-พลธี.jpg,ภูมิใจไทย,,[],,,,
+นาย,พีรเดช คำสมุทร,True,False,False,False,แบ่งเขต,เชียงราย,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พีรเดช-คำสมุทร.jpg,ภูมิใจไทย,,[],,,,
+นาย,พีระพันธุ์ สาลีรัฐวิภาค,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พีระพันธุ์-สาลีรัฐวิภาค.jpg,รวมไทยสร้างชาติ,,"['L', 'C', 'L', 'L', 'L', 'L']",1.0,56724119.0,5.0,2.628502639991124
+ดร.,พีระเพชร ศิริกุล,True,False,False,True,แบ่งเขต,กาฬสินธุ์,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พีระเพชร-ศิริกุล.jpg,เพื่อไทย,,[],,,,
+นางสาว,ภริม พูลเจริญ,True,False,False,True,แบ่งเขต,สมุทรปราการ,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภริม-พูลเจริญ.jpg,พลังประชารัฐ,,"['G', 'L']",1.0,469687.0,1.0,0.021764525236073
+นางสาว,เพชรดาว โต๊ะมีนา,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เพชรดาว-โต๊ะมีนา.jpg,ภูมิใจไทย,,"['L', 'G']",1.0,36940.0,1.0,0.0017117390138970002
+นาย,ณัฏฐพล ทีปสุวรรณ,True,False,True,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณัฏฐพล-ทีปสุวรรณ.jpg,พลังประชารัฐ,,"['F', 'G']",1.0,0.0,1.0,0.0
+นาย,เพชร เอกกำลังกุล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เพชร-เอกกำลังกุล.jpg,เสรีรวมไทย,,"['G', 'G', 'L', 'N']",4.0,,,
+นางสาว,เพชรชมพู กิจบูรณะ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เพชรชมพู-กิจบูรณะ.jpg,รวมพลัง,,[],,,,
+ดร.,เพชรวรรต วัฒนพงศศิริกุล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เพชรวรรต-วัฒนพงศศิริกุล.jpg,เพื่อชาติ,,[],,,,
+นาย,ไพจิต ศรีวรขาน,True,False,False,True,แบ่งเขต,นครพนม,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไพจิต-ศรีวรขาน.jpg,เพื่อไทย,,['G'],1.0,,,
+นาย,ไพบูลย์ นิติตะวัน,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไพบูลย์-นิติตะวัน.jpg,ประชาชนปฏิรูป,,"['A', 'A', 'G', 'C', 'C', 'G']",6.0,,,
+ดร.,ไพโรจน์ โล่ห์สุนทร,True,False,False,True,แบ่งเขต,ลำปาง,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไพโรจน์-โล่ห์สุนทร.jpg,เพื่อไทย,,"['I', 'L', 'J', 'L']",2.0,28775603.0,2.0,1.333414247523818
+นางสาว,ไพลิน เทียนสุวรรณ,True,False,False,True,แบ่งเขต,สมุทรปราการ,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไพลิน-เทียนสุวรรณ.jpg,รวมไทยสร้างชาติ,,[],,,,
+ดร.,ภณณัฏฐ์ ศรีอินทร์สุทธิ์,True,False,False,True,แบ่งเขต,นนทบุรี,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภณณัฏฐ์-ศรีอินทร์สุทธิ์.jpg,เพื่อไทย,,"['L', 'C']",2.0,,,
+นาย,ภราดร ปริศนานันทกุล,True,False,False,True,แบ่งเขต,อ่างทอง,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภราดร-ปริศนานันทกุล.jpg,ภูมิใจไทย,,['R'],1.0,,,
+นาย,ภาคภูมิ บูลย์ประมุข,True,False,False,True,แบ่งเขต,ตาก,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภาคภูมิ-บูลย์ประมุข.jpg,พลังประชารัฐ,,['F'],1.0,,,
+นาย,ภาควัต ศรีสุรพล,True,False,False,True,แบ่งเขต,ขอนแก่น,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภาควัต-ศรีสุรพล.jpg,เพื่อไทย,,[],,,,
+นางสาว,ภาดาท์ วรกานนท์,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภาดาท์-วรกานนท์.jpg,ภูมิใจไทย,,"['J', 'G', 'G']",3.0,,,
+นาย,ภานุ ศรีบุศยกาญจน์,True,False,False,True,แบ่งเขต,สุราษฎร์ธานี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภานุ-ศรีบุศยกาญจน์.jpg,ประชาธิปัตย์,,[],,,,
+นาย,ภาสกร เงินเจริญกุล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภาสกร-เงินเจริญกุล.jpg,รวมไทยสร้างชาติ,,[],,,,
+ดร.,มงคลกิตติ์ สุขสินธารานนท์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มงคลกิตติ์-สุขสินธารานนท์.jpg,ไทยศรีวิไลย์,,"['C', 'N', 'F']",,1092661.0,3.0,0.050632118642783004
+ดร.,มนูญ สิวาภิรมย์รัตน์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มนูญ-สิวาภิรมย์รัตน์.jpg,เศรษฐกิจใหม่,,"['L', 'M']",1.0,44524.0,1.0,0.002063169135213
+ดร.,ภิญโญ นิโรจน์,True,False,False,True,แบ่งเขต,นครสวรรค์,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภิญโญ-นิโรจน์.jpg,พลังประชารัฐ,,"['R', 'K']",1.0,-352883.0,1.0,-0.016352019448869
+นาย,ภูดิท อินสุวรรณ์,True,False,False,False,แบ่งเขต,พิจิตร,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภูดิท-อินสุวรรณ์.jpg,เพื่อไทย,,[],,,,
+นาย,ภูมิศิษฏ์ คงมี,True,False,False,False,แบ่งเขต,พัทลุง,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภูมิศิษฏ์-คงมี.jpg,ภูมิใจไทย,,[],,,,
+ร้อยตำรวจตรี,มณฑล โพธิ์คาย,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,20.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มณฑล-โพธิ์คาย.jpg,อนาคตใหม่,,"['I', 'I']",2.0,,,
+นาย,มณเฑียร สงฆ์ประชา,True,False,False,False,แบ่งเขต,ชัยนาท,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มณเฑียร-สงฆ์ประชา.jpg,ภูมิใจไทย,,[],,,,
+นาย,มนตรี ตั้งเจริญถาวร,True,False,False,True,แบ่งเขต,นนทบุรี,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มนตรี-ตั้งเจริญถาวร.jpg,เพื่อไทย,,[],,,,
+นาย,มนตรี ปาน้อยนนท์,True,False,False,True,แบ่งเขต,ประจวบคีรีขันธ์,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มนตรี-ปาน้อยนนท์.jpg,ประชาธิปัตย์,,[],,,,
+นาง,มนพร เจริญศรี,True,False,False,True,แบ่งเขต,นครพนม,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มนพร-เจริญศรี.jpg,เพื่อไทย,,"['G', 'F']",2.0,,,
+นางสาว,มัลลิกา จิระพันธุ์วาณิช,True,False,False,True,แบ่งเขต,ลพบุรี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มัลลิกา-จิระพันธุ์วาณิช.jpg,ภูมิใจไทย,,"['C', 'G', 'G']",3.0,,,
+นาย,มานพ ศรีผึ้ง,True,False,False,True,แบ่งเขต,นครสวรรค์,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มานพ-ศรีผึ้ง.jpg,ภูมิใจไทย,,['R'],1.0,,,
+นาย,มานะ โลหะวณิชย์,True,False,False,True,แบ่งเขต,ชัยภูมิ,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มานะ-โลหะวณิชย์.jpg,เพื่อไทย,,"['C', 'G', 'G', 'G', 'F']",4.0,4613651.0,1.0,0.21378902039003303
+ดร.,พิเชษฐ์ เชื้อเมืองพาน,True,False,False,True,แบ่งเขต,เชียงราย,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิเชษฐ์-เชื้อเมืองพาน.jpg,เพื่อไทย,,['A'],0.0,118090.0,1.0,0.005472096918006
+นาย,มานะศักดิ์ จันทร์ประสงค์,True,False,False,True,แบ่งเขต,นนทบุรี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มานะศักดิ์-จันทร์ประสงค์.jpg,เพื่อไทย,,['F'],1.0,,,
+นาย,มานัส อ่อนอ้าย,True,False,False,True,แบ่งเขต,พิษณุโลก,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มานัส-อ่อนอ้าย.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาง,มารศรี ขจรเรืองโรจน์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มารศรี-ขจรเรืองโรจน์.jpg,เศรษฐกิจใหม่,,[],,,,
+นาย,มิ่งขวัญ แสงสุวรรณ์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มิ่งขวัญ-แสงสุวรรณ์.jpg,พลังประชารัฐ,,"['H', 'G', 'I']",3.0,,,
+นาง,มุกดา พงษ์สมบัติ,True,False,False,True,แบ่งเขต,ขอนแก่น,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มุกดา-พงษ์สมบัติ.jpg,เพื่อไทย,,[],,,,
+พลตำรวจเอก,ยงยุทธ เทพจำนงค์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ยงยุทธ-เทพจำนงค์.jpg,พลังประชารัฐ,,"['I', 'F', 'J']",1.0,-164051.0,2.0,-0.007601854276364
+ดร.,ยงยุทธ สุวรรณบุตร,True,False,False,True,แบ่งเขต,สมุทรปราการ,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ยงยุทธ-สุวรรณบุตร.jpg,พลังประชารัฐ,,['C'],1.0,,,
+นาย,ยรรยงก์ ถนอมพิชัยธำรง,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ยรรยงก์-ถนอมพิชัยธำรง.jpg,รักษ์ผืนป่าประเทศไทย,,[],,,,
+นาย,ยศวัฒน์ มาไพศาลสิน,True,False,False,True,แบ่งเขต,กาญจนบุรี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ยศวัฒน์-มาไพศาลสิน.jpg,ภูมิใจไทย,,[],,,,
+นาย,ยุทธพงศ์ จรัสเสถียร,True,False,False,True,แบ่งเขต,มหาสารคาม,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ยุทธพงศ์-จรัสเสถียร.jpg,เพื่อไทย,,[],,,,
+นางสาว,เยาวลักษณ์ วงษ์ประภารัตน์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เยาวลักษณ์-วงษ์ประภารัตน์.jpg,อนาคตใหม่,,"['C', 'I']",2.0,,,
+รองศาสตราจารย์ ดร.,รงค์ บุญสวยขวัญ,True,False,False,True,แบ่งเขต,นครศรีธรรมราช,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/รงค์-บุญสวยขวัญ.jpg,พลังประชารัฐ,,[],,,,
+นาย,รณเทพ อนุวัฒน์,True,False,False,True,แบ่งเขต,ชลบุรี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/รณเทพ-อนุวัฒน์.jpg,รวมไทยสร้างชาติ,,"['I', 'G']",2.0,,,
+นายแพทย์,ระวี มาศฉมาดล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ระวี-มาศฉมาดล.jpg,พลังธรรมใหม่,,['C'],1.0,,,
+นาย,รังสรรค์ มณีรัตน์,True,False,False,True,แบ่งเขต,ลำพูน,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/รังสรรค์-มณีรัตน์.jpg,เพื่อไทย,,"['F', 'G', 'R']",3.0,,,
+นาย,รังสรรค์ วันไชยธนวงศ์,True,False,False,True,แบ่งเขต,เชียงราย,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/รังสรรค์-วันไชยธนวงศ์.jpg,ภูมิใจไทย,,[],,,,
+นาย,รังสิกร ทิมาตฤกะ,True,False,False,True,แบ่งเขต,บุรีรัมย์,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/รังสิกร-ทิมาตฤกะ.jpg,ภูมิใจไทย,,[],,,,
+นาย,รังสิมันต์ โรม,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/รังสิมันต์-โรม.jpg,ก้าวไกล,,[],,,,
+นางสาว,รังสิมา รอดรัศมี,True,False,False,True,แบ่งเขต,สมุทรสงคราม,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/รังสิมา-รอดรัศมี.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,รัฐกิตติ์ ผาลีพัฒน์,True,False,False,True,แบ่งเขต,อุบลราชธานี,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/รัฐกิตติ์-ผาลีพัฒน์.jpg,เพื่อไทย,,[],,,,
+ดร.,รุ่งโรจน์ ทองศรี,True,False,False,True,แบ่งเขต,บุรีรัมย์,8.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/รุ่งโรจน์-ทองศรี.jpg,ภูมิใจไทย,,[],,,,
+นายแพทย์,เรวัต วิศรุตเวช,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เรวัต-วิศรุตเวช.jpg,เสรีรวมไทย,,[],,,,
+นางสาว,ละออง ติยะไพรัช,True,False,False,True,แบ่งเขต,เชียงราย,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ละออง-ติยะไพรัช.jpg,เพื่อไทย,,['F'],1.0,,,
+นาง,ลินดา เชิดชัย,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ลินดา-เชิดชัย.jpg,เพื่อชาติ,,"['L', 'F', 'L', 'L']",1.0,249396.0,3.0,0.011556601600162001
+นาย,เลิศศักดิ์ พัฒนชัยกุล,True,False,False,True,แบ่งเขต,เลย,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เลิศศักดิ์-พัฒนชัยกุล.jpg,เพื่อไทย,,"['K', 'G', 'R', 'G', 'G', 'G', 'G']",7.0,,,
+นางสาว,วชิราภรณ์ กาญจนะ,True,False,False,True,แบ่งเขต,สุราษฎร์ธานี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วชิราภรณ์-กาญจนะ.jpg,รวมไทยสร้างชาติ,,"['C', 'A']",0.0,9237726.0,2.0,0.42806107184343606
+นางสาว,วทันยา วงษ์โอภาสี,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วทันยา-วงษ์โอภาสี.jpg,ประชาธิปัตย์,,[],,,,
+นาย,วรภพ วิริยะโรจน์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วรภพ-วิริยะโรจน์.jpg,ก้าวไกล,,"['J', 'N', 'J']",3.0,,,
+นางสาว,วรรณวรี ตะล่อมสิน,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วรรณวรี-ตะล่อมสิน.jpg,ก้าวไกล,,"['C', 'G', 'C', 'L', 'L', 'G', 'N', 'H', 'G', 'J']",1.0,20837918.0,9.0,0.9655949433946881
+นางสาว,วรรณวิภา ไม้สน,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วรรณวิภา-ไม้สน.jpg,ก้าวไกล,,[],,,,
+นาย,วรศิษฎ์ เลียงประสิทธิ์,True,False,False,True,แบ่งเขต,สตูล,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วรศิษฎ์-เลียงประสิทธิ์.jpg,ภูมิใจไทย,,[],,,,
+นาย,วรสิทธิ์ กัลป์ตินันท์,True,False,False,True,แบ่งเขต,อุบลราชธานี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วรสิทธิ์-กัลป์ตินันท์.jpg,เพื่อไทย,,['A'],1.0,,,
+ดร.,ธรรมนัส พรหมเผ่า,True,False,False,True,แบ่งเขต,พะเยา,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธรรมนัส-พรหมเผ่า.jpg,พลังประชารัฐ,,"['N', 'F', 'G']",3.0,,,
+นาย,วัชรพล โตมรศักดิ์,True,False,False,True,แบ่งเขต,นครราชสีมา,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วัชรพล-โตมรศักดิ์.jpg,ชาติพัฒนากล้า,,[],,,,
+นาย,วัชระ ยาวอหะซัน,True,False,False,True,แบ่งเขต,นราธิวาส,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วัชระ-ยาวอหะซัน.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,วัชรา ณ วังขนาย,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วัชรา-ณ-วังขนาย.jpg,เสรีรวมไทย,,"['M', 'G', 'K', 'A', 'C', 'C', 'K', 'K', 'J', 'G', 'L']",1.0,10846374.0,10.0,0.502603181784649
+นาย,วัฒนา ช่างเหลา,True,False,False,True,แบ่งเขต,ขอนแก่น,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วัฒนา-ช่างเหลา.jpg,พลังประชารัฐ,,"['R', 'R', 'R']",3.0,,,
+นาย,วัน อยู่บำรุง,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,26.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วัน-อยู่บำรุง.jpg,เพื่อไทย,,[],,,,
+นาย,วันชัย เจริญนนทสิทธิ์,True,False,False,False,แบ่งเขต,นนทบุรี,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วันชัย-เจริญนนทสิทธิ์.jpg,เพื่อไทย,,"['L', 'G']",2.0,,,
+ดร.,วุฒิชัย กิตติธเนศวร,True,False,False,False,แบ่งเขต,นครนายก,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วุฒิชัย-กิตติธเนศวร.jpg,ภูมิใจไทย,,"['F', 'N/A']",1.0,2223293.0,1.0,0.103023751148497
+นาย,วันชัย ปริญญาศิริ,True,False,False,False,แบ่งเขต,สงขลา,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วันชัย-ปริญญาศิริ.jpg,พลังประชารัฐ,,"['G', 'I']",1.0,96731.0,1.0,0.004482355889370001
+นาย,วันนิวัติ สมบูรณ์,True,False,False,True,แบ่งเขต,ขอนแก่น,9.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วันนิวัติ-สมบูรณ์.jpg,เพื่อไทย,,[],,,,
+นาง,วันเพ็ญ พร้อมพัฒน์,True,False,False,True,แบ่งเขต,เพชรบูรณ์,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วันเพ็ญ-พร้อมพัฒน์.jpg,พลังประชารัฐ,,[],,,,
+นาย,วันมูหะมัดนอร์ มะทา,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วันมูหะมัดนอร์-มะทา.jpg,ประชาชาติ,,[],,,,
+นาย,วาโย อัศวรุ่งเรือง,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วาโย-อัศวรุ่งเรือง.jpg,ก้าวไกล,,[],,,,
+นาย,วิเชียร ชวลิต,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิเชียร-ชวลิต.jpg,สร้างอนาคตไทย,,[],,,,
+นาย,วิทยา ทรงคำ,True,False,False,True,แบ่งเขต,เชียงใหม่,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิทยา-ทรงคำ.jpg,เพื่อไทย,,"['F', 'N', 'C']",3.0,,,
+นาย,วินท์ สุธีรชัย,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วินท์-สุธีรชัย.jpg,รวมไทยสร้างชาติ,,"['G', 'F', 'C', 'G', 'Q', 'L', 'L', 'L', 'C', 'J', 'L', 'R', 'G', 'L', 'L']",10.0,344825699.0,5.0,15.978657335485188
+นาย,วิรัช พันธุมะผล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิรัช-พันธุมะผล.jpg,อนาคตใหม่,,"['K', 'C']",2.0,,,
+นาย,วิรัช รัตนเศรษฐ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิรัช-รัตนเศรษฐ.jpg,พลังประชารัฐ,,[],,,,
+นาย,วิรัตน์ วรศสิริน,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิรัตน์-วรศสิริน.jpg,เสรีรวมไทย,,[],,,,
+ดร.,วิโรจน์ ลักขณาอดิศร,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิโรจน์-ลักขณาอดิศร.jpg,ก้าวไกล,,[],,,,
+นาย,วิวรรธน์ นิลวัชรมณี,True,False,False,True,แบ่งเขต,สุราษฎร์ธานี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิวรรธน์-นิลวัชรมณี.jpg,ประชาธิปัตย์,,['C'],1.0,,,
+นาย,วิวัฒน์ชัย โหตระไวศยะ,True,False,False,True,แบ่งเขต,ศรีสะเกษ,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิวัฒน์ชัย-โหตระไวศยะ.jpg,เพื่อไทย,,[],,,,
+พลตำรวจโท,วิศณุ ม่วงแพรสี,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิศณุ-ม่วงแพรสี.jpg,เสรีรวมไทย,,['L'],1.0,,,
+นาย,วิสาร เตชะธีราวัฒน์,True,False,False,True,แบ่งเขต,เชียงราย,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิสาร-เตชะธีราวัฒน์.jpg,เพื่อไทย,,"['L', 'L', 'N']",1.0,-3595261.0,2.0,-0.166598498073758
+นาย,วิสิทธิ์ พิทยาภรณ์,True,False,False,True,แบ่งเขต,นครราชสีมา,13.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิสิทธิ์-พิทยาภรณ์.jpg,ภูมิใจไทย,,"['G', 'F']",2.0,,,
+นาย,วิสิษฐ์ เตชะธีราวัฒน์,True,False,False,True,แบ่งเขต,เชียงราย,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิสิษฐ์-เตชะธีราวัฒน์.jpg,เพื่อไทย,,"['H', 'L', 'F', 'G', 'F']",3.0,870320.0,2.0,0.040329201369122006
+นาย,วิสุทธิ์ ไชยณรุณ,True,False,False,True,แบ่งเขต,พะเยา,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิสุทธิ์-ไชยณรุณ.jpg,เพื่อไทย,,[],,,,
+นายแพทย์,มารุต มัสยวาณิช,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มารุต-มัสยวาณิช.jpg,ภูมิใจไทย,,"['G', 'A', 'H', 'C', 'H']",5.0,,,
+ดร.,วีระชัย วีระเมธีกุล,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วีระชัย-วีระเมธีกุล.jpg,ประชาธิปัตย์,,"['M', 'M', 'L', 'L', 'L']",2.0,327554645.0,3.0,15.1783450197588
+นาย,วุฒินันท์ บุญชู,True,False,False,True,แบ่งเขต,สมุทรปราการ,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วุฒินันท์-บุญชู.jpg,ก้าวไกล,,"['F', 'F']",1.0,1444041.0,1.0,0.06691449153675501
+นาย,วีระกร คำประกอบ,True,False,False,False,แบ่งเขต,นครสวรรค์,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วีระกร-คำประกอบ.jpg,ภูมิใจไทย,,"['A', 'A', 'C', 'L']",2.0,308114.0,2.0,0.014277497415486002
+นาย,วีระพล จิตสัมฤทธิ์,True,False,False,True,แบ่งเขต,ศรีสะเกษ,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วีระพล-จิตสัมฤทธิ์.jpg,เพื่อไทย,,['F'],1.0,,,
+นาย,วีระวัฒน์ โอสถานุเคราะห์,True,False,False,True,แบ่งเขต,กาฬสินธุ์,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วีระวัฒน์-โอสถานุเคราะห์.jpg,เพื่อไทย,,"['K', 'G', 'M', 'G']",4.0,,,
+นาย,วุฒิพงษ์ นามบุตร,True,False,False,True,แบ่งเขต,อุบลราชธานี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วุฒิพงษ์-นามบุตร.jpg,ประชาธิปัตย์,,[],,,,
+พันตำรวจโท,ไวพจน์ อาภรณ์รัตน์,True,False,False,False,แบ่งเขต,กำแพงเพชร,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไวพจน์-อาภรณ์รัตน์.jpg,พลังประชารัฐ,,['B'],1.0,,,
+นาย,ศรัณย์ ทิมสุวรรณ,True,False,False,True,แบ่งเขต,เลย,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศรัณย์-ทิมสุวรรณ.jpg,เพื่อไทย,,[],,,,
+นาย,ศรัณย์วุฒิ ศรัณย์เกตุ,True,False,False,True,แบ่งเขต,อุตรดิตถ์,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศรัณย์วุฒิ-ศรัณย์เกตุ.jpg,รวมไทยสร้างชาติ,,"['H', 'D', 'L']",2.0,0.0,1.0,0.0
+นาย,ศราวุธ เพชรพนมพร,True,False,False,True,แบ่งเขต,อุดรธานี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศราวุธ-เพชรพนมพร.jpg,เพื่อไทย,,['F'],1.0,,,
+นางสาว,ศรีนวล บุญลือ,True,False,False,True,แบ่งเขต,เชียงใหม่,8.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศรีนวล-บุญลือ.jpg,อนาคตใหม่,,[],,,,
+นาย,ศรีเรศ โกฎคำลือ,True,False,False,True,แบ่งเขต,เชียงใหม่,9.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศรีเรศ-โกฎคำลือ.jpg,เพื่อไทย,,['E'],1.0,,,
+นาง,ศรีสมร รัศมีฤกษ์เศรษฐ์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศรีสมร-รัศมีฤกษ์เศรษฐ์.jpg,พลังประชารัฐ,,"['G', 'G']",2.0,,,
+นาย,ศักดา คงเพชร,True,False,False,True,แบ่งเขต,ร้อยเอ็ด,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศักดา-คงเพชร.jpg,เพื่อไทย,,"['C', 'F']",2.0,,,
+นาย,ศักดินัย นุ่มหนู,True,False,False,True,แบ่งเขต,ตราด,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศักดินัย-นุ่มหนู.jpg,ก้าวไกล,,['G'],,109554.0,1.0,0.005076552678087
+นาย,พุทธิพงษ์ ปุณณกันต์,True,False,True,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พุทธิพงษ์-ปุณณกันต์.jpg,ภูมิใจไทย,,['G'],1.0,,,
+นาย,ศาสตรา ศรีปาน,True,False,False,True,แบ่งเขต,สงขลา,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศาสตรา-ศรีปาน.jpg,รวมไทยสร้างชาติ,,['I'],1.0,,,
+นาย,ศิรสิทธิ์ เลิศด้วยลาภ,True,False,False,True,แบ่งเขต,นครราชสีมา,12.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศิรสิทธิ์-เลิศด้วยลาภ.jpg,เพื่อไทย,,[],,,,
+นางสาว,ศิริกัญญา ตันสกุล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศิริกัญญา-ตันสกุล.jpg,ก้าวไกล,,[],,,,
+นาย,ศิริพงษ์ รัสมี,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,17.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศิริพงษ์-รัสมี.jpg,พลังประชารัฐ,,"['H', 'G']",1.0,20482912.0,1.0,0.9491445476077971
+นาง,ศิริวรรณ ปราศจากศัตรู,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศิริวรรณ-ปราศจากศัตรู.jpg,รวมไทยสร้างชาติ,,['B'],1.0,,,
+นาย,ศิริวัฒน์ ขจรประศาสน์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศิริวัฒน์-ขจรประศาสน์.jpg,ภูมิใจไทย,,[],,,,
+นางสาว,ศิลัมพา เลิศนุวัฒน์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศิลัมพา-เลิศนุวัฒน์.jpg,รวมไทยสร้างชาติ,,['G'],1.0,,,
+นาย,ศุภชัย ใจสมุทร,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศุภชัย-ใจสมุทร.jpg,ภูมิใจไทย,,"['I', 'M', 'N']",3.0,,,
+นาย,ศุภชัย นพขำ,True,False,False,True,แบ่งเขต,ปทุมธานี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศุภชัย-นพขำ.jpg,เพื่อไทย,,[],,,,
+นาย,ศุภชัย โพธิ์สุ,True,False,False,True,แบ่งเขต,นครพนม,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศุภชัย-โพธิ์สุ.jpg,ภูมิใจไทย,,[],,,,
+นางสาว,ศุภมาส อิศรภักดี,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศุภมาส-อิศรภักดี.jpg,ภูมิใจไทย,,['C'],1.0,,,
+นางสาว,สกุณา สาระนันท์,True,False,False,True,แบ่งเขต,สกลนคร,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สกุณา-สาระนันท์.jpg,เพื่อไทย,,[],,,,
+ดร.,สงคราม กิจเลิศไพโรจน์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สงคราม-กิจเลิศไพโรจน์.jpg,เพื่อชาติ,,"['G', 'L', 'L', 'R', 'L', 'L', 'L', 'R', 'L', 'P', 'G', 'G', 'L', 'L', 'L', 'L', 'L', 'G', 'G', 'F', 'L', 'G', 'G', 'C', 'L', 'G', 'G', 'G', 'G', 'G', 'L', 'L', 'C', 'C', 'G', 'F', 'G', 'C', 'C']",25.0,-107168281.0,14.0,-4.96600237249715
+นาย,สงวน พงษ์มณี,True,False,False,True,แบ่งเขต,ลำพูน,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สงวน-พงษ์มณี.jpg,เพื่อไทย,,"['L', 'N', 'B', 'M']",4.0,,,
+นาย,สนอง เทพอักษรณรงค์,True,False,False,True,แบ่งเขต,บุรีรัมย์,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สนอง-เทพอักษรณรงค์.jpg,ภูมิใจไทย,,[],,,,
+นาย,สมเกียรติ ไชยวิสุทธิกุล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมเกียรติ-ไชยวิสุทธิกุล.jpg,ก้าวไกล,,"['G', 'G']",1.0,5895027.0,1.0,0.27316588261721503
+นาย,สมเกียรติ ถนอมสินธุ์,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,21.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมเกียรติ-ถนอมสินธุ์.jpg,ก้าวไกล,,[],,,,
+นาย,สมเกียรติ วอนเพียร,True,False,False,False,แบ่งเขต,กาญจนบุรี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมเกียรติ-วอนเพียร.jpg,ภูมิใจไทย,,"['B', 'G', 'B', 'C']",2.0,41004080.0,2.0,1.900061815511092
+นาง,นันทนา สงฆ์ประชา,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นันทนา-สงฆ์ประชา.jpg,ภูมิใจไทย,,['L'],,-12354107.0,1.0,-0.5724690561387621
+นาย,สมคิด เชื้อคง,True,False,False,True,แบ่งเขต,อุบลราชธานี,10.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมคิด-เชื้อคง.jpg,เพื่อไทย,,['N/A'],1.0,,,
+นาย,สมเจตน์ ลิมปะพันธุ์,True,False,False,True,แบ่งเขต,สุโขทัย,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมเจตน์-ลิมปะพันธุ์.jpg,ภูมิใจไทย,,['C'],1.0,,,
+นาย,สมชาติ ประดิษฐพร,True,False,False,True,แบ่งเขต,สุราษฎร์ธานี,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมชาติ-ประดิษฐพร.jpg,ประชาธิปัตย์,,"['R', 'F']",2.0,,,
+นาย,สมชาย ฝั่งชลจิตร,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมชาย-ฝั่งชลจิตร.jpg,ก้าวไกล,,"['G', 'B', 'C', 'C', 'F']",4.0,-76139.0,1.0,-0.0035281563827590004
+พลเอก,สมชาย วิษณุวงศ์,True,False,False,False,แบ่งเขต,กาญจนบุรี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมชาย-วิษณุวงศ์.jpg,ภูมิใจไทย,,[],,,,
+นาย,สมบัติ ศรีสุรินทร์,True,False,False,True,แบ่งเขต,สุรินทร์,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมบัติ-ศรีสุรินทร์.jpg,เพื่อไทย,,"['L', 'G', 'C', 'C', 'G', 'I', 'K']",6.0,2160328.0,1.0,0.10010605631877201
+นาย,สมบัติ อำนาคะ,True,False,False,True,แบ่งเขต,สระบุรี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมบัติ-อำนาคะ.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,สมบูรณ์ ซารัมย์,True,False,False,True,แบ่งเขต,บุรีรัมย์,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมบูรณ์-ซารัมย์.jpg,ภูมิใจไทย,,[],,,,
+นาย,สมพงษ์ โสภณ,True,False,False,True,แบ่งเขต,ระยอง,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมพงษ์-โสภณ.jpg,รวมไทยสร้างชาติ,,"['L', 'G', 'C']",3.0,,,
+นาย,สมพงษ์ อมรวิวัฒน์,True,False,False,True,แบ่งเขต,เชียงใหม่,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมพงษ์-อมรวิวัฒน์.jpg,เพื่อไทย,,"['L', 'Q', 'C', 'L', 'L', 'G', 'C', 'G', 'G', 'B', 'L', 'M', 'M', 'G', 'L', 'C']",12.0,5084368.0,4.0,0.23560127413678103
+นาย,สมมุติ เบ็ญจลักษณ์,True,False,False,True,แบ่งเขต,ปัตตานี,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมมุติ-เบ็ญจลักษณ์.jpg,ประชาชาติ,,['F'],1.0,,,
+นาย,สมศักดิ์ เทพสุทิน,True,False,True,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมศักดิ์-เทพสุทิน.jpg,เพื่อไทย,,"['M', 'F']",1.0,0.0,1.0,0.0
+นาย,สมศักดิ์ พันธ์เกษม,True,False,False,True,แบ่งเขต,นครราชสีมา,11.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมศักดิ์-พันธ์เกษม.jpg,ภูมิใจไทย,,"['F', 'F', 'H']",3.0,,,
+นาง,สมหญิง บัวบุตร,True,False,False,False,แบ่งเขต,อำนาจเจริญ,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมหญิง-บัวบุตร.jpg,เพื่อไทย,,[],,,,
+นาย,สมัคร ป้องวงษ์,True,False,False,False,แบ่งเขต,สมุทรสาคร,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมัคร-ป้องวงษ์.jpg,อนาคตใหม่,,[],,,,
+นาย,สยาม หัตถสงเคราะห์,True,False,False,True,แบ่งเขต,หนองบัวลำภู,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สยาม-หัตถสงเคราะห์.jpg,เพื่อไทย,,"['G', 'L', 'L']",3.0,,,
+นาย,สรชัด สุจิตต์,True,False,False,True,แบ่งเขต,สุพรรณบุรี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สรชัด-สุจิตต์.jpg,ชาติไทยพัฒนา,,[],,,,
+นาย,สรวุฒิ เนื่องจำนงค์,True,False,False,True,แบ่งเขต,ชลบุรี,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สรวุฒิ-เนื่องจำนงค์.jpg,เพื่อไทย,,"['G', 'L', 'L']",0.0,28864463.0,3.0,1.337531874182587
+นาย,สรอรรถ กลิ่นประทุม,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สรอรรถ-กลิ่นประทุม.jpg,ภูมิใจไทย,,[],,,,
+นางสาว,สรัสนันท์ อรรณนพพร,True,False,False,True,แบ่งเขต,ขอนแก่น,8.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สรัสนันท์-อรรณนพพร.jpg,เพื่อไทย,,['L'],1.0,,,
+นาย,สราวุธ อ่อนละมัย,True,False,False,True,แบ่งเขต,ชุมพร,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สราวุธ-อ่อนละมัย.jpg,ประชาธิปัตย์,,[],,,,
+ดร.,สฤษฏ์พงษ์ เกี่ยวข้อง,True,False,False,True,แบ่งเขต,กระบี่,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สฤษฏ์พงษ์-เกี่ยวข้อง.jpg,ภูมิใจไทย,,['I'],,-766876.0,1.0,-0.03553577606989
+ดร.,สฤษดิ์ บุตรเนียร,True,False,False,True,แบ่งเขต,ปราจีนบุรี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สฤษดิ์-บุตรเนียร.jpg,ภูมิใจไทย,,[],,,,
+ดร.,สะถิระ เผือกประพันธุ์,True,False,False,False,แบ่งเขต,ชลบุรี,8.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สะถิระ-เผือกประพันธุ์.jpg,พลังประชารัฐ,,"['K', 'G', 'G', 'G', 'G', 'G', 'G']",0.0,4325107.0,7.0,0.20041836467736202
+นาย,สัญญา นิลสุพรรณ,True,False,False,True,แบ่งเขต,นครสวรรค์,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สัญญา-นิลสุพรรณ.jpg,รวมไทยสร้างชาติ,,"['F', 'M']",1.0,665253.0,1.0,0.030826732923996004
+นาย,สัณหพจน์ สุขศรีเมือง,True,False,False,True,แบ่งเขต,นครศรีธรรมราช,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สัณหพจน์-สุขศรีเมือง.jpg,พลังประชารัฐ,,[],,,,
+ดร.,สันติ กีระนันทน์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สันติ-กีระนันทน์.jpg,พลังประชารัฐ,,"['N', 'G', 'L', 'K']",4.0,,,
+นาย,สันติ พร้อมพัฒน์,True,False,True,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สันติ-พร้อมพัฒน์.jpg,พลังประชารัฐ,,[],,,,
+นาย,สัมพันธ์ มะยูโซ๊ะ,True,False,False,True,แบ่งเขต,นราธิวาส,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สัมพันธ์-มะยูโซ๊ะ.jpg,พลังประชารัฐ,,"['G', 'C']",2.0,,,
+นาย,สัมฤทธิ์ แทนทรัพย์,True,False,False,False,แบ่งเขต,ชัยภูมิ,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สัมฤทธิ์-แทนทรัพย์.jpg,ภูมิใจไทย,,[],,,,
+นาย,สาคร เกี่ยวข้อง,True,False,False,True,แบ่งเขต,กระบี่,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สาคร-เกี่ยวข้อง.jpg,ประชาธิปัตย์,,"['N', 'G', 'G', 'I', 'I', 'I', 'G', 'F', 'I']",3.0,-9256119.0,6.0,-0.42891337329667406
+นาย,สาทิตย์ วงศ์หนองเตย,True,False,False,True,แบ่งเขต,ตรัง,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สาทิตย์-วงศ์หนองเตย.jpg,ประชาธิปัตย์,,[],,,,
+ดร.,สุรชัย ศรีสารคาม,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรชัย-ศรีสารคาม.jpg,อนาคตใหม่,,['M'],,14212754.0,1.0,0.658595709711144
+นาย,สุริยะ จึงรุ่งเรืองกิจ,True,False,True,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุริยะ-จึงรุ่งเรืองกิจ.jpg,เพื่อไทย,,"['R', 'G']",1.0,49250.0,1.0,0.0022821642239970004
+นาย,สาธิต อุ๋ยตระกูล,True,False,False,True,แบ่งเขต,เพชรบุรี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สาธิต-อุ๋ยตระกูล.jpg,รวมไทยสร้างชาติ,,['F'],1.0,,,
+นาย,สายัณห์ ยุติธรรม,True,False,False,True,แบ่งเขต,นครศรีธรรมราช,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สายัณห์-ยุติธรรม.jpg,รวมไทยสร้างชาติ,,"['G', 'F', 'I']",3.0,,,
+นาย,สำลี รักสุทธี,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สำลี-รักสุทธี.jpg,อนาคตใหม่,,[],,,,
+นาย,สิงหภณ ดีนาง,True,False,False,True,แบ่งเขต,ขอนแก่น,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สิงหภณ-ดีนาง.jpg,เพื่อไทย,,[],,,,
+พันโท ดร.,สินธพ แก้วพิจิตร,True,False,False,True,แบ่งเขต,นครปฐม,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สินธพ-แก้วพิจิตร.jpg,รวมไทยสร้างชาติ,,"['C', 'R', 'C', 'C']",1.0,40886332.0,3.0,1.8946055663121641
+นาย,สินิตย์ เลิศไกร,True,False,True,True,แบ่งเขต,สุราษฎร์ธานี,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สินิตย์-เลิศไกร.jpg,ประชาธิปัตย์,,[],,,,
+นาย,สิระ เจนจาคะ,True,False,False,False,แบ่งเขต,กรุงเทพมหานคร,9.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สิระ-เจนจาคะ.jpg,พลังประชารัฐ,,"['G', 'M', 'G']",3.0,,,
+นาง,สิรินทร รามสูต,True,False,False,True,แบ่งเขต,น่าน,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สิรินทร-รามสูต.jpg,เพื่อไทย,,['G'],1.0,,,
+ดร.,สิริพงศ์ อังคสกุลเกียรติ,True,False,False,True,แบ่งเขต,ศรีสะเกษ,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สิริพงศ์-อังคสกุลเกียรติ.jpg,ภูมิใจไทย,,"['G', 'M', 'G', 'I', 'L', 'Q', 'L', 'L', 'C', 'K', 'K']",7.0,954041.0,4.0,0.04420869519647801
+นาย,สุชาติ ชมกลิ่น,True,False,True,True,แบ่งเขต,ชลบุรี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุชาติ-ชมกลิ่น.jpg,รวมไทยสร้างชาติ,,"['R', 'H', 'L', 'S', 'L', 'H']",6.0,,,
+นาย,สุชาติ ตันเจริญ,True,False,False,True,แบ่งเขต,ฉะเชิงเทรา,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุชาติ-ตันเจริญ.jpg,เพื่อไทย,,"['C', 'N', 'G']",3.0,,,
+นาย,สุชาติ ภิญโญ,True,False,False,False,แบ่งเขต,นครราชสีมา,14.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุชาติ-ภิญโญ.jpg,ภูมิใจไทย,,['N'],1.0,,,
+นาย,สุชาติ อุสาหะ,True,False,False,False,แบ่งเขต,เพชรบุรี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุชาติ-อุสาหะ.jpg,ภูมิใจไทย,,['H'],1.0,,,
+นางสาว,สุณัฐชา โล่สถาพรพิพิธ,True,False,False,True,แบ่งเขต,ตรัง,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุณัฐชา-โล่สถาพรพิพิธ.jpg,ประชาธิปัตย์,,[],,,,
+นางสาว,สุทธวรรณ สุบรรณ ณ อยุธยา,True,False,False,True,แบ่งเขต,นครปฐม,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุทธวรรณ-สุบรรณ-ณ-อยุธยา.jpg,ก้าวไกล,,[],,,,
+นาย,สุทา ประทีป ณ ถลาง,True,False,False,True,แบ่งเขต,ภูเก็ต,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุทา-ประทีป-ณ-ถลาง.jpg,พลังประชารัฐ,,[],,,,
+ดร.,สุทิน คลังแสง,True,False,False,True,แบ่งเขต,มหาสารคาม,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุทิน-คลังแสง.jpg,เพื่อไทย,,['G'],1.0,,,
+นาย,สุเทพ อู่อ้น,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุเทพ-อู่อ้น.jpg,ก้าวไกล,,['G'],1.0,,,
+นาย,สุพล จุลใส,True,False,False,False,แบ่งเขต,ชุมพร,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุพล-จุลใส.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,สุพล ฟองงาม,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุพล-ฟองงาม.jpg,พลังประชารัฐ,,[],,,,
+พลตำรวจตรี ดร.,สุพิศาล ภักดีนฤนาถ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุพิศาล-ภักดีนฤนาถ.jpg,ก้าวไกล,,[],,,,
+นาย,สุภดิช อากาศฤกษ์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุภดิช-อากาศฤกษ์.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาง,สุภาภรณ์ คงวุฒิปัญญา,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,29.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุภาภรณ์-คงวุฒิปัญญา.jpg,เพื่อไทย,,"['L', 'C', 'L']",0.0,-15039417.0,3.0,-0.696901917303068
+นาย,สุรชาติ ชาญประดิษฐ์,True,False,False,True,แบ่งเขต,ศรีสะเกษ,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรชาติ-ชาญประดิษฐ์.jpg,เพื่อไทย,,[],,,,
+นาย,สุรชาติ ศรีบุศกร,True,False,False,True,แบ่งเขต,พิจิตร,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรชาติ-ศรีบุศกร.jpg,รวมไทยสร้างชาติ,,[],,,,
+ดร.,สุรเชษฐ์ ประวีณวงศ์วุฒิ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรเชษฐ์-ประวีณวงศ์วุฒิ.jpg,ก้าวไกล,,[],,,,
+นาย,สุรทิน พิจารณ์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรทิน-พิจารณ์.jpg,ประชาธิปไตยใหม่,,['F'],1.0,,,
+นาย,สุรพงษ์ อึ้งอัมพรวิไล,True,False,False,True,แบ่งเขต,ปทุมธานี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรพงษ์-อึ้งอัมพรวิไล.jpg,เพื่อไทย,,[],,,,
+รองศาสตราจารย์ ดร.,สุรวาท ทองบุ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรวาท-ทองบุ.jpg,ก้าวไกล,,[],,,,
+ดร.,สุรวิทย์ คนสมบูรณ์,True,False,False,True,แบ่งเขต,ชัยภูมิ,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรวิทย์-คนสมบูรณ์.jpg,เพื่อไทย,,['C'],,13840952.0,1.0,0.6413670148317401
+นาย,สุรศักดิ์ ชิงนวรรณ์,True,False,False,True,แบ่งเขต,สระแก้ว,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรศักดิ์-ชิงนวรรณ์.jpg,พลังประชารัฐ,,"['K', 'C']",2.0,,,
+นาย,สุรศักดิ์ พันธ์เจริญวรกุล,True,False,False,True,แบ่งเขต,พระนครศรีอยุธยา,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรศักดิ์-พันธ์เจริญวรกุล.jpg,ภูมิใจไทย,,[],,,,
+นาย,สุรศักดิ์ อนรรฆพันธ์,True,False,False,True,แบ่งเขต,เพชรบูรณ์,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรศักดิ์-อนรรฆพันธ์.jpg,พลังประชารัฐ,,['Q'],,-570058.0,1.0,-0.026415552755399002
+นาย,สุรสิทธิ์ นิธิวุฒิวรรักษ์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรสิทธิ์-นิธิวุฒิวรรักษ์.jpg,พลังประชารัฐ,,[],,,,
+นาย,สุรสิทธิ์ วงศ์วิทยานันท์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรสิทธิ์-วงศ์วิทยานันท์.jpg,พลังประชารัฐ,,[],,,,
+พลตำรวจตรี,สุรินทร์ ปาลาเร่,True,False,False,True,แบ่งเขต,สงขลา,8.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรินทร์-ปาลาเร่.jpg,ประชาธิปัตย์,,[],,,,
+ดร.,อธิรัฐ รัตนเศรษฐ,True,False,True,True,แบ่งเขต,นครราชสีมา,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อธิรัฐ-รัตนเศรษฐ.jpg,พลังประชารัฐ,,[],,,,
+นาย,สุรชัย เลี้ยงบุญเลิศชัย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรชัย-เลี้ยงบุญเลิศชัย.jpg,,,"['L', 'Q', 'M', 'I', 'L']",2.0,13461459.0,3.0,0.6237819316265141
+พลเรือเอก,ฐนิธ กิตติอำพน,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ฐนิธ-กิตติอำพน.jpg,,,"['L', 'K']",1.0,759259.0,1.0,0.035182816782699
+นาย,เสมอกัน เที่ยงธรรม,True,False,False,True,แบ่งเขต,สุพรรณบุรี,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เสมอกัน-เที่ยงธรรม.jpg,ชาติไทยพัฒนา,,['I'],,-3445336.0,1.0,-0.15965121946903102
+พลตำรวจเอก,เสรีพิศุทธ์ เตมียเวส,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เสรีพิศุทธ์-เตมียเวส.jpg,เสรีรวมไทย,,['G'],1.0,,,
+นาย,โสภณ ซารัมย์,True,False,False,True,แบ่งเขต,บุรีรัมย์,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/โสภณ-ซารัมย์.jpg,ภูมิใจไทย,,[],,,,
+นาย,องค์การ ชัยบุตร,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/องค์การ-ชัยบุตร.jpg,ก้าวไกล,,[],,,,
+นาย,องอาจ คล้ามไพบูลย์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/องอาจ-คล้ามไพบูลย์.jpg,ประชาธิปัตย์,,"['C', 'M', 'C']",3.0,,,
+นาย,องอาจ วงษ์ประยูร,True,False,False,False,แบ่งเขต,สระบุรี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/องอาจ-วงษ์ประยูร.jpg,เพื่อไทย,,"['H', 'G']",1.0,134890.0,1.0,0.006250581363959001
+นาย,อดิพงษ์ ฐิติพิทยา,True,False,False,True,แบ่งเขต,บุรีรัมย์,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อดิพงษ์-ฐิติพิทยา.jpg,ภูมิใจไทย,,['F'],1.0,,,
+นาย,ศักดิ์สยาม ชิดชอบ,True,False,True,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศักดิ์สยาม-ชิดชอบ.jpg,ภูมิใจไทย,,['F'],1.0,,,
+นาย,อนันต์ ผลอำนวย,True,False,False,True,แบ่งเขต,กำแพงเพชร,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนันต์-ผลอำนวย.jpg,พลังประชารัฐ,,[],,,,
+นาย,อนันต์ ศรีพันธุ์,True,False,False,True,แบ่งเขต,อุดรธานี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนันต์-ศรีพันธุ์.jpg,เพื่อไทย,,[],,,,
+นาย,อนาวิล รัตนสถาพร,True,False,False,True,แบ่งเขต,ปทุมธานี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนาวิล-รัตนสถาพร.jpg,อนาคตใหม่,,[],,,,
+นาย,อนุชา น้อยวงศ์,True,False,False,False,แบ่งเขต,พิษณุโลก,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุชา-น้อยวงศ์.jpg,ภูมิใจไทย,,['F'],,-835270.0,1.0,-0.038705041855394
+นาย,อนุชา นาคาศัย,True,False,True,True,แบ่งเขต,ชัยนาท,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุชา-นาคาศัย.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาวาอากาศเอก,อนุดิษฐ์ นาครทรรพ,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,11.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุดิษฐ์-นาครทรรพ.jpg,ไทยสร้างไทย,,[],,,,
+นาย,อนุทิน ชาญวีรกูล,True,False,True,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุทิน-ชาญวีรกูล.jpg,ภูมิใจไทย,,"['F', 'K', 'L', 'L', 'L', 'L', 'L', 'C', 'L', 'F']",10.0,,,
+นาย,อนุมัติ ซูสารอ,True,False,False,True,แบ่งเขต,ปัตตานี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุมัติ-ซูสารอ.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,อนุรักษ์ จุรีมาศ,True,False,False,True,แบ่งเขต,ร้อยเอ็ด,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุรักษ์-จุรีมาศ.jpg,ชาติไทยพัฒนา,,[],,,,
+นาย,อนุรักษ์ ตั้งปณิธานนท์,True,False,False,False,แบ่งเขต,มุกดาหาร,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุรักษ์-ตั้งปณิธานนท์.jpg,เพื่อไทย,,"['G', 'L', 'M', 'L', 'H']",5.0,,,
+นาง,อนุรักษ์ บุญศล,True,False,False,True,แบ่งเขต,สกลนคร,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุรักษ์-บุญศล.jpg,เพื่อไทย,,[],,,,
+นาย,อนุสรณ์ ปั้นทอง,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,12.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุสรณ์-ปั้นทอง.jpg,เพื่อไทย,,['L'],1.0,,,
+นางสาว,อนุสรี ทับสุวรรณ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุสรี-ทับสุวรรณ.jpg,ภูมิใจไทย,,[],,,,
+ดร.,อภิชัย เตชะอุบล,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อภิชัย-เตชะอุบล.jpg,พลังประชารัฐ,,"['I', 'L', 'I', 'L', 'L', 'L', 'L', 'I', 'L', 'L', 'G', 'G', 'I', 'L', 'I', 'I', 'L', 'I', 'L', 'L', 'I']",11.0,448206691.0,10.0,20.769162947337904
+นาย,อภิชา เลิศพชรกมล,True,False,False,False,แบ่งเขต,นครราชสีมา,9.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อภิชา-เลิศพชรกมล.jpg,เพื่อไทย,,[],,,,
+ดร.,อภิชาติ ตีรสวัสดิชัย,True,False,False,True,แบ่งเขต,สกลนคร,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อภิชาติ-ตีรสวัสดิชัย.jpg,เพื่อไทย,,"['F', 'G', 'L']",3.0,,,
+นาย,อภิชาติ ศิริสุนทร,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อภิชาติ-ศิริสุนทร.jpg,ก้าวไกล,,[],,,,
+นาย,สุทัศน์ เงินหมื่น,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุทัศน์-เงินหมื่น.jpg,ประชาธิปัตย์,,"['M', 'G', 'Q', 'G']",3.0,10035686.0,1.0,0.46503722949177806
+นาย,อรรถกร ศิริลัทธยากร,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อรรถกร-ศิริลัทธยากร.jpg,พลังประชารัฐ,,"['L', 'L', 'L', 'L', 'I']",0.0,1854129.0,5.0,0.085917296862452
+นาง,อมรัตน์ โชคปมิตต์กุล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อมรัตน์-โชคปมิตต์กุล.jpg,ก้าวไกล,,"['G', 'G']",1.0,39189.0,1.0,0.0018159539852630002
+ร้อยตำรวจเอก,อรุณ สวัสดี,True,False,False,True,แบ่งเขต,สงขลา,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อรุณ-สวัสดี.jpg,รวมไทยสร้างชาติ,,"['G', 'G']",2.0,,,
+นาย,อัครเดช วงษ์พิทักษ์โรจน์,True,False,False,True,แบ่งเขต,ราชบุรี,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อัครเดช-วงษ์พิทักษ์โรจน์.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,อัครวัฒน์ อัศวเหม,True,False,False,True,แบ่งเขต,สมุทรปราการ,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อัครวัฒน์-อัศวเหม.jpg,พลังประชารัฐ,,['L'],,340631.0,1.0,0.015784281863642002
+นาย,อัฏฐพล โพธิพิพิธ,True,False,False,False,แบ่งเขต,กาญจนบุรี,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อัฏฐพล-โพธิพิพิธ.jpg,ภูมิใจไทย,,[],,,,
+นาย,อันวาร์ สาและ,True,False,False,False,แบ่งเขต,ปัตตานี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อันวาร์-สาและ.jpg,พลังประชารัฐ,,"['F', 'G']",2.0,,,
+นาย,อับดุลบาซิม อาบู,True,False,False,True,แบ่งเขต,ปัตตานี,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อับดุลบาซิม-อาบู.jpg,ภูมิใจไทย,,[],,,,
+นาย,อัศวิน วิภูศิริ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อัศวิน-วิภูศิริ.jpg,ประชาธิปัตย์,,"['I', 'L', 'L', 'C', 'L', 'R', 'L', 'D', 'C', 'F', 'F', 'L', 'L', 'E', 'M', 'M', 'G', 'G', 'N', 'L', 'L']",14.0,28180903.0,7.0,1.305856824904302
+นาย,อับดุลอายี สาแม็ง,True,False,False,True,แบ่งเขต,ยะลา,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อับดุลอายี-สาแม็ง.jpg,ประชาชาติ,,"['I', 'F', 'G', 'B', 'C', 'G', 'F', 'L']",7.0,117960.0,1.0,0.005466072931222
+นาย,อาดิลัน อาลีอิสเฮาะ,True,False,False,True,แบ่งเขต,ยะลา,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อาดิลัน-อาลีอิสเฮาะ.jpg,พลังประชารัฐ,,['M'],1.0,,,
+นาง,อาภรณ์ สาราคำ,True,False,False,True,แบ่งเขต,อุดรธานี,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อาภรณ์-สาราคำ.jpg,เพื่อไทย,,"['F', 'J']",2.0,,,
+นาย,อารี ไกรนรา,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อารี-ไกรนรา.jpg,ภูมิใจไทย,,[],,,,
+นาย,อาสพลธ์ สรรณ์ไตรภพ,True,False,False,True,แบ่งเขต,ศรีสะเกษ,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อาสพลธ์-สรรณ์ไตรภพ.jpg,ภูมิใจไทย,,['C'],1.0,,,
+นาย,อำนาจ วิลาวัลย์,True,False,False,True,แบ่งเขต,ปราจีนบุรี,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อำนาจ-วิลาวัลย์.jpg,ภูมิใจไทย,,"['F', 'F']",2.0,,,
+นาย,อำไพ กองมณี,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อำไพ-กองมณี.jpg,เสรีรวมไทย,,['G'],1.0,,,
+นาย,อิทธิรัตน์ จันทรสุรินทร์,True,False,False,False,แบ่งเขต,ลำปาง,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อิทธิรัตน์-จันทรสุรินทร์.jpg,เพื่อไทย,,['B'],1.0,,,
+นาย,อิสสระ สมชัย,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อิสสระ-สมชัย.jpg,ประชาธิปัตย์,,['M'],1.0,,,
+นาย,อุบลศักดิ์ บัวหลวงงาม,True,False,False,True,แบ่งเขต,ลพบุรี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อุบลศักดิ์-บัวหลวงงาม.jpg,เพื่อไทย,,"['G', 'G', 'G', 'G']",4.0,,,
+นาย,เอกการ ซื่อทรงธรรม,True,False,False,True,แบ่งเขต,แพร่,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เอกการ-ซื่อทรงธรรม.jpg,อนาคตใหม่,,[],,,,
+นาย,เอกชัย ทรงอำนาจเจริญ,True,False,False,True,แบ่งเขต,อุบลราชธานี,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เอกชัย-ทรงอำนาจเจริญ.jpg,เพื่อไทย,,['G'],1.0,,,
+นาย,เอกธนัช อินทร์รอด,True,False,False,True,แบ่งเขต,หนองคาย,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เอกธนัช-อินทร์รอด.jpg,เพื่อไทย,,['L'],1.0,,,
+นายแพทย์,เอกภพ เพียรพิเศษ,True,False,False,False,แบ่งเขต,เชียงราย,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เอกภพ-เพียรพิเศษ.jpg,ภูมิใจไทย,,['R'],1.0,,,
+ดร.,เอกราช ช่างเหลา,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เอกราช-ช่างเหลา.jpg,พลังประชารัฐ,,"['R', 'F']",2.0,,,
+นาย,เอี่ยม ทองใจสด,True,False,False,True,แบ่งเขต,เพชรบูรณ์,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เอี่ยม-ทองใจสด.jpg,พลังประชารัฐ,,[],,,,
+นาย,โอชิษฐ์ เกียรติก้องชูชัย,True,False,False,True,แบ่งเขต,ชัยภูมิ,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/โอชิษฐ์-เกียรติก้องชูชัย.jpg,เพื่อไทย,,['L'],0.0,2836452.0,1.0,0.131436533553004
+นาย,พีระวิทย์ เรื่องลือดลภาค,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พีระวิทย์-เรื่องลือดลภาค.jpg,ไทรักธรรม,,[],,,,
+นาย,อภิสิทธิ์ เวชชาชีวะ,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อภิสิทธิ์-เวชชาชีวะ.jpg,ประชาธิปัตย์,,[],,,,
+ศาสตราจารย์ ดร.,นฤมล ภิญโญสินวัฒน์,True,False,True,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นฤมล-ภิญโญสินวัฒน์.jpg,พลังประชารัฐ,,[],,,,
+นาย,สมเกียรติ ศรลัมพ์,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมเกียรติ-ศรลัมพ์.jpg,ประชาภิวัฒน์,,"['L', 'L', 'N', 'G', 'J', 'F', 'M', 'G']",5.0,-78784.0,3.0,-0.0036507213446370004
+พลเอก,กนิษฐ์ ชาญปรีชญา,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กนิษฐ์-ชาญปรีชญา.jpg,,,[],,,,
+นาย,กรรณภว์ ธนภรรคภวิน,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กรรณภว์-ธนภรรคภวิน.jpg,,,"['G', 'G', 'G', 'R', 'G', 'G', 'R', 'M', 'K', 'P']",2.0,34603644.0,8.0,1.603476108766238
+พลตรี,กลชัย สุวรรณบูรณ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กลชัย-สุวรรณบูรณ์.jpg,,,['B'],1.0,,,
+นาย,กล้านรงค์ จันทิก,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กล้านรงค์-จันทิก.jpg,,,[],,,,
+นาย,กษิดิศ อาชวคุณ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กษิดิศ-อาชวคุณ.jpg,,,"['B', 'N', 'G']",3.0,,,
+นาง,กอบกุล อาภากร ณ อยุธยา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กอบกุล-อาภากร-ณ-อยุธยา.jpg,,,"['L', 'G', 'L', 'L']",4.0,,,
+นาง,กาญจนารัตน์ ลีวิโรจน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กาญจนารัตน์-ลีวิโรจน์.jpg,,,[],,,,
+นาย,กำพล เลิศเกียรติดำรงค์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กำพล-เลิศเกียรติดำรงค์.jpg,,,[],,,,
+นาย,กิตติ วะสีนนท์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กิตติ-วะสีนนท์.jpg,,,[],,,,
+นาย,กิตติศักดิ์ รัตนวราหะ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กิตติศักดิ์-รัตนวราหะ.jpg,,,[],,,,
+นาย,กูรดิสถ์ จันทร์ศรีชวาลา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กูรดิสถ์-จันทร์ศรีชวาลา.jpg,,,"['P', 'N', 'G', 'M', 'L', 'K', 'L', 'K', 'L', 'R', 'L']",7.0,146652853.0,4.0,6.795652679466564
+นาย,เกียว แก้วสุทอ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เกียว-แก้วสุทอ.jpg,,,[],,,,
+ดร.,ไกรสิทธิ์ ตันติศิรินทร์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไกรสิทธิ์-ตันติศิรินทร์.jpg,,,[],,,,
+นาย,ขวัญชาติ วงศ์ศุภรานันต์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ขวัญชาติ-วงศ์ศุภรานันต์.jpg,,,[],,,,
+นาย,คำนูณ สิทธิสมาน,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/คำนูณ-สิทธิสมาน.jpg,,,"['G', 'C', 'C']",3.0,,,
+นาย,จเด็จ อินสว่าง,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จเด็จ-อินสว่าง.jpg,,,"['C', 'I', 'H']",1.0,1886.0,2.0,8.739414673e-05
+นาย,จรินทร์ จักกะพาก,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จรินทร์-จักกะพาก.jpg,,,[],,,,
+พลโท,จเรศักณิ์ อานุภาพ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จเรศักณิ์-อานุภาพ.jpg,,,[],,,,
+พลตำรวจเอก,จักรทิพย์ ชัยจินดา,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จักรทิพย์-ชัยจินดา.jpg,,,[],,,,
+พลตำรวจโท,จิตติ รอดบางยาง,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิตติ-รอดบางยาง.jpg,,,[],,,,
+นาง,จินตนา ชัยยวรรณาการ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จินตนา-ชัยยวรรณาการ.jpg,,,[],,,,
+นาย,จิรชัย มูลทองโร่ย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิรชัย-มูลทองโร่ย.jpg,,,[],,,,
+นาง,จิรดา สงฆ์ประชา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิรดา-สงฆ์ประชา.jpg,,,"['G', 'G', 'L', 'K']",1.0,-511623.0,3.0,-0.023707770695921
+พลเอก,จิรพงศ์ วรรณรัตน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิรพงศ์-วรรณรัตน์.jpg,,,['F'],1.0,,,
+พลเอก,จีระศักดิ์ ชมประสพ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จีระศักดิ์-ชมประสพ.jpg,,,[],,,,
+นายแพทย์,เจตน์ ศิรธรานนท์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เจตน์-ศิรธรานนท์.jpg,,,[],,,,
+นาย,เจน นำชัยศิริ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เจน-นำชัยศิริ.jpg,,,"['K', 'K', 'K', 'G', 'C', 'C', 'C', 'K', 'K', 'K', 'R', 'R', 'C', 'D', 'G', 'A', 'R', 'C', 'H', 'L', 'R', 'N/A', 'G']",11.0,147891553.0,12.0,6.853052005847587
+ดร.,ฉวีรัตน์ เกษตรสุนทร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ฉวีรัตน์-เกษตรสุนทร.jpg,,,[],,,,
+พลเอก,ฉัตรเฉลิม เฉลิมสุข,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ฉัตรเฉลิม-เฉลิมสุข.jpg,,,[],,,,
+พลเอก,ฉัตรชัย สาริกัลยะ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ฉัตรชัย-สาริกัลยะ.jpg,,,['M'],1.0,,,
+นาย,เฉลา พวงมาลัย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เฉลา-พวงมาลัย.jpg,,,[],,,,
+พลอากาศตรี นายแพทย์,เฉลิมชัย เครืองาม,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เฉลิมชัย-เครืองาม.jpg,,,[],,,,
+ผู้ช่วยศาสตราจารย์ นายแพทย์,เฉลิมชัย บุญยะลีพรรณ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เฉลิมชัย-บุญยะลีพรรณ.jpg,,,[],,,,
+นาย,เฉลิมชัย เฟื่องคอน,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เฉลิมชัย-เฟื่องคอน.jpg,,,[],,,,
+นาย,เฉลียว เกาะแก้ว,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เฉลียว-เกาะแก้ว.jpg,,,"['C', 'G', 'C', 'C', 'C', 'G', 'G']",4.0,-167011442.0,3.0,-7.739036303159234
+นาย,ชยุต สืบตระกูล,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชยุต-สืบตระกูล.jpg,,,[],,,,
+พลเอก,ชยุติ สุวรรณมาศ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชยุติ-สุวรรณมาศ.jpg,,,"['G', 'I', 'C', 'C', 'L', 'M', 'M', 'J', 'K', 'G', 'K', 'G', 'L', 'G', 'I', 'I', 'G', 'C', 'I', 'K']",12.0,170850526.0,8.0,7.916933159153555
+นาย,ชลิต แก้วจินดา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชลิต-แก้วจินดา.jpg,,,"['G', 'G', 'B']",3.0,,,
+พลตำรวจเอก,ชัชวาลย์ สุขสมจิตร์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัชวาลย์-สุขสมจิตร์.jpg,,,[],,,,
+พลอากาศเอก,ชัยพฤกษ์ ดิษยะศริน,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัยพฤกษ์-ดิษยะศริน.jpg,,,['L'],1.0,,,
+พลเรือเอก,ชัยวัฒน์ เอี่ยมสมุทร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัยวัฒน์-เอี่ยมสมุทร.jpg,,,[],,,,
+ดร.,ชาญวิทย์ ผลชีวิน,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชาญวิทย์-ผลชีวิน.jpg,,,"['F', 'C', 'G']",3.0,,,
+พลเอก,ชาตอุดม ติตถะสิริ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชาตอุดม-ติตถะสิริ.jpg,,,[],,,,
+พลเรือเอก,ชุมนุม อาจวงษ์,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชุมนุม-อาจวงษ์.jpg,,,[],,,,
+พลเอก,ชูศักดิ์ เมฆสุวรรณ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชูศักดิ์-เมฆสุวรรณ์.jpg,,,[],,,,
+พลเอก,เชวงศักดิ์ ทองสลวย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เชวงศักดิ์-ทองสลวย.jpg,,,[],,,,
+ว่าที่ร้อยตรี,เชิดศักดิ์ จำปาเทศ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เชิดศักดิ์-จำปาเทศ.jpg,,,[],,,,
+นาย,เชิดศักดิ์ สันติวรวุฒิ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เชิดศักดิ์-สันติวรวุฒิ.jpg,,,[],,,,
+นาย,ซากีย์ พิทักษ์คุมพล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ซากีย์-พิทักษ์คุมพล.jpg,,,"['C', 'H']",1.0,-9349260.0,1.0,-0.43322937447408205
+พลเรือเอก,ณรงค์ พิพัฒนาศัย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณรงค์-พิพัฒนาศัย.jpg,,,[],,,,
+นาย,ณรงค์ รัตนานุกูล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณรงค์-รัตนานุกูล.jpg,,,[],,,,
+นาย,ณรงค์ สหเมธาพัฒน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณรงค์-สหเมธาพัฒน์.jpg,,,[],,,,
+นาย,ณรงค์ อ่อนสอาด,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณรงค์-อ่อนสอาด.jpg,,,[],,,,
+พลเอก,ณัฐ อินทรเจริญ,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณัฐ-อินทรเจริญ.jpg,,,[],,,,
+พลเอก,ดนัย มีชูเวท,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ดนัย-มีชูเวท.jpg,,,[],,,,
+นาง,ดวงพร รอดพยาธิ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ดวงพร-รอดพยาธื์.jpg,,,[],,,,
+ดร.,ดิเรกฤทธิ์ เจนครองธรรม,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ดิเรกฤทธิ์-เจนครองธรรม.jpg,,,"['L', 'Q', 'C']",1.0,55408.0,2.0,0.0025675158441260003
+พลตำรวจโท,ตรีทศ รณฤทธิวิชัย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ตรีทศ-รณฤทธิวิชัย.jpg,,,"['L', 'L']",1.0,16120.0,1.0,0.0007469743612350001
+ดร.,ดาวน้อย สุทธินิภาพันธ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ดาวน้อย-สุทธินิภาพันธ์.jpg,,,"['J', 'N']",1.0,83.0,1.0,3.846083869e-06
+นาย,ดุสิต เขมะศักดิ์ชัย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ดุสิต-เขมะศักดิ์ชัย.jpg,,,[],,,,
+พลตำรวจเอก,เดชณรงค์ สุทธิชาญบัญชา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เดชณรงค์-สุทธิชาญบัญชา.jpg,,,[],,,,
+พลอากาศเอก,ตรีทศ สนแจ้ง,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ตรีทศ-สนแจ้ง.jpg,,,[],,,,
+ดร.,ตวง อันทะไชย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ตวง-อันทะไชย.jpg,,,[],,,,
+พลเอก,ไตรโรจน์ ครุธเวโช,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไตรโรจน์-ครุธเวโช.jpg,,,[],,,,
+นาย,ถนัด มานะพันธ์ุนิยม,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ถนัด-มานะพันธ์ุนิยม.jpg,,,[],,,,
+นาย,ถวิล เปลี่ยนศรี,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ถวิล-เปลี่ยนศรี.jpg,,,[],,,,
+นาย,ถาวร เทพวิมลเพชรกุล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ถาวร-เทพวิมลเพชรกุล.jpg,,,[],,,,
+พลอากาศเอก,ถาวร มณีพฤกษ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ถาวร-มณีพฤกษ์.jpg,,,[],,,,
+นาย,ทรงเดช เสมอคำ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทรงเดช-เสมอคำ.jpg,,,[],,,,
+พลเอก,ทวีป เนตรนิยม,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทวีป-เนตรนิยม.jpg,,,[],,,,
+นายแพทย์,ทวีวงษ์ จุลกมนตรี,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทวีวงษ์-จุลกมนตรี.jpg,,,['F'],1.0,,,
+นาง,ทัศนา ยุวานนท์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทัศนา-ยุวานนท์.jpg,,,[],,,,
+ร้อยเอก ดร.,ทินพันธุ์ นาคะตะ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทินพันธุ์-นาคะตะ.jpg,,,[],,,,
+พลเอก,เทพพงศ์ ทิพยจันทร์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เทพพงศ์-ทิพยจันทร์.jpg,,,[],,,,
+พลเอก,ธงชัย สาระสุข,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธงชัย-สาระสุข.jpg,,,[],,,,
+พลเอก ดร.,ธนะศักดิ์ ปฏิมาประกร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธนะศักดิ์-ปฏิมาประกร.jpg,,,[],,,,
+พลเอก,ธวัชชัย สมุทรสาคร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธวัชชัย-สมุทรสาคร.jpg,,,"['G', 'J', 'F', 'C']",4.0,,,
+นาย,ธานี สุโชดายน,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธานี-สุโชดายน.jpg,,,['F'],1.0,,,
+นาย,ธานี อ่อนละเอียด,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธานี-อ่อนละเอียด.jpg,,,['M'],1.0,,,
+พลเอก,ธีรเดช มีเพียร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธีรเดช-มีเพียร.jpg,,,['C'],1.0,,,
+นาย,นิพนธ์ นาคสมภพ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิพนธ์-นาคสมภพ.jpg,,,"['L', 'G', 'K']",2.0,995220.0,1.0,0.046116862517899
+นาย,ธีระเกียรติ เจริญเศรษฐศิลป์,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธีระเกียรติ-เจริญเศรษฐศิลป์.jpg,,,['N'],,0.0,1.0,0.0
+พลเรือเอก,นพดล โชคระดา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นพดล-โชคระดา.jpg,,,[],,,,
+พลเอก,นพดล อินทปัญญา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นพดล-อินทปัญญา.jpg,,,"['A', 'M']",2.0,,,
+พลเอก,นาวิน ดำริกาญจน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นาวิน-ดำริกาญจน์.jpg,,,['L'],,1861.0,1.0,8.6235687733e-05
+พลเอก,นิวัตร มีนะโยธิน,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิวัตร-มีนะโยธิน.jpg,,,[],,,,
+ดร.,นิสดารก์ เวชยานนท์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิสดารก์-เวชยานนท์.jpg,,,[],,,,
+นาย,นิอาแซ ซีอุเซ็ง,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นิอาแซ-ซีอุเซ็ง.jpg,,,[],,,,
+นาย,เนาวรัตน์ พงษ์ไพบูลย์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เนาวรัตน์-พงษ์ไพบูลย์.jpg,,,['J'],1.0,,,
+นาย,บรรชา พงศ์อายุกูล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บรรชา-พงศ์อายุกูล.jpg,,,"['C', 'C']",2.0,,,
+พลเอก,บุญธรรม โอริส,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุญธรรม-โอริส.jpg,,,[],,,,
+นาย,บุญมี สุระโคตร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุญมี-สุระโคตร.jpg,,,['G'],,9770.0,1.0,0.000452725776009
+ดร.,บุญส่ง ไข่เกษ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุญส่ง-ไข่เกษ.jpg,,,['M'],1.0,,,
+พลเอก ดร.,บุญสร้าง เนียมประดิษฐ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุญสร้าง-เนียมประดิษฐ์.jpg,,,"['P', 'C']",2.0,,,
+นาง,เบญจรัตน์ จริยธาราสิทธิ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เบญจรัตน์-จริยธาราสิทธิ์.jpg,,,"['I', 'G', 'D', 'A', 'G', 'C', 'G', 'B']",6.0,421520.0,2.0,0.019532545455823003
+หม่อมหลวง,ปนัดดา ดิศกุล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปนัดดา-ดิศกุล.jpg,,,[],,,,
+พลอากาศเอก ดร.,ประจิน จั่นตอง,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประจิน-จั่นตอง.jpg,,,[],,,,
+นาย,ประดิษฐ์ เหลืองอร่าม,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประดิษฐ์-เหลืองอร่าม.jpg,,,['G'],1.0,,,
+นาง,ประภาศรี สุฉันทบุตร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประภาศรี-สุฉันทบุตร.jpg,,,"['K', 'Q', 'L', 'Q', 'N', 'G', 'Q', 'S', 'K', 'Q', 'I', 'I', 'K']",10.0,35172884.0,3.0,1.6298537567432572
+นาย,ประมนต์ สุธีวงศ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประมนต์-สุธีวงศ์.jpg,,,"['K', 'B', 'C', 'C', 'C', 'M', 'M', 'G', 'G']",8.0,7384706.0,1.0,0.342195164222088
+นาย,ประมาณ สว่างญาติ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประมาณ-สว่างญาติ.jpg,,,"['F', 'F']",2.0,,,
+ร้อยเอก,ประยุทธ เสาวคนธ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประยุทธ-เสาวคนธ์.jpg,,,[],,,,
+นาง,ประยูร เหล่าสายเชื้อ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประยูร-เหล่าสายเชื้อ.jpg,,,['K'],1.0,,,
+พลเอก ดร.,ประสาท สุขเกษตร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประสาท-สุขเกษตร.jpg,,,[],,,,
+รองศาสตราจารย์ ดร.,ประเสริฐ ปิ่นปฐมรัฐ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประเสริฐ-ปิ่นปฐมรัฐ.jpg,,,"['G', 'K']",1.0,1018996.0,1.0,0.04721860336236101
+พลตำรวจตรี,ปรัชญ์ชัย ใจชาญสุขกิจ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปรัชญ์ชัย-ใจชาญสุขกิจ.jpg,,,['I'],0.0,211891.0,1.0,0.009818681412934
+พลเอก,ปรีชา จันทร์โอชา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปรีชา-จันทร์โอชา.jpg,,,[],,,,
+นาย,ปรีชา บัววิรัตน์เลิศ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปรีชา-บัววิรัตน์เลิศ.jpg,,,[],,,,
+นาย,ปัญญา งานเลิศ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปัญญา-งานเลิศ.jpg,,,[],,,,
+พลเอก,พิศณุ พุทธวงศ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิศณุ-พุทธวงศ์.jpg,,,"['L', 'N', 'N']",2.0,10427081.0,1.0,0.48317383185627405
+พลเอก,ปัฐมพงศ์ ประถมภัฏ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปัฐมพงศ์-ประถมภัฏ.jpg,,,['C'],,344305.0,1.0,0.015954528997835
+นาย,ปานเทพ กล้าณรงค์ราญ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปานเทพ-กล้าณรงค์ราญ.jpg,,,[],,,,
+ดร.,ปิยฉัฏฐ์ วันเฉลิม,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปิยฉัฏฐ์-วันเฉลิม.jpg,,,[],,,,
+นาย,ปิยพันธุ์ นิมมานเหมินท์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปิยพันธุ์-นิมมานเหมินท์.jpg,,,"['L', 'L', 'L', 'L', 'L', 'L', 'L', 'C', 'K', 'L']",3.0,9527260.0,7.0,0.44147760253238705
+พลเอก,โปฎก บุนนาค,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/โปฎก-บุนนาค.jpg,,,[],,,,
+นาง,ผาณิต นิติทัณฑ์ประภาศ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ผาณิต-นิติทัณฑ์ประภาศ.jpg,,,[],,,,
+แพทย์หญิง คุณหญิง,พรทิพย์ โรจนสุนันท์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พรทิพย์-โรจนสุนันท์.jpg,,,[],,,,
+นาย,รณวริทธิ์ ปริยฉัตรตระกูล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/รณวริทธิ์-ปริยฉัตรตระกูล.jpg,,,['G'],0.0,14372504.0,1.0,0.6659982627016731
+พลเอก,พรพิพัฒน์ เบญญศรี,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พรพิพัฒน์-เบญญศรี.jpg,,,"['L', 'L', 'F', 'K', 'L']",4.0,-101624.0,1.0,-0.004709089484253
+นาย,พรเพชร วิชิตชลชัย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พรเพชร-วิชิตชลชัย.jpg,,,[],,,,
+นายแพทย์,พลเดช ปิ่นประทีป,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พลเดช-ปิ่นประทีป.jpg,,,"['C', 'M']",1.0,-16170.0,1.0,-0.0007492912792290001
+พลเรือเอก,พะจุณณ์ ตามประทีป,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พะจุณณ์-ตามประทีป.jpg,,,"['N', 'G', 'L']",3.0,,,
+พลเรือเอก,พัลลภ ตมิศานนท์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พัลลภ-ตมิศานนท์.jpg,,,[],,,,
+พลเอก,ไพโรจน์ พานิชสมัย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไพโรจน์-พานิชสมัย.jpg,,,"['L', 'L', 'I', 'P', 'L', 'K', 'L', 'L', 'L']",2.0,5546323.0,7.0,0.257007511174276
+นาง,พิกุลแก้ว ไกรฤกษ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิกุลแก้ว-ไกรฤกษ์.jpg,,,"['L', 'A', 'C', 'L', 'L', 'L', 'I', 'N', 'C', 'P', 'K', 'C', 'Q', 'L']",7.0,2847199.0,7.0,0.131934531906614
+นาย,พิทักษ์ ไชยเจริญ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิทักษ์-ไชยเจริญ.jpg,,,"['G', 'L', 'G', 'Q']",1.0,371727.0,3.0,0.017225219502412
+นาย,พิศาล มาณวพัฒน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิศาล-มาณวพัฒน์.jpg,,,['Q'],,337135.0,1.0,0.015622282957508001
+พลตำรวจโท,พิสัณห์ จุลดิลก,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิสัณห์-จุลดิลก.jpg,,,"['N', 'R']",2.0,,,
+พลเอก,พิสิทธิ์ สิทธิสาร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิสิทธิ์-สิทธิสาร.jpg,,,[],,,,
+นาย,พีระศักดิ์ พอจิต,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พีระศักดิ์-พอจิต.jpg,,,[],,,,
+นาง,เพ็ญพักตร์ ศรีทอง,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เพ็ญพักตร์-ศรีทอง.jpg,,,"['G', 'L', 'G', 'G', 'I']",3.0,226233.0,2.0,0.010483266170306
+พลเอก,ไพชยนต์ ค้าทันเจริญ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไพชยนต์-ค้าทันเจริญ.jpg,,,[],,,,
+นาย,ไพฑูรย์ หลิมวัฒนา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไพฑูรย์-หลิมวัฒนา.jpg,,,"['G', 'G']",2.0,,,
+นาย,ยุทธนา ทัพเจริญ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ยุทธนา-ทัพเจริญ.jpg,,,"['M', 'M', 'L']",2.0,2545390.0,1.0,0.117949197850159
+นาย,ไพโรจน์ พ่วงทอง,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ไพโรจน์-พ่วงทอง.jpg,,,['A'],0.0,3792.0,1.0,0.00017571506065700002
+นางสาว,ภัทรา วรามิตร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภัทรา-วรามิตร.jpg,,,['G'],1.0,,,
+นาย,ภาณุ อุทัยรัตน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภาณุ-อุทัยรัตน์.jpg,,,[],,,,
+นาย,มณเฑียร บุญตัน,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มณเฑียร-บุญตัน.jpg,,,[],,,,
+พลอากาศเอก,มนัส รูปขจร,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มนัส-รูปขจร.jpg,,,"['J', 'H']",1.0,-517109.0,1.0,-0.023961982938213004
+นาย,มหรรณพ เดชวิทักษ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มหรรณพ-เดชวิทักษ์.jpg,,,"['G', 'G']",2.0,,,
+พลเอก,มารุต ปัชโชตะสิงห์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มารุต-ปัชโชตะสิงห์.jpg,,,"['G', 'G']",2.0,,,
+พันตำรวจตรี ดร.,ยงยุทธ สาระสมบัติ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ยงยุทธ-สาระสมบัติ.jpg,,,"['M', 'A']",,3103821.0,2.0,0.143825974495256
+พลเอก ดร.,ยอดยุทธ บุญญาธิการ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ยอดยุทธ-บุญญาธิการ.jpg,,,[],,,,
+พันตำรวจเอก,ยุทธกร วงเวียน,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ยุทธกร-วงเวียน.jpg,,,[],,,,
+นาย,ระวี รุ่งเรือง,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ระวี-รุ่งเรือง.jpg,,,"['L', 'F']",1.0,319668.0,1.0,0.014812890825517
+นางสาว,เรณู ตังคจิวางกูร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เรณู-ตังคจิวางกูร.jpg,,,[],,,,
+นาย,ลักษณ์ วจนานวัช,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ลักษณ์-วจนานวัช.jpg,,,['G'],1.0,,,
+พลเรือเอก,ลือชัย รุดดิษฐ์,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ลือชัย-รุดดิษฐ์.jpg,,,['L'],0.0,494279.0,1.0,0.022904078182195003
+พลเอก,เลิศรัตน์ รัตนวานิช,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เลิศรัตน์-รัตนวานิช.jpg,,,"['G', 'K', 'G', 'K', 'G', 'I']",6.0,,,
+พลเอก,เลิศฤทธิ์ เวชสวรรค์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เลิศฤทธิ์-เวชสวรรค์.jpg,,,"['K', 'C']",2.0,,,
+ว่าที่ร้อยตรี,วงศ์สยาม เพ็งพานิชภักดี,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วงศ์สยาม-เพ็งพานิชภักดี.jpg,,,"['F', 'G']",1.0,-12355155.0,1.0,-0.572517618739914
+พลเอก ดร.,วรพงษ์ สง่าเนตร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วรพงษ์-สง่าเนตร.jpg,,,[],,,,
+นาง,วรารัตน์ อติแพทย์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วรารัตน์-อติแพทย์.jpg,,,[],,,,
+พลเอก,วราห์ บุญญะสิทธิ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วราห์-บุญญะสิทธิ์.jpg,,,[],,,,
+พลเอก,วลิต โรจนภักดี,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วลิต-โรจนภักดี.jpg,,,[],,,,
+พลเอก,วสันต์ สุริยมงคล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วสันต์-สุริยมงคล.jpg,,,['L'],,8240606.0,1.0,0.381856166441768
+พลเอก,วัฒนา สรรพานิช,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วัฒนา-สรรพานิช.jpg,,,"['P', 'R', 'K']",3.0,,,
+นาย,วันชัย สอนศิริ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วันชัย-สอนศิริ.jpg,,,['M'],,211.0,1.0,9.777393934e-06
+นาย,วัลลภ ตังคณานุรักษ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วัลลภ-ตังคณานุรักษ์.jpg,,,[],,,,
+พลเอก ดร.,วิชิต ยาทิพย์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิชิต-ยาทิพย์.jpg,,,"['L', 'H', 'L', 'L']",3.0,1962894.0,1.0,0.090957288574596
+นาย,วิทยา ผิวผ่อง,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิทยา-ผิวผ่อง.jpg,,,[],,,,
+พลเอก,วินัย สร้างสุขดี,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วินัย-สร้างสุขดี.jpg,,,[],,,,
+พลตำรวจโท,วิบูลย์ บางท่าไม้,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิบูลย์-บางท่าไม้.jpg,,,['N'],1.0,,,
+นางสาว,วิบูลย์ลักษณ์ ร่วมรักษ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิบูลย์ลักษณ์-ร่วมรักษ์.jpg,,,[],,,,
+นาย,วิรัตน์ เกสสมบูรณ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิรัตน์-เกสสมบูรณ์.jpg,,,[],,,,
+นางสาว,วิไลลักษณ์ อรินทมะพงษ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิไลลักษณ์-อรินทมะพงษ์.jpg,,,[],,,,
+นาย,วิวรรธน์ แสงสุริยะฉัตร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิวรรธน์-แสงสุริยะฉัตร.jpg,,,"['L', 'G', 'G', 'G', 'G', 'G']",4.0,1105621.0,2.0,0.051232663786803
+นาย,วิสุทธิ์ ศรีสุพรรณ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิสุทธิ์-ศรีสุพรรณ.jpg,,,"['K', 'K', 'L', 'K', 'K', 'M', 'K', 'K', 'K', 'K', 'K', 'M']",12.0,,,
+นาย,วีระศักดิ์ ฟูตระกูล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วีระศักดิ์-ฟูตระกูล.jpg,,,['L'],1.0,,,
+นาย,วีระศักดิ์ โควสุรัตน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วีระศักดิ์-โควสุรัตน์.jpg,,,"['H', 'M', 'M', 'M', 'C']",5.0,,,
+นาย,วีระศักดิ์ ภูครองหิน,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วีระศักดิ์-ภูครองหิน.jpg,,,[],,,,
+พลเอก,วีรัณ ฉันทศาสตร์โกศล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วีรัณ-ฉันทศาสตร์โกศล.jpg,,,[],,,,
+นาย,วุฒิพันธุ์ วิชัยรัตน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วุฒิพันธุ์-วิชัยรัตน์.jpg,,,[],,,,
+นาย,ศรีศักดิ์ วัฒนพรมงคล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศรีศักดิ์-วัฒนพรมงคล.jpg,,,"['G', 'L', 'F', 'G', 'G', 'C', 'G']",5.0,3689871.0,2.0,0.170982570301826
+นาย,ศักดิ์ชัย ธนบุญชัย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศักดิ์ชัย-ธนบุญชัย.jpg,,,"['I', 'L', 'R', 'G', 'L', 'G', 'C', 'C', 'G', 'Q', 'N', 'Q', 'K', 'L', 'R', 'M']",15.0,-86.0,1.0,-3.9850989490000005e-06
+ดร.,ศักดิ์ไทย สุรกิจบวร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศักดิ์ไทย-สุรกิจบวร.jpg,,,[],,,,
+พลเรือเอก,ศักดิ์สิทธิ์ เชิดบุญเมือง,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศักดิ์สิทธิ์-เชิดบุญเมือง.jpg,,,[],,,,
+พลตำรวจโท,ศานิตย์ มหถาวร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศานิตย์-มหถาวร.jpg,,,[],,,,
+ดร.,ศิรินา ปวโรฬารวิทยา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศิรินา-ปวโรฬารวิทยา.jpg,,,"['L', 'C', 'G', 'M', 'G', 'G', 'G', 'C', 'K', 'C', 'L', 'L', 'K', 'M', 'R', 'C', 'C', 'C', 'L', 'L', 'G', 'C', 'K', 'N', 'K', 'G', 'G', 'R', 'G', 'G', 'L', 'C', 'L', 'G', 'G', 'C']",12.0,629635321.0,24.0,29.17626809647161
+พลเรือเอก,ศิษฐวัชร วงษ์สุวรรณ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศิษฐวัชร-วงษ์สุวรรณ.jpg,,,['D'],1.0,,,
+นาย,ศุภชัย สมเจริญ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศุภชัย-สมเจริญ.jpg,,,[],,,,
+พลเอก,ศุภรัตน์ พัฒนาวิสุทธิ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศุภรัตน์-พัฒนาวิสุทธิ์.jpg,,,[],,,,
+พลเอก,สกนธ์ สัจจานิตย์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สกนธ์-สัจจานิตย์.jpg,,,[],,,,
+พลเอก,สกล ชื่นตระกูล,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สกล-ชื่นตระกูล.jpg,,,[],,,,
+นายแพทย์ หม่อมหลวง,สกุล มาลากุล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สกุล-มาลากุล.jpg,,,[],,,,
+ดร.,สถิตย์ ลิ่มพงศ์พันธุ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สถิตย์-ลิ่มพงศ์พันธุ์.jpg,,,"['L', 'G', 'K', 'K']",4.0,,,
+พลเรือโท,สนธยา น้อยฉายา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สนธยา-น้อยฉายา.jpg,,,[],,,,
+พลเอก,สนธยา ศรีเจริญ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สนธยา-ศรีเจริญ.jpg,,,[],,,,
+พลเอก,สนั่น มะเริงสิทธิ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สนั่น-มะเริงสิทธิ์.jpg,,,[],,,,
+ดร.,สม จาตุศรีพิทักษ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สม-จาตุศรีพิทักษ์.jpg,,,"['G', 'L', 'K', 'K', 'C', 'K', 'I', 'G', 'B', 'M', 'H', 'R', 'L', 'M']",11.0,-66078.0,3.0,-0.003061946144026
+พลเอก,สมเจตน์ บุญถนอม,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมเจตน์-บุญถนอม.jpg,,,['C'],1.0,,,
+นาย,สมชาย ชาญณรงค์กุล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมชาย-ชาญณรงค์กุล.jpg,,,[],,,,
+นาย,สมชาย เสียงหลาย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมชาย-เสียงหลาย.jpg,,,[],,,,
+นาย,สมชาย แสวงการ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมชาย-แสวงการ.jpg,,,"['M', 'N', 'I', 'G', 'J', 'C', 'N', 'G']",8.0,,,
+ดร.,สมชาย หาญหิรัญ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมชาย-หาญหิรัญ.jpg,,,['G'],1.0,,,
+นาย,สมเดช นิลพันธุ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมเดช-นิลพันธุ์.jpg,,,[],,,,
+พลตำรวจโท,สมบัติ มิลินทจินดา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมบัติ-มิลินทจินดา.jpg,,,[],,,,
+นาย,สมบูรณ์ งามลักษณ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมบูรณ์-งามลักษณ์.jpg,,,[],,,,
+นาย,สมพล เกียรติไพบูลย์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมพล-เกียรติไพบูลย์.jpg,,,[],,,,
+นาย,สมศักดิ์ โชติรัตนะศิริ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมศักดิ์-โชติรัตนะศิริ.jpg,,,['G'],1.0,,,
+พลตำรวจโท,สมหมาย กองวิสัยสุข,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมหมาย-กองวิสัยสุข.jpg,,,[],,,,
+พลเอก,สมหมาย เกาฏีระ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมหมาย-เกาฏีระ.jpg,,,[],,,,
+พลเอก,สราวุฒิ ชลออยู่,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สราวุฒิ-ชลออยู่.jpg,,,[],,,,
+นาย,สวัสดิ์ สมัครพงศ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สวัสดิ์-สมัครพงศ์.jpg,,,[],,,,
+พลเอก,สสิน ทองภักดี,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สสิน-ทองภักดี.jpg,,,[],,,,
+ดร.,สังศิต พิริยะรังสรรค์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สังศิต-พิริยะรังสรรค์.jpg,,,[],,,,
+นาย,สัญชัย จุลมนต์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สัญชัย-จุลมนต์.jpg,,,['K'],1.0,,,
+นาย,สาธิต เหล่าสุวรรณ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สาธิต-เหล่าสุวรรณ.jpg,,,[],,,,
+นาย,สำราญ ครรชิต,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สำราญ-ครรชิต.jpg,,,"['F', 'F']",2.0,,,
+พลเอก,สำเริง ศิวาดารงค์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สำเริง-ศิวาดารงค์.jpg,,,[],,,,
+พลเอก,สิงห์ศึก สิงห์ไพร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สิงห์ศึก-สิงห์ไพร.jpg,,,['H'],1.0,,,
+พลอากาศเอก,สุจินต์ แช่มช้อย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุจินต์-แช่มช้อย.jpg,,,[],,,,
+นาย,สุชัย บุตรสาระ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุชัย-บุตรสาระ.jpg,,,['N'],,3678.0,1.0,0.00017043248763100002
+นาย,สุธี มากบุญ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุธี-มากบุญ.jpg,,,[],,,,
+นาง,สุนี จึงวิโรจน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุนี-จึงวิโรจน์.jpg,,,[],,,,
+นาย,สุรชัย ดนัยตั้งตระกูล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรชัย-ดนัยตั้งตระกูล.jpg,,,"['R', 'C', 'L', 'G', 'L', 'K', 'G', 'G', 'G', 'G', 'H', 'C']",11.0,1694476.0,1.0,0.078519238692831
+พลเอก,สุรเชษฐ์ ชัยวงศ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรเชษฐ์-ชัยวงศ์.jpg,,,[],,,,
+ดร.,สุรเดช จิรัฐิติเจริญ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรเดช-จิรัฐิติเจริญ.jpg,,,[],,,,
+พลเอก,สุรพงษ์ สุวรรณอัตถ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรพงษ์-สุวรรณอัตถ์.jpg,,,"['G', 'C']",2.0,,,
+พลเอก,สุรศักดิ์ กาญจนรัตน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรศักดิ์-กาญจนรัตน์.jpg,,,['J'],1.0,,,
+นาย,สุรสิทธิ์ ตรีทอง,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรสิทธิ์-ตรีทอง.jpg,,,['F'],1.0,,,
+นาย,สุวพันธ์ุ ตันยุวรรธนะ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุวพันธ์ุ-ตันยุวรรธนะ.jpg,,,[],,,,
+นาย,สุวรรณ เลิศปัญญาโรจน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุวรรณ-เลิศปัญญาโรจน์.jpg,,,"['G', 'F', 'L', 'L', 'L', 'L', 'G']",7.0,,,
+นาง,สุวรรณี สิริเวชชะพันธ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุวรรณี-สิริเวชชะพันธ์.jpg,,,['G'],1.0,,,
+นาย,เสรี สุวรรณภานนท์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เสรี-สุวรรณภานนท์.jpg,,,"['M', 'L', 'L', 'L', 'M']",1.0,2589170.0,4.0,0.11997789124562301
+พลเอก,อกนิษฐ์ หมื่นสวัสดิ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อกนิษฐ์-หมื่นสวัสดิ์.jpg,,,['C'],1.0,,,
+พลอากาศเอก,อดิศักดิ์ กลั่นเสนาะ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อดิศักดิ์-กลั่นเสนาะ.jpg,,,[],,,,
+พลตำรวจเอก,อดุลย์ แสงสิงแก้ว,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อดุลย์-แสงสิงแก้ว.jpg,,,"['K', 'F']",2.0,,,
+พลเอก,อนันตพร กาญจนรัตน์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนันตพร-กาญจนรัตน์.jpg,,,[],,,,
+นาย,อนุมัติ อาหมัด,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุมัติ-อาหมัด.jpg,,,"['G', 'G', 'H', 'H', 'G', 'G', 'G', 'C', 'G', 'G']",6.0,118579162.0,4.0,5.494763882801515
+นาย,อนุศาสน์ สุวรรณมงคล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุศาสน์-สุวรรณมงคล.jpg,,,"['G', 'G', 'L', 'G', 'M', 'I', 'G', 'L', 'G', 'G']",1.0,21884536.0,9.0,1.014093504933603
+นาย,อนุศักดิ์ คงมาลัย,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุศักดิ์-คงมาลัย.jpg,,,"['Q', 'G', 'Q', 'G', 'G', 'G', 'I', 'G', 'G', 'Q', 'G', 'L', 'G', 'F', 'G']",8.0,846684.0,7.0,0.039233947895043
+นาง,อภิรดี ตันตราภรณ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อภิรดี-ตันตราภรณ์.jpg,,,[],,,,
+พลเอก,อภิรัชต์ คงสมพงษ์,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อภิรัชต์-คงสมพงษ์.jpg,,,"['L', 'L', 'K', 'L', 'M', 'G', 'F', 'N', 'G', 'L']",10.0,,,
+นาย,อมร นิลเปรม,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อมร-นิลเปรม.jpg,,,[],,,,
+นาย,ออน กาจกระโทก,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ออน-กาจกระโทก.jpg,,,[],,,,
+พลเอก,อักษรา เกิดผล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อักษรา-เกิดผล.jpg,,,[],,,,
+นาย,อับดุลฮาลิม มินซาร์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อับดุลฮาลิม-มินซาร์.jpg,,,[],,,,
+พลเอก,อาชาไนย ศรีสุข,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อาชาไนย-ศรีสุข.jpg,,,[],,,,
+พลโท,อำพน ชูประทุม,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อำพน-ชูประทุม.jpg,,,[],,,,
+นาย,อำพล จินดาวัฒนะ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อำพล-จินดาวัฒนะ.jpg,,,[],,,,
+พลเรือเอก,อิทธิคมน์ ภมรสูต,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อิทธิคมน์-ภมรสูต.jpg,,,[],,,,
+นาย,อุปกิต ปาจรียางกูร,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อุปกิต-ปาจรียางกูร.jpg,,,"['L', 'I', 'C', 'F', 'L', 'G', 'F', 'H', 'C', 'M', 'L']",10.0,2042697.0,1.0,0.09465522870794901
+นายแพทย์,อุดม คชินทร,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อุดม-คชินทร.jpg,,,"['M', 'G', 'N']",2.0,0.0,1.0,0.0
+นาย,อุดม วรัญญูรัฐ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อุดม-วรัญญูรัฐ.jpg,,,['G'],1.0,,,
+พลเอก,อุดมชัย ธรรมสาโรรัชต์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อุดมชัย-ธรรมสาโรรัชต์.jpg,,,[],,,,
+พลเอก,อู้ด เบื้องบน,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อู้ด-เบื้องบน.jpg,,,[],,,,
+พลตรี,โอสถ ภาวิไล,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/โอสถ-ภาวิไล.jpg,,,"['C', 'F']",2.0,,,
+นาย,อภิชาติ โตดิลกเวชช์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อภิชาติ-โตดิลกเวชช์.jpg,,,[],,,,
+พลอากาศเอก,มานัต วงษ์วาทย์,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มานัต-วงษ์วาทย์.jpg,,,['J'],1.0,,,
+พันตำรวจเอก,ทวี สอดส่อง,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ทวี-สอดส่อง.jpg,ประชาชาติ,,['N'],1.0,,,
+นาย,เผดิมชัย สะสมทรัพย์,True,False,False,True,แบ่งเขต,นครปฐม,5.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เผดิมชัย-สะสมทรัพย์.jpg,ชาติไทยพัฒนา,,['M'],1.0,,,
+นาย,สวาป เผ่าประทาน,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สวาป-เผ่าประทาน.jpg,ภูมิใจไทย,,"['G', 'F', 'F', 'G']",4.0,,,
+นาย,มานพ คีรีภูวดล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มานพ-คีรีภูวดล.jpg,ก้าวไกล,,[],,,,
+นาย,สมศักดิ์ คุณเงิน,True,False,False,True,แบ่งเขต,ขอนแก่น,7.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมศักดิ์-คุณเงิน.jpg,พลังประชารัฐ,,"['G', 'M', 'A', 'C', 'L', 'H', 'D']",6.0,0.0,1.0,0.0
+นางสาว,พิมพ์รพี พันธุ์วิชาติกุล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พิมพ์รพี-พันธุ์วิชาติกุล.jpg,ประชาธิปัตย์,,"['M', 'S']",2.0,,,
+นาย,เพชรภูมิ อาภรณ์รัตน์,True,False,False,True,แบ่งเขต,กำแพงเพชร,2.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เพชรภูมิ-อาภรณ์รัตน์.jpg,พลังประชารัฐ,,[],,,,
+นาย,ยุทธนา โพธสุธน,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ยุทธนา-โพธสุธน.jpg,พลังประชารัฐ,,['I'],,48644.0,1.0,0.002254083177911
+นาย,สุชาติ โชคชัยวัฒนากร,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุชาติ-โชคชัยวัฒนากร.jpg,ภูมิใจไทย,,[],,,,
+นาย,วัฒนา สิทธิวัง,True,False,False,False,แบ่งเขต,ลำปาง,4.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วัฒนา-สิทธิวัง.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,จัตุรงค์ เสริมสุข,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จัตุรงค์-เสริมสุข.jpg,,,[],,,,
+นาย,วิชัย ทิตตภักดี,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วิชัย-ทิตตภักดี.jpg,,,"['C', 'L', 'G', 'F']",3.0,8079288.0,1.0,0.37438095490295004
+นาย,ประสิทธิ์ ปทุมารักษ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ประสิทธิ์-ปทุมารักษ์.jpg,,,"['C', 'C', 'F']",3.0,,,
+พลอากาศเอก,แอร์บูล สุทธิวรรณ,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/แอร์บูล-สุทธิวรรณ.jpg,,,[],,,,
+พลเอก,เฉลิมพล ศรีสวัสดิ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เฉลิมพล-ศรีสวัสดิ์.jpg,,,"['A', 'F']",2.0,,,
+พลเรือเอก,ชาติชาย ศรีวรขาน,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชาติชาย-ศรีวรขาน.jpg,,,[],,,,
+พลเอก,ณรงค์พันธ์ จิตต์แก้วแท้,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ณรงค์พันธ์-จิตต์แก้วแท้.jpg,,,[],,,,
+พลตำรวจเอก,สุวัฒน์ แจ้งยอดสุข,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุวัฒน์-แจ้งยอดสุข.jpg,,,['F'],1.0,,,
+นาย,อาคม เติมพิทยาไพสิฐ,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อาคม-เติมพิทยาไพสิฐ.jpg,,,['C'],1.0,,,
+นาย,ปรีดี ดาวฉาย,False,False,True,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ปรีดี-ดาวฉาย.jpg,,,"['K', 'K', 'Q', 'J', 'G', 'K', 'K', 'K', 'K', 'L', 'M']",11.0,,,
+,วารีรัตน์ สิริธัญญ์สกุล,False,False,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วารีรัตน์-สิริธัญญ์สกุล.jpg,,,"['G', 'G', 'C']",2.0,20291536.0,1.0,0.9402764976477631
+นาย,สุพัฒนพงษ์ พันธ์มีเชาว์,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุพัฒนพงษ์-พันธ์มีเชาว์.jpg,,,"['F', 'F', 'G', 'N', 'D', 'M', 'C', 'M', 'K']",6.0,2295632.0,3.0,0.10637582176372101
+นาย,เอนก เหล่าธรรมทัศน์,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เอนก-เหล่าธรรมทัศน์.jpg,,,"['G', 'G']",2.0,,,
+กองตรี,อาญาสิทธิ์ ศรีสุวรรณ,True,False,False,True,แบ่งเขต,นครศรีธรรมราช,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อาญาสิทธิ์-ศรีสุวรรณ.jpg,พลังประชารัฐ,,[],,,,
+นาย,ต่อศักดิ์ อัศวเหม,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ต่อศักดิ์-อัศวเหม.jpg,พลังประชารัฐ,,"['M', 'G', 'I', 'N']",1.0,4735958.0,3.0,0.21945652617164602
+นาย,สุรพร ดนัยตั้งตระกูล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรพร-ดนัยตั้งตระกูล.jpg,พลังประชารัฐ,,[],,,,
+นาย,ชวน ชูจันทร์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชวน-ชูจันทร์.jpg,พลังประชารัฐ,,"['G', 'G', 'N']",3.0,,,
+นาย,จักพันธ์ ปิยพรไพบูลย์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จักพันธ์-ปิยพรไพบูลย์.jpg,ประชาธิปัตย์,,['I'],1.0,,,
+พล.ร.อ.,เชิงชาย ชมเชิงแพทย์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เชิงชาย-ชมเชิงแพทย์.jpg,,,"['G', 'L', 'G', 'C', 'C', 'G']",2.0,33314586.0,4.0,1.543743275258472
+นางสาว,สุภาพร กำเนิดผล,True,False,False,True,แบ่งเขต,สงขลา,6.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุภาพร-กำเนิดผล.jpg,ประชาธิปัตย์,,"['L', 'I', 'N', 'G', 'F', 'M', 'F', 'F']",3.0,14988527.0,5.0,0.69454375816887
+นางสาว,สุเนตตา แซ่โก๊ะ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุเนตตา-แซ่โก๊ะ.jpg,รวมพลัง,,[],,,,
+นาง,บุญญาพร นาตะธนภัทร,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุญญาพร-นาตะธนภัทร.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาย,สุรชาติ เทียนทอง,True,False,False,True,แบ่งเขต,กรุงเทพมหานคร,9.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรชาติ-เทียนทอง.jpg,เพื่อไทย,,"['M', 'G', 'G']",3.0,,,
+นาย,โกมินทร์ ทีฆธนานนท์,False,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/โกมินทร์-ทีฆธนานนท์.jpg,,,"['M', 'G', 'Q', 'C', 'L', 'G', 'G', 'G', 'G', 'G', 'L', 'L', 'L', 'L', 'G', 'G', 'L', 'G']",6.0,184338200.0,12.0,8.541929850884275
+นาย,ยอดยิ่ง แสนยากุล,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ยอดยิ่ง-แสนยากุล.jpg,พลังท้องถิ่นไท,,"['M', 'G', 'H']",1.0,12213536.0,2.0,0.565955226552335
+นาง,วารีรัตน์ แก้วเงิน,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วารีรัตน์-แก้วเงิน.jpg,เพื่อชาติ,,"['G', 'C', 'G', 'G', 'G', 'M', 'K']",5.0,7875850.0,2.0,0.364953971646066
+นาย,รองรักษ์ บุญศิริ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/รองรักษ์-บุญศิริ.jpg,,,"['G', 'N', 'Q', 'N', 'L', 'L', 'L', 'F']",0.0,6620922.0,8.0,0.306802666360941
+นาย,อิสรพงษ์ มากอำไพ,True,False,False,True,แบ่งเขต,ชุมพร,1.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อิสรพงษ์-มากอำไพ.jpg,ประชาธิปัตย์,,"['F', 'G', 'F', 'G', 'R']",2.0,2991674.0,3.0,0.138629266450005
+พลตำรวจเอก,ดำรงศักดิ์ กิตติประภัสร์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ดำรงศักดิ์-กิตติประภัสร์.jpg,,,"['N', 'H', 'N', 'H']",1.0,2854131.0,3.0,0.13225574941728901
+นาย,ประพันธ์ คูณมี,False,True,False,True,,,,,,,"['G', 'M', 'M', 'I']",2.0,600357.0,2.0,0.027819558721346
+นาย,ภาคิน สมมิตรธนกุล,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภาคิน-สมมิตรธนกุล.jpg,รวมไทยสร้างชาติ,,['M'],0.0,0.0,1.0,0.0
+นาย,ชัยทิพย์ กมลพันธ์ทิพย์,True,False,False,True,แบ่งเขต,ราชบุรี,3.0,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ชัยทิพย์-กมลพันธ์ทิพย์.jpg,พลังประชารัฐ,,[],,,,
+นาย,นราพัฒน์ แก้วทอง,True,False,False,False,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นราพัฒน์-แก้วทอง.jpg,ประชาธิปัตย์,,[],,,,
+นางสาว,จิราพร นาคดิลก,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จิราพร-นาคดิลก.jpg,เศรษฐกิจใหม่,,[],,,,
+พลเรือเอก,สมประสงค์ นิลสมัย,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมประสงค์-นิลสมัย.jpg,,,[],,,,
+พลเอก,วรเกียรติ รัตนานนท์,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วรเกียรติ-รัตนานนท์.jpg,,,[],,,,
+พลเอก,สนิธชนก สังขจันทร์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สนิธชนก-สังขจันทร์.jpg,,,[],,,,
+พล.อ.อ.,อลงกรณ์ วัณณรถ,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อลงกรณ์-วัณณรถ.jpg,,,[],,,,
+นางสาว,ภคอร จันทรคณา,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ภคอร-จันทรคณา.jpg,ไทยศรีวิไลย์,,"['P', 'G']",0.0,3561120.0,2.0,0.16501646012915902
+นางสาว,กิตติประภา จิวะสันติการ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/กิตติประภา-จิวะสันติการ.jpg,พลังประชารัฐ,,"['P', 'K', 'M']",0.0,3441504.0,3.0,0.15947365087397802
+นาย,สุวัฒน์ จิราพันธุ์,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุวัฒน์-จิราพันธุ์.jpg,,,[],,,,
+พันตำรวจเอก,จรุงวิทย์ ภุมมา,False,True,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จรุงวิทย์-ภุมมา.jpg,,,[],,,,
+พลอากาศเอก,นภาเดช ธูปะเตมีย์,False,True,False,False,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/นภาเดช-ธูปะเตมีย์.jpg,,,"['C', 'L']",1.0,1811.0,1.0,8.3918769739e-05
+นาย,เกริกมนตรี  รุจโสตถิรพัฒน์,True,False,False,True,บัญชีรายชื่อ,,,,,,[],,,,
+ผู้ช่วยศาสตราจารย์ ร้อยตำรวจเอก,จอมเดช ตรีเมฆ,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/จอมเดช-ตรีเมฆ.jpg,รวมพลัง,,[],,,,
+,เจือ ราชสีห์,True,False,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/เจือ-ราชสีห์.jpg,รวมไทยสร้างชาติ,,[],,,,
+นาง,บุศริณธญ์ วรพัฒนานัมน์,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/บุศริณธญ์-วรพัฒนานัมน์.jpg,เพื่อชาติ,,[],,,,
+,พันธุ์ศักดิ์ ซาบุ,False,False,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/พันธุ์ศักดิ์-ซาบุ.jpg,,,[],,,,
+นาง,มัลลิกา บุญมีตระกูล มหาสุข,True,False,False,True,บัญชีรายชื่อ,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/มัลลิกา-บุญมีตระกูล-มหาสุข.jpg,ประชาธิปัตย์,,[],,,,
+,วลัยพร รัตนเศรษฐ,False,False,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/วลัยพร-รัตนเศรษฐ.jpg,,,['J'],1.0,,,
+,ศุภชัย นาคสุวรรณ์,False,False,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ศุภชัย-นาคสุวรรณ์.jpg,,,"['G', 'C']",2.0,,,
+,สมศักดิ์ นิลบรรเจิดกุล,False,False,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สมศักดิ์-นิลบรรเจิดกุล.jpg,,,[],,,,
+,สิทธิพงศ์ วงศ์เลิศศักดิ์,False,False,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สิทธิพงศ์-วงศ์เลิศศักดิ์.jpg,,,[],,,,
+,สุธรรม ระหงษ์,False,False,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุธรรม-ระหงษ์.jpg,,,[],,,,
+,สุรบถ หลีกภัย,False,False,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุรบถ-หลีกภัย.jpg,,,"['M', 'M', 'I']",3.0,,,
+,อนุพร อรุณรัตน์,False,False,False,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/อนุพร-อรุณรัตน์.jpg,,,"['M', 'L', 'H']",3.0,,,
+นาย,สุนทร ปานแสงทอง,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/สุนทร-ปานแสงทอง.jpg,,,['G'],1.0,,,
+นาย,ธนกร วังบุญคงชนะ,False,False,True,True,,,,https://sheets.wevis.info/download/noco/They-Work-For-Us/People/Images/ธนกร-วังบุญคงชนะ.jpg,,,[],,,,
+นาย,อนุสิษฐ คุณากร,False,True,False,True,,,,,,,[],,,,
+นาย,ไชยยศ จิรเมธากร,True,False,False,False,บัญชีรายชื่อ,,,,,,['I'],,-86794.0,1.0,-0.004021891607261001
+,เดชทวี ศรีวิชัย,False,False,False,False,,,,,,,[],,,,
