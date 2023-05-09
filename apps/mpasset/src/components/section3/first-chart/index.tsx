@@ -2,10 +2,12 @@ import { debounce } from 'debounce';
 import React from 'react';
 import { usePersonStore } from '../../../store/person';
 import { NotFound } from '../../util/action';
+import { Question } from '../../util/icon-main';
 import ClickGuide from '../ClickGuide';
+import Dialog from '../Dialog';
 import Filter from '../Filter';
 import SearchPerson from '../SearchPerson';
-import LeftNav from './LeftNav';
+import Tutorial from '../tutorial';
 import MainNav from './MainNav';
 
 // Project = TheyWorkForUs, Table = Person
@@ -19,7 +21,11 @@ export type ScrollChartControlType = {
 
 const FirstChart = (props: Props) => {
   const [isOpenSearchDialog, setIsOpenSearchDialog] = React.useState(false)
-  const { filterPerson } = usePersonStore()
+  const {
+    filterPerson,
+    openTutorial,
+    setOpenTutorial
+  } = usePersonStore()
 
   const chartRef = React.useRef<HTMLDivElement>(null)
 
@@ -36,6 +42,8 @@ const FirstChart = (props: Props) => {
 
   React.useEffect(() => {
     if (chartRef.current) {
+      console.log(chartRef.current.clientHeight);
+
       setResolution({
         width: chartRef.current.clientWidth,
         height: chartRef.current.clientHeight
@@ -59,29 +67,20 @@ const FirstChart = (props: Props) => {
 
   return (
     <>
-      <Filter onOpenSeachDialog={() => setIsOpenSearchDialog(true)} />
-      <div className='flex flex-row justify-between px-[10px]'>
-        <div className='typo-b7 text-gray-3 typo-ibmplex'>*แสดงสีเฉพาะพรรคที่อยู่ในสภาสมัยล่าสุด</div>
-        <div className='typo-b7 text-right'>ล้านบาท</div>
-      </div>
-      <div className='px-0 w-full h-full flex-grow-1'>
+      <div className='h-full max-w-[743px] mx-auto flex flex-col pt-4'>
+        <Filter onOpenSeachDialog={() => setIsOpenSearchDialog(true)} />
+        <div className='flex flex-row justify-between px-[10px]'>
+          <div className='typo-b7 text-gray-3 typo-ibmplex'>*แสดงสีเฉพาะพรรคที่อยู่ในสภาสมัยล่าสุด</div>
+          <div className='typo-b7 text-right'>ล้านบาท</div>
+        </div>
         <div className='w-full h-full flex-grow-1 relative' ref={chartRef}>
           {filterPerson.length > 0 ?
             <>
-              <div className='w-full h-full flex flex-row'>
-                <div className='w-1/6 h-full'>
-                  <LeftNav
-                    width={resolution.width * .1666}
-                    height={resolution.height}
-                    scrollControl={mainScroll}
-                  />
+              <MainNav width={resolution.width} height={resolution.height} onScroll={setMainScroll} />
+              <div className='absolute bottom-0 inset-x-0'>
+                <div className='pb-[1rem]'>
+                  <ClickGuide />
                 </div>
-                <div className='w-5/6 h-full'>
-                  <MainNav width={resolution.width * .83333} height={resolution.height} onScroll={setMainScroll} />
-                </div>
-              </div>
-              <div className='absolute bottom-[10px] inset-x-0'>
-                <ClickGuide />
               </div>
             </>
             :
@@ -89,9 +88,17 @@ const FirstChart = (props: Props) => {
               <NotFound />
             </div>
           }
+          <div className='absolute bottom-[10px] right-[10px]'>
+            <div className='flex flex-col gap-[5px]'>
+              <button onClick={() => setOpenTutorial(true)}>
+                <Question />
+              </button>
+            </div>
+          </div>
         </div>
+        <Dialog open={openTutorial} onClose={() => setOpenTutorial(false)}><Tutorial /></Dialog>
+        <SearchPerson open={isOpenSearchDialog} onClose={() => setIsOpenSearchDialog(false)} />
       </div>
-      <SearchPerson open={isOpenSearchDialog} onClose={() => setIsOpenSearchDialog(false)} />
     </>
 
   )

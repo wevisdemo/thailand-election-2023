@@ -8,20 +8,12 @@ const Section3 = dynamic(() => import('./section3'), { loading: () => <LoadingSc
 export default function Home() {
   return (
     <div className='bg-white text-black'>
-      <div className='h-header tablet:h-tablet-header snap-mandatory overflow-scroll snap-always scroll-smooth snap-y'
+      <div className='h-screen overflow-scroll scrollbar-hide
+      snap-mandatory snap-always scroll-smooth snap-y'
         id='display-area'>
-        <div className='snap-center shrink-0 w-screen h-header tablet:h-tablet-header'><Section1 /></div>
-        <div className='snap-center shrink-0 w-screen h-header tablet:h-tablet-header'><Section2 /></div>
-        <div className='snap-center shrink-0 w-screen h-header tablet:h-tablet-header'><Section3 /></div>
-        <div className='snap-center shrink-0 w-screen h-header tablet:h-tablet-header'>
-          <div className='flex flex-col justify-end h-full'>
-            <election-bottom
-              index-path="/mpasset"
-              about-path="/mpasset/about"
-            ></election-bottom>
-            <election-footer></election-footer>
-          </div>
-        </div>
+        <div className='snap-center shrink-0 w-screen h-screen'><Section1 /></div>
+        <div className='snap-center shrink-0 w-screen h-screen'><Section2 /></div>
+        <div id='section-3' className='snap-center shrink-0 w-screen h-screen'><Section3 /></div>
       </div>
     </div >
   )

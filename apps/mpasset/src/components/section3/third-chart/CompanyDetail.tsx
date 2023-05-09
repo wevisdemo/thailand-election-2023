@@ -176,14 +176,16 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
                   <Asset />
                   <div className='font-bold typo-b5'>สัดส่วนหุ้นของบริษัท</div>
                 </div>
-                <div className='inline-flex gap-x-[10px] typo-b7 items-center'>
-                  <div className='inline-flex gap-x-[5px] items-center'>
-                    <div className='w-[10px] h-[10px] rounded-[2px] bg-gray-2' />
-                    <div className='leading-[150%]'>เกี่ยวกับนักการเมือง</div>
-                  </div>
-                  <div className='inline-flex gap-x-[5px] items-center'>
-                    <div className='w-[10px] h-[10px] rounded-[2px] bg-gray-3' />
-                    <div className='leading-[150%]'>ไม่เกี่ยวกับนักการเมือง</div>
+                <div>
+                  <div className='inline-flex gap-x-[10px] typo-b7 items-center'>
+                    <div className='inline-flex gap-x-[5px] items-center'>
+                      <div className='w-[10px] h-[10px] rounded-[2px] bg-gray-2' />
+                      <div className='leading-[150%]'>เกี่ยวกับนักการเมือง</div>
+                    </div>
+                    <div className='inline-flex gap-x-[5px] items-center'>
+                      <div className='w-[10px] h-[10px] rounded-[2px] bg-gray-3' />
+                      <div className='leading-[150%]'>ไม่เกี่ยวกับนักการเมือง</div>
+                    </div>
                   </div>
                 </div>
                 <div>

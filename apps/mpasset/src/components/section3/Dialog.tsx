@@ -13,7 +13,7 @@ const Dialog = ({ children, open }: Props) => {
     <div className={`absolute inset-0 
       flex flex-col justify-center items-center transition-all duration-500
       bg-transparent
-      ${open ? 'visible opacity-100 z-50' : 'invisible opacity-0 z-40'}
+      ${open ? 'visible opacity-100 z-50' : 'invisible opacity-0 -z-10'}
       `}>
       {children}
     </div>

@@ -61,8 +61,8 @@ const MainNav = ({ width, height, onScroll }: Props) => {
       // minPct = -30
       const xScale = d3.scaleLinear().domain([-10, 30]).range([0, width])
 
-      svg.selectAll('line').remove()
-      svg.append('line').attr('x1', xScale(0)).attr('y1', 0).attr('x2', xScale(0)).attr('y2', Math.max(contentHeight, height)).attr('stroke', 'black')
+      // svg.selectAll('line').remove()
+      // svg.append('line').attr('x1', xScale(0)).attr('y1', 0).attr('x2', xScale(0)).attr('y2', Math.max(contentHeight, height)).attr('stroke', 'black')
 
       const avatar_size = 400
       svg.selectAll('defs').remove()
@@ -223,9 +223,7 @@ const MainNav = ({ width, height, onScroll }: Props) => {
   }, [filterPerson, height, width, setSelectedPerson, currentStep, setCurrentStep, party, handleClick])
 
   return (
-    <div className={`overflow-y-scroll overflow-x-hidden relative
-      border-l-[1px] border-l-black 
-      `}
+    <div className={`overflow-y-scroll overflow-x-hidden relative`}
       style={{ maxHeight: `${height}px` }}
       onScroll={(e) => handleScroll(e)}>
       <div className='absolute top-0 inset-x-0 h-1/2 pointer-events-none

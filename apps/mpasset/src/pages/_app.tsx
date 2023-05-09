@@ -20,7 +20,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   });
   return (
     <div className='relative'>
-      <election-header />
       <Component {...pageProps} />
       {process.env.NODE_ENV !== "development" &&
         <election-cookie></election-cookie>

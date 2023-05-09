@@ -27,13 +27,17 @@ enum VIEW_TYPE {
 
 
 const Section3 = () => {
+  React.useEffect(() => {
+    // @ts-ignore
+    import('@thailand-election-2023/components');
+  });
+
   const [isLoading, setIsLoading] = React.useState(true)
 
   const {
     person, setPerson,
     yourCandidatePerson, setYourCandidatePerson,
     selectedPerson,
-    setPersonOutlier,
     selectedCompany,
     party, setParty,
     setFilterPerson,
@@ -41,9 +45,6 @@ const Section3 = () => {
     selectedBusinessType,
     selectedParty,
     selectedSort,
-
-    openTutorial,
-    setOpenTutorial
   } = usePersonStore();
 
   const [view, setView] = React.useState(VIEW_TYPE.MAIN_VIEW)
@@ -165,30 +166,27 @@ const Section3 = () => {
   return (
     <div className='h-full inset-0 flex flex-col relative overflow-hidden'>
       <OnBoard>
-        <FirstChart />
-        <Dialog open={view === VIEW_TYPE.SELCTED_PERSON_CHART}>
-          <div className='w-full h-full bg-white bg-opacity-50'>
-            <SecondChart />
+        <div className='relative h-full'>
+
+          <div className='w-full h-full'>
+            <FirstChart />
           </div>
-        </Dialog>
-        <Dialog open={view === VIEW_TYPE.SELECTED_COMPANY_CHART}>
-          <div className='w-full h-full bg-white bg-opacity-50'>
-            <ThirdChart />
-          </div>
-        </Dialog>
-        <Dialog open={(!isLoading && openTutorial)} onClose={() => setOpenTutorial(false)}><Tutorial /></Dialog>
-        <div className='absolute bottom-[10px] right-[10px]'>
-          <div className='flex flex-col gap-[5px]'>
-            <button onClick={() => setOpenTutorial(true)}>
-              <Question />
-            </button>
-            <FacebookShareButton url={`${process.env.SECURE_HOST}${process.env.BASE_PATH}`}
-              className='cursor-pointer'>
-              <Share />
-            </FacebookShareButton>
-          </div>
+          <Dialog open={view === VIEW_TYPE.SELCTED_PERSON_CHART}>
+            <div className='w-full h-full bg-white bg-opacity-50'>
+              <SecondChart />
+            </div>
+          </Dialog>
+          <Dialog open={view === VIEW_TYPE.SELECTED_COMPANY_CHART}>
+            <div className='w-full h-full bg-white bg-opacity-50'>
+              <ThirdChart />
+            </div>
+          </Dialog>
+          <Dialog open={isLoading}><LoadingScreen /></Dialog>
+
         </div>
-        <Dialog open={isLoading}><LoadingScreen /></Dialog>
+        <div className='z-[99999]'>
+          <election-footer></election-footer>
+        </div>
       </OnBoard>
     </div >
   )
