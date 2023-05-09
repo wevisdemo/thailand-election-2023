@@ -101,7 +101,7 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
     <div className={`absolute inset-0 overflow-x-hidden overflow-y-scroll 
       bg-white z-30
       flex flex-col
-      ${open ? 'visible opacity-100' : 'hidden opacity-0'} transition-all`}>
+      ${open ? 'visible opacity-100 z-50' : 'hidden opacity-0 z-0'} transition-all`}>
       <div>
         <div className='flex flex-row items-center px-[10px] gap-x-[8px] py-[5px]'>
           <svg width={20} height={18}

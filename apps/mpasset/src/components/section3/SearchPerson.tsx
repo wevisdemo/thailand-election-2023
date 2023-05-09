@@ -31,7 +31,7 @@ const SearchPerson = ({ open, onClose }: Props) => {
   return (
     <div className={`absolute inset-0 overflow-x-hidden overflow-y-scroll 
       bg-white
-      ${open ? 'visible opacity-100' : 'invisible opacity-0'} transition-all`}>
+      ${open ? 'visible opacity-100 z-50' : 'invisible opacity-0 z-0'} transition-all`}>
       <div className='flex flex-row items-center px-[10px] gap-x-[8px] py-[5px]'>
         <svg width={20} height={18}
           className='cursor-pointer hover:-translate-x-1 transition-all'
