@@ -3,7 +3,6 @@ import dynamic from 'next/dynamic'
 import React from 'react'
 import { usePersonStore } from '../../../store/person'
 import { List } from '../../util/icon-main'
-import ShuffleButton from '../ShuffleButton'
 import CompanyDetail from './CompanyDetail'
 
 type Props = {}
@@ -33,7 +32,6 @@ const SelectCompanyDetail = (props: Props) => {
           <button onClick={() => { setSelectedCompany(null); setSelectedPerson(null) }} >
             <List />
           </button>
-          <ShuffleButton />
         </div>
       </div>
       <div className='flex-grow-1 h-full'>

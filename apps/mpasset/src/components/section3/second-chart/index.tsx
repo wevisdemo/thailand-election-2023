@@ -4,11 +4,10 @@ import dynamic from 'next/dynamic'
 import React from 'react'
 import { CredenData } from '../../../models/person'
 import { usePersonStore } from '../../../store/person'
-import { List, Search, Shuffle } from '../../util/icon-main'
+import { List, Search } from '../../util/icon-main'
+import { LoadingScreen } from '../Loading'
 import SearchPerson from '../SearchPerson'
 import PersonDetail from './PersonDetail'
-import { LoadingScreen } from '../Loading'
-import ShuffleButton from '../ShuffleButton'
 
 const PersonToCompanyRelationChart = dynamic(() => import('./PersonToCompanyRelationChart'))
 
@@ -95,7 +94,6 @@ const SelectedPersonDetail = () => {
           <button onClick={() => { setIsOpenSearchDialog(true) }} >
             <Search />
           </button>
-          <ShuffleButton />
         </div>
       </div>
       <div className='flex-grow-1 h-full'>

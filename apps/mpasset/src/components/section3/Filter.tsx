@@ -7,7 +7,6 @@ import { Clear, Information } from '../util/icon-main'
 import SearchBusinessType from './SearchBusinessType'
 import SearchParty from './SearchParty'
 import SelectDataset from './SelectDataset'
-import ShuffleButton from './ShuffleButton'
 import InfoDialog from './first-chart/InfoDialog'
 
 export type SelectedFilterType = {
@@ -56,7 +55,6 @@ const Filter = ({ onOpenSeachDialog }: Props) => {
             <path d="M11.7864 12.761C12.6911 13.2133 13.1092 13.8446 13.7142 14.5168C14.3766 15.2528 14.7908 16.667 15.5316 17.2597C16.4331 17.9809 17.1718 19.0385 17.8033 19.9857" stroke="#090909" strokeWidth={2} strokeLinecap="round" />
           </svg>
         </div>
-        <ShuffleButton />
         <button onClick={() => {
           setSelectedBusinessType(BusinessTypeData[0])
           setSelectedParty(null)

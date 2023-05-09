@@ -134,7 +134,7 @@ const Section3 = () => {
 
   React.useMemo(async () => {
     if (person.length > 0 && yourCandidatePerson.length > 0) {
-      let outFilter: PersonCustom[] = selectedDataSet === 'นักการเมือง 62' ? Array.from(person) : Array.from(yourCandidatePerson)
+      let outFilter: PersonCustom[] = selectedDataSet === 'นักการเมือง 62' ? person : yourCandidatePerson
 
       if (selectedBusinessType && selectedBusinessType.code !== 'all') {
         outFilter = outFilter.filter((d) => d.companyType!.includes(selectedBusinessType.code))
