@@ -1,13 +1,12 @@
+import { debounce } from 'debounce';
 import React from 'react';
+import { usePersonStore } from '../../../store/person';
+import { NotFound } from '../../util/action';
 import ClickGuide from '../ClickGuide';
+import Filter from '../Filter';
+import SearchPerson from '../SearchPerson';
 import LeftNav from './LeftNav';
 import MainNav from './MainNav';
-import { usePersonStore } from '../../../store/person';
-import { PersonCustom } from '../../../models/person';
-import SearchPerson from '../SearchPerson';
-import Filter, { SelectedFilterType } from '../Filter';
-import { NotFound } from '../../util/action';
-import { debounce } from 'debounce';
 
 // Project = TheyWorkForUs, Table = Person
 type Props = {}

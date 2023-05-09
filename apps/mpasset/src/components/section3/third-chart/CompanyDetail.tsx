@@ -43,7 +43,7 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
       // const r
       // const total = (Array.isArray(selectedCompany.company_shareholder) ? selectedCompany.company_shareholder.length : 0)
       // const total = (Array.isArray(directorData) ? directorData.length : 0) + (Array.isArray(shareholderData) ? shareholderData.length : 0)
-      const countShareholder = (Array.isArray(selectedCompany.company_shareholder) ? selectedCompany.company_shareholder.length : 1)
+      const countShareholder = (Array.isArray(selectedCompany.company_shareholder) ? selectedCompany.company_shareholder.length : 0)
       const countGovFund = (Array.isArray(selectedCompany.gov_fund_proj) ? selectedCompany.gov_fund_proj.length : 0)
       //   + (Array.isArray(shareholderData) ? shareholderData.reduce((acc, cur) => acc + (Array.isArray(cur.gov_fund_proj) ? 1 : 0), 0) : 0)
       const countPolShareholder = (Array.isArray(selectedCompany.company_shareholder) ? selectedCompany.company_shareholder.reduce((sum, cur) => sum + (cur.person ? 1 : 0), 0) : 1)

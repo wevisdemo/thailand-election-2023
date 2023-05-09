@@ -107,7 +107,11 @@ const CompanyToPersonRelationChart = (props: Props) => {
         .on("mouseover", (_, d) => {
           tooltip.style("visibility", "visible");
           if (d.height === 0) {
-            tooltip.html(`${String(d.data.shareholderData?.Firstname)} ${String(d.data.shareholderData?.Lastname)}`)
+            if (type === 'shareholder') {
+              tooltip.html(`${String(d.data.shareholderData?.Firstname)} ${String(d.data.shareholderData?.Lastname)}`)
+            } else {
+              tooltip.html(`${String(d.data.personData?.Name)}`)
+            }
           } else {
             tooltip.html(String(d.data.companyData?.company_name_th))
           }

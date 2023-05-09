@@ -3,7 +3,7 @@ import { LoadingScreen } from './section3/Loading';
 
 const Section1 = dynamic(() => import('./section1'), { loading: () => <LoadingScreen /> });
 const Section2 = dynamic(() => import('./section2'), { loading: () => <LoadingScreen /> });
-const Section3 = dynamic(() => import('./section3'), { loading: () => <LoadingScreen /> });
+const Section3 = dynamic(() => import('./section3'), { loading: () => <LoadingScreen />, ssr: false });
 
 export default function Home() {
   return (
