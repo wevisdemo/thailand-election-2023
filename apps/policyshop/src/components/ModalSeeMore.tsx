@@ -244,7 +244,6 @@ const ModalSeeMore = () => {
 							ความยากก็คือ อาจจะโดนตีตกง่าย ๆ เพราะมี ส.ส.หรือส.ว. โหวตให้ไม่พอ
 						</p>
 					</SquareWrapper>
-					<SqualWithFace>เช่น กรณี xxxxxxxxxx</SqualWithFace>
 					<ArrowsType2 />
 					<SquareWrapper
 						bgColor="bg-black"

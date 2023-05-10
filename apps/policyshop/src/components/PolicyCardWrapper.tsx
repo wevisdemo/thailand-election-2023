@@ -1,5 +1,5 @@
 import { Policy } from '@/types/components';
-import { FunctionComponent } from 'react';
+import { FunctionComponent, useEffect } from 'react';
 import PolicyCard from './PolicyCard';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import { Party } from '@thailand-election-2023/database';
@@ -9,17 +9,23 @@ interface PropsType {
 	policyList: Policy[];
 	partyList: Party[];
 	page?: string;
+	setIsReady: (arg: boolean) => void;
 }
 
 const PolicyCardWrapper: FunctionComponent<PropsType> = ({
 	policyList,
 	partyList,
 	page,
+	setIsReady,
 }) => {
 	const findParty = (partyName: string) => {
 		const result = partyList.find((party) => party.Name === partyName);
 		return result || null;
 	};
+
+	useEffect(() => {
+		setIsReady(true);
+	}, []);
 
 	return (
 		<>

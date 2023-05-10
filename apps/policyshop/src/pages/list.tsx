@@ -10,6 +10,7 @@ import { memo, useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
 import { useRouter } from 'next/router';
 import { hotTopicList } from '@/utils/data';
+import Loading from '@/components/Loading';
 
 interface PropsType {
 	policies: Policy[];
@@ -34,6 +35,7 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 	}, [] as string[]);
 
 	const router = useRouter();
+	const [isReady, setReady] = useState<boolean>(false);
 	const [displayPolicies, setDisplayPolicies] = useState<Policy[]>(policies);
 	const [optionParties, setOptionParties] = useState<IDropdownOption<string>[]>(
 		[]
@@ -92,8 +94,8 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 			label: `นโยบายทั้งหมด (${policies.length})`,
 			value: 'นโยบายทั้งหมด',
 		};
-		policyOptions = [...policyOptions, defaultPolicyOption];
 		policyOptions = policyOptions.sort((i, j) => (i.label < j.label ? -1 : 1));
+		policyOptions = [defaultPolicyOption, ...policyOptions];
 
 		// if hot fetch only hot topic
 		if (hotQuery) {
@@ -137,8 +139,8 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 			label: `ดูของทุกพรรค (${partyPolicyLength})`,
 			value: 'ดูของทุกพรรค',
 		};
-		partyOptions = [...partyOptions, defaultPartyOption];
 		partyOptions = partyOptions.sort((i, j) => (i.label < j.label ? -1 : 1));
+		partyOptions = [defaultPartyOption, ...partyOptions];
 		setOptionParties(partyOptions);
 
 		// update
@@ -221,6 +223,11 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 		replaceUrl(query);
 	}, [selectedParty, selectedTopic]);
 
+	useEffect(() => {
+		setReady(true);
+		console.log('mount 1 => ', Date.now());
+	}, []);
+
 	return (
 		<>
 			<main>
@@ -244,7 +251,7 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 									onSelect={setSelectedParty}
 								/>
 							</div>
-							<div className="flex justify-end items-center mt-[32px]">
+							<div className="flex justify-end items-center mt-[32px] mb-[20px]">
 								<RandomButton onClick={onClickShuffle} />
 							</div>
 						</TemplatePolicyList>

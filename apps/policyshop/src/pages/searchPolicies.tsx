@@ -1,4 +1,5 @@
 import React, { memo, useEffect, useState } from 'react';
+import Lottie from 'react-lottie';
 import { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
 import { fetchParties, fetchPolicy, shufflePolicies } from '@/utils';
@@ -7,6 +8,7 @@ import Layout from '@/components/Layout';
 import RandomButton from '@/components/RandomButton';
 import TemplatePolicyList from '@/components/Template/PolicyList';
 import { Party, Policy } from '@/types/components';
+import * as loadingLottie from '../..//public/loading.json';
 
 interface PropsType {
 	policies: Policy[];
@@ -16,6 +18,7 @@ interface PropsType {
 const SearchPolicies: NextPage<PropsType> = ({ policies, parties }) => {
 	const router = useRouter();
 	const { topic } = router.query;
+	const [isReady, setIsReady] = useState<boolean>(false);
 	const [displayPolicies, setDisplayPolicies] = useState<Policy[]>([]);
 
 	useEffect(() => {
@@ -26,6 +29,10 @@ const SearchPolicies: NextPage<PropsType> = ({ policies, parties }) => {
 		}
 	}, [topic]);
 
+	useEffect(() => {
+		setIsReady(true);
+	}, []);
+
 	const onClickShuffle = (): void => {
 		setDisplayPolicies((curr) => [...shufflePolicies(curr)]);
 	};
@@ -34,21 +41,34 @@ const SearchPolicies: NextPage<PropsType> = ({ policies, parties }) => {
 		setDisplayPolicies([]);
 	};
 
+	const lottieOptions = {
+		loop: true,
+		autoplay: true,
+		animationData: loadingLottie,
+		rendererSettings: {
+			preserveAspectRatio: 'xMidYMid slice',
+		},
+	};
+
 	return (
 		<>
 			<main>
-				<Layout title="ค้นหานโยบาย">
-					<SearchBar onClear={onClear} />
-					<TemplatePolicyList
-						policyList={displayPolicies}
-						partyList={parties}
-						page="SearchPolicies"
-					>
-						<div className="flex justify-end items-center mt-[32px]">
-							<RandomButton onClick={onClickShuffle} />
-						</div>
-					</TemplatePolicyList>
-				</Layout>
+				{isReady ? (
+					<Layout title="ค้นหานโยบาย">
+						<SearchBar onClear={onClear} />
+						<TemplatePolicyList
+							policyList={displayPolicies}
+							partyList={parties}
+							page="SearchPolicies"
+						>
+							<div className="flex justify-end items-center mt-[32px]">
+								<RandomButton onClick={onClickShuffle} />
+							</div>
+						</TemplatePolicyList>
+					</Layout>
+				) : (
+					<Lottie options={lottieOptions}></Lottie>
+				)}
 			</main>
 		</>
 	);

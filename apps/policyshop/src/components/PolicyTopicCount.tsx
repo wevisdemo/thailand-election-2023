@@ -1,4 +1,5 @@
 import { IPolicyTopicCount } from '@/types/components';
+import { TopicType, getSmallTopicIconUrl } from '@/utils/data';
 import { imgPrefix } from '@/utils/path';
 import { FunctionComponent } from 'react';
 
@@ -11,7 +12,11 @@ const PolicyCategoryCount: FunctionComponent<PropsType> = ({ item }) => {
 		<div className="flex justify-between w-full">
 			<div className="flex items-center">
 				<img
-					src={`${imgPrefix}/plus.svg`}
+					src={
+						getSmallTopicIconUrl(item.topic as TopicType)
+							? getSmallTopicIconUrl(item.topic as TopicType)
+							: `${imgPrefix}/plus.svg`
+					}
 					alt="plus-icon"
 					className="mr-[4px] w-[24px] h-[24px]"
 				/>

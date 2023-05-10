@@ -1,6 +1,7 @@
 import { Party, Policy } from '@/types/components';
-import { FunctionComponent } from 'react';
+import { FunctionComponent, useState } from 'react';
 import PolicyCardWrapper from '../PolicyCardWrapper';
+import Loading from '../Loading';
 
 interface PropsType {
 	policyList: Policy[];
@@ -15,15 +16,26 @@ const TemplatePolicyList: FunctionComponent<PropsType> = ({
 	partyList,
 	page,
 }) => {
+	const [isReady, setIsReady] = useState<boolean>(false);
 	return (
 		<div>
 			<div className="grid gap-[8px]">{children}</div>
-			<div className="mt-[16px]">
+			<div
+				className="mt-[16px]"
+				style={{ display: isReady ? 'unset' : 'none' }}
+			>
 				<PolicyCardWrapper
 					policyList={policyList}
 					partyList={partyList}
 					page={page}
+					setIsReady={setIsReady}
 				/>
+			</div>
+			<div
+				className="mt-[16px]"
+				style={{ display: isReady ? 'none' : 'unset' }}
+			>
+				<Loading />
 			</div>
 		</div>
 	);
