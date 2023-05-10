@@ -9,23 +9,17 @@ interface PropsType {
 	policyList: Policy[];
 	partyList: Party[];
 	page?: string;
-	setIsReady: (arg: boolean) => void;
 }
 
 const PolicyCardWrapper: FunctionComponent<PropsType> = ({
 	policyList,
 	partyList,
 	page,
-	setIsReady,
 }) => {
 	const findParty = (partyName: string) => {
 		const result = partyList.find((party) => party.Name === partyName);
 		return result || null;
 	};
-
-	useEffect(() => {
-		setIsReady(true);
-	}, []);
 
 	return (
 		<>

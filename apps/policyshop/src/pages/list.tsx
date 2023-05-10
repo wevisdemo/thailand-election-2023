@@ -10,6 +10,7 @@ import { memo, useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
 import { useRouter } from 'next/router';
 import { hotTopicList } from '@/utils/data';
+import Loading from '@/components/Loading';
 
 interface PropsType {
 	policies: Policy[];
@@ -45,6 +46,7 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 		useState<IDropdownOption<string> | null>(null);
 	const [selectedTopic, setSelectedTopic] =
 		useState<IDropdownOption<string> | null>(null);
+	const [isReady, setIsReady] = useState<boolean>(false);
 
 	const { hot: hotQuery, topic: topicQuery, party: partyQuery } = router.query;
 	const title = hotQuery ? 'นโยบายประเด็นร้อน' : 'นโยบายตามประเด็น';
@@ -228,26 +230,34 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 					<HowToLabel />
 					<Clipboard />
 					{selectedTopic && selectedParty && (
-						<TemplatePolicyList
-							policyList={displayPolicies}
-							partyList={parties}
-						>
-							<div className="flex flex-col md:flex-row gap-[16px]">
-								<Dropdown
-									options={optionTopics}
-									currentOption={selectedTopic}
-									onSelect={setSelectedTopic}
-								/>
-								<Dropdown
-									options={optionParties}
-									currentOption={selectedParty}
-									onSelect={setSelectedParty}
-								/>
+						<>
+							<div style={{ display: isReady ? 'unset' : 'none' }}>
+								<TemplatePolicyList
+									policyList={displayPolicies}
+									partyList={parties}
+									setIsReady={setIsReady}
+								>
+									<div className="flex flex-col md:flex-row gap-[16px]">
+										<Dropdown
+											options={optionTopics}
+											currentOption={selectedTopic}
+											onSelect={setSelectedTopic}
+										/>
+										<Dropdown
+											options={optionParties}
+											currentOption={selectedParty}
+											onSelect={setSelectedParty}
+										/>
+									</div>
+									<div className="flex justify-end items-center mt-[32px] mb-[20px]">
+										<RandomButton onClick={onClickShuffle} />
+									</div>
+								</TemplatePolicyList>
 							</div>
-							<div className="flex justify-end items-center mt-[32px] mb-[20px]">
-								<RandomButton onClick={onClickShuffle} />
+							<div style={{ display: isReady ? 'none' : 'unset' }}>
+								<Loading />
 							</div>
-						</TemplatePolicyList>
+						</>
 					)}
 				</Layout>
 			</main>
