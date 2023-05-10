@@ -10,7 +10,6 @@ import { memo, useEffect, useState } from 'react';
 import Layout from '@/components/Layout';
 import { useRouter } from 'next/router';
 import { hotTopicList } from '@/utils/data';
-import Loading from '@/components/Loading';
 
 interface PropsType {
 	policies: Policy[];
@@ -35,7 +34,6 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 	}, [] as string[]);
 
 	const router = useRouter();
-	const [isReady, setReady] = useState<boolean>(false);
 	const [displayPolicies, setDisplayPolicies] = useState<Policy[]>(policies);
 	const [optionParties, setOptionParties] = useState<IDropdownOption<string>[]>(
 		[]
@@ -222,11 +220,6 @@ const ListPage: NextPage<PropsType> = ({ policies, parties }) => {
 
 		replaceUrl(query);
 	}, [selectedParty, selectedTopic]);
-
-	useEffect(() => {
-		setReady(true);
-		console.log('mount 1 => ', Date.now());
-	}, []);
 
 	return (
 		<>
