@@ -9,7 +9,7 @@ type Props = {
 }
 
 const SearchPerson = ({ open, onClose }: Props) => {
-  const { person, yourCandidatePerson, selectedDataSet, setSelectedPerson } = usePersonStore()
+  const { party, person, yourCandidatePerson, selectedDataSet, setSelectedPerson } = usePersonStore()
 
   const [searchTerm, setSearchTerm] = React.useState("")
   const [searchResult, setSearchResult] = React.useState<PersonCustom[]>(person)
@@ -66,7 +66,11 @@ const SearchPerson = ({ open, onClose }: Props) => {
                 className="py-[5.5px] px-[20px] w-full text-left"
                 onClick={() => {
                   onClose();
-                  setSelectedPerson(data);
+                  const p = party.find((p) => p.Name === data.PartyName)
+                  if (p)
+                    setSelectedPerson({ ...data, Party: { Id: p.Id, Name: p.Name, Color: p.Color, Images: Array.isArray(p.Images) ? p.Images[0]!.url : null } })
+                  else
+                    setSelectedPerson(data)
                 }}
               >
                 <div className='typo-b4 typo-ibmplex leading-[150%]'>
