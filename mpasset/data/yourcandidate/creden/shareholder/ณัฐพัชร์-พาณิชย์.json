@@ -1,1 +1,801 @@
-[{"full_address":"20\/9  ตรอกโรงพักศาลาแดง (ซอยสนามคลี) ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"G","company_name_th":"ควอนตัม เทคโนโลยี คอร์ปอเรชั่น จำกัด","pct_share":0.0002,"obj_tname":"-","company_id":"0105564082311","reg_date":"19\/05\/2564","company_name_en":"QUANTUM TECHNOLOGY CORPORATION LIMITED","tsic":47411,"cap_amt":5000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ช่อผูก","value_share":0,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"พิมพ์ชนก"},{"Lastname":"อดิสวเทพกุล","value_share":0,"Nationality":"TH","pct_share":100,"count_share":499998,"Firstname":"ประภาส"},{"Lastname":"พาณิชย์","value_share":0,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"ณัฐพัชร์","person":{"Number":11,"Title":"นาย","Name":"ณัฐพัชร์ พาณิชย์","PartyName":"พลังสังคมใหม่","MpType":"แบ่งเขต","Id":"3861","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังสังคมใหม่\/ณัฐพัชร์-พาณิชย์.webp","Party":{"Name":"พลังสังคมใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":86,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/iN-VMOD5Vay0JsdkWa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":1,"gov_fund_proj":null},{"full_address":"82\/747 หมู่บ้านซีเมนต์ไทย ซอยซีเมนต์ไทย 15(15\/4) ถนนประชาชื่น แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร","financial":[{"year":"2563","income":563544.53},{"year":"2562","income":974726.75},{"year":"2561","income":1259730.8600000001},{"year":"2560","income":1041369.53}],"value_share":53232,"submit_obj_big_type":"M","company_name_th":"พัฒนาคุณภาพชีวิตผู้มีรายได้น้อย จำกัด","pct_share":0.5,"obj_tname":"กิจกรรมทางกฎหมาย","company_id":"0105542083705","reg_date":"29\/10\/2542","company_name_en":"PATTANAKHUNNAPAPCHEEVITPHUMEERAIDAINOI CO., LTD.","tsic":69100,"cap_amt":5000000,"company_value":10646413,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"จิตต์แจ้ง","value_share":9981012,"Nationality":"TH","pct_share":93.75,"count_share":46875,"Firstname":"ณัฐ"},{"Lastname":"พาณิชย์","value_share":53232,"Nationality":"TH","pct_share":0.5,"count_share":250,"Firstname":"ณัฐพัชร์","person":{"Number":11,"Title":"นาย","Name":"ณัฐพัชร์ พาณิชย์","PartyName":"พลังสังคมใหม่","MpType":"แบ่งเขต","Id":"3861","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังสังคมใหม่\/ณัฐพัชร์-พาณิชย์.webp","Party":{"Name":"พลังสังคมใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":86,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/iN-VMOD5Vay0JsdkWa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ฉายทองคำ","value_share":53232,"Nationality":"TH","pct_share":0.5,"count_share":250,"Firstname":"ณัฐพร"},{"Lastname":"จิตต์แจ้ง","value_share":532321,"Nationality":"TH","pct_share":5,"count_share":2500,"Firstname":"สุรชาติ"},{"Lastname":"พูลสุวรรณ์","value_share":26616,"Nationality":"TH","pct_share":0.25,"count_share":125,"Firstname":"ไพทูรย์"}],"count_shareholder":250,"gov_fund_proj":null},{"full_address":"20\/9 ตรอกโรงพักศาลาแดง (ซอยสนามคลี) ถนนวิทยุ  แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"K","company_name_th":"ไอ เพย์ คอร์ปอเรชั่น จำกัด","pct_share":0.0,"obj_tname":"-","company_id":"0105556145686","reg_date":"09\/09\/2556","company_name_en":"I PAY CORPORATION LTD.","tsic":66192,"cap_amt":100000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Firstname":"ณัฐพัชร์","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"พาณิชย์","person":{"Number":11,"Title":"นาย","Name":"ณัฐพัชร์ พาณิชย์","PartyName":"พลังสังคมใหม่","MpType":"แบ่งเขต","Id":"3861","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังสังคมใหม่\/ณัฐพัชร์-พาณิชย์.webp","Party":{"Name":"พลังสังคมใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":86,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/iN-VMOD5Vay0JsdkWa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"อดิสยเทพกุล","value_share":0,"Nationality":"TH","pct_share":100,"count_share":9999998,"Firstname":"ประภาส"},{"Firstname":"พินทิตา","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"ต้นทอง"}],"count_shareholder":1,"gov_fund_proj":null},{"full_address":"20\/9 ซอยสนามคลี ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร","financial":[{"year":"2565","income":0},{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"G","company_name_th":"นอร์ทสตาร์ ดิวตี้ฟรี จำกัด","pct_share":0.0,"obj_tname":"การขายปลีกสินค้าอื่นๆในร้านค้าทั่วไป","company_id":"0105561010301","reg_date":"18\/1\/2561","company_name_en":"NORTH STAR DUTY FREE COMPANY LIMITED","tsic":47190,"cap_amt":100000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Firstname":"พินทิตา","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"ต้นทอง"},{"Lastname":"อดิสยเทพกุล","value_share":0,"Nationality":"TH","pct_share":100,"count_share":9999998,"Firstname":"ประภาส"},{"Firstname":"ณัฐพัชร์","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"พาณิชย์","person":{"Number":11,"Title":"นาย","Name":"ณัฐพัชร์ พาณิชย์","PartyName":"พลังสังคมใหม่","MpType":"แบ่งเขต","Id":"3861","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังสังคมใหม่\/ณัฐพัชร์-พาณิชย์.webp","Party":{"Name":"พลังสังคมใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":86,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/iN-VMOD5Vay0JsdkWa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":1,"gov_fund_proj":null},{"full_address":"20\/9 ซอยสนามคลี ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร","financial":[{"year":"2565","income":0},{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"G","company_name_th":"สมาร์ท เทคโนโลยี่ คอร์ปอเรชั่น จำกัด","pct_share":0.0,"obj_tname":"การขายส่งสินค้าทั่วไป","company_id":"0105558042744","reg_date":"9\/3\/2558","company_name_en":"SMART TECHNOLOGY CORPORATION COMPANY LIMITED","tsic":46900,"cap_amt":100000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Firstname":"ภาราได","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"อดิสยเทพกุล"},{"Firstname":"ณัฐพัชร์","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"พาณิชย์","person":{"Number":11,"Title":"นาย","Name":"ณัฐพัชร์ พาณิชย์","PartyName":"พลังสังคมใหม่","MpType":"แบ่งเขต","Id":"3861","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังสังคมใหม่\/ณัฐพัชร์-พาณิชย์.webp","Party":{"Name":"พลังสังคมใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":86,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/iN-VMOD5Vay0JsdkWa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"อดิสยเทพกุล","value_share":0,"Nationality":"TH","pct_share":100,"count_share":9999998,"Firstname":"ประภาส"}],"count_shareholder":1,"gov_fund_proj":null},{"full_address":"20\/9 ตรอกโรงพักศาลาแดง (ซอยสนามคลี) ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร","financial":[{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0},{"year":"2560","income":0}],"value_share":0,"submit_obj_big_type":"C","company_name_th":"พรีฟอร์มม่า จำกัด","pct_share":0.0,"obj_tname":"การผลิตบรรจุภัณฑ์พลาสติก","company_id":"0105562061073","reg_date":"29\/3\/2562","company_name_en":"PREFORMA COMPANY LIMITED","tsic":22220,"cap_amt":500000000,"company_value":99935990,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Firstname":"ณัฐพัชร์","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"พาณิชย์","person":{"Number":11,"Title":"นาย","Name":"ณัฐพัชร์ พาณิชย์","PartyName":"พลังสังคมใหม่","MpType":"แบ่งเขต","Id":"3861","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังสังคมใหม่\/ณัฐพัชร์-พาณิชย์.webp","Party":{"Name":"พลังสังคมใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":86,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/iN-VMOD5Vay0JsdkWa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"อดิสยเทพกุล","value_share":99935990,"Nationality":"TH","pct_share":100,"count_share":49999998,"Firstname":"ประภาส"},{"Firstname":"พินทิตา","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"ต้นทอง"}],"count_shareholder":1,"gov_fund_proj":null},{"full_address":"20\/9  ตรอกโรงพักศาลาแดง(ซอยสนามคลี) ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"F","company_name_th":"ไฮเวย์ สตาร์ คอร์ปอเรชั่น จำกัด","pct_share":0.0,"obj_tname":"-","company_id":"0105562067497","reg_date":"09\/04\/2562","company_name_en":"HIGHWAY STAR CORPORATION LIMITED","tsic":42101,"cap_amt":100000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"อดิสยเทพกุล","value_share":0,"Nationality":"TH","pct_share":100,"count_share":9999998,"Firstname":"ประภาส"},{"Firstname":"ณัฐพัชร์","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"พาณิชย์","person":{"Number":11,"Title":"นาย","Name":"ณัฐพัชร์ พาณิชย์","PartyName":"พลังสังคมใหม่","MpType":"แบ่งเขต","Id":"3861","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังสังคมใหม่\/ณัฐพัชร์-พาณิชย์.webp","Party":{"Name":"พลังสังคมใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":86,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/iN-VMOD5Vay0JsdkWa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Firstname":"พินทิตา","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"ต้นทอง"}],"count_shareholder":1,"gov_fund_proj":null},{"full_address":"20\/9 ตรอกโรงพักศาลาแดง (ซอยสนามคลี) ถนนวิทยุ  แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"G","company_name_th":"แปซิฟิค สตาร์ คอร์ปอเรชั่น จำกัด","pct_share":0.0,"obj_tname":"-","company_id":"0105556145678","reg_date":"09\/09\/2556","company_name_en":"PACIFIC STAR CORPORATION COMPANY LIMITED","tsic":46900,"cap_amt":100000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"อดิสยเทพกุล","value_share":0,"Nationality":"TH","pct_share":100,"count_share":9999998,"Firstname":"ประภาส"},{"Firstname":"พินทิตา","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"ต้นทอง"},{"Firstname":"ณัฐพัชร์","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"พาณิชย์","person":{"Number":11,"Title":"นาย","Name":"ณัฐพัชร์ พาณิชย์","PartyName":"พลังสังคมใหม่","MpType":"แบ่งเขต","Id":"3861","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังสังคมใหม่\/ณัฐพัชร์-พาณิชย์.webp","Party":{"Name":"พลังสังคมใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":86,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/iN-VMOD5Vay0JsdkWa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":1,"gov_fund_proj":null},{"full_address":"20\/9 ตรอกโรงพักศาลาแดง (ซอยสนามคลี) ถนนวิทยุ  แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร","financial":[{"year":"2555","income":0},{"year":"2554","income":0},{"year":"2553","income":0}],"value_share":0,"submit_obj_big_type":"G","company_name_th":"แปซิฟิค แคปปิตอล คอร์ปอเรชั่น จำกัด","pct_share":0.0,"obj_tname":"การขายส่งสินค้าทั่วไปโดยได้รับค่าตอบแทนหรือตามสัญญาจ้าง","company_id":"0105531077211","reg_date":"29\/09\/2531","company_name_en":"PACIFIC CAPITAL CORPORATION CO., LTD.","tsic":46109,"cap_amt":500000000,"company_value":499685655,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"","value_share":399748524,"Nationality":"TH","pct_share":80,"count_share":40000000,"Firstname":"บริษัท พรีฟอร์มม่า จำกัด"},{"Lastname":"","value_share":58962907,"Nationality":"TH","pct_share":11.8,"count_share":5900000,"Firstname":"บริษัท สมาร์ท เทคโนโลยี่ คอร์ปอเรชั่น จำกัด"},{"Lastname":"อดิสยเทพกุล","value_share":40974224,"Nationality":"TH","pct_share":8.2,"count_share":4099999,"Firstname":"ประภาส"},{"Firstname":"ณัฐพัชร์","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"พาณิชย์","person":{"Number":11,"Title":"นาย","Name":"ณัฐพัชร์ พาณิชย์","PartyName":"พลังสังคมใหม่","MpType":"แบ่งเขต","Id":"3861","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังสังคมใหม่\/ณัฐพัชร์-พาณิชย์.webp","Party":{"Name":"พลังสังคมใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":86,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/iN-VMOD5Vay0JsdkWa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":1,"gov_fund_proj":null},{"full_address":"198  ซอยทวีวัฒนา 19\/1 ถนนทวีวัฒนา แขวงทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร","financial":[{"year":"2564","income":425958.41},{"year":"2563","income":233458.81},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":850003,"submit_obj_big_type":"M","company_name_th":"ร่วมมิตร ที่ปรึกษากฎหมาย จำกัด","pct_share":95.5,"obj_tname":"กิจกรรมทางกฎหมาย","company_id":"0105563094226","reg_date":"26\/06\/2563","company_name_en":"RUAMMIT LAWADVISOR CO., LTD.","tsic":69100,"cap_amt":1000000,"company_value":890056,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"พาณิชย์","value_share":850003,"Nationality":"TH","pct_share":95.5,"count_share":9550,"Firstname":"ณัฐพัชร์","person":{"Number":11,"Title":"นาย","Name":"ณัฐพัชร์ พาณิชย์","PartyName":"พลังสังคมใหม่","MpType":"แบ่งเขต","Id":"3861","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังสังคมใหม่\/ณัฐพัชร์-พาณิชย์.webp","Party":{"Name":"พลังสังคมใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":86,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/iN-VMOD5Vay0JsdkWa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ช่อผูก","value_share":17801,"Nationality":"TH","pct_share":2,"count_share":200,"Firstname":"พิมพ์ชนก"},{"Lastname":"พาณิชย์","value_share":22251,"Nationality":"TH","pct_share":2.5,"count_share":250,"Firstname":"ณัชฌารีย์"}],"count_shareholder":9550,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "20/9  ตรอกโรงพักศาลาแดง (ซอยสนามคลี) ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ควอนตัม เทคโนโลยี คอร์ปอเรชั่น จำกัด",
+		"pct_share": 0.0002,
+		"obj_tname": "-",
+		"company_id": "0105564082311",
+		"reg_date": "19/05/2564",
+		"company_name_en": "QUANTUM TECHNOLOGY CORPORATION LIMITED",
+		"tsic": 47411,
+		"cap_amt": 5000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ช่อผูก",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "พิมพ์ชนก"
+			},
+			{
+				"Lastname": "อดิสวเทพกุล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 100,
+				"count_share": 499998,
+				"Firstname": "ประภาส"
+			},
+			{
+				"Lastname": "พาณิชย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "ณัฐพัชร์",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "ณัฐพัชร์ พาณิชย์",
+					"PartyName": "พลังสังคมใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "3861",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังสังคมใหม่/ณัฐพัชร์-พาณิชย์.webp",
+					"Party": {
+						"Name": "พลังสังคมใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 86,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/iN-VMOD5Vay0JsdkWa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 1,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "82/747 หมู่บ้านซีเมนต์ไทย ซอยซีเมนต์ไทย 15(15/4) ถนนประชาชื่น แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2563", "income": 563544.53 },
+			{ "year": "2562", "income": 974726.75 },
+			{ "year": "2561", "income": 1259730.8600000001 },
+			{ "year": "2560", "income": 1041369.53 }
+		],
+		"value_share": 53232,
+		"submit_obj_big_type": "M",
+		"company_name_th": "พัฒนาคุณภาพชีวิตผู้มีรายได้น้อย จำกัด",
+		"pct_share": 0.5,
+		"obj_tname": "กิจกรรมทางกฎหมาย",
+		"company_id": "0105542083705",
+		"reg_date": "29/10/2542",
+		"company_name_en": "PATTANAKHUNNAPAPCHEEVITPHUMEERAIDAINOI CO., LTD.",
+		"tsic": 69100,
+		"cap_amt": 5000000,
+		"company_value": 10646413,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "จิตต์แจ้ง",
+				"value_share": 9981012,
+				"Nationality": "TH",
+				"pct_share": 93.75,
+				"count_share": 46875,
+				"Firstname": "ณัฐ"
+			},
+			{
+				"Lastname": "พาณิชย์",
+				"value_share": 53232,
+				"Nationality": "TH",
+				"pct_share": 0.5,
+				"count_share": 250,
+				"Firstname": "ณัฐพัชร์",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "ณัฐพัชร์ พาณิชย์",
+					"PartyName": "พลังสังคมใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "3861",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังสังคมใหม่/ณัฐพัชร์-พาณิชย์.webp",
+					"Party": {
+						"Name": "พลังสังคมใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 86,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/iN-VMOD5Vay0JsdkWa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ฉายทองคำ",
+				"value_share": 53232,
+				"Nationality": "TH",
+				"pct_share": 0.5,
+				"count_share": 250,
+				"Firstname": "ณัฐพร"
+			},
+			{
+				"Lastname": "จิตต์แจ้ง",
+				"value_share": 532321,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 2500,
+				"Firstname": "สุรชาติ"
+			},
+			{
+				"Lastname": "พูลสุวรรณ์",
+				"value_share": 26616,
+				"Nationality": "TH",
+				"pct_share": 0.25,
+				"count_share": 125,
+				"Firstname": "ไพทูรย์"
+			}
+		],
+		"count_shareholder": 250,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "20/9 ตรอกโรงพักศาลาแดง (ซอยสนามคลี) ถนนวิทยุ  แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "K",
+		"company_name_th": "ไอ เพย์ คอร์ปอเรชั่น จำกัด",
+		"pct_share": 0.0,
+		"obj_tname": "-",
+		"company_id": "0105556145686",
+		"reg_date": "09/09/2556",
+		"company_name_en": "I PAY CORPORATION LTD.",
+		"tsic": 66192,
+		"cap_amt": 100000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Firstname": "ณัฐพัชร์",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "พาณิชย์",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "ณัฐพัชร์ พาณิชย์",
+					"PartyName": "พลังสังคมใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "3861",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังสังคมใหม่/ณัฐพัชร์-พาณิชย์.webp",
+					"Party": {
+						"Name": "พลังสังคมใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 86,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/iN-VMOD5Vay0JsdkWa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "อดิสยเทพกุล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 100,
+				"count_share": 9999998,
+				"Firstname": "ประภาส"
+			},
+			{
+				"Firstname": "พินทิตา",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "ต้นทอง"
+			}
+		],
+		"count_shareholder": 1,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "20/9 ซอยสนามคลี ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2565", "income": 0 },
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "G",
+		"company_name_th": "นอร์ทสตาร์ ดิวตี้ฟรี จำกัด",
+		"pct_share": 0.0,
+		"obj_tname": "การขายปลีกสินค้าอื่นๆในร้านค้าทั่วไป",
+		"company_id": "0105561010301",
+		"reg_date": "18/1/2561",
+		"company_name_en": "NORTH STAR DUTY FREE COMPANY LIMITED",
+		"tsic": 47190,
+		"cap_amt": 100000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Firstname": "พินทิตา",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "ต้นทอง"
+			},
+			{
+				"Lastname": "อดิสยเทพกุล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 100,
+				"count_share": 9999998,
+				"Firstname": "ประภาส"
+			},
+			{
+				"Firstname": "ณัฐพัชร์",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "พาณิชย์",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "ณัฐพัชร์ พาณิชย์",
+					"PartyName": "พลังสังคมใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "3861",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังสังคมใหม่/ณัฐพัชร์-พาณิชย์.webp",
+					"Party": {
+						"Name": "พลังสังคมใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 86,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/iN-VMOD5Vay0JsdkWa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 1,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "20/9 ซอยสนามคลี ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2565", "income": 0 },
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "G",
+		"company_name_th": "สมาร์ท เทคโนโลยี่ คอร์ปอเรชั่น จำกัด",
+		"pct_share": 0.0,
+		"obj_tname": "การขายส่งสินค้าทั่วไป",
+		"company_id": "0105558042744",
+		"reg_date": "9/3/2558",
+		"company_name_en": "SMART TECHNOLOGY CORPORATION COMPANY LIMITED",
+		"tsic": 46900,
+		"cap_amt": 100000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Firstname": "ภาราได",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "อดิสยเทพกุล"
+			},
+			{
+				"Firstname": "ณัฐพัชร์",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "พาณิชย์",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "ณัฐพัชร์ พาณิชย์",
+					"PartyName": "พลังสังคมใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "3861",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังสังคมใหม่/ณัฐพัชร์-พาณิชย์.webp",
+					"Party": {
+						"Name": "พลังสังคมใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 86,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/iN-VMOD5Vay0JsdkWa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "อดิสยเทพกุล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 100,
+				"count_share": 9999998,
+				"Firstname": "ประภาส"
+			}
+		],
+		"count_shareholder": 1,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "20/9 ตรอกโรงพักศาลาแดง (ซอยสนามคลี) ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 },
+			{ "year": "2560", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "C",
+		"company_name_th": "พรีฟอร์มม่า จำกัด",
+		"pct_share": 0.0,
+		"obj_tname": "การผลิตบรรจุภัณฑ์พลาสติก",
+		"company_id": "0105562061073",
+		"reg_date": "29/3/2562",
+		"company_name_en": "PREFORMA COMPANY LIMITED",
+		"tsic": 22220,
+		"cap_amt": 500000000,
+		"company_value": 99935990,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Firstname": "ณัฐพัชร์",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "พาณิชย์",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "ณัฐพัชร์ พาณิชย์",
+					"PartyName": "พลังสังคมใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "3861",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังสังคมใหม่/ณัฐพัชร์-พาณิชย์.webp",
+					"Party": {
+						"Name": "พลังสังคมใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 86,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/iN-VMOD5Vay0JsdkWa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "อดิสยเทพกุล",
+				"value_share": 99935990,
+				"Nationality": "TH",
+				"pct_share": 100,
+				"count_share": 49999998,
+				"Firstname": "ประภาส"
+			},
+			{
+				"Firstname": "พินทิตา",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "ต้นทอง"
+			}
+		],
+		"count_shareholder": 1,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "20/9  ตรอกโรงพักศาลาแดง(ซอยสนามคลี) ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "F",
+		"company_name_th": "ไฮเวย์ สตาร์ คอร์ปอเรชั่น จำกัด",
+		"pct_share": 0.0,
+		"obj_tname": "-",
+		"company_id": "0105562067497",
+		"reg_date": "09/04/2562",
+		"company_name_en": "HIGHWAY STAR CORPORATION LIMITED",
+		"tsic": 42101,
+		"cap_amt": 100000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "อดิสยเทพกุล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 100,
+				"count_share": 9999998,
+				"Firstname": "ประภาส"
+			},
+			{
+				"Firstname": "ณัฐพัชร์",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "พาณิชย์",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "ณัฐพัชร์ พาณิชย์",
+					"PartyName": "พลังสังคมใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "3861",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังสังคมใหม่/ณัฐพัชร์-พาณิชย์.webp",
+					"Party": {
+						"Name": "พลังสังคมใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 86,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/iN-VMOD5Vay0JsdkWa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Firstname": "พินทิตา",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "ต้นทอง"
+			}
+		],
+		"count_shareholder": 1,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "20/9 ตรอกโรงพักศาลาแดง (ซอยสนามคลี) ถนนวิทยุ  แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "G",
+		"company_name_th": "แปซิฟิค สตาร์ คอร์ปอเรชั่น จำกัด",
+		"pct_share": 0.0,
+		"obj_tname": "-",
+		"company_id": "0105556145678",
+		"reg_date": "09/09/2556",
+		"company_name_en": "PACIFIC STAR CORPORATION COMPANY LIMITED",
+		"tsic": 46900,
+		"cap_amt": 100000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "อดิสยเทพกุล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 100,
+				"count_share": 9999998,
+				"Firstname": "ประภาส"
+			},
+			{
+				"Firstname": "พินทิตา",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "ต้นทอง"
+			},
+			{
+				"Firstname": "ณัฐพัชร์",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "พาณิชย์",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "ณัฐพัชร์ พาณิชย์",
+					"PartyName": "พลังสังคมใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "3861",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังสังคมใหม่/ณัฐพัชร์-พาณิชย์.webp",
+					"Party": {
+						"Name": "พลังสังคมใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 86,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/iN-VMOD5Vay0JsdkWa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 1,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "20/9 ตรอกโรงพักศาลาแดง (ซอยสนามคลี) ถนนวิทยุ  แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2555", "income": 0 },
+			{ "year": "2554", "income": 0 },
+			{ "year": "2553", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "G",
+		"company_name_th": "แปซิฟิค แคปปิตอล คอร์ปอเรชั่น จำกัด",
+		"pct_share": 0.0,
+		"obj_tname": "การขายส่งสินค้าทั่วไปโดยได้รับค่าตอบแทนหรือตามสัญญาจ้าง",
+		"company_id": "0105531077211",
+		"reg_date": "29/09/2531",
+		"company_name_en": "PACIFIC CAPITAL CORPORATION CO., LTD.",
+		"tsic": 46109,
+		"cap_amt": 500000000,
+		"company_value": 499685655,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "",
+				"value_share": 399748524,
+				"Nationality": "TH",
+				"pct_share": 80,
+				"count_share": 40000000,
+				"Firstname": "บริษัท พรีฟอร์มม่า จำกัด"
+			},
+			{
+				"Lastname": "",
+				"value_share": 58962907,
+				"Nationality": "TH",
+				"pct_share": 11.8,
+				"count_share": 5900000,
+				"Firstname": "บริษัท สมาร์ท เทคโนโลยี่ คอร์ปอเรชั่น จำกัด"
+			},
+			{
+				"Lastname": "อดิสยเทพกุล",
+				"value_share": 40974224,
+				"Nationality": "TH",
+				"pct_share": 8.2,
+				"count_share": 4099999,
+				"Firstname": "ประภาส"
+			},
+			{
+				"Firstname": "ณัฐพัชร์",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "พาณิชย์",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "ณัฐพัชร์ พาณิชย์",
+					"PartyName": "พลังสังคมใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "3861",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังสังคมใหม่/ณัฐพัชร์-พาณิชย์.webp",
+					"Party": {
+						"Name": "พลังสังคมใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 86,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/iN-VMOD5Vay0JsdkWa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 1,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "198  ซอยทวีวัฒนา 19/1 ถนนทวีวัฒนา แขวงทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 425958.41 },
+			{ "year": "2563", "income": 233458.81 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 850003,
+		"submit_obj_big_type": "M",
+		"company_name_th": "ร่วมมิตร ที่ปรึกษากฎหมาย จำกัด",
+		"pct_share": 95.5,
+		"obj_tname": "กิจกรรมทางกฎหมาย",
+		"company_id": "0105563094226",
+		"reg_date": "26/06/2563",
+		"company_name_en": "RUAMMIT LAWADVISOR CO., LTD.",
+		"tsic": 69100,
+		"cap_amt": 1000000,
+		"company_value": 890056,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "พาณิชย์",
+				"value_share": 850003,
+				"Nationality": "TH",
+				"pct_share": 95.5,
+				"count_share": 9550,
+				"Firstname": "ณัฐพัชร์",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "ณัฐพัชร์ พาณิชย์",
+					"PartyName": "พลังสังคมใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "3861",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังสังคมใหม่/ณัฐพัชร์-พาณิชย์.webp",
+					"Party": {
+						"Name": "พลังสังคมใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 86,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/iN-VMOD5Vay0JsdkWa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ช่อผูก",
+				"value_share": 17801,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 200,
+				"Firstname": "พิมพ์ชนก"
+			},
+			{
+				"Lastname": "พาณิชย์",
+				"value_share": 22251,
+				"Nationality": "TH",
+				"pct_share": 2.5,
+				"count_share": 250,
+				"Firstname": "ณัชฌารีย์"
+			}
+		],
+		"count_shareholder": 9550,
+		"gov_fund_proj": null
+	}
+]

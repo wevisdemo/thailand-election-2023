@@ -1,1 +1,81 @@
-[{"full_address":"9\/277 หมู่ที่ 6 ต.กะทู้ อ.กะทู้ จ.ภูเก็ต","financial":[{"year":"2563","income":235689.2},{"year":"2562","income":4000},{"year":"2561","income":4000},{"year":"2560","income":4000}],"value_share":283750,"submit_obj_big_type":"M","company_name_th":"อันดามัน โพรเฟสชันนัล ลอว์ กรุ๊ป จำกัด","pct_share":90,"obj_tname":"กิจกรรมทางกฎหมาย","company_id":"0835555009880","reg_date":"5\/9\/2555","company_name_en":"ANDAMAN  PROFESSIONAL  LAW  GROUP  COMPANY LIMITED","tsic":69100,"cap_amt":1000000,"company_value":315277,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"อุดมลาภ","value_share":283750,"Nationality":"TH","pct_share":90,"count_share":9000,"Firstname":"ศรีเทพ","person":{"Number":10,"Title":"นาย","Name":"ศรีเทพ อุดมลาภ","PartyName":"ไทยภักดี","MpType":"แบ่งเขต","Id":"5484","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ภูเก็ต","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยภักดี\/ศรีเทพ-อุดมลาภ.webp","Party":{"Name":"ไทยภักดี","Color":"#FFF177","PartyType":"พรรค","IsActive":false,"Id":41,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/VN7bjgg2xbg_de1Zit.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ทองมาก","value_share":15764,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"ศิรินภา"},{"Lastname":"เพ็ชรรัตน์","value_share":15764,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"กันยา"}],"count_shareholder":9000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "9/277 หมู่ที่ 6 ต.กะทู้ อ.กะทู้ จ.ภูเก็ต",
+		"financial": [
+			{ "year": "2563", "income": 235689.2 },
+			{ "year": "2562", "income": 4000 },
+			{ "year": "2561", "income": 4000 },
+			{ "year": "2560", "income": 4000 }
+		],
+		"value_share": 283750,
+		"submit_obj_big_type": "M",
+		"company_name_th": "อันดามัน โพรเฟสชันนัล ลอว์ กรุ๊ป จำกัด",
+		"pct_share": 90,
+		"obj_tname": "กิจกรรมทางกฎหมาย",
+		"company_id": "0835555009880",
+		"reg_date": "5/9/2555",
+		"company_name_en": "ANDAMAN  PROFESSIONAL  LAW  GROUP  COMPANY LIMITED",
+		"tsic": 69100,
+		"cap_amt": 1000000,
+		"company_value": 315277,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "อุดมลาภ",
+				"value_share": 283750,
+				"Nationality": "TH",
+				"pct_share": 90,
+				"count_share": 9000,
+				"Firstname": "ศรีเทพ",
+				"person": {
+					"Number": 10,
+					"Title": "นาย",
+					"Name": "ศรีเทพ อุดมลาภ",
+					"PartyName": "ไทยภักดี",
+					"MpType": "แบ่งเขต",
+					"Id": "5484",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ภูเก็ต",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยภักดี/ศรีเทพ-อุดมลาภ.webp",
+					"Party": {
+						"Name": "ไทยภักดี",
+						"Color": "#FFF177",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 41,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/VN7bjgg2xbg_de1Zit.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ทองมาก",
+				"value_share": 15764,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "ศิรินภา"
+			},
+			{
+				"Lastname": "เพ็ชรรัตน์",
+				"value_share": 15764,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "กันยา"
+			}
+		],
+		"count_shareholder": 9000,
+		"gov_fund_proj": null
+	}
+]

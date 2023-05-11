@@ -1,1 +1,822 @@
-[{"full_address":"90\/1 หมู่ที่ 14 ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":9919049,"submit_obj_big_type":"D","company_name_th":"บี อาร์ เพาเวอร์ จำกัด","pct_share":20.0,"obj_tname":"การผลิตและการส่งไฟฟ้า","company_id":"0315557001031","reg_date":"18\/12\/2557","company_name_en":"B R POWER COMPANY LIMITED","tsic":35101,"cap_amt":50000000,"company_value":49595243,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ชิดชอบ","value_share":4959524,"Nationality":"TH","pct_share":10,"count_share":50000,"Firstname":"โชติชนก"},{"Lastname":"ชิดชอบ","value_share":9919049,"Nationality":"TH","pct_share":20,"count_share":100000,"Firstname":"ไชยชนก","person":{"Number":1,"Title":"นาย","Name":"ไชยชนก ชิดชอบ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"3127","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"บุรีรัมย์","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ไชยชนก-ชิดชอบ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ปิ่นแสง","value_share":9919049,"Nationality":"TH","pct_share":20,"count_share":100000,"Firstname":"พลอย"},{"Lastname":"ชิดชอบ","value_share":9919049,"Nationality":"TH","pct_share":20,"count_share":100000,"Firstname":"ชิดชนก"},{"Lastname":"ชิดชอบ","value_share":4959524,"Nationality":"TH","pct_share":10,"count_share":50000,"Firstname":"ชนน์ชนก"},{"Lastname":"ชาญวิทยารมณ์","value_share":9919049,"Nationality":"TH","pct_share":20,"count_share":100000,"Firstname":"ตนัยศิริ"}],"count_shareholder":100000,"gov_fund_proj":null},{"full_address":"30\/2 หมู่ที่ 4 ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์","financial":[{"year":"2564","income":25000},{"year":"2563","income":25000},{"year":"2562","income":25000},{"year":"2561","income":25000}],"value_share":1013224,"submit_obj_big_type":"D","company_name_th":"บี อาร์ กรีน จำกัด","pct_share":33.3333,"obj_tname":"การผลิตและการส่งไฟฟ้า","company_id":"0315557001040","reg_date":"18\/12\/2557","company_name_en":"B R GREEN COMPANY LIMITED","tsic":35101,"cap_amt":3000000,"company_value":3039675,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ชาญวิทยารมณ์","value_share":1013224,"Nationality":"TH","pct_share":33.33,"count_share":10000,"Firstname":"ตนัยศิริ"},{"Lastname":"ธนสารจิรพงษ์","value_share":1013224,"Nationality":"TH","pct_share":33.33,"count_share":10000,"Firstname":"ภัทรียา"},{"Lastname":"ชิดชอบ","value_share":1013224,"Nationality":"TH","pct_share":33.33,"count_share":10000,"Firstname":"ไชยชนก","person":{"Number":1,"Title":"นาย","Name":"ไชยชนก ชิดชอบ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"3127","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"บุรีรัมย์","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ไชยชนก-ชิดชอบ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":10000,"gov_fund_proj":null},{"full_address":"30\/2 หมู่ที่ 4  ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์","financial":[{"year":"2564","income":3578139.6200000001},{"year":"2563","income":3503584.46},{"year":"2562","income":5652454.9699999997},{"year":"2561","income":103513378.9399999976}],"value_share":30688236,"submit_obj_big_type":"R","company_name_th":"เอ็น แอนด์ เอ็น แลนด์ จำกัด","pct_share":26.8293,"obj_tname":"การดำเนินงานเกี่ยวกับสิ่งอำนวยความสะดวกสำหรับการแข่งขัน กีฬา","company_id":"0315557000400","reg_date":"03\/06\/2557","company_name_en":"N & N LAND COMPANY LIMITED","tsic":93111,"cap_amt":41000000,"company_value":114383289,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ชิดชอบ","value_share":21900168,"Nationality":"TH","pct_share":19.15,"count_share":78500,"Firstname":"โชติชนก"},{"Lastname":"ชิดชอบ","value_share":39894604,"Nationality":"TH","pct_share":34.88,"count_share":143000,"Firstname":"ชิดชนก"},{"Lastname":"ชิดชอบ","value_share":21900168,"Nationality":"TH","pct_share":19.15,"count_share":78500,"Firstname":"ชนน์ชนก"},{"Lastname":"ชิดชอบ","value_share":30688236,"Nationality":"TH","pct_share":26.83,"count_share":110000,"Firstname":"ไชยชนก","person":{"Number":1,"Title":"นาย","Name":"ไชยชนก ชิดชอบ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"3127","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"บุรีรัมย์","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ไชยชนก-ชิดชอบ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":110000,"gov_fund_proj":null},{"full_address":"444\/5 หมู่ที่ 15 ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์","financial":[{"year":"2564","income":259921431.1800000072},{"year":"2563","income":260300600.8100000024},{"year":"2562","income":280620893.25},{"year":"2561","income":267449603.7899999917}],"value_share":233403266,"submit_obj_big_type":"R","company_name_th":"เค. มอเตอร์สปอร์ต จำกัด","pct_share":15.0,"obj_tname":"การดำเนินงานเกี่ยวกับสิ่งอำนวยความสะดวกสำหรับการแข่งขัน กีฬา","company_id":"0315556000040","reg_date":"11\/1\/2556","company_name_en":"K. MOTORSPORT COMPANY LIMITED","tsic":93111,"cap_amt":1000000000,"company_value":1556021774,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ชิดชอบ","value_share":233403266,"Nationality":"TH","pct_share":15,"count_share":1500000,"Firstname":"ชนน์ชนก"},{"Lastname":"ชิดชอบ","value_share":233403266,"Nationality":"TH","pct_share":15,"count_share":1500000,"Firstname":"ไชยชนก","person":{"Number":1,"Title":"นาย","Name":"ไชยชนก ชิดชอบ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"3127","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"บุรีรัมย์","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ไชยชนก-ชิดชอบ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ชาญวิทยารมณ์","value_share":38900544,"Nationality":"TH","pct_share":2.5,"count_share":250000,"Firstname":"ตนัยศิริ"},{"Lastname":"ชิดชอบ","value_share":809131322,"Nationality":"TH","pct_share":52,"count_share":5200000,"Firstname":"ชิดชนก"},{"Lastname":"สุภา","value_share":7780109,"Nationality":"TH","pct_share":0.5,"count_share":50000,"Firstname":"แจ่มใส"},{"Lastname":"ชิดชอบ","value_share":233403266,"Nationality":"TH","pct_share":15,"count_share":1500000,"Firstname":"โชติชนก"}],"count_shareholder":1500000,"gov_fund_proj":null},{"full_address":"914\/1 ถนนฉลองกรุง แขวงลำปลาทิว เขตลาดกระบัง กรุงเทพมหานคร","financial":[{"year":"2565","income":0},{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"M","company_name_th":"พรรคผ่อน จำกัด","pct_share":5.0,"obj_tname":"กิจกรรมของบริษัทโฆษณา","company_id":"0105562068591","reg_date":"10\/4\/2562","company_name_en":"PAKPHON CO., LTD.","tsic":73101,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ชิดชอบ","value_share":0,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"ไชยชนก","person":{"Number":1,"Title":"นาย","Name":"ไชยชนก ชิดชอบ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"3127","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"บุรีรัมย์","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ไชยชนก-ชิดชอบ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ชิดชอบ","value_share":0,"Nationality":"TH","pct_share":90,"count_share":9000,"Firstname":"ชิดชัย"},{"Lastname":"อุบลเลิศ","value_share":0,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"กฤษณ์"}],"count_shareholder":500,"gov_fund_proj":null},{"full_address":"30\/2 หมู่ที่ 4 ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์","financial":[{"year":"2564","income":70254985.900000006},{"year":"2563","income":38232286.6599999964},{"year":"2562","income":1517.33},{"year":"2561","income":0}],"value_share":-4067840,"submit_obj_big_type":"R","company_name_th":"บุรีรัมย์ ยูไนเต็ด อีสปอร์ต จำกัด","pct_share":60.0,"obj_tname":"กิจกรรมด้านสโมสรกีฬา","company_id":"0315562001958","reg_date":"27\/11\/2562","company_name_en":"BURIRAM UNITED ESPORTS CO., LTD.","tsic":93120,"cap_amt":6000000,"company_value":-6779733,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ชิดชอบ","value_share":-4067840,"Nationality":"TH","pct_share":60,"count_share":36000,"Firstname":"ไชยชนก","person":{"Number":1,"Title":"นาย","Name":"ไชยชนก ชิดชอบ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"3127","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"บุรีรัมย์","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ไชยชนก-ชิดชอบ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ชิดชอบ","value_share":-677973,"Nationality":"TH","pct_share":10,"count_share":6000,"Firstname":"นายโชติชนก"},{"Lastname":"ชิดชอบ","value_share":-677973,"Nationality":"TH","pct_share":10,"count_share":6000,"Firstname":"ชนน์ชนก"},{"Lastname":"ขจรบุญถาวร","value_share":-677973,"Nationality":"TH","pct_share":10,"count_share":6000,"Firstname":"กิตติพงษ์"},{"Lastname":"ชิดชอบ","value_share":-677973,"Nationality":"TH","pct_share":10,"count_share":6000,"Firstname":"ชิดชนก"}],"count_shareholder":36000,"gov_fund_proj":null},{"full_address":"1053\/1 ถนนพหลโยธิน แขวงพญาไท เขตพญาไท กรุงเทพมหานคร","financial":[{"year":"2564","income":225743916},{"year":"2563","income":227342406},{"year":"2562","income":211525689},{"year":"2561","income":139064200}],"value_share":1658161,"submit_obj_big_type":"G","company_name_th":"ฟอร์ท เวนดิ้ง จำกัด","pct_share":0.2679,"obj_tname":"การขายปลีกทางอินเทอร์เน็ต","company_id":"0105558175256","reg_date":"2\/11\/2558","company_name_en":"FORTH VENDING COMPANY LIMITED","tsic":47912,"cap_amt":1400000000,"company_value":618947680,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"","value_share":165347540,"Nationality":"TH","pct_share":26.71,"count_share":37400000,"Firstname":"บริษัท ฟอร์ท สมาร์ท เซอร์วิส จำกัด (มหาชน)"},{"Firstname":"สธรรดร","count_share":11,"pct_share":0,"Nationality":"TH","Lastname":"สัตตบุศน์"},{"Lastname":"อัศวศรีวรนันท์","value_share":1768334,"Nationality":"TH","pct_share":0.29,"count_share":400000,"Firstname":"โสภณ"},{"Lastname":"","value_share":97263295,"Nationality":"TH","pct_share":15.71,"count_share":21999973,"Firstname":"บริษัท สิงห์ คอร์เปอเรชั่น จำกัด"},{"Lastname":"","value_share":23652467,"Nationality":"TH","pct_share":3.82,"count_share":5350000,"Firstname":"บริษัท เอส เอ็น ซี ฟอร์เมอร์ จำกัด (มหาชน)"},{"Lastname":"ชิดชอบ","value_share":4973864,"Nationality":"TH","pct_share":0.8,"count_share":1125000,"Firstname":"กรุณา"},{"Lastname":"ชิดชอบ","value_share":1658161,"Nationality":"TH","pct_share":0.27,"count_share":375000,"Firstname":"ไชยชนก","person":{"Number":1,"Title":"นาย","Name":"ไชยชนก ชิดชอบ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"3127","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"บุรีรัมย์","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ไชยชนก-ชิดชอบ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"นิ่มกุล","value_share":1768334,"Nationality":"TH","pct_share":0.29,"count_share":400005,"Firstname":"พิชิต"},{"Lastname":"ชิดชอบ","value_share":3315703,"Nationality":"TH","pct_share":0.54,"count_share":750000,"Firstname":"ชิดชนก"},{"Lastname":"ชิดชอบ","value_share":1658161,"Nationality":"TH","pct_share":0.27,"count_share":375000,"Firstname":"โชติชนก"},{"Firstname":"วรภัทร","count_share":11,"pct_share":0,"Nationality":"TH","Lastname":"ชวนะนิกุล"},{"Lastname":"ชิดชอบ","value_share":1658161,"Nationality":"TH","pct_share":0.27,"count_share":375000,"Firstname":"ชนน์ชนก"},{"Lastname":"ปิ่นแสง","value_share":4421143,"Nationality":"TH","pct_share":0.71,"count_share":1000000,"Firstname":"พลอย"},{"Firstname":"รังษี","count_share":11,"pct_share":0,"Nationality":"TH","Lastname":"เลิศไตรภิญโญ"},{"Lastname":"","value_share":284936897,"Nationality":"TH","pct_share":46.04,"count_share":64449967,"Firstname":"บริษัท ฟอร์ท คอร์ปอเรชั่น จำกัด (มหาชน)"},{"Firstname":"ชัชวิน","count_share":11,"pct_share":0,"Nationality":"TH","Lastname":"พิพัฒน์โชติธรรม"},{"Lastname":"อมตานนท์","value_share":26526241,"Nationality":"TH","pct_share":4.29,"count_share":6000011,"Firstname":"พงษ์ชัย"}],"count_shareholder":375000,"gov_fund_proj":null},{"full_address":"30\/2 หมู่ที่ 4 ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":43575,"submit_obj_big_type":"L","company_name_th":"บี.พี.เอ็น.2014 จำกัด","pct_share":5.0,"obj_tname":"การซื้อและการขายอสังหาริมทรัพย์ที่เป็นของตนเองที่ไม่ใช่ เพื่อเป็นที่พักอาศัย","company_id":"0315557000361","reg_date":"15\/5\/2557","company_name_en":"B.P.N.2014 COMPANY LIMITED","tsic":68102,"cap_amt":1000000,"company_value":871500,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ชิดชอบ","value_share":435750,"Nationality":"TH","pct_share":50,"count_share":5000,"Firstname":"ชิดชนก"},{"Lastname":"ชิดชอบ","value_share":43575,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"ไชยชนก","person":{"Number":1,"Title":"นาย","Name":"ไชยชนก ชิดชอบ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"3127","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"บุรีรัมย์","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ไชยชนก-ชิดชอบ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"","value_share":43575,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"เค.มอเตอร์สปอร์ต จำกัด"},{"Lastname":"ปิ่นแสง","value_share":348600,"Nationality":"TH","pct_share":40,"count_share":4000,"Firstname":"พลอย"}],"count_shareholder":500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "90/1 หมู่ที่ 14 ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 9919049,
+		"submit_obj_big_type": "D",
+		"company_name_th": "บี อาร์ เพาเวอร์ จำกัด",
+		"pct_share": 20.0,
+		"obj_tname": "การผลิตและการส่งไฟฟ้า",
+		"company_id": "0315557001031",
+		"reg_date": "18/12/2557",
+		"company_name_en": "B R POWER COMPANY LIMITED",
+		"tsic": 35101,
+		"cap_amt": 50000000,
+		"company_value": 49595243,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 4959524,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 50000,
+				"Firstname": "โชติชนก"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 9919049,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 100000,
+				"Firstname": "ไชยชนก",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "ไชยชนก ชิดชอบ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3127",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "บุรีรัมย์",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ไชยชนก-ชิดชอบ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ปิ่นแสง",
+				"value_share": 9919049,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 100000,
+				"Firstname": "พลอย"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 9919049,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 100000,
+				"Firstname": "ชิดชนก"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 4959524,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 50000,
+				"Firstname": "ชนน์ชนก"
+			},
+			{
+				"Lastname": "ชาญวิทยารมณ์",
+				"value_share": 9919049,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 100000,
+				"Firstname": "ตนัยศิริ"
+			}
+		],
+		"count_shareholder": 100000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "30/2 หมู่ที่ 4 ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์",
+		"financial": [
+			{ "year": "2564", "income": 25000 },
+			{ "year": "2563", "income": 25000 },
+			{ "year": "2562", "income": 25000 },
+			{ "year": "2561", "income": 25000 }
+		],
+		"value_share": 1013224,
+		"submit_obj_big_type": "D",
+		"company_name_th": "บี อาร์ กรีน จำกัด",
+		"pct_share": 33.3333,
+		"obj_tname": "การผลิตและการส่งไฟฟ้า",
+		"company_id": "0315557001040",
+		"reg_date": "18/12/2557",
+		"company_name_en": "B R GREEN COMPANY LIMITED",
+		"tsic": 35101,
+		"cap_amt": 3000000,
+		"company_value": 3039675,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ชาญวิทยารมณ์",
+				"value_share": 1013224,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 10000,
+				"Firstname": "ตนัยศิริ"
+			},
+			{
+				"Lastname": "ธนสารจิรพงษ์",
+				"value_share": 1013224,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 10000,
+				"Firstname": "ภัทรียา"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 1013224,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 10000,
+				"Firstname": "ไชยชนก",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "ไชยชนก ชิดชอบ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3127",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "บุรีรัมย์",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ไชยชนก-ชิดชอบ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 10000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "30/2 หมู่ที่ 4  ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์",
+		"financial": [
+			{ "year": "2564", "income": 3578139.6200000001 },
+			{ "year": "2563", "income": 3503584.46 },
+			{ "year": "2562", "income": 5652454.9699999997 },
+			{ "year": "2561", "income": 103513378.9399999976 }
+		],
+		"value_share": 30688236,
+		"submit_obj_big_type": "R",
+		"company_name_th": "เอ็น แอนด์ เอ็น แลนด์ จำกัด",
+		"pct_share": 26.8293,
+		"obj_tname": "การดำเนินงานเกี่ยวกับสิ่งอำนวยความสะดวกสำหรับการแข่งขัน กีฬา",
+		"company_id": "0315557000400",
+		"reg_date": "03/06/2557",
+		"company_name_en": "N & N LAND COMPANY LIMITED",
+		"tsic": 93111,
+		"cap_amt": 41000000,
+		"company_value": 114383289,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 21900168,
+				"Nationality": "TH",
+				"pct_share": 19.15,
+				"count_share": 78500,
+				"Firstname": "โชติชนก"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 39894604,
+				"Nationality": "TH",
+				"pct_share": 34.88,
+				"count_share": 143000,
+				"Firstname": "ชิดชนก"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 21900168,
+				"Nationality": "TH",
+				"pct_share": 19.15,
+				"count_share": 78500,
+				"Firstname": "ชนน์ชนก"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 30688236,
+				"Nationality": "TH",
+				"pct_share": 26.83,
+				"count_share": 110000,
+				"Firstname": "ไชยชนก",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "ไชยชนก ชิดชอบ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3127",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "บุรีรัมย์",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ไชยชนก-ชิดชอบ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 110000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "444/5 หมู่ที่ 15 ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์",
+		"financial": [
+			{ "year": "2564", "income": 259921431.1800000072 },
+			{ "year": "2563", "income": 260300600.8100000024 },
+			{ "year": "2562", "income": 280620893.25 },
+			{ "year": "2561", "income": 267449603.7899999917 }
+		],
+		"value_share": 233403266,
+		"submit_obj_big_type": "R",
+		"company_name_th": "เค. มอเตอร์สปอร์ต จำกัด",
+		"pct_share": 15.0,
+		"obj_tname": "การดำเนินงานเกี่ยวกับสิ่งอำนวยความสะดวกสำหรับการแข่งขัน กีฬา",
+		"company_id": "0315556000040",
+		"reg_date": "11/1/2556",
+		"company_name_en": "K. MOTORSPORT COMPANY LIMITED",
+		"tsic": 93111,
+		"cap_amt": 1000000000,
+		"company_value": 1556021774,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 233403266,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 1500000,
+				"Firstname": "ชนน์ชนก"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 233403266,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 1500000,
+				"Firstname": "ไชยชนก",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "ไชยชนก ชิดชอบ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3127",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "บุรีรัมย์",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ไชยชนก-ชิดชอบ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ชาญวิทยารมณ์",
+				"value_share": 38900544,
+				"Nationality": "TH",
+				"pct_share": 2.5,
+				"count_share": 250000,
+				"Firstname": "ตนัยศิริ"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 809131322,
+				"Nationality": "TH",
+				"pct_share": 52,
+				"count_share": 5200000,
+				"Firstname": "ชิดชนก"
+			},
+			{
+				"Lastname": "สุภา",
+				"value_share": 7780109,
+				"Nationality": "TH",
+				"pct_share": 0.5,
+				"count_share": 50000,
+				"Firstname": "แจ่มใส"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 233403266,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 1500000,
+				"Firstname": "โชติชนก"
+			}
+		],
+		"count_shareholder": 1500000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "914/1 ถนนฉลองกรุง แขวงลำปลาทิว เขตลาดกระบัง กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2565", "income": 0 },
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "M",
+		"company_name_th": "พรรคผ่อน จำกัด",
+		"pct_share": 5.0,
+		"obj_tname": "กิจกรรมของบริษัทโฆษณา",
+		"company_id": "0105562068591",
+		"reg_date": "10/4/2562",
+		"company_name_en": "PAKPHON CO., LTD.",
+		"tsic": 73101,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "ไชยชนก",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "ไชยชนก ชิดชอบ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3127",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "บุรีรัมย์",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ไชยชนก-ชิดชอบ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 90,
+				"count_share": 9000,
+				"Firstname": "ชิดชัย"
+			},
+			{
+				"Lastname": "อุบลเลิศ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "กฤษณ์"
+			}
+		],
+		"count_shareholder": 500,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "30/2 หมู่ที่ 4 ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์",
+		"financial": [
+			{ "year": "2564", "income": 70254985.900000006 },
+			{ "year": "2563", "income": 38232286.6599999964 },
+			{ "year": "2562", "income": 1517.33 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": -4067840,
+		"submit_obj_big_type": "R",
+		"company_name_th": "บุรีรัมย์ ยูไนเต็ด อีสปอร์ต จำกัด",
+		"pct_share": 60.0,
+		"obj_tname": "กิจกรรมด้านสโมสรกีฬา",
+		"company_id": "0315562001958",
+		"reg_date": "27/11/2562",
+		"company_name_en": "BURIRAM UNITED ESPORTS CO., LTD.",
+		"tsic": 93120,
+		"cap_amt": 6000000,
+		"company_value": -6779733,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": -4067840,
+				"Nationality": "TH",
+				"pct_share": 60,
+				"count_share": 36000,
+				"Firstname": "ไชยชนก",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "ไชยชนก ชิดชอบ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3127",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "บุรีรัมย์",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ไชยชนก-ชิดชอบ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": -677973,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 6000,
+				"Firstname": "นายโชติชนก"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": -677973,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 6000,
+				"Firstname": "ชนน์ชนก"
+			},
+			{
+				"Lastname": "ขจรบุญถาวร",
+				"value_share": -677973,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 6000,
+				"Firstname": "กิตติพงษ์"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": -677973,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 6000,
+				"Firstname": "ชิดชนก"
+			}
+		],
+		"count_shareholder": 36000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "1053/1 ถนนพหลโยธิน แขวงพญาไท เขตพญาไท กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 225743916 },
+			{ "year": "2563", "income": 227342406 },
+			{ "year": "2562", "income": 211525689 },
+			{ "year": "2561", "income": 139064200 }
+		],
+		"value_share": 1658161,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ฟอร์ท เวนดิ้ง จำกัด",
+		"pct_share": 0.2679,
+		"obj_tname": "การขายปลีกทางอินเทอร์เน็ต",
+		"company_id": "0105558175256",
+		"reg_date": "2/11/2558",
+		"company_name_en": "FORTH VENDING COMPANY LIMITED",
+		"tsic": 47912,
+		"cap_amt": 1400000000,
+		"company_value": 618947680,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "",
+				"value_share": 165347540,
+				"Nationality": "TH",
+				"pct_share": 26.71,
+				"count_share": 37400000,
+				"Firstname": "บริษัท ฟอร์ท สมาร์ท เซอร์วิส จำกัด (มหาชน)"
+			},
+			{
+				"Firstname": "สธรรดร",
+				"count_share": 11,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "สัตตบุศน์"
+			},
+			{
+				"Lastname": "อัศวศรีวรนันท์",
+				"value_share": 1768334,
+				"Nationality": "TH",
+				"pct_share": 0.29,
+				"count_share": 400000,
+				"Firstname": "โสภณ"
+			},
+			{
+				"Lastname": "",
+				"value_share": 97263295,
+				"Nationality": "TH",
+				"pct_share": 15.71,
+				"count_share": 21999973,
+				"Firstname": "บริษัท สิงห์ คอร์เปอเรชั่น จำกัด"
+			},
+			{
+				"Lastname": "",
+				"value_share": 23652467,
+				"Nationality": "TH",
+				"pct_share": 3.82,
+				"count_share": 5350000,
+				"Firstname": "บริษัท เอส เอ็น ซี ฟอร์เมอร์ จำกัด (มหาชน)"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 4973864,
+				"Nationality": "TH",
+				"pct_share": 0.8,
+				"count_share": 1125000,
+				"Firstname": "กรุณา"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 1658161,
+				"Nationality": "TH",
+				"pct_share": 0.27,
+				"count_share": 375000,
+				"Firstname": "ไชยชนก",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "ไชยชนก ชิดชอบ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3127",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "บุรีรัมย์",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ไชยชนก-ชิดชอบ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "นิ่มกุล",
+				"value_share": 1768334,
+				"Nationality": "TH",
+				"pct_share": 0.29,
+				"count_share": 400005,
+				"Firstname": "พิชิต"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 3315703,
+				"Nationality": "TH",
+				"pct_share": 0.54,
+				"count_share": 750000,
+				"Firstname": "ชิดชนก"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 1658161,
+				"Nationality": "TH",
+				"pct_share": 0.27,
+				"count_share": 375000,
+				"Firstname": "โชติชนก"
+			},
+			{
+				"Firstname": "วรภัทร",
+				"count_share": 11,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "ชวนะนิกุล"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 1658161,
+				"Nationality": "TH",
+				"pct_share": 0.27,
+				"count_share": 375000,
+				"Firstname": "ชนน์ชนก"
+			},
+			{
+				"Lastname": "ปิ่นแสง",
+				"value_share": 4421143,
+				"Nationality": "TH",
+				"pct_share": 0.71,
+				"count_share": 1000000,
+				"Firstname": "พลอย"
+			},
+			{
+				"Firstname": "รังษี",
+				"count_share": 11,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "เลิศไตรภิญโญ"
+			},
+			{
+				"Lastname": "",
+				"value_share": 284936897,
+				"Nationality": "TH",
+				"pct_share": 46.04,
+				"count_share": 64449967,
+				"Firstname": "บริษัท ฟอร์ท คอร์ปอเรชั่น จำกัด (มหาชน)"
+			},
+			{
+				"Firstname": "ชัชวิน",
+				"count_share": 11,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "พิพัฒน์โชติธรรม"
+			},
+			{
+				"Lastname": "อมตานนท์",
+				"value_share": 26526241,
+				"Nationality": "TH",
+				"pct_share": 4.29,
+				"count_share": 6000011,
+				"Firstname": "พงษ์ชัย"
+			}
+		],
+		"count_shareholder": 375000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "30/2 หมู่ที่ 4 ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 43575,
+		"submit_obj_big_type": "L",
+		"company_name_th": "บี.พี.เอ็น.2014 จำกัด",
+		"pct_share": 5.0,
+		"obj_tname": "การซื้อและการขายอสังหาริมทรัพย์ที่เป็นของตนเองที่ไม่ใช่ เพื่อเป็นที่พักอาศัย",
+		"company_id": "0315557000361",
+		"reg_date": "15/5/2557",
+		"company_name_en": "B.P.N.2014 COMPANY LIMITED",
+		"tsic": 68102,
+		"cap_amt": 1000000,
+		"company_value": 871500,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 435750,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 5000,
+				"Firstname": "ชิดชนก"
+			},
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 43575,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "ไชยชนก",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "ไชยชนก ชิดชอบ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3127",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "บุรีรัมย์",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ไชยชนก-ชิดชอบ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "",
+				"value_share": 43575,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "เค.มอเตอร์สปอร์ต จำกัด"
+			},
+			{
+				"Lastname": "ปิ่นแสง",
+				"value_share": 348600,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 4000,
+				"Firstname": "พลอย"
+			}
+		],
+		"count_shareholder": 500,
+		"gov_fund_proj": null
+	}
+]

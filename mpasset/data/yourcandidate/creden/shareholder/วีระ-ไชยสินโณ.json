@@ -1,1 +1,89 @@
-[{"reg_date":"27\/9\/2545","financial":[{"year":"2558","income":1094185.4199999999},{"year":"2557","income":1448370.0800000001},{"year":"2556","income":1670444.02},{"year":"2555","income":1840503.52}],"value_share":215243,"count_shareholder":3000,"company_shareholder":[{"Lastname":"ไชยสินโณ","value_share":215243,"pct_share":30,"Firstname":"วีระ","count_share":3000,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"วีระ ไชยสินโณ","PartyName":"คลองไทย","MpType":"บัญชีรายชื่อ","Id":"1760","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/คลองไทย\/วีระ-ไชยสินโณ.webp","Party":{"Name":"คลองไทย","Color":null,"PartyType":"พรรค","IsActive":false,"Id":69,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/คลองไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ไชยสินโณ","value_share":394612,"pct_share":55,"Firstname":"ทวีศักดิ์","count_share":5500,"Nationality":"TH"},{"Lastname":"ไชยสินโณ","value_share":71748,"pct_share":10,"Firstname":"สนั่น","count_share":1000,"Nationality":"TH"},{"Lastname":"เทพีรัตน์","value_share":35874,"pct_share":5,"Firstname":"เฉลิม","count_share":500,"Nationality":"TH"}],"pct_share":30,"company_name_th":"สินชัย อินเตอร์เทรด จำกัด","company_id":"0105545101925","obj_tname":"การผลิตเคมีภัณฑ์อนินทรีย์ขั้นมูลฐานอื่น ๆ","company_name_en":"SINCHAI INTER TRADE CO., LTD.","tsic":20113,"cap_amt":1000000,"company_value":717476,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"C","full_address":"111\/676 ซอยศิริสุข 17 ถนนวิภาวดีรังสิต แขวงสีกัน เขตดอนเมือง กรุงเทพมหานคร","gov_fund_proj":null}]
+[
+	{
+		"reg_date": "27/9/2545",
+		"financial": [
+			{ "year": "2558", "income": 1094185.4199999999 },
+			{ "year": "2557", "income": 1448370.0800000001 },
+			{ "year": "2556", "income": 1670444.02 },
+			{ "year": "2555", "income": 1840503.52 }
+		],
+		"value_share": 215243,
+		"count_shareholder": 3000,
+		"company_shareholder": [
+			{
+				"Lastname": "ไชยสินโณ",
+				"value_share": 215243,
+				"pct_share": 30,
+				"Firstname": "วีระ",
+				"count_share": 3000,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "วีระ ไชยสินโณ",
+					"PartyName": "คลองไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1760",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/คลองไทย/วีระ-ไชยสินโณ.webp",
+					"Party": {
+						"Name": "คลองไทย",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 69,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/คลองไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ไชยสินโณ",
+				"value_share": 394612,
+				"pct_share": 55,
+				"Firstname": "ทวีศักดิ์",
+				"count_share": 5500,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "ไชยสินโณ",
+				"value_share": 71748,
+				"pct_share": 10,
+				"Firstname": "สนั่น",
+				"count_share": 1000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "เทพีรัตน์",
+				"value_share": 35874,
+				"pct_share": 5,
+				"Firstname": "เฉลิม",
+				"count_share": 500,
+				"Nationality": "TH"
+			}
+		],
+		"pct_share": 30,
+		"company_name_th": "สินชัย อินเตอร์เทรด จำกัด",
+		"company_id": "0105545101925",
+		"obj_tname": "การผลิตเคมีภัณฑ์อนินทรีย์ขั้นมูลฐานอื่น ๆ",
+		"company_name_en": "SINCHAI INTER TRADE CO., LTD.",
+		"tsic": 20113,
+		"cap_amt": 1000000,
+		"company_value": 717476,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "C",
+		"full_address": "111/676 ซอยศิริสุข 17 ถนนวิภาวดีรังสิต แขวงสีกัน เขตดอนเมือง กรุงเทพมหานคร",
+		"gov_fund_proj": null
+	}
+]

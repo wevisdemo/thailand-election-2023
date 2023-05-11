@@ -1,1 +1,81 @@
-[{"full_address":"10\/3 หมู่ที่ 8 ต.ลำพยา อ.เมืองนครปฐม จ.นครปฐม","financial":[{"year":"2564","income":1012867.88},{"year":"2563","income":551954.13},{"year":"2562","income":746737.3199999999},{"year":"2561","income":639035.95}],"value_share":-690447,"submit_obj_big_type":"L","company_name_th":"จำเริญรวย จำกัด","pct_share":75,"obj_tname":"การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็น ของตนเองหรือเช่าจากผู้อื่นเพื่อเป็นที่พักอาศัย","company_id":"0735560001868","reg_date":"8\/3\/2560","company_name_en":"JUMROENRUAI COMPANY LIMITED","tsic":68103,"cap_amt":2000000,"company_value":-920595,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"จำเริญรวย","value_share":-690447,"Nationality":"TH","pct_share":75,"count_share":15000,"Firstname":"พิศุทธิ์","person":{"Number":"","Title":"นาย","Name":"พิศุทธิ์ จำเริญรวย","PartyName":"เป็นธรรม","MpType":"บัญชีรายชื่อ","Id":"27","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เป็นธรรม\/พิศุทธิ์-จำเริญรวย.webp","Party":{"Name":"เป็นธรรม","Color":null,"PartyType":"พรรค","IsActive":false,"Id":72,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/MFsb7ep8_CGtzt6aYQ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สุริยพันธ์","value_share":-4603,"Nationality":"TH","pct_share":0.5,"count_share":100,"Firstname":"สุทธิชัย"},{"Lastname":"จำเริญรวย","value_share":-225546,"Nationality":"TH","pct_share":24.5,"count_share":4900,"Firstname":"สวิตตา"}],"count_shareholder":15000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "10/3 หมู่ที่ 8 ต.ลำพยา อ.เมืองนครปฐม จ.นครปฐม",
+		"financial": [
+			{ "year": "2564", "income": 1012867.88 },
+			{ "year": "2563", "income": 551954.13 },
+			{ "year": "2562", "income": 746737.3199999999 },
+			{ "year": "2561", "income": 639035.95 }
+		],
+		"value_share": -690447,
+		"submit_obj_big_type": "L",
+		"company_name_th": "จำเริญรวย จำกัด",
+		"pct_share": 75,
+		"obj_tname": "การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็น ของตนเองหรือเช่าจากผู้อื่นเพื่อเป็นที่พักอาศัย",
+		"company_id": "0735560001868",
+		"reg_date": "8/3/2560",
+		"company_name_en": "JUMROENRUAI COMPANY LIMITED",
+		"tsic": 68103,
+		"cap_amt": 2000000,
+		"company_value": -920595,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "จำเริญรวย",
+				"value_share": -690447,
+				"Nationality": "TH",
+				"pct_share": 75,
+				"count_share": 15000,
+				"Firstname": "พิศุทธิ์",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "พิศุทธิ์ จำเริญรวย",
+					"PartyName": "เป็นธรรม",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "27",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เป็นธรรม/พิศุทธิ์-จำเริญรวย.webp",
+					"Party": {
+						"Name": "เป็นธรรม",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 72,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/MFsb7ep8_CGtzt6aYQ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สุริยพันธ์",
+				"value_share": -4603,
+				"Nationality": "TH",
+				"pct_share": 0.5,
+				"count_share": 100,
+				"Firstname": "สุทธิชัย"
+			},
+			{
+				"Lastname": "จำเริญรวย",
+				"value_share": -225546,
+				"Nationality": "TH",
+				"pct_share": 24.5,
+				"count_share": 4900,
+				"Firstname": "สวิตตา"
+			}
+		],
+		"count_shareholder": 15000,
+		"gov_fund_proj": null
+	}
+]

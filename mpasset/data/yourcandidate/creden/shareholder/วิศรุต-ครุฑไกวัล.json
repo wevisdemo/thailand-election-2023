@@ -1,1 +1,81 @@
-[{"reg_date":"11\/4\/2562","financial":[{"year":"2564","income":2298347.8599999999},{"year":"2563","income":3038681.5699999998},{"year":"2562","income":1447062.6200000001},{"year":"2561","income":0}],"value_share":-216260,"count_shareholder":2000,"company_shareholder":[{"Lastname":"ครุฑไกวัล","value_share":-216260,"pct_share":20,"Firstname":"ธนพร","count_share":2000,"Nationality":"TH"},{"Lastname":"ปิยะจิตติ","value_share":-648779,"pct_share":60,"Firstname":"ประชิต","count_share":6000,"Nationality":"TH"},{"Lastname":"ครุฑไกวัล","value_share":-216260,"pct_share":20,"Firstname":"วิศรุต","count_share":2000,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"วิศรุต ครุฑไกวัล","PartyName":"ไทยธรรม","MpType":"บัญชีรายชื่อ","Id":"1496","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ไทยธรรม\/วิศรุต-ครุฑไกวัล.webp","Party":{"Name":"ไทยธรรม","Color":null,"PartyType":"พรรค","IsActive":false,"Id":64,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ไทยธรรม.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"pct_share":20,"company_name_th":"พัตย์สุธา จำกัด","company_id":"0125562012765","obj_tname":"การบริการด้านเครื่องดื่มที่ไม่มีแอลกอฮอล์เป็นหลักในร้าน","company_name_en":"PHATSUTHA COMPANY LIMITED","tsic":56302,"cap_amt":1000000,"company_value":-1081299,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"I","full_address":"445\/20 หมู่บ้าน The Plant แจ้งวัฒนะ-ราชพฤกษ์ หมู่ที่ 5 ต.บางคูวัด อ.เมืองปทุมธานี จ.ปทุมธานี","gov_fund_proj":null}]
+[
+	{
+		"reg_date": "11/4/2562",
+		"financial": [
+			{ "year": "2564", "income": 2298347.8599999999 },
+			{ "year": "2563", "income": 3038681.5699999998 },
+			{ "year": "2562", "income": 1447062.6200000001 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": -216260,
+		"count_shareholder": 2000,
+		"company_shareholder": [
+			{
+				"Lastname": "ครุฑไกวัล",
+				"value_share": -216260,
+				"pct_share": 20,
+				"Firstname": "ธนพร",
+				"count_share": 2000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "ปิยะจิตติ",
+				"value_share": -648779,
+				"pct_share": 60,
+				"Firstname": "ประชิต",
+				"count_share": 6000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "ครุฑไกวัล",
+				"value_share": -216260,
+				"pct_share": 20,
+				"Firstname": "วิศรุต",
+				"count_share": 2000,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "วิศรุต ครุฑไกวัล",
+					"PartyName": "ไทยธรรม",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1496",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยธรรม/วิศรุต-ครุฑไกวัล.webp",
+					"Party": {
+						"Name": "ไทยธรรม",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 64,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ไทยธรรม.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"pct_share": 20,
+		"company_name_th": "พัตย์สุธา จำกัด",
+		"company_id": "0125562012765",
+		"obj_tname": "การบริการด้านเครื่องดื่มที่ไม่มีแอลกอฮอล์เป็นหลักในร้าน",
+		"company_name_en": "PHATSUTHA COMPANY LIMITED",
+		"tsic": 56302,
+		"cap_amt": 1000000,
+		"company_value": -1081299,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "I",
+		"full_address": "445/20 หมู่บ้าน The Plant แจ้งวัฒนะ-ราชพฤกษ์ หมู่ที่ 5 ต.บางคูวัด อ.เมืองปทุมธานี จ.ปทุมธานี",
+		"gov_fund_proj": null
+	}
+]

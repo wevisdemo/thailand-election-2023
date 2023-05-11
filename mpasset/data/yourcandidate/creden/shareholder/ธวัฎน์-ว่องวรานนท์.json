@@ -1,1 +1,81 @@
-[{"full_address":"3601\/315 ซอยแฉล้มนิมิตร 3 ถนนแฉล้มนิมิตร  แขวงบางโคล่ เขตบางคอแหลม กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"G","company_name_th":"บลู แอนด์ กรีนส์ สยาม จำกัด","pct_share":65,"obj_tname":"-","company_id":"0105558056141","reg_date":"30\/03\/2558","company_name_en":"BLUE AND GREEN SIAM COMPANY LIMITED","tsic":46421,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"กังตพร","value_share":0,"Nationality":"TH","pct_share":15,"count_share":1500,"Firstname":"ฐากูร"},{"Lastname":"ว่องวรานนท์","value_share":0,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"คงษณ"},{"Lastname":"ว่องวรานนท์","value_share":0,"Nationality":"TH","pct_share":65,"count_share":6500,"Firstname":"ธวัฎน์","person":{"Number":"","Title":"นาย","Name":"ธวัฎน์ ว่องวรานนท์","PartyName":"กรีน","MpType":"บัญชีรายชื่อ","Id":"422","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/กรีน\/ธวัฎน์-ว่องวรานนท์.webp","Party":{"Name":"กรีน","Color":null,"PartyType":"พรรค","IsActive":false,"Id":75,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/กรีน.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":6500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "3601/315 ซอยแฉล้มนิมิตร 3 ถนนแฉล้มนิมิตร  แขวงบางโคล่ เขตบางคอแหลม กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "G",
+		"company_name_th": "บลู แอนด์ กรีนส์ สยาม จำกัด",
+		"pct_share": 65,
+		"obj_tname": "-",
+		"company_id": "0105558056141",
+		"reg_date": "30/03/2558",
+		"company_name_en": "BLUE AND GREEN SIAM COMPANY LIMITED",
+		"tsic": 46421,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "กังตพร",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 1500,
+				"Firstname": "ฐากูร"
+			},
+			{
+				"Lastname": "ว่องวรานนท์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "คงษณ"
+			},
+			{
+				"Lastname": "ว่องวรานนท์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 65,
+				"count_share": 6500,
+				"Firstname": "ธวัฎน์",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ธวัฎน์ ว่องวรานนท์",
+					"PartyName": "กรีน",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "422",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/กรีน/ธวัฎน์-ว่องวรานนท์.webp",
+					"Party": {
+						"Name": "กรีน",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 75,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/กรีน.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 6500,
+		"gov_fund_proj": null
+	}
+]

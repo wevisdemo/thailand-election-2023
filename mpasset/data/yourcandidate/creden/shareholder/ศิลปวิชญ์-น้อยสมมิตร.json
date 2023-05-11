@@ -1,1 +1,81 @@
-[{"full_address":"17 ถนนอิสรภาพ  แขวงวัดอรุณ เขตบางกอกใหญ่ กรุงเทพมหานคร","financial":[{"year":"2564","income":9.75},{"year":"2563","income":11.09},{"year":"2562","income":15.53},{"year":"2561","income":13.74}],"value_share":5539740,"submit_obj_big_type":"M","company_name_th":"เอ็นเนอยี่ เพาวเวอร์  จำกัด","pct_share":99.98,"obj_tname":"กิจกรรมงานสถาปัตยกรรมและการให้คำปรึกษาที่เกี่ยวข้อง","company_id":"0105550119853","reg_date":"15\/11\/2550","company_name_en":"ENERGIE POWER CO.,LTD.","tsic":71101,"cap_amt":5000000,"company_value":5540848,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"น้อยสมมิตร","value_share":5539740,"Nationality":"TH","pct_share":99.98,"count_share":9998,"Firstname":"ศิลปวิชญ์","person":{"Number":8,"Title":"นาย","Name":"ศิลปวิชญ์ น้อยสมมิตร","PartyName":"เพื่อไทย","MpType":"แบ่งเขต","Id":"2214","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":24,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/ศิลปวิชญ์-น้อยสมมิตร.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สมาคม","value_share":554,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"นวลจันทร์"},{"Lastname":"วิรัชกุล","value_share":554,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"วารีญา"}],"count_shareholder":9998,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "17 ถนนอิสรภาพ  แขวงวัดอรุณ เขตบางกอกใหญ่ กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 9.75 },
+			{ "year": "2563", "income": 11.09 },
+			{ "year": "2562", "income": 15.53 },
+			{ "year": "2561", "income": 13.74 }
+		],
+		"value_share": 5539740,
+		"submit_obj_big_type": "M",
+		"company_name_th": "เอ็นเนอยี่ เพาวเวอร์  จำกัด",
+		"pct_share": 99.98,
+		"obj_tname": "กิจกรรมงานสถาปัตยกรรมและการให้คำปรึกษาที่เกี่ยวข้อง",
+		"company_id": "0105550119853",
+		"reg_date": "15/11/2550",
+		"company_name_en": "ENERGIE POWER CO.,LTD.",
+		"tsic": 71101,
+		"cap_amt": 5000000,
+		"company_value": 5540848,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "น้อยสมมิตร",
+				"value_share": 5539740,
+				"Nationality": "TH",
+				"pct_share": 99.98,
+				"count_share": 9998,
+				"Firstname": "ศิลปวิชญ์",
+				"person": {
+					"Number": 8,
+					"Title": "นาย",
+					"Name": "ศิลปวิชญ์ น้อยสมมิตร",
+					"PartyName": "เพื่อไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "2214",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 24,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/ศิลปวิชญ์-น้อยสมมิตร.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สมาคม",
+				"value_share": 554,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "นวลจันทร์"
+			},
+			{
+				"Lastname": "วิรัชกุล",
+				"value_share": 554,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "วารีญา"
+			}
+		],
+		"count_shareholder": 9998,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,96 @@
-[{"full_address":"19\/4 ถนนเทศบาล 17 ต.วารินชำราบ อ.วารินชำราบ จ.อุบลราชธานี","financial":[{"year":"2565","income":0},{"year":"2564","income":0},{"year":"2563","income":0}],"value_share":0,"submit_obj_big_type":"S","company_name_th":"เดอซันเซ็ท โกลบอล บิสซิเนส จำกัด","pct_share":44,"obj_tname":"กิจกรรมการแต่งผม","company_id":"0345565003951","reg_date":"13\/12\/2565","company_name_en":"DESUNSET GLOBAL BUSINESS CO., LTD.","tsic":96103,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศรีสวัสดิ์","value_share":0,"Nationality":"TH","pct_share":44,"count_share":8800,"Firstname":"เพทาย","person":{"Number":5,"Title":"นาย","Name":"เพทาย ศรีสวัสดิ์","PartyName":"ก้าวไกล","MpType":"แบ่งเขต","Id":"3427","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุบลราชธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/เพทาย-ศรีสวัสดิ์.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ธนาวริศวัฒนา","value_share":0,"Nationality":"TH","pct_share":20,"count_share":4000,"Firstname":"นันท์พิพัฒน์"},{"Lastname":"คืนดี","value_share":0,"Nationality":"TH","pct_share":19,"count_share":3800,"Firstname":"ธนพงศ์"},{"Lastname":"บุตรศรี","value_share":0,"Nationality":"TH","pct_share":13,"count_share":2600,"Firstname":"อลงกต"},{"Lastname":"พันธุ์วงศ์","value_share":0,"Nationality":"TH","pct_share":4,"count_share":800,"Firstname":"ศิริกาญจน์"}],"count_shareholder":8800,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "19/4 ถนนเทศบาล 17 ต.วารินชำราบ อ.วารินชำราบ จ.อุบลราชธานี",
+		"financial": [
+			{ "year": "2565", "income": 0 },
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "S",
+		"company_name_th": "เดอซันเซ็ท โกลบอล บิสซิเนส จำกัด",
+		"pct_share": 44,
+		"obj_tname": "กิจกรรมการแต่งผม",
+		"company_id": "0345565003951",
+		"reg_date": "13/12/2565",
+		"company_name_en": "DESUNSET GLOBAL BUSINESS CO., LTD.",
+		"tsic": 96103,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 44,
+				"count_share": 8800,
+				"Firstname": "เพทาย",
+				"person": {
+					"Number": 5,
+					"Title": "นาย",
+					"Name": "เพทาย ศรีสวัสดิ์",
+					"PartyName": "ก้าวไกล",
+					"MpType": "แบ่งเขต",
+					"Id": "3427",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุบลราชธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/เพทาย-ศรีสวัสดิ์.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ธนาวริศวัฒนา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 4000,
+				"Firstname": "นันท์พิพัฒน์"
+			},
+			{
+				"Lastname": "คืนดี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 19,
+				"count_share": 3800,
+				"Firstname": "ธนพงศ์"
+			},
+			{
+				"Lastname": "บุตรศรี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 13,
+				"count_share": 2600,
+				"Firstname": "อลงกต"
+			},
+			{
+				"Lastname": "พันธุ์วงศ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 800,
+				"Firstname": "ศิริกาญจน์"
+			}
+		],
+		"count_shareholder": 8800,
+		"gov_fund_proj": null
+	}
+]

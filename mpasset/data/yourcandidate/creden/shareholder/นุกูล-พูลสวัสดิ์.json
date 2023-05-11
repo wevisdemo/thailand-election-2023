@@ -1,1 +1,159 @@
-[{"full_address":"7  หมู่ที่ 3 ต.บางกระเจ็ด อ.บางคล้า จ.ฉะเชิงเทรา","financial":[{"year":"2564","income":499.73},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":93000,"submit_obj_big_type":"S","company_name_th":"อีสเทิร์น เพาเวอร์ ซัพพลาย จำกัด","pct_share":40,"obj_tname":"กิจกรรมการบริการอื่น ๆ ส่วนบุคคลซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0245564002944","reg_date":"02\/08\/2564","company_name_en":"EASTERN POWER SUPPLY CO., LTD.","tsic":96309,"cap_amt":1000000,"company_value":232500,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"พูลสวัสดิ์","value_share":23250,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"อุษณีย์"},{"Lastname":"พูลสวัสดิ์","value_share":116250,"Nationality":"TH","pct_share":50,"count_share":5000,"Firstname":"มานะ"},{"Lastname":"พูลสวัสดิ์","value_share":93000,"Nationality":"TH","pct_share":40,"count_share":4000,"Firstname":"นุกูล","person":{"Number":9,"Title":"นาย","Name":"นุกูล พูลสวัสดิ์","PartyName":"ก้าวไกล","MpType":"แบ่งเขต","Id":"5531","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"สุราษฎร์ธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/นุกูล-พูลสวัสดิ์.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":4000,"gov_fund_proj":null},{"full_address":"7  หมู่ที่ 3 ต.บางกระเจ็ด อ.บางคล้า จ.ฉะเชิงเทรา","financial":[{"year":"2560","income":60280.37},{"year":"2559","income":0},{"year":"2558","income":0}],"value_share":485088,"submit_obj_big_type":"S","company_name_th":"มุนี นัธ ซัพพลาย จำกัด","pct_share":30,"obj_tname":"กิจกรรมการบริการอื่น ๆ ส่วนบุคคลซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0245560002737","reg_date":"28\/08\/2560","company_name_en":"MUNEE NATH SUPPLY COMPANY LIMITED","tsic":96309,"cap_amt":2000000,"company_value":1616958,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"พูลสวัสดิ์","value_share":646783,"Nationality":"TH","pct_share":40,"count_share":8000,"Firstname":"อุษณีย์"},{"Lastname":"พูลสวัสดิ์","value_share":485088,"Nationality":"TH","pct_share":30,"count_share":6000,"Firstname":"นุกูล","person":{"Number":9,"Title":"นาย","Name":"นุกูล พูลสวัสดิ์","PartyName":"ก้าวไกล","MpType":"แบ่งเขต","Id":"5531","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"สุราษฎร์ธานี","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/นุกูล-พูลสวัสดิ์.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"พูลสวัสดิ์","value_share":485088,"Nationality":"TH","pct_share":30,"count_share":6000,"Firstname":"มานะ"}],"count_shareholder":6000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "7  หมู่ที่ 3 ต.บางกระเจ็ด อ.บางคล้า จ.ฉะเชิงเทรา",
+		"financial": [
+			{ "year": "2564", "income": 499.73 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 93000,
+		"submit_obj_big_type": "S",
+		"company_name_th": "อีสเทิร์น เพาเวอร์ ซัพพลาย จำกัด",
+		"pct_share": 40,
+		"obj_tname": "กิจกรรมการบริการอื่น ๆ ส่วนบุคคลซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0245564002944",
+		"reg_date": "02/08/2564",
+		"company_name_en": "EASTERN POWER SUPPLY CO., LTD.",
+		"tsic": 96309,
+		"cap_amt": 1000000,
+		"company_value": 232500,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "พูลสวัสดิ์",
+				"value_share": 23250,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "อุษณีย์"
+			},
+			{
+				"Lastname": "พูลสวัสดิ์",
+				"value_share": 116250,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 5000,
+				"Firstname": "มานะ"
+			},
+			{
+				"Lastname": "พูลสวัสดิ์",
+				"value_share": 93000,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 4000,
+				"Firstname": "นุกูล",
+				"person": {
+					"Number": 9,
+					"Title": "นาย",
+					"Name": "นุกูล พูลสวัสดิ์",
+					"PartyName": "ก้าวไกล",
+					"MpType": "แบ่งเขต",
+					"Id": "5531",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "สุราษฎร์ธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/นุกูล-พูลสวัสดิ์.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 4000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "7  หมู่ที่ 3 ต.บางกระเจ็ด อ.บางคล้า จ.ฉะเชิงเทรา",
+		"financial": [
+			{ "year": "2560", "income": 60280.37 },
+			{ "year": "2559", "income": 0 },
+			{ "year": "2558", "income": 0 }
+		],
+		"value_share": 485088,
+		"submit_obj_big_type": "S",
+		"company_name_th": "มุนี นัธ ซัพพลาย จำกัด",
+		"pct_share": 30,
+		"obj_tname": "กิจกรรมการบริการอื่น ๆ ส่วนบุคคลซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0245560002737",
+		"reg_date": "28/08/2560",
+		"company_name_en": "MUNEE NATH SUPPLY COMPANY LIMITED",
+		"tsic": 96309,
+		"cap_amt": 2000000,
+		"company_value": 1616958,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "พูลสวัสดิ์",
+				"value_share": 646783,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 8000,
+				"Firstname": "อุษณีย์"
+			},
+			{
+				"Lastname": "พูลสวัสดิ์",
+				"value_share": 485088,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 6000,
+				"Firstname": "นุกูล",
+				"person": {
+					"Number": 9,
+					"Title": "นาย",
+					"Name": "นุกูล พูลสวัสดิ์",
+					"PartyName": "ก้าวไกล",
+					"MpType": "แบ่งเขต",
+					"Id": "5531",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "สุราษฎร์ธานี",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/นุกูล-พูลสวัสดิ์.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "พูลสวัสดิ์",
+				"value_share": 485088,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 6000,
+				"Firstname": "มานะ"
+			}
+		],
+		"count_shareholder": 6000,
+		"gov_fund_proj": null
+	}
+]

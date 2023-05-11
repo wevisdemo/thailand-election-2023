@@ -1,1 +1,81 @@
-[{"full_address":"333\/24 ซอยประชาชื่น 10 (ม.การ์เด้นซิตี้ลากูน)  แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพมหานคร","financial":[{"year":"2563","income":2763.27},{"year":"2562","income":36141.83},{"year":"2561","income":40172.24},{"year":"2560","income":0}],"value_share":-89931,"submit_obj_big_type":"G","company_name_th":"อาย ลิป เฟส (ไทยแลนด์) จำกัด","pct_share":44,"obj_tname":"การขายส่งเครื่องสำอาง","company_id":"0105554012395","reg_date":"26\/01\/2554","company_name_en":"EYES LIPS FACE (THAILAND) COMPANY LIMITED","tsic":46443,"cap_amt":5000000,"company_value":-204389,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ครุฑขุนทด","value_share":-89931,"Nationality":"TH","pct_share":44,"count_share":22000,"Firstname":"จำลอง","person":{"Number":"","Title":"นาย","Name":"จำลอง ครุฑขุนทด","PartyName":"รวมไทยสร้างชาติ","MpType":"บัญชีรายชื่อ","Id":"673","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/จำลอง-ครุฑขุนทด.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ครุฑขุนทด","value_share":-94019,"Nationality":"TH","pct_share":46,"count_share":23000,"Firstname":"ปาริฉัตร"},{"Lastname":"โมเบร็ก","value_share":-20439,"Nationality":"SE","pct_share":10,"count_share":5000,"Firstname":"โจนัส"}],"count_shareholder":22000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "333/24 ซอยประชาชื่น 10 (ม.การ์เด้นซิตี้ลากูน)  แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2563", "income": 2763.27 },
+			{ "year": "2562", "income": 36141.83 },
+			{ "year": "2561", "income": 40172.24 },
+			{ "year": "2560", "income": 0 }
+		],
+		"value_share": -89931,
+		"submit_obj_big_type": "G",
+		"company_name_th": "อาย ลิป เฟส (ไทยแลนด์) จำกัด",
+		"pct_share": 44,
+		"obj_tname": "การขายส่งเครื่องสำอาง",
+		"company_id": "0105554012395",
+		"reg_date": "26/01/2554",
+		"company_name_en": "EYES LIPS FACE (THAILAND) COMPANY LIMITED",
+		"tsic": 46443,
+		"cap_amt": 5000000,
+		"company_value": -204389,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ครุฑขุนทด",
+				"value_share": -89931,
+				"Nationality": "TH",
+				"pct_share": 44,
+				"count_share": 22000,
+				"Firstname": "จำลอง",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "จำลอง ครุฑขุนทด",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "673",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/จำลอง-ครุฑขุนทด.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ครุฑขุนทด",
+				"value_share": -94019,
+				"Nationality": "TH",
+				"pct_share": 46,
+				"count_share": 23000,
+				"Firstname": "ปาริฉัตร"
+			},
+			{
+				"Lastname": "โมเบร็ก",
+				"value_share": -20439,
+				"Nationality": "SE",
+				"pct_share": 10,
+				"count_share": 5000,
+				"Firstname": "โจนัส"
+			}
+		],
+		"count_shareholder": 22000,
+		"gov_fund_proj": null
+	}
+]

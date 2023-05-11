@@ -1,1 +1,160 @@
-[{"full_address":"41\/2  หมู่ที่ 7 ต.หนองข้างคอก อ.เมืองชลบุรี จ.ชลบุรี","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"N","company_name_th":"เดสทินี เวนเจอร์ จำกัด","pct_share":20,"obj_tname":"-","company_id":"0205562038887","reg_date":"18\/10\/2562","company_name_en":"DESTINY VENTURE CO., LTD.","tsic":82110,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เจริญสมบัติ","value_share":0,"Nationality":"TH","pct_share":20,"count_share":20000,"Firstname":"จิตตสักก์","person":{"Number":"","Title":"พลเอก","Name":"จิตตสักก์ เจริญสมบัติ","PartyName":"แนวทางใหม่","MpType":"บัญชีรายชื่อ","Id":"2585","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/แนวทางใหม่\/จิตตสักก์-เจริญสมบัติ.webp","Party":{"Name":"แนวทางใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":91,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/LSxkDGIOs1u6vWW3_C.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"แขวงวิเศษชัยชาญ","value_share":0,"Nationality":"TH","pct_share":60,"count_share":60000,"Firstname":"ขิง"},{"Lastname":"โรตมนันทกฤต","value_share":0,"Nationality":"TH","pct_share":20,"count_share":20000,"Firstname":"สาโรจน์"}],"count_shareholder":20000,"gov_fund_proj":null},{"full_address":"41\/2  หมู่ที่ 7 ต.หนองข้างคอก อ.เมืองชลบุรี จ.ชลบุรี","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"K","company_name_th":"โฟร์-เวย์ อินเตอร์เนชั่นแนล เวนเจอร์ จำกัด","pct_share":20,"obj_tname":"-","company_id":"0205562038895","reg_date":"18\/10\/2562","company_name_en":"4-WAY INTERNATIONAL VENTURE CO., LTD.","tsic":66199,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เจริญสมบัติ","value_share":0,"Nationality":"TH","pct_share":20,"count_share":20000,"Firstname":"จิตตสักก์","person":{"Number":"","Title":"พลเอก","Name":"จิตตสักก์ เจริญสมบัติ","PartyName":"แนวทางใหม่","MpType":"บัญชีรายชื่อ","Id":"2585","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/แนวทางใหม่\/จิตตสักก์-เจริญสมบัติ.webp","Party":{"Name":"แนวทางใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":91,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/LSxkDGIOs1u6vWW3_C.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"โรตมนันทกฤต","value_share":0,"Nationality":"TH","pct_share":20,"count_share":20000,"Firstname":"สาโรจน์"},{"Lastname":"แขวงวิเศษชัยชาญ","value_share":0,"Nationality":"TH","pct_share":60,"count_share":60000,"Firstname":"ขิง"}],"count_shareholder":20000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "41/2  หมู่ที่ 7 ต.หนองข้างคอก อ.เมืองชลบุรี จ.ชลบุรี",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "N",
+		"company_name_th": "เดสทินี เวนเจอร์ จำกัด",
+		"pct_share": 20,
+		"obj_tname": "-",
+		"company_id": "0205562038887",
+		"reg_date": "18/10/2562",
+		"company_name_en": "DESTINY VENTURE CO., LTD.",
+		"tsic": 82110,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เจริญสมบัติ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 20000,
+				"Firstname": "จิตตสักก์",
+				"person": {
+					"Number": "",
+					"Title": "พลเอก",
+					"Name": "จิตตสักก์ เจริญสมบัติ",
+					"PartyName": "แนวทางใหม่",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "2585",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/แนวทางใหม่/จิตตสักก์-เจริญสมบัติ.webp",
+					"Party": {
+						"Name": "แนวทางใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 91,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/LSxkDGIOs1u6vWW3_C.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "แขวงวิเศษชัยชาญ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 60,
+				"count_share": 60000,
+				"Firstname": "ขิง"
+			},
+			{
+				"Lastname": "โรตมนันทกฤต",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 20000,
+				"Firstname": "สาโรจน์"
+			}
+		],
+		"count_shareholder": 20000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "41/2  หมู่ที่ 7 ต.หนองข้างคอก อ.เมืองชลบุรี จ.ชลบุรี",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "K",
+		"company_name_th": "โฟร์-เวย์ อินเตอร์เนชั่นแนล เวนเจอร์ จำกัด",
+		"pct_share": 20,
+		"obj_tname": "-",
+		"company_id": "0205562038895",
+		"reg_date": "18/10/2562",
+		"company_name_en": "4-WAY INTERNATIONAL VENTURE CO., LTD.",
+		"tsic": 66199,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เจริญสมบัติ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 20000,
+				"Firstname": "จิตตสักก์",
+				"person": {
+					"Number": "",
+					"Title": "พลเอก",
+					"Name": "จิตตสักก์ เจริญสมบัติ",
+					"PartyName": "แนวทางใหม่",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "2585",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/แนวทางใหม่/จิตตสักก์-เจริญสมบัติ.webp",
+					"Party": {
+						"Name": "แนวทางใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 91,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/LSxkDGIOs1u6vWW3_C.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "โรตมนันทกฤต",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 20000,
+				"Firstname": "สาโรจน์"
+			},
+			{
+				"Lastname": "แขวงวิเศษชัยชาญ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 60,
+				"count_share": 60000,
+				"Firstname": "ขิง"
+			}
+		],
+		"count_shareholder": 20000,
+		"gov_fund_proj": null
+	}
+]

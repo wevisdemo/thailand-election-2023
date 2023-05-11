@@ -1,1 +1,81 @@
-[{"full_address":"999\/455 หมู่ที่ 6  ต.มาบยางพร อ.ปลวกแดง จ.ระยอง","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"H","company_name_th":"พีพี แอนด์ บีเอ็น  ทรานสปอร์ต จำกัด","pct_share":80,"obj_tname":"-","company_id":"0215559003067","reg_date":"03\/05\/2559","company_name_en":"PP&BN  TRANSPORT COMPANY LIMITED","tsic":49329,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"วิทยประภารัตน์","value_share":0,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"ละมัย"},{"Lastname":"วิทยประภารัตน์","value_share":0,"Nationality":"TH","pct_share":80,"count_share":8000,"Firstname":"ชุติกาญจน์","person":{"Number":"","Title":"นางสาว","Name":"ชุติกาญจน์ วิทยประภารัตน์","PartyName":"พลังสังคม","MpType":"บัญชีรายชื่อ","Id":"1651","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/พลังสังคม\/ชุติกาญจน์-วิทยประภารัตน์.webp","Party":{"Name":"พลังสังคม","Color":null,"PartyType":"พรรค","IsActive":false,"Id":70,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/พลังสังคม.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"กันทะวงศ์","value_share":0,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"อนุชา"}],"count_shareholder":8000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "999/455 หมู่ที่ 6  ต.มาบยางพร อ.ปลวกแดง จ.ระยอง",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "H",
+		"company_name_th": "พีพี แอนด์ บีเอ็น  ทรานสปอร์ต จำกัด",
+		"pct_share": 80,
+		"obj_tname": "-",
+		"company_id": "0215559003067",
+		"reg_date": "03/05/2559",
+		"company_name_en": "PP&BN  TRANSPORT COMPANY LIMITED",
+		"tsic": 49329,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "วิทยประภารัตน์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "ละมัย"
+			},
+			{
+				"Lastname": "วิทยประภารัตน์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 80,
+				"count_share": 8000,
+				"Firstname": "ชุติกาญจน์",
+				"person": {
+					"Number": "",
+					"Title": "นางสาว",
+					"Name": "ชุติกาญจน์ วิทยประภารัตน์",
+					"PartyName": "พลังสังคม",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1651",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังสังคม/ชุติกาญจน์-วิทยประภารัตน์.webp",
+					"Party": {
+						"Name": "พลังสังคม",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 70,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังสังคม.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "กันทะวงศ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "อนุชา"
+			}
+		],
+		"count_shareholder": 8000,
+		"gov_fund_proj": null
+	}
+]

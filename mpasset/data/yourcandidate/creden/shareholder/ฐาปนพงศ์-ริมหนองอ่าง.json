@@ -1,1 +1,81 @@
-[{"full_address":"134\/137 หมู่ที่ 7 ต.โพธิ์ อ.เมืองศรีสะเกษ จ.ศรีสะเกษ","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":68850,"submit_obj_big_type":"G","company_name_th":"พรสวรรค์ศรีสะเกษ   ข้าวอินเตอร์ จำกัด","pct_share":30,"obj_tname":"การขายส่งวัตถุดิบทางการเกษตรและสัตว์มีชีวิตโดยได้รับค่าตอบแทนหรือตามสัญญาจ้าง","company_id":"0335562000773","reg_date":"12\/7\/2562","company_name_en":"PORNSAWANSISAKET  INTERRICE COMPANY LIMITED","tsic":46101,"cap_amt":1000000,"company_value":229500,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ริมหนองอ่าง","value_share":68850,"Nationality":"TH","pct_share":30,"count_share":3000,"Firstname":"ฐาปนพงศ์","person":{"Number":"","Title":"นาย","Name":"ฐาปนพงศ์ ริมหนองอ่าง","PartyName":"ชาติไทยพัฒนา","MpType":"บัญชีรายชื่อ","Id":"552","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ชาติไทยพัฒนา\/ฐาปนพงศ์-ริมหนองอ่าง.webp","Party":{"Name":"ชาติไทยพัฒนา","Color":"#FF5BD1","PartyType":"พรรค","IsActive":true,"Id":5,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ชาติไทยพัฒนา.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ขุมเมิน","value_share":68850,"Nationality":"TH","pct_share":30,"count_share":3000,"Firstname":"ชัญญาพร"},{"Lastname":"กายราช","value_share":91800,"Nationality":"TH","pct_share":40,"count_share":4000,"Firstname":"พรสวรรค์"}],"count_shareholder":3000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "134/137 หมู่ที่ 7 ต.โพธิ์ อ.เมืองศรีสะเกษ จ.ศรีสะเกษ",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 68850,
+		"submit_obj_big_type": "G",
+		"company_name_th": "พรสวรรค์ศรีสะเกษ   ข้าวอินเตอร์ จำกัด",
+		"pct_share": 30,
+		"obj_tname": "การขายส่งวัตถุดิบทางการเกษตรและสัตว์มีชีวิตโดยได้รับค่าตอบแทนหรือตามสัญญาจ้าง",
+		"company_id": "0335562000773",
+		"reg_date": "12/7/2562",
+		"company_name_en": "PORNSAWANSISAKET  INTERRICE COMPANY LIMITED",
+		"tsic": 46101,
+		"cap_amt": 1000000,
+		"company_value": 229500,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ริมหนองอ่าง",
+				"value_share": 68850,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 3000,
+				"Firstname": "ฐาปนพงศ์",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ฐาปนพงศ์ ริมหนองอ่าง",
+					"PartyName": "ชาติไทยพัฒนา",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "552",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ชาติไทยพัฒนา/ฐาปนพงศ์-ริมหนองอ่าง.webp",
+					"Party": {
+						"Name": "ชาติไทยพัฒนา",
+						"Color": "#FF5BD1",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 5,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ขุมเมิน",
+				"value_share": 68850,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 3000,
+				"Firstname": "ชัญญาพร"
+			},
+			{
+				"Lastname": "กายราช",
+				"value_share": 91800,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 4000,
+				"Firstname": "พรสวรรค์"
+			}
+		],
+		"count_shareholder": 3000,
+		"gov_fund_proj": null
+	}
+]

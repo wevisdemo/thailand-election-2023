@@ -1,1 +1,160 @@
-[{"full_address":"160 หมู่ที่ 9  ต.บุ่งหวาย อ.วารินชำราบ จ.อุบลราชธานี","financial":[{"year":"2558","income":994706},{"year":"2557","income":984741},{"year":"2556","income":5850},{"year":"2555","income":0}],"value_share":1283981,"submit_obj_big_type":"C","company_name_th":"ซุปเปอร์ดริงค์ จำกัด","pct_share":80,"obj_tname":"การผลิตน้ำดื่มบริสุทธิ์และน้ำแร่บรรจุขวด","company_id":"0345556000082","reg_date":"14\/01\/2556","company_name_en":"SUPERDRINK COMPANY LIMITED","tsic":11041,"cap_amt":1000000,"company_value":1604977,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"สมัครผล","value_share":160498,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"สายสุนีย์"},{"Lastname":"สมัครผล","value_share":160498,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"สุทธิพงษ์"},{"Lastname":"ไตรสรณปัญญา","value_share":1283981,"Nationality":"TH","pct_share":80,"count_share":8000,"Firstname":"ฐิตารีย์","person":{"Number":5,"Title":"นาง","Name":"ฐิตารีย์ ไตรสรณปัญญา","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"3358","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ศรีสะเกษ","MpZone":7,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ฐิตารีย์-ไตรสรณปัญญา.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":8000,"gov_fund_proj":null},{"full_address":"157 หมู่ที่ 8  ต.หญ้าปล้อง อ.เมืองศรีสะเกษ จ.ศรีสะเกษ","financial":[{"year":"2558","income":18000},{"year":"2557","income":18000},{"year":"2556","income":5850},{"year":"2555","income":0}],"value_share":513532,"submit_obj_big_type":"G","company_name_th":"ไตรปัณณ์ ออร์แกนิค (ประเทศไทย) จำกัด","pct_share":50,"obj_tname":"การขายส่งข้าวและผลิตภัณฑ์ที่ได้จากการโรงสีข้าว","company_id":"0335556000317","reg_date":"29\/07\/2556","company_name_en":"TRIPAN  ORGANIC (THAILAND) COMPANY LIMITED","tsic":46315,"cap_amt":1000000,"company_value":1027063,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"สมัครผล","value_share":102706,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"สายสุนีย์"},{"Lastname":"ไตรสรณปัญญา","value_share":513532,"Nationality":"TH","pct_share":50,"count_share":5000,"Firstname":"ฐิตารีย์","person":{"Number":5,"Title":"นาง","Name":"ฐิตารีย์ ไตรสรณปัญญา","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"3358","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ศรีสะเกษ","MpZone":7,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ฐิตารีย์-ไตรสรณปัญญา.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ไตรสรณปัญญา","value_share":410825,"Nationality":"TH","pct_share":40,"count_share":4000,"Firstname":"สมเกียรติ"}],"count_shareholder":5000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "160 หมู่ที่ 9  ต.บุ่งหวาย อ.วารินชำราบ จ.อุบลราชธานี",
+		"financial": [
+			{ "year": "2558", "income": 994706 },
+			{ "year": "2557", "income": 984741 },
+			{ "year": "2556", "income": 5850 },
+			{ "year": "2555", "income": 0 }
+		],
+		"value_share": 1283981,
+		"submit_obj_big_type": "C",
+		"company_name_th": "ซุปเปอร์ดริงค์ จำกัด",
+		"pct_share": 80,
+		"obj_tname": "การผลิตน้ำดื่มบริสุทธิ์และน้ำแร่บรรจุขวด",
+		"company_id": "0345556000082",
+		"reg_date": "14/01/2556",
+		"company_name_en": "SUPERDRINK COMPANY LIMITED",
+		"tsic": 11041,
+		"cap_amt": 1000000,
+		"company_value": 1604977,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "สมัครผล",
+				"value_share": 160498,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "สายสุนีย์"
+			},
+			{
+				"Lastname": "สมัครผล",
+				"value_share": 160498,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "สุทธิพงษ์"
+			},
+			{
+				"Lastname": "ไตรสรณปัญญา",
+				"value_share": 1283981,
+				"Nationality": "TH",
+				"pct_share": 80,
+				"count_share": 8000,
+				"Firstname": "ฐิตารีย์",
+				"person": {
+					"Number": 5,
+					"Title": "นาง",
+					"Name": "ฐิตารีย์ ไตรสรณปัญญา",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3358",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ศรีสะเกษ",
+					"MpZone": 7,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ฐิตารีย์-ไตรสรณปัญญา.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 8000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "157 หมู่ที่ 8  ต.หญ้าปล้อง อ.เมืองศรีสะเกษ จ.ศรีสะเกษ",
+		"financial": [
+			{ "year": "2558", "income": 18000 },
+			{ "year": "2557", "income": 18000 },
+			{ "year": "2556", "income": 5850 },
+			{ "year": "2555", "income": 0 }
+		],
+		"value_share": 513532,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ไตรปัณณ์ ออร์แกนิค (ประเทศไทย) จำกัด",
+		"pct_share": 50,
+		"obj_tname": "การขายส่งข้าวและผลิตภัณฑ์ที่ได้จากการโรงสีข้าว",
+		"company_id": "0335556000317",
+		"reg_date": "29/07/2556",
+		"company_name_en": "TRIPAN  ORGANIC (THAILAND) COMPANY LIMITED",
+		"tsic": 46315,
+		"cap_amt": 1000000,
+		"company_value": 1027063,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "สมัครผล",
+				"value_share": 102706,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "สายสุนีย์"
+			},
+			{
+				"Lastname": "ไตรสรณปัญญา",
+				"value_share": 513532,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 5000,
+				"Firstname": "ฐิตารีย์",
+				"person": {
+					"Number": 5,
+					"Title": "นาง",
+					"Name": "ฐิตารีย์ ไตรสรณปัญญา",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3358",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ศรีสะเกษ",
+					"MpZone": 7,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ฐิตารีย์-ไตรสรณปัญญา.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ไตรสรณปัญญา",
+				"value_share": 410825,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 4000,
+				"Firstname": "สมเกียรติ"
+			}
+		],
+		"count_shareholder": 5000,
+		"gov_fund_proj": null
+	}
+]

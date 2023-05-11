@@ -1,1 +1,477 @@
-[{"full_address":"9 ซอยรามอินทรา 19 แยก 3 ถนนรามอินทรา แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":7142.08},{"year":"2561","income":886923.73}],"value_share":-561963,"submit_obj_big_type":"G","company_name_th":"ดีเอ็มเอฟ (ประเทศไทย) จำกัด","pct_share":17.0,"obj_tname":"การขายส่งอาหารสัตว์","company_id":"0105553001781","reg_date":"6\/1\/2553","company_name_en":"DMF (THAILAND) CO., LTD.","tsic":46206,"cap_amt":1000000,"company_value":-3305664,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศิริเบญญาภิรมย์","value_share":-561963,"Nationality":"TH","pct_share":17,"count_share":1700,"Firstname":"โรจนินทร์","person":{"Number":5,"Title":"นาย","Name":"โรจนินทร์ ศิริเบญญาภิรมย์","PartyName":"ไทยสร้างไทย","MpType":"แบ่งเขต","Id":"2728","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ชลบุรี","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/โรจนินทร์-ศิริเบญญาภิรมย์.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"มิสเตอร์","value_share":-1619776,"Nationality":"BE","pct_share":49,"count_share":4900,"Firstname":"ฟาเบียน เดอ"},{"Lastname":"มานะกิจศิริสุทธิ","value_share":-1123926,"Nationality":"TH","pct_share":34,"count_share":3400,"Firstname":"วรรณนิภา"}],"count_shareholder":1700,"gov_fund_proj":null},{"full_address":"9 ซอยรามอินทรา 19 แยก 3 ถนนรามอินทรา  แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร","financial":[{"year":"2564","income":384098346.7599999905},{"year":"2563","income":306875519.3299999833},{"year":"2562","income":315423963.5199999809},{"year":"2561","income":263579084.2899999917}],"value_share":9334992,"submit_obj_big_type":"C","company_name_th":"โอโว่ ฟู้ดเทค  จำกัด","pct_share":22.9091,"obj_tname":"การผลิตผลิตภัณฑ์อาหารอื่น ๆ ซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0105553030586","reg_date":"02\/03\/2553","company_name_en":"OVO FOODTECH CO., LTD.","tsic":10799,"cap_amt":55000000,"company_value":40747966,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เฉลิมวณิชกุล","value_share":740880,"Nationality":"TH","pct_share":1.82,"count_share":10000,"Firstname":"กนกวรรณ์"},{"Lastname":"ศิริเบญญาภิรมย์","value_share":9334992,"Nationality":"TH","pct_share":22.91,"count_share":126000,"Firstname":"โรจนินทร์","person":{"Number":5,"Title":"นาย","Name":"โรจนินทร์ ศิริเบญญาภิรมย์","PartyName":"ไทยสร้างไทย","MpType":"แบ่งเขต","Id":"2728","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ชลบุรี","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/โรจนินทร์-ศิริเบญญาภิรมย์.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"พลาฤทธิ์","value_share":1037239,"Nationality":"TH","pct_share":2.55,"count_share":14000,"Firstname":"วไลลักษณ์"},{"Lastname":"วลัญช์อารยะ","value_share":1481759,"Nationality":"TH","pct_share":3.64,"count_share":20000,"Firstname":"วสุธร"},{"Lastname":"","value_share":11631710,"Nationality":"TH","pct_share":28.55,"count_share":157000,"Firstname":"เอส.ดับบลิว.ฟู้ดเทค"},{"Lastname":"ตันติวัฒนวงษ์","value_share":1481759,"Nationality":"TH","pct_share":3.64,"count_share":20000,"Firstname":"ปรีชา"},{"Lastname":"พลาฤทธิ์","value_share":3037557,"Nationality":"TH","pct_share":7.45,"count_share":41000,"Firstname":"อติพล"},{"Lastname":"ฉัตรคชราษฎร์","value_share":740880,"Nationality":"TH","pct_share":1.82,"count_share":10000,"Firstname":"ศิริลักษณ์"},{"Lastname":"ร่มสุขวนาสันต์","value_share":740880,"Nationality":"TH","pct_share":1.82,"count_share":10000,"Firstname":"จินดา"},{"Lastname":"เค้าภุไทย","value_share":814959,"Nationality":"TH","pct_share":2,"count_share":11000,"Firstname":"สุนีย์"},{"Lastname":"มานะกิจศิริสุทธิ","value_share":4519316,"Nationality":"TH","pct_share":11.09,"count_share":61000,"Firstname":"วรรณนิภา"},{"Lastname":"วลัญช์อารยะ","value_share":740880,"Nationality":"TH","pct_share":1.82,"count_share":10000,"Firstname":"ปกรณ์"},{"Lastname":"วลัญช์อารยะ","value_share":4445236,"Nationality":"TH","pct_share":10.91,"count_share":60000,"Firstname":"วิวัฒน์"}],"count_shareholder":126000,"gov_fund_proj":null},{"full_address":"38\/12 หมู่ที่ 5 ต.มาบไผ่ อ.บ้านบึง จ.ชลบุรี","financial":[{"year":"2563","income":91501811.8400000036},{"year":"2562","income":0},{"year":"2561","income":119871038.700000003},{"year":"2560","income":165560050.9499999881}],"value_share":9179244,"submit_obj_big_type":"G","company_name_th":"โชคธนาสิน ฟาร์ม  จำกัด","pct_share":83.3333,"obj_tname":"ร้านขายปลีกอาหารอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0205548013678","reg_date":"18\/05\/2548","company_name_en":"WISIT FARM COMPANY LIMITED","tsic":47219,"cap_amt":60000000,"company_value":11015097,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศิริเบญญาภิรมย์","value_share":1817491,"Nationality":"TH","pct_share":16.5,"count_share":99000,"Firstname":"ธันยากานต์"},{"Lastname":"ศิริเบญญาภิรมย์","value_share":9179244,"Nationality":"TH","pct_share":83.33,"count_share":500000,"Firstname":"โรจนินทร์","person":{"Number":5,"Title":"นาย","Name":"โรจนินทร์ ศิริเบญญาภิรมย์","PartyName":"ไทยสร้างไทย","MpType":"แบ่งเขต","Id":"2728","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ชลบุรี","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/โรจนินทร์-ศิริเบญญาภิรมย์.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ศิริเบญญาภิรมย์","value_share":18362,"Nationality":"TH","pct_share":0.17,"count_share":1000,"Firstname":"รัฐฐาณ์"}],"count_shareholder":500000,"gov_fund_proj":null},{"full_address":"38\/12 หมู่ที่ 5 ถนนชลบุรี - บ้านบึง  ต.บ้านบึง อ.บ้านบึง จ.ชลบุรี","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":658876,"submit_obj_big_type":"G","company_name_th":"เอ.พี.เค. ฟาร์ม จำกัด","pct_share":70.0,"obj_tname":"ร้านขายปลีกอาหารอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0205553023422","reg_date":"02\/11\/2553","company_name_en":"A.P.K.FARM CO.,LTD.","tsic":47219,"cap_amt":1000000,"company_value":941251,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศิริเบญญาภิรมย์","value_share":658876,"Nationality":"TH","pct_share":70,"count_share":7000,"Firstname":"โรจนินทร์","person":{"Number":5,"Title":"นาย","Name":"โรจนินทร์ ศิริเบญญาภิรมย์","PartyName":"ไทยสร้างไทย","MpType":"แบ่งเขต","Id":"2728","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ชลบุรี","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/โรจนินทร์-ศิริเบญญาภิรมย์.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ศิริเบญญาภิรมย์","value_share":94125,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"รัฐฐาณ์"},{"Lastname":"ศิริเบญญาภิรมย์","value_share":188250,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"นงเยาว์"}],"count_shareholder":7000,"gov_fund_proj":null},{"full_address":"38\/12 หมู่ที่ 5 ต.มาบไผ่ อ.บ้านบึง จ.ชลบุรี","financial":[{"year":"2564","income":0},{"year":"2563","income":322590},{"year":"2562","income":185750},{"year":"2561","income":2554164.7000000002}],"value_share":-302814,"submit_obj_big_type":"F","company_name_th":"ตองห้า เอสเตท จำกัด","pct_share":49.5,"obj_tname":"การก่อสร้างอาคารที่ไม่ใช่ที่พักอาศัย","company_id":"0205554030643","reg_date":"15\/12\/2554","company_name_en":"TONGHA ESTATE COMPANY LIMITED","tsic":41002,"cap_amt":500000,"company_value":-611745,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศิริเบญญาภิรมย์","value_share":-302814,"Nationality":"TH","pct_share":49.5,"count_share":24750,"Firstname":"รัฐฐาณ์"},{"Lastname":"แก้วประเสริฐ","value_share":-6117,"Nationality":"TH","pct_share":1,"count_share":500,"Firstname":"กุลณัฐ"},{"Lastname":"ศิริเบญญาภิรมย์","value_share":-302814,"Nationality":"TH","pct_share":49.5,"count_share":24750,"Firstname":"โรจนินทร์","person":{"Number":5,"Title":"นาย","Name":"โรจนินทร์ ศิริเบญญาภิรมย์","PartyName":"ไทยสร้างไทย","MpType":"แบ่งเขต","Id":"2728","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ชลบุรี","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/โรจนินทร์-ศิริเบญญาภิรมย์.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":24750,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "9 ซอยรามอินทรา 19 แยก 3 ถนนรามอินทรา แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 7142.08 },
+			{ "year": "2561", "income": 886923.73 }
+		],
+		"value_share": -561963,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ดีเอ็มเอฟ (ประเทศไทย) จำกัด",
+		"pct_share": 17.0,
+		"obj_tname": "การขายส่งอาหารสัตว์",
+		"company_id": "0105553001781",
+		"reg_date": "6/1/2553",
+		"company_name_en": "DMF (THAILAND) CO., LTD.",
+		"tsic": 46206,
+		"cap_amt": 1000000,
+		"company_value": -3305664,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศิริเบญญาภิรมย์",
+				"value_share": -561963,
+				"Nationality": "TH",
+				"pct_share": 17,
+				"count_share": 1700,
+				"Firstname": "โรจนินทร์",
+				"person": {
+					"Number": 5,
+					"Title": "นาย",
+					"Name": "โรจนินทร์ ศิริเบญญาภิรมย์",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "2728",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ชลบุรี",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/โรจนินทร์-ศิริเบญญาภิรมย์.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "มิสเตอร์",
+				"value_share": -1619776,
+				"Nationality": "BE",
+				"pct_share": 49,
+				"count_share": 4900,
+				"Firstname": "ฟาเบียน เดอ"
+			},
+			{
+				"Lastname": "มานะกิจศิริสุทธิ",
+				"value_share": -1123926,
+				"Nationality": "TH",
+				"pct_share": 34,
+				"count_share": 3400,
+				"Firstname": "วรรณนิภา"
+			}
+		],
+		"count_shareholder": 1700,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "9 ซอยรามอินทรา 19 แยก 3 ถนนรามอินทรา  แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 384098346.7599999905 },
+			{ "year": "2563", "income": 306875519.3299999833 },
+			{ "year": "2562", "income": 315423963.5199999809 },
+			{ "year": "2561", "income": 263579084.2899999917 }
+		],
+		"value_share": 9334992,
+		"submit_obj_big_type": "C",
+		"company_name_th": "โอโว่ ฟู้ดเทค  จำกัด",
+		"pct_share": 22.9091,
+		"obj_tname": "การผลิตผลิตภัณฑ์อาหารอื่น ๆ ซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0105553030586",
+		"reg_date": "02/03/2553",
+		"company_name_en": "OVO FOODTECH CO., LTD.",
+		"tsic": 10799,
+		"cap_amt": 55000000,
+		"company_value": 40747966,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เฉลิมวณิชกุล",
+				"value_share": 740880,
+				"Nationality": "TH",
+				"pct_share": 1.82,
+				"count_share": 10000,
+				"Firstname": "กนกวรรณ์"
+			},
+			{
+				"Lastname": "ศิริเบญญาภิรมย์",
+				"value_share": 9334992,
+				"Nationality": "TH",
+				"pct_share": 22.91,
+				"count_share": 126000,
+				"Firstname": "โรจนินทร์",
+				"person": {
+					"Number": 5,
+					"Title": "นาย",
+					"Name": "โรจนินทร์ ศิริเบญญาภิรมย์",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "2728",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ชลบุรี",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/โรจนินทร์-ศิริเบญญาภิรมย์.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "พลาฤทธิ์",
+				"value_share": 1037239,
+				"Nationality": "TH",
+				"pct_share": 2.55,
+				"count_share": 14000,
+				"Firstname": "วไลลักษณ์"
+			},
+			{
+				"Lastname": "วลัญช์อารยะ",
+				"value_share": 1481759,
+				"Nationality": "TH",
+				"pct_share": 3.64,
+				"count_share": 20000,
+				"Firstname": "วสุธร"
+			},
+			{
+				"Lastname": "",
+				"value_share": 11631710,
+				"Nationality": "TH",
+				"pct_share": 28.55,
+				"count_share": 157000,
+				"Firstname": "เอส.ดับบลิว.ฟู้ดเทค"
+			},
+			{
+				"Lastname": "ตันติวัฒนวงษ์",
+				"value_share": 1481759,
+				"Nationality": "TH",
+				"pct_share": 3.64,
+				"count_share": 20000,
+				"Firstname": "ปรีชา"
+			},
+			{
+				"Lastname": "พลาฤทธิ์",
+				"value_share": 3037557,
+				"Nationality": "TH",
+				"pct_share": 7.45,
+				"count_share": 41000,
+				"Firstname": "อติพล"
+			},
+			{
+				"Lastname": "ฉัตรคชราษฎร์",
+				"value_share": 740880,
+				"Nationality": "TH",
+				"pct_share": 1.82,
+				"count_share": 10000,
+				"Firstname": "ศิริลักษณ์"
+			},
+			{
+				"Lastname": "ร่มสุขวนาสันต์",
+				"value_share": 740880,
+				"Nationality": "TH",
+				"pct_share": 1.82,
+				"count_share": 10000,
+				"Firstname": "จินดา"
+			},
+			{
+				"Lastname": "เค้าภุไทย",
+				"value_share": 814959,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 11000,
+				"Firstname": "สุนีย์"
+			},
+			{
+				"Lastname": "มานะกิจศิริสุทธิ",
+				"value_share": 4519316,
+				"Nationality": "TH",
+				"pct_share": 11.09,
+				"count_share": 61000,
+				"Firstname": "วรรณนิภา"
+			},
+			{
+				"Lastname": "วลัญช์อารยะ",
+				"value_share": 740880,
+				"Nationality": "TH",
+				"pct_share": 1.82,
+				"count_share": 10000,
+				"Firstname": "ปกรณ์"
+			},
+			{
+				"Lastname": "วลัญช์อารยะ",
+				"value_share": 4445236,
+				"Nationality": "TH",
+				"pct_share": 10.91,
+				"count_share": 60000,
+				"Firstname": "วิวัฒน์"
+			}
+		],
+		"count_shareholder": 126000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "38/12 หมู่ที่ 5 ต.มาบไผ่ อ.บ้านบึง จ.ชลบุรี",
+		"financial": [
+			{ "year": "2563", "income": 91501811.8400000036 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 119871038.700000003 },
+			{ "year": "2560", "income": 165560050.9499999881 }
+		],
+		"value_share": 9179244,
+		"submit_obj_big_type": "G",
+		"company_name_th": "โชคธนาสิน ฟาร์ม  จำกัด",
+		"pct_share": 83.3333,
+		"obj_tname": "ร้านขายปลีกอาหารอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0205548013678",
+		"reg_date": "18/05/2548",
+		"company_name_en": "WISIT FARM COMPANY LIMITED",
+		"tsic": 47219,
+		"cap_amt": 60000000,
+		"company_value": 11015097,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศิริเบญญาภิรมย์",
+				"value_share": 1817491,
+				"Nationality": "TH",
+				"pct_share": 16.5,
+				"count_share": 99000,
+				"Firstname": "ธันยากานต์"
+			},
+			{
+				"Lastname": "ศิริเบญญาภิรมย์",
+				"value_share": 9179244,
+				"Nationality": "TH",
+				"pct_share": 83.33,
+				"count_share": 500000,
+				"Firstname": "โรจนินทร์",
+				"person": {
+					"Number": 5,
+					"Title": "นาย",
+					"Name": "โรจนินทร์ ศิริเบญญาภิรมย์",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "2728",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ชลบุรี",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/โรจนินทร์-ศิริเบญญาภิรมย์.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ศิริเบญญาภิรมย์",
+				"value_share": 18362,
+				"Nationality": "TH",
+				"pct_share": 0.17,
+				"count_share": 1000,
+				"Firstname": "รัฐฐาณ์"
+			}
+		],
+		"count_shareholder": 500000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "38/12 หมู่ที่ 5 ถนนชลบุรี - บ้านบึง  ต.บ้านบึง อ.บ้านบึง จ.ชลบุรี",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 658876,
+		"submit_obj_big_type": "G",
+		"company_name_th": "เอ.พี.เค. ฟาร์ม จำกัด",
+		"pct_share": 70.0,
+		"obj_tname": "ร้านขายปลีกอาหารอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0205553023422",
+		"reg_date": "02/11/2553",
+		"company_name_en": "A.P.K.FARM CO.,LTD.",
+		"tsic": 47219,
+		"cap_amt": 1000000,
+		"company_value": 941251,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศิริเบญญาภิรมย์",
+				"value_share": 658876,
+				"Nationality": "TH",
+				"pct_share": 70,
+				"count_share": 7000,
+				"Firstname": "โรจนินทร์",
+				"person": {
+					"Number": 5,
+					"Title": "นาย",
+					"Name": "โรจนินทร์ ศิริเบญญาภิรมย์",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "2728",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ชลบุรี",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/โรจนินทร์-ศิริเบญญาภิรมย์.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ศิริเบญญาภิรมย์",
+				"value_share": 94125,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "รัฐฐาณ์"
+			},
+			{
+				"Lastname": "ศิริเบญญาภิรมย์",
+				"value_share": 188250,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "นงเยาว์"
+			}
+		],
+		"count_shareholder": 7000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "38/12 หมู่ที่ 5 ต.มาบไผ่ อ.บ้านบึง จ.ชลบุรี",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 322590 },
+			{ "year": "2562", "income": 185750 },
+			{ "year": "2561", "income": 2554164.7000000002 }
+		],
+		"value_share": -302814,
+		"submit_obj_big_type": "F",
+		"company_name_th": "ตองห้า เอสเตท จำกัด",
+		"pct_share": 49.5,
+		"obj_tname": "การก่อสร้างอาคารที่ไม่ใช่ที่พักอาศัย",
+		"company_id": "0205554030643",
+		"reg_date": "15/12/2554",
+		"company_name_en": "TONGHA ESTATE COMPANY LIMITED",
+		"tsic": 41002,
+		"cap_amt": 500000,
+		"company_value": -611745,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศิริเบญญาภิรมย์",
+				"value_share": -302814,
+				"Nationality": "TH",
+				"pct_share": 49.5,
+				"count_share": 24750,
+				"Firstname": "รัฐฐาณ์"
+			},
+			{
+				"Lastname": "แก้วประเสริฐ",
+				"value_share": -6117,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 500,
+				"Firstname": "กุลณัฐ"
+			},
+			{
+				"Lastname": "ศิริเบญญาภิรมย์",
+				"value_share": -302814,
+				"Nationality": "TH",
+				"pct_share": 49.5,
+				"count_share": 24750,
+				"Firstname": "โรจนินทร์",
+				"person": {
+					"Number": 5,
+					"Title": "นาย",
+					"Name": "โรจนินทร์ ศิริเบญญาภิรมย์",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "2728",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ชลบุรี",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/โรจนินทร์-ศิริเบญญาภิรมย์.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 24750,
+		"gov_fund_proj": null
+	}
+]

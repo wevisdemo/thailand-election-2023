@@ -1,1 +1,81 @@
-[{"full_address":"260\/15 หมู่ที่ 4 ถนนดอนนก ต.มะขามเตี้ย อ.เมืองสุราษฎร์ธานี จ.สุราษฎร์ธานี","financial":[{"year":"2563","income":425129.63},{"year":"2562","income":293542.87},{"year":"2561","income":146343.41},{"year":"2560","income":249355.84}],"value_share":341107,"submit_obj_big_type":"M","company_name_th":"สำนักงานสุวัฒน์ทนายความ จำกัด","pct_share":15,"obj_tname":"กิจกรรมทางกฎหมาย","company_id":"0845554003438","reg_date":"27\/6\/2554","company_name_en":"SUWAT LAWYER OFFICE  COMPANY LIMITED","tsic":69100,"cap_amt":1000000,"company_value":2274048,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"พิมพสุต","value_share":341107,"Nationality":"TH","pct_share":15,"count_share":1500,"Firstname":"ประสิทธิ์"},{"Lastname":"เต็มสงสัย","value_share":1591833,"Nationality":"TH","pct_share":70,"count_share":7000,"Firstname":"สุวัฒน์"},{"Lastname":"นาคประดิษฐ์","value_share":341107,"Nationality":"TH","pct_share":15,"count_share":1500,"Firstname":"ราษฎร์พิชิต","person":{"Number":"","Title":"นาย","Name":"ราษฎร์พิชิต นาคประดิษฐ์","PartyName":"ทางเลือกใหม่","MpType":"บัญชีรายชื่อ","Id":"1064","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ทางเลือกใหม่\/ราษฎร์พิชิต-นาคประดิษฐ์.webp","Party":{"Name":"ทางเลือกใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":57,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ทางเลือกใหม่.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":1500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "260/15 หมู่ที่ 4 ถนนดอนนก ต.มะขามเตี้ย อ.เมืองสุราษฎร์ธานี จ.สุราษฎร์ธานี",
+		"financial": [
+			{ "year": "2563", "income": 425129.63 },
+			{ "year": "2562", "income": 293542.87 },
+			{ "year": "2561", "income": 146343.41 },
+			{ "year": "2560", "income": 249355.84 }
+		],
+		"value_share": 341107,
+		"submit_obj_big_type": "M",
+		"company_name_th": "สำนักงานสุวัฒน์ทนายความ จำกัด",
+		"pct_share": 15,
+		"obj_tname": "กิจกรรมทางกฎหมาย",
+		"company_id": "0845554003438",
+		"reg_date": "27/6/2554",
+		"company_name_en": "SUWAT LAWYER OFFICE  COMPANY LIMITED",
+		"tsic": 69100,
+		"cap_amt": 1000000,
+		"company_value": 2274048,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "พิมพสุต",
+				"value_share": 341107,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 1500,
+				"Firstname": "ประสิทธิ์"
+			},
+			{
+				"Lastname": "เต็มสงสัย",
+				"value_share": 1591833,
+				"Nationality": "TH",
+				"pct_share": 70,
+				"count_share": 7000,
+				"Firstname": "สุวัฒน์"
+			},
+			{
+				"Lastname": "นาคประดิษฐ์",
+				"value_share": 341107,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 1500,
+				"Firstname": "ราษฎร์พิชิต",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ราษฎร์พิชิต นาคประดิษฐ์",
+					"PartyName": "ทางเลือกใหม่",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1064",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ทางเลือกใหม่/ราษฎร์พิชิต-นาคประดิษฐ์.webp",
+					"Party": {
+						"Name": "ทางเลือกใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 57,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ทางเลือกใหม่.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 1500,
+		"gov_fund_proj": null
+	}
+]

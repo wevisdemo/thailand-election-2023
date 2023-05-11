@@ -1,1 +1,81 @@
-[{"full_address":"91\/365 หมู่ที่ 2 ต.ไทรม้า อ.เมืองนนทบุรี จ.นนทบุรี","financial":[{"year":"2565","income":27000},{"year":"2564","income":27000},{"year":"2563","income":27000},{"year":"2562","income":0}],"value_share":887417,"submit_obj_big_type":"C","company_name_th":"นารา เนเจอรัล จำกัด","pct_share":85,"obj_tname":"การผลิตสบู่และสารซักฟอกผลิตภัณฑ์ที่ใช้ในการทำความสะอาด และขัดเงา","company_id":"0125559008183","reg_date":"21\/3\/2559","company_name_en":"NARA NATURAL COMPANY LIMITED","tsic":20231,"cap_amt":1000000,"company_value":1044020,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"อิ่มละออ","value_share":104402,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"ทัศนีย์"},{"Lastname":"บุญเสรฐ","value_share":887417,"Nationality":"TH","pct_share":85,"count_share":8500,"Firstname":"ณริยา","person":{"Number":3,"Title":"นาง","Name":"ณริยา บุญเสรฐ","PartyName":"พลังประชารัฐ","MpType":"แบ่งเขต","Id":"4940","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"พิจิตร","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังประชารัฐ\/ณริยา-บุญเสรฐ.webp","Party":{"Name":"พลังประชารัฐ","Color":"#2276EF","PartyType":"พรรค","IsActive":true,"Id":20,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/Y8aiwU_p-C-aZyw_PN.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"กรเกษตร","value_share":52201,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"อัจฉราภรณ์"}],"count_shareholder":8500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "91/365 หมู่ที่ 2 ต.ไทรม้า อ.เมืองนนทบุรี จ.นนทบุรี",
+		"financial": [
+			{ "year": "2565", "income": 27000 },
+			{ "year": "2564", "income": 27000 },
+			{ "year": "2563", "income": 27000 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 887417,
+		"submit_obj_big_type": "C",
+		"company_name_th": "นารา เนเจอรัล จำกัด",
+		"pct_share": 85,
+		"obj_tname": "การผลิตสบู่และสารซักฟอกผลิตภัณฑ์ที่ใช้ในการทำความสะอาด และขัดเงา",
+		"company_id": "0125559008183",
+		"reg_date": "21/3/2559",
+		"company_name_en": "NARA NATURAL COMPANY LIMITED",
+		"tsic": 20231,
+		"cap_amt": 1000000,
+		"company_value": 1044020,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "อิ่มละออ",
+				"value_share": 104402,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "ทัศนีย์"
+			},
+			{
+				"Lastname": "บุญเสรฐ",
+				"value_share": 887417,
+				"Nationality": "TH",
+				"pct_share": 85,
+				"count_share": 8500,
+				"Firstname": "ณริยา",
+				"person": {
+					"Number": 3,
+					"Title": "นาง",
+					"Name": "ณริยา บุญเสรฐ",
+					"PartyName": "พลังประชารัฐ",
+					"MpType": "แบ่งเขต",
+					"Id": "4940",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "พิจิตร",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังประชารัฐ/ณริยา-บุญเสรฐ.webp",
+					"Party": {
+						"Name": "พลังประชารัฐ",
+						"Color": "#2276EF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 20,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/Y8aiwU_p-C-aZyw_PN.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "กรเกษตร",
+				"value_share": 52201,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "อัจฉราภรณ์"
+			}
+		],
+		"count_shareholder": 8500,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,96 @@
-[{"full_address":"599 หมู่ที่ 9  ต.สัตหีบ อ.สัตหีบ จ.ชลบุรี","financial":[{"year":"2560","income":98000},{"year":"2559","income":98000},{"year":"2558","income":0}],"value_share":1547250,"submit_obj_big_type":"L","company_name_th":"๙๐๐ ล้านพร็อพเพอร์ตี้ จำกัด","pct_share":30,"obj_tname":"กิจกรรมเกี่ยวกับอสังหาริมทรัพย์","company_id":"0205559038448","reg_date":"09\/12\/2559","company_name_en":"900 LANPROPERTY COMPANY LIMITED","tsic":68000,"cap_amt":5000000,"company_value":5157500,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"สิทธิบูรณกุล","value_share":515750,"Nationality":"TH","pct_share":10,"count_share":5000,"Firstname":"จักริน"},{"Lastname":"สุผา","value_share":515750,"Nationality":"TH","pct_share":10,"count_share":5000,"Firstname":"สุวันนา"},{"Lastname":"หวังนากลาง","value_share":1547250,"Nationality":"TH","pct_share":30,"count_share":15000,"Firstname":"กนกกร","person":{"Number":"","Title":"นางสาว","Name":"กนกกร หวังนากลาง","PartyName":"พลัง","MpType":"บัญชีรายชื่อ","Id":"254","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/พลัง\/กนกกร-หวังนากลาง.webp","Party":{"Name":"พลัง","Color":null,"PartyType":"พรรค","IsActive":false,"Id":103,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/5nO1yF2UytjGcFW1K8.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"รุ่งโรจน์กานต์กุล","value_share":2063000,"Nationality":"TH","pct_share":40,"count_share":20000,"Firstname":"วิริญนันท์"},{"Lastname":"ชาลีดี","value_share":515750,"Nationality":"TH","pct_share":10,"count_share":5000,"Firstname":"ปาริชาต"}],"count_shareholder":15000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "599 หมู่ที่ 9  ต.สัตหีบ อ.สัตหีบ จ.ชลบุรี",
+		"financial": [
+			{ "year": "2560", "income": 98000 },
+			{ "year": "2559", "income": 98000 },
+			{ "year": "2558", "income": 0 }
+		],
+		"value_share": 1547250,
+		"submit_obj_big_type": "L",
+		"company_name_th": "๙๐๐ ล้านพร็อพเพอร์ตี้ จำกัด",
+		"pct_share": 30,
+		"obj_tname": "กิจกรรมเกี่ยวกับอสังหาริมทรัพย์",
+		"company_id": "0205559038448",
+		"reg_date": "09/12/2559",
+		"company_name_en": "900 LANPROPERTY COMPANY LIMITED",
+		"tsic": 68000,
+		"cap_amt": 5000000,
+		"company_value": 5157500,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "สิทธิบูรณกุล",
+				"value_share": 515750,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 5000,
+				"Firstname": "จักริน"
+			},
+			{
+				"Lastname": "สุผา",
+				"value_share": 515750,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 5000,
+				"Firstname": "สุวันนา"
+			},
+			{
+				"Lastname": "หวังนากลาง",
+				"value_share": 1547250,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 15000,
+				"Firstname": "กนกกร",
+				"person": {
+					"Number": "",
+					"Title": "นางสาว",
+					"Name": "กนกกร หวังนากลาง",
+					"PartyName": "พลัง",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "254",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลัง/กนกกร-หวังนากลาง.webp",
+					"Party": {
+						"Name": "พลัง",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 103,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/5nO1yF2UytjGcFW1K8.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "รุ่งโรจน์กานต์กุล",
+				"value_share": 2063000,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 20000,
+				"Firstname": "วิริญนันท์"
+			},
+			{
+				"Lastname": "ชาลีดี",
+				"value_share": 515750,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 5000,
+				"Firstname": "ปาริชาต"
+			}
+		],
+		"count_shareholder": 15000,
+		"gov_fund_proj": null
+	}
+]

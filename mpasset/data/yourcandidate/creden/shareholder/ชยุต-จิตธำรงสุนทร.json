@@ -1,1 +1,81 @@
-[{"full_address":"99 หมู่ที่ 11 ต.ผาบ่อง อ.เมืองแม่ฮ่องสอน จ.แม่ฮ่องสอน","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":1689800,"submit_obj_big_type":"G","company_name_th":"ด็อกเตอร์โกรท(ไทยแลนด์) จำกัด","pct_share":34,"obj_tname":"การขายส่งวัตถุดิบอื่นๆทางการเกษตรซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0585561000174","reg_date":"11\/9\/2561","company_name_en":"DR.GROWTH(THAILAND) COMPANY LIMITED","tsic":46209,"cap_amt":5000000,"company_value":4970000,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"พนมไพร","value_share":1640100,"Nationality":"TH","pct_share":33,"count_share":16500,"Firstname":"วรวุฒิ"},{"Lastname":"จิตธำรงสุนทร","value_share":1640100,"Nationality":"TH","pct_share":33,"count_share":16500,"Firstname":"รฐา"},{"Lastname":"จิตธำรงสุนทร","value_share":1689800,"Nationality":"TH","pct_share":34,"count_share":17000,"Firstname":"ชยุต","person":{"Number":3,"Title":"นาย","Name":"ชยุต จิตธำรงสุนทร","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"4600","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"พะเยา","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ชยุต-จิตธำรงสุนทร.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":17000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "99 หมู่ที่ 11 ต.ผาบ่อง อ.เมืองแม่ฮ่องสอน จ.แม่ฮ่องสอน",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 1689800,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ด็อกเตอร์โกรท(ไทยแลนด์) จำกัด",
+		"pct_share": 34,
+		"obj_tname": "การขายส่งวัตถุดิบอื่นๆทางการเกษตรซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0585561000174",
+		"reg_date": "11/9/2561",
+		"company_name_en": "DR.GROWTH(THAILAND) COMPANY LIMITED",
+		"tsic": 46209,
+		"cap_amt": 5000000,
+		"company_value": 4970000,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "พนมไพร",
+				"value_share": 1640100,
+				"Nationality": "TH",
+				"pct_share": 33,
+				"count_share": 16500,
+				"Firstname": "วรวุฒิ"
+			},
+			{
+				"Lastname": "จิตธำรงสุนทร",
+				"value_share": 1640100,
+				"Nationality": "TH",
+				"pct_share": 33,
+				"count_share": 16500,
+				"Firstname": "รฐา"
+			},
+			{
+				"Lastname": "จิตธำรงสุนทร",
+				"value_share": 1689800,
+				"Nationality": "TH",
+				"pct_share": 34,
+				"count_share": 17000,
+				"Firstname": "ชยุต",
+				"person": {
+					"Number": 3,
+					"Title": "นาย",
+					"Name": "ชยุต จิตธำรงสุนทร",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4600",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "พะเยา",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ชยุต-จิตธำรงสุนทร.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 17000,
+		"gov_fund_proj": null
+	}
+]

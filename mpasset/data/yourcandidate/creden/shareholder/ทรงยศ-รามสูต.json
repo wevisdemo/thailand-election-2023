@@ -1,1 +1,192 @@
-[{"full_address":"34 ซอยสามัคคี 49 ต.ท่าทราย อ.เมืองนนทบุรี จ.นนทบุรี","financial":[{"year":"2564","income":15827894.2200000007},{"year":"2563","income":15613372.5500000007},{"year":"2562","income":15167115.1600000001},{"year":"2561","income":15632098.6099999994}],"value_share":3513460,"submit_obj_big_type":"G","company_name_th":"สามัคคี ออโต้คาร์ จำกัด","pct_share":11.6667,"obj_tname":"การบำรุงรักษาและการซ่อมระบบเครื่องยนต์และชิ้นส่วนยานยนต์","company_id":"0125536005714","reg_date":"8\/10\/2536","company_name_en":"","tsic":45201,"cap_amt":600000,"company_value":30115284,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"หฤทัยวรกุล","value_share":20076866,"Nationality":"TH","pct_share":66.67,"count_share":4000,"Firstname":"มงคล"},{"Lastname":"จันทาทอง","value_share":3513460,"Nationality":"TH","pct_share":11.67,"count_share":700,"Firstname":"ประสิทธิ์"},{"Lastname":"สิงขทรัพย์","value_share":3011528,"Nationality":"TH","pct_share":10,"count_share":600,"Firstname":"ทศพล"},{"Lastname":"รามสูต","value_share":3513460,"Nationality":"TH","pct_share":11.67,"count_share":700,"Firstname":"ทรงยศ","person":{"Number":6,"Title":"นาย","Name":"ทรงยศ รามสูต","PartyName":"เพื่อไทย","MpType":"แบ่งเขต","Id":"4576","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"น่าน","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/ทรงยศ-รามสูต.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":700,"gov_fund_proj":null},{"full_address":"42\/3 ถนนสุริยะพงษ์ ต.ในเวียง อ.เมืองน่าน จ.น่าน","financial":[{"year":"2564","income":2192991.5600000001},{"year":"2563","income":3244373.1000000001},{"year":"2562","income":3626916.1099999999},{"year":"2561","income":2595370.48}],"value_share":-9713705,"submit_obj_big_type":"L","company_name_th":"น่านซุปเปอร์สโตร์ จำกัด","pct_share":27.0,"obj_tname":"การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย","company_id":"0555539000043","reg_date":"5\/3\/2539","company_name_en":"","tsic":68104,"cap_amt":5000000,"company_value":-35976685,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"โลหะโชติ","value_share":-1007347,"Nationality":"TH","pct_share":2.8,"count_share":1400,"Firstname":"ชัติชาติ"},{"Lastname":"โลหะโชติ","value_share":-6763617,"Nationality":"TH","pct_share":18.8,"count_share":9400,"Firstname":"สกาวรัตน์"},{"Lastname":"รามสูต","value_share":-5756270,"Nationality":"TH","pct_share":16,"count_share":8000,"Firstname":"พงศ์ภัค"},{"Lastname":"โลหะโชติ","value_share":-6979477,"Nationality":"TH","pct_share":19.4,"count_share":9700,"Firstname":"กันยา"},{"Lastname":"รามสูต","value_share":-9713705,"Nationality":"TH","pct_share":27,"count_share":13500,"Firstname":"ทรงยศ","person":{"Number":6,"Title":"นาย","Name":"ทรงยศ รามสูต","PartyName":"เพื่อไทย","MpType":"แบ่งเขต","Id":"4576","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"น่าน","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/ทรงยศ-รามสูต.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"รามสูต","value_share":-5756270,"Nationality":"TH","pct_share":16,"count_share":8000,"Firstname":"ณัชพงษ์"}],"count_shareholder":13500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "34 ซอยสามัคคี 49 ต.ท่าทราย อ.เมืองนนทบุรี จ.นนทบุรี",
+		"financial": [
+			{ "year": "2564", "income": 15827894.2200000007 },
+			{ "year": "2563", "income": 15613372.5500000007 },
+			{ "year": "2562", "income": 15167115.1600000001 },
+			{ "year": "2561", "income": 15632098.6099999994 }
+		],
+		"value_share": 3513460,
+		"submit_obj_big_type": "G",
+		"company_name_th": "สามัคคี ออโต้คาร์ จำกัด",
+		"pct_share": 11.6667,
+		"obj_tname": "การบำรุงรักษาและการซ่อมระบบเครื่องยนต์และชิ้นส่วนยานยนต์",
+		"company_id": "0125536005714",
+		"reg_date": "8/10/2536",
+		"company_name_en": "",
+		"tsic": 45201,
+		"cap_amt": 600000,
+		"company_value": 30115284,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "หฤทัยวรกุล",
+				"value_share": 20076866,
+				"Nationality": "TH",
+				"pct_share": 66.67,
+				"count_share": 4000,
+				"Firstname": "มงคล"
+			},
+			{
+				"Lastname": "จันทาทอง",
+				"value_share": 3513460,
+				"Nationality": "TH",
+				"pct_share": 11.67,
+				"count_share": 700,
+				"Firstname": "ประสิทธิ์"
+			},
+			{
+				"Lastname": "สิงขทรัพย์",
+				"value_share": 3011528,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 600,
+				"Firstname": "ทศพล"
+			},
+			{
+				"Lastname": "รามสูต",
+				"value_share": 3513460,
+				"Nationality": "TH",
+				"pct_share": 11.67,
+				"count_share": 700,
+				"Firstname": "ทรงยศ",
+				"person": {
+					"Number": 6,
+					"Title": "นาย",
+					"Name": "ทรงยศ รามสูต",
+					"PartyName": "เพื่อไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4576",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "น่าน",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/ทรงยศ-รามสูต.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 700,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "42/3 ถนนสุริยะพงษ์ ต.ในเวียง อ.เมืองน่าน จ.น่าน",
+		"financial": [
+			{ "year": "2564", "income": 2192991.5600000001 },
+			{ "year": "2563", "income": 3244373.1000000001 },
+			{ "year": "2562", "income": 3626916.1099999999 },
+			{ "year": "2561", "income": 2595370.48 }
+		],
+		"value_share": -9713705,
+		"submit_obj_big_type": "L",
+		"company_name_th": "น่านซุปเปอร์สโตร์ จำกัด",
+		"pct_share": 27.0,
+		"obj_tname": "การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย",
+		"company_id": "0555539000043",
+		"reg_date": "5/3/2539",
+		"company_name_en": "",
+		"tsic": 68104,
+		"cap_amt": 5000000,
+		"company_value": -35976685,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "โลหะโชติ",
+				"value_share": -1007347,
+				"Nationality": "TH",
+				"pct_share": 2.8,
+				"count_share": 1400,
+				"Firstname": "ชัติชาติ"
+			},
+			{
+				"Lastname": "โลหะโชติ",
+				"value_share": -6763617,
+				"Nationality": "TH",
+				"pct_share": 18.8,
+				"count_share": 9400,
+				"Firstname": "สกาวรัตน์"
+			},
+			{
+				"Lastname": "รามสูต",
+				"value_share": -5756270,
+				"Nationality": "TH",
+				"pct_share": 16,
+				"count_share": 8000,
+				"Firstname": "พงศ์ภัค"
+			},
+			{
+				"Lastname": "โลหะโชติ",
+				"value_share": -6979477,
+				"Nationality": "TH",
+				"pct_share": 19.4,
+				"count_share": 9700,
+				"Firstname": "กันยา"
+			},
+			{
+				"Lastname": "รามสูต",
+				"value_share": -9713705,
+				"Nationality": "TH",
+				"pct_share": 27,
+				"count_share": 13500,
+				"Firstname": "ทรงยศ",
+				"person": {
+					"Number": 6,
+					"Title": "นาย",
+					"Name": "ทรงยศ รามสูต",
+					"PartyName": "เพื่อไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4576",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "น่าน",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/ทรงยศ-รามสูต.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "รามสูต",
+				"value_share": -5756270,
+				"Nationality": "TH",
+				"pct_share": 16,
+				"count_share": 8000,
+				"Firstname": "ณัชพงษ์"
+			}
+		],
+		"count_shareholder": 13500,
+		"gov_fund_proj": null
+	}
+]

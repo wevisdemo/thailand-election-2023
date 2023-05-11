@@ -1,1 +1,81 @@
-[{"full_address":"458\/15 หมู่ที่ 4  ต.คูคต อ.ลำลูกกา จ.ปทุมธานี","financial":[{"year":"2564","income":468623.05},{"year":"2563","income":233863.95},{"year":"2562","income":483700.12},{"year":"2561","income":0}],"value_share":142581,"submit_obj_big_type":"M","company_name_th":"เดอะ อินดี้ ลีกัล คอนซัลแตนท์ แอนด์ สปาย จำกัด","pct_share":33.3333,"obj_tname":"กิจกรรมทางกฎหมาย","company_id":"0135560000352","reg_date":"06\/01\/2560","company_name_en":"THE INDY LEGAL CONSULTANT AND SPY COMPANY LIMITED","tsic":69100,"cap_amt":150000,"company_value":427743,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ตันไพศาล","value_share":142581,"Nationality":"TH","pct_share":33.33,"count_share":500,"Firstname":"ณัฐนิตย์"},{"Lastname":"ชะเอมเทศ","value_share":142581,"Nationality":"TH","pct_share":33.33,"count_share":500,"Firstname":"ปัญญา","person":{"Number":3,"Title":"พันตำรวจเอก","Name":"ปัญญา ชะเอมเทศ","PartyName":"เสรีรวมไทย","MpType":"แบ่งเขต","Id":"5984","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ปทุมธานี","MpZone":6,"MpList":"","Images":"\/yourcandidates\/candidates\/เสรีรวมไทย\/ปัญญา-ชะเอมเทศ.webp","Party":{"Name":"เสรีรวมไทย","Color":"#FFEA2E","PartyType":"พรรค","IsActive":true,"Id":28,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/เสรีรวมไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ตันไพศาล","value_share":142581,"Nationality":"TH","pct_share":33.33,"count_share":500,"Firstname":"วีระ"}],"count_shareholder":500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "458/15 หมู่ที่ 4  ต.คูคต อ.ลำลูกกา จ.ปทุมธานี",
+		"financial": [
+			{ "year": "2564", "income": 468623.05 },
+			{ "year": "2563", "income": 233863.95 },
+			{ "year": "2562", "income": 483700.12 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 142581,
+		"submit_obj_big_type": "M",
+		"company_name_th": "เดอะ อินดี้ ลีกัล คอนซัลแตนท์ แอนด์ สปาย จำกัด",
+		"pct_share": 33.3333,
+		"obj_tname": "กิจกรรมทางกฎหมาย",
+		"company_id": "0135560000352",
+		"reg_date": "06/01/2560",
+		"company_name_en": "THE INDY LEGAL CONSULTANT AND SPY COMPANY LIMITED",
+		"tsic": 69100,
+		"cap_amt": 150000,
+		"company_value": 427743,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ตันไพศาล",
+				"value_share": 142581,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 500,
+				"Firstname": "ณัฐนิตย์"
+			},
+			{
+				"Lastname": "ชะเอมเทศ",
+				"value_share": 142581,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 500,
+				"Firstname": "ปัญญา",
+				"person": {
+					"Number": 3,
+					"Title": "พันตำรวจเอก",
+					"Name": "ปัญญา ชะเอมเทศ",
+					"PartyName": "เสรีรวมไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "5984",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ปทุมธานี",
+					"MpZone": 6,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เสรีรวมไทย/ปัญญา-ชะเอมเทศ.webp",
+					"Party": {
+						"Name": "เสรีรวมไทย",
+						"Color": "#FFEA2E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 28,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เสรีรวมไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ตันไพศาล",
+				"value_share": 142581,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 500,
+				"Firstname": "วีระ"
+			}
+		],
+		"count_shareholder": 500,
+		"gov_fund_proj": null
+	}
+]

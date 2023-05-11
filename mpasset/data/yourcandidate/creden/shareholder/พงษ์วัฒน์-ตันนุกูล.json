@@ -1,1 +1,81 @@
-[{"full_address":"189\/354  ซอยพหลโยธิน 34 แขวงเสนานิคม เขตจตุจักร กรุงเทพมหานคร","financial":[{"year":"2561","income":0},{"year":"2560","income":0},{"year":"2559","income":0},{"year":"2557","income":1865101.3100000001}],"value_share":-23848,"submit_obj_big_type":"J","company_name_th":"แอปชอต จำกัด","pct_share":49.99,"obj_tname":"กิจกรรมการผลิตภาพยนตร์และวีดิทัศน์","company_id":"0105556105129","reg_date":"02\/07\/2556","company_name_en":"APP SHOT COMPANY LIMITED","tsic":59111,"cap_amt":1000000,"company_value":-47706,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ตันนุกูล","value_share":-5,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"จตุรงค์"},{"Lastname":"โพธิ์ทอง","value_share":-23853,"Nationality":"TH","pct_share":50,"count_share":5000,"Firstname":"ชนันทร์ภัสร์"},{"Lastname":"ตันนุกูล","value_share":-23848,"Nationality":"TH","pct_share":49.99,"count_share":4999,"Firstname":"พงษ์วัฒน์","person":{"Number":4,"Title":"นาย","Name":"พงษ์วัฒน์ ตันนุกูล","PartyName":"เสรีรวมไทย","MpType":"แบ่งเขต","Id":"1915","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/เสรีรวมไทย\/พงษ์วัฒน์-ตันนุกูล.webp","Party":{"Name":"เสรีรวมไทย","Color":"#FFEA2E","PartyType":"พรรค","IsActive":true,"Id":28,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/เสรีรวมไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":4999,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "189/354  ซอยพหลโยธิน 34 แขวงเสนานิคม เขตจตุจักร กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2561", "income": 0 },
+			{ "year": "2560", "income": 0 },
+			{ "year": "2559", "income": 0 },
+			{ "year": "2557", "income": 1865101.3100000001 }
+		],
+		"value_share": -23848,
+		"submit_obj_big_type": "J",
+		"company_name_th": "แอปชอต จำกัด",
+		"pct_share": 49.99,
+		"obj_tname": "กิจกรรมการผลิตภาพยนตร์และวีดิทัศน์",
+		"company_id": "0105556105129",
+		"reg_date": "02/07/2556",
+		"company_name_en": "APP SHOT COMPANY LIMITED",
+		"tsic": 59111,
+		"cap_amt": 1000000,
+		"company_value": -47706,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ตันนุกูล",
+				"value_share": -5,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "จตุรงค์"
+			},
+			{
+				"Lastname": "โพธิ์ทอง",
+				"value_share": -23853,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 5000,
+				"Firstname": "ชนันทร์ภัสร์"
+			},
+			{
+				"Lastname": "ตันนุกูล",
+				"value_share": -23848,
+				"Nationality": "TH",
+				"pct_share": 49.99,
+				"count_share": 4999,
+				"Firstname": "พงษ์วัฒน์",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "พงษ์วัฒน์ ตันนุกูล",
+					"PartyName": "เสรีรวมไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "1915",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เสรีรวมไทย/พงษ์วัฒน์-ตันนุกูล.webp",
+					"Party": {
+						"Name": "เสรีรวมไทย",
+						"Color": "#FFEA2E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 28,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เสรีรวมไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 4999,
+		"gov_fund_proj": null
+	}
+]

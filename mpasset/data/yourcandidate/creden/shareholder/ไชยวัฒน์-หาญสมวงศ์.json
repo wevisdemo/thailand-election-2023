@@ -1,1 +1,168 @@
-[{"reg_date":"21\/01\/2537","financial":[{"year":"2564","income":48470245.6000000015},{"year":"2563","income":52101839.9900000021},{"year":"2562","income":76538896.9200000018},{"year":"2561","income":79334148.4899999946}],"value_share":5525737,"count_shareholder":118520,"company_shareholder":[{"Lastname":"คุณากรปรมัตถ์","value_share":23309,"pct_share":0.36,"Firstname":"เยาวลักษณ์","count_share":500,"Nationality":"TH"},{"Lastname":"หาญสมวงศ์","value_share":5525737,"pct_share":84.66,"Firstname":"ไชยวัฒน์","count_share":118520,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"ไชยวัฒน์ หาญสมวงศ์","PartyName":"ไทยสร้างไทย","MpType":"บัญชีรายชื่อ","Id":"1171","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/ไชยวัฒน์-หาญสมวงศ์.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"หาญสมวงศ์","value_share":978146,"pct_share":14.99,"Firstname":"สมจิตร","count_share":20980,"Nationality":"TH"}],"pct_share":84.6571,"company_name_th":"แทนเดม เคมิคอล จำกัด","company_id":"0105537008687","obj_tname":"การขายส่งเคมีภัณฑ์ทางอุตสาหกรรม","company_name_en":"PANDEM CHEMICAL CO., LTD.","tsic":46691,"cap_amt":14000000,"company_value":6527198,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"G","full_address":"53\/1 ซอยวิภาวดีรังสิต 20 (ซอยทรงสะอาด) ถนนวิภาวดีรังสิต แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร","gov_fund_proj":null},{"reg_date":"28\/12\/2547","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":-195948,"count_shareholder":1400,"company_shareholder":[{"Lastname":"","value_share":-13772335,"pct_share":98.4,"Firstname":"แทนเดม เคมิคอล","count_share":98400,"Nationality":"TH"},{"Lastname":"หาญสมวงศ์","value_share":-195948,"pct_share":1.4,"Firstname":"ไชยวัฒน์","count_share":1400,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"ไชยวัฒน์ หาญสมวงศ์","PartyName":"ไทยสร้างไทย","MpType":"บัญชีรายชื่อ","Id":"1171","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/ไชยวัฒน์-หาญสมวงศ์.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"หาญสมวงศ์","value_share":-13996,"pct_share":0.1,"Firstname":"สมจิตร","count_share":100,"Nationality":"TH"},{"Lastname":"หาญสมวงศ์","value_share":-13996,"pct_share":0.1,"Firstname":"ฐิติภัท","count_share":100,"Nationality":"TH"}],"pct_share":1.4,"company_name_th":"แทนเดม สกรีน สเปเชี่ยลลิสต์ จำกัด","company_id":"0105547167800","obj_tname":"การบริการก่อนการพิมพ์","company_name_en":"TANDEM SCREEN SPECIALIST  COMPANY LIMITED","tsic":18121,"cap_amt":10000000,"company_value":-13996276,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"C","full_address":"53\/1 ซอยวิภาวดีรังสิต 20 ถนนวิภาวดีรังสิต แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร","gov_fund_proj":null}]
+[
+	{
+		"reg_date": "21/01/2537",
+		"financial": [
+			{ "year": "2564", "income": 48470245.6000000015 },
+			{ "year": "2563", "income": 52101839.9900000021 },
+			{ "year": "2562", "income": 76538896.9200000018 },
+			{ "year": "2561", "income": 79334148.4899999946 }
+		],
+		"value_share": 5525737,
+		"count_shareholder": 118520,
+		"company_shareholder": [
+			{
+				"Lastname": "คุณากรปรมัตถ์",
+				"value_share": 23309,
+				"pct_share": 0.36,
+				"Firstname": "เยาวลักษณ์",
+				"count_share": 500,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "หาญสมวงศ์",
+				"value_share": 5525737,
+				"pct_share": 84.66,
+				"Firstname": "ไชยวัฒน์",
+				"count_share": 118520,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ไชยวัฒน์ หาญสมวงศ์",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1171",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/ไชยวัฒน์-หาญสมวงศ์.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "หาญสมวงศ์",
+				"value_share": 978146,
+				"pct_share": 14.99,
+				"Firstname": "สมจิตร",
+				"count_share": 20980,
+				"Nationality": "TH"
+			}
+		],
+		"pct_share": 84.6571,
+		"company_name_th": "แทนเดม เคมิคอล จำกัด",
+		"company_id": "0105537008687",
+		"obj_tname": "การขายส่งเคมีภัณฑ์ทางอุตสาหกรรม",
+		"company_name_en": "PANDEM CHEMICAL CO., LTD.",
+		"tsic": 46691,
+		"cap_amt": 14000000,
+		"company_value": 6527198,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "G",
+		"full_address": "53/1 ซอยวิภาวดีรังสิต 20 (ซอยทรงสะอาด) ถนนวิภาวดีรังสิต แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร",
+		"gov_fund_proj": null
+	},
+	{
+		"reg_date": "28/12/2547",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": -195948,
+		"count_shareholder": 1400,
+		"company_shareholder": [
+			{
+				"Lastname": "",
+				"value_share": -13772335,
+				"pct_share": 98.4,
+				"Firstname": "แทนเดม เคมิคอล",
+				"count_share": 98400,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "หาญสมวงศ์",
+				"value_share": -195948,
+				"pct_share": 1.4,
+				"Firstname": "ไชยวัฒน์",
+				"count_share": 1400,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ไชยวัฒน์ หาญสมวงศ์",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1171",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/ไชยวัฒน์-หาญสมวงศ์.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "หาญสมวงศ์",
+				"value_share": -13996,
+				"pct_share": 0.1,
+				"Firstname": "สมจิตร",
+				"count_share": 100,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "หาญสมวงศ์",
+				"value_share": -13996,
+				"pct_share": 0.1,
+				"Firstname": "ฐิติภัท",
+				"count_share": 100,
+				"Nationality": "TH"
+			}
+		],
+		"pct_share": 1.4,
+		"company_name_th": "แทนเดม สกรีน สเปเชี่ยลลิสต์ จำกัด",
+		"company_id": "0105547167800",
+		"obj_tname": "การบริการก่อนการพิมพ์",
+		"company_name_en": "TANDEM SCREEN SPECIALIST  COMPANY LIMITED",
+		"tsic": 18121,
+		"cap_amt": 10000000,
+		"company_value": -13996276,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "C",
+		"full_address": "53/1 ซอยวิภาวดีรังสิต 20 ถนนวิภาวดีรังสิต แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร",
+		"gov_fund_proj": null
+	}
+]

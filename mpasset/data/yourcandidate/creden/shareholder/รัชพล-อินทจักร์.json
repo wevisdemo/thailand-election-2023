@@ -1,1 +1,1784 @@
-[{"full_address":"3  หมู่ที่ 19 ต.เวียง อ.เทิง จ.เชียงราย","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"A","company_name_th":"วิสาหกิจชุมชนปลูกหญ้าเนเปียร์ขุนตาล4 จำกัด","pct_share":0.463,"obj_tname":"-","company_id":"0575564004871","reg_date":"26\/11\/2564","company_name_en":"PLUK YA NAPIER KHUNTAN 4 COMMUNITY ENTERPRISE CO., LTD.","tsic":1139,"cap_amt":1080,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ปันทิ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ฟองแก้ว"},{"Lastname":"โพธิ์เหลือง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บุญพา"},{"Lastname":"สมศักดิ์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สำรวย"},{"Lastname":"พรมสุจา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สิทธิ์"},{"Lastname":"ชื่นใจ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ทอง"},{"Lastname":"ไชยชมพล","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ชัชวาลย์"},{"Lastname":"ไกลถิ่น","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"หลวย"},{"Lastname":"กองจา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เทวฤทธิ์"},{"Lastname":"ปัญญาเสริฐ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นิพนธ์"},{"Lastname":"ยนพิมาย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุรินทร"},{"Lastname":"แสงจันทร์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"วินัย"},{"Lastname":"ต๊ะทา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"จม"},{"Lastname":"หล้ามั่ง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"จงวิวัฒน์"},{"Lastname":"สิทธิขันแก้ว","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"วาสนา"},{"Lastname":"ธิการ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สมพร"},{"Lastname":"สุขคำฟอง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นิตยา"},{"Lastname":"กันทะทอง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ถวิล"},{"Lastname":"จองปัน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อัมพร"},{"Lastname":"จักรศรี","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บุญทิน"},{"Lastname":"พิทักษ์เรืองรัตน์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ธนดล"},{"Lastname":"ขัติยะ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ถวัลย์"},{"Lastname":"ทิศาลา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อรวรรณ"},{"Lastname":"กำวิชัย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เลย"},{"Lastname":"สาราคาม","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นัทธพงศ์"},{"Lastname":"คำติ๊บ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุทัน"},{"Lastname":"อะนนท์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ชัยชนะ"},{"Lastname":"วางวงศ์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ส่อง"},{"Lastname":"ปอใจ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อรพิน"},{"Lastname":"สุใจยา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บัวกาบ"},{"Lastname":"บัวถา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อิทธิพล"},{"Lastname":"วางวงศ์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"แก้ว"},{"Lastname":"ศิริทะ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บังอร"},{"Lastname":"อินทจักร์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"รัชพล","person":{"Number":6,"Title":"นาย","Name":"รัชพล อินทจักร์","PartyName":"ชาติไทยพัฒนา","MpType":"แบ่งเขต","Id":"4672","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เชียงราย","MpZone":7,"MpList":"","Images":"\/yourcandidates\/candidates\/ชาติไทยพัฒนา\/รัชพล-อินทจักร์.webp","Party":{"Name":"ชาติไทยพัฒนา","Color":"#FF5BD1","PartyType":"พรรค","IsActive":true,"Id":5,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ชาติไทยพัฒนา.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"อุตมะ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"รัดดา"},{"Lastname":"สุขแสง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ประนอม"},{"Lastname":"วันยาว","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สิม"},{"Lastname":"จิตวนา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"คะนอง"},{"Lastname":"อุทธิยา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ทุ่ง"},{"Lastname":"ตานันท์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สวน"},{"Lastname":"วงศ์วุฒิ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"จิราพร"},{"Lastname":"กันธา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"คำ"},{"Lastname":"ไชยราช","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อาทิตย์"},{"Lastname":"ภูกาบิน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"กว้าง"},{"Lastname":"ดงปาลี","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุพัฒน์"},{"Lastname":"เภารัตน์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ของ"},{"Lastname":"แก้วกันทา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุมัชชา"},{"Lastname":"ปันเบี้ยว","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"พสิษฐ์"},{"Lastname":"หารพรม","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ทองศุนย์"},{"Lastname":"รู้ทำนอง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บัวเงา"},{"Lastname":"มุงจะรส","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุรพร"},{"Lastname":"ต๊ะอาษา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สมบูรณ์"},{"Lastname":"ราญรอน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ติ๊บ"},{"Lastname":"กันทะใจ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ผัด"},{"Lastname":"จัดติ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ชานนท์"},{"Lastname":"ยอดสาย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ณัฐวุฒิ"},{"Lastname":"ศรีวิชัย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สมใจ"},{"Lastname":"บุญทิพย์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อุดม"},{"Lastname":"ป๊อกถา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"พุธ"},{"Lastname":"ปันคำ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เอ้ย"},{"Lastname":"จันนิยม","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นิรัญ"},{"Lastname":"ตำเร็ว","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ประเสริฐ"},{"Lastname":"ดุจจานุทัศน์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เลือบ"},{"Lastname":"ก้านทอง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"แก้วมา"},{"Lastname":"การงาน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เสาร์"},{"Lastname":"นายกุม","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"จันทร์"},{"Lastname":"ธนะวงศ์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สมพร"},{"Lastname":"กาวี","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุนา"},{"Lastname":"ณ น่าน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"กมลวรรณ"},{"Lastname":"บุญเมือง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"จร"},{"Lastname":"จันต๊ะคาด","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"พรชัย"},{"Lastname":"บัณฑิตชูสกุล","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สวน"},{"Lastname":"คุณาแปง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"หาญ"},{"Lastname":"ปันสม","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุข"},{"Lastname":"เหล่าพิมล","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ชัยชนะ"},{"Lastname":"ไชยนันทอง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"โชคทวี"},{"Lastname":"บัวบาน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สิทธิชัย"},{"Lastname":"นายโรง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ปวน"},{"Lastname":"จอมสวรรค์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ศรีวรรณ์"},{"Lastname":"จันทร์เทศ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ดำรง"},{"Lastname":"ใจโลกา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สิริมา"},{"Lastname":"อะสะนิธิ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สังเวียน"},{"Lastname":"โกมินทร์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ทิเวศร์"},{"Lastname":"คุณประเสริฐ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ยุพิน"},{"Lastname":"ร่วมชาติ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เฉลิมศรี"},{"Lastname":"พรมตัน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"คำ"},{"Lastname":"ไชยชมพล","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บุญถือ"},{"Lastname":"อุตมะ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ถนอม"},{"Lastname":"หมื่นเร็ว","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"วิเชียร"},{"Lastname":"หมอกเหมย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บุญเทียม"},{"Lastname":"ธรรมโก","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ทองศักดิ์"},{"Lastname":"กาตา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อิ่นแก้ว"},{"Lastname":"บัวผัด","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุข"},{"Lastname":"ทิพวิชัย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"พล"},{"Lastname":"สารคำ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ปั๋น"},{"Lastname":"บุญทิพย์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นวย"},{"Lastname":"หาญอาษา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บุญถ่าย"},{"Lastname":"ใจวงค์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สม"},{"Lastname":"ปินทรายมูล","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เฉลิมศักดิ์"},{"Lastname":"ทาใหม่","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ยอดคำ"},{"Lastname":"อุตเคียน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อภิชาติ"},{"Lastname":"อุตสาสาร","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ทวีศักดิ์"},{"Lastname":"สุตะวงค์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"วีรชัย"},{"Lastname":"ชื่นใจ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"คำน้อย"},{"Lastname":"ค้าแก้ว","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นงเยาว์"},{"Lastname":"สนั่นก้อง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เจริญรัตน์"},{"Lastname":"ภิมาลัย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"พิมพ์วิไล"},{"Lastname":"อะสะนิธิ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"จอย"},{"Lastname":"กำวิชัย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สมพร"},{"Lastname":"จันทาพูน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"มลธิญา"},{"Lastname":"กำวิชัย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"คำ"},{"Lastname":"คำลือวงค์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ประเลย"},{"Lastname":"ก้อนแก้ว","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ไสว"},{"Lastname":"ปันคำ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ดี"},{"Lastname":"ยาลังกาญจน์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุพจน์"},{"Lastname":"คำติ๊บ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ศรีคำ"},{"Lastname":"ทะระมา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ศรีวัน"},{"Lastname":"เบ็ญพาด","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"พัลลภ"},{"Lastname":"เผ่าสิงห์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ประเสริฐ"},{"Lastname":"ขุนทอง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นิตยา"},{"Lastname":"ปานใจ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ชารินทร์"},{"Lastname":"ทองพยงค์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"จิราวรรณ"},{"Lastname":"ยาใจ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"วราเมษฐ์"},{"Lastname":"สุทธลูน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นา"},{"Lastname":"นายโรง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เต้า"},{"Lastname":"สุทธลูน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"แสงหล้า"},{"Lastname":"อุดด้วง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ชนาภิวัฒน์"},{"Lastname":"ชื่นใจ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุข"},{"Lastname":"ธิดาเรือง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"แก้ว"},{"Lastname":"ต๊ะปัญญา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เทียม"},{"Lastname":"โนนสุวรรณ์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ไพบูลย์"},{"Lastname":"ไชยมงคล","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"น้อย"},{"Lastname":"ตาแปง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สมเดช"},{"Lastname":"อิกำเหนิด","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"วิทยา"},{"Lastname":"สุทธศิลป์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นพพร"},{"Lastname":"กึกก้อง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สาวิตรี"},{"Lastname":"จักรสี","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สมชาย"},{"Lastname":"จันฟอง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ธนาณุวัฒน์"},{"Lastname":"จุ่มอิ่น","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"คำปัน"},{"Lastname":"จันทร์นวล","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นิพนธ์"},{"Lastname":"รัชสีวอ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ประยูร"},{"Lastname":"ปันธิ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อนงค์"},{"Lastname":"เชียงปล้อง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อินชล"},{"Lastname":"จับใจนาย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"วิชัย"},{"Lastname":"มงคล","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"กานตรัตน์"},{"Lastname":"ไชยนาค","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สัมพันธ์"},{"Lastname":"ออนสา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"จันทร์แก้ว"},{"Lastname":"ทะระมา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ต่วน"},{"Lastname":"ปีมื่อ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ชณัญชิดา"},{"Lastname":"เขียวขัด","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เสาร์"},{"Lastname":"สุทธิ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อนันต์"},{"Lastname":"ทะระมา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สายชล"},{"Lastname":"จันทาพูน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"แสงเดือน"},{"Lastname":"ชุ่มแก้ว","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"พัฒน์"},{"Lastname":"คำโปน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ต่อม"},{"Lastname":"จันธิยะ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ผาย"},{"Lastname":"กันทา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"คำจันทร์"},{"Lastname":"สุใจยา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สมจิตร์"},{"Lastname":"ดงปาลี","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อนุพงศ์"},{"Lastname":"เดชตัญญู","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สวัสดิ์"},{"Lastname":"อูปคำ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บุญรัตน์"},{"Lastname":"อุดด้วง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ปัญเจย"},{"Lastname":"สุนธลูน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุภาดา"},{"Lastname":"พงษ์สวัสดิ์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นิลทอง"},{"Lastname":"ป๊อกถา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ปันแก้ว"},{"Lastname":"กาวิชัย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"รัชชาภูมิ"},{"Lastname":"คำปิ่ว","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ก้าน"},{"Lastname":"เขตรักษา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เดช"},{"Lastname":"ปันทิ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ทองเงิน"},{"Lastname":"ไชยราช","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"จันทร์แก้ว"},{"Lastname":"สายยืด","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"คำมุง"},{"Lastname":"สมเปิง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ออน"},{"Lastname":"วรรณสอน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สนิท"},{"Lastname":"คำนอง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ฉวีวรรณ"},{"Lastname":"มหินชัย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เชิด"},{"Lastname":"กาสโอสถ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ขาว"},{"Lastname":"ช่างดี","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ชุมพล"},{"Lastname":"กันทะสอน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ขันธ์"},{"Lastname":"มะโนศรีลา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บุญช่วย"},{"Lastname":"อินต๊ะชัย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เจียม"},{"Lastname":"ฟองการ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สมเพ็ชร"},{"Lastname":"นันตาชัยวุฒิ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"วันวิสา"},{"Lastname":"กองตุ้ย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ทับทิม"},{"Lastname":"กำวิชัย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เขียว"},{"Lastname":"จินะสาม","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุพรรณี"},{"Lastname":"จันธิมา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"จำนงค์"},{"Lastname":"เฟื่องฟู","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุพิน"},{"Lastname":"เขื่อนวิเศษ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อินทร์"},{"Lastname":"ชาวไทย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"วิฑูรย์"},{"Lastname":"จี่เรือน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สมพงษ์"},{"Lastname":"มหาภาส","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ปกรณ์"},{"Lastname":"คนสุข","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นฤพนธ์"},{"Lastname":"มหาพรม","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ธนดล"},{"Lastname":"บุญยวง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"มาลัย"},{"Lastname":"ช่างถ่าย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นาย"},{"Lastname":"อินต๊ะเสนา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"อิ่นแก้ว"},{"Lastname":"สุดใจ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"วรรณา"},{"Lastname":"พิชัยชื่น","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ไพบูลย์"},{"Lastname":"ยักขะบุตร","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บูชิตา"},{"Lastname":"ฟังช้า","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ทองคำ"},{"Lastname":"สาราคาม","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"รังสรรค์"},{"Lastname":"ยาวิเริง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สุนทร"},{"Lastname":"วงศ์ชัยชนะ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ทนงศักดิ์"},{"Lastname":"กองจา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ธวัชชัย"},{"Lastname":"โพธิสาวงษ์","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"วีรชัย"},{"Lastname":"ใจดี","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"จรัญ"},{"Lastname":"ยอดแก้ว","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"นิตย์"},{"Lastname":"ช่างจด","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สืบศักดิ์"},{"Lastname":"ท้าวคำแสน","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"สอาด"},{"Lastname":"วงศ์สมบัติ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ทวี"},{"Lastname":"ธรรมโก","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ลัดดาวัลย์"},{"Lastname":"ศูนย์ใจ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ธีรวัฒน์"},{"Lastname":"คำน้อย","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เสรี"},{"Lastname":"จันทร์ริยา","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ธานี"},{"Lastname":"ปอใจ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"บัวจี่"},{"Lastname":"ผิวผ่อง","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"เงิน"},{"Lastname":"ระวิวรรณ","value_share":0,"Nationality":"TH","pct_share":0.46,"count_share":1,"Firstname":"ธนัติชัย"}],"count_shareholder":1,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "3  หมู่ที่ 19 ต.เวียง อ.เทิง จ.เชียงราย",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "A",
+		"company_name_th": "วิสาหกิจชุมชนปลูกหญ้าเนเปียร์ขุนตาล4 จำกัด",
+		"pct_share": 0.463,
+		"obj_tname": "-",
+		"company_id": "0575564004871",
+		"reg_date": "26/11/2564",
+		"company_name_en": "PLUK YA NAPIER KHUNTAN 4 COMMUNITY ENTERPRISE CO., LTD.",
+		"tsic": 1139,
+		"cap_amt": 1080,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ปันทิ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ฟองแก้ว"
+			},
+			{
+				"Lastname": "โพธิ์เหลือง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บุญพา"
+			},
+			{
+				"Lastname": "สมศักดิ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สำรวย"
+			},
+			{
+				"Lastname": "พรมสุจา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สิทธิ์"
+			},
+			{
+				"Lastname": "ชื่นใจ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ทอง"
+			},
+			{
+				"Lastname": "ไชยชมพล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ชัชวาลย์"
+			},
+			{
+				"Lastname": "ไกลถิ่น",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "หลวย"
+			},
+			{
+				"Lastname": "กองจา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เทวฤทธิ์"
+			},
+			{
+				"Lastname": "ปัญญาเสริฐ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นิพนธ์"
+			},
+			{
+				"Lastname": "ยนพิมาย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุรินทร"
+			},
+			{
+				"Lastname": "แสงจันทร์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "วินัย"
+			},
+			{
+				"Lastname": "ต๊ะทา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "จม"
+			},
+			{
+				"Lastname": "หล้ามั่ง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "จงวิวัฒน์"
+			},
+			{
+				"Lastname": "สิทธิขันแก้ว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "วาสนา"
+			},
+			{
+				"Lastname": "ธิการ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สมพร"
+			},
+			{
+				"Lastname": "สุขคำฟอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นิตยา"
+			},
+			{
+				"Lastname": "กันทะทอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ถวิล"
+			},
+			{
+				"Lastname": "จองปัน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อัมพร"
+			},
+			{
+				"Lastname": "จักรศรี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บุญทิน"
+			},
+			{
+				"Lastname": "พิทักษ์เรืองรัตน์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ธนดล"
+			},
+			{
+				"Lastname": "ขัติยะ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ถวัลย์"
+			},
+			{
+				"Lastname": "ทิศาลา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อรวรรณ"
+			},
+			{
+				"Lastname": "กำวิชัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เลย"
+			},
+			{
+				"Lastname": "สาราคาม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นัทธพงศ์"
+			},
+			{
+				"Lastname": "คำติ๊บ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุทัน"
+			},
+			{
+				"Lastname": "อะนนท์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ชัยชนะ"
+			},
+			{
+				"Lastname": "วางวงศ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ส่อง"
+			},
+			{
+				"Lastname": "ปอใจ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อรพิน"
+			},
+			{
+				"Lastname": "สุใจยา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บัวกาบ"
+			},
+			{
+				"Lastname": "บัวถา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อิทธิพล"
+			},
+			{
+				"Lastname": "วางวงศ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "แก้ว"
+			},
+			{
+				"Lastname": "ศิริทะ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บังอร"
+			},
+			{
+				"Lastname": "อินทจักร์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "รัชพล",
+				"person": {
+					"Number": 6,
+					"Title": "นาย",
+					"Name": "รัชพล อินทจักร์",
+					"PartyName": "ชาติไทยพัฒนา",
+					"MpType": "แบ่งเขต",
+					"Id": "4672",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เชียงราย",
+					"MpZone": 7,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ชาติไทยพัฒนา/รัชพล-อินทจักร์.webp",
+					"Party": {
+						"Name": "ชาติไทยพัฒนา",
+						"Color": "#FF5BD1",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 5,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "อุตมะ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "รัดดา"
+			},
+			{
+				"Lastname": "สุขแสง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ประนอม"
+			},
+			{
+				"Lastname": "วันยาว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สิม"
+			},
+			{
+				"Lastname": "จิตวนา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "คะนอง"
+			},
+			{
+				"Lastname": "อุทธิยา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ทุ่ง"
+			},
+			{
+				"Lastname": "ตานันท์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สวน"
+			},
+			{
+				"Lastname": "วงศ์วุฒิ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "จิราพร"
+			},
+			{
+				"Lastname": "กันธา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "คำ"
+			},
+			{
+				"Lastname": "ไชยราช",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อาทิตย์"
+			},
+			{
+				"Lastname": "ภูกาบิน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "กว้าง"
+			},
+			{
+				"Lastname": "ดงปาลี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุพัฒน์"
+			},
+			{
+				"Lastname": "เภารัตน์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ของ"
+			},
+			{
+				"Lastname": "แก้วกันทา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุมัชชา"
+			},
+			{
+				"Lastname": "ปันเบี้ยว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "พสิษฐ์"
+			},
+			{
+				"Lastname": "หารพรม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ทองศุนย์"
+			},
+			{
+				"Lastname": "รู้ทำนอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บัวเงา"
+			},
+			{
+				"Lastname": "มุงจะรส",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุรพร"
+			},
+			{
+				"Lastname": "ต๊ะอาษา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สมบูรณ์"
+			},
+			{
+				"Lastname": "ราญรอน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ติ๊บ"
+			},
+			{
+				"Lastname": "กันทะใจ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ผัด"
+			},
+			{
+				"Lastname": "จัดติ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ชานนท์"
+			},
+			{
+				"Lastname": "ยอดสาย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ณัฐวุฒิ"
+			},
+			{
+				"Lastname": "ศรีวิชัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สมใจ"
+			},
+			{
+				"Lastname": "บุญทิพย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อุดม"
+			},
+			{
+				"Lastname": "ป๊อกถา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "พุธ"
+			},
+			{
+				"Lastname": "ปันคำ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เอ้ย"
+			},
+			{
+				"Lastname": "จันนิยม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นิรัญ"
+			},
+			{
+				"Lastname": "ตำเร็ว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ประเสริฐ"
+			},
+			{
+				"Lastname": "ดุจจานุทัศน์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เลือบ"
+			},
+			{
+				"Lastname": "ก้านทอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "แก้วมา"
+			},
+			{
+				"Lastname": "การงาน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เสาร์"
+			},
+			{
+				"Lastname": "นายกุม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "จันทร์"
+			},
+			{
+				"Lastname": "ธนะวงศ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สมพร"
+			},
+			{
+				"Lastname": "กาวี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุนา"
+			},
+			{
+				"Lastname": "ณ น่าน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "กมลวรรณ"
+			},
+			{
+				"Lastname": "บุญเมือง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "จร"
+			},
+			{
+				"Lastname": "จันต๊ะคาด",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "พรชัย"
+			},
+			{
+				"Lastname": "บัณฑิตชูสกุล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สวน"
+			},
+			{
+				"Lastname": "คุณาแปง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "หาญ"
+			},
+			{
+				"Lastname": "ปันสม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุข"
+			},
+			{
+				"Lastname": "เหล่าพิมล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ชัยชนะ"
+			},
+			{
+				"Lastname": "ไชยนันทอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "โชคทวี"
+			},
+			{
+				"Lastname": "บัวบาน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สิทธิชัย"
+			},
+			{
+				"Lastname": "นายโรง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ปวน"
+			},
+			{
+				"Lastname": "จอมสวรรค์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ศรีวรรณ์"
+			},
+			{
+				"Lastname": "จันทร์เทศ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ดำรง"
+			},
+			{
+				"Lastname": "ใจโลกา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สิริมา"
+			},
+			{
+				"Lastname": "อะสะนิธิ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สังเวียน"
+			},
+			{
+				"Lastname": "โกมินทร์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ทิเวศร์"
+			},
+			{
+				"Lastname": "คุณประเสริฐ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ยุพิน"
+			},
+			{
+				"Lastname": "ร่วมชาติ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เฉลิมศรี"
+			},
+			{
+				"Lastname": "พรมตัน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "คำ"
+			},
+			{
+				"Lastname": "ไชยชมพล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บุญถือ"
+			},
+			{
+				"Lastname": "อุตมะ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ถนอม"
+			},
+			{
+				"Lastname": "หมื่นเร็ว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "วิเชียร"
+			},
+			{
+				"Lastname": "หมอกเหมย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บุญเทียม"
+			},
+			{
+				"Lastname": "ธรรมโก",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ทองศักดิ์"
+			},
+			{
+				"Lastname": "กาตา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อิ่นแก้ว"
+			},
+			{
+				"Lastname": "บัวผัด",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุข"
+			},
+			{
+				"Lastname": "ทิพวิชัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "พล"
+			},
+			{
+				"Lastname": "สารคำ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ปั๋น"
+			},
+			{
+				"Lastname": "บุญทิพย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นวย"
+			},
+			{
+				"Lastname": "หาญอาษา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บุญถ่าย"
+			},
+			{
+				"Lastname": "ใจวงค์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สม"
+			},
+			{
+				"Lastname": "ปินทรายมูล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เฉลิมศักดิ์"
+			},
+			{
+				"Lastname": "ทาใหม่",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ยอดคำ"
+			},
+			{
+				"Lastname": "อุตเคียน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อภิชาติ"
+			},
+			{
+				"Lastname": "อุตสาสาร",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ทวีศักดิ์"
+			},
+			{
+				"Lastname": "สุตะวงค์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "วีรชัย"
+			},
+			{
+				"Lastname": "ชื่นใจ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "คำน้อย"
+			},
+			{
+				"Lastname": "ค้าแก้ว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นงเยาว์"
+			},
+			{
+				"Lastname": "สนั่นก้อง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เจริญรัตน์"
+			},
+			{
+				"Lastname": "ภิมาลัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "พิมพ์วิไล"
+			},
+			{
+				"Lastname": "อะสะนิธิ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "จอย"
+			},
+			{
+				"Lastname": "กำวิชัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สมพร"
+			},
+			{
+				"Lastname": "จันทาพูน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "มลธิญา"
+			},
+			{
+				"Lastname": "กำวิชัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "คำ"
+			},
+			{
+				"Lastname": "คำลือวงค์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ประเลย"
+			},
+			{
+				"Lastname": "ก้อนแก้ว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ไสว"
+			},
+			{
+				"Lastname": "ปันคำ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ดี"
+			},
+			{
+				"Lastname": "ยาลังกาญจน์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุพจน์"
+			},
+			{
+				"Lastname": "คำติ๊บ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ศรีคำ"
+			},
+			{
+				"Lastname": "ทะระมา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ศรีวัน"
+			},
+			{
+				"Lastname": "เบ็ญพาด",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "พัลลภ"
+			},
+			{
+				"Lastname": "เผ่าสิงห์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ประเสริฐ"
+			},
+			{
+				"Lastname": "ขุนทอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นิตยา"
+			},
+			{
+				"Lastname": "ปานใจ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ชารินทร์"
+			},
+			{
+				"Lastname": "ทองพยงค์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "จิราวรรณ"
+			},
+			{
+				"Lastname": "ยาใจ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "วราเมษฐ์"
+			},
+			{
+				"Lastname": "สุทธลูน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นา"
+			},
+			{
+				"Lastname": "นายโรง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เต้า"
+			},
+			{
+				"Lastname": "สุทธลูน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "แสงหล้า"
+			},
+			{
+				"Lastname": "อุดด้วง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ชนาภิวัฒน์"
+			},
+			{
+				"Lastname": "ชื่นใจ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุข"
+			},
+			{
+				"Lastname": "ธิดาเรือง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "แก้ว"
+			},
+			{
+				"Lastname": "ต๊ะปัญญา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เทียม"
+			},
+			{
+				"Lastname": "โนนสุวรรณ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ไพบูลย์"
+			},
+			{
+				"Lastname": "ไชยมงคล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "น้อย"
+			},
+			{
+				"Lastname": "ตาแปง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สมเดช"
+			},
+			{
+				"Lastname": "อิกำเหนิด",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "วิทยา"
+			},
+			{
+				"Lastname": "สุทธศิลป์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นพพร"
+			},
+			{
+				"Lastname": "กึกก้อง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สาวิตรี"
+			},
+			{
+				"Lastname": "จักรสี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สมชาย"
+			},
+			{
+				"Lastname": "จันฟอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ธนาณุวัฒน์"
+			},
+			{
+				"Lastname": "จุ่มอิ่น",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "คำปัน"
+			},
+			{
+				"Lastname": "จันทร์นวล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นิพนธ์"
+			},
+			{
+				"Lastname": "รัชสีวอ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ประยูร"
+			},
+			{
+				"Lastname": "ปันธิ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อนงค์"
+			},
+			{
+				"Lastname": "เชียงปล้อง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อินชล"
+			},
+			{
+				"Lastname": "จับใจนาย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "วิชัย"
+			},
+			{
+				"Lastname": "มงคล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "กานตรัตน์"
+			},
+			{
+				"Lastname": "ไชยนาค",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สัมพันธ์"
+			},
+			{
+				"Lastname": "ออนสา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "จันทร์แก้ว"
+			},
+			{
+				"Lastname": "ทะระมา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ต่วน"
+			},
+			{
+				"Lastname": "ปีมื่อ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ชณัญชิดา"
+			},
+			{
+				"Lastname": "เขียวขัด",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เสาร์"
+			},
+			{
+				"Lastname": "สุทธิ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อนันต์"
+			},
+			{
+				"Lastname": "ทะระมา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สายชล"
+			},
+			{
+				"Lastname": "จันทาพูน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "แสงเดือน"
+			},
+			{
+				"Lastname": "ชุ่มแก้ว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "พัฒน์"
+			},
+			{
+				"Lastname": "คำโปน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ต่อม"
+			},
+			{
+				"Lastname": "จันธิยะ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ผาย"
+			},
+			{
+				"Lastname": "กันทา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "คำจันทร์"
+			},
+			{
+				"Lastname": "สุใจยา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สมจิตร์"
+			},
+			{
+				"Lastname": "ดงปาลี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อนุพงศ์"
+			},
+			{
+				"Lastname": "เดชตัญญู",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สวัสดิ์"
+			},
+			{
+				"Lastname": "อูปคำ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บุญรัตน์"
+			},
+			{
+				"Lastname": "อุดด้วง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ปัญเจย"
+			},
+			{
+				"Lastname": "สุนธลูน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุภาดา"
+			},
+			{
+				"Lastname": "พงษ์สวัสดิ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นิลทอง"
+			},
+			{
+				"Lastname": "ป๊อกถา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ปันแก้ว"
+			},
+			{
+				"Lastname": "กาวิชัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "รัชชาภูมิ"
+			},
+			{
+				"Lastname": "คำปิ่ว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ก้าน"
+			},
+			{
+				"Lastname": "เขตรักษา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เดช"
+			},
+			{
+				"Lastname": "ปันทิ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ทองเงิน"
+			},
+			{
+				"Lastname": "ไชยราช",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "จันทร์แก้ว"
+			},
+			{
+				"Lastname": "สายยืด",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "คำมุง"
+			},
+			{
+				"Lastname": "สมเปิง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ออน"
+			},
+			{
+				"Lastname": "วรรณสอน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สนิท"
+			},
+			{
+				"Lastname": "คำนอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ฉวีวรรณ"
+			},
+			{
+				"Lastname": "มหินชัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เชิด"
+			},
+			{
+				"Lastname": "กาสโอสถ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ขาว"
+			},
+			{
+				"Lastname": "ช่างดี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ชุมพล"
+			},
+			{
+				"Lastname": "กันทะสอน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ขันธ์"
+			},
+			{
+				"Lastname": "มะโนศรีลา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บุญช่วย"
+			},
+			{
+				"Lastname": "อินต๊ะชัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เจียม"
+			},
+			{
+				"Lastname": "ฟองการ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สมเพ็ชร"
+			},
+			{
+				"Lastname": "นันตาชัยวุฒิ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "วันวิสา"
+			},
+			{
+				"Lastname": "กองตุ้ย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ทับทิม"
+			},
+			{
+				"Lastname": "กำวิชัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เขียว"
+			},
+			{
+				"Lastname": "จินะสาม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุพรรณี"
+			},
+			{
+				"Lastname": "จันธิมา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "จำนงค์"
+			},
+			{
+				"Lastname": "เฟื่องฟู",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุพิน"
+			},
+			{
+				"Lastname": "เขื่อนวิเศษ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อินทร์"
+			},
+			{
+				"Lastname": "ชาวไทย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "วิฑูรย์"
+			},
+			{
+				"Lastname": "จี่เรือน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สมพงษ์"
+			},
+			{
+				"Lastname": "มหาภาส",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ปกรณ์"
+			},
+			{
+				"Lastname": "คนสุข",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นฤพนธ์"
+			},
+			{
+				"Lastname": "มหาพรม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ธนดล"
+			},
+			{
+				"Lastname": "บุญยวง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "มาลัย"
+			},
+			{
+				"Lastname": "ช่างถ่าย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นาย"
+			},
+			{
+				"Lastname": "อินต๊ะเสนา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "อิ่นแก้ว"
+			},
+			{
+				"Lastname": "สุดใจ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "วรรณา"
+			},
+			{
+				"Lastname": "พิชัยชื่น",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ไพบูลย์"
+			},
+			{
+				"Lastname": "ยักขะบุตร",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บูชิตา"
+			},
+			{
+				"Lastname": "ฟังช้า",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ทองคำ"
+			},
+			{
+				"Lastname": "สาราคาม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "รังสรรค์"
+			},
+			{
+				"Lastname": "ยาวิเริง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สุนทร"
+			},
+			{
+				"Lastname": "วงศ์ชัยชนะ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ทนงศักดิ์"
+			},
+			{
+				"Lastname": "กองจา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ธวัชชัย"
+			},
+			{
+				"Lastname": "โพธิสาวงษ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "วีรชัย"
+			},
+			{
+				"Lastname": "ใจดี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "จรัญ"
+			},
+			{
+				"Lastname": "ยอดแก้ว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "นิตย์"
+			},
+			{
+				"Lastname": "ช่างจด",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สืบศักดิ์"
+			},
+			{
+				"Lastname": "ท้าวคำแสน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "สอาด"
+			},
+			{
+				"Lastname": "วงศ์สมบัติ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ทวี"
+			},
+			{
+				"Lastname": "ธรรมโก",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ลัดดาวัลย์"
+			},
+			{
+				"Lastname": "ศูนย์ใจ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ธีรวัฒน์"
+			},
+			{
+				"Lastname": "คำน้อย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เสรี"
+			},
+			{
+				"Lastname": "จันทร์ริยา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ธานี"
+			},
+			{
+				"Lastname": "ปอใจ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "บัวจี่"
+			},
+			{
+				"Lastname": "ผิวผ่อง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "เงิน"
+			},
+			{
+				"Lastname": "ระวิวรรณ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 1,
+				"Firstname": "ธนัติชัย"
+			}
+		],
+		"count_shareholder": 1,
+		"gov_fund_proj": null
+	}
+]

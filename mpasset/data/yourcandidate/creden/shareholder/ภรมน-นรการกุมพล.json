@@ -1,1 +1,81 @@
-[{"full_address":"111\/11 หมู่ที่ 1  ต.ท่าเคย อ.สวนผึ้ง จ.ราชบุรี","financial":[{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0},{"year":"2560","income":0}],"value_share":1036382,"submit_obj_big_type":"G","company_name_th":"สุภัทรเดช ออยล์ จำกัด","pct_share":60,"obj_tname":"การขายปลีกเชื้อเพลิงยานยนต์ในร้านค้าเฉพาะ สถานี ปั๊ม","company_id":"0705553001076","reg_date":"21\/12\/2553","company_name_en":"SUPUTTARADAT OIL COMPANY LIMITED","tsic":47300,"cap_amt":1000000,"company_value":1727303,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"สระทองอ่อน","value_share":345461,"Nationality":"TH","pct_share":20,"count_share":200,"Firstname":"สำราญ"},{"Lastname":"นรการกุมพล","value_share":345461,"Nationality":"TH","pct_share":20,"count_share":200,"Firstname":"ศุภัช"},{"Lastname":"นรการกุมพล","value_share":1036382,"Nationality":"TH","pct_share":60,"count_share":600,"Firstname":"ภรมน","person":{"Number":4,"Title":"นาง","Name":"ภรมน นรการกุมพล","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"5021","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ราชบุรี","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/ภรมน-นรการกุมพล.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":600,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "111/11 หมู่ที่ 1  ต.ท่าเคย อ.สวนผึ้ง จ.ราชบุรี",
+		"financial": [
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 },
+			{ "year": "2560", "income": 0 }
+		],
+		"value_share": 1036382,
+		"submit_obj_big_type": "G",
+		"company_name_th": "สุภัทรเดช ออยล์ จำกัด",
+		"pct_share": 60,
+		"obj_tname": "การขายปลีกเชื้อเพลิงยานยนต์ในร้านค้าเฉพาะ สถานี ปั๊ม",
+		"company_id": "0705553001076",
+		"reg_date": "21/12/2553",
+		"company_name_en": "SUPUTTARADAT OIL COMPANY LIMITED",
+		"tsic": 47300,
+		"cap_amt": 1000000,
+		"company_value": 1727303,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "สระทองอ่อน",
+				"value_share": 345461,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 200,
+				"Firstname": "สำราญ"
+			},
+			{
+				"Lastname": "นรการกุมพล",
+				"value_share": 345461,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 200,
+				"Firstname": "ศุภัช"
+			},
+			{
+				"Lastname": "นรการกุมพล",
+				"value_share": 1036382,
+				"Nationality": "TH",
+				"pct_share": 60,
+				"count_share": 600,
+				"Firstname": "ภรมน",
+				"person": {
+					"Number": 4,
+					"Title": "นาง",
+					"Name": "ภรมน นรการกุมพล",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "5021",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ราชบุรี",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/ภรมน-นรการกุมพล.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 600,
+		"gov_fund_proj": null
+	}
+]

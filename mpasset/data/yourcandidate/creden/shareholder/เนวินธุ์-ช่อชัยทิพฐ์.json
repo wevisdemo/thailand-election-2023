@@ -1,1 +1,491 @@
-[{"full_address":"546 ซอยจรัญสนิทวงศ์ 66\/1  แขวงบางพลัด เขตบางพลัด กรุงเทพมหานคร","financial":[{"year":"2562","income":0},{"year":"2561","income":0},{"year":"2560","income":0},{"year":"2559","income":0}],"value_share":23600,"submit_obj_big_type":"G","company_name_th":"โรยัล เฮิรบส์ จำกัด","pct_share":10.0,"obj_tname":"การขายส่งสินค้าทางเภสัชภัณฑ์และทางการแพทย์","company_id":"0105556170435","reg_date":"22\/10\/2556","company_name_en":"ROYAL HERBS COMPANY LIMITED","tsic":46441,"cap_amt":1000000,"company_value":235995,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ช่อชัยทิพฐ์","value_share":117998,"Nationality":"TH","pct_share":50,"count_share":5000,"Firstname":"อาชัญฐ์"},{"Lastname":"ช่อชัยทิพฐ์","value_share":94398,"Nationality":"TH","pct_share":40,"count_share":4000,"Firstname":"อรรคพงษ์"},{"Lastname":"ช่อชัยทิพฐ์","value_share":23600,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"เนวินธุ์","person":{"Number":8,"Title":"นาย","Name":"เนวินธุ์ ช่อชัยทิพฐ์","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"1933","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/เนวินธุ์-ช่อชัยทิพฐ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":1000,"gov_fund_proj":null},{"full_address":"440\/14 ซอยสุขุมวิท 55 (ทองหล่อ) ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":5600,"submit_obj_big_type":"L","company_name_th":"บ้านสวนเกษมสุวรรณ จำกัด","pct_share":5.6,"obj_tname":"การซื้อและการขายอสังหาริมทรัพย์ที่เป็นของตนเองที่ไม่ใช่ เพื่อเป็นที่พักอาศัย","company_id":"0105534008309","reg_date":"28\/1\/2534","company_name_en":"","tsic":68102,"cap_amt":100000,"company_value":100000,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"กุลเศรษฐเศรณี","value_share":5400,"Nationality":"TH","pct_share":5.4,"count_share":54,"Firstname":"ชลรัตน์"},{"Lastname":"วัชรอำไพวัณย์","value_share":5400,"Nationality":"TH","pct_share":5.4,"count_share":54,"Firstname":"ศิริขวัญ"},{"Lastname":"โชควัฒนากร","value_share":5600,"Nationality":"TH","pct_share":5.6,"count_share":56,"Firstname":"วันชัย"},{"Lastname":"เจริญวัฒนาโชคชัย","value_share":5600,"Nationality":"TH","pct_share":5.6,"count_share":56,"Firstname":"อังคณา"},{"Lastname":"บุรณศิริ","value_share":11200,"Nationality":"TH","pct_share":11.2,"count_share":112,"Firstname":"แช่มชื่น"},{"Lastname":"ปิยะอัจฉริยะ","value_share":5600,"Nationality":"TH","pct_share":5.6,"count_share":56,"Firstname":"ลักษณา"},{"Lastname":"เศรษฐฌศรณีกุล","value_share":5400,"Nationality":"TH","pct_share":5.4,"count_share":54,"Firstname":"วิเชียร"},{"Lastname":"ศรีสมบูรณ์","value_share":5600,"Nationality":"TH","pct_share":5.6,"count_share":56,"Firstname":"วริศรา"},{"Lastname":"รุจนเวชช์","value_share":5600,"Nationality":"TH","pct_share":5.6,"count_share":56,"Firstname":"ณรงค์"},{"Lastname":"ธนวเสถึยร","value_share":5600,"Nationality":"TH","pct_share":5.6,"count_share":56,"Firstname":"ปริญญา"},{"Lastname":"พหูวณิช","value_share":5600,"Nationality":"TH","pct_share":5.6,"count_share":56,"Firstname":"อำนวย"},{"Lastname":"ชาญด้วยวิทย์","value_share":5600,"Nationality":"TH","pct_share":5.6,"count_share":56,"Firstname":"สีฟ้า"},{"Lastname":"วัชรอำไพวัณย์","value_share":5400,"Nationality":"TH","pct_share":5.4,"count_share":54,"Firstname":"ชนาธิป"},{"Lastname":"คิรีวนานุกูล","value_share":11200,"Nationality":"TH","pct_share":11.2,"count_share":112,"Firstname":"สิริรัตน์"},{"Lastname":"อัศวโสภณ","value_share":5600,"Nationality":"TH","pct_share":5.6,"count_share":56,"Firstname":"ไพศาล"},{"Lastname":"ช่อชัยทิพฐ์","value_share":5600,"Nationality":"TH","pct_share":5.6,"count_share":56,"Firstname":"เนวินธุ์","person":{"Number":8,"Title":"นาย","Name":"เนวินธุ์ ช่อชัยทิพฐ์","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"1933","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/เนวินธุ์-ช่อชัยทิพฐ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":56,"gov_fund_proj":null},{"full_address":"36\/55 ซอยจตุโชติ 14 แขวงออเงิน เขตสายไหม กรุงเทพมหานคร","financial":[{"year":"2564","income":73080957.25},{"year":"2563","income":91605238.2699999958},{"year":"2562","income":56149307.9600000009},{"year":"2561","income":146840576.3300000131}],"value_share":28756355,"submit_obj_big_type":"G","company_name_th":"ซิลเลี่ยน อินโนเวชั่น จำกัด","pct_share":92.0,"obj_tname":"การขายส่งเคมีภัณฑ์ทางอุตสาหกรรม","company_id":"0105554104206","reg_date":"8\/8\/2554","company_name_en":"ZILLION INNOVATION CO.,LTD.","tsic":46691,"cap_amt":5000000,"company_value":31256907,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ช่อชัยทิพฐ์","value_share":28756355,"Nationality":"TH","pct_share":92,"count_share":46000,"Firstname":"เนวินธุ์","person":{"Number":8,"Title":"นาย","Name":"เนวินธุ์ ช่อชัยทิพฐ์","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"1933","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/เนวินธุ์-ช่อชัยทิพฐ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สิงห์พนมชัย","value_share":1250276,"Nationality":"TH","pct_share":4,"count_share":2000,"Firstname":"อภิรญา"},{"Lastname":"นฤนาทเสถียร","value_share":1250276,"Nationality":"TH","pct_share":4,"count_share":2000,"Firstname":"ปฏิมา"}],"count_shareholder":46000,"gov_fund_proj":[{"Unnamed: 0":17899,"ลำดับ":5678782,"รหัสโครงการ":64037457809,"ชื่อโครงการฯ":"จ้างทำระบบกันซึมหลังคาแบบเจาะยึด (Induction System) พร้อมพื้นที่การเรียนรู้ อาคาร Activity Space ชั้นดาดฟ้า โดยวิธีเฉพาะเจาะจง","ชื่อประเภทโครงการ":"จ้างทำของ\/จ้างเหมาบริการ","ชื่อหน่วยงาน":"มหาวิทยาลัยสวนดุสิต","ชื่อหน่วยงานย่อย":"มหาวิทยาลัยสวนดุสิต กรุงเทพฯ","ชื่อวิธีการฯ":"เฉพาะเจาะจง","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"","วงเงินงบประมาณ_บาท":2800000.0,"ราคากลาง_บาท":2800000.0,"ราคารวมทุกสัญญา_บาท":2800000.0,"ปีงบประมาณ":2564,"วันที่เกิดรายการ":"2021-04-01","จังหวัด":"กรุงเทพมหานคร","จังหวัด_อังกฤษ":"Bangkok","เขต_อำเภอ":"พระนคร","เขต_อำเภอ_อังกฤษ":"Phra Nakhon","แขวง_ตำบล":"พระบรมมหาราชวัง","แขวง_ตำบล_อังกฤษ":"Phraborom Maharatchawang","สถานะโครงการ":"ระหว่างดำเนินการ","พิกัดของโครงการ":"","ละติจูดของโตรงการ":"","ลองจิจูดของโตรงการ":"","เลขนิติบุคคล13หลัก":"0105554104206","ผู้ชนะการเสนอราคา":"บริษัท ซิลเลี่ยน อินโนเวชั่น จำกัด","เลขที่สัญญา":"29\/2564","วันที่ลงนามในสัญญา":"2021-04-01","วันที่สิ้นสุดสัญญา":"2021-05-01","งบประมาณในสัญญา_บาท":2800000.0,"สถานะสัญญา":"ระหว่างดำเนินการ"},{"Unnamed: 0":21505,"ลำดับ":2535728,"รหัสโครงการ":63117002707,"ชื่อโครงการฯ":"จ้างทำระบบกันซึมบริเวณดาดฟ้า และทางเชื่อมอาคารศูนย์ปฏิบัติการคอมพิวเตร์ชั้น 5 และระเบียงชั้น 6 โดยวิธีเฉพาะเจาะจง","ชื่อประเภทโครงการ":"จ้างทำของ\/จ้างเหมาบริการ","ชื่อหน่วยงาน":"มหาวิทยาลัยสวนดุสิต","ชื่อหน่วยงานย่อย":"มหาวิทยาลัยสวนดุสิต กรุงเทพฯ","ชื่อวิธีการฯ":"เฉพาะเจาะจง","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"","วงเงินงบประมาณ_บาท":424469.0,"ราคากลาง_บาท":424469.0,"ราคารวมทุกสัญญา_บาท":424469.0,"ปีงบประมาณ":2564,"วันที่เกิดรายการ":"2020-11-03","จังหวัด":"กรุงเทพมหานคร","จังหวัด_อังกฤษ":"Bangkok","เขต_อำเภอ":"พระนคร","เขต_อำเภอ_อังกฤษ":"Phra Nakhon","แขวง_ตำบล":"พระบรมมหาราชวัง","แขวง_ตำบล_อังกฤษ":"Phraborom Maharatchawang","สถานะโครงการ":"ระหว่างดำเนินการ","พิกัดของโครงการ":"","ละติจูดของโตรงการ":"","ลองจิจูดของโตรงการ":"","เลขนิติบุคคล13หลัก":"0105554104206","ผู้ชนะการเสนอราคา":"บริษัท ซิลเลี่ยน อินโนเวชั่น จำกัด","เลขที่สัญญา":"3274\/2563","วันที่ลงนามในสัญญา":"2020-11-03","วันที่สิ้นสุดสัญญา":"2020-12-09","งบประมาณในสัญญา_บาท":424469.0,"สถานะสัญญา":"ระหว่างดำเนินการ"}]},{"full_address":"36\/55 ซอยจตุโชติ 14 แขวงออเงิน เขตสายไหม กรุงเทพมหานคร","financial":[{"year":"2565","income":0},{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":466000,"submit_obj_big_type":"G","company_name_th":"สปีดมาเนีย (ประเทศไทย) จำกัด","pct_share":50.0,"obj_tname":"การขายส่งชิ้นส่วนและอุปกรณ์เสริมใหม่ของยานยนต์","company_id":"0105562144700","reg_date":"22\/8\/2562","company_name_en":"SPEED MANIA (THAILAND) CO., LTD.","tsic":45301,"cap_amt":1000000,"company_value":932000,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ช่อชัยทิพฐ์","value_share":466000,"Nationality":"TH","pct_share":50,"count_share":5000,"Firstname":"เนวินธุ์","person":{"Number":8,"Title":"นาย","Name":"เนวินธุ์ ช่อชัยทิพฐ์","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"1933","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/เนวินธุ์-ช่อชัยทิพฐ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"วัฒนนิยมขจร","value_share":233000,"Nationality":"TH","pct_share":25,"count_share":2500,"Firstname":"พรพัฒน์"},{"Lastname":"ไกรรณภูมิ","value_share":233000,"Nationality":"TH","pct_share":25,"count_share":2500,"Firstname":"ปวีณ"}],"count_shareholder":5000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "546 ซอยจรัญสนิทวงศ์ 66/1  แขวงบางพลัด เขตบางพลัด กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 },
+			{ "year": "2560", "income": 0 },
+			{ "year": "2559", "income": 0 }
+		],
+		"value_share": 23600,
+		"submit_obj_big_type": "G",
+		"company_name_th": "โรยัล เฮิรบส์ จำกัด",
+		"pct_share": 10.0,
+		"obj_tname": "การขายส่งสินค้าทางเภสัชภัณฑ์และทางการแพทย์",
+		"company_id": "0105556170435",
+		"reg_date": "22/10/2556",
+		"company_name_en": "ROYAL HERBS COMPANY LIMITED",
+		"tsic": 46441,
+		"cap_amt": 1000000,
+		"company_value": 235995,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ช่อชัยทิพฐ์",
+				"value_share": 117998,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 5000,
+				"Firstname": "อาชัญฐ์"
+			},
+			{
+				"Lastname": "ช่อชัยทิพฐ์",
+				"value_share": 94398,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 4000,
+				"Firstname": "อรรคพงษ์"
+			},
+			{
+				"Lastname": "ช่อชัยทิพฐ์",
+				"value_share": 23600,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "เนวินธุ์",
+				"person": {
+					"Number": 8,
+					"Title": "นาย",
+					"Name": "เนวินธุ์ ช่อชัยทิพฐ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "1933",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/เนวินธุ์-ช่อชัยทิพฐ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 1000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "440/14 ซอยสุขุมวิท 55 (ทองหล่อ) ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 5600,
+		"submit_obj_big_type": "L",
+		"company_name_th": "บ้านสวนเกษมสุวรรณ จำกัด",
+		"pct_share": 5.6,
+		"obj_tname": "การซื้อและการขายอสังหาริมทรัพย์ที่เป็นของตนเองที่ไม่ใช่ เพื่อเป็นที่พักอาศัย",
+		"company_id": "0105534008309",
+		"reg_date": "28/1/2534",
+		"company_name_en": "",
+		"tsic": 68102,
+		"cap_amt": 100000,
+		"company_value": 100000,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "กุลเศรษฐเศรณี",
+				"value_share": 5400,
+				"Nationality": "TH",
+				"pct_share": 5.4,
+				"count_share": 54,
+				"Firstname": "ชลรัตน์"
+			},
+			{
+				"Lastname": "วัชรอำไพวัณย์",
+				"value_share": 5400,
+				"Nationality": "TH",
+				"pct_share": 5.4,
+				"count_share": 54,
+				"Firstname": "ศิริขวัญ"
+			},
+			{
+				"Lastname": "โชควัฒนากร",
+				"value_share": 5600,
+				"Nationality": "TH",
+				"pct_share": 5.6,
+				"count_share": 56,
+				"Firstname": "วันชัย"
+			},
+			{
+				"Lastname": "เจริญวัฒนาโชคชัย",
+				"value_share": 5600,
+				"Nationality": "TH",
+				"pct_share": 5.6,
+				"count_share": 56,
+				"Firstname": "อังคณา"
+			},
+			{
+				"Lastname": "บุรณศิริ",
+				"value_share": 11200,
+				"Nationality": "TH",
+				"pct_share": 11.2,
+				"count_share": 112,
+				"Firstname": "แช่มชื่น"
+			},
+			{
+				"Lastname": "ปิยะอัจฉริยะ",
+				"value_share": 5600,
+				"Nationality": "TH",
+				"pct_share": 5.6,
+				"count_share": 56,
+				"Firstname": "ลักษณา"
+			},
+			{
+				"Lastname": "เศรษฐฌศรณีกุล",
+				"value_share": 5400,
+				"Nationality": "TH",
+				"pct_share": 5.4,
+				"count_share": 54,
+				"Firstname": "วิเชียร"
+			},
+			{
+				"Lastname": "ศรีสมบูรณ์",
+				"value_share": 5600,
+				"Nationality": "TH",
+				"pct_share": 5.6,
+				"count_share": 56,
+				"Firstname": "วริศรา"
+			},
+			{
+				"Lastname": "รุจนเวชช์",
+				"value_share": 5600,
+				"Nationality": "TH",
+				"pct_share": 5.6,
+				"count_share": 56,
+				"Firstname": "ณรงค์"
+			},
+			{
+				"Lastname": "ธนวเสถึยร",
+				"value_share": 5600,
+				"Nationality": "TH",
+				"pct_share": 5.6,
+				"count_share": 56,
+				"Firstname": "ปริญญา"
+			},
+			{
+				"Lastname": "พหูวณิช",
+				"value_share": 5600,
+				"Nationality": "TH",
+				"pct_share": 5.6,
+				"count_share": 56,
+				"Firstname": "อำนวย"
+			},
+			{
+				"Lastname": "ชาญด้วยวิทย์",
+				"value_share": 5600,
+				"Nationality": "TH",
+				"pct_share": 5.6,
+				"count_share": 56,
+				"Firstname": "สีฟ้า"
+			},
+			{
+				"Lastname": "วัชรอำไพวัณย์",
+				"value_share": 5400,
+				"Nationality": "TH",
+				"pct_share": 5.4,
+				"count_share": 54,
+				"Firstname": "ชนาธิป"
+			},
+			{
+				"Lastname": "คิรีวนานุกูล",
+				"value_share": 11200,
+				"Nationality": "TH",
+				"pct_share": 11.2,
+				"count_share": 112,
+				"Firstname": "สิริรัตน์"
+			},
+			{
+				"Lastname": "อัศวโสภณ",
+				"value_share": 5600,
+				"Nationality": "TH",
+				"pct_share": 5.6,
+				"count_share": 56,
+				"Firstname": "ไพศาล"
+			},
+			{
+				"Lastname": "ช่อชัยทิพฐ์",
+				"value_share": 5600,
+				"Nationality": "TH",
+				"pct_share": 5.6,
+				"count_share": 56,
+				"Firstname": "เนวินธุ์",
+				"person": {
+					"Number": 8,
+					"Title": "นาย",
+					"Name": "เนวินธุ์ ช่อชัยทิพฐ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "1933",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/เนวินธุ์-ช่อชัยทิพฐ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 56,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "36/55 ซอยจตุโชติ 14 แขวงออเงิน เขตสายไหม กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 73080957.25 },
+			{ "year": "2563", "income": 91605238.2699999958 },
+			{ "year": "2562", "income": 56149307.9600000009 },
+			{ "year": "2561", "income": 146840576.3300000131 }
+		],
+		"value_share": 28756355,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ซิลเลี่ยน อินโนเวชั่น จำกัด",
+		"pct_share": 92.0,
+		"obj_tname": "การขายส่งเคมีภัณฑ์ทางอุตสาหกรรม",
+		"company_id": "0105554104206",
+		"reg_date": "8/8/2554",
+		"company_name_en": "ZILLION INNOVATION CO.,LTD.",
+		"tsic": 46691,
+		"cap_amt": 5000000,
+		"company_value": 31256907,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ช่อชัยทิพฐ์",
+				"value_share": 28756355,
+				"Nationality": "TH",
+				"pct_share": 92,
+				"count_share": 46000,
+				"Firstname": "เนวินธุ์",
+				"person": {
+					"Number": 8,
+					"Title": "นาย",
+					"Name": "เนวินธุ์ ช่อชัยทิพฐ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "1933",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/เนวินธุ์-ช่อชัยทิพฐ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สิงห์พนมชัย",
+				"value_share": 1250276,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 2000,
+				"Firstname": "อภิรญา"
+			},
+			{
+				"Lastname": "นฤนาทเสถียร",
+				"value_share": 1250276,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 2000,
+				"Firstname": "ปฏิมา"
+			}
+		],
+		"count_shareholder": 46000,
+		"gov_fund_proj": [
+			{
+				"Unnamed: 0": 17899,
+				"ลำดับ": 5678782,
+				"รหัสโครงการ": 64037457809,
+				"ชื่อโครงการฯ": "จ้างทำระบบกันซึมหลังคาแบบเจาะยึด (Induction System) พร้อมพื้นที่การเรียนรู้ อาคาร Activity Space ชั้นดาดฟ้า โดยวิธีเฉพาะเจาะจง",
+				"ชื่อประเภทโครงการ": "จ้างทำของ/จ้างเหมาบริการ",
+				"ชื่อหน่วยงาน": "มหาวิทยาลัยสวนดุสิต",
+				"ชื่อหน่วยงานย่อย": "มหาวิทยาลัยสวนดุสิต กรุงเทพฯ",
+				"ชื่อวิธีการฯ": "เฉพาะเจาะจง",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "",
+				"วงเงินงบประมาณ_บาท": 2800000.0,
+				"ราคากลาง_บาท": 2800000.0,
+				"ราคารวมทุกสัญญา_บาท": 2800000.0,
+				"ปีงบประมาณ": 2564,
+				"วันที่เกิดรายการ": "2021-04-01",
+				"จังหวัด": "กรุงเทพมหานคร",
+				"จังหวัด_อังกฤษ": "Bangkok",
+				"เขต_อำเภอ": "พระนคร",
+				"เขต_อำเภอ_อังกฤษ": "Phra Nakhon",
+				"แขวง_ตำบล": "พระบรมมหาราชวัง",
+				"แขวง_ตำบล_อังกฤษ": "Phraborom Maharatchawang",
+				"สถานะโครงการ": "ระหว่างดำเนินการ",
+				"พิกัดของโครงการ": "",
+				"ละติจูดของโตรงการ": "",
+				"ลองจิจูดของโตรงการ": "",
+				"เลขนิติบุคคล13หลัก": "0105554104206",
+				"ผู้ชนะการเสนอราคา": "บริษัท ซิลเลี่ยน อินโนเวชั่น จำกัด",
+				"เลขที่สัญญา": "29/2564",
+				"วันที่ลงนามในสัญญา": "2021-04-01",
+				"วันที่สิ้นสุดสัญญา": "2021-05-01",
+				"งบประมาณในสัญญา_บาท": 2800000.0,
+				"สถานะสัญญา": "ระหว่างดำเนินการ"
+			},
+			{
+				"Unnamed: 0": 21505,
+				"ลำดับ": 2535728,
+				"รหัสโครงการ": 63117002707,
+				"ชื่อโครงการฯ": "จ้างทำระบบกันซึมบริเวณดาดฟ้า และทางเชื่อมอาคารศูนย์ปฏิบัติการคอมพิวเตร์ชั้น 5 และระเบียงชั้น 6 โดยวิธีเฉพาะเจาะจง",
+				"ชื่อประเภทโครงการ": "จ้างทำของ/จ้างเหมาบริการ",
+				"ชื่อหน่วยงาน": "มหาวิทยาลัยสวนดุสิต",
+				"ชื่อหน่วยงานย่อย": "มหาวิทยาลัยสวนดุสิต กรุงเทพฯ",
+				"ชื่อวิธีการฯ": "เฉพาะเจาะจง",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "",
+				"วงเงินงบประมาณ_บาท": 424469.0,
+				"ราคากลาง_บาท": 424469.0,
+				"ราคารวมทุกสัญญา_บาท": 424469.0,
+				"ปีงบประมาณ": 2564,
+				"วันที่เกิดรายการ": "2020-11-03",
+				"จังหวัด": "กรุงเทพมหานคร",
+				"จังหวัด_อังกฤษ": "Bangkok",
+				"เขต_อำเภอ": "พระนคร",
+				"เขต_อำเภอ_อังกฤษ": "Phra Nakhon",
+				"แขวง_ตำบล": "พระบรมมหาราชวัง",
+				"แขวง_ตำบล_อังกฤษ": "Phraborom Maharatchawang",
+				"สถานะโครงการ": "ระหว่างดำเนินการ",
+				"พิกัดของโครงการ": "",
+				"ละติจูดของโตรงการ": "",
+				"ลองจิจูดของโตรงการ": "",
+				"เลขนิติบุคคล13หลัก": "0105554104206",
+				"ผู้ชนะการเสนอราคา": "บริษัท ซิลเลี่ยน อินโนเวชั่น จำกัด",
+				"เลขที่สัญญา": "3274/2563",
+				"วันที่ลงนามในสัญญา": "2020-11-03",
+				"วันที่สิ้นสุดสัญญา": "2020-12-09",
+				"งบประมาณในสัญญา_บาท": 424469.0,
+				"สถานะสัญญา": "ระหว่างดำเนินการ"
+			}
+		]
+	},
+	{
+		"full_address": "36/55 ซอยจตุโชติ 14 แขวงออเงิน เขตสายไหม กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2565", "income": 0 },
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 466000,
+		"submit_obj_big_type": "G",
+		"company_name_th": "สปีดมาเนีย (ประเทศไทย) จำกัด",
+		"pct_share": 50.0,
+		"obj_tname": "การขายส่งชิ้นส่วนและอุปกรณ์เสริมใหม่ของยานยนต์",
+		"company_id": "0105562144700",
+		"reg_date": "22/8/2562",
+		"company_name_en": "SPEED MANIA (THAILAND) CO., LTD.",
+		"tsic": 45301,
+		"cap_amt": 1000000,
+		"company_value": 932000,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ช่อชัยทิพฐ์",
+				"value_share": 466000,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 5000,
+				"Firstname": "เนวินธุ์",
+				"person": {
+					"Number": 8,
+					"Title": "นาย",
+					"Name": "เนวินธุ์ ช่อชัยทิพฐ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "1933",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/เนวินธุ์-ช่อชัยทิพฐ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "วัฒนนิยมขจร",
+				"value_share": 233000,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 2500,
+				"Firstname": "พรพัฒน์"
+			},
+			{
+				"Lastname": "ไกรรณภูมิ",
+				"value_share": 233000,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 2500,
+				"Firstname": "ปวีณ"
+			}
+		],
+		"count_shareholder": 5000,
+		"gov_fund_proj": null
+	}
+]

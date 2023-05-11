@@ -1,1 +1,81 @@
-[{"full_address":"24\/266 หมู่บ้านนนทวีวิลล์ 5 ซอยมิตรไมตรี 6\/4 ถนนมิตรไมตรี  แขวงหนองจอก เขตหนองจอก กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"M","company_name_th":"เอช.เอ็น.พี.อินเตอร์เนชั่นแนล ลอว์ เซอร์วิส จำกัด","pct_share":33.33,"obj_tname":"-","company_id":"0105557094228","reg_date":"02\/07\/2557","company_name_en":"H.N.P.INTERNATIONAL LAW SERVICES COMPANY LIMITED","tsic":69100,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"นวลปาน","value_share":0,"Nationality":"TH","pct_share":33.33,"count_share":3333,"Firstname":"หัสชัย"},{"Lastname":"พรพิทักษ์สิทธิ์","value_share":0,"Nationality":"TH","pct_share":33.33,"count_share":3333,"Firstname":"เนติธร","person":{"Number":"","Title":"นาย","Name":"เนติธร พรพิทักษ์สิทธิ์","PartyName":"ประชาธิปัตย์","MpType":"บัญชีรายชื่อ","Id":"897","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/เนติธร-พรพิทักษ์สิทธิ์.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"รุ่งดี","value_share":0,"Nationality":"TH","pct_share":33.34,"count_share":3334,"Firstname":"พีรพัฒน์"}],"count_shareholder":3333,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "24/266 หมู่บ้านนนทวีวิลล์ 5 ซอยมิตรไมตรี 6/4 ถนนมิตรไมตรี  แขวงหนองจอก เขตหนองจอก กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "M",
+		"company_name_th": "เอช.เอ็น.พี.อินเตอร์เนชั่นแนล ลอว์ เซอร์วิส จำกัด",
+		"pct_share": 33.33,
+		"obj_tname": "-",
+		"company_id": "0105557094228",
+		"reg_date": "02/07/2557",
+		"company_name_en": "H.N.P.INTERNATIONAL LAW SERVICES COMPANY LIMITED",
+		"tsic": 69100,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "นวลปาน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 3333,
+				"Firstname": "หัสชัย"
+			},
+			{
+				"Lastname": "พรพิทักษ์สิทธิ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 3333,
+				"Firstname": "เนติธร",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "เนติธร พรพิทักษ์สิทธิ์",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "897",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/เนติธร-พรพิทักษ์สิทธิ์.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "รุ่งดี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 33.34,
+				"count_share": 3334,
+				"Firstname": "พีรพัฒน์"
+			}
+		],
+		"count_shareholder": 3333,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,81 @@
-[{"full_address":"90\/98  หมู่ที่ 9 ต.คูบางหลวง อ.ลาดหลุมแก้ว จ.ปทุมธานี","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"C","company_name_th":"สุวรรณภูมิ อินเตอร์ฟู้ด จำกัด","pct_share":34,"obj_tname":"-","company_id":"0135564008391","reg_date":"26\/03\/2564","company_name_en":"SUWANNABHUMI INTERFOOD COMPANY LIMITED","tsic":11041,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"แหวนทอง","value_share":0,"Nationality":"TH","pct_share":33,"count_share":3300,"Firstname":"ณัฐยา"},{"Lastname":"ศรีพรหม","value_share":0,"Nationality":"TH","pct_share":34,"count_share":3400,"Firstname":"ศักดา","person":{"Number":9,"Title":"นาย","Name":"ศักดา ศรีพรหม","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"3002","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"นครราชสีมา","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/ศักดา-ศรีพรหม.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ทองใบพานิชย์กุล","value_share":0,"Nationality":"TH","pct_share":33,"count_share":3300,"Firstname":"ณัฐนันท์"}],"count_shareholder":3400,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "90/98  หมู่ที่ 9 ต.คูบางหลวง อ.ลาดหลุมแก้ว จ.ปทุมธานี",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "C",
+		"company_name_th": "สุวรรณภูมิ อินเตอร์ฟู้ด จำกัด",
+		"pct_share": 34,
+		"obj_tname": "-",
+		"company_id": "0135564008391",
+		"reg_date": "26/03/2564",
+		"company_name_en": "SUWANNABHUMI INTERFOOD COMPANY LIMITED",
+		"tsic": 11041,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "แหวนทอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 33,
+				"count_share": 3300,
+				"Firstname": "ณัฐยา"
+			},
+			{
+				"Lastname": "ศรีพรหม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 34,
+				"count_share": 3400,
+				"Firstname": "ศักดา",
+				"person": {
+					"Number": 9,
+					"Title": "นาย",
+					"Name": "ศักดา ศรีพรหม",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "3002",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "นครราชสีมา",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/ศักดา-ศรีพรหม.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ทองใบพานิชย์กุล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 33,
+				"count_share": 3300,
+				"Firstname": "ณัฐนันท์"
+			}
+		],
+		"count_shareholder": 3400,
+		"gov_fund_proj": null
+	}
+]

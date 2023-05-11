@@ -1,1 +1,81 @@
-[{"full_address":"38\/8 หมู่ที่ 7 ต.คลองอุดมชลจร อ.เมืองฉะเชิงเทรา จ.ฉะเชิงเทรา","financial":[{"year":"2564","income":36609.75},{"year":"2563","income":3199108.9900000002},{"year":"2562","income":27000},{"year":"2561","income":13167.12}],"value_share":856146,"submit_obj_big_type":"C","company_name_th":"เจ.สยามอิเล็คทริค จำกัด","pct_share":41,"obj_tname":"การผลิตอุปกรณ์ไฟฟ้าอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น การผลิตเครื่องจักรและเครื่องมือซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0245561002307","reg_date":"6\/7\/2561","company_name_en":"J.SIAM ELECTRIC CO., LTD.","tsic":27909,"cap_amt":2000000,"company_value":2088160,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"จาง","value_share":1023198,"Nationality":"CN","pct_share":49,"count_share":9800,"Firstname":"จื้อผิง"},{"Lastname":"หลิน","value_share":856146,"Nationality":"TH","pct_share":41,"count_share":8200,"Firstname":"ศิริพร","person":{"Number":10,"Title":"นาง","Name":"ศิริพร หลิน","PartyName":"ไทยชนะ","MpType":"แบ่งเขต","Id":"4018","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"มหาสารคาม","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยชนะ\/ศิริพร-หลิน.webp","Party":{"Name":"ไทยชนะ","Color":null,"PartyType":"พรรค","IsActive":false,"Id":93,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/sfZR3zJyNAFw2EZMzJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ไกรสุทรังค์","value_share":208816,"Nationality":"TH","pct_share":10,"count_share":2000,"Firstname":"ปราโมทย์"}],"count_shareholder":8200,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "38/8 หมู่ที่ 7 ต.คลองอุดมชลจร อ.เมืองฉะเชิงเทรา จ.ฉะเชิงเทรา",
+		"financial": [
+			{ "year": "2564", "income": 36609.75 },
+			{ "year": "2563", "income": 3199108.9900000002 },
+			{ "year": "2562", "income": 27000 },
+			{ "year": "2561", "income": 13167.12 }
+		],
+		"value_share": 856146,
+		"submit_obj_big_type": "C",
+		"company_name_th": "เจ.สยามอิเล็คทริค จำกัด",
+		"pct_share": 41,
+		"obj_tname": "การผลิตอุปกรณ์ไฟฟ้าอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น การผลิตเครื่องจักรและเครื่องมือซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0245561002307",
+		"reg_date": "6/7/2561",
+		"company_name_en": "J.SIAM ELECTRIC CO., LTD.",
+		"tsic": 27909,
+		"cap_amt": 2000000,
+		"company_value": 2088160,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "จาง",
+				"value_share": 1023198,
+				"Nationality": "CN",
+				"pct_share": 49,
+				"count_share": 9800,
+				"Firstname": "จื้อผิง"
+			},
+			{
+				"Lastname": "หลิน",
+				"value_share": 856146,
+				"Nationality": "TH",
+				"pct_share": 41,
+				"count_share": 8200,
+				"Firstname": "ศิริพร",
+				"person": {
+					"Number": 10,
+					"Title": "นาง",
+					"Name": "ศิริพร หลิน",
+					"PartyName": "ไทยชนะ",
+					"MpType": "แบ่งเขต",
+					"Id": "4018",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "มหาสารคาม",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยชนะ/ศิริพร-หลิน.webp",
+					"Party": {
+						"Name": "ไทยชนะ",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 93,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/sfZR3zJyNAFw2EZMzJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ไกรสุทรังค์",
+				"value_share": 208816,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 2000,
+				"Firstname": "ปราโมทย์"
+			}
+		],
+		"count_shareholder": 8200,
+		"gov_fund_proj": null
+	}
+]

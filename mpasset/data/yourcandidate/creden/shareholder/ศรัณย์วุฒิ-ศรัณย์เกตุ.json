@@ -1,1 +1,89 @@
-[{"full_address":"11\/1 ซอยเฉลิมพระเกียรติ ร.9 ซอย 15  แขวงหนองบอน เขตประเวศ กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"H","company_name_th":"โกลบ แอร์ คาร์โก้ (ประเทศไทย) จำกัด","pct_share":26,"obj_tname":"-","company_id":"0105558099983","reg_date":"19\/06\/2558","company_name_en":"GLOBE AIR CARGO (THAILAND) COMPANY LIMITED","tsic":52292,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศรัณย์เกตุ","value_share":0,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"ดาริกา"},{"Lastname":"วรวรรณ","value_share":0,"Nationality":"TH","pct_share":15,"count_share":1500,"Firstname":"พุทธิสาร"},{"Lastname":"ศรัณย์เกตุ","value_share":0,"Nationality":"TH","pct_share":26,"count_share":2600,"Firstname":"ศรัณย์วุฒิ","person":{"Number":4,"Title":"นาย","Name":"ศรัณย์วุฒิ ศรัณย์เกตุ","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"4541","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุตรดิตถ์","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/ศรัณย์วุฒิ-ศรัณย์เกตุ.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"","value_share":0,"Nationality":"FR","pct_share":49,"count_share":4900,"Firstname":"ยูโรเปี้ยน คาร์โก้ เซอร์วิสเซส"}],"count_shareholder":2600,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "11/1 ซอยเฉลิมพระเกียรติ ร.9 ซอย 15  แขวงหนองบอน เขตประเวศ กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "H",
+		"company_name_th": "โกลบ แอร์ คาร์โก้ (ประเทศไทย) จำกัด",
+		"pct_share": 26,
+		"obj_tname": "-",
+		"company_id": "0105558099983",
+		"reg_date": "19/06/2558",
+		"company_name_en": "GLOBE AIR CARGO (THAILAND) COMPANY LIMITED",
+		"tsic": 52292,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศรัณย์เกตุ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "ดาริกา"
+			},
+			{
+				"Lastname": "วรวรรณ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 1500,
+				"Firstname": "พุทธิสาร"
+			},
+			{
+				"Lastname": "ศรัณย์เกตุ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 26,
+				"count_share": 2600,
+				"Firstname": "ศรัณย์วุฒิ",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "ศรัณย์วุฒิ ศรัณย์เกตุ",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "4541",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุตรดิตถ์",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/ศรัณย์วุฒิ-ศรัณย์เกตุ.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "",
+				"value_share": 0,
+				"Nationality": "FR",
+				"pct_share": 49,
+				"count_share": 4900,
+				"Firstname": "ยูโรเปี้ยน คาร์โก้ เซอร์วิสเซส"
+			}
+		],
+		"count_shareholder": 2600,
+		"gov_fund_proj": null
+	}
+]

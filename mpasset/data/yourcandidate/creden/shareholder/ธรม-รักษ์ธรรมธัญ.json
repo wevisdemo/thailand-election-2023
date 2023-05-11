@@ -1,1 +1,89 @@
-[{"full_address":"72\/65  ถนนทิพยเนตร ต.หายยา อ.เมืองเชียงใหม่ จ.เชียงใหม่","financial":[{"year":"2564","income":38000},{"year":"2563","income":57000},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":102750,"submit_obj_big_type":"B","company_name_th":"โรงโม่ สยามเงินทวี จำกัด","pct_share":5,"obj_tname":"การทำเหมืองหินปูนยิปซัมชอล์กและโดโลไมต์","company_id":"0505562018808","reg_date":"28\/11\/2562","company_name_en":"SIAM MONEY TAVEE MINING COMPANY LIMITED","tsic":8102,"cap_amt":2000000,"company_value":2055000,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"พระสิงห์","value_share":102750,"Nationality":"TH","pct_share":5,"count_share":1000,"Firstname":"บัวคำ"},{"Lastname":"รักษ์ธรรมธัญ","value_share":102750,"Nationality":"TH","pct_share":5,"count_share":1000,"Firstname":"ธรม","person":{"Number":15,"Title":"นาย","Name":"ธรม รักษ์ธรรมธัญ","PartyName":"ประชาไทย","MpType":"แบ่งเขต","Id":"6422","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เชียงใหม่","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/ประชาไทย\/ธรม-รักษ์ธรรมธัญ.webp","Party":{"Name":"ประชาไทย","Color":null,"PartyType":"พรรค","IsActive":false,"Id":74,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"งิ้วสุบรรณ","value_share":10275,"Nationality":"TH","pct_share":0.5,"count_share":100,"Firstname":"บุษยาบัญ"},{"Lastname":"พันธวงศ์","value_share":1839225,"Nationality":"TH","pct_share":89.5,"count_share":17900,"Firstname":"สินีพร"}],"count_shareholder":1000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "72/65  ถนนทิพยเนตร ต.หายยา อ.เมืองเชียงใหม่ จ.เชียงใหม่",
+		"financial": [
+			{ "year": "2564", "income": 38000 },
+			{ "year": "2563", "income": 57000 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 102750,
+		"submit_obj_big_type": "B",
+		"company_name_th": "โรงโม่ สยามเงินทวี จำกัด",
+		"pct_share": 5,
+		"obj_tname": "การทำเหมืองหินปูนยิปซัมชอล์กและโดโลไมต์",
+		"company_id": "0505562018808",
+		"reg_date": "28/11/2562",
+		"company_name_en": "SIAM MONEY TAVEE MINING COMPANY LIMITED",
+		"tsic": 8102,
+		"cap_amt": 2000000,
+		"company_value": 2055000,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "พระสิงห์",
+				"value_share": 102750,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1000,
+				"Firstname": "บัวคำ"
+			},
+			{
+				"Lastname": "รักษ์ธรรมธัญ",
+				"value_share": 102750,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1000,
+				"Firstname": "ธรม",
+				"person": {
+					"Number": 15,
+					"Title": "นาย",
+					"Name": "ธรม รักษ์ธรรมธัญ",
+					"PartyName": "ประชาไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "6422",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เชียงใหม่",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาไทย/ธรม-รักษ์ธรรมธัญ.webp",
+					"Party": {
+						"Name": "ประชาไทย",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 74,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "งิ้วสุบรรณ",
+				"value_share": 10275,
+				"Nationality": "TH",
+				"pct_share": 0.5,
+				"count_share": 100,
+				"Firstname": "บุษยาบัญ"
+			},
+			{
+				"Lastname": "พันธวงศ์",
+				"value_share": 1839225,
+				"Nationality": "TH",
+				"pct_share": 89.5,
+				"count_share": 17900,
+				"Firstname": "สินีพร"
+			}
+		],
+		"count_shareholder": 1000,
+		"gov_fund_proj": null
+	}
+]

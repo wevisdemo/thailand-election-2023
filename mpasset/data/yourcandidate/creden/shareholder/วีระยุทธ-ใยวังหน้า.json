@@ -1,1 +1,81 @@
-[{"full_address":"71\/39 หมู่ที่ 4 ถนนอยุธยา-อ่างทอง ต.วัดตูม อ.พระนครศรีอยุธยา จ.พระนครศรีอยุธยา","financial":[{"year":"2560","income":1452860.26},{"year":"2559","income":0},{"year":"2558","income":6750.58},{"year":"2557","income":6750}],"value_share":743248,"submit_obj_big_type":"C","company_name_th":"นิว ไวด์ เอ็นจิเนียริ่ง จำกัด","pct_share":96,"obj_tname":"การผลิตเครื่องจักรเพื่อใช้งานเฉพาะอย่างอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0145551000221","reg_date":"30\/1\/2551","company_name_en":"NEW WIDE ENGINEERING CO.,LTD.","tsic":28299,"cap_amt":1000000,"company_value":774216,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"สว่างศรี","value_share":15484,"Nationality":"TH","pct_share":2,"count_share":200,"Firstname":"สมชาย"},{"Lastname":"เทียมสิงห์","value_share":15484,"Nationality":"TH","pct_share":2,"count_share":200,"Firstname":"ยุทธนา"},{"Lastname":"ใยวังหน้า","value_share":743248,"Nationality":"TH","pct_share":96,"count_share":9600,"Firstname":"วีระยุทธ","person":{"Number":7,"Title":"นาย","Name":"วีระยุทธ ใยวังหน้า","PartyName":"ก้าวไกล","MpType":"แบ่งเขต","Id":"2569","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"พระนครศรีอยุธยา","MpZone":4,"MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/วีระยุทธ-ใยวังหน้า.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":9600,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "71/39 หมู่ที่ 4 ถนนอยุธยา-อ่างทอง ต.วัดตูม อ.พระนครศรีอยุธยา จ.พระนครศรีอยุธยา",
+		"financial": [
+			{ "year": "2560", "income": 1452860.26 },
+			{ "year": "2559", "income": 0 },
+			{ "year": "2558", "income": 6750.58 },
+			{ "year": "2557", "income": 6750 }
+		],
+		"value_share": 743248,
+		"submit_obj_big_type": "C",
+		"company_name_th": "นิว ไวด์ เอ็นจิเนียริ่ง จำกัด",
+		"pct_share": 96,
+		"obj_tname": "การผลิตเครื่องจักรเพื่อใช้งานเฉพาะอย่างอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0145551000221",
+		"reg_date": "30/1/2551",
+		"company_name_en": "NEW WIDE ENGINEERING CO.,LTD.",
+		"tsic": 28299,
+		"cap_amt": 1000000,
+		"company_value": 774216,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "สว่างศรี",
+				"value_share": 15484,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 200,
+				"Firstname": "สมชาย"
+			},
+			{
+				"Lastname": "เทียมสิงห์",
+				"value_share": 15484,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 200,
+				"Firstname": "ยุทธนา"
+			},
+			{
+				"Lastname": "ใยวังหน้า",
+				"value_share": 743248,
+				"Nationality": "TH",
+				"pct_share": 96,
+				"count_share": 9600,
+				"Firstname": "วีระยุทธ",
+				"person": {
+					"Number": 7,
+					"Title": "นาย",
+					"Name": "วีระยุทธ ใยวังหน้า",
+					"PartyName": "ก้าวไกล",
+					"MpType": "แบ่งเขต",
+					"Id": "2569",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "พระนครศรีอยุธยา",
+					"MpZone": 4,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/วีระยุทธ-ใยวังหน้า.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 9600,
+		"gov_fund_proj": null
+	}
+]

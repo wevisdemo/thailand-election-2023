@@ -1,1 +1,469 @@
-[{"full_address":"136 ซอยพระรามที่ 2 ซอย 54 แยก 4 ถนนพระรามที่ 2  แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร","financial":[{"year":"2564","income":332145658.9499999881},{"year":"2563","income":400956398.4200000167},{"year":"2562","income":407876560.6000000238},{"year":"2561","income":369459951.2699999809}],"value_share":16002253,"submit_obj_big_type":"G","company_name_th":"เอ็มเอ็มเค พลัส อินเตอร์เนชั่นแนล จำกัด","pct_share":25.0,"obj_tname":"การขายส่งเครื่องสำอาง","company_id":"0105556092043","reg_date":"10\/06\/2556","company_name_en":"MMK PLUS INTERNATIONAL COMPANY LIMITED","tsic":46443,"cap_amt":2000000,"company_value":64009013,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ฉันทวานิช","value_share":16002253,"Nationality":"TH","pct_share":25,"count_share":5000,"Firstname":"อธิชา"},{"Lastname":"ฉันทวานิช","value_share":16002253,"Nationality":"TH","pct_share":25,"count_share":5000,"Firstname":"อธิคม"},{"Lastname":"ฉันทวานิช","value_share":16002253,"Nationality":"TH","pct_share":25,"count_share":5000,"Firstname":"อภิมุข","person":{"Number":7,"Title":"นาย","Name":"อภิมุข ฉันทวานิช","PartyName":"ประชาธิปัตย์","MpType":"แบ่งเขต","Id":"1932","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/อภิมุข-ฉันทวานิช.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ฉันทวานิช","value_share":16002253,"Nationality":"TH","pct_share":25,"count_share":5000,"Firstname":"ลินดา"}],"count_shareholder":5000,"gov_fund_proj":null},{"full_address":"33  ซอยพระรามที่ 2 ซอย 54 แยก 4 แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร","financial":[{"year":"2564","income":104148269.3199999928},{"year":"2563","income":119416899.450000003},{"year":"2562","income":105945809.400000006},{"year":"2561","income":100503779.1800000072}],"value_share":18338880,"submit_obj_big_type":"G","company_name_th":"เอ็มเอ็มเค อินเตอร์เทรด จำกัด","pct_share":25.0,"obj_tname":"การขายส่งสินค้าในครัวเรือนอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0105548029516","reg_date":"28\/02\/2548","company_name_en":"M M K INTERTRADE COMPANY LIMITED","tsic":46499,"cap_amt":15000000,"company_value":73355518,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ฉันทวานิช","value_share":18338880,"Nationality":"TH","pct_share":25,"count_share":37500,"Firstname":"ลินดา"},{"Lastname":"ฉันทวานิช","value_share":18338880,"Nationality":"TH","pct_share":25,"count_share":37500,"Firstname":"อภิมุข","person":{"Number":7,"Title":"นาย","Name":"อภิมุข ฉันทวานิช","PartyName":"ประชาธิปัตย์","MpType":"แบ่งเขต","Id":"1932","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/อภิมุข-ฉันทวานิช.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ฉันทวานิช","value_share":18338880,"Nationality":"TH","pct_share":25,"count_share":37500,"Firstname":"อธิคม"},{"Lastname":"ฉันทวานิช","value_share":18338880,"Nationality":"TH","pct_share":25,"count_share":37500,"Firstname":"อธิชา"}],"count_shareholder":37500,"gov_fund_proj":null},{"full_address":"136 ซอยพระรามที่ 2 ซอย 54 แยก 4  แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร","financial":[{"year":"2564","income":20720715.3000000007},{"year":"2563","income":18768804.9299999997},{"year":"2562","income":17935055.0199999996},{"year":"2561","income":17482561.5399999991}],"value_share":17845313,"submit_obj_big_type":"L","company_name_th":"เอ็มเอ็มเค ดีเวลลอปเม้นท์ จำกัด","pct_share":16.875,"obj_tname":"การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย","company_id":"0105547056544","reg_date":"22\/04\/2547","company_name_en":"MMK DEVELOPMENT  COMPANY LIMITED","tsic":68104,"cap_amt":80000000,"company_value":105750004,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ฉันทวานิช","value_share":17845313,"Nationality":"TH","pct_share":16.88,"count_share":135000,"Firstname":"อธิคม"},{"Lastname":"ฉันทวานิช","value_share":7931250,"Nationality":"TH","pct_share":7.5,"count_share":60000,"Firstname":"สมเกียรติ"},{"Lastname":"ฉันทวานิช","value_share":17845313,"Nationality":"TH","pct_share":16.88,"count_share":135000,"Firstname":"อธิชา"},{"Lastname":"ฉันทวานิช","value_share":17845313,"Nationality":"TH","pct_share":16.88,"count_share":135000,"Firstname":"อภิมุข","person":{"Number":7,"Title":"นาย","Name":"อภิมุข ฉันทวานิช","PartyName":"ประชาธิปัตย์","MpType":"แบ่งเขต","Id":"1932","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/อภิมุข-ฉันทวานิช.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"","value_share":26437501,"Nationality":"TH","pct_share":25,"count_share":200000,"Firstname":"อุตสาหกรรมมิตรมงคล"},{"Lastname":"ฉันทวานิช","value_share":17845313,"Nationality":"TH","pct_share":16.88,"count_share":135000,"Firstname":"ลินดา"}],"count_shareholder":135000,"gov_fund_proj":null},{"full_address":"136 ซอยพระรามที่ 2 ซอย 54 แยก 4  แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร","financial":[{"year":"2564","income":947.88},{"year":"2563","income":2868.47},{"year":"2562","income":4823.46},{"year":"2561","income":4808.26}],"value_share":85417,"submit_obj_big_type":"C","company_name_th":"เอ็มเอ็มเค อินเตอร์พลาส จำกัด","pct_share":20.0,"obj_tname":"การผลิตผลิตภัณฑ์พลาสติกอื่น ๆ ซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0105538052981","reg_date":"28\/04\/2538","company_name_en":"MMK INTERPLAS CO., LTD.","tsic":22299,"cap_amt":2000000,"company_value":427083,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ฉันทวานิช","value_share":85417,"Nationality":"TH","pct_share":20,"count_share":4000,"Firstname":"ลินดา"},{"Lastname":"ฉันทวานิช","value_share":85417,"Nationality":"TH","pct_share":20,"count_share":4000,"Firstname":"อธิคม"},{"Lastname":"ฉันทวานิช","value_share":85417,"Nationality":"TH","pct_share":20,"count_share":4000,"Firstname":"อธิชา"},{"Lastname":"ฉันทวานิช","value_share":85417,"Nationality":"TH","pct_share":20,"count_share":4000,"Firstname":"อภิมุข","person":{"Number":7,"Title":"นาย","Name":"อภิมุข ฉันทวานิช","PartyName":"ประชาธิปัตย์","MpType":"แบ่งเขต","Id":"1932","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/อภิมุข-ฉันทวานิช.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ฉันทวานิช","value_share":85417,"Nationality":"TH","pct_share":20,"count_share":4000,"Firstname":"สมเกียรติ"}],"count_shareholder":4000,"gov_fund_proj":null},{"full_address":"136 ซอยพระรามที่ 2 ซอย 54 แยก 4 แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร","financial":[{"year":"2564","income":927072768.3799999952},{"year":"2563","income":1043333066.4500000477},{"year":"2562","income":1018120469.8700000048},{"year":"2561","income":960014809.2300000191}],"value_share":125992394,"submit_obj_big_type":"C","company_name_th":"อุตสาหกรรมมิตรมงคล จำกัด","pct_share":26.664,"obj_tname":"การผลิตสบู่และสารซักฟอกผลิตภัณฑ์ที่ใช้ในการทำความสะอาด และขัดเงา","company_id":"0105518010078","reg_date":"30\/9\/2518","company_name_en":"","tsic":20231,"cap_amt":50000000,"company_value":472518730,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ฉันทวานิช","value_share":126011295,"Nationality":"TH","pct_share":26.67,"count_share":13334,"Firstname":"อธิชา"},{"Lastname":"ฉันทวานิช","value_share":47251873,"Nationality":"TH","pct_share":10,"count_share":5000,"Firstname":"สมเกียรติ"},{"Lastname":"ฉันทวานิช","value_share":47251873,"Nationality":"TH","pct_share":10,"count_share":5000,"Firstname":"ลินดา"},{"Lastname":"ฉันทวานิช","value_share":125992394,"Nationality":"TH","pct_share":26.66,"count_share":13332,"Firstname":"อภิมุข","person":{"Number":7,"Title":"นาย","Name":"อภิมุข ฉันทวานิช","PartyName":"ประชาธิปัตย์","MpType":"แบ่งเขต","Id":"1932","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/อภิมุข-ฉันทวานิช.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ฉันทวานิช","value_share":126011295,"Nationality":"TH","pct_share":26.67,"count_share":13334,"Firstname":"อธิคม"}],"count_shareholder":13332,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "136 ซอยพระรามที่ 2 ซอย 54 แยก 4 ถนนพระรามที่ 2  แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 332145658.9499999881 },
+			{ "year": "2563", "income": 400956398.4200000167 },
+			{ "year": "2562", "income": 407876560.6000000238 },
+			{ "year": "2561", "income": 369459951.2699999809 }
+		],
+		"value_share": 16002253,
+		"submit_obj_big_type": "G",
+		"company_name_th": "เอ็มเอ็มเค พลัส อินเตอร์เนชั่นแนล จำกัด",
+		"pct_share": 25.0,
+		"obj_tname": "การขายส่งเครื่องสำอาง",
+		"company_id": "0105556092043",
+		"reg_date": "10/06/2556",
+		"company_name_en": "MMK PLUS INTERNATIONAL COMPANY LIMITED",
+		"tsic": 46443,
+		"cap_amt": 2000000,
+		"company_value": 64009013,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 16002253,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 5000,
+				"Firstname": "อธิชา"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 16002253,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 5000,
+				"Firstname": "อธิคม"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 16002253,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 5000,
+				"Firstname": "อภิมุข",
+				"person": {
+					"Number": 7,
+					"Title": "นาย",
+					"Name": "อภิมุข ฉันทวานิช",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "แบ่งเขต",
+					"Id": "1932",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/อภิมุข-ฉันทวานิช.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 16002253,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 5000,
+				"Firstname": "ลินดา"
+			}
+		],
+		"count_shareholder": 5000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "33  ซอยพระรามที่ 2 ซอย 54 แยก 4 แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 104148269.3199999928 },
+			{ "year": "2563", "income": 119416899.450000003 },
+			{ "year": "2562", "income": 105945809.400000006 },
+			{ "year": "2561", "income": 100503779.1800000072 }
+		],
+		"value_share": 18338880,
+		"submit_obj_big_type": "G",
+		"company_name_th": "เอ็มเอ็มเค อินเตอร์เทรด จำกัด",
+		"pct_share": 25.0,
+		"obj_tname": "การขายส่งสินค้าในครัวเรือนอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0105548029516",
+		"reg_date": "28/02/2548",
+		"company_name_en": "M M K INTERTRADE COMPANY LIMITED",
+		"tsic": 46499,
+		"cap_amt": 15000000,
+		"company_value": 73355518,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 18338880,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 37500,
+				"Firstname": "ลินดา"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 18338880,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 37500,
+				"Firstname": "อภิมุข",
+				"person": {
+					"Number": 7,
+					"Title": "นาย",
+					"Name": "อภิมุข ฉันทวานิช",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "แบ่งเขต",
+					"Id": "1932",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/อภิมุข-ฉันทวานิช.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 18338880,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 37500,
+				"Firstname": "อธิคม"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 18338880,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 37500,
+				"Firstname": "อธิชา"
+			}
+		],
+		"count_shareholder": 37500,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "136 ซอยพระรามที่ 2 ซอย 54 แยก 4  แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 20720715.3000000007 },
+			{ "year": "2563", "income": 18768804.9299999997 },
+			{ "year": "2562", "income": 17935055.0199999996 },
+			{ "year": "2561", "income": 17482561.5399999991 }
+		],
+		"value_share": 17845313,
+		"submit_obj_big_type": "L",
+		"company_name_th": "เอ็มเอ็มเค ดีเวลลอปเม้นท์ จำกัด",
+		"pct_share": 16.875,
+		"obj_tname": "การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย",
+		"company_id": "0105547056544",
+		"reg_date": "22/04/2547",
+		"company_name_en": "MMK DEVELOPMENT  COMPANY LIMITED",
+		"tsic": 68104,
+		"cap_amt": 80000000,
+		"company_value": 105750004,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 17845313,
+				"Nationality": "TH",
+				"pct_share": 16.88,
+				"count_share": 135000,
+				"Firstname": "อธิคม"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 7931250,
+				"Nationality": "TH",
+				"pct_share": 7.5,
+				"count_share": 60000,
+				"Firstname": "สมเกียรติ"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 17845313,
+				"Nationality": "TH",
+				"pct_share": 16.88,
+				"count_share": 135000,
+				"Firstname": "อธิชา"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 17845313,
+				"Nationality": "TH",
+				"pct_share": 16.88,
+				"count_share": 135000,
+				"Firstname": "อภิมุข",
+				"person": {
+					"Number": 7,
+					"Title": "นาย",
+					"Name": "อภิมุข ฉันทวานิช",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "แบ่งเขต",
+					"Id": "1932",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/อภิมุข-ฉันทวานิช.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "",
+				"value_share": 26437501,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 200000,
+				"Firstname": "อุตสาหกรรมมิตรมงคล"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 17845313,
+				"Nationality": "TH",
+				"pct_share": 16.88,
+				"count_share": 135000,
+				"Firstname": "ลินดา"
+			}
+		],
+		"count_shareholder": 135000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "136 ซอยพระรามที่ 2 ซอย 54 แยก 4  แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 947.88 },
+			{ "year": "2563", "income": 2868.47 },
+			{ "year": "2562", "income": 4823.46 },
+			{ "year": "2561", "income": 4808.26 }
+		],
+		"value_share": 85417,
+		"submit_obj_big_type": "C",
+		"company_name_th": "เอ็มเอ็มเค อินเตอร์พลาส จำกัด",
+		"pct_share": 20.0,
+		"obj_tname": "การผลิตผลิตภัณฑ์พลาสติกอื่น ๆ ซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0105538052981",
+		"reg_date": "28/04/2538",
+		"company_name_en": "MMK INTERPLAS CO., LTD.",
+		"tsic": 22299,
+		"cap_amt": 2000000,
+		"company_value": 427083,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 85417,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 4000,
+				"Firstname": "ลินดา"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 85417,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 4000,
+				"Firstname": "อธิคม"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 85417,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 4000,
+				"Firstname": "อธิชา"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 85417,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 4000,
+				"Firstname": "อภิมุข",
+				"person": {
+					"Number": 7,
+					"Title": "นาย",
+					"Name": "อภิมุข ฉันทวานิช",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "แบ่งเขต",
+					"Id": "1932",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/อภิมุข-ฉันทวานิช.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 85417,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 4000,
+				"Firstname": "สมเกียรติ"
+			}
+		],
+		"count_shareholder": 4000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "136 ซอยพระรามที่ 2 ซอย 54 แยก 4 แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 927072768.3799999952 },
+			{ "year": "2563", "income": 1043333066.4500000477 },
+			{ "year": "2562", "income": 1018120469.8700000048 },
+			{ "year": "2561", "income": 960014809.2300000191 }
+		],
+		"value_share": 125992394,
+		"submit_obj_big_type": "C",
+		"company_name_th": "อุตสาหกรรมมิตรมงคล จำกัด",
+		"pct_share": 26.664,
+		"obj_tname": "การผลิตสบู่และสารซักฟอกผลิตภัณฑ์ที่ใช้ในการทำความสะอาด และขัดเงา",
+		"company_id": "0105518010078",
+		"reg_date": "30/9/2518",
+		"company_name_en": "",
+		"tsic": 20231,
+		"cap_amt": 50000000,
+		"company_value": 472518730,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 126011295,
+				"Nationality": "TH",
+				"pct_share": 26.67,
+				"count_share": 13334,
+				"Firstname": "อธิชา"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 47251873,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 5000,
+				"Firstname": "สมเกียรติ"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 47251873,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 5000,
+				"Firstname": "ลินดา"
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 125992394,
+				"Nationality": "TH",
+				"pct_share": 26.66,
+				"count_share": 13332,
+				"Firstname": "อภิมุข",
+				"person": {
+					"Number": 7,
+					"Title": "นาย",
+					"Name": "อภิมุข ฉันทวานิช",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "แบ่งเขต",
+					"Id": "1932",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/อภิมุข-ฉันทวานิช.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ฉันทวานิช",
+				"value_share": 126011295,
+				"Nationality": "TH",
+				"pct_share": 26.67,
+				"count_share": 13334,
+				"Firstname": "อธิคม"
+			}
+		],
+		"count_shareholder": 13332,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,89 @@
-[{"full_address":"211 ซอยประเสริฐมนูกิจ 29 ถนนประเสริฐมนูกิจ แขวงจรเข้บัว เขตลาดพร้าว กรุงเทพมหานคร","financial":[{"year":"2564","income":530270.47},{"year":"2563","income":1372689.3100000001},{"year":"2562","income":4063574.9900000002},{"year":"2561","income":743264.45}],"value_share":225,"submit_obj_big_type":"N","company_name_th":"เนเชอริสท์ แอสโซซิเอชั่น (ไทยแลนด์) จำกัด","pct_share":5,"obj_tname":"ธุรกิจจัดนำเที่ยว","company_id":"0105550079304","reg_date":"27\/7\/2550","company_name_en":"NATURIST ASSOCIATION (THAILAND) CO.,LTD.","tsic":79120,"cap_amt":100000,"company_value":4494,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เมอลเลอร์","value_share":225,"Nationality":"DK","pct_share":5,"count_share":1000,"Firstname":"เกรเกอร์ส เอดับเบิลยู"},{"Lastname":"บุญเกื้อ","value_share":225,"Nationality":"TH","pct_share":5,"count_share":1000,"Firstname":"นัฐวุฒิ","person":{"Number":15,"Title":"นาย","Name":"นัฐวุฒิ บุญเกื้อ","PartyName":"ไทยภักดี","MpType":"แบ่งเขต","Id":"6088","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":12,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยภักดี\/นัฐวุฒิ-บุญเกื้อ.webp","Party":{"Name":"ไทยภักดี","Color":"#FFF177","PartyType":"พรรค","IsActive":false,"Id":41,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/VN7bjgg2xbg_de1Zit.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ญาติพร้อม","value_share":3820,"Nationality":"TH","pct_share":85,"count_share":17000,"Firstname":"ดิศราพร"},{"Lastname":"ญาติพร้อม","value_share":225,"Nationality":"TH","pct_share":5,"count_share":1000,"Firstname":"โสภิดา"}],"count_shareholder":1000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "211 ซอยประเสริฐมนูกิจ 29 ถนนประเสริฐมนูกิจ แขวงจรเข้บัว เขตลาดพร้าว กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 530270.47 },
+			{ "year": "2563", "income": 1372689.3100000001 },
+			{ "year": "2562", "income": 4063574.9900000002 },
+			{ "year": "2561", "income": 743264.45 }
+		],
+		"value_share": 225,
+		"submit_obj_big_type": "N",
+		"company_name_th": "เนเชอริสท์ แอสโซซิเอชั่น (ไทยแลนด์) จำกัด",
+		"pct_share": 5,
+		"obj_tname": "ธุรกิจจัดนำเที่ยว",
+		"company_id": "0105550079304",
+		"reg_date": "27/7/2550",
+		"company_name_en": "NATURIST ASSOCIATION (THAILAND) CO.,LTD.",
+		"tsic": 79120,
+		"cap_amt": 100000,
+		"company_value": 4494,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เมอลเลอร์",
+				"value_share": 225,
+				"Nationality": "DK",
+				"pct_share": 5,
+				"count_share": 1000,
+				"Firstname": "เกรเกอร์ส เอดับเบิลยู"
+			},
+			{
+				"Lastname": "บุญเกื้อ",
+				"value_share": 225,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1000,
+				"Firstname": "นัฐวุฒิ",
+				"person": {
+					"Number": 15,
+					"Title": "นาย",
+					"Name": "นัฐวุฒิ บุญเกื้อ",
+					"PartyName": "ไทยภักดี",
+					"MpType": "แบ่งเขต",
+					"Id": "6088",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 12,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยภักดี/นัฐวุฒิ-บุญเกื้อ.webp",
+					"Party": {
+						"Name": "ไทยภักดี",
+						"Color": "#FFF177",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 41,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/VN7bjgg2xbg_de1Zit.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ญาติพร้อม",
+				"value_share": 3820,
+				"Nationality": "TH",
+				"pct_share": 85,
+				"count_share": 17000,
+				"Firstname": "ดิศราพร"
+			},
+			{
+				"Lastname": "ญาติพร้อม",
+				"value_share": 225,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1000,
+				"Firstname": "โสภิดา"
+			}
+		],
+		"count_shareholder": 1000,
+		"gov_fund_proj": null
+	}
+]

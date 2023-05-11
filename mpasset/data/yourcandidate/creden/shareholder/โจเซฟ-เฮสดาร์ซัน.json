@@ -1,1 +1,89 @@
-[{"reg_date":"12\/11\/2534","financial":[{"year":"2564","income":2860472.2799999998},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":-4225939,"count_shareholder":12000,"company_shareholder":[{"Lastname":"สุริยจันทร","value_share":-4225939,"pct_share":20,"Firstname":"พงศ์พัฒน์","count_share":12000,"Nationality":"TH"},{"Lastname":"เฮสดาร์ซัน","value_share":-6338908,"pct_share":30,"Firstname":"หลุยส์","count_share":18000,"Nationality":"TH"},{"Lastname":"เฮสดาร์ซัน","value_share":-4225939,"pct_share":20,"Firstname":"โจเซฟ","count_share":12000,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"โจเซฟ เฮสดาร์ซัน","PartyName":"ก้าวไกล","MpType":"บัญชีรายชื่อ","Id":"1138","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/โจเซฟ-เฮสดาร์ซัน.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"วิจิตรโสภณ","value_share":-6338908,"pct_share":30,"Firstname":"ศศิ","count_share":18000,"Nationality":"TH"}],"pct_share":20,"company_name_th":"ไทยทาร์โก้ จำกัด","company_id":"0105534107463","obj_tname":"การผลิตเฟอร์นิเจอร์ที่ทำจากวัสดุอื่นๆ (ยกเว้น หิน คอนกรีต หรือเซรามิก)","company_name_en":"THAI TARCO CO., LTD.","tsic":31009,"cap_amt":6000000,"company_value":-21129694,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"C","full_address":"34\/2 หมู่ที่ 12 ซอยสหมิตร 2 ถนนหลวงแพ่ง  ต.ศีรษะจรเข้น้อย อ.บางเสาธง จ.สมุทรปราการ","gov_fund_proj":null}]
+[
+	{
+		"reg_date": "12/11/2534",
+		"financial": [
+			{ "year": "2564", "income": 2860472.2799999998 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": -4225939,
+		"count_shareholder": 12000,
+		"company_shareholder": [
+			{
+				"Lastname": "สุริยจันทร",
+				"value_share": -4225939,
+				"pct_share": 20,
+				"Firstname": "พงศ์พัฒน์",
+				"count_share": 12000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "เฮสดาร์ซัน",
+				"value_share": -6338908,
+				"pct_share": 30,
+				"Firstname": "หลุยส์",
+				"count_share": 18000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "เฮสดาร์ซัน",
+				"value_share": -4225939,
+				"pct_share": 20,
+				"Firstname": "โจเซฟ",
+				"count_share": 12000,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "โจเซฟ เฮสดาร์ซัน",
+					"PartyName": "ก้าวไกล",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1138",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/โจเซฟ-เฮสดาร์ซัน.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "วิจิตรโสภณ",
+				"value_share": -6338908,
+				"pct_share": 30,
+				"Firstname": "ศศิ",
+				"count_share": 18000,
+				"Nationality": "TH"
+			}
+		],
+		"pct_share": 20,
+		"company_name_th": "ไทยทาร์โก้ จำกัด",
+		"company_id": "0105534107463",
+		"obj_tname": "การผลิตเฟอร์นิเจอร์ที่ทำจากวัสดุอื่นๆ (ยกเว้น หิน คอนกรีต หรือเซรามิก)",
+		"company_name_en": "THAI TARCO CO., LTD.",
+		"tsic": 31009,
+		"cap_amt": 6000000,
+		"company_value": -21129694,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "C",
+		"full_address": "34/2 หมู่ที่ 12 ซอยสหมิตร 2 ถนนหลวงแพ่ง  ต.ศีรษะจรเข้น้อย อ.บางเสาธง จ.สมุทรปราการ",
+		"gov_fund_proj": null
+	}
+]

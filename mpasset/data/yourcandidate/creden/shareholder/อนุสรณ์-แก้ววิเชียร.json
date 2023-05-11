@@ -1,1 +1,120 @@
-[{"full_address":"808\/221  ซอยนวมินทร์ 143 แขวงนวลจันทร์ เขตบึงกุ่ม กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"M","company_name_th":"นิมิต อินเตอร์ เลเบ้อร์ กรุ๊ป จำกัด","pct_share":10,"obj_tname":"-","company_id":"0105565090139","reg_date":"06\/06\/2565","company_name_en":"NIMIT INTER LABOUR GROUP CO., LTD.","tsic":69100,"cap_amt":5000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"พรประเสริฐ","value_share":0,"Nationality":"TH","pct_share":14,"count_share":1400,"Firstname":"อมรรัตน์"},{"Lastname":"พงษ์กิจการุณ","value_share":0,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"จิตติ"},{"Lastname":"ลิ้มเจริญ","value_share":0,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"นิมิต"},{"Lastname":"พระเนตร","value_share":0,"Nationality":"TH","pct_share":6,"count_share":600,"Firstname":"เกียรติศักดิ์"},{"Lastname":"กิจตั้งจรัส","value_share":0,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"อาคเนย์"},{"Lastname":"ทองช่วย","value_share":0,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"ชูสกุล"},{"Lastname":"แก้ววิเชียร","value_share":0,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"อนุสรณ์","person":{"Number":3,"Title":"นาย","Name":"อนุสรณ์ แก้ววิเชียร","PartyName":"ก้าวไกล","MpType":"แบ่งเขต","Id":"2421","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"นนทบุรี","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/อนุสรณ์-แก้ววิเชียร.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"เนื่องศาสน์ศรี","value_share":0,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"ณรงค์ศักดิ์"}],"count_shareholder":1000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "808/221  ซอยนวมินทร์ 143 แขวงนวลจันทร์ เขตบึงกุ่ม กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "M",
+		"company_name_th": "นิมิต อินเตอร์ เลเบ้อร์ กรุ๊ป จำกัด",
+		"pct_share": 10,
+		"obj_tname": "-",
+		"company_id": "0105565090139",
+		"reg_date": "06/06/2565",
+		"company_name_en": "NIMIT INTER LABOUR GROUP CO., LTD.",
+		"tsic": 69100,
+		"cap_amt": 5000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "พรประเสริฐ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 14,
+				"count_share": 1400,
+				"Firstname": "อมรรัตน์"
+			},
+			{
+				"Lastname": "พงษ์กิจการุณ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "จิตติ"
+			},
+			{
+				"Lastname": "ลิ้มเจริญ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "นิมิต"
+			},
+			{
+				"Lastname": "พระเนตร",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 6,
+				"count_share": 600,
+				"Firstname": "เกียรติศักดิ์"
+			},
+			{
+				"Lastname": "กิจตั้งจรัส",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "อาคเนย์"
+			},
+			{
+				"Lastname": "ทองช่วย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "ชูสกุล"
+			},
+			{
+				"Lastname": "แก้ววิเชียร",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "อนุสรณ์",
+				"person": {
+					"Number": 3,
+					"Title": "นาย",
+					"Name": "อนุสรณ์ แก้ววิเชียร",
+					"PartyName": "ก้าวไกล",
+					"MpType": "แบ่งเขต",
+					"Id": "2421",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "นนทบุรี",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/อนุสรณ์-แก้ววิเชียร.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "เนื่องศาสน์ศรี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "ณรงค์ศักดิ์"
+			}
+		],
+		"count_shareholder": 1000,
+		"gov_fund_proj": null
+	}
+]

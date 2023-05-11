@@ -1,1 +1,80 @@
-[{"full_address":"46  ซอยเพชรเกษม 69 แขวงหนองแขม เขตหนองแขม กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"A","company_name_th":"กัญชง  มหานคร  จำกัด","pct_share":60,"obj_tname":"-","company_id":"0105565002019","reg_date":"06\/01\/2565","company_name_en":"KANCHONG  MAHANAKHON  CO., LTD.","tsic":1289,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"พวงมาลัย","value_share":0,"Nationality":"TH","pct_share":60,"count_share":6000,"Firstname":"สมชาย","person":{"Number":"","Title":"นาย","Name":"สมชาย พวงมาลัย","PartyName":"ภราดรภาพ","MpType":"บัญชีรายชื่อ","Id":"1666","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ภราดรภาพ\/สมชาย-พวงมาลัย.webp","Party":{"Name":"ภราดรภาพ","Color":"#CCD8DD","PartyType":"พรรค","IsActive":false,"Id":54,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภราดรภาพ.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ทับเทพ","value_share":0,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"ญาณิกา"},{"Lastname":"จันลา","value_share":0,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"กุหลาบ"}],"count_shareholder":6000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "46  ซอยเพชรเกษม 69 แขวงหนองแขม เขตหนองแขม กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "A",
+		"company_name_th": "กัญชง  มหานคร  จำกัด",
+		"pct_share": 60,
+		"obj_tname": "-",
+		"company_id": "0105565002019",
+		"reg_date": "06/01/2565",
+		"company_name_en": "KANCHONG  MAHANAKHON  CO., LTD.",
+		"tsic": 1289,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "พวงมาลัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 60,
+				"count_share": 6000,
+				"Firstname": "สมชาย",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "สมชาย พวงมาลัย",
+					"PartyName": "ภราดรภาพ",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1666",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภราดรภาพ/สมชาย-พวงมาลัย.webp",
+					"Party": {
+						"Name": "ภราดรภาพ",
+						"Color": "#CCD8DD",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 54,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภราดรภาพ.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ทับเทพ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "ญาณิกา"
+			},
+			{
+				"Lastname": "จันลา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "กุหลาบ"
+			}
+		],
+		"count_shareholder": 6000,
+		"gov_fund_proj": null
+	}
+]

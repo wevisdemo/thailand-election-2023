@@ -1,1 +1,81 @@
-[{"full_address":"4 ซอยลาดพร้าว 117 (ร่วมจิตร) ถนนลาดพร้าว  แขวงคลองจั่น เขตบางกะปิ กรุงเทพมหานคร","financial":[{"year":"2562","income":0},{"year":"2561","income":90000},{"year":"2560","income":0},{"year":"2559","income":13815}],"value_share":8069,"submit_obj_big_type":"N","company_name_th":"ไตร ซิกเนเจอร์ กรุ๊ป จำกัด","pct_share":1,"obj_tname":"ธุรกิจจัดนำเที่ยว","company_id":"0105558129971","reg_date":"11\/08\/2558","company_name_en":"TRI SIGNATURE GROUP COMPANY LIMITED","tsic":79120,"cap_amt":1000000,"company_value":806920,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ธนาธัญญพิชญ์","value_share":8069,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"ยุวรินทร์"},{"Lastname":"ธนาธัญญพิชญ์","value_share":8069,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"ฐานวัฒน์","person":{"Number":9,"Title":"นาย","Name":"ฐานวัฒน์ ธนาธัญญพิชญ์","PartyName":"ไทยสร้างไทย","MpType":"แบ่งเขต","Id":"3895","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":8,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/ฐานวัฒน์-ธนาธัญญพิชญ์.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ธนาธัญญพิชญ์","value_share":790782,"Nationality":"TH","pct_share":98,"count_share":9800,"Firstname":"ชัญญ์ญาณ์"}],"count_shareholder":100,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "4 ซอยลาดพร้าว 117 (ร่วมจิตร) ถนนลาดพร้าว  แขวงคลองจั่น เขตบางกะปิ กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 90000 },
+			{ "year": "2560", "income": 0 },
+			{ "year": "2559", "income": 13815 }
+		],
+		"value_share": 8069,
+		"submit_obj_big_type": "N",
+		"company_name_th": "ไตร ซิกเนเจอร์ กรุ๊ป จำกัด",
+		"pct_share": 1,
+		"obj_tname": "ธุรกิจจัดนำเที่ยว",
+		"company_id": "0105558129971",
+		"reg_date": "11/08/2558",
+		"company_name_en": "TRI SIGNATURE GROUP COMPANY LIMITED",
+		"tsic": 79120,
+		"cap_amt": 1000000,
+		"company_value": 806920,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ธนาธัญญพิชญ์",
+				"value_share": 8069,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "ยุวรินทร์"
+			},
+			{
+				"Lastname": "ธนาธัญญพิชญ์",
+				"value_share": 8069,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "ฐานวัฒน์",
+				"person": {
+					"Number": 9,
+					"Title": "นาย",
+					"Name": "ฐานวัฒน์ ธนาธัญญพิชญ์",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3895",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 8,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/ฐานวัฒน์-ธนาธัญญพิชญ์.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ธนาธัญญพิชญ์",
+				"value_share": 790782,
+				"Nationality": "TH",
+				"pct_share": 98,
+				"count_share": 9800,
+				"Firstname": "ชัญญ์ญาณ์"
+			}
+		],
+		"count_shareholder": 100,
+		"gov_fund_proj": null
+	}
+]

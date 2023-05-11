@@ -1,1 +1,79 @@
-[{"reg_date":"13\/5\/2548","financial":[{"year":"2565","income":0},{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":-959588,"count_shareholder":99998,"company_shareholder":[{"Lastname":"คุรุวาณิชย์","value_share":-959588,"pct_share":100,"Firstname":"ราม","count_share":99998,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"ราม คุรุวาณิชย์","PartyName":"ไทยสร้างไทย","MpType":"บัญชีรายชื่อ","Id":"1175","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/ราม-คุรุวาณิชย์.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Firstname":"ไอรินรัฐ","count_share":1,"Lastname":"คุรุวาณิชย์","pct_share":0,"Nationality":"TH"},{"Firstname":"นวราช","count_share":1,"Lastname":"คุรุวาณิชย์","pct_share":0,"Nationality":"TH"}],"pct_share":100,"company_name_th":"กินรี  จำกัด","company_id":"0105548063749","obj_tname":"โรงแรม รีสอร์ทและห้องชุด","company_name_en":"KINAREE COMPANY LIMITED","tsic":55101,"cap_amt":1000000,"company_value":-959588,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"I","full_address":"933 ถนนมหาไชย แขวงวังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร","gov_fund_proj":null}]
+[
+	{
+		"reg_date": "13/5/2548",
+		"financial": [
+			{ "year": "2565", "income": 0 },
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": -959588,
+		"count_shareholder": 99998,
+		"company_shareholder": [
+			{
+				"Lastname": "คุรุวาณิชย์",
+				"value_share": -959588,
+				"pct_share": 100,
+				"Firstname": "ราม",
+				"count_share": 99998,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ราม คุรุวาณิชย์",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1175",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/ราม-คุรุวาณิชย์.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Firstname": "ไอรินรัฐ",
+				"count_share": 1,
+				"Lastname": "คุรุวาณิชย์",
+				"pct_share": 0,
+				"Nationality": "TH"
+			},
+			{
+				"Firstname": "นวราช",
+				"count_share": 1,
+				"Lastname": "คุรุวาณิชย์",
+				"pct_share": 0,
+				"Nationality": "TH"
+			}
+		],
+		"pct_share": 100,
+		"company_name_th": "กินรี  จำกัด",
+		"company_id": "0105548063749",
+		"obj_tname": "โรงแรม รีสอร์ทและห้องชุด",
+		"company_name_en": "KINAREE COMPANY LIMITED",
+		"tsic": 55101,
+		"cap_amt": 1000000,
+		"company_value": -959588,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "I",
+		"full_address": "933 ถนนมหาไชย แขวงวังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร",
+		"gov_fund_proj": null
+	}
+]

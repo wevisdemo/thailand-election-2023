@@ -1,1 +1,160 @@
-[{"full_address":"39\/190  ถนนกาญจนาภิเษก แขวงดอกไม้ เขตประเวศ กรุงเทพมหานคร","financial":[{"year":"2564","income":38000},{"year":"2563","income":30712.33},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":102256,"submit_obj_big_type":"I","company_name_th":"หลงกู้ จำกัด","pct_share":5,"obj_tname":"การบริการด้านอาหารอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0105563046027","reg_date":"12\/03\/2563","company_name_en":"LONGGU CO., LTD.","tsic":56299,"cap_amt":2000000,"company_value":2045112,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ป้อมกฤษณ์","value_share":102256,"Nationality":"TH","pct_share":5,"count_share":1000,"Firstname":"จรูญ","person":{"Number":"","Title":"พันตำรวจโท","Name":"จรูญ ป้อมกฤษณ์","PartyName":"ประชากรไทย","MpType":"บัญชีรายชื่อ","Id":"2656","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชากรไทย\/จรูญ-ป้อมกฤษณ์.webp","Party":{"Name":"ประชากรไทย","Color":"#065AFC","PartyType":"พรรค","IsActive":false,"Id":43,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชากรไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"เริงรื่น","value_share":102256,"Nationality":"TH","pct_share":5,"count_share":1000,"Firstname":"สมาน"},{"Lastname":"พิพัฒน์ชัยกร","value_share":1840601,"Nationality":"TH","pct_share":90,"count_share":18000,"Firstname":"สมาพร"}],"count_shareholder":1000,"gov_fund_proj":null},{"full_address":"118\/48  ซอยรามอินทรา 23 แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"M","company_name_th":"ไท่ลี่ธง จำกัด","pct_share":1,"obj_tname":"-","company_id":"0105561123067","reg_date":"18\/07\/2561","company_name_en":"TAILITHONG COMPANY LIMITED","tsic":70209,"cap_amt":4000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ทองล้าน","value_share":0,"Nationality":"TH","pct_share":70,"count_share":700,"Firstname":"ธนพล"},{"Lastname":"ทองล้าน","value_share":0,"Nationality":"TH","pct_share":29,"count_share":290,"Firstname":"ธนภัทร"},{"Lastname":"ป้อมกฤษณ์","value_share":0,"Nationality":"TH","pct_share":1,"count_share":10,"Firstname":"จรูญ","person":{"Number":"","Title":"พันตำรวจโท","Name":"จรูญ ป้อมกฤษณ์","PartyName":"ประชากรไทย","MpType":"บัญชีรายชื่อ","Id":"2656","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชากรไทย\/จรูญ-ป้อมกฤษณ์.webp","Party":{"Name":"ประชากรไทย","Color":"#065AFC","PartyType":"พรรค","IsActive":false,"Id":43,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชากรไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":10,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "39/190  ถนนกาญจนาภิเษก แขวงดอกไม้ เขตประเวศ กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 38000 },
+			{ "year": "2563", "income": 30712.33 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 102256,
+		"submit_obj_big_type": "I",
+		"company_name_th": "หลงกู้ จำกัด",
+		"pct_share": 5,
+		"obj_tname": "การบริการด้านอาหารอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0105563046027",
+		"reg_date": "12/03/2563",
+		"company_name_en": "LONGGU CO., LTD.",
+		"tsic": 56299,
+		"cap_amt": 2000000,
+		"company_value": 2045112,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ป้อมกฤษณ์",
+				"value_share": 102256,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1000,
+				"Firstname": "จรูญ",
+				"person": {
+					"Number": "",
+					"Title": "พันตำรวจโท",
+					"Name": "จรูญ ป้อมกฤษณ์",
+					"PartyName": "ประชากรไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "2656",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชากรไทย/จรูญ-ป้อมกฤษณ์.webp",
+					"Party": {
+						"Name": "ประชากรไทย",
+						"Color": "#065AFC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 43,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชากรไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "เริงรื่น",
+				"value_share": 102256,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1000,
+				"Firstname": "สมาน"
+			},
+			{
+				"Lastname": "พิพัฒน์ชัยกร",
+				"value_share": 1840601,
+				"Nationality": "TH",
+				"pct_share": 90,
+				"count_share": 18000,
+				"Firstname": "สมาพร"
+			}
+		],
+		"count_shareholder": 1000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "118/48  ซอยรามอินทรา 23 แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "M",
+		"company_name_th": "ไท่ลี่ธง จำกัด",
+		"pct_share": 1,
+		"obj_tname": "-",
+		"company_id": "0105561123067",
+		"reg_date": "18/07/2561",
+		"company_name_en": "TAILITHONG COMPANY LIMITED",
+		"tsic": 70209,
+		"cap_amt": 4000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ทองล้าน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 70,
+				"count_share": 700,
+				"Firstname": "ธนพล"
+			},
+			{
+				"Lastname": "ทองล้าน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 29,
+				"count_share": 290,
+				"Firstname": "ธนภัทร"
+			},
+			{
+				"Lastname": "ป้อมกฤษณ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 10,
+				"Firstname": "จรูญ",
+				"person": {
+					"Number": "",
+					"Title": "พันตำรวจโท",
+					"Name": "จรูญ ป้อมกฤษณ์",
+					"PartyName": "ประชากรไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "2656",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชากรไทย/จรูญ-ป้อมกฤษณ์.webp",
+					"Party": {
+						"Name": "ประชากรไทย",
+						"Color": "#065AFC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 43,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชากรไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 10,
+		"gov_fund_proj": null
+	}
+]

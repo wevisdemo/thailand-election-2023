@@ -1,1 +1,81 @@
-[{"full_address":"491 หมู่ที่ 10  ต.บ้านดู่ อ.เมืองเชียงราย จ.เชียงราย","financial":[{"year":"2562","income":4000},{"year":"2561","income":4500},{"year":"2560","income":4500},{"year":"2559","income":0}],"value_share":387200,"submit_obj_big_type":"P","company_name_th":"เชียงราย วันเดอร์ คิดส์ ฟอร์ เออีซี จำกัด","pct_share":80,"obj_tname":"การศึกษาด้านกีฬาและนันทนาการ","company_id":"0575558001327","reg_date":"04\/06\/2558","company_name_en":"CHIANGRAI WONDER KIDS FOR AEC COMPANY LIMITED","tsic":85410,"cap_amt":500000,"company_value":484000,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ติยะไพรัช","value_share":387200,"Nationality":"TH","pct_share":80,"count_share":4000,"Firstname":"ปวิศรัฐฐ์","person":{"Number":"","Title":"นางสาว","Name":"ปวิศรัฐฐ์ ติยะไพรัช","PartyName":"เพื่อชาติ","MpType":"บัญชีรายชื่อ","Id":"725","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อชาติ\/ปวิศรัฐฐ์-ติยะไพรัช.webp","Party":{"Name":"เพื่อชาติ","Color":"#B1A6BF","PartyType":"พรรค","IsActive":true,"Id":22,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/เพื่อชาติ.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"บุญลือชา","value_share":48400,"Nationality":"TH","pct_share":10,"count_share":500,"Firstname":"ประดิษฐ์"},{"Lastname":"สงเคราะห์ธรรม","value_share":48400,"Nationality":"TH","pct_share":10,"count_share":500,"Firstname":"ธิดา"}],"count_shareholder":4000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "491 หมู่ที่ 10  ต.บ้านดู่ อ.เมืองเชียงราย จ.เชียงราย",
+		"financial": [
+			{ "year": "2562", "income": 4000 },
+			{ "year": "2561", "income": 4500 },
+			{ "year": "2560", "income": 4500 },
+			{ "year": "2559", "income": 0 }
+		],
+		"value_share": 387200,
+		"submit_obj_big_type": "P",
+		"company_name_th": "เชียงราย วันเดอร์ คิดส์ ฟอร์ เออีซี จำกัด",
+		"pct_share": 80,
+		"obj_tname": "การศึกษาด้านกีฬาและนันทนาการ",
+		"company_id": "0575558001327",
+		"reg_date": "04/06/2558",
+		"company_name_en": "CHIANGRAI WONDER KIDS FOR AEC COMPANY LIMITED",
+		"tsic": 85410,
+		"cap_amt": 500000,
+		"company_value": 484000,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ติยะไพรัช",
+				"value_share": 387200,
+				"Nationality": "TH",
+				"pct_share": 80,
+				"count_share": 4000,
+				"Firstname": "ปวิศรัฐฐ์",
+				"person": {
+					"Number": "",
+					"Title": "นางสาว",
+					"Name": "ปวิศรัฐฐ์ ติยะไพรัช",
+					"PartyName": "เพื่อชาติ",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "725",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อชาติ/ปวิศรัฐฐ์-ติยะไพรัช.webp",
+					"Party": {
+						"Name": "เพื่อชาติ",
+						"Color": "#B1A6BF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 22,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เพื่อชาติ.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "บุญลือชา",
+				"value_share": 48400,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 500,
+				"Firstname": "ประดิษฐ์"
+			},
+			{
+				"Lastname": "สงเคราะห์ธรรม",
+				"value_share": 48400,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 500,
+				"Firstname": "ธิดา"
+			}
+		],
+		"count_shareholder": 4000,
+		"gov_fund_proj": null
+	}
+]

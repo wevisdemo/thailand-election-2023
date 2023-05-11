@@ -1,1 +1,81 @@
-[{"full_address":"55\/235  ถนนคลองลำเจียก แขวงนวลจันทร์ เขตบึงกุ่ม กรุงเทพมหานคร","financial":[{"year":"2564","income":3711537.9700000002},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":851190,"submit_obj_big_type":"G","company_name_th":"โปรการาจ ออโต้เซอร์วิส จำกัด","pct_share":60,"obj_tname":"การบำรุงรักษาและการซ่อมระบบเครื่องยนต์และชิ้นส่วนยานยนต์","company_id":"0105564077881","reg_date":"11\/05\/2564","company_name_en":"PRO GARAGE AUTO SERVICE CO., LTD.","tsic":45201,"cap_amt":1000000,"company_value":1418651,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เทพมงคล","value_share":283730,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"กุลทนันท์"},{"Lastname":"รุ่งธีรกุล","value_share":851190,"Nationality":"TH","pct_share":60,"count_share":6000,"Firstname":"รัชธิวรรษ์","person":{"Number":2,"Title":"นาย","Name":"รัชธิวรรษ์ รุ่งธีรกุล","PartyName":"ไทยศรีวิไลย์","MpType":"แบ่งเขต","Id":"2056","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":13,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยศรีวิไลย์\/รัชธิวรรษ์-รุ่งธีรกุล.webp","Party":{"Name":"ไทยศรีวิไลย์","Color":"#3680C2","PartyType":"พรรค","IsActive":true,"Id":7,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ไทยศรีวิไลย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"บุญพิลา","value_share":283730,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"สุริยา"}],"count_shareholder":6000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "55/235  ถนนคลองลำเจียก แขวงนวลจันทร์ เขตบึงกุ่ม กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 3711537.9700000002 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 851190,
+		"submit_obj_big_type": "G",
+		"company_name_th": "โปรการาจ ออโต้เซอร์วิส จำกัด",
+		"pct_share": 60,
+		"obj_tname": "การบำรุงรักษาและการซ่อมระบบเครื่องยนต์และชิ้นส่วนยานยนต์",
+		"company_id": "0105564077881",
+		"reg_date": "11/05/2564",
+		"company_name_en": "PRO GARAGE AUTO SERVICE CO., LTD.",
+		"tsic": 45201,
+		"cap_amt": 1000000,
+		"company_value": 1418651,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เทพมงคล",
+				"value_share": 283730,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "กุลทนันท์"
+			},
+			{
+				"Lastname": "รุ่งธีรกุล",
+				"value_share": 851190,
+				"Nationality": "TH",
+				"pct_share": 60,
+				"count_share": 6000,
+				"Firstname": "รัชธิวรรษ์",
+				"person": {
+					"Number": 2,
+					"Title": "นาย",
+					"Name": "รัชธิวรรษ์ รุ่งธีรกุล",
+					"PartyName": "ไทยศรีวิไลย์",
+					"MpType": "แบ่งเขต",
+					"Id": "2056",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 13,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยศรีวิไลย์/รัชธิวรรษ์-รุ่งธีรกุล.webp",
+					"Party": {
+						"Name": "ไทยศรีวิไลย์",
+						"Color": "#3680C2",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 7,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ไทยศรีวิไลย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "บุญพิลา",
+				"value_share": 283730,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "สุริยา"
+			}
+		],
+		"count_shareholder": 6000,
+		"gov_fund_proj": null
+	}
+]

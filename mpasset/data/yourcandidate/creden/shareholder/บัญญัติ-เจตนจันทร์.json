@@ -1,1 +1,200 @@
-[{"full_address":"14\/12-13  ถนนแหลมยาง ต.ทางเกวียน อ.แกลง จ.ระยอง","financial":[{"year":"2564","income":6703.24},{"year":"2563","income":35969.68},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":58272,"submit_obj_big_type":"C","company_name_th":"เอเอ็มเค ดีไลท์กู๊ดส์ จำกัด","pct_share":40,"obj_tname":"การผลิตเครื่องหอม เครื่องสำอาง และผลิตภัณฑ์ในห้องน้ำ","company_id":"0215563003653","reg_date":"01\/05\/2563","company_name_en":"AMK DELIGHT GOODS CO., LTD.","tsic":20232,"cap_amt":1000000,"company_value":145681,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เจตนจันทร์","value_share":7284,"Nationality":"TH","pct_share":5,"count_share":5000,"Firstname":"กันต์"},{"Lastname":"เจตนจันทร์","value_share":58272,"Nationality":"TH","pct_share":40,"count_share":40000,"Firstname":"บัญญัติ","person":{"Number":5,"Title":"นาย","Name":"บัญญัติ เจตนจันทร์","PartyName":"ประชาธิปัตย์","MpType":"แบ่งเขต","Id":"2825","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ระยอง","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/บัญญัติ-เจตนจันทร์.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"เจตนจันทร์","value_share":72841,"Nationality":"TH","pct_share":50,"count_share":50000,"Firstname":"อาภรณ์"},{"Lastname":"เจตนจันทร์","value_share":7284,"Nationality":"TH","pct_share":5,"count_share":5000,"Firstname":"มีนา"}],"count_shareholder":40000,"gov_fund_proj":null},{"full_address":"14\/16-17 ถนนแหลมยาง ต.ทางเกวียน อ.แกลง จ.ระยอง","financial":[{"year":"2564","income":12758278.1500000004},{"year":"2563","income":11229135.6899999995},{"year":"2562","income":11986266.1099999994},{"year":"2561","income":13866273.4499999993}],"value_share":156871,"submit_obj_big_type":"Q","company_name_th":"เจตนจันทร์การแพทย์  จำกัด","pct_share":85,"obj_tname":"กิจกรรมโรงพยาบาล","company_id":"0215549001037","reg_date":"3\/4\/2549","company_name_en":"CHETANACHANKARNPAT CO.,LTED.","tsic":86101,"cap_amt":1000000,"company_value":184555,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เจตนจันทร์","value_share":156871,"Nationality":"TH","pct_share":85,"count_share":85000,"Firstname":"บัญญัติ","person":{"Number":5,"Title":"นาย","Name":"บัญญัติ เจตนจันทร์","PartyName":"ประชาธิปัตย์","MpType":"แบ่งเขต","Id":"2825","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ระยอง","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/บัญญัติ-เจตนจันทร์.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"เจตนจันทร์","value_share":1846,"Nationality":"TH","pct_share":1,"count_share":1000,"Firstname":"ภีศเดช"},{"Lastname":"เจตนจันทร์","value_share":1846,"Nationality":"TH","pct_share":1,"count_share":1000,"Firstname":"พฤกษวรรณ"},{"Lastname":"แซ่จัน","value_share":1846,"Nationality":"TH","pct_share":1,"count_share":1000,"Firstname":"ปกรณ์"},{"Lastname":"เจตนจันทร์","value_share":18455,"Nationality":"TH","pct_share":10,"count_share":10000,"Firstname":"มาเรียม"},{"Lastname":"เจตนจันทร์","value_share":1846,"Nationality":"TH","pct_share":1,"count_share":1000,"Firstname":"สมิทธ์"},{"Lastname":"เจตนจันทร์","value_share":1846,"Nationality":"TH","pct_share":1,"count_share":1000,"Firstname":"สุวิช"}],"count_shareholder":85000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "14/12-13  ถนนแหลมยาง ต.ทางเกวียน อ.แกลง จ.ระยอง",
+		"financial": [
+			{ "year": "2564", "income": 6703.24 },
+			{ "year": "2563", "income": 35969.68 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 58272,
+		"submit_obj_big_type": "C",
+		"company_name_th": "เอเอ็มเค ดีไลท์กู๊ดส์ จำกัด",
+		"pct_share": 40,
+		"obj_tname": "การผลิตเครื่องหอม เครื่องสำอาง และผลิตภัณฑ์ในห้องน้ำ",
+		"company_id": "0215563003653",
+		"reg_date": "01/05/2563",
+		"company_name_en": "AMK DELIGHT GOODS CO., LTD.",
+		"tsic": 20232,
+		"cap_amt": 1000000,
+		"company_value": 145681,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เจตนจันทร์",
+				"value_share": 7284,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 5000,
+				"Firstname": "กันต์"
+			},
+			{
+				"Lastname": "เจตนจันทร์",
+				"value_share": 58272,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 40000,
+				"Firstname": "บัญญัติ",
+				"person": {
+					"Number": 5,
+					"Title": "นาย",
+					"Name": "บัญญัติ เจตนจันทร์",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "แบ่งเขต",
+					"Id": "2825",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ระยอง",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/บัญญัติ-เจตนจันทร์.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "เจตนจันทร์",
+				"value_share": 72841,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 50000,
+				"Firstname": "อาภรณ์"
+			},
+			{
+				"Lastname": "เจตนจันทร์",
+				"value_share": 7284,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 5000,
+				"Firstname": "มีนา"
+			}
+		],
+		"count_shareholder": 40000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "14/16-17 ถนนแหลมยาง ต.ทางเกวียน อ.แกลง จ.ระยอง",
+		"financial": [
+			{ "year": "2564", "income": 12758278.1500000004 },
+			{ "year": "2563", "income": 11229135.6899999995 },
+			{ "year": "2562", "income": 11986266.1099999994 },
+			{ "year": "2561", "income": 13866273.4499999993 }
+		],
+		"value_share": 156871,
+		"submit_obj_big_type": "Q",
+		"company_name_th": "เจตนจันทร์การแพทย์  จำกัด",
+		"pct_share": 85,
+		"obj_tname": "กิจกรรมโรงพยาบาล",
+		"company_id": "0215549001037",
+		"reg_date": "3/4/2549",
+		"company_name_en": "CHETANACHANKARNPAT CO.,LTED.",
+		"tsic": 86101,
+		"cap_amt": 1000000,
+		"company_value": 184555,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เจตนจันทร์",
+				"value_share": 156871,
+				"Nationality": "TH",
+				"pct_share": 85,
+				"count_share": 85000,
+				"Firstname": "บัญญัติ",
+				"person": {
+					"Number": 5,
+					"Title": "นาย",
+					"Name": "บัญญัติ เจตนจันทร์",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "แบ่งเขต",
+					"Id": "2825",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ระยอง",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/บัญญัติ-เจตนจันทร์.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "เจตนจันทร์",
+				"value_share": 1846,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 1000,
+				"Firstname": "ภีศเดช"
+			},
+			{
+				"Lastname": "เจตนจันทร์",
+				"value_share": 1846,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 1000,
+				"Firstname": "พฤกษวรรณ"
+			},
+			{
+				"Lastname": "แซ่จัน",
+				"value_share": 1846,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 1000,
+				"Firstname": "ปกรณ์"
+			},
+			{
+				"Lastname": "เจตนจันทร์",
+				"value_share": 18455,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 10000,
+				"Firstname": "มาเรียม"
+			},
+			{
+				"Lastname": "เจตนจันทร์",
+				"value_share": 1846,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 1000,
+				"Firstname": "สมิทธ์"
+			},
+			{
+				"Lastname": "เจตนจันทร์",
+				"value_share": 1846,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 1000,
+				"Firstname": "สุวิช"
+			}
+		],
+		"count_shareholder": 85000,
+		"gov_fund_proj": null
+	}
+]

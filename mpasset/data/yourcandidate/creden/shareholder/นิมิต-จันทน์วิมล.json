@@ -1,1 +1,160 @@
-[{"full_address":"77\/9 หมู่ที่ 7 ต.พระประโทน อ.เมืองนครปฐม จ.นครปฐม","financial":[{"year":"2565","income":0},{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"P","company_name_th":"สยาม ไดรเวอร์ จำกัด","pct_share":70,"obj_tname":"กิจกรรมการเรียนการสอนขับขี่","company_id":"0735562001750","reg_date":"14\/2\/2562","company_name_en":"SIAM DRIVER COMPANY LIMITED","tsic":85497,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"กิตติพัฒนาการุณย์","value_share":0,"Nationality":"TH","pct_share":10,"count_share":10000,"Firstname":"ยุวดี"},{"Lastname":"จันทน์วิมล","value_share":0,"Nationality":"TH","pct_share":70,"count_share":70000,"Firstname":"นิมิต","person":{"Number":"","Title":"นาย","Name":"นิมิต จันทน์วิมล","PartyName":"เสรีรวมไทย","MpType":"บัญชีรายชื่อ","Id":"774","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เสรีรวมไทย\/นิมิต-จันทน์วิมล.webp","Party":{"Name":"เสรีรวมไทย","Color":"#FFEA2E","PartyType":"พรรค","IsActive":true,"Id":28,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/เสรีรวมไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"คูสกุล","value_share":0,"Nationality":"TH","pct_share":20,"count_share":20000,"Firstname":"นพดล"}],"count_shareholder":70000,"gov_fund_proj":null},{"full_address":"65\/10 หมู่ที่ 12 ต.ไร่ขิง อ.สามพราน จ.นครปฐม","financial":[{"year":"2564","income":902196.58},{"year":"2563","income":944028.25},{"year":"2562","income":1594466.8100000001},{"year":"2561","income":1473233.72}],"value_share":-65584,"submit_obj_big_type":"K","company_name_th":"โรงรับจำนำพรพิมลสาย 5 จำกัด","pct_share":2,"obj_tname":"การบริการของโรงรับจำนำ","company_id":"0735556003991","reg_date":"19\/7\/2556","company_name_en":"RONG RUB JAM NAM PHORNPHIMON SAI 5 COMPANY LIMITED","tsic":64925,"cap_amt":5000000,"company_value":-3279223,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"คูสกุล","value_share":-2951301,"Nationality":"TH","pct_share":90,"count_share":45000,"Firstname":"พรพิมล"},{"Lastname":"คูสกุล","value_share":-262338,"Nationality":"TH","pct_share":8,"count_share":4000,"Firstname":"นพดล"},{"Lastname":"จันทน์วิมล","value_share":-65584,"Nationality":"TH","pct_share":2,"count_share":1000,"Firstname":"นิมิต","person":{"Number":"","Title":"นาย","Name":"นิมิต จันทน์วิมล","PartyName":"เสรีรวมไทย","MpType":"บัญชีรายชื่อ","Id":"774","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เสรีรวมไทย\/นิมิต-จันทน์วิมล.webp","Party":{"Name":"เสรีรวมไทย","Color":"#FFEA2E","PartyType":"พรรค","IsActive":true,"Id":28,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/เสรีรวมไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":1000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "77/9 หมู่ที่ 7 ต.พระประโทน อ.เมืองนครปฐม จ.นครปฐม",
+		"financial": [
+			{ "year": "2565", "income": 0 },
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "P",
+		"company_name_th": "สยาม ไดรเวอร์ จำกัด",
+		"pct_share": 70,
+		"obj_tname": "กิจกรรมการเรียนการสอนขับขี่",
+		"company_id": "0735562001750",
+		"reg_date": "14/2/2562",
+		"company_name_en": "SIAM DRIVER COMPANY LIMITED",
+		"tsic": 85497,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "กิตติพัฒนาการุณย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 10000,
+				"Firstname": "ยุวดี"
+			},
+			{
+				"Lastname": "จันทน์วิมล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 70,
+				"count_share": 70000,
+				"Firstname": "นิมิต",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "นิมิต จันทน์วิมล",
+					"PartyName": "เสรีรวมไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "774",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เสรีรวมไทย/นิมิต-จันทน์วิมล.webp",
+					"Party": {
+						"Name": "เสรีรวมไทย",
+						"Color": "#FFEA2E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 28,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เสรีรวมไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "คูสกุล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 20000,
+				"Firstname": "นพดล"
+			}
+		],
+		"count_shareholder": 70000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "65/10 หมู่ที่ 12 ต.ไร่ขิง อ.สามพราน จ.นครปฐม",
+		"financial": [
+			{ "year": "2564", "income": 902196.58 },
+			{ "year": "2563", "income": 944028.25 },
+			{ "year": "2562", "income": 1594466.8100000001 },
+			{ "year": "2561", "income": 1473233.72 }
+		],
+		"value_share": -65584,
+		"submit_obj_big_type": "K",
+		"company_name_th": "โรงรับจำนำพรพิมลสาย 5 จำกัด",
+		"pct_share": 2,
+		"obj_tname": "การบริการของโรงรับจำนำ",
+		"company_id": "0735556003991",
+		"reg_date": "19/7/2556",
+		"company_name_en": "RONG RUB JAM NAM PHORNPHIMON SAI 5 COMPANY LIMITED",
+		"tsic": 64925,
+		"cap_amt": 5000000,
+		"company_value": -3279223,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "คูสกุล",
+				"value_share": -2951301,
+				"Nationality": "TH",
+				"pct_share": 90,
+				"count_share": 45000,
+				"Firstname": "พรพิมล"
+			},
+			{
+				"Lastname": "คูสกุล",
+				"value_share": -262338,
+				"Nationality": "TH",
+				"pct_share": 8,
+				"count_share": 4000,
+				"Firstname": "นพดล"
+			},
+			{
+				"Lastname": "จันทน์วิมล",
+				"value_share": -65584,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 1000,
+				"Firstname": "นิมิต",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "นิมิต จันทน์วิมล",
+					"PartyName": "เสรีรวมไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "774",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เสรีรวมไทย/นิมิต-จันทน์วิมล.webp",
+					"Party": {
+						"Name": "เสรีรวมไทย",
+						"Color": "#FFEA2E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 28,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เสรีรวมไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 1000,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,113 @@
-[{"full_address":"113 หมู่ที่ 1 ต.วังทับไทร อ.สากเหล็ก จ.พิจิตร","financial":[{"year":"2564","income":206525.4},{"year":"2563","income":450016.67},{"year":"2562","income":480028.08},{"year":"2561","income":480026.98}],"value_share":-3559373,"submit_obj_big_type":"C","company_name_th":"ฐานิศวร์  จำกัด","pct_share":15.994,"obj_tname":"การผลิตปุ๋ยเคมี","company_id":"0665548000092","reg_date":"13\/6\/2548","company_name_en":"THANISUAN COMPANY LIMITED","tsic":20121,"cap_amt":5000000,"company_value":-22254426,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ประทีปวัฒนานนท์","value_share":-3560708,"Nationality":"TH","pct_share":16,"count_share":8000,"Firstname":"รุ่งโรจน์"},{"Lastname":"หาญภักดี","value_share":-3559373,"Nationality":"TH","pct_share":15.99,"count_share":7997,"Firstname":"วิจิตรา","person":{"Number":"","Title":"นางสาว","Name":"วิจิตรา หาญภักดี","PartyName":"เพื่อชาติ","MpType":"บัญชีรายชื่อ","Id":"740","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อชาติ\/วิจิตรา-หาญภักดี.webp","Party":{"Name":"เพื่อชาติ","Color":"#B1A6BF","PartyType":"พรรค","IsActive":true,"Id":22,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/เพื่อชาติ.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"พึ่งรัตน์","value_share":-445,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"ณัฐพล"},{"Lastname":"ประทีปวัฒนานนท์","value_share":-3560708,"Nationality":"TH","pct_share":16,"count_share":8000,"Firstname":"รจเลข"},{"Lastname":"หายภักดี","value_share":-445,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"อนุโรจน์"},{"Lastname":"อารมย์เสรี","value_share":-445,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"เอกชัย"},{"Lastname":"ประทีปวัฒนานนท์","value_share":-11572302,"Nationality":"TH","pct_share":52,"count_share":26000,"Firstname":"วีระกิตติ์"}],"count_shareholder":7997,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "113 หมู่ที่ 1 ต.วังทับไทร อ.สากเหล็ก จ.พิจิตร",
+		"financial": [
+			{ "year": "2564", "income": 206525.4 },
+			{ "year": "2563", "income": 450016.67 },
+			{ "year": "2562", "income": 480028.08 },
+			{ "year": "2561", "income": 480026.98 }
+		],
+		"value_share": -3559373,
+		"submit_obj_big_type": "C",
+		"company_name_th": "ฐานิศวร์  จำกัด",
+		"pct_share": 15.994,
+		"obj_tname": "การผลิตปุ๋ยเคมี",
+		"company_id": "0665548000092",
+		"reg_date": "13/6/2548",
+		"company_name_en": "THANISUAN COMPANY LIMITED",
+		"tsic": 20121,
+		"cap_amt": 5000000,
+		"company_value": -22254426,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ประทีปวัฒนานนท์",
+				"value_share": -3560708,
+				"Nationality": "TH",
+				"pct_share": 16,
+				"count_share": 8000,
+				"Firstname": "รุ่งโรจน์"
+			},
+			{
+				"Lastname": "หาญภักดี",
+				"value_share": -3559373,
+				"Nationality": "TH",
+				"pct_share": 15.99,
+				"count_share": 7997,
+				"Firstname": "วิจิตรา",
+				"person": {
+					"Number": "",
+					"Title": "นางสาว",
+					"Name": "วิจิตรา หาญภักดี",
+					"PartyName": "เพื่อชาติ",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "740",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อชาติ/วิจิตรา-หาญภักดี.webp",
+					"Party": {
+						"Name": "เพื่อชาติ",
+						"Color": "#B1A6BF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 22,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เพื่อชาติ.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "พึ่งรัตน์",
+				"value_share": -445,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "ณัฐพล"
+			},
+			{
+				"Lastname": "ประทีปวัฒนานนท์",
+				"value_share": -3560708,
+				"Nationality": "TH",
+				"pct_share": 16,
+				"count_share": 8000,
+				"Firstname": "รจเลข"
+			},
+			{
+				"Lastname": "หายภักดี",
+				"value_share": -445,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "อนุโรจน์"
+			},
+			{
+				"Lastname": "อารมย์เสรี",
+				"value_share": -445,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "เอกชัย"
+			},
+			{
+				"Lastname": "ประทีปวัฒนานนท์",
+				"value_share": -11572302,
+				"Nationality": "TH",
+				"pct_share": 52,
+				"count_share": 26000,
+				"Firstname": "วีระกิตติ์"
+			}
+		],
+		"count_shareholder": 7997,
+		"gov_fund_proj": null
+	}
+]

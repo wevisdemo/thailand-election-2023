@@ -1,1 +1,168 @@
-[{"full_address":"50 ถนนห้วยแก้ว  ต.ช้างเผือก อ.เมืองเชียงใหม่ จ.เชียงใหม่","financial":[{"year":"2564","income":3.62},{"year":"2563","income":5.11},{"year":"2562","income":175011.93},{"year":"2561","income":175012.73}],"value_share":1036361,"submit_obj_big_type":"G","company_name_th":"ไทย - ไชน่า เทรดดิ้ง เซ็นเตอร์ (2015) จำกัด","pct_share":10,"obj_tname":"การขายปลีกสินค้าอื่นๆในร้านค้าทั่วไป","company_id":"0505558007694","reg_date":"04\/08\/2558","company_name_en":"THAI - CHINA TRADING CENTER (2015) COMPANY LIMITED","tsic":47190,"cap_amt":10000000,"company_value":10363612,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ลี่","value_share":3109084,"Nationality":"TH","pct_share":30,"count_share":30000,"Firstname":"อำพล"},{"Lastname":"ตันตรานนท์","value_share":2072722,"Nationality":"TH","pct_share":20,"count_share":20000,"Firstname":"วัชระ"},{"Lastname":"เกียรติไชยากร","value_share":1036361,"Nationality":"TH","pct_share":10,"count_share":10000,"Firstname":"สุรพล","person":{"Number":3,"Title":"นาย","Name":"สุรพล เกียรติไชยากร","PartyName":"เพื่อไทย","MpType":"แบ่งเขต","Id":"4435","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เชียงใหม่","MpZone":9,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/สุรพล-เกียรติไชยากร.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ลีโอเหลี่ยง","value_share":4145445,"Nationality":"CN","pct_share":40,"count_share":40000,"Firstname":"กา ไว"}],"count_shareholder":10000,"gov_fund_proj":null},{"full_address":"1539 ซอยลาดพร้าว 94 (ปัญจมิตร) แขวงพลับพลา เขตวังทองหลาง กรุงเทพมหานคร","financial":[{"year":"2564","income":19000},{"year":"2563","income":19000},{"year":"2562","income":19000},{"year":"2561","income":19000}],"value_share":1009750,"submit_obj_big_type":"M","company_name_th":"ฉวานฉิว ฮาเหริน ลิ่งซิ๋ว เหลียนเหอ ฮุ้ย จำกัด","pct_share":50,"obj_tname":"กิจกรรมให้คำปรึกษาด้านการบริหารจัดการอื่นๆซึ่งมิได้จัด ประเภทไว้ในที่อื่น","company_id":"0105560191212","reg_date":"15\/11\/2560","company_name_en":"QUANQIU HUAREN LINGXIU LIANHE HUI COMPANY LIMITED","tsic":70209,"cap_amt":2000000,"company_value":2019500,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เกียรติไชยากร","value_share":1009750,"Nationality":"TH","pct_share":50,"count_share":10000,"Firstname":"สุรพล","person":{"Number":3,"Title":"นาย","Name":"สุรพล เกียรติไชยากร","PartyName":"เพื่อไทย","MpType":"แบ่งเขต","Id":"4435","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เชียงใหม่","MpZone":9,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/สุรพล-เกียรติไชยากร.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"พาณิชย์เสรีวิศิษฐ์","value_share":20195,"Nationality":"TH","pct_share":1,"count_share":200,"Firstname":"เชาว์วัจน์"},{"Lastname":"ซู่หมิ่น","value_share":989555,"Nationality":"CN","pct_share":49,"count_share":9800,"Firstname":"ซวู"}],"count_shareholder":10000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "50 ถนนห้วยแก้ว  ต.ช้างเผือก อ.เมืองเชียงใหม่ จ.เชียงใหม่",
+		"financial": [
+			{ "year": "2564", "income": 3.62 },
+			{ "year": "2563", "income": 5.11 },
+			{ "year": "2562", "income": 175011.93 },
+			{ "year": "2561", "income": 175012.73 }
+		],
+		"value_share": 1036361,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ไทย - ไชน่า เทรดดิ้ง เซ็นเตอร์ (2015) จำกัด",
+		"pct_share": 10,
+		"obj_tname": "การขายปลีกสินค้าอื่นๆในร้านค้าทั่วไป",
+		"company_id": "0505558007694",
+		"reg_date": "04/08/2558",
+		"company_name_en": "THAI - CHINA TRADING CENTER (2015) COMPANY LIMITED",
+		"tsic": 47190,
+		"cap_amt": 10000000,
+		"company_value": 10363612,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ลี่",
+				"value_share": 3109084,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 30000,
+				"Firstname": "อำพล"
+			},
+			{
+				"Lastname": "ตันตรานนท์",
+				"value_share": 2072722,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 20000,
+				"Firstname": "วัชระ"
+			},
+			{
+				"Lastname": "เกียรติไชยากร",
+				"value_share": 1036361,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 10000,
+				"Firstname": "สุรพล",
+				"person": {
+					"Number": 3,
+					"Title": "นาย",
+					"Name": "สุรพล เกียรติไชยากร",
+					"PartyName": "เพื่อไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4435",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เชียงใหม่",
+					"MpZone": 9,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/สุรพล-เกียรติไชยากร.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ลีโอเหลี่ยง",
+				"value_share": 4145445,
+				"Nationality": "CN",
+				"pct_share": 40,
+				"count_share": 40000,
+				"Firstname": "กา ไว"
+			}
+		],
+		"count_shareholder": 10000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "1539 ซอยลาดพร้าว 94 (ปัญจมิตร) แขวงพลับพลา เขตวังทองหลาง กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 19000 },
+			{ "year": "2563", "income": 19000 },
+			{ "year": "2562", "income": 19000 },
+			{ "year": "2561", "income": 19000 }
+		],
+		"value_share": 1009750,
+		"submit_obj_big_type": "M",
+		"company_name_th": "ฉวานฉิว ฮาเหริน ลิ่งซิ๋ว เหลียนเหอ ฮุ้ย จำกัด",
+		"pct_share": 50,
+		"obj_tname": "กิจกรรมให้คำปรึกษาด้านการบริหารจัดการอื่นๆซึ่งมิได้จัด ประเภทไว้ในที่อื่น",
+		"company_id": "0105560191212",
+		"reg_date": "15/11/2560",
+		"company_name_en": "QUANQIU HUAREN LINGXIU LIANHE HUI COMPANY LIMITED",
+		"tsic": 70209,
+		"cap_amt": 2000000,
+		"company_value": 2019500,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เกียรติไชยากร",
+				"value_share": 1009750,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 10000,
+				"Firstname": "สุรพล",
+				"person": {
+					"Number": 3,
+					"Title": "นาย",
+					"Name": "สุรพล เกียรติไชยากร",
+					"PartyName": "เพื่อไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4435",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เชียงใหม่",
+					"MpZone": 9,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/สุรพล-เกียรติไชยากร.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "พาณิชย์เสรีวิศิษฐ์",
+				"value_share": 20195,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 200,
+				"Firstname": "เชาว์วัจน์"
+			},
+			{
+				"Lastname": "ซู่หมิ่น",
+				"value_share": 989555,
+				"Nationality": "CN",
+				"pct_share": 49,
+				"count_share": 9800,
+				"Firstname": "ซวู"
+			}
+		],
+		"count_shareholder": 10000,
+		"gov_fund_proj": null
+	}
+]

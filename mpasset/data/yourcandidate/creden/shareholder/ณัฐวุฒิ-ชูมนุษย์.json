@@ -1,1 +1,88 @@
-[{"full_address":"718\/2  หมู่ที่ 4 ต.เขาพัง อ.บ้านตาขุน จ.สุราษฎร์ธานี","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"F","company_name_th":"พร ฤทธิ์ คอเปอเรชั่น จำกัด","pct_share":15,"obj_tname":"-","company_id":"0845565008207","reg_date":"08\/07\/2565","company_name_en":"PON RIT CORPORATION CO., LTD.","tsic":41002,"cap_amt":2000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ชูมนุษย์","value_share":0,"Nationality":"TH","pct_share":15,"count_share":3000,"Firstname":"ณัฎฐณิชา"},{"Lastname":"ชูมนุษย์","value_share":0,"Nationality":"TH","pct_share":20,"count_share":4000,"Firstname":"นภาพร"},{"Lastname":"ชูมนุษย์","value_share":0,"Nationality":"TH","pct_share":15,"count_share":3000,"Firstname":"ณัฐวุฒิ","person":{"Number":"","Title":"นาย","Name":"ณัฐวุฒิ ชูมนุษย์","PartyName":"เปลี่ยนอนาคต","MpType":"บัญชีรายชื่อ","Id":"1863","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เปลี่ยนอนาคต\/ณัฐวุฒิ-ชูมนุษย์.webp","Party":{"Name":"เปลี่ยนอนาคต","Color":null,"PartyType":"พรรค","IsActive":false,"Id":99,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/mgCscUGISgj4kOqRiJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ชูมนุษย์","value_share":0,"Nationality":"TH","pct_share":50,"count_share":10000,"Firstname":"นนทกช"}],"count_shareholder":3000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "718/2  หมู่ที่ 4 ต.เขาพัง อ.บ้านตาขุน จ.สุราษฎร์ธานี",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "F",
+		"company_name_th": "พร ฤทธิ์ คอเปอเรชั่น จำกัด",
+		"pct_share": 15,
+		"obj_tname": "-",
+		"company_id": "0845565008207",
+		"reg_date": "08/07/2565",
+		"company_name_en": "PON RIT CORPORATION CO., LTD.",
+		"tsic": 41002,
+		"cap_amt": 2000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ชูมนุษย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 3000,
+				"Firstname": "ณัฎฐณิชา"
+			},
+			{
+				"Lastname": "ชูมนุษย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 4000,
+				"Firstname": "นภาพร"
+			},
+			{
+				"Lastname": "ชูมนุษย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 3000,
+				"Firstname": "ณัฐวุฒิ",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ณัฐวุฒิ ชูมนุษย์",
+					"PartyName": "เปลี่ยนอนาคต",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1863",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เปลี่ยนอนาคต/ณัฐวุฒิ-ชูมนุษย์.webp",
+					"Party": {
+						"Name": "เปลี่ยนอนาคต",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 99,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/mgCscUGISgj4kOqRiJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ชูมนุษย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 10000,
+				"Firstname": "นนทกช"
+			}
+		],
+		"count_shareholder": 3000,
+		"gov_fund_proj": null
+	}
+]

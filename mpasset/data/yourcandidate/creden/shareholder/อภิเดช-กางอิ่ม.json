@@ -1,1 +1,383 @@
-[{"reg_date":"23\/7\/2558","financial":[{"year":"2564","income":18783963.3099999987},{"year":"2563","income":22613805.8399999999},{"year":"2562","income":26581463.0899999999},{"year":"2561","income":27526786.8500000015}],"value_share":193723,"count_shareholder":900,"company_shareholder":[{"Lastname":"สุพิทักษ์","value_share":387446,"pct_share":9,"Firstname":"วิลดา","count_share":1800,"Nationality":"TH"},{"Lastname":"พึงจิตรติสานต์","value_share":96862,"pct_share":2.25,"Firstname":"ธีระ","count_share":450,"Nationality":"TH"},{"Lastname":"กางอิ่มโชติพงศ์","value_share":387446,"pct_share":9,"Firstname":"กฤชพรหม","count_share":1800,"Nationality":"TH"},{"Lastname":"พิตรปรีชา","value_share":774892,"pct_share":18,"Firstname":"จีระเกษม","count_share":3600,"Nationality":"TH"},{"Lastname":"กางอิ่ม","value_share":193723,"pct_share":4.5,"Firstname":"อภิเดช","count_share":900,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"อภิเดช กางอิ่ม","PartyName":"พลังปวงชนไทย","MpType":"บัญชีรายชื่อ","Id":"1631","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/พลังปวงชนไทย\/อภิเดช-กางอิ่ม.webp","Party":{"Name":"พลังปวงชนไทย","Color":"#5061DE","PartyType":"พรรค","IsActive":true,"Id":21,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/พลังปวงชนไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"แจ้งจิตร","value_share":193723,"pct_share":4.5,"Firstname":"นันทวัน","count_share":900,"Nationality":"TH"},{"Lastname":"วัลยะเพ็ชร์","value_share":96862,"pct_share":2.25,"Firstname":"คณิต","count_share":450,"Nationality":"TH"},{"Lastname":"เจียรนัยศิลป์","value_share":387446,"pct_share":9,"Firstname":"ศรวิทย์","count_share":1800,"Nationality":"TH"},{"Lastname":"ชลวิศิษฎ์","value_share":193723,"pct_share":4.5,"Firstname":"ปราโมทย์","count_share":900,"Nationality":"TH"},{"Lastname":"ชุมเชื้อ","value_share":430496,"pct_share":10,"Firstname":"มะลิวรรณ","count_share":2000,"Nationality":"TH"},{"Lastname":"เจียรนัยศิลป์","value_share":387446,"pct_share":9,"Firstname":"รัชดา","count_share":1800,"Nationality":"TH"},{"Lastname":"พิตรปรีชา","value_share":774892,"pct_share":18,"Firstname":"วศิน","count_share":3600,"Nationality":"TH"}],"pct_share":4.5,"company_name_th":"กรีนเรสเตอรองท์ จำกัด","company_id":"0925558000564","obj_tname":"การบริการด้านอาหารในภัตตาคาร\/ร้านอาหาร","company_name_en":"GREEN RESTAURANT COMPANY LIMITED","tsic":56101,"cap_amt":1000000,"company_value":4304957,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"I","full_address":"42 ถนนเจิมปัญญา ต.ทับเที่ยง อ.เมืองตรัง จ.ตรัง","gov_fund_proj":null},{"reg_date":"25\/1\/2548","financial":[{"year":"2564","income":5806518.2699999996},{"year":"2563","income":5880771.0800000001},{"year":"2562","income":10257642.8599999994},{"year":"2561","income":13085637.5299999993}],"value_share":71677,"count_shareholder":2700,"company_shareholder":[{"Lastname":"เจียรนัยศิลป์","value_share":143354,"pct_share":9,"Firstname":"ศรวิทย์","count_share":5400,"Nationality":"TH"},{"Lastname":"พึงจิตติสานต์","value_share":35839,"pct_share":2.25,"Firstname":"ธีระ","count_share":1350,"Nationality":"TH"},{"Lastname":"พิตรปรีชา","value_share":286708,"pct_share":18,"Firstname":"จีระเกษม","count_share":10800,"Nationality":"TH"},{"Lastname":"เจียรนัยศิลป์","value_share":143354,"pct_share":9,"Firstname":"รัชดา","count_share":5400,"Nationality":"TH"},{"Lastname":"กางอิ่ม","value_share":71677,"pct_share":4.5,"Firstname":"อภิเดช","count_share":2700,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"อภิเดช กางอิ่ม","PartyName":"พลังปวงชนไทย","MpType":"บัญชีรายชื่อ","Id":"1631","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/พลังปวงชนไทย\/อภิเดช-กางอิ่ม.webp","Party":{"Name":"พลังปวงชนไทย","Color":"#5061DE","PartyType":"พรรค","IsActive":true,"Id":21,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/พลังปวงชนไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"แจ้งจิตร","value_share":71677,"pct_share":4.5,"Firstname":"นันทวัน","count_share":2700,"Nationality":"TH"},{"Lastname":"ชุมเชื้อ","value_share":159282,"pct_share":10,"Firstname":"มะลิวรรณ","count_share":6000,"Nationality":"TH"},{"Lastname":"กางอิ่มโชติพงศ์","value_share":143354,"pct_share":9,"Firstname":"กฤชพรหม","count_share":5400,"Nationality":"TH"},{"Lastname":"วัลยะเพ็ชร์","value_share":35839,"pct_share":2.25,"Firstname":"คณิต","count_share":1350,"Nationality":"TH"},{"Lastname":"พิตรปรีชา","value_share":286708,"pct_share":18,"Firstname":"วศิน","count_share":10800,"Nationality":"TH"},{"Lastname":"สุพิทักษ์","value_share":143354,"pct_share":9,"Firstname":"วิลดา","count_share":5400,"Nationality":"TH"},{"Lastname":"ชลวิศิษฎ์","value_share":71677,"pct_share":4.5,"Firstname":"ปราโมทย์","count_share":2700,"Nationality":"TH"}],"pct_share":4.5,"company_name_th":"ทรูเอซ จำกัด","company_id":"0925548000049","obj_tname":"การบริการด้านอาหารในภัตตาคาร\/ร้านอาหาร","company_name_en":"TRUE ACE CO.,LTD.","tsic":56101,"cap_amt":3000000,"company_value":1592822,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"I","full_address":"42 ถนนเจิมปัญญา ต.ทับเที่ยง อ.เมืองตรัง จ.ตรัง","gov_fund_proj":null},{"reg_date":"11\/09\/2563","financial":[{"year":"2564","income":2986772.5299999998},{"year":"2563","income":864159.72},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":206213,"count_shareholder":2250,"company_shareholder":[{"Lastname":"ตันตาธนัญช์ปกุล","value_share":3505614,"pct_share":85,"Firstname":"ธนัณพัชชาศ์","count_share":38250,"Nationality":"TH"},{"Lastname":"ตันตาปกุล","value_share":412425,"pct_share":10,"Firstname":"อมร","count_share":4500,"Nationality":"TH"},{"Lastname":"กางอิ่ม","value_share":206213,"pct_share":5,"Firstname":"อภิเดช","count_share":2250,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"อภิเดช กางอิ่ม","PartyName":"พลังปวงชนไทย","MpType":"บัญชีรายชื่อ","Id":"1631","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/พลังปวงชนไทย\/อภิเดช-กางอิ่ม.webp","Party":{"Name":"พลังปวงชนไทย","Color":"#5061DE","PartyType":"พรรค","IsActive":true,"Id":21,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/พลังปวงชนไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"pct_share":5.0,"company_name_th":"เค เอส แก้วสุวรรณ 2020 จำกัด","company_id":"0925563000976","obj_tname":"ร้านขายปลีกเครื่องประดับ","company_name_en":"K S KAEWSUWAN 2020 CO., LTD.","tsic":47732,"cap_amt":4500000,"company_value":4124252,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"G","full_address":"1\/4-5  ถนนเจิมปัญญา ต.ทับเที่ยง อ.เมืองตรัง จ.ตรัง","gov_fund_proj":null}]
+[
+	{
+		"reg_date": "23/7/2558",
+		"financial": [
+			{ "year": "2564", "income": 18783963.3099999987 },
+			{ "year": "2563", "income": 22613805.8399999999 },
+			{ "year": "2562", "income": 26581463.0899999999 },
+			{ "year": "2561", "income": 27526786.8500000015 }
+		],
+		"value_share": 193723,
+		"count_shareholder": 900,
+		"company_shareholder": [
+			{
+				"Lastname": "สุพิทักษ์",
+				"value_share": 387446,
+				"pct_share": 9,
+				"Firstname": "วิลดา",
+				"count_share": 1800,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "พึงจิตรติสานต์",
+				"value_share": 96862,
+				"pct_share": 2.25,
+				"Firstname": "ธีระ",
+				"count_share": 450,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "กางอิ่มโชติพงศ์",
+				"value_share": 387446,
+				"pct_share": 9,
+				"Firstname": "กฤชพรหม",
+				"count_share": 1800,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "พิตรปรีชา",
+				"value_share": 774892,
+				"pct_share": 18,
+				"Firstname": "จีระเกษม",
+				"count_share": 3600,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "กางอิ่ม",
+				"value_share": 193723,
+				"pct_share": 4.5,
+				"Firstname": "อภิเดช",
+				"count_share": 900,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "อภิเดช กางอิ่ม",
+					"PartyName": "พลังปวงชนไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1631",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังปวงชนไทย/อภิเดช-กางอิ่ม.webp",
+					"Party": {
+						"Name": "พลังปวงชนไทย",
+						"Color": "#5061DE",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 21,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังปวงชนไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "แจ้งจิตร",
+				"value_share": 193723,
+				"pct_share": 4.5,
+				"Firstname": "นันทวัน",
+				"count_share": 900,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "วัลยะเพ็ชร์",
+				"value_share": 96862,
+				"pct_share": 2.25,
+				"Firstname": "คณิต",
+				"count_share": 450,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "เจียรนัยศิลป์",
+				"value_share": 387446,
+				"pct_share": 9,
+				"Firstname": "ศรวิทย์",
+				"count_share": 1800,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "ชลวิศิษฎ์",
+				"value_share": 193723,
+				"pct_share": 4.5,
+				"Firstname": "ปราโมทย์",
+				"count_share": 900,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "ชุมเชื้อ",
+				"value_share": 430496,
+				"pct_share": 10,
+				"Firstname": "มะลิวรรณ",
+				"count_share": 2000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "เจียรนัยศิลป์",
+				"value_share": 387446,
+				"pct_share": 9,
+				"Firstname": "รัชดา",
+				"count_share": 1800,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "พิตรปรีชา",
+				"value_share": 774892,
+				"pct_share": 18,
+				"Firstname": "วศิน",
+				"count_share": 3600,
+				"Nationality": "TH"
+			}
+		],
+		"pct_share": 4.5,
+		"company_name_th": "กรีนเรสเตอรองท์ จำกัด",
+		"company_id": "0925558000564",
+		"obj_tname": "การบริการด้านอาหารในภัตตาคาร/ร้านอาหาร",
+		"company_name_en": "GREEN RESTAURANT COMPANY LIMITED",
+		"tsic": 56101,
+		"cap_amt": 1000000,
+		"company_value": 4304957,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "I",
+		"full_address": "42 ถนนเจิมปัญญา ต.ทับเที่ยง อ.เมืองตรัง จ.ตรัง",
+		"gov_fund_proj": null
+	},
+	{
+		"reg_date": "25/1/2548",
+		"financial": [
+			{ "year": "2564", "income": 5806518.2699999996 },
+			{ "year": "2563", "income": 5880771.0800000001 },
+			{ "year": "2562", "income": 10257642.8599999994 },
+			{ "year": "2561", "income": 13085637.5299999993 }
+		],
+		"value_share": 71677,
+		"count_shareholder": 2700,
+		"company_shareholder": [
+			{
+				"Lastname": "เจียรนัยศิลป์",
+				"value_share": 143354,
+				"pct_share": 9,
+				"Firstname": "ศรวิทย์",
+				"count_share": 5400,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "พึงจิตติสานต์",
+				"value_share": 35839,
+				"pct_share": 2.25,
+				"Firstname": "ธีระ",
+				"count_share": 1350,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "พิตรปรีชา",
+				"value_share": 286708,
+				"pct_share": 18,
+				"Firstname": "จีระเกษม",
+				"count_share": 10800,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "เจียรนัยศิลป์",
+				"value_share": 143354,
+				"pct_share": 9,
+				"Firstname": "รัชดา",
+				"count_share": 5400,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "กางอิ่ม",
+				"value_share": 71677,
+				"pct_share": 4.5,
+				"Firstname": "อภิเดช",
+				"count_share": 2700,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "อภิเดช กางอิ่ม",
+					"PartyName": "พลังปวงชนไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1631",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังปวงชนไทย/อภิเดช-กางอิ่ม.webp",
+					"Party": {
+						"Name": "พลังปวงชนไทย",
+						"Color": "#5061DE",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 21,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังปวงชนไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "แจ้งจิตร",
+				"value_share": 71677,
+				"pct_share": 4.5,
+				"Firstname": "นันทวัน",
+				"count_share": 2700,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "ชุมเชื้อ",
+				"value_share": 159282,
+				"pct_share": 10,
+				"Firstname": "มะลิวรรณ",
+				"count_share": 6000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "กางอิ่มโชติพงศ์",
+				"value_share": 143354,
+				"pct_share": 9,
+				"Firstname": "กฤชพรหม",
+				"count_share": 5400,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "วัลยะเพ็ชร์",
+				"value_share": 35839,
+				"pct_share": 2.25,
+				"Firstname": "คณิต",
+				"count_share": 1350,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "พิตรปรีชา",
+				"value_share": 286708,
+				"pct_share": 18,
+				"Firstname": "วศิน",
+				"count_share": 10800,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "สุพิทักษ์",
+				"value_share": 143354,
+				"pct_share": 9,
+				"Firstname": "วิลดา",
+				"count_share": 5400,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "ชลวิศิษฎ์",
+				"value_share": 71677,
+				"pct_share": 4.5,
+				"Firstname": "ปราโมทย์",
+				"count_share": 2700,
+				"Nationality": "TH"
+			}
+		],
+		"pct_share": 4.5,
+		"company_name_th": "ทรูเอซ จำกัด",
+		"company_id": "0925548000049",
+		"obj_tname": "การบริการด้านอาหารในภัตตาคาร/ร้านอาหาร",
+		"company_name_en": "TRUE ACE CO.,LTD.",
+		"tsic": 56101,
+		"cap_amt": 3000000,
+		"company_value": 1592822,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "I",
+		"full_address": "42 ถนนเจิมปัญญา ต.ทับเที่ยง อ.เมืองตรัง จ.ตรัง",
+		"gov_fund_proj": null
+	},
+	{
+		"reg_date": "11/09/2563",
+		"financial": [
+			{ "year": "2564", "income": 2986772.5299999998 },
+			{ "year": "2563", "income": 864159.72 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 206213,
+		"count_shareholder": 2250,
+		"company_shareholder": [
+			{
+				"Lastname": "ตันตาธนัญช์ปกุล",
+				"value_share": 3505614,
+				"pct_share": 85,
+				"Firstname": "ธนัณพัชชาศ์",
+				"count_share": 38250,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "ตันตาปกุล",
+				"value_share": 412425,
+				"pct_share": 10,
+				"Firstname": "อมร",
+				"count_share": 4500,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "กางอิ่ม",
+				"value_share": 206213,
+				"pct_share": 5,
+				"Firstname": "อภิเดช",
+				"count_share": 2250,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "อภิเดช กางอิ่ม",
+					"PartyName": "พลังปวงชนไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1631",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังปวงชนไทย/อภิเดช-กางอิ่ม.webp",
+					"Party": {
+						"Name": "พลังปวงชนไทย",
+						"Color": "#5061DE",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 21,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังปวงชนไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"pct_share": 5.0,
+		"company_name_th": "เค เอส แก้วสุวรรณ 2020 จำกัด",
+		"company_id": "0925563000976",
+		"obj_tname": "ร้านขายปลีกเครื่องประดับ",
+		"company_name_en": "K S KAEWSUWAN 2020 CO., LTD.",
+		"tsic": 47732,
+		"cap_amt": 4500000,
+		"company_value": 4124252,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "G",
+		"full_address": "1/4-5  ถนนเจิมปัญญา ต.ทับเที่ยง อ.เมืองตรัง จ.ตรัง",
+		"gov_fund_proj": null
+	}
+]

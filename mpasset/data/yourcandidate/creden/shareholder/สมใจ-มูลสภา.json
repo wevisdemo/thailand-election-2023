@@ -1,1 +1,89 @@
-[{"full_address":"7\/7 หมู่ที่ 1  ต.ตาลเดี่ยว อ.แก่งคอย จ.สระบุรี","financial":[{"year":"2564","income":6310242.96},{"year":"2563","income":9500},{"year":"2562","income":9500},{"year":"2561","income":19000}],"value_share":537476,"submit_obj_big_type":"G","company_name_th":"ไอคิว โปร อินเตอร์เนชั่นแนล  จำกัด","pct_share":25,"obj_tname":"ร้านขายปลีกอาหารอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0195557001581","reg_date":"09\/10\/2557","company_name_en":"IQ PRO INTERNATIONAL COMPANY LIMITED","tsic":47219,"cap_amt":2000000,"company_value":2149903,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"อ้นจันทร์","value_share":268738,"Nationality":"TH","pct_share":12.5,"count_share":2500,"Firstname":"ดาราวรรณ"},{"Lastname":"อ้นจันทร์","value_share":1074952,"Nationality":"TH","pct_share":50,"count_share":10000,"Firstname":"จันทิรา"},{"Lastname":"ถาวร","value_share":268738,"Nationality":"TH","pct_share":12.5,"count_share":2500,"Firstname":"จิรันดา"},{"Lastname":"มูลสภา","value_share":537476,"Nationality":"TH","pct_share":25,"count_share":5000,"Firstname":"สมใจ","person":{"Number":"","Title":"นางสาว","Name":"สมใจ มูลสภา","PartyName":"พลังเพื่อไทย","MpType":"บัญชีรายชื่อ","Id":"1706","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/พลังเพื่อไทย\/สมใจ-มูลสภา.webp","Party":{"Name":"พลังเพื่อไทย","Color":null,"PartyType":"พรรค","IsActive":false,"Id":73,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/2BUgmHT5zu3JPf_ntI.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":5000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "7/7 หมู่ที่ 1  ต.ตาลเดี่ยว อ.แก่งคอย จ.สระบุรี",
+		"financial": [
+			{ "year": "2564", "income": 6310242.96 },
+			{ "year": "2563", "income": 9500 },
+			{ "year": "2562", "income": 9500 },
+			{ "year": "2561", "income": 19000 }
+		],
+		"value_share": 537476,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ไอคิว โปร อินเตอร์เนชั่นแนล  จำกัด",
+		"pct_share": 25,
+		"obj_tname": "ร้านขายปลีกอาหารอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0195557001581",
+		"reg_date": "09/10/2557",
+		"company_name_en": "IQ PRO INTERNATIONAL COMPANY LIMITED",
+		"tsic": 47219,
+		"cap_amt": 2000000,
+		"company_value": 2149903,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "อ้นจันทร์",
+				"value_share": 268738,
+				"Nationality": "TH",
+				"pct_share": 12.5,
+				"count_share": 2500,
+				"Firstname": "ดาราวรรณ"
+			},
+			{
+				"Lastname": "อ้นจันทร์",
+				"value_share": 1074952,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 10000,
+				"Firstname": "จันทิรา"
+			},
+			{
+				"Lastname": "ถาวร",
+				"value_share": 268738,
+				"Nationality": "TH",
+				"pct_share": 12.5,
+				"count_share": 2500,
+				"Firstname": "จิรันดา"
+			},
+			{
+				"Lastname": "มูลสภา",
+				"value_share": 537476,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 5000,
+				"Firstname": "สมใจ",
+				"person": {
+					"Number": "",
+					"Title": "นางสาว",
+					"Name": "สมใจ มูลสภา",
+					"PartyName": "พลังเพื่อไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1706",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังเพื่อไทย/สมใจ-มูลสภา.webp",
+					"Party": {
+						"Name": "พลังเพื่อไทย",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 73,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/2BUgmHT5zu3JPf_ntI.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 5000,
+		"gov_fund_proj": null
+	}
+]
