@@ -1,1 +1,217 @@
-[{"full_address":"222\/140 อาคารชุดบ้านสวนจตุจักร อาคารดี ชั้น 2 ซอยวิภาวดี 17 ถนนวิภาวดีรังสิต แขวงจตุจักร เขตจตุจักร กรุงเทพมหานคร","financial":[{"year":"2559","income":0},{"year":"2558","income":8718773.3200000003},{"year":"2557","income":13143649.7899999991},{"year":"2556","income":22212591.25}],"value_share":0,"submit_obj_big_type":"M","company_name_th":"ลีฟส์ แอนด์ ริช จำกัด","pct_share":0.6,"obj_tname":"กิจกรรมของบริษัทโฆษณา","company_id":"0105546117400","reg_date":"26\/09\/2546","company_name_en":"LIVES & RICH  COMPANY LIMITED.","tsic":73101,"cap_amt":50000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ก้อนทอง","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"สุชาดา"},{"Lastname":"วัฒนไพโรจน์","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"กมลศักดิ์"},{"Lastname":"กุศลธรรมรัตน์","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"กังวาล"},{"Lastname":"บุญครอง","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"ยุวดี"},{"Lastname":"วงศ์ทองคำ","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"วิชัย"},{"Lastname":"เกษมโกเมศ","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"ประเสริฐ"},{"Lastname":"วงษ์จินดา","value_share":0,"Nationality":"TH","pct_share":4,"count_share":200000,"Firstname":"สุภาพ"},{"Lastname":"จิวรวัฒนกุล","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"ชาตรี"},{"Lastname":"อมตานนท์","value_share":0,"Nationality":"TH","pct_share":0.4,"count_share":20000,"Firstname":"พงษ์ชัย"},{"Lastname":"ธรรมวัฒนะ","value_share":0,"Nationality":"TH","pct_share":0.4,"count_share":20000,"Firstname":"ดลนภา"},{"Lastname":"เทพสุทิน","value_share":0,"Nationality":"TH","pct_share":0.6,"count_share":30000,"Firstname":"สมศักดิ์","person":{"Number":"","Title":"นาย","Name":"สมศักดิ์ เทพสุทิน","PartyName":"เพื่อไทย","MpType":"บัญชีรายชื่อ","Id":"966","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/สมศักดิ์-เทพสุทิน.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สุนทรวัฒน์","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"สมชาย"},{"Lastname":"เตรียมชาญชัย","value_share":0,"Nationality":"TH","pct_share":2,"count_share":100000,"Firstname":"สุรพงษ์"},{"Lastname":"จงสงวน","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"ดารณี"},{"Lastname":"ชื่นอารมย์","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"ศารินทร์"},{"Lastname":"พงษ์รัตน์ธนาเดช","value_share":0,"Nationality":"TH","pct_share":89.4,"count_share":4470000,"Firstname":"ก้องพิทักษ์"},{"Lastname":"อิทธิธรรม","value_share":0,"Nationality":"TH","pct_share":0.6,"count_share":30000,"Firstname":"ไพศาล"},{"Lastname":"จึงจิรานนท์","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"สิทธิชัย"},{"Lastname":"อีเมน เลิศสมิติวันท์","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"ทิมโมตี้"},{"Lastname":"เอื้อเสริมพงศ์","value_share":0,"Nationality":"TH","pct_share":0.2,"count_share":10000,"Firstname":"ไพโรจน์"}],"count_shareholder":30000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "222/140 อาคารชุดบ้านสวนจตุจักร อาคารดี ชั้น 2 ซอยวิภาวดี 17 ถนนวิภาวดีรังสิต แขวงจตุจักร เขตจตุจักร กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2559", "income": 0 },
+			{ "year": "2558", "income": 8718773.3200000003 },
+			{ "year": "2557", "income": 13143649.7899999991 },
+			{ "year": "2556", "income": 22212591.25 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "M",
+		"company_name_th": "ลีฟส์ แอนด์ ริช จำกัด",
+		"pct_share": 0.6,
+		"obj_tname": "กิจกรรมของบริษัทโฆษณา",
+		"company_id": "0105546117400",
+		"reg_date": "26/09/2546",
+		"company_name_en": "LIVES & RICH  COMPANY LIMITED.",
+		"tsic": 73101,
+		"cap_amt": 50000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ก้อนทอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "สุชาดา"
+			},
+			{
+				"Lastname": "วัฒนไพโรจน์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "กมลศักดิ์"
+			},
+			{
+				"Lastname": "กุศลธรรมรัตน์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "กังวาล"
+			},
+			{
+				"Lastname": "บุญครอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "ยุวดี"
+			},
+			{
+				"Lastname": "วงศ์ทองคำ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "วิชัย"
+			},
+			{
+				"Lastname": "เกษมโกเมศ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "ประเสริฐ"
+			},
+			{
+				"Lastname": "วงษ์จินดา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 200000,
+				"Firstname": "สุภาพ"
+			},
+			{
+				"Lastname": "จิวรวัฒนกุล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "ชาตรี"
+			},
+			{
+				"Lastname": "อมตานนท์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.4,
+				"count_share": 20000,
+				"Firstname": "พงษ์ชัย"
+			},
+			{
+				"Lastname": "ธรรมวัฒนะ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.4,
+				"count_share": 20000,
+				"Firstname": "ดลนภา"
+			},
+			{
+				"Lastname": "เทพสุทิน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.6,
+				"count_share": 30000,
+				"Firstname": "สมศักดิ์",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "สมศักดิ์ เทพสุทิน",
+					"PartyName": "เพื่อไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "966",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/สมศักดิ์-เทพสุทิน.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สุนทรวัฒน์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "สมชาย"
+			},
+			{
+				"Lastname": "เตรียมชาญชัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 100000,
+				"Firstname": "สุรพงษ์"
+			},
+			{
+				"Lastname": "จงสงวน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "ดารณี"
+			},
+			{
+				"Lastname": "ชื่นอารมย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "ศารินทร์"
+			},
+			{
+				"Lastname": "พงษ์รัตน์ธนาเดช",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 89.4,
+				"count_share": 4470000,
+				"Firstname": "ก้องพิทักษ์"
+			},
+			{
+				"Lastname": "อิทธิธรรม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.6,
+				"count_share": 30000,
+				"Firstname": "ไพศาล"
+			},
+			{
+				"Lastname": "จึงจิรานนท์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "สิทธิชัย"
+			},
+			{
+				"Lastname": "อีเมน เลิศสมิติวันท์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "ทิมโมตี้"
+			},
+			{
+				"Lastname": "เอื้อเสริมพงศ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 10000,
+				"Firstname": "ไพโรจน์"
+			}
+		],
+		"count_shareholder": 30000,
+		"gov_fund_proj": null
+	}
+]

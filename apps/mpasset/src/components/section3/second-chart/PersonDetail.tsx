@@ -1,6 +1,7 @@
 import React, { ReactElement } from 'react'
 import { usePersonStore } from '../../../store/person'
-import CompanyList from './CompanyList'
+import dynamic from 'next/dynamic'
+const CompanyList = dynamic(() => import('./CompanyList'))
 
 type TagProps = {
   children: ReactElement | string

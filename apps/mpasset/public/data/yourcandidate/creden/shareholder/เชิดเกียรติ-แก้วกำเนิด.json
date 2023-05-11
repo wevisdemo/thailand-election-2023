@@ -1,1 +1,81 @@
-[{"full_address":"3\/101 หมู่ที่ 9 ต.ท่าช้าง อ.เมืองจันทบุรี จ.จันทบุรี","financial":[{"year":"2564","income":16279874.4399999995},{"year":"2563","income":75588780.6800000072},{"year":"2562","income":25432654.5399999991},{"year":"2561","income":27040430.8000000007}],"value_share":4887884,"submit_obj_big_type":"F","company_name_th":"บ้านนายช่าง โฮม กรุ๊ป จำกัด","pct_share":99.6,"obj_tname":"การติดตั้งส่วนประกอบอาคารและการตกแต่งภายใน","company_id":"0105557047246","reg_date":"1\/4\/2557","company_name_en":"BANNAICHANG HOME GROUP COMPANY LIMITED","tsic":43301,"cap_amt":1000000,"company_value":4907514,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"แก้วกำเนิด","value_share":4887884,"Nationality":"TH","pct_share":99.6,"count_share":9960,"Firstname":"เชิดเกียรติ","person":{"Number":"","Title":"นาย","Name":"เชิดเกียรติ แก้วกำเนิด","PartyName":"ชาติไทยพัฒนา","MpType":"บัญชีรายชื่อ","Id":"516","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ชาติไทยพัฒนา\/เชิดเกียรติ-แก้วกำเนิด.webp","Party":{"Name":"ชาติไทยพัฒนา","Color":"#FF5BD1","PartyType":"พรรค","IsActive":true,"Id":5,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ชาติไทยพัฒนา.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"แก้วกำเนิด","value_share":9815,"Nationality":"TH","pct_share":0.2,"count_share":20,"Firstname":"ชญาณี"},{"Lastname":"อิ๋วสกุล","value_share":9815,"Nationality":"TH","pct_share":0.2,"count_share":20,"Firstname":"อรวรรณ"}],"count_shareholder":9960,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "3/101 หมู่ที่ 9 ต.ท่าช้าง อ.เมืองจันทบุรี จ.จันทบุรี",
+		"financial": [
+			{ "year": "2564", "income": 16279874.4399999995 },
+			{ "year": "2563", "income": 75588780.6800000072 },
+			{ "year": "2562", "income": 25432654.5399999991 },
+			{ "year": "2561", "income": 27040430.8000000007 }
+		],
+		"value_share": 4887884,
+		"submit_obj_big_type": "F",
+		"company_name_th": "บ้านนายช่าง โฮม กรุ๊ป จำกัด",
+		"pct_share": 99.6,
+		"obj_tname": "การติดตั้งส่วนประกอบอาคารและการตกแต่งภายใน",
+		"company_id": "0105557047246",
+		"reg_date": "1/4/2557",
+		"company_name_en": "BANNAICHANG HOME GROUP COMPANY LIMITED",
+		"tsic": 43301,
+		"cap_amt": 1000000,
+		"company_value": 4907514,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "แก้วกำเนิด",
+				"value_share": 4887884,
+				"Nationality": "TH",
+				"pct_share": 99.6,
+				"count_share": 9960,
+				"Firstname": "เชิดเกียรติ",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "เชิดเกียรติ แก้วกำเนิด",
+					"PartyName": "ชาติไทยพัฒนา",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "516",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ชาติไทยพัฒนา/เชิดเกียรติ-แก้วกำเนิด.webp",
+					"Party": {
+						"Name": "ชาติไทยพัฒนา",
+						"Color": "#FF5BD1",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 5,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "แก้วกำเนิด",
+				"value_share": 9815,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 20,
+				"Firstname": "ชญาณี"
+			},
+			{
+				"Lastname": "อิ๋วสกุล",
+				"value_share": 9815,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 20,
+				"Firstname": "อรวรรณ"
+			}
+		],
+		"count_shareholder": 9960,
+		"gov_fund_proj": null
+	}
+]

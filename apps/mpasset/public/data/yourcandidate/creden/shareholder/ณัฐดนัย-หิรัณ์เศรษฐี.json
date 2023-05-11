@@ -1,1 +1,81 @@
-[{"full_address":"116\/212 หมู่ที่ 4 ถนนวิชิตสงคราม ต.กะทู้ อ.กะทู้ จ.ภูเก็ต","financial":[{"year":"2562","income":640024.39},{"year":"2561","income":550032.8},{"year":"2560","income":165803.97},{"year":"2559","income":0}],"value_share":513780,"submit_obj_big_type":"F","company_name_th":"ทองธัช ภูเก็ต คอนสตรัคชั่น จำกัด","pct_share":99.88,"obj_tname":"การก่อสร้างอาคารที่พักอาศัย","company_id":"0835560013989","reg_date":"3\/10\/2560","company_name_en":"THONGTUCH PHUKET CONSTRUCTION COMPANY LIMITED","tsic":41001,"cap_amt":1000000,"company_value":514397,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"หิรัณ์เศรษฐี","value_share":513780,"Nationality":"TH","pct_share":99.88,"count_share":9988,"Firstname":"ณัฐดนัย","person":{"Number":9,"Title":"นาย","Name":"ณัฐดนัย หิรัณ์เศรษฐี","PartyName":"เปลี่ยน","MpType":"แบ่งเขต","Id":"5465","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ภูเก็ต","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/เปลี่ยน\/ณัฐดนัย-หิรัณ์เศรษฐี.webp","Party":{"Name":"เปลี่ยน","Color":null,"PartyType":null,"IsActive":false,"Id":108,"Images":null},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"หิรัณ์เศรษฐี","value_share":514,"Nationality":"TH","pct_share":0.1,"count_share":10,"Firstname":"ศศิธร"},{"Lastname":"เกตุแก้ว","value_share":103,"Nationality":"TH","pct_share":0.02,"count_share":2,"Firstname":"ปพนธีร์"}],"count_shareholder":9988,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "116/212 หมู่ที่ 4 ถนนวิชิตสงคราม ต.กะทู้ อ.กะทู้ จ.ภูเก็ต",
+		"financial": [
+			{ "year": "2562", "income": 640024.39 },
+			{ "year": "2561", "income": 550032.8 },
+			{ "year": "2560", "income": 165803.97 },
+			{ "year": "2559", "income": 0 }
+		],
+		"value_share": 513780,
+		"submit_obj_big_type": "F",
+		"company_name_th": "ทองธัช ภูเก็ต คอนสตรัคชั่น จำกัด",
+		"pct_share": 99.88,
+		"obj_tname": "การก่อสร้างอาคารที่พักอาศัย",
+		"company_id": "0835560013989",
+		"reg_date": "3/10/2560",
+		"company_name_en": "THONGTUCH PHUKET CONSTRUCTION COMPANY LIMITED",
+		"tsic": 41001,
+		"cap_amt": 1000000,
+		"company_value": 514397,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "หิรัณ์เศรษฐี",
+				"value_share": 513780,
+				"Nationality": "TH",
+				"pct_share": 99.88,
+				"count_share": 9988,
+				"Firstname": "ณัฐดนัย",
+				"person": {
+					"Number": 9,
+					"Title": "นาย",
+					"Name": "ณัฐดนัย หิรัณ์เศรษฐี",
+					"PartyName": "เปลี่ยน",
+					"MpType": "แบ่งเขต",
+					"Id": "5465",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ภูเก็ต",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เปลี่ยน/ณัฐดนัย-หิรัณ์เศรษฐี.webp",
+					"Party": {
+						"Name": "เปลี่ยน",
+						"Color": null,
+						"PartyType": null,
+						"IsActive": false,
+						"Id": 108,
+						"Images": null
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "หิรัณ์เศรษฐี",
+				"value_share": 514,
+				"Nationality": "TH",
+				"pct_share": 0.1,
+				"count_share": 10,
+				"Firstname": "ศศิธร"
+			},
+			{
+				"Lastname": "เกตุแก้ว",
+				"value_share": 103,
+				"Nationality": "TH",
+				"pct_share": 0.02,
+				"count_share": 2,
+				"Firstname": "ปพนธีร์"
+			}
+		],
+		"count_shareholder": 9988,
+		"gov_fund_proj": null
+	}
+]

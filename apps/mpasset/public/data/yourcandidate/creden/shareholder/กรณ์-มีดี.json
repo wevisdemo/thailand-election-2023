@@ -1,1 +1,74 @@
-[{"full_address":"1\/40  อาคารเมืองทองธานี C6 ต.บางพูด อ.ปากเกร็ด จ.นนทบุรี","financial":[{"year":"2564","income":1046112.05},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":85,"submit_obj_big_type":"I","company_name_th":"กรกัทลี จำกัด","pct_share":0.005,"obj_tname":"การบริการด้านอาหารในภัตตาคาร\/ร้านอาหาร","company_id":"0125564024957","reg_date":"16\/08\/2564","company_name_en":"KORNKATTALEE CO., LTD.","tsic":56101,"cap_amt":2000000,"company_value":1703802,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"มีดี","value_share":85,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"กรณ์","person":{"Number":"","Title":"นาย","Name":"กรณ์ มีดี","PartyName":"แผ่นดินธรรม","MpType":"บัญชีรายชื่อ","Id":"1280","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/แผ่นดินธรรม\/กรณ์-มีดี.webp","Party":"","companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"มีดี","value_share":1703632,"Nationality":"TH","pct_share":99.99,"count_share":19998,"Firstname":"กัทลี"},{"Lastname":"มีดี","value_share":85,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"บาง"}],"count_shareholder":1,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "1/40  อาคารเมืองทองธานี C6 ต.บางพูด อ.ปากเกร็ด จ.นนทบุรี",
+		"financial": [
+			{ "year": "2564", "income": 1046112.05 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 85,
+		"submit_obj_big_type": "I",
+		"company_name_th": "กรกัทลี จำกัด",
+		"pct_share": 0.005,
+		"obj_tname": "การบริการด้านอาหารในภัตตาคาร/ร้านอาหาร",
+		"company_id": "0125564024957",
+		"reg_date": "16/08/2564",
+		"company_name_en": "KORNKATTALEE CO., LTD.",
+		"tsic": 56101,
+		"cap_amt": 2000000,
+		"company_value": 1703802,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "มีดี",
+				"value_share": 85,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "กรณ์",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "กรณ์ มีดี",
+					"PartyName": "แผ่นดินธรรม",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1280",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/แผ่นดินธรรม/กรณ์-มีดี.webp",
+					"Party": "",
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "มีดี",
+				"value_share": 1703632,
+				"Nationality": "TH",
+				"pct_share": 99.99,
+				"count_share": 19998,
+				"Firstname": "กัทลี"
+			},
+			{
+				"Lastname": "มีดี",
+				"value_share": 85,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "บาง"
+			}
+		],
+		"count_shareholder": 1,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,81 @@
-[{"full_address":"139  ถนนพิทักษ์สันติราษฎร์ ต.ศรีบุญเรือง อ.เมืองมุกดาหาร จ.มุกดาหาร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":1998400,"submit_obj_big_type":"B","company_name_th":"ไทย เลเบอร์ จำกัด","pct_share":40,"obj_tname":"การทำเหมืองแร่ เหมืองแร่อโลหะและเหมืองหินอื่นๆ ซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0495564000222","reg_date":"07\/04\/2564","company_name_en":"THAI LABOUR CO., LTD.","tsic":8999,"cap_amt":5000000,"company_value":4996000,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เมืองฮาม","value_share":999200,"Nationality":"TH","pct_share":20,"count_share":10000,"Firstname":"กนกพร"},{"Lastname":"คำปัน","value_share":1998400,"Nationality":"TH","pct_share":40,"count_share":20000,"Firstname":"คมสันต์"},{"Lastname":"เมืองฮาม","value_share":1998400,"Nationality":"TH","pct_share":40,"count_share":20000,"Firstname":"ทศพล","person":{"Number":1,"Title":"นาย","Name":"ทศพล เมืองฮาม","PartyName":"ไทยสร้างไทย","MpType":"แบ่งเขต","Id":"4329","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"มุกดาหาร","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/ทศพล-เมืองฮาม.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":20000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "139  ถนนพิทักษ์สันติราษฎร์ ต.ศรีบุญเรือง อ.เมืองมุกดาหาร จ.มุกดาหาร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 1998400,
+		"submit_obj_big_type": "B",
+		"company_name_th": "ไทย เลเบอร์ จำกัด",
+		"pct_share": 40,
+		"obj_tname": "การทำเหมืองแร่ เหมืองแร่อโลหะและเหมืองหินอื่นๆ ซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0495564000222",
+		"reg_date": "07/04/2564",
+		"company_name_en": "THAI LABOUR CO., LTD.",
+		"tsic": 8999,
+		"cap_amt": 5000000,
+		"company_value": 4996000,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เมืองฮาม",
+				"value_share": 999200,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 10000,
+				"Firstname": "กนกพร"
+			},
+			{
+				"Lastname": "คำปัน",
+				"value_share": 1998400,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 20000,
+				"Firstname": "คมสันต์"
+			},
+			{
+				"Lastname": "เมืองฮาม",
+				"value_share": 1998400,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 20000,
+				"Firstname": "ทศพล",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "ทศพล เมืองฮาม",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4329",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "มุกดาหาร",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/ทศพล-เมืองฮาม.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 20000,
+		"gov_fund_proj": null
+	}
+]

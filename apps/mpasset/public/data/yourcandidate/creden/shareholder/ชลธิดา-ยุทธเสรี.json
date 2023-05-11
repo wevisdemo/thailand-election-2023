@@ -1,1 +1,160 @@
-[{"full_address":"11  ซอยอุดมสุข 30 แยก 7-2-1 แขวงบางนาเหนือ เขตบางนา กรุงเทพมหานคร","financial":[{"year":"2563","income":2690520.75},{"year":"2562","income":3031041.1000000001},{"year":"2561","income":0},{"year":"2560","income":0}],"value_share":689073,"submit_obj_big_type":"G","company_name_th":"เอ็ม.ณัฎฐ์ ออโต้พาร์ท จำกัด","pct_share":98,"obj_tname":"ร้านขายปลีกวัสดุก่อสร้างหลายชนิดรวมถึงวัสดุอุปกรณ์และเครื่องมือชนิดนำไปใช้ทำงานได้ด้วยตัวเอง","company_id":"0105562166924","reg_date":"25\/09\/2562","company_name_en":"M.NUT AUTOPARTS COMPANY LIMITED","tsic":47525,"cap_amt":1000000,"company_value":703136,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ยุทธเสรี","value_share":689073,"Nationality":"TH","pct_share":98,"count_share":9800,"Firstname":"ชลธิดา","person":{"Number":"","Title":"นางสาว","Name":"ชลธิดา ยุทธเสรี","PartyName":"มิติใหม่","MpType":"บัญชีรายชื่อ","Id":"1450","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/มิติใหม่\/ชลธิดา-ยุทธเสรี.webp","Party":{"Name":"มิติใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":87,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/_7Ooh7ZG94FJ04TTML.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ยุทธเสรี","value_share":7031,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"วชิราวัลย์"},{"Lastname":"มีดี","value_share":7031,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"ผดุงศักดิ์"}],"count_shareholder":9800,"gov_fund_proj":null},{"full_address":"18 ซอยอุดมสุข 30 แยก 7-2-1 แขวงบางนา เขตบางนา กรุงเทพมหานคร","financial":[{"year":"2564","income":6269067.5},{"year":"2563","income":5938514.46},{"year":"2562","income":5291884.2400000002},{"year":"2561","income":5340532.9199999999}],"value_share":583591,"submit_obj_big_type":"G","company_name_th":"เจริญกิ๊บน๊อต แอนด์ ซัพพลาย จำกัด","pct_share":40,"obj_tname":"ร้านขายปลีกสินค้าใหม่อื่นๆซึ่งมิได้จัดประเภทไว้ในทื่อื่น","company_id":"0105560138249","reg_date":"18\/8\/2560","company_name_en":"CHAROEN GIB NOT AND SUPPLY COMPANY LIMITED","tsic":47739,"cap_amt":1000000,"company_value":1458979,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ยุทธเสรี","value_share":583591,"Nationality":"TH","pct_share":40,"count_share":4000,"Firstname":"วชิราวัลย์"},{"Lastname":"ยุทธเสรี","value_share":583591,"Nationality":"TH","pct_share":40,"count_share":4000,"Firstname":"ชลธิดา","person":{"Number":"","Title":"นางสาว","Name":"ชลธิดา ยุทธเสรี","PartyName":"มิติใหม่","MpType":"บัญชีรายชื่อ","Id":"1450","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/มิติใหม่\/ชลธิดา-ยุทธเสรี.webp","Party":{"Name":"มิติใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":87,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/_7Ooh7ZG94FJ04TTML.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"มีดี","value_share":291796,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"ผดุงศักดิ์"}],"count_shareholder":4000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "11  ซอยอุดมสุข 30 แยก 7-2-1 แขวงบางนาเหนือ เขตบางนา กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2563", "income": 2690520.75 },
+			{ "year": "2562", "income": 3031041.1000000001 },
+			{ "year": "2561", "income": 0 },
+			{ "year": "2560", "income": 0 }
+		],
+		"value_share": 689073,
+		"submit_obj_big_type": "G",
+		"company_name_th": "เอ็ม.ณัฎฐ์ ออโต้พาร์ท จำกัด",
+		"pct_share": 98,
+		"obj_tname": "ร้านขายปลีกวัสดุก่อสร้างหลายชนิดรวมถึงวัสดุอุปกรณ์และเครื่องมือชนิดนำไปใช้ทำงานได้ด้วยตัวเอง",
+		"company_id": "0105562166924",
+		"reg_date": "25/09/2562",
+		"company_name_en": "M.NUT AUTOPARTS COMPANY LIMITED",
+		"tsic": 47525,
+		"cap_amt": 1000000,
+		"company_value": 703136,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ยุทธเสรี",
+				"value_share": 689073,
+				"Nationality": "TH",
+				"pct_share": 98,
+				"count_share": 9800,
+				"Firstname": "ชลธิดา",
+				"person": {
+					"Number": "",
+					"Title": "นางสาว",
+					"Name": "ชลธิดา ยุทธเสรี",
+					"PartyName": "มิติใหม่",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1450",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/มิติใหม่/ชลธิดา-ยุทธเสรี.webp",
+					"Party": {
+						"Name": "มิติใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 87,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/_7Ooh7ZG94FJ04TTML.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ยุทธเสรี",
+				"value_share": 7031,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "วชิราวัลย์"
+			},
+			{
+				"Lastname": "มีดี",
+				"value_share": 7031,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "ผดุงศักดิ์"
+			}
+		],
+		"count_shareholder": 9800,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "18 ซอยอุดมสุข 30 แยก 7-2-1 แขวงบางนา เขตบางนา กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 6269067.5 },
+			{ "year": "2563", "income": 5938514.46 },
+			{ "year": "2562", "income": 5291884.2400000002 },
+			{ "year": "2561", "income": 5340532.9199999999 }
+		],
+		"value_share": 583591,
+		"submit_obj_big_type": "G",
+		"company_name_th": "เจริญกิ๊บน๊อต แอนด์ ซัพพลาย จำกัด",
+		"pct_share": 40,
+		"obj_tname": "ร้านขายปลีกสินค้าใหม่อื่นๆซึ่งมิได้จัดประเภทไว้ในทื่อื่น",
+		"company_id": "0105560138249",
+		"reg_date": "18/8/2560",
+		"company_name_en": "CHAROEN GIB NOT AND SUPPLY COMPANY LIMITED",
+		"tsic": 47739,
+		"cap_amt": 1000000,
+		"company_value": 1458979,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ยุทธเสรี",
+				"value_share": 583591,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 4000,
+				"Firstname": "วชิราวัลย์"
+			},
+			{
+				"Lastname": "ยุทธเสรี",
+				"value_share": 583591,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 4000,
+				"Firstname": "ชลธิดา",
+				"person": {
+					"Number": "",
+					"Title": "นางสาว",
+					"Name": "ชลธิดา ยุทธเสรี",
+					"PartyName": "มิติใหม่",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1450",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/มิติใหม่/ชลธิดา-ยุทธเสรี.webp",
+					"Party": {
+						"Name": "มิติใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 87,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/_7Ooh7ZG94FJ04TTML.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "มีดี",
+				"value_share": 291796,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "ผดุงศักดิ์"
+			}
+		],
+		"count_shareholder": 4000,
+		"gov_fund_proj": null
+	}
+]

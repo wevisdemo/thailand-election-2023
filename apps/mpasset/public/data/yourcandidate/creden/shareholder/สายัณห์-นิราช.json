@@ -1,1 +1,160 @@
-[{"full_address":"96 หมู่ที่ 13  ต.หนองแหน อ.พนมสารคาม จ.ฉะเชิงเทรา","financial":[{"year":"2560","income":18000},{"year":"2559","income":18000},{"year":"2558","income":27000},{"year":"2557","income":11392}],"value_share":353733,"submit_obj_big_type":"L","company_name_th":"เขาหินซ้อน กรีนฮิลล์ จำกัด","pct_share":34,"obj_tname":"การซื้อและการขายอสังหาริมทรัพย์ที่เป็นของตนเอง เพื่อการพักอาศัย","company_id":"0245557001709","reg_date":"31\/07\/2557","company_name_en":"KHAOHINSORN GREENHILL COMPANY LIMITED","tsic":68101,"cap_amt":1000000,"company_value":1040392,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"บุญศิริ","value_share":343329,"Nationality":"TH","pct_share":33,"count_share":3300,"Firstname":"สุรนันท์"},{"Lastname":"เพชรรัมย์","value_share":343329,"Nationality":"TH","pct_share":33,"count_share":3300,"Firstname":"ระพิน"},{"Lastname":"นิราช","value_share":353733,"Nationality":"TH","pct_share":34,"count_share":3400,"Firstname":"สายัณห์","person":{"Number":4,"Title":"นาย","Name":"สายัณห์ นิราช","PartyName":"พลังประชารัฐ","MpType":"แบ่งเขต","Id":"2897","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ฉะเชิงเทรา","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังประชารัฐ\/สายัณห์-นิราช.webp","Party":{"Name":"พลังประชารัฐ","Color":"#2276EF","PartyType":"พรรค","IsActive":true,"Id":20,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/Y8aiwU_p-C-aZyw_PN.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":3400,"gov_fund_proj":null},{"full_address":"104  หมู่ที่ 13 ต.หนองแหน อ.พนมสารคาม จ.ฉะเชิงเทรา","financial":[{"year":"2564","income":5081.97},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":246556,"submit_obj_big_type":"C","company_name_th":"โปร แพ็ค เปเปอร์ จำกัด","pct_share":5,"obj_tname":"การผลิตผลิตภัณฑ์ที่แปรรูปจากกระดาษเพื่อใช้ในครัวเรือนและ สุขอนามัย","company_id":"0245564001557","reg_date":"22\/04\/2564","company_name_en":"PRO PACK PAPER CO., LTD.","tsic":17091,"cap_amt":5000000,"company_value":4931125,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"อวนศรี","value_share":2465562,"Nationality":"TH","pct_share":50,"count_share":25000,"Firstname":"เพชร"},{"Lastname":"นิราช","value_share":2219006,"Nationality":"TH","pct_share":45,"count_share":22500,"Firstname":"วรารัตน์"},{"Lastname":"นิราช","value_share":246556,"Nationality":"TH","pct_share":5,"count_share":2500,"Firstname":"สายัณห์","person":{"Number":4,"Title":"นาย","Name":"สายัณห์ นิราช","PartyName":"พลังประชารัฐ","MpType":"แบ่งเขต","Id":"2897","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ฉะเชิงเทรา","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังประชารัฐ\/สายัณห์-นิราช.webp","Party":{"Name":"พลังประชารัฐ","Color":"#2276EF","PartyType":"พรรค","IsActive":true,"Id":20,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/Y8aiwU_p-C-aZyw_PN.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":2500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "96 หมู่ที่ 13  ต.หนองแหน อ.พนมสารคาม จ.ฉะเชิงเทรา",
+		"financial": [
+			{ "year": "2560", "income": 18000 },
+			{ "year": "2559", "income": 18000 },
+			{ "year": "2558", "income": 27000 },
+			{ "year": "2557", "income": 11392 }
+		],
+		"value_share": 353733,
+		"submit_obj_big_type": "L",
+		"company_name_th": "เขาหินซ้อน กรีนฮิลล์ จำกัด",
+		"pct_share": 34,
+		"obj_tname": "การซื้อและการขายอสังหาริมทรัพย์ที่เป็นของตนเอง เพื่อการพักอาศัย",
+		"company_id": "0245557001709",
+		"reg_date": "31/07/2557",
+		"company_name_en": "KHAOHINSORN GREENHILL COMPANY LIMITED",
+		"tsic": 68101,
+		"cap_amt": 1000000,
+		"company_value": 1040392,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "บุญศิริ",
+				"value_share": 343329,
+				"Nationality": "TH",
+				"pct_share": 33,
+				"count_share": 3300,
+				"Firstname": "สุรนันท์"
+			},
+			{
+				"Lastname": "เพชรรัมย์",
+				"value_share": 343329,
+				"Nationality": "TH",
+				"pct_share": 33,
+				"count_share": 3300,
+				"Firstname": "ระพิน"
+			},
+			{
+				"Lastname": "นิราช",
+				"value_share": 353733,
+				"Nationality": "TH",
+				"pct_share": 34,
+				"count_share": 3400,
+				"Firstname": "สายัณห์",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "สายัณห์ นิราช",
+					"PartyName": "พลังประชารัฐ",
+					"MpType": "แบ่งเขต",
+					"Id": "2897",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ฉะเชิงเทรา",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังประชารัฐ/สายัณห์-นิราช.webp",
+					"Party": {
+						"Name": "พลังประชารัฐ",
+						"Color": "#2276EF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 20,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/Y8aiwU_p-C-aZyw_PN.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 3400,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "104  หมู่ที่ 13 ต.หนองแหน อ.พนมสารคาม จ.ฉะเชิงเทรา",
+		"financial": [
+			{ "year": "2564", "income": 5081.97 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 246556,
+		"submit_obj_big_type": "C",
+		"company_name_th": "โปร แพ็ค เปเปอร์ จำกัด",
+		"pct_share": 5,
+		"obj_tname": "การผลิตผลิตภัณฑ์ที่แปรรูปจากกระดาษเพื่อใช้ในครัวเรือนและ สุขอนามัย",
+		"company_id": "0245564001557",
+		"reg_date": "22/04/2564",
+		"company_name_en": "PRO PACK PAPER CO., LTD.",
+		"tsic": 17091,
+		"cap_amt": 5000000,
+		"company_value": 4931125,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "อวนศรี",
+				"value_share": 2465562,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 25000,
+				"Firstname": "เพชร"
+			},
+			{
+				"Lastname": "นิราช",
+				"value_share": 2219006,
+				"Nationality": "TH",
+				"pct_share": 45,
+				"count_share": 22500,
+				"Firstname": "วรารัตน์"
+			},
+			{
+				"Lastname": "นิราช",
+				"value_share": 246556,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 2500,
+				"Firstname": "สายัณห์",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "สายัณห์ นิราช",
+					"PartyName": "พลังประชารัฐ",
+					"MpType": "แบ่งเขต",
+					"Id": "2897",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ฉะเชิงเทรา",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังประชารัฐ/สายัณห์-นิราช.webp",
+					"Party": {
+						"Name": "พลังประชารัฐ",
+						"Color": "#2276EF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 20,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/Y8aiwU_p-C-aZyw_PN.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 2500,
+		"gov_fund_proj": null
+	}
+]

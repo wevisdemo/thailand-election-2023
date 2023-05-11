@@ -1,1 +1,509 @@
-[{"full_address":"9 ซอยบางนา-ตราด 17 ถนนบางนา-ตราด แขวงบางนา เขตบางนา กรุงเทพมหานคร","financial":[{"year":"2564","income":1078323.24},{"year":"2563","income":3562788.54},{"year":"2562","income":7873665.6799999997},{"year":"2561","income":31019393.7300000004}],"value_share":6638953,"submit_obj_big_type":"M","company_name_th":"นิวแอสเซท แอดไวเซอรี่ จำกัด","pct_share":93.3327,"obj_tname":"กิจกรรมให้คำปรึกษาด้านการบริหารจัดการการเงิน","company_id":"0105547067864","reg_date":"19\/5\/2547","company_name_en":"NEW ASSET 2004 COMPANY LIMITED","tsic":70202,"cap_amt":7500000,"company_value":7113213,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เปียลัดดา","value_share":7,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"เอนก"},{"Lastname":"พันธุเพชร","value_share":7,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"วีระยุค"},{"Lastname":"พิทยศิริ","value_share":6638953,"Nationality":"TH","pct_share":93.33,"count_share":699995,"Firstname":"รุ่งเรือง","person":{"Number":"","Title":"นาย","Name":"รุ่งเรือง พิทยศิริ","PartyName":"เพื่อไทย","MpType":"บัญชีรายชื่อ","Id":"996","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/รุ่งเรือง-พิทยศิริ.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ปัญจวัฒนกุล","value_share":7,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"สมโภช"},{"Lastname":"สินธุเสก","value_share":7,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"กุลธวัช"},{"Lastname":"พลาลิขิต","value_share":7,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"สุรัตน์"},{"Lastname":"มัฆพาน","value_share":474217,"Nationality":"TH","pct_share":6.67,"count_share":50000,"Firstname":"บุญชุบ"}],"count_shareholder":699995,"gov_fund_proj":null},{"full_address":"39 ถนนรามคำแหง 12 (แยกซอยอุดมยศ 1) แขวงหัวหมาก เขตบางกะปิ กรุงเทพมหานคร","financial":[{"year":"2564","income":1040477.13},{"year":"2563","income":1166766.8300000001},{"year":"2562","income":1286991.47},{"year":"2561","income":1227879.01}],"value_share":-1370102,"submit_obj_big_type":"L","company_name_th":"พิทยโรจน์ จำกัด","pct_share":13.8889,"obj_tname":"การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็น ของตนเองหรือเช่าจากผู้อื่นเพื่อเป็นที่พักอาศัย","company_id":"0105533046070","reg_date":"23\/4\/2533","company_name_en":"PITAYAROJ COMPANY LIMITED","tsic":68103,"cap_amt":900000,"company_value":-9864724,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"พิทยศิริ","value_share":-1370102,"Nationality":"TH","pct_share":13.89,"count_share":1250,"Firstname":"รุ่งโรจน์"},{"Lastname":"จิราธิวัฒน์","value_share":-1370102,"Nationality":"TH","pct_share":13.89,"count_share":1250,"Firstname":"ชนัดดา"},{"Lastname":"พิทยศิริ","value_share":-1644124,"Nationality":"TH","pct_share":16.67,"count_share":1500,"Firstname":"นิศารัตน์"},{"Lastname":"ลี้อิสสระนุกูล","value_share":-1370102,"Nationality":"TH","pct_share":13.89,"count_share":1250,"Firstname":"ชมพูนุท"},{"Lastname":"พิทยศิริ","value_share":-2740203,"Nationality":"TH","pct_share":27.78,"count_share":2500,"Firstname":"มิตร"},{"Lastname":"พิทยศิริ","value_share":-1370102,"Nationality":"TH","pct_share":13.89,"count_share":1250,"Firstname":"รุ่งเรือง","person":{"Number":"","Title":"นาย","Name":"รุ่งเรือง พิทยศิริ","PartyName":"เพื่อไทย","MpType":"บัญชีรายชื่อ","Id":"996","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/รุ่งเรือง-พิทยศิริ.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":1250,"gov_fund_proj":null},{"full_address":"29 อาคารวานิสสา ชั้น 19 ซอยชิดลม ถนนเพลินจิต  แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร","financial":[{"year":"2563","income":122745.62},{"year":"2562","income":213668.55},{"year":"2561","income":1462627.1599999999},{"year":"2560","income":79441.67}],"value_share":195583,"submit_obj_big_type":"G","company_name_th":"ไดมอนด์ มาสเตอร์ จำกัด","pct_share":10.0,"obj_tname":"ร้านขายปลีกเครื่องประดับ","company_id":"0105538002291","reg_date":"06\/01\/2538","company_name_en":"DIAMOND MASTER CO., LTD.","tsic":47732,"cap_amt":4000000,"company_value":1955833,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ลี้อิสสระนุกูล","value_share":195583,"Nationality":"TH","pct_share":10,"count_share":4000,"Firstname":"ชมพูนุท"},{"Lastname":"พิทยศิริ","value_share":195583,"Nationality":"TH","pct_share":10,"count_share":4000,"Firstname":"รุ่งเรือง","person":{"Number":"","Title":"นาย","Name":"รุ่งเรือง พิทยศิริ","PartyName":"เพื่อไทย","MpType":"บัญชีรายชื่อ","Id":"996","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/รุ่งเรือง-พิทยศิริ.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"พิทยศิริ","value_share":97792,"Nationality":"TH","pct_share":5,"count_share":2000,"Firstname":"นิศารัตน์"},{"Lastname":"จิราธิวัฒน์","value_share":1466875,"Nationality":"TH","pct_share":75,"count_share":30000,"Firstname":"ชนัดดา"}],"count_shareholder":4000,"gov_fund_proj":null},{"full_address":"9 ซอยบางนา-ตราด 17 ถนนบางนา-ตราด  แขวงบางนา เขตบางนา กรุงเทพมหานคร","financial":[{"year":"2564","income":239.94},{"year":"2563","income":29356.2},{"year":"2562","income":218034.94},{"year":"2561","income":212629.17}],"value_share":9358596,"submit_obj_big_type":"L","company_name_th":"อาร์แอนด์เอ บริหารสินทรัพย์ จำกัด","pct_share":99.93,"obj_tname":"การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย","company_id":"0105548095161","reg_date":"20\/07\/2548","company_name_en":"R & A ASSET MANAGEMENT COMPANY LIMITED","tsic":68104,"cap_amt":1000000,"company_value":9365152,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"จิราธิวัฒน์","value_share":937,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"ธีระยุทธ"},{"Lastname":"พิทยศิริ","value_share":9358596,"Nationality":"TH","pct_share":99.93,"count_share":9993,"Firstname":"รุ่งเรือง","person":{"Number":"","Title":"นาย","Name":"รุ่งเรือง พิทยศิริ","PartyName":"เพื่อไทย","MpType":"บัญชีรายชื่อ","Id":"996","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/รุ่งเรือง-พิทยศิริ.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"จิราธิวัฒน์","value_share":1873,"Nationality":"TH","pct_share":0.02,"count_share":2,"Firstname":"ชนันดา"},{"Lastname":"อุบลโกมุท","value_share":937,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"วุฒิชัย"},{"Lastname":"พิทยศิริ","value_share":937,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"นิศารัตน์"},{"Lastname":"ลื้อสระนุกูล","value_share":937,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"ชมพูนุท"},{"Lastname":"แย้มสนิท","value_share":937,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"สุนทรีย์"}],"count_shareholder":9993,"gov_fund_proj":null},{"full_address":"11 ซอยบางนา-ตราด 17 ถนนบางนา-ตราด  แขวงบางนา เขตบางนา กรุงเทพมหานคร","financial":[{"year":"2564","income":777670.54},{"year":"2563","income":221068.03},{"year":"2562","income":794700.09},{"year":"2561","income":741451.74}],"value_share":4576578,"submit_obj_big_type":"M","company_name_th":"วิจัยเศรษฐกิจเพื่อพัฒนาธุรกิจ จำกัด","pct_share":99.92,"obj_tname":"การวิจัยและพัฒนาเชิงทดลองด้านสังคมศาสตร์และมนุษยศาสตร์","company_id":"0105544072221","reg_date":"30\/07\/2544","company_name_en":"","tsic":72200,"cap_amt":5000000,"company_value":4580243,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"พิทยศิริ","value_share":4576578,"Nationality":"TH","pct_share":99.92,"count_share":4996,"Firstname":"รุ่งเรือง","person":{"Number":"","Title":"นาย","Name":"รุ่งเรือง พิทยศิริ","PartyName":"เพื่อไทย","MpType":"บัญชีรายชื่อ","Id":"996","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/รุ่งเรือง-พิทยศิริ.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"จิราธิวัฒน์","value_share":916,"Nationality":"TH","pct_share":0.02,"count_share":1,"Firstname":"ชนันดา"},{"Lastname":"จิราธิวัฒน์","value_share":916,"Nationality":"TH","pct_share":0.02,"count_share":1,"Firstname":"ธีระยุทธ"},{"Lastname":"อุบลโกมุท","value_share":916,"Nationality":"TH","pct_share":0.02,"count_share":1,"Firstname":"วุฒิชัย"},{"Lastname":"ลี้อิสสระนุกูล","value_share":916,"Nationality":"TH","pct_share":0.02,"count_share":1,"Firstname":"ชมพูนุท"}],"count_shareholder":4996,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "9 ซอยบางนา-ตราด 17 ถนนบางนา-ตราด แขวงบางนา เขตบางนา กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 1078323.24 },
+			{ "year": "2563", "income": 3562788.54 },
+			{ "year": "2562", "income": 7873665.6799999997 },
+			{ "year": "2561", "income": 31019393.7300000004 }
+		],
+		"value_share": 6638953,
+		"submit_obj_big_type": "M",
+		"company_name_th": "นิวแอสเซท แอดไวเซอรี่ จำกัด",
+		"pct_share": 93.3327,
+		"obj_tname": "กิจกรรมให้คำปรึกษาด้านการบริหารจัดการการเงิน",
+		"company_id": "0105547067864",
+		"reg_date": "19/5/2547",
+		"company_name_en": "NEW ASSET 2004 COMPANY LIMITED",
+		"tsic": 70202,
+		"cap_amt": 7500000,
+		"company_value": 7113213,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เปียลัดดา",
+				"value_share": 7,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "เอนก"
+			},
+			{
+				"Lastname": "พันธุเพชร",
+				"value_share": 7,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "วีระยุค"
+			},
+			{
+				"Lastname": "พิทยศิริ",
+				"value_share": 6638953,
+				"Nationality": "TH",
+				"pct_share": 93.33,
+				"count_share": 699995,
+				"Firstname": "รุ่งเรือง",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "รุ่งเรือง พิทยศิริ",
+					"PartyName": "เพื่อไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "996",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/รุ่งเรือง-พิทยศิริ.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ปัญจวัฒนกุล",
+				"value_share": 7,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "สมโภช"
+			},
+			{
+				"Lastname": "สินธุเสก",
+				"value_share": 7,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "กุลธวัช"
+			},
+			{
+				"Lastname": "พลาลิขิต",
+				"value_share": 7,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "สุรัตน์"
+			},
+			{
+				"Lastname": "มัฆพาน",
+				"value_share": 474217,
+				"Nationality": "TH",
+				"pct_share": 6.67,
+				"count_share": 50000,
+				"Firstname": "บุญชุบ"
+			}
+		],
+		"count_shareholder": 699995,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "39 ถนนรามคำแหง 12 (แยกซอยอุดมยศ 1) แขวงหัวหมาก เขตบางกะปิ กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 1040477.13 },
+			{ "year": "2563", "income": 1166766.8300000001 },
+			{ "year": "2562", "income": 1286991.47 },
+			{ "year": "2561", "income": 1227879.01 }
+		],
+		"value_share": -1370102,
+		"submit_obj_big_type": "L",
+		"company_name_th": "พิทยโรจน์ จำกัด",
+		"pct_share": 13.8889,
+		"obj_tname": "การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็น ของตนเองหรือเช่าจากผู้อื่นเพื่อเป็นที่พักอาศัย",
+		"company_id": "0105533046070",
+		"reg_date": "23/4/2533",
+		"company_name_en": "PITAYAROJ COMPANY LIMITED",
+		"tsic": 68103,
+		"cap_amt": 900000,
+		"company_value": -9864724,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "พิทยศิริ",
+				"value_share": -1370102,
+				"Nationality": "TH",
+				"pct_share": 13.89,
+				"count_share": 1250,
+				"Firstname": "รุ่งโรจน์"
+			},
+			{
+				"Lastname": "จิราธิวัฒน์",
+				"value_share": -1370102,
+				"Nationality": "TH",
+				"pct_share": 13.89,
+				"count_share": 1250,
+				"Firstname": "ชนัดดา"
+			},
+			{
+				"Lastname": "พิทยศิริ",
+				"value_share": -1644124,
+				"Nationality": "TH",
+				"pct_share": 16.67,
+				"count_share": 1500,
+				"Firstname": "นิศารัตน์"
+			},
+			{
+				"Lastname": "ลี้อิสสระนุกูล",
+				"value_share": -1370102,
+				"Nationality": "TH",
+				"pct_share": 13.89,
+				"count_share": 1250,
+				"Firstname": "ชมพูนุท"
+			},
+			{
+				"Lastname": "พิทยศิริ",
+				"value_share": -2740203,
+				"Nationality": "TH",
+				"pct_share": 27.78,
+				"count_share": 2500,
+				"Firstname": "มิตร"
+			},
+			{
+				"Lastname": "พิทยศิริ",
+				"value_share": -1370102,
+				"Nationality": "TH",
+				"pct_share": 13.89,
+				"count_share": 1250,
+				"Firstname": "รุ่งเรือง",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "รุ่งเรือง พิทยศิริ",
+					"PartyName": "เพื่อไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "996",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/รุ่งเรือง-พิทยศิริ.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 1250,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "29 อาคารวานิสสา ชั้น 19 ซอยชิดลม ถนนเพลินจิต  แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2563", "income": 122745.62 },
+			{ "year": "2562", "income": 213668.55 },
+			{ "year": "2561", "income": 1462627.1599999999 },
+			{ "year": "2560", "income": 79441.67 }
+		],
+		"value_share": 195583,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ไดมอนด์ มาสเตอร์ จำกัด",
+		"pct_share": 10.0,
+		"obj_tname": "ร้านขายปลีกเครื่องประดับ",
+		"company_id": "0105538002291",
+		"reg_date": "06/01/2538",
+		"company_name_en": "DIAMOND MASTER CO., LTD.",
+		"tsic": 47732,
+		"cap_amt": 4000000,
+		"company_value": 1955833,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ลี้อิสสระนุกูล",
+				"value_share": 195583,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 4000,
+				"Firstname": "ชมพูนุท"
+			},
+			{
+				"Lastname": "พิทยศิริ",
+				"value_share": 195583,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 4000,
+				"Firstname": "รุ่งเรือง",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "รุ่งเรือง พิทยศิริ",
+					"PartyName": "เพื่อไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "996",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/รุ่งเรือง-พิทยศิริ.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "พิทยศิริ",
+				"value_share": 97792,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 2000,
+				"Firstname": "นิศารัตน์"
+			},
+			{
+				"Lastname": "จิราธิวัฒน์",
+				"value_share": 1466875,
+				"Nationality": "TH",
+				"pct_share": 75,
+				"count_share": 30000,
+				"Firstname": "ชนัดดา"
+			}
+		],
+		"count_shareholder": 4000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "9 ซอยบางนา-ตราด 17 ถนนบางนา-ตราด  แขวงบางนา เขตบางนา กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 239.94 },
+			{ "year": "2563", "income": 29356.2 },
+			{ "year": "2562", "income": 218034.94 },
+			{ "year": "2561", "income": 212629.17 }
+		],
+		"value_share": 9358596,
+		"submit_obj_big_type": "L",
+		"company_name_th": "อาร์แอนด์เอ บริหารสินทรัพย์ จำกัด",
+		"pct_share": 99.93,
+		"obj_tname": "การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย",
+		"company_id": "0105548095161",
+		"reg_date": "20/07/2548",
+		"company_name_en": "R & A ASSET MANAGEMENT COMPANY LIMITED",
+		"tsic": 68104,
+		"cap_amt": 1000000,
+		"company_value": 9365152,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "จิราธิวัฒน์",
+				"value_share": 937,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "ธีระยุทธ"
+			},
+			{
+				"Lastname": "พิทยศิริ",
+				"value_share": 9358596,
+				"Nationality": "TH",
+				"pct_share": 99.93,
+				"count_share": 9993,
+				"Firstname": "รุ่งเรือง",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "รุ่งเรือง พิทยศิริ",
+					"PartyName": "เพื่อไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "996",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/รุ่งเรือง-พิทยศิริ.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "จิราธิวัฒน์",
+				"value_share": 1873,
+				"Nationality": "TH",
+				"pct_share": 0.02,
+				"count_share": 2,
+				"Firstname": "ชนันดา"
+			},
+			{
+				"Lastname": "อุบลโกมุท",
+				"value_share": 937,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "วุฒิชัย"
+			},
+			{
+				"Lastname": "พิทยศิริ",
+				"value_share": 937,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "นิศารัตน์"
+			},
+			{
+				"Lastname": "ลื้อสระนุกูล",
+				"value_share": 937,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "ชมพูนุท"
+			},
+			{
+				"Lastname": "แย้มสนิท",
+				"value_share": 937,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "สุนทรีย์"
+			}
+		],
+		"count_shareholder": 9993,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "11 ซอยบางนา-ตราด 17 ถนนบางนา-ตราด  แขวงบางนา เขตบางนา กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 777670.54 },
+			{ "year": "2563", "income": 221068.03 },
+			{ "year": "2562", "income": 794700.09 },
+			{ "year": "2561", "income": 741451.74 }
+		],
+		"value_share": 4576578,
+		"submit_obj_big_type": "M",
+		"company_name_th": "วิจัยเศรษฐกิจเพื่อพัฒนาธุรกิจ จำกัด",
+		"pct_share": 99.92,
+		"obj_tname": "การวิจัยและพัฒนาเชิงทดลองด้านสังคมศาสตร์และมนุษยศาสตร์",
+		"company_id": "0105544072221",
+		"reg_date": "30/07/2544",
+		"company_name_en": "",
+		"tsic": 72200,
+		"cap_amt": 5000000,
+		"company_value": 4580243,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "พิทยศิริ",
+				"value_share": 4576578,
+				"Nationality": "TH",
+				"pct_share": 99.92,
+				"count_share": 4996,
+				"Firstname": "รุ่งเรือง",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "รุ่งเรือง พิทยศิริ",
+					"PartyName": "เพื่อไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "996",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/รุ่งเรือง-พิทยศิริ.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "จิราธิวัฒน์",
+				"value_share": 916,
+				"Nationality": "TH",
+				"pct_share": 0.02,
+				"count_share": 1,
+				"Firstname": "ชนันดา"
+			},
+			{
+				"Lastname": "จิราธิวัฒน์",
+				"value_share": 916,
+				"Nationality": "TH",
+				"pct_share": 0.02,
+				"count_share": 1,
+				"Firstname": "ธีระยุทธ"
+			},
+			{
+				"Lastname": "อุบลโกมุท",
+				"value_share": 916,
+				"Nationality": "TH",
+				"pct_share": 0.02,
+				"count_share": 1,
+				"Firstname": "วุฒิชัย"
+			},
+			{
+				"Lastname": "ลี้อิสสระนุกูล",
+				"value_share": 916,
+				"Nationality": "TH",
+				"pct_share": 0.02,
+				"count_share": 1,
+				"Firstname": "ชมพูนุท"
+			}
+		],
+		"count_shareholder": 4996,
+		"gov_fund_proj": null
+	}
+]

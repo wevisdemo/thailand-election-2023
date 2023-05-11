@@ -1,1 +1,81 @@
-[{"full_address":"202\/58  หมู่ที่ 6 ต.ทุ่งสุขลา อ.ศรีราชา จ.ชลบุรี","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":693000,"submit_obj_big_type":"N","company_name_th":"โปรเฟสชั่นแนล เทรนนิ่ง เซอร์วิสเซส อัลไลแอนซ์ จำกัด","pct_share":70,"obj_tname":"การจัดการประชุม","company_id":"0205564009817","reg_date":"24\/03\/2564","company_name_en":"PROFESSIONAL TRAINING SERVICES ALLIANCE CO., LTD.","tsic":82301,"cap_amt":1000000,"company_value":990000,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ไปวันเสาร์","value_share":693000,"Nationality":"TH","pct_share":70,"count_share":7000,"Firstname":"ณรงค์","person":{"Number":"","Title":"นาย","Name":"ณรงค์ ไปวันเสาร์","PartyName":"เปลี่ยน","MpType":"บัญชีรายชื่อ","Id":"573","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เปลี่ยน\/ณรงค์-ไปวันเสาร์.webp","Party":{"Name":"เปลี่ยน","Color":null,"PartyType":null,"IsActive":false,"Id":108,"Images":null},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ร่มเย็น","value_share":198000,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"พรศิริ"},{"Lastname":"เกษมณี","value_share":99000,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"บัณฑิต"}],"count_shareholder":7000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "202/58  หมู่ที่ 6 ต.ทุ่งสุขลา อ.ศรีราชา จ.ชลบุรี",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 693000,
+		"submit_obj_big_type": "N",
+		"company_name_th": "โปรเฟสชั่นแนล เทรนนิ่ง เซอร์วิสเซส อัลไลแอนซ์ จำกัด",
+		"pct_share": 70,
+		"obj_tname": "การจัดการประชุม",
+		"company_id": "0205564009817",
+		"reg_date": "24/03/2564",
+		"company_name_en": "PROFESSIONAL TRAINING SERVICES ALLIANCE CO., LTD.",
+		"tsic": 82301,
+		"cap_amt": 1000000,
+		"company_value": 990000,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ไปวันเสาร์",
+				"value_share": 693000,
+				"Nationality": "TH",
+				"pct_share": 70,
+				"count_share": 7000,
+				"Firstname": "ณรงค์",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ณรงค์ ไปวันเสาร์",
+					"PartyName": "เปลี่ยน",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "573",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เปลี่ยน/ณรงค์-ไปวันเสาร์.webp",
+					"Party": {
+						"Name": "เปลี่ยน",
+						"Color": null,
+						"PartyType": null,
+						"IsActive": false,
+						"Id": 108,
+						"Images": null
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ร่มเย็น",
+				"value_share": 198000,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "พรศิริ"
+			},
+			{
+				"Lastname": "เกษมณี",
+				"value_share": 99000,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "บัณฑิต"
+			}
+		],
+		"count_shareholder": 7000,
+		"gov_fund_proj": null
+	}
+]

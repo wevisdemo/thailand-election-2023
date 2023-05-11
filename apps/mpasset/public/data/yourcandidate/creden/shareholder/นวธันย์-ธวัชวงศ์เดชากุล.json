@@ -1,1 +1,113 @@
-[{"full_address":"55\/98 บ้านกลางเมืองเดอะปารีส รัชวิภา  ถนนกำแพงเพชร 6 แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร","financial":[{"year":"2564","income":1489621.27},{"year":"2563","income":1013938.71},{"year":"2562","income":1961860.48},{"year":"2561","income":3277148.1099999999}],"value_share":2252198,"submit_obj_big_type":"L","company_name_th":"โอ-เคลย์ เซรามิค จำกัด","pct_share":25,"obj_tname":"การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย","company_id":"0105539071564","reg_date":"27\/06\/2539","company_name_en":"O-CLAY CERAMIC CO., LTD.","tsic":68104,"cap_amt":10000000,"company_value":9008793,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ตันติเวชยานนท์","value_share":2252198,"Nationality":"TH","pct_share":25,"count_share":25000,"Firstname":"ปิยะ"},{"Lastname":"บุญญะฐาณิศร์","value_share":225220,"Nationality":"TH","pct_share":2.5,"count_share":2500,"Firstname":"วิศัลยา"},{"Lastname":"ธวัชวงศ์เดชากุล","value_share":2252198,"Nationality":"TH","pct_share":25,"count_share":25000,"Firstname":"นวธันย์","person":{"Number":11,"Title":"นาย","Name":"นวธันย์ ธวัชวงศ์เดชากุล","PartyName":"เพื่อไทย","MpType":"แบ่งเขต","Id":"1951","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":4,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/นวธันย์-ธวัชวงศ์เดชากุล.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ตันติเวชยานนท์","value_share":225220,"Nationality":"TH","pct_share":2.5,"count_share":2500,"Firstname":"พจมาลย์"},{"Lastname":"ตันติเวชยานนท์","value_share":225220,"Nationality":"TH","pct_share":2.5,"count_share":2500,"Firstname":"อารยา"},{"Lastname":"ตันติเวชยานนท์","value_share":3603517,"Nationality":"TH","pct_share":40,"count_share":40000,"Firstname":"ศรรินทร์"},{"Lastname":"ตันติเวชยานนท์","value_share":225220,"Nationality":"TH","pct_share":2.5,"count_share":2500,"Firstname":"ธนนันท์"}],"count_shareholder":25000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "55/98 บ้านกลางเมืองเดอะปารีส รัชวิภา  ถนนกำแพงเพชร 6 แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 1489621.27 },
+			{ "year": "2563", "income": 1013938.71 },
+			{ "year": "2562", "income": 1961860.48 },
+			{ "year": "2561", "income": 3277148.1099999999 }
+		],
+		"value_share": 2252198,
+		"submit_obj_big_type": "L",
+		"company_name_th": "โอ-เคลย์ เซรามิค จำกัด",
+		"pct_share": 25,
+		"obj_tname": "การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย",
+		"company_id": "0105539071564",
+		"reg_date": "27/06/2539",
+		"company_name_en": "O-CLAY CERAMIC CO., LTD.",
+		"tsic": 68104,
+		"cap_amt": 10000000,
+		"company_value": 9008793,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ตันติเวชยานนท์",
+				"value_share": 2252198,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 25000,
+				"Firstname": "ปิยะ"
+			},
+			{
+				"Lastname": "บุญญะฐาณิศร์",
+				"value_share": 225220,
+				"Nationality": "TH",
+				"pct_share": 2.5,
+				"count_share": 2500,
+				"Firstname": "วิศัลยา"
+			},
+			{
+				"Lastname": "ธวัชวงศ์เดชากุล",
+				"value_share": 2252198,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 25000,
+				"Firstname": "นวธันย์",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "นวธันย์ ธวัชวงศ์เดชากุล",
+					"PartyName": "เพื่อไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "1951",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 4,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/นวธันย์-ธวัชวงศ์เดชากุล.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ตันติเวชยานนท์",
+				"value_share": 225220,
+				"Nationality": "TH",
+				"pct_share": 2.5,
+				"count_share": 2500,
+				"Firstname": "พจมาลย์"
+			},
+			{
+				"Lastname": "ตันติเวชยานนท์",
+				"value_share": 225220,
+				"Nationality": "TH",
+				"pct_share": 2.5,
+				"count_share": 2500,
+				"Firstname": "อารยา"
+			},
+			{
+				"Lastname": "ตันติเวชยานนท์",
+				"value_share": 3603517,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 40000,
+				"Firstname": "ศรรินทร์"
+			},
+			{
+				"Lastname": "ตันติเวชยานนท์",
+				"value_share": 225220,
+				"Nationality": "TH",
+				"pct_share": 2.5,
+				"count_share": 2500,
+				"Firstname": "ธนนันท์"
+			}
+		],
+		"count_shareholder": 25000,
+		"gov_fund_proj": null
+	}
+]

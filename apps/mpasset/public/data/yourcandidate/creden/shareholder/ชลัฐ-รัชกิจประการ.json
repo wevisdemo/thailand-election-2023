@@ -1,1 +1,161 @@
-[{"full_address":"62\/45 ถนนสายเอเซีย ต.บ้านพรุ อ.หาดใหญ่ จ.สงขลา","financial":[{"year":"2564","income":349524.43},{"year":"2563","income":353306.7},{"year":"2562","income":392654.25},{"year":"2561","income":408780.54}],"value_share":745184,"submit_obj_big_type":"G","company_name_th":"สมาร์ทปิโตรเลียม จำกัด","pct_share":10,"obj_tname":"การขายปลีกเชื้อเพลิงยานยนต์ในร้านค้าเฉพาะ สถานี ปั๊ม","company_id":"0905544000494","reg_date":"22\/3\/2544","company_name_en":"SMART PETROLEUM CO., LTD.","tsic":47300,"cap_amt":1000000,"company_value":7451843,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"รัชกิจประการ","value_share":745184,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"ชลัฐ","person":{"Number":"","Title":"นาย","Name":"ชลัฐ รัชกิจประการ","PartyName":"ภูมิใจไทย","MpType":"บัญชีรายชื่อ","Id":"137","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ชลัฐ-รัชกิจประการ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"คชเสนี","value_share":372592,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"เขมภพ"},{"Lastname":"คชเสนี","value_share":372592,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"สหัสชัย"},{"Lastname":"คชเสนี","value_share":447111,"Nationality":"TH","pct_share":6,"count_share":600,"Firstname":"ลภัสอร"},{"Lastname":"รัชกิจประการ","value_share":894221,"Nationality":"TH","pct_share":12,"count_share":1200,"Firstname":"ภัคจิรา"},{"Lastname":"รัชกิจประการ","value_share":298074,"Nationality":"TH","pct_share":4,"count_share":400,"Firstname":"ลลิต์ภัทร"},{"Lastname":"รัชกิจประการ","value_share":298074,"Nationality":"TH","pct_share":4,"count_share":400,"Firstname":"ชนัญชิกา"},{"Lastname":"รัชกิจประการ","value_share":670666,"Nationality":"TH","pct_share":9,"count_share":900,"Firstname":"ปกรกานต์"},{"Lastname":"จันทรศารทูล","value_share":1192295,"Nationality":"TH","pct_share":16,"count_share":1600,"Firstname":"พริษฐ์"},{"Lastname":"รัชกิจประการ","value_share":298074,"Nationality":"TH","pct_share":4,"count_share":400,"Firstname":"พีรพัฒน์"},{"Lastname":"รัชกิจประการ","value_share":670666,"Nationality":"TH","pct_share":9,"count_share":900,"Firstname":"ปกเขตร"},{"Lastname":"พิบูลธรรมศักดิ์","value_share":894221,"Nationality":"TH","pct_share":12,"count_share":1200,"Firstname":"กชกรณ์"},{"Lastname":"รัชกิจประการ","value_share":298074,"Nationality":"TH","pct_share":4,"count_share":400,"Firstname":"ศรัณย์พร"}],"count_shareholder":1000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "62/45 ถนนสายเอเซีย ต.บ้านพรุ อ.หาดใหญ่ จ.สงขลา",
+		"financial": [
+			{ "year": "2564", "income": 349524.43 },
+			{ "year": "2563", "income": 353306.7 },
+			{ "year": "2562", "income": 392654.25 },
+			{ "year": "2561", "income": 408780.54 }
+		],
+		"value_share": 745184,
+		"submit_obj_big_type": "G",
+		"company_name_th": "สมาร์ทปิโตรเลียม จำกัด",
+		"pct_share": 10,
+		"obj_tname": "การขายปลีกเชื้อเพลิงยานยนต์ในร้านค้าเฉพาะ สถานี ปั๊ม",
+		"company_id": "0905544000494",
+		"reg_date": "22/3/2544",
+		"company_name_en": "SMART PETROLEUM CO., LTD.",
+		"tsic": 47300,
+		"cap_amt": 1000000,
+		"company_value": 7451843,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "รัชกิจประการ",
+				"value_share": 745184,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "ชลัฐ",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ชลัฐ รัชกิจประการ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "137",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ชลัฐ-รัชกิจประการ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "คชเสนี",
+				"value_share": 372592,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "เขมภพ"
+			},
+			{
+				"Lastname": "คชเสนี",
+				"value_share": 372592,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "สหัสชัย"
+			},
+			{
+				"Lastname": "คชเสนี",
+				"value_share": 447111,
+				"Nationality": "TH",
+				"pct_share": 6,
+				"count_share": 600,
+				"Firstname": "ลภัสอร"
+			},
+			{
+				"Lastname": "รัชกิจประการ",
+				"value_share": 894221,
+				"Nationality": "TH",
+				"pct_share": 12,
+				"count_share": 1200,
+				"Firstname": "ภัคจิรา"
+			},
+			{
+				"Lastname": "รัชกิจประการ",
+				"value_share": 298074,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 400,
+				"Firstname": "ลลิต์ภัทร"
+			},
+			{
+				"Lastname": "รัชกิจประการ",
+				"value_share": 298074,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 400,
+				"Firstname": "ชนัญชิกา"
+			},
+			{
+				"Lastname": "รัชกิจประการ",
+				"value_share": 670666,
+				"Nationality": "TH",
+				"pct_share": 9,
+				"count_share": 900,
+				"Firstname": "ปกรกานต์"
+			},
+			{
+				"Lastname": "จันทรศารทูล",
+				"value_share": 1192295,
+				"Nationality": "TH",
+				"pct_share": 16,
+				"count_share": 1600,
+				"Firstname": "พริษฐ์"
+			},
+			{
+				"Lastname": "รัชกิจประการ",
+				"value_share": 298074,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 400,
+				"Firstname": "พีรพัฒน์"
+			},
+			{
+				"Lastname": "รัชกิจประการ",
+				"value_share": 670666,
+				"Nationality": "TH",
+				"pct_share": 9,
+				"count_share": 900,
+				"Firstname": "ปกเขตร"
+			},
+			{
+				"Lastname": "พิบูลธรรมศักดิ์",
+				"value_share": 894221,
+				"Nationality": "TH",
+				"pct_share": 12,
+				"count_share": 1200,
+				"Firstname": "กชกรณ์"
+			},
+			{
+				"Lastname": "รัชกิจประการ",
+				"value_share": 298074,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 400,
+				"Firstname": "ศรัณย์พร"
+			}
+		],
+		"count_shareholder": 1000,
+		"gov_fund_proj": null
+	}
+]

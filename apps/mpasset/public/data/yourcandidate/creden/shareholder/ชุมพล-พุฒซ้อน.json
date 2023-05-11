@@ -1,1 +1,128 @@
-[{"full_address":"100\/26  ซอยรามคำแหง 94 แขวงสะพานสูง เขตสะพานสูง กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"F","company_name_th":"ประชารัฐ 2563 (ไทยแลนด์) จำกัด","pct_share":2,"obj_tname":"-","company_id":"0105564158741","reg_date":"04\/11\/2564","company_name_en":"PRACHARATH 2563 (THAILAND) CO., LTD.","tsic":41002,"cap_amt":5000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"นิ่มละออ","value_share":0,"Nationality":"TH","pct_share":2,"count_share":1000,"Firstname":"สมคิด"},{"Lastname":"บินสะมะแอล","value_share":0,"Nationality":"TH","pct_share":5,"count_share":2500,"Firstname":"ฆอยรินทร์"},{"Lastname":"ทาตะภิรมย์","value_share":0,"Nationality":"TH","pct_share":5,"count_share":2500,"Firstname":"จุฑามาศ"},{"Lastname":"นิลรังษี","value_share":0,"Nationality":"TH","pct_share":78,"count_share":39000,"Firstname":"พูนพิพัฒน์"},{"Lastname":"แขกพงศ์","value_share":0,"Nationality":"TH","pct_share":2,"count_share":1000,"Firstname":"เกษม"},{"Lastname":"พุฒซ้อน","value_share":0,"Nationality":"TH","pct_share":2,"count_share":1000,"Firstname":"ชุมพล","person":{"Number":"","Title":"นาวาโท","Name":"ชุมพล พุฒซ้อน","PartyName":"พลังประชาธิปไตย","MpType":"บัญชีรายชื่อ","Id":"3616","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/พลังประชาธิปไตย\/ชุมพล-พุฒซ้อน.webp","Party":{"Name":"พลังประชาธิปไตย","Color":"#CCD8DD","PartyType":"พรรค","IsActive":false,"Id":53,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/พลังประชาธิปไตย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ทองน้ำแก้ว","value_share":0,"Nationality":"TH","pct_share":2,"count_share":1000,"Firstname":"สิทธิพงษ์"},{"Lastname":"บุญเสริม","value_share":0,"Nationality":"TH","pct_share":2,"count_share":1000,"Firstname":"พิเชษฐ"},{"Lastname":"โหสถ","value_share":0,"Nationality":"TH","pct_share":2,"count_share":1000,"Firstname":"สุชาติ"}],"count_shareholder":1000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "100/26  ซอยรามคำแหง 94 แขวงสะพานสูง เขตสะพานสูง กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "F",
+		"company_name_th": "ประชารัฐ 2563 (ไทยแลนด์) จำกัด",
+		"pct_share": 2,
+		"obj_tname": "-",
+		"company_id": "0105564158741",
+		"reg_date": "04/11/2564",
+		"company_name_en": "PRACHARATH 2563 (THAILAND) CO., LTD.",
+		"tsic": 41002,
+		"cap_amt": 5000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "นิ่มละออ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 1000,
+				"Firstname": "สมคิด"
+			},
+			{
+				"Lastname": "บินสะมะแอล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 2500,
+				"Firstname": "ฆอยรินทร์"
+			},
+			{
+				"Lastname": "ทาตะภิรมย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 2500,
+				"Firstname": "จุฑามาศ"
+			},
+			{
+				"Lastname": "นิลรังษี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 78,
+				"count_share": 39000,
+				"Firstname": "พูนพิพัฒน์"
+			},
+			{
+				"Lastname": "แขกพงศ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 1000,
+				"Firstname": "เกษม"
+			},
+			{
+				"Lastname": "พุฒซ้อน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 1000,
+				"Firstname": "ชุมพล",
+				"person": {
+					"Number": "",
+					"Title": "นาวาโท",
+					"Name": "ชุมพล พุฒซ้อน",
+					"PartyName": "พลังประชาธิปไตย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "3616",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังประชาธิปไตย/ชุมพล-พุฒซ้อน.webp",
+					"Party": {
+						"Name": "พลังประชาธิปไตย",
+						"Color": "#CCD8DD",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 53,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/พลังประชาธิปไตย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ทองน้ำแก้ว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 1000,
+				"Firstname": "สิทธิพงษ์"
+			},
+			{
+				"Lastname": "บุญเสริม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 1000,
+				"Firstname": "พิเชษฐ"
+			},
+			{
+				"Lastname": "โหสถ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 1000,
+				"Firstname": "สุชาติ"
+			}
+		],
+		"count_shareholder": 1000,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,113 @@
-[{"full_address":"23 ถนนวิสุทธิกษัตริย์ แขวงบางขุนพรหม เขตพระนคร กรุงเทพมหานคร","financial":[{"year":"2564","income":18000.4},{"year":"2563","income":0.03},{"year":"2562","income":0.1},{"year":"2561","income":0}],"value_share":52663,"submit_obj_big_type":"G","company_name_th":"บี.เอส.อินเตอร์เนชั่นแนล จำกัด","pct_share":3.3333,"obj_tname":"การขายส่งเคมีภัณฑ์ทางอุตสาหกรรม","company_id":"0105513002689","reg_date":"1\/6\/2513","company_name_en":"B.S. INTERNATIONAL CO., LTD.","tsic":46691,"cap_amt":3000000,"company_value":1579905,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"วายากูล","value_share":25858,"Nationality":"TH","pct_share":1.64,"count_share":491,"Firstname":"ไพบูลย์"},{"Lastname":"ศิลปอาชา","value_share":816811,"Nationality":"TH","pct_share":51.7,"count_share":15510,"Firstname":"แจ่มใส"},{"Lastname":"ศิลปอาชา","value_share":52663,"Nationality":"TH","pct_share":3.33,"count_share":1000,"Firstname":"วราวุธ","person":{"Number":"","Title":"นาย","Name":"วราวุธ ศิลปอาชา","PartyName":"ชาติไทยพัฒนา","MpType":"บัญชีรายชื่อ","Id":"480","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":true,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ชาติไทยพัฒนา\/วราวุธ-ศิลปอาชา.webp","Party":{"Name":"ชาติไทยพัฒนา","Color":"#FF5BD1","PartyType":"พรรค","IsActive":true,"Id":5,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ชาติไทยพัฒนา.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สุจิตต์","value_share":263264,"Nationality":"TH","pct_share":16.66,"count_share":4999,"Firstname":"วิชา"},{"Lastname":"ภุกพิบูลย์","value_share":315981,"Nationality":"TH","pct_share":20,"count_share":6000,"Firstname":"นายวิจารณ์"},{"Lastname":"ศิลปอาชา","value_share":78995,"Nationality":"TH","pct_share":5,"count_share":1500,"Firstname":"กัญจนา"},{"Lastname":"นิมมล","value_share":26332,"Nationality":"TH","pct_share":1.67,"count_share":500,"Firstname":"บำเพ็ญ"}],"count_shareholder":1000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "23 ถนนวิสุทธิกษัตริย์ แขวงบางขุนพรหม เขตพระนคร กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 18000.4 },
+			{ "year": "2563", "income": 0.03 },
+			{ "year": "2562", "income": 0.1 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 52663,
+		"submit_obj_big_type": "G",
+		"company_name_th": "บี.เอส.อินเตอร์เนชั่นแนล จำกัด",
+		"pct_share": 3.3333,
+		"obj_tname": "การขายส่งเคมีภัณฑ์ทางอุตสาหกรรม",
+		"company_id": "0105513002689",
+		"reg_date": "1/6/2513",
+		"company_name_en": "B.S. INTERNATIONAL CO., LTD.",
+		"tsic": 46691,
+		"cap_amt": 3000000,
+		"company_value": 1579905,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "วายากูล",
+				"value_share": 25858,
+				"Nationality": "TH",
+				"pct_share": 1.64,
+				"count_share": 491,
+				"Firstname": "ไพบูลย์"
+			},
+			{
+				"Lastname": "ศิลปอาชา",
+				"value_share": 816811,
+				"Nationality": "TH",
+				"pct_share": 51.7,
+				"count_share": 15510,
+				"Firstname": "แจ่มใส"
+			},
+			{
+				"Lastname": "ศิลปอาชา",
+				"value_share": 52663,
+				"Nationality": "TH",
+				"pct_share": 3.33,
+				"count_share": 1000,
+				"Firstname": "วราวุธ",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "วราวุธ ศิลปอาชา",
+					"PartyName": "ชาติไทยพัฒนา",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "480",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": true,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ชาติไทยพัฒนา/วราวุธ-ศิลปอาชา.webp",
+					"Party": {
+						"Name": "ชาติไทยพัฒนา",
+						"Color": "#FF5BD1",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 5,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สุจิตต์",
+				"value_share": 263264,
+				"Nationality": "TH",
+				"pct_share": 16.66,
+				"count_share": 4999,
+				"Firstname": "วิชา"
+			},
+			{
+				"Lastname": "ภุกพิบูลย์",
+				"value_share": 315981,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 6000,
+				"Firstname": "นายวิจารณ์"
+			},
+			{
+				"Lastname": "ศิลปอาชา",
+				"value_share": 78995,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1500,
+				"Firstname": "กัญจนา"
+			},
+			{
+				"Lastname": "นิมมล",
+				"value_share": 26332,
+				"Nationality": "TH",
+				"pct_share": 1.67,
+				"count_share": 500,
+				"Firstname": "บำเพ็ญ"
+			}
+		],
+		"count_shareholder": 1000,
+		"gov_fund_proj": null
+	}
+]

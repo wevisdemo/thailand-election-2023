@@ -1,1 +1,81 @@
-[{"full_address":"89\/371 หมู่บ้าน คาซ่าวิลล์วัชรพล ถนนวัชรพล แขวงคลองถนน เขตสายไหม กรุงเทพมหานคร","financial":[{"year":"2564","income":26778582.9400000013},{"year":"2563","income":4455595.7699999996},{"year":"2562","income":3392697.0600000001},{"year":"2561","income":2857467.3799999999}],"value_share":3304631,"submit_obj_big_type":"J","company_name_th":"ดับบลิว ที ซี โซลูชั่น จำกัด","pct_share":99.9997,"obj_tname":"กิจกรรมการบริการเทคโนโลยีสารสนเทศและคอมพิวเตอร์อื่นๆ","company_id":"0105549030569","reg_date":"6\/3\/2549","company_name_en":"WTC SOLUTION COMPANY LIMITED","tsic":62090,"cap_amt":3500000,"company_value":3304641,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"นิยมชาติ","value_share":3304631,"Nationality":"TH","pct_share":100,"count_share":699998,"Firstname":"ทวนชัย","person":{"Number":8,"Title":"นาย","Name":"ทวนชัย นิยมชาติ","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"6360","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":28,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/ทวนชัย-นิยมชาติ.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"คงดิศ","value_share":3,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"นิรัชญา"},{"Lastname":"นิยมชาติ","value_share":3,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"เกษมศรี"}],"count_shareholder":699998,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "89/371 หมู่บ้าน คาซ่าวิลล์วัชรพล ถนนวัชรพล แขวงคลองถนน เขตสายไหม กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 26778582.9400000013 },
+			{ "year": "2563", "income": 4455595.7699999996 },
+			{ "year": "2562", "income": 3392697.0600000001 },
+			{ "year": "2561", "income": 2857467.3799999999 }
+		],
+		"value_share": 3304631,
+		"submit_obj_big_type": "J",
+		"company_name_th": "ดับบลิว ที ซี โซลูชั่น จำกัด",
+		"pct_share": 99.9997,
+		"obj_tname": "กิจกรรมการบริการเทคโนโลยีสารสนเทศและคอมพิวเตอร์อื่นๆ",
+		"company_id": "0105549030569",
+		"reg_date": "6/3/2549",
+		"company_name_en": "WTC SOLUTION COMPANY LIMITED",
+		"tsic": 62090,
+		"cap_amt": 3500000,
+		"company_value": 3304641,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "นิยมชาติ",
+				"value_share": 3304631,
+				"Nationality": "TH",
+				"pct_share": 100,
+				"count_share": 699998,
+				"Firstname": "ทวนชัย",
+				"person": {
+					"Number": 8,
+					"Title": "นาย",
+					"Name": "ทวนชัย นิยมชาติ",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "6360",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 28,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/ทวนชัย-นิยมชาติ.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "คงดิศ",
+				"value_share": 3,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "นิรัชญา"
+			},
+			{
+				"Lastname": "นิยมชาติ",
+				"value_share": 3,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "เกษมศรี"
+			}
+		],
+		"count_shareholder": 699998,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,81 @@
-[{"full_address":"222\/2 หมู่ที่ 2  ต.มาบยางพร อ.ปลวกแดง จ.ระยอง","financial":[{"year":"2564","income":33738638.9799999967},{"year":"2563","income":22342534.1799999997},{"year":"2562","income":22364344.9600000009},{"year":"2561","income":19803699.3900000006}],"value_share":25968243,"submit_obj_big_type":"G","company_name_th":"ไอ.เอส.ไอ อินเตอร์เทค จำกัด","pct_share":90,"obj_tname":"การขายส่งเครื่องจักรและอุปกรณ์เพื่อใช้ในงานอุตสาหกรรม","company_id":"0215557003558","reg_date":"19\/05\/2557","company_name_en":"I.S.I INTERTECH COMPANY LIMITED","tsic":46593,"cap_amt":5000000,"company_value":28853603,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"วงศ์อารีย์","value_share":1442680,"Nationality":"TH","pct_share":5,"count_share":2500,"Firstname":"ประชา"},{"Lastname":"วงศ์อารีย์","value_share":25968243,"Nationality":"TH","pct_share":90,"count_share":45000,"Firstname":"สุริยา","person":{"Number":1,"Title":"นาย","Name":"สุริยา วงศ์อารีย์","PartyName":"ก้าวไกล","MpType":"แบ่งเขต","Id":"3874","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":7,"MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/สุริยา-วงศ์อารีย์.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"กันขุนทด","value_share":1442680,"Nationality":"TH","pct_share":5,"count_share":2500,"Firstname":"บันลือ"}],"count_shareholder":45000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "222/2 หมู่ที่ 2  ต.มาบยางพร อ.ปลวกแดง จ.ระยอง",
+		"financial": [
+			{ "year": "2564", "income": 33738638.9799999967 },
+			{ "year": "2563", "income": 22342534.1799999997 },
+			{ "year": "2562", "income": 22364344.9600000009 },
+			{ "year": "2561", "income": 19803699.3900000006 }
+		],
+		"value_share": 25968243,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ไอ.เอส.ไอ อินเตอร์เทค จำกัด",
+		"pct_share": 90,
+		"obj_tname": "การขายส่งเครื่องจักรและอุปกรณ์เพื่อใช้ในงานอุตสาหกรรม",
+		"company_id": "0215557003558",
+		"reg_date": "19/05/2557",
+		"company_name_en": "I.S.I INTERTECH COMPANY LIMITED",
+		"tsic": 46593,
+		"cap_amt": 5000000,
+		"company_value": 28853603,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "วงศ์อารีย์",
+				"value_share": 1442680,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 2500,
+				"Firstname": "ประชา"
+			},
+			{
+				"Lastname": "วงศ์อารีย์",
+				"value_share": 25968243,
+				"Nationality": "TH",
+				"pct_share": 90,
+				"count_share": 45000,
+				"Firstname": "สุริยา",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "สุริยา วงศ์อารีย์",
+					"PartyName": "ก้าวไกล",
+					"MpType": "แบ่งเขต",
+					"Id": "3874",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 7,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/สุริยา-วงศ์อารีย์.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "กันขุนทด",
+				"value_share": 1442680,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 2500,
+				"Firstname": "บันลือ"
+			}
+		],
+		"count_shareholder": 45000,
+		"gov_fund_proj": null
+	}
+]

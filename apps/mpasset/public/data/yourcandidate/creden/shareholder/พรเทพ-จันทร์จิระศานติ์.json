@@ -1,1 +1,168 @@
-[{"full_address":"88 ถนนพรมแดน แขวงบางบอนใต้ เขตบางบอน กรุงเทพมหานคร","financial":[{"year":"2564","income":67552915.1200000048},{"year":"2563","income":48296317.7100000009},{"year":"2562","income":55612782.7299999967},{"year":"2561","income":49681549.1499999985}],"value_share":3397403,"submit_obj_big_type":"G","company_name_th":"สหธรรม สตีล จำกัด","pct_share":25.0,"obj_tname":"ร้านขายปลีกวัสดุก่อสร้างอื่นๆ","company_id":"0105550034793","reg_date":"27\/3\/2550","company_name_en":"SAHATHUM STEEL CO.,LTD.","tsic":47524,"cap_amt":5000000,"company_value":13589613,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"จันทร์จิระศานติ์","value_share":3397403,"Nationality":"TH","pct_share":25,"count_share":12500,"Firstname":"อนุสรณ์"},{"Lastname":"จันทร์จิระศานติ์","value_share":3397403,"Nationality":"TH","pct_share":25,"count_share":12500,"Firstname":"พรเทพ","person":{"Number":"","Title":"นาย","Name":"พรเทพ จันทร์จิระศานติ์","PartyName":"รวมไทยสร้างชาติ","MpType":"บัญชีรายชื่อ","Id":"664","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/พรเทพ-จันทร์จิระศานติ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"จันทร์จิระศานติ์","value_share":6794807,"Nationality":"TH","pct_share":50,"count_share":25000,"Firstname":"อรุณี"}],"count_shareholder":12500,"gov_fund_proj":null},{"full_address":"88 ถนนพรมแดน แขวงบางบอนใต้ เขตบางบอน กรุงเทพมหานคร","financial":[{"year":"2564","income":5638287.4699999997},{"year":"2563","income":4488069.3700000001},{"year":"2562","income":5801794.8300000001},{"year":"2561","income":6342814.0300000003}],"value_share":1012719,"submit_obj_big_type":"G","company_name_th":"สหธรรม แมชชีนเนอรี่ จำกัด","pct_share":16.6567,"obj_tname":"การขายส่งเครื่องจักรและอุปกรณ์อื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0105545052207","reg_date":"17\/5\/2545","company_name_en":"SAHATHUM MACHINERY CO.,LTD.","tsic":46599,"cap_amt":3000000,"company_value":6079952,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"จันทร์จิระศานติ์","value_share":1012719,"Nationality":"TH","pct_share":16.66,"count_share":4997,"Firstname":"พรเทพ","person":{"Number":"","Title":"นาย","Name":"พรเทพ จันทร์จิระศานติ์","PartyName":"รวมไทยสร้างชาติ","MpType":"บัญชีรายชื่อ","Id":"664","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/พรเทพ-จันทร์จิระศานติ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"จันทร์จิระศานติ์","value_share":2026649,"Nationality":"TH","pct_share":33.33,"count_share":10000,"Firstname":"อดิศักดิ์"},{"Lastname":"จันทร์จิระศานติ์","value_share":1013327,"Nationality":"TH","pct_share":16.67,"count_share":5000,"Firstname":"อนุสรณ์"},{"Lastname":"จันทร์จิระศานติ์","value_share":2027257,"Nationality":"TH","pct_share":33.34,"count_share":10003,"Firstname":"อรุณี"}],"count_shareholder":4997,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "88 ถนนพรมแดน แขวงบางบอนใต้ เขตบางบอน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 67552915.1200000048 },
+			{ "year": "2563", "income": 48296317.7100000009 },
+			{ "year": "2562", "income": 55612782.7299999967 },
+			{ "year": "2561", "income": 49681549.1499999985 }
+		],
+		"value_share": 3397403,
+		"submit_obj_big_type": "G",
+		"company_name_th": "สหธรรม สตีล จำกัด",
+		"pct_share": 25.0,
+		"obj_tname": "ร้านขายปลีกวัสดุก่อสร้างอื่นๆ",
+		"company_id": "0105550034793",
+		"reg_date": "27/3/2550",
+		"company_name_en": "SAHATHUM STEEL CO.,LTD.",
+		"tsic": 47524,
+		"cap_amt": 5000000,
+		"company_value": 13589613,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "จันทร์จิระศานติ์",
+				"value_share": 3397403,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 12500,
+				"Firstname": "อนุสรณ์"
+			},
+			{
+				"Lastname": "จันทร์จิระศานติ์",
+				"value_share": 3397403,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 12500,
+				"Firstname": "พรเทพ",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "พรเทพ จันทร์จิระศานติ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "664",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/พรเทพ-จันทร์จิระศานติ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "จันทร์จิระศานติ์",
+				"value_share": 6794807,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 25000,
+				"Firstname": "อรุณี"
+			}
+		],
+		"count_shareholder": 12500,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "88 ถนนพรมแดน แขวงบางบอนใต้ เขตบางบอน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 5638287.4699999997 },
+			{ "year": "2563", "income": 4488069.3700000001 },
+			{ "year": "2562", "income": 5801794.8300000001 },
+			{ "year": "2561", "income": 6342814.0300000003 }
+		],
+		"value_share": 1012719,
+		"submit_obj_big_type": "G",
+		"company_name_th": "สหธรรม แมชชีนเนอรี่ จำกัด",
+		"pct_share": 16.6567,
+		"obj_tname": "การขายส่งเครื่องจักรและอุปกรณ์อื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0105545052207",
+		"reg_date": "17/5/2545",
+		"company_name_en": "SAHATHUM MACHINERY CO.,LTD.",
+		"tsic": 46599,
+		"cap_amt": 3000000,
+		"company_value": 6079952,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "จันทร์จิระศานติ์",
+				"value_share": 1012719,
+				"Nationality": "TH",
+				"pct_share": 16.66,
+				"count_share": 4997,
+				"Firstname": "พรเทพ",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "พรเทพ จันทร์จิระศานติ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "664",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/พรเทพ-จันทร์จิระศานติ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "จันทร์จิระศานติ์",
+				"value_share": 2026649,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 10000,
+				"Firstname": "อดิศักดิ์"
+			},
+			{
+				"Lastname": "จันทร์จิระศานติ์",
+				"value_share": 1013327,
+				"Nationality": "TH",
+				"pct_share": 16.67,
+				"count_share": 5000,
+				"Firstname": "อนุสรณ์"
+			},
+			{
+				"Lastname": "จันทร์จิระศานติ์",
+				"value_share": 2027257,
+				"Nationality": "TH",
+				"pct_share": 33.34,
+				"count_share": 10003,
+				"Firstname": "อรุณี"
+			}
+		],
+		"count_shareholder": 4997,
+		"gov_fund_proj": null
+	}
+]

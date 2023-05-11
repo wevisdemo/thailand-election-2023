@@ -1,1 +1,159 @@
-[{"full_address":"73\/6-7 หมู่ที่ 2 ต.พุนพิน อ.พุนพิน จ.สุราษฎร์ธานี","financial":[{"year":"2564","income":14.02},{"year":"2563","income":223249.19},{"year":"2562","income":350.98},{"year":"2561","income":393.39}],"value_share":-1352264,"submit_obj_big_type":"R","company_name_th":"กีฬา สุราษฎร์ธานี จำกัด","pct_share":8,"obj_tname":"กิจกรรมด้านสโมสรกีฬา","company_id":"0845553002292","reg_date":"5\/4\/2553","company_name_en":"SURATTHANI SPORT CO.,LTD.","tsic":93120,"cap_amt":5000000,"company_value":-16903299,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ล่อใจ","value_share":-1352264,"Nationality":"TH","pct_share":8,"count_share":4000,"Firstname":"อนงค์","person":{"Number":"","Title":"นาง","Name":"อนงค์ ล่อใจ","PartyName":"เพื่อไทย","MpType":"บัญชีรายชื่อ","Id":"1031","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/อนงค์-ล่อใจ.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ทองคำ","value_share":-1352264,"Nationality":"TH","pct_share":8,"count_share":4000,"Firstname":"ยุทธวีร์"},{"Lastname":"เทือกสุบรรณ","value_share":-14198772,"Nationality":"TH","pct_share":84,"count_share":42000,"Firstname":"แทน"}],"count_shareholder":4000,"gov_fund_proj":null},{"full_address":"63\/10  หมู่ที่ 1 ถนนกาญจนวิถี ต.บางกุ้ง อ.เมืองสุราษฎร์ธานี จ.สุราษฎร์ธานี","financial":[{"year":"2564","income":1583.33},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":593330,"submit_obj_big_type":"R","company_name_th":"อี สปอร์ต สุราษฎร์ธานี จำกัด","pct_share":60,"obj_tname":"กิจกรรมด้านสโมสรกีฬา","company_id":"0845564007860","reg_date":"16\/11\/2564","company_name_en":"E SPORT SURATTHANI CO., LTD.","tsic":93120,"cap_amt":1000000,"company_value":988883,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ฑีราติยากร","value_share":98888,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"ลดารชา"},{"Lastname":"ล่อใจ","value_share":296665,"Nationality":"TH","pct_share":30,"count_share":3000,"Firstname":"พศวัต"},{"Lastname":"ล่อใจ","value_share":593330,"Nationality":"TH","pct_share":60,"count_share":6000,"Firstname":"อนงค์","person":{"Number":"","Title":"นาง","Name":"อนงค์ ล่อใจ","PartyName":"เพื่อไทย","MpType":"บัญชีรายชื่อ","Id":"1031","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/อนงค์-ล่อใจ.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":6000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "73/6-7 หมู่ที่ 2 ต.พุนพิน อ.พุนพิน จ.สุราษฎร์ธานี",
+		"financial": [
+			{ "year": "2564", "income": 14.02 },
+			{ "year": "2563", "income": 223249.19 },
+			{ "year": "2562", "income": 350.98 },
+			{ "year": "2561", "income": 393.39 }
+		],
+		"value_share": -1352264,
+		"submit_obj_big_type": "R",
+		"company_name_th": "กีฬา สุราษฎร์ธานี จำกัด",
+		"pct_share": 8,
+		"obj_tname": "กิจกรรมด้านสโมสรกีฬา",
+		"company_id": "0845553002292",
+		"reg_date": "5/4/2553",
+		"company_name_en": "SURATTHANI SPORT CO.,LTD.",
+		"tsic": 93120,
+		"cap_amt": 5000000,
+		"company_value": -16903299,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ล่อใจ",
+				"value_share": -1352264,
+				"Nationality": "TH",
+				"pct_share": 8,
+				"count_share": 4000,
+				"Firstname": "อนงค์",
+				"person": {
+					"Number": "",
+					"Title": "นาง",
+					"Name": "อนงค์ ล่อใจ",
+					"PartyName": "เพื่อไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1031",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/อนงค์-ล่อใจ.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ทองคำ",
+				"value_share": -1352264,
+				"Nationality": "TH",
+				"pct_share": 8,
+				"count_share": 4000,
+				"Firstname": "ยุทธวีร์"
+			},
+			{
+				"Lastname": "เทือกสุบรรณ",
+				"value_share": -14198772,
+				"Nationality": "TH",
+				"pct_share": 84,
+				"count_share": 42000,
+				"Firstname": "แทน"
+			}
+		],
+		"count_shareholder": 4000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "63/10  หมู่ที่ 1 ถนนกาญจนวิถี ต.บางกุ้ง อ.เมืองสุราษฎร์ธานี จ.สุราษฎร์ธานี",
+		"financial": [
+			{ "year": "2564", "income": 1583.33 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 593330,
+		"submit_obj_big_type": "R",
+		"company_name_th": "อี สปอร์ต สุราษฎร์ธานี จำกัด",
+		"pct_share": 60,
+		"obj_tname": "กิจกรรมด้านสโมสรกีฬา",
+		"company_id": "0845564007860",
+		"reg_date": "16/11/2564",
+		"company_name_en": "E SPORT SURATTHANI CO., LTD.",
+		"tsic": 93120,
+		"cap_amt": 1000000,
+		"company_value": 988883,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ฑีราติยากร",
+				"value_share": 98888,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "ลดารชา"
+			},
+			{
+				"Lastname": "ล่อใจ",
+				"value_share": 296665,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 3000,
+				"Firstname": "พศวัต"
+			},
+			{
+				"Lastname": "ล่อใจ",
+				"value_share": 593330,
+				"Nationality": "TH",
+				"pct_share": 60,
+				"count_share": 6000,
+				"Firstname": "อนงค์",
+				"person": {
+					"Number": "",
+					"Title": "นาง",
+					"Name": "อนงค์ ล่อใจ",
+					"PartyName": "เพื่อไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1031",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/อนงค์-ล่อใจ.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 6000,
+		"gov_fund_proj": null
+	}
+]

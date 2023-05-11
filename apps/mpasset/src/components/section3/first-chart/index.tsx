@@ -9,9 +9,12 @@ import Filter from '../Filter';
 import SearchPerson from '../SearchPerson';
 import Tutorial from '../tutorial';
 import MainNav from './MainNav';
+import { PersonCustom } from '../../../models/person';
 
 // Project = TheyWorkForUs, Table = Person
-type Props = {}
+type Props = {
+  filteredPerson: PersonCustom[]
+}
 
 export type ScrollChartControlType = {
   scrollTop: number,
@@ -19,10 +22,10 @@ export type ScrollChartControlType = {
   clientHeight: number
 }
 
-const FirstChart = (props: Props) => {
+const FirstChart = ({ filteredPerson }: Props) => {
   const [isOpenSearchDialog, setIsOpenSearchDialog] = React.useState(false)
   const {
-    filterPerson,
+
     openTutorial,
     setOpenTutorial
   } = usePersonStore()
@@ -34,16 +37,8 @@ const FirstChart = (props: Props) => {
     height: 0
   })
 
-  const [mainScroll, setMainScroll] = React.useState<ScrollChartControlType>({
-    scrollTop: 0,
-    scrollHeight: 0,
-    clientHeight: 0
-  })
-
   React.useEffect(() => {
     if (chartRef.current) {
-      console.log(chartRef.current.clientHeight);
-
       setResolution({
         width: chartRef.current.clientWidth,
         height: chartRef.current.clientHeight
@@ -61,7 +56,7 @@ const FirstChart = (props: Props) => {
       }
     }
     window.addEventListener('resize', debounce(updateSize, 1000));
-    updateSize();
+    // updateSize();
     return () => window.removeEventListener('resize', updateSize);
   }, []);
 
@@ -74,9 +69,9 @@ const FirstChart = (props: Props) => {
           <div className='typo-b7 text-right'>ล้านบาท</div>
         </div>
         <div className='w-full h-full flex-grow-1 relative' ref={chartRef}>
-          {filterPerson.length > 0 ?
+          {filteredPerson.length > 0 ?
             <>
-              <MainNav width={resolution.width} height={resolution.height} onScroll={setMainScroll} />
+              <MainNav width={resolution.width} height={resolution.height} filteredPerson={filteredPerson} />
               <div className='absolute bottom-0 inset-x-0'>
                 <div className='pb-[1rem]'>
                   <ClickGuide />

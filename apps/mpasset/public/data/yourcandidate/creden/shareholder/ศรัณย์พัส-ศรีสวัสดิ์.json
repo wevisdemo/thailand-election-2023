@@ -1,1 +1,89 @@
-[{"full_address":"8  หมู่ที่ 22 ต.รอบเวียง อ.เมืองเชียงราย จ.เชียงราย","financial":[{"year":"2564","income":7969265.5999999996},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":2072615,"submit_obj_big_type":"G","company_name_th":"แกรนด์ กรุ๊ป คอร์ปอเรชั่น จำกัด","pct_share":40,"obj_tname":"ร้านสะดวกซื้อ\/มินิมาร์ท","company_id":"0575562003118","reg_date":"28\/08\/2562","company_name_en":"GRAND GROUP CORPORATION COMPANY LIMITED","tsic":47113,"cap_amt":5000000,"company_value":5181538,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศรีสวัสดิ์","value_share":2072615,"Nationality":"TH","pct_share":40,"count_share":20000,"Firstname":"ศรัณย์พัส","person":{"Number":7,"Title":"นาย","Name":"ศรัณย์พัส ศรีสวัสดิ์","PartyName":"พลังประชารัฐ","MpType":"แบ่งเขต","Id":"4619","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เชียงราย","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังประชารัฐ\/ศรัณย์พัส-ศรีสวัสดิ์.webp","Party":{"Name":"พลังประชารัฐ","Color":"#2276EF","PartyType":"พรรค","IsActive":true,"Id":20,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/Y8aiwU_p-C-aZyw_PN.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ศรีสวัสดิ์","value_share":1036308,"Nationality":"TH","pct_share":20,"count_share":10000,"Firstname":"กันตินันท์"},{"Lastname":"ศรีสวัสดิ์","value_share":1036308,"Nationality":"TH","pct_share":20,"count_share":10000,"Firstname":"พิชญ์อาภา"},{"Lastname":"ศรีสวัสดิ์","value_share":1036308,"Nationality":"TH","pct_share":20,"count_share":10000,"Firstname":"ภูมิพัฒน์"}],"count_shareholder":20000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "8  หมู่ที่ 22 ต.รอบเวียง อ.เมืองเชียงราย จ.เชียงราย",
+		"financial": [
+			{ "year": "2564", "income": 7969265.5999999996 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 2072615,
+		"submit_obj_big_type": "G",
+		"company_name_th": "แกรนด์ กรุ๊ป คอร์ปอเรชั่น จำกัด",
+		"pct_share": 40,
+		"obj_tname": "ร้านสะดวกซื้อ/มินิมาร์ท",
+		"company_id": "0575562003118",
+		"reg_date": "28/08/2562",
+		"company_name_en": "GRAND GROUP CORPORATION COMPANY LIMITED",
+		"tsic": 47113,
+		"cap_amt": 5000000,
+		"company_value": 5181538,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 2072615,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 20000,
+				"Firstname": "ศรัณย์พัส",
+				"person": {
+					"Number": 7,
+					"Title": "นาย",
+					"Name": "ศรัณย์พัส ศรีสวัสดิ์",
+					"PartyName": "พลังประชารัฐ",
+					"MpType": "แบ่งเขต",
+					"Id": "4619",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เชียงราย",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังประชารัฐ/ศรัณย์พัส-ศรีสวัสดิ์.webp",
+					"Party": {
+						"Name": "พลังประชารัฐ",
+						"Color": "#2276EF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 20,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/Y8aiwU_p-C-aZyw_PN.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 1036308,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 10000,
+				"Firstname": "กันตินันท์"
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 1036308,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 10000,
+				"Firstname": "พิชญ์อาภา"
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 1036308,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 10000,
+				"Firstname": "ภูมิพัฒน์"
+			}
+		],
+		"count_shareholder": 20000,
+		"gov_fund_proj": null
+	}
+]

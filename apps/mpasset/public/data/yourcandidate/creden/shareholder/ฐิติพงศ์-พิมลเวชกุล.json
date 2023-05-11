@@ -1,1 +1,97 @@
-[{"full_address":"236 หมู่ที่ 12  ต.หัวทะเล อ.เมืองนครราชสีมา จ.นครราชสีมา","financial":[{"year":"2562","income":37500},{"year":"2561","income":37500},{"year":"2560","income":37500},{"year":"2559","income":7500}],"value_share":147217,"submit_obj_big_type":"N","company_name_th":"ธนิตศักดิ์ โปรโมชั่น จำกัด","pct_share":5,"obj_tname":"การจัดการแสดงทางธุรกิจและการแสดงสินค้า","company_id":"0305557000566","reg_date":"10\/02\/2557","company_name_en":"THANITSAK PROMOTION COMPANY LIMITED","tsic":82302,"cap_amt":3000000,"company_value":2944346,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"พิมลเวชกุล","value_share":147217,"Nationality":"TH","pct_share":5,"count_share":15,"Firstname":"ฐิติพงศ์","person":{"Number":"","Title":"นาย","Name":"ฐิติพงศ์ พิมลเวชกุล","PartyName":"ก้าวไกล","MpType":"บัญชีรายชื่อ","Id":"1114","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/ฐิติพงศ์-พิมลเวชกุล.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"เปรมหิรัญพัฒน์","value_share":2355477,"Nationality":"TH","pct_share":80,"count_share":240,"Firstname":"ธนิตศักดิ์"},{"Lastname":"เปรมหิรัญพัฒน์","value_share":147217,"Nationality":"TH","pct_share":5,"count_share":15,"Firstname":"ธัญญ์นภัส"},{"Lastname":"พิมลเวชกุล","value_share":147217,"Nationality":"TH","pct_share":5,"count_share":15,"Firstname":"ณัฐพงษ์"},{"Lastname":"เปรมหิรัญพัฒน์","value_share":147217,"Nationality":"TH","pct_share":5,"count_share":15,"Firstname":"ธัญทิพย์"}],"count_shareholder":15,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "236 หมู่ที่ 12  ต.หัวทะเล อ.เมืองนครราชสีมา จ.นครราชสีมา",
+		"financial": [
+			{ "year": "2562", "income": 37500 },
+			{ "year": "2561", "income": 37500 },
+			{ "year": "2560", "income": 37500 },
+			{ "year": "2559", "income": 7500 }
+		],
+		"value_share": 147217,
+		"submit_obj_big_type": "N",
+		"company_name_th": "ธนิตศักดิ์ โปรโมชั่น จำกัด",
+		"pct_share": 5,
+		"obj_tname": "การจัดการแสดงทางธุรกิจและการแสดงสินค้า",
+		"company_id": "0305557000566",
+		"reg_date": "10/02/2557",
+		"company_name_en": "THANITSAK PROMOTION COMPANY LIMITED",
+		"tsic": 82302,
+		"cap_amt": 3000000,
+		"company_value": 2944346,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "พิมลเวชกุล",
+				"value_share": 147217,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 15,
+				"Firstname": "ฐิติพงศ์",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ฐิติพงศ์ พิมลเวชกุล",
+					"PartyName": "ก้าวไกล",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1114",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/ฐิติพงศ์-พิมลเวชกุล.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "เปรมหิรัญพัฒน์",
+				"value_share": 2355477,
+				"Nationality": "TH",
+				"pct_share": 80,
+				"count_share": 240,
+				"Firstname": "ธนิตศักดิ์"
+			},
+			{
+				"Lastname": "เปรมหิรัญพัฒน์",
+				"value_share": 147217,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 15,
+				"Firstname": "ธัญญ์นภัส"
+			},
+			{
+				"Lastname": "พิมลเวชกุล",
+				"value_share": 147217,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 15,
+				"Firstname": "ณัฐพงษ์"
+			},
+			{
+				"Lastname": "เปรมหิรัญพัฒน์",
+				"value_share": 147217,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 15,
+				"Firstname": "ธัญทิพย์"
+			}
+		],
+		"count_shareholder": 15,
+		"gov_fund_proj": null
+	}
+]

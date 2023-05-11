@@ -1,1 +1,507 @@
-[{"full_address":"288\/66 หมู่ที่ 5 ต.ปากเกร็ด อ.ปากเกร็ด จ.นนทบุรี","financial":[{"year":"2561","income":7656.81},{"year":"2560","income":0},{"year":"2559","income":0},{"year":"2558","income":0}],"value_share":88723,"submit_obj_big_type":"N","company_name_th":"ทราวิสโก้ จำกัด","pct_share":9.0,"obj_tname":"กิจกรรมบริการสำรองอื่นๆและกิจกรรมที่เกี่ยวข้องซึ่งมิได้ จัดประเภทไว้ในที่อื่น","company_id":"0125560034397","reg_date":"22\/12\/2560","company_name_en":"TRAVISGO COMPANY LIMITED","tsic":79909,"cap_amt":1000000,"company_value":985810,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"หนูยิ้ม","value_share":88723,"Nationality":"TH","pct_share":9,"count_share":900,"Firstname":"เยาวณี"},{"Lastname":"อยู่เจริญกิจ","value_share":49290,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"ธนรัตน์"},{"Lastname":"ธรรมรังษี","value_share":29574,"Nationality":"TH","pct_share":3,"count_share":300,"Firstname":"โบว์ วรพล"},{"Lastname":"ศรีสวัสดิ์","value_share":88723,"Nationality":"TH","pct_share":9,"count_share":900,"Firstname":"สรรเพ็ชญ","person":{"Number":4,"Title":"นาย","Name":"สรรเพ็ชญ ศรีสวัสดิ์","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"5417","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กระบี่","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/สรรเพ็ชญ-ศรีสวัสดิ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ศรีสวัสดิ์","value_share":374608,"Nationality":"TH","pct_share":38,"count_share":3800,"Firstname":"พิมพิกา"},{"Lastname":"รัตนพันธ์","value_share":177446,"Nationality":"TH","pct_share":18,"count_share":1800,"Firstname":"สราวุธ"},{"Lastname":"ผาฌิดพจมาน","value_share":177446,"Nationality":"TH","pct_share":18,"count_share":1800,"Firstname":"สุทธิพงษ์"}],"count_shareholder":900,"gov_fund_proj":null},{"full_address":"80 ถนนพิศาลภพ  ต.ปากน้ำ อ.เมืองกระบี่ จ.กระบี่","financial":[{"year":"2564","income":456112.96},{"year":"2563","income":2133144.0099999998},{"year":"2562","income":1756016.9199999999},{"year":"2561","income":1786771.8400000001}],"value_share":96819,"submit_obj_big_type":"G","company_name_th":"เดอะ พิตต้า วิลเลจ จำกัด","pct_share":15.0,"obj_tname":"ร้านขายปลีกอาหารอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0815558001901","reg_date":"22\/12\/2558","company_name_en":"THE PITTA VILLAGE COMPANY LIMITED","tsic":47219,"cap_amt":5000000,"company_value":645457,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศรีสวัสดิ์","value_share":96819,"Nationality":"TH","pct_share":15,"count_share":7500,"Firstname":"สรรเพ็ชญ","person":{"Number":4,"Title":"นาย","Name":"สรรเพ็ชญ ศรีสวัสดิ์","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"5417","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กระบี่","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/สรรเพ็ชญ-ศรีสวัสดิ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ศรีสวัสดิ์","value_share":96819,"Nationality":"TH","pct_share":15,"count_share":7500,"Firstname":"สรรพงษ์"},{"Lastname":"ศรีสวัสดิ์","value_share":451820,"Nationality":"TH","pct_share":70,"count_share":35000,"Firstname":"สุภาภรณ์"}],"count_shareholder":7500,"gov_fund_proj":null},{"full_address":"113  ถนนวัชระ ต.ปากน้ำ อ.เมืองกระบี่ จ.กระบี่","financial":[{"year":"2564","income":2902.19},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":496776,"submit_obj_big_type":"I","company_name_th":"วัน เอเซีย คอร์ปอร์เรชั่น จำกัด","pct_share":50.0,"obj_tname":"การบริการด้านอาหารในภัตตาคาร\/ร้านอาหาร","company_id":"0815564000636","reg_date":"18\/03\/2564","company_name_en":"ONE ASIA CORPORATION CO., LTD.","tsic":56101,"cap_amt":1000000,"company_value":993552,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศรีสวัสดิ์","value_share":496776,"Nationality":"TH","pct_share":50,"count_share":500,"Firstname":"สรรเพ็ชญ","person":{"Number":4,"Title":"นาย","Name":"สรรเพ็ชญ ศรีสวัสดิ์","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"5417","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กระบี่","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/สรรเพ็ชญ-ศรีสวัสดิ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สำราญ","value_share":248388,"Nationality":"TH","pct_share":25,"count_share":250,"Firstname":"กีรติศักดิ์"},{"Lastname":"ประดับแก้ว","value_share":248388,"Nationality":"TH","pct_share":25,"count_share":250,"Firstname":"จุไรรัตน์"}],"count_shareholder":500,"gov_fund_proj":null},{"full_address":"113  ถนนวัชระ ต.ปากน้ำ อ.เมืองกระบี่ จ.กระบี่","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"N","company_name_th":"ไทย ทัวริซึม ดีเวลลอปเม้นท์ จำกัด","pct_share":40.0,"obj_tname":"-","company_id":"0815562002101","reg_date":"13\/08\/2562","company_name_en":"THAI TOURISM DEVELOPMENT CO., LTD.","tsic":79120,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"","value_share":0,"Nationality":"VG","pct_share":49,"count_share":4900,"Firstname":"MILE OASIS"},{"Lastname":"ศรีสวัสดิ์","value_share":0,"Nationality":"TH","pct_share":40,"count_share":4000,"Firstname":"สรรเพ็ชญ","person":{"Number":4,"Title":"นาย","Name":"สรรเพ็ชญ ศรีสวัสดิ์","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"5417","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กระบี่","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/สรรเพ็ชญ-ศรีสวัสดิ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ศรีสวัสดิ์","value_share":0,"Nationality":"TH","pct_share":11,"count_share":1100,"Firstname":"พิมพิกา"}],"count_shareholder":4000,"gov_fund_proj":null},{"full_address":"9\/2 ถนนศฤงคารพัฒนา ต.กระบี่ใหญ่ อ.เมืองกระบี่ จ.กระบี่","financial":[{"year":"2564","income":204643.07},{"year":"2563","income":3265684.8500000001},{"year":"2562","income":6405624.5899999999},{"year":"2561","income":4615320.5199999996}],"value_share":344233,"submit_obj_big_type":"N","company_name_th":"ยอชท์ มาสเตอร์ จำกัด","pct_share":25.0,"obj_tname":"การให้เช่าและการให้เช่าแบบลีสซิ่งอุปกรณ์การขนส่งทางน้ำ","company_id":"0815558001669","reg_date":"4\/11\/2558","company_name_en":"YACHT MASTER COMPANY LIMITED","tsic":77302,"cap_amt":1000000,"company_value":1376933,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศรีสวัสดิ์","value_share":688467,"Nationality":"TH","pct_share":50,"count_share":5000,"Firstname":"สุภาภรณ์"},{"Lastname":"ศรีสวัสดิ์","value_share":344233,"Nationality":"TH","pct_share":25,"count_share":2500,"Firstname":"สรรพงษ์"},{"Lastname":"ศรีสวัสดิ์","value_share":344233,"Nationality":"TH","pct_share":25,"count_share":2500,"Firstname":"สรรเพ็ชญ","person":{"Number":4,"Title":"นาย","Name":"สรรเพ็ชญ ศรีสวัสดิ์","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"5417","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กระบี่","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/สรรเพ็ชญ-ศรีสวัสดิ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":2500,"gov_fund_proj":null},{"full_address":"3 อาคารพร้อมพันธ์ 3 ชั้นที่ 5 ห้องเลขที่ 505-507 ถนนลาดพร้าวซอย 3 แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร","financial":[{"year":"2565","income":0},{"year":"2564","income":0},{"year":"2563","income":0}],"value_share":0,"submit_obj_big_type":"N","company_name_th":"ทรานสเฟอร์ มาสเตอร์ จำกัด","pct_share":33.33,"obj_tname":"ตัวแทนธุรกิจการเดินทาง","company_id":"0105566009891","reg_date":"16\/1\/2566","company_name_en":"","tsic":79110,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ดำเนินชาญวนิชย์","value_share":0,"Nationality":"TH","pct_share":33.33,"count_share":33333,"Firstname":"ณัฐสรณ์"},{"Lastname":"ศรีสวัสดิ์","value_share":0,"Nationality":"TH","pct_share":33.33,"count_share":33334,"Firstname":"สรรเพ็ชญ","person":{"Number":4,"Title":"นาย","Name":"สรรเพ็ชญ ศรีสวัสดิ์","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"5417","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กระบี่","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/สรรเพ็ชญ-ศรีสวัสดิ์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"โอลีเวียเบอรี่","value_share":0,"Nationality":"TH","pct_share":33.33,"count_share":33333,"Firstname":"กชกร"}],"count_shareholder":33334,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "288/66 หมู่ที่ 5 ต.ปากเกร็ด อ.ปากเกร็ด จ.นนทบุรี",
+		"financial": [
+			{ "year": "2561", "income": 7656.81 },
+			{ "year": "2560", "income": 0 },
+			{ "year": "2559", "income": 0 },
+			{ "year": "2558", "income": 0 }
+		],
+		"value_share": 88723,
+		"submit_obj_big_type": "N",
+		"company_name_th": "ทราวิสโก้ จำกัด",
+		"pct_share": 9.0,
+		"obj_tname": "กิจกรรมบริการสำรองอื่นๆและกิจกรรมที่เกี่ยวข้องซึ่งมิได้ จัดประเภทไว้ในที่อื่น",
+		"company_id": "0125560034397",
+		"reg_date": "22/12/2560",
+		"company_name_en": "TRAVISGO COMPANY LIMITED",
+		"tsic": 79909,
+		"cap_amt": 1000000,
+		"company_value": 985810,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "หนูยิ้ม",
+				"value_share": 88723,
+				"Nationality": "TH",
+				"pct_share": 9,
+				"count_share": 900,
+				"Firstname": "เยาวณี"
+			},
+			{
+				"Lastname": "อยู่เจริญกิจ",
+				"value_share": 49290,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "ธนรัตน์"
+			},
+			{
+				"Lastname": "ธรรมรังษี",
+				"value_share": 29574,
+				"Nationality": "TH",
+				"pct_share": 3,
+				"count_share": 300,
+				"Firstname": "โบว์ วรพล"
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 88723,
+				"Nationality": "TH",
+				"pct_share": 9,
+				"count_share": 900,
+				"Firstname": "สรรเพ็ชญ",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "สรรเพ็ชญ ศรีสวัสดิ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "5417",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กระบี่",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/สรรเพ็ชญ-ศรีสวัสดิ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 374608,
+				"Nationality": "TH",
+				"pct_share": 38,
+				"count_share": 3800,
+				"Firstname": "พิมพิกา"
+			},
+			{
+				"Lastname": "รัตนพันธ์",
+				"value_share": 177446,
+				"Nationality": "TH",
+				"pct_share": 18,
+				"count_share": 1800,
+				"Firstname": "สราวุธ"
+			},
+			{
+				"Lastname": "ผาฌิดพจมาน",
+				"value_share": 177446,
+				"Nationality": "TH",
+				"pct_share": 18,
+				"count_share": 1800,
+				"Firstname": "สุทธิพงษ์"
+			}
+		],
+		"count_shareholder": 900,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "80 ถนนพิศาลภพ  ต.ปากน้ำ อ.เมืองกระบี่ จ.กระบี่",
+		"financial": [
+			{ "year": "2564", "income": 456112.96 },
+			{ "year": "2563", "income": 2133144.0099999998 },
+			{ "year": "2562", "income": 1756016.9199999999 },
+			{ "year": "2561", "income": 1786771.8400000001 }
+		],
+		"value_share": 96819,
+		"submit_obj_big_type": "G",
+		"company_name_th": "เดอะ พิตต้า วิลเลจ จำกัด",
+		"pct_share": 15.0,
+		"obj_tname": "ร้านขายปลีกอาหารอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0815558001901",
+		"reg_date": "22/12/2558",
+		"company_name_en": "THE PITTA VILLAGE COMPANY LIMITED",
+		"tsic": 47219,
+		"cap_amt": 5000000,
+		"company_value": 645457,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 96819,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 7500,
+				"Firstname": "สรรเพ็ชญ",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "สรรเพ็ชญ ศรีสวัสดิ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "5417",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กระบี่",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/สรรเพ็ชญ-ศรีสวัสดิ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 96819,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 7500,
+				"Firstname": "สรรพงษ์"
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 451820,
+				"Nationality": "TH",
+				"pct_share": 70,
+				"count_share": 35000,
+				"Firstname": "สุภาภรณ์"
+			}
+		],
+		"count_shareholder": 7500,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "113  ถนนวัชระ ต.ปากน้ำ อ.เมืองกระบี่ จ.กระบี่",
+		"financial": [
+			{ "year": "2564", "income": 2902.19 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 496776,
+		"submit_obj_big_type": "I",
+		"company_name_th": "วัน เอเซีย คอร์ปอร์เรชั่น จำกัด",
+		"pct_share": 50.0,
+		"obj_tname": "การบริการด้านอาหารในภัตตาคาร/ร้านอาหาร",
+		"company_id": "0815564000636",
+		"reg_date": "18/03/2564",
+		"company_name_en": "ONE ASIA CORPORATION CO., LTD.",
+		"tsic": 56101,
+		"cap_amt": 1000000,
+		"company_value": 993552,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 496776,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 500,
+				"Firstname": "สรรเพ็ชญ",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "สรรเพ็ชญ ศรีสวัสดิ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "5417",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กระบี่",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/สรรเพ็ชญ-ศรีสวัสดิ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สำราญ",
+				"value_share": 248388,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 250,
+				"Firstname": "กีรติศักดิ์"
+			},
+			{
+				"Lastname": "ประดับแก้ว",
+				"value_share": 248388,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 250,
+				"Firstname": "จุไรรัตน์"
+			}
+		],
+		"count_shareholder": 500,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "113  ถนนวัชระ ต.ปากน้ำ อ.เมืองกระบี่ จ.กระบี่",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "N",
+		"company_name_th": "ไทย ทัวริซึม ดีเวลลอปเม้นท์ จำกัด",
+		"pct_share": 40.0,
+		"obj_tname": "-",
+		"company_id": "0815562002101",
+		"reg_date": "13/08/2562",
+		"company_name_en": "THAI TOURISM DEVELOPMENT CO., LTD.",
+		"tsic": 79120,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "",
+				"value_share": 0,
+				"Nationality": "VG",
+				"pct_share": 49,
+				"count_share": 4900,
+				"Firstname": "MILE OASIS"
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 4000,
+				"Firstname": "สรรเพ็ชญ",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "สรรเพ็ชญ ศรีสวัสดิ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "5417",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กระบี่",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/สรรเพ็ชญ-ศรีสวัสดิ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 11,
+				"count_share": 1100,
+				"Firstname": "พิมพิกา"
+			}
+		],
+		"count_shareholder": 4000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "9/2 ถนนศฤงคารพัฒนา ต.กระบี่ใหญ่ อ.เมืองกระบี่ จ.กระบี่",
+		"financial": [
+			{ "year": "2564", "income": 204643.07 },
+			{ "year": "2563", "income": 3265684.8500000001 },
+			{ "year": "2562", "income": 6405624.5899999999 },
+			{ "year": "2561", "income": 4615320.5199999996 }
+		],
+		"value_share": 344233,
+		"submit_obj_big_type": "N",
+		"company_name_th": "ยอชท์ มาสเตอร์ จำกัด",
+		"pct_share": 25.0,
+		"obj_tname": "การให้เช่าและการให้เช่าแบบลีสซิ่งอุปกรณ์การขนส่งทางน้ำ",
+		"company_id": "0815558001669",
+		"reg_date": "4/11/2558",
+		"company_name_en": "YACHT MASTER COMPANY LIMITED",
+		"tsic": 77302,
+		"cap_amt": 1000000,
+		"company_value": 1376933,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 688467,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 5000,
+				"Firstname": "สุภาภรณ์"
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 344233,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 2500,
+				"Firstname": "สรรพงษ์"
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 344233,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 2500,
+				"Firstname": "สรรเพ็ชญ",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "สรรเพ็ชญ ศรีสวัสดิ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "5417",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กระบี่",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/สรรเพ็ชญ-ศรีสวัสดิ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 2500,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "3 อาคารพร้อมพันธ์ 3 ชั้นที่ 5 ห้องเลขที่ 505-507 ถนนลาดพร้าวซอย 3 แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2565", "income": 0 },
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "N",
+		"company_name_th": "ทรานสเฟอร์ มาสเตอร์ จำกัด",
+		"pct_share": 33.33,
+		"obj_tname": "ตัวแทนธุรกิจการเดินทาง",
+		"company_id": "0105566009891",
+		"reg_date": "16/1/2566",
+		"company_name_en": "",
+		"tsic": 79110,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ดำเนินชาญวนิชย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 33333,
+				"Firstname": "ณัฐสรณ์"
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 33334,
+				"Firstname": "สรรเพ็ชญ",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "สรรเพ็ชญ ศรีสวัสดิ์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "5417",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กระบี่",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/สรรเพ็ชญ-ศรีสวัสดิ์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "โอลีเวียเบอรี่",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 33333,
+				"Firstname": "กชกร"
+			}
+		],
+		"count_shareholder": 33334,
+		"gov_fund_proj": null
+	}
+]

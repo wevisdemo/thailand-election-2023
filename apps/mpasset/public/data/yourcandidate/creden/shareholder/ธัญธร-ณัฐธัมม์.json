@@ -1,1 +1,167 @@
-[{"full_address":"733  ถนนลาดกระบัง แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร","financial":[{"year":"2564","income":3002.76},{"year":"2563","income":1128651.1899999999},{"year":"2562","income":663.2},{"year":"2561","income":962.61}],"value_share":-495017,"submit_obj_big_type":"I","company_name_th":"โพรเกรสซีฟ เอสเตท จำกัด","pct_share":17,"obj_tname":"โรงแรม รีสอร์ทและห้องชุด","company_id":"0105560000549","reg_date":"04\/01\/2560","company_name_en":"PROGRESSIVE ESTATE COMPANY LIMITED","tsic":55101,"cap_amt":1000000,"company_value":-2911862,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ณัฐธัมม์","value_share":-1455931,"Nationality":"TH","pct_share":50,"count_share":50000,"Firstname":"บังอร"},{"Lastname":"พิริยะตระกูล","value_share":-960915,"Nationality":"TH","pct_share":33,"count_share":33000,"Firstname":"ชไมพร"},{"Lastname":"ณัฐธัมม์","value_share":-495017,"Nationality":"TH","pct_share":17,"count_share":17000,"Firstname":"ธัญธร","person":{"Number":"","Title":"นาย","Name":"ธัญธร ณัฐธัมม์","PartyName":"ก้าวไกล","MpType":"บัญชีรายชื่อ","Id":"1109","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/ธัญธร-ณัฐธัมม์.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":17000,"gov_fund_proj":null},{"full_address":"888  ซอยลาดพร้าว 87 (จันทราสุข) แขวงคลองจั่น เขตบางกะปิ กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"M","company_name_th":"เคอีเอ็กซ์ ไพรเวท อิควิตี้ วัน จำกัด","pct_share":25,"obj_tname":"-","company_id":"0105565095912","reg_date":"14\/06\/2565","company_name_en":"KEX PRIVATE EQUITY ONE CO., LTD.","tsic":70202,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ณัฐธัมม์","value_share":0,"Nationality":"TH","pct_share":25,"count_share":2500,"Firstname":"ธัญธร","person":{"Number":"","Title":"นาย","Name":"ธัญธร ณัฐธัมม์","PartyName":"ก้าวไกล","MpType":"บัญชีรายชื่อ","Id":"1109","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/ธัญธร-ณัฐธัมม์.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ลีลามานิตย์","value_share":0,"Nationality":"TH","pct_share":25,"count_share":2500,"Firstname":"พนล"},{"Lastname":"เอี่ยมสกุลรัตน์","value_share":0,"Nationality":"TH","pct_share":25,"count_share":2500,"Firstname":"กวินทร์"},{"Lastname":"เช เชง เอเดรียน","value_share":0,"Nationality":"SG","pct_share":25,"count_share":2500,"Firstname":"ลี"}],"count_shareholder":2500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "733  ถนนลาดกระบัง แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 3002.76 },
+			{ "year": "2563", "income": 1128651.1899999999 },
+			{ "year": "2562", "income": 663.2 },
+			{ "year": "2561", "income": 962.61 }
+		],
+		"value_share": -495017,
+		"submit_obj_big_type": "I",
+		"company_name_th": "โพรเกรสซีฟ เอสเตท จำกัด",
+		"pct_share": 17,
+		"obj_tname": "โรงแรม รีสอร์ทและห้องชุด",
+		"company_id": "0105560000549",
+		"reg_date": "04/01/2560",
+		"company_name_en": "PROGRESSIVE ESTATE COMPANY LIMITED",
+		"tsic": 55101,
+		"cap_amt": 1000000,
+		"company_value": -2911862,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ณัฐธัมม์",
+				"value_share": -1455931,
+				"Nationality": "TH",
+				"pct_share": 50,
+				"count_share": 50000,
+				"Firstname": "บังอร"
+			},
+			{
+				"Lastname": "พิริยะตระกูล",
+				"value_share": -960915,
+				"Nationality": "TH",
+				"pct_share": 33,
+				"count_share": 33000,
+				"Firstname": "ชไมพร"
+			},
+			{
+				"Lastname": "ณัฐธัมม์",
+				"value_share": -495017,
+				"Nationality": "TH",
+				"pct_share": 17,
+				"count_share": 17000,
+				"Firstname": "ธัญธร",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ธัญธร ณัฐธัมม์",
+					"PartyName": "ก้าวไกล",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1109",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/ธัญธร-ณัฐธัมม์.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 17000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "888  ซอยลาดพร้าว 87 (จันทราสุข) แขวงคลองจั่น เขตบางกะปิ กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "M",
+		"company_name_th": "เคอีเอ็กซ์ ไพรเวท อิควิตี้ วัน จำกัด",
+		"pct_share": 25,
+		"obj_tname": "-",
+		"company_id": "0105565095912",
+		"reg_date": "14/06/2565",
+		"company_name_en": "KEX PRIVATE EQUITY ONE CO., LTD.",
+		"tsic": 70202,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ณัฐธัมม์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 2500,
+				"Firstname": "ธัญธร",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ธัญธร ณัฐธัมม์",
+					"PartyName": "ก้าวไกล",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1109",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/ธัญธร-ณัฐธัมม์.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ลีลามานิตย์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 2500,
+				"Firstname": "พนล"
+			},
+			{
+				"Lastname": "เอี่ยมสกุลรัตน์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 2500,
+				"Firstname": "กวินทร์"
+			},
+			{
+				"Lastname": "เช เชง เอเดรียน",
+				"value_share": 0,
+				"Nationality": "SG",
+				"pct_share": 25,
+				"count_share": 2500,
+				"Firstname": "ลี"
+			}
+		],
+		"count_shareholder": 2500,
+		"gov_fund_proj": null
+	}
+]

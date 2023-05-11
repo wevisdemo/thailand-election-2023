@@ -22,7 +22,6 @@ interface NodeLink extends d3.HierarchyNode<NodeLinkType> {
 }
 
 type Props = {
-  // type: 'director' | 'shareholder'
 }
 
 

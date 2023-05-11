@@ -1,1 +1,2764 @@
-[{"full_address":"90  อาคารซีดับเบิ้ลยู ทาวเวอร์ บี ชั้น 21 ถนนรัชดาภิเษก แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร","financial":[{"year":"2564","income":195999235},{"year":"2563","income":230945977},{"year":"2562","income":158304418},{"year":"2561","income":202899627}],"value_share":1873445,"submit_obj_big_type":"F","company_name_th":"วิค วอเตอร์ จำกัด","pct_share":0.5769,"obj_tname":"การติดตั้งระบบประปาและระบายน้ำ","company_id":"0105531014031","reg_date":"26\/02\/2531","company_name_en":"WIIK WATER LTD.","tsic":43221,"cap_amt":260000000,"company_value":324743517,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ทุมบาล","value_share":125026,"Nationality":"TH","pct_share":0.04,"count_share":1000,"Firstname":"กฤษฎา"},{"Lastname":"เจียมเจริญถาวร","value_share":150032,"Nationality":"TH","pct_share":0.05,"count_share":1200,"Firstname":"วณิชยา"},{"Lastname":"กระชัง","value_share":125026,"Nationality":"TH","pct_share":0.04,"count_share":1000,"Firstname":"วารุณี"},{"Lastname":"ศิริภัทสร์","value_share":2333282,"Nationality":"TH","pct_share":0.72,"count_share":18681,"Firstname":"กรรณ"},{"Lastname":"หวัดแหวว","value_share":2497927,"Nationality":"TH","pct_share":0.77,"count_share":20000,"Firstname":"ดิเรก"},{"Lastname":"จันทรเสรีกุล","value_share":6182467,"Nationality":"TH","pct_share":1.9,"count_share":49500,"Firstname":"สุนันทา"},{"Lastname":"","value_share":268537559,"Nationality":"TH","pct_share":82.69,"count_share":2149998,"Firstname":"วิค"},{"Lastname":"สุทธเสถียร","value_share":125026,"Nationality":"TH","pct_share":0.04,"count_share":1000,"Firstname":"บุญรัตน์"},{"Lastname":"","value_share":8743070,"Nationality":"TH","pct_share":2.69,"count_share":70000,"Firstname":"ปฐมศักดิ์ โฮลดิ้ง"},{"Lastname":"คิน ลอว์ (Mr.Lau Rocky Kin)","value_share":3746891,"Nationality":"AU","pct_share":1.15,"count_share":30000,"Firstname":"ร็อคกี้"},{"Lastname":"เกตุไชโย","value_share":237388,"Nationality":"TH","pct_share":0.07,"count_share":1900,"Firstname":"ภูเบศร์"},{"Lastname":"อ่องจริต","value_share":6245143,"Nationality":"TH","pct_share":1.92,"count_share":50000,"Firstname":"สุมาลี"},{"Lastname":"เล็กรุ่งเรืองกิจ","value_share":3961871,"Nationality":"TH","pct_share":1.22,"count_share":31720,"Firstname":"อรวรรณ"},{"Lastname":"แสงวิทยานนท์","value_share":1249288,"Nationality":"TH","pct_share":0.38,"count_share":10001,"Firstname":"วิบูลย์"},{"Lastname":"วงศ์วิวัฒน์","value_share":312403,"Nationality":"TH","pct_share":0.1,"count_share":2500,"Firstname":"ปาริชาติ"},{"Lastname":"รังสิพราหมณกุล","value_share":7494106,"Nationality":"TH","pct_share":2.31,"count_share":60000,"Firstname":"ชงก์"},{"Lastname":"รัตนศิริวิไล","value_share":1248964,"Nationality":"TH","pct_share":0.38,"count_share":10000,"Firstname":"ธนินทร์"},{"Lastname":"คูชัยยานนท์","value_share":374754,"Nationality":"TH","pct_share":0.12,"count_share":3000,"Firstname":"พจณี"},{"Lastname":"สวัสดี","value_share":125026,"Nationality":"TH","pct_share":0.04,"count_share":1000,"Firstname":"กมลทิพย์"},{"Lastname":"ธรรมพุฒิพงศ์","value_share":1873445,"Nationality":"TH","pct_share":0.58,"count_share":15000,"Firstname":"ธัชพงศ์","person":{"Number":"","Title":"นาย","Name":"ธัชพงศ์ ธรรมพุฒิพงศ์","PartyName":"ประชาธิปัตย์","MpType":"บัญชีรายชื่อ","Id":"889","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/ธัชพงศ์-ธรรมพุฒิพงศ์.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ปฐมศักดิ์","value_share":8743070,"Nationality":"TH","pct_share":2.69,"count_share":70000,"Firstname":"พรพิมล"},{"Lastname":"วงศ์สุภาส","value_share":312403,"Nationality":"TH","pct_share":0.1,"count_share":2500,"Firstname":"ฉัตรชนก"}],"count_shareholder":15000,"gov_fund_proj":[{"Unnamed: 0":4479,"ลำดับ":59877,"รหัสโครงการ":61117012130,"ชื่อโครงการฯ":"ประกวดราคาจ้างทำระบบกรองน้ำเพื่ออุปโภค-บริโภค ณ อุทยานแห่งชาติเขาใหญ่ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อประเภทโครงการ":"จ้างทำของ\/จ้างเหมาบริการ","ชื่อหน่วยงาน":"กรมอุทยานแห่งชาติ สัตว์ป่าและพันธุ์พืช","ชื่อหน่วยงานย่อย":"กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช กรุงเทพฯ","ชื่อวิธีการฯ":"ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"2019-01-18","วงเงินงบประมาณ_บาท":7918000.0,"ราคากลาง_บาท":"7918000.0","ราคารวมทุกสัญญา_บาท":7915000.0,"ปีงบประมาณ":2562,"วันที่เกิดรายการ":"2019-03-21","จังหวัด":"กรุงเทพมหานคร","จังหวัด_อังกฤษ":"Bangkok","เขต_อำเภอ":"จตุจักร","เขต_อำเภอ_อังกฤษ":"Chatuchak","แขวง_ตำบล":"ลาดยาว","แขวง_ตำบล_อังกฤษ":"Lat Yao","สถานะโครงการ":"ระหว่างดำเนินการ","พิกัดของโครงการ":"","ละติจูดของโตรงการ":"","ลองจิจูดของโตรงการ":"","เลขนิติบุคคล13หลัก":"0105531014031","ผู้ชนะการเสนอราคา":"บริษัท วิค วอเตอร์ จำกัด","เลขที่สัญญา":"ทส 0910\/1\/2562","วันที่ลงนามในสัญญา":"2019-03-21","วันที่สิ้นสุดสัญญา":"2019-09-17","งบประมาณในสัญญา_บาท":7915000.0,"สถานะสัญญา":"ระหว่างดำเนินการ"},{"Unnamed: 0":4480,"ลำดับ":74080,"รหัสโครงการ":62027473427,"ชื่อโครงการฯ":"ประกวดราคาซื้อจัดซื้อพร้อมติดตั้งระบบผลิตน้ำสะอาดขนาดใหญ่ด้วยอุลตร้าฟิวเตรชั่น (Ultrafiltration for Large water Purification System) จำนวน 1 ระบบ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อประเภทโครงการ":"ซื้อ","ชื่อหน่วยงาน":"โรงพยาบาลกระทุ่มแบน","ชื่อหน่วยงานย่อย":"โรงพยาบาลกระทุ่มแบน","ชื่อวิธีการฯ":"ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"2019-03-13","วงเงินงบประมาณ_บาท":5000000.0,"ราคากลาง_บาท":"5000000.00","ราคารวมทุกสัญญา_บาท":4987000.0,"ปีงบประมาณ":2562,"วันที่เกิดรายการ":"2019-05-10","จังหวัด":"สมุทรสาคร","จังหวัด_อังกฤษ":"Samut Sakhon","เขต_อำเภอ":"กระทุ่มแบน","เขต_อำเภอ_อังกฤษ":"Krathum Baen","แขวง_ตำบล":"ตลาดกระทุ่มแบน","แขวง_ตำบล_อังกฤษ":"Talat Krathum Baen","สถานะโครงการ":"ระหว่างดำเนินการ","พิกัดของโครงการ":"","ละติจูดของโตรงการ":"","ลองจิจูดของโตรงการ":"","เลขนิติบุคคล13หลัก":"0105531014031","ผู้ชนะการเสนอราคา":"บริษัท วิค วอเตอร์ จำกัด","เลขที่สัญญา":"301\/2562","วันที่ลงนามในสัญญา":"2019-05-10","วันที่สิ้นสุดสัญญา":"2019-09-06","งบประมาณในสัญญา_บาท":4987000.0,"สถานะสัญญา":"ระหว่างดำเนินการ"},{"Unnamed: 0":4481,"ลำดับ":99019,"รหัสโครงการ":62077069987,"ชื่อโครงการฯ":"ประกวดราคาซื้ออุปกรณ์ตรวจวัดตู้  DMA  ถนนมุขมนตรี หน้าวัดสวนพริกไทย    จำนวน ๑ จุด  ครั้งที่ 2 ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อประเภทโครงการ":"ซื้อ","ชื่อหน่วยงาน":"เทศบาลนครนครราชสีมา","ชื่อหน่วยงานย่อย":"สำนักการประปา","ชื่อวิธีการฯ":"ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"2019-07-04","วงเงินงบประมาณ_บาท":585000.0,"ราคากลาง_บาท":"585000.00","ราคารวมทุกสัญญา_บาท":560000.0,"ปีงบประมาณ":2562,"วันที่เกิดรายการ":"2019-09-03","จังหวัด":"นครราชสีมา","จังหวัด_อังกฤษ":"Nakhon Ratchasima","เขต_อำเภอ":"เมืองนครราชสีมา","เขต_อำเภอ_อังกฤษ":"Mueang Nakhon Ratchasima","แขวง_ตำบล":"ในเมือง","แขวง_ตำบล_อังกฤษ":"Nai Mueang","สถานะโครงการ":"ระหว่างดำเนินการ","พิกัดของโครงการ":"","ละติจูดของโตรงการ":"","ลองจิจูดของโตรงการ":"","เลขนิติบุคคล13หลัก":"0105531014031","ผู้ชนะการเสนอราคา":"บริษัท วิค วอเตอร์ จำกัด","เลขที่สัญญา":"33\/2562","วันที่ลงนามในสัญญา":"2019-09-03","วันที่สิ้นสุดสัญญา":"2019-10-18","งบประมาณในสัญญา_บาท":560000.0,"สถานะสัญญา":"ระหว่างดำเนินการ"},{"Unnamed: 0":4482,"ลำดับ":112745,"รหัสโครงการ":62087491012,"ชื่อโครงการฯ":"ประกวดราคาจ้างก่อสร้างโครงการวางท่อเมนประปาถนนกำแหงสงครามบางส่วน  จากสี่แยกถนนไชยณรงค์ไปทางทิศตะวันออก วางตามถนนสรรพสิทธิ์ด้านทิศใต้ ไปสิ้นสุดที่สี่แยกถนนสรรพสิทธิ์ตัดถนนพลล้าน  ครั้งที่  ๒ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อประเภทโครงการ":"จ้างก่อสร้าง","ชื่อหน่วยงาน":"เทศบาลนครนครราชสีมา","ชื่อหน่วยงานย่อย":"สำนักการประปา","ชื่อวิธีการฯ":"ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"2019-09-03","วงเงินงบประมาณ_บาท":4500000.0,"ราคากลาง_บาท":"2743967.35","ราคารวมทุกสัญญา_บาท":2525000.0,"ปีงบประมาณ":2562,"วันที่เกิดรายการ":"2019-09-26","จังหวัด":"นครราชสีมา","จังหวัด_อังกฤษ":"Nakhon Ratchasima","เขต_อำเภอ":"เมืองนครราชสีมา","เขต_อำเภอ_อังกฤษ":"Mueang Nakhon Ratchasima","แขวง_ตำบล":"ในเมือง","แขวง_ตำบล_อังกฤษ":"Nai Mueang","สถานะโครงการ":"ระหว่างดำเนินการ","พิกัดของโครงการ":"POINT(102.086099585943 14.9738315445166)","ละติจูดของโตรงการ":"14.9738315445166","ลองจิจูดของโตรงการ":"102.086099585943","เลขนิติบุคคล13หลัก":"0105531014031","ผู้ชนะการเสนอราคา":"บริษัท วิค วอเตอร์ จำกัด","เลขที่สัญญา":"28\/2562","วันที่ลงนามในสัญญา":"2019-09-26","วันที่สิ้นสุดสัญญา":"2019-12-25","งบประมาณในสัญญา_บาท":2525000.0,"สถานะสัญญา":"ระหว่างดำเนินการ"},{"Unnamed: 0":8925,"ลำดับ":1514726,"รหัสโครงการ":62097612991,"ชื่อโครงการฯ":"ซื้อวัสดุก่อสร้าง    จำนวน  ๒  รายการ โดยวิธีเฉพาะเจาะจง","ชื่อประเภทโครงการ":"ซื้อ","ชื่อหน่วยงาน":"เทศบาลนครนครราชสีมา","ชื่อหน่วยงานย่อย":"สำนักการประปา","ชื่อวิธีการฯ":"เฉพาะเจาะจง","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"","วงเงินงบประมาณ_บาท":485138.0,"ราคากลาง_บาท":"485138.00","ราคารวมทุกสัญญา_บาท":485138.0,"ปีงบประมาณ":2562,"วันที่เกิดรายการ":"2019-09-24","จังหวัด":"นครราชสีมา","จังหวัด_อังกฤษ":"Nakhon Ratchasima","เขต_อำเภอ":"เมืองนครราชสีมา","เขต_อำเภอ_อังกฤษ":"Mueang Nakhon Ratchasima","แขวง_ตำบล":"ในเมือง","แขวง_ตำบล_อังกฤษ":"Nai Mueang","สถานะโครงการ":"สิ้นสุดสัญญา","พิกัดของโครงการ":"","ละติจูดของโตรงการ":"","ลองจิจูดของโตรงการ":"","เลขนิติบุคคล13หลัก":"0105531014031","ผู้ชนะการเสนอราคา":"บริษัท วิค วอเตอร์ จำกัด","เลขที่สัญญา":"336\/2562","วันที่ลงนามในสัญญา":"2019-09-24","วันที่สิ้นสุดสัญญา":"2019-10-04","งบประมาณในสัญญา_บาท":485138.0,"สถานะสัญญา":"สิ้นสุดสัญญา"},{"Unnamed: 0":10247,"ลำดับ":4754531,"รหัสโครงการ":64047340060,"ชื่อโครงการฯ":"เช่าเช่าระบบผลิตน้ำขนาด 200 ลบ.ม.\/ชม พร้อมผลิตน้ำประปาส่งให้ กปภ.สาขาพัทยา(พ) (1 พ.ค. 64 -30 ก.ย.64) โดยวิธีเฉพาะเจาะจง","ชื่อประเภทโครงการ":"เช่า","ชื่อหน่วยงาน":"การประปาส่วนภูมิภาค","ชื่อหน่วยงานย่อย":"การประปาส่วนภูมิภาคเขต 1","ชื่อวิธีการฯ":"เฉพาะเจาะจง","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"","วงเงินงบประมาณ_บาท":6024528.0,"ราคากลาง_บาท":"5703100.0","ราคารวมทุกสัญญา_บาท":5703100.0,"ปีงบประมาณ":2564,"วันที่เกิดรายการ":"2021-04-30","จังหวัด":"ชลบุรี","จังหวัด_อังกฤษ":"Chon Buri","เขต_อำเภอ":"เมืองชลบุรี","เขต_อำเภอ_อังกฤษ":"Mueang Chon Buri","แขวง_ตำบล":"บ้านสวน","แขวง_ตำบล_อังกฤษ":"Ban Suan","สถานะโครงการ":"ระหว่างดำเนินการ","พิกัดของโครงการ":"","ละติจูดของโตรงการ":"","ลองจิจูดของโตรงการ":"","เลขนิติบุคคล13หลัก":"0105531014031","ผู้ชนะการเสนอราคา":"บริษัท วิค วอเตอร์ จำกัด","เลขที่สัญญา":"111\/2564","วันที่ลงนามในสัญญา":"2021-04-30","วันที่สิ้นสุดสัญญา":"2021-09-30","งบประมาณในสัญญา_บาท":5703100.0,"สถานะสัญญา":"ระหว่างดำเนินการ"},{"Unnamed: 0":11446,"ลำดับ":5453465,"รหัสโครงการ":64057294023,"ชื่อโครงการฯ":"จ้างผลิตน้ำประปา อ่างเก็บน้ำคลองหลวงรัชชโลทร เพื่อรองรับสถานการณ์ภัยแล้ง กปภ.สาขาบ้านบึง โดยวิธีคัดเลือก","ชื่อประเภทโครงการ":"จ้างทำของ\/จ้างเหมาบริการ","ชื่อหน่วยงาน":"การประปาส่วนภูมิภาค","ชื่อหน่วยงานย่อย":"การประปาส่วนภูมิภาคเขต 1","ชื่อวิธีการฯ":"คัดเลือก","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"","วงเงินงบประมาณ_บาท":21216816.0,"ราคากลาง_บาท":"22002624.00","ราคารวมทุกสัญญา_บาท":21209472.0,"ปีงบประมาณ":2564,"วันที่เกิดรายการ":"2021-05-31","จังหวัด":"ชลบุรี","จังหวัด_อังกฤษ":"Chon Buri","เขต_อำเภอ":"เมืองชลบุรี","เขต_อำเภอ_อังกฤษ":"Mueang Chon Buri","แขวง_ตำบล":"บ้านสวน","แขวง_ตำบล_อังกฤษ":"Ban Suan","สถานะโครงการ":"ระหว่างดำเนินการ","พิกัดของโครงการ":"","ละติจูดของโตรงการ":"","ลองจิจูดของโตรงการ":"","เลขนิติบุคคล13หลัก":"0105531014031","ผู้ชนะการเสนอราคา":"บริษัท วิค วอเตอร์ จำกัด","เลขที่สัญญา":"กปภ.ข.1\/089\/2564","วันที่ลงนามในสัญญา":"2021-05-31","วันที่สิ้นสุดสัญญา":"2021-09-30","งบประมาณในสัญญา_บาท":21209472.0,"สถานะสัญญา":"ระหว่างดำเนินการ"},{"Unnamed: 0":35752,"ลำดับ":2162005,"รหัสโครงการ":63067319126,"ชื่อโครงการฯ":"ซื้อวัสดุยานพาหนะและขนส่ง เพื่อใช้สำหรับรถผลิตน้ำดื่ม โดยวิธีเฉพาะเจาะจง","ชื่อประเภทโครงการ":"ซื้อ","ชื่อหน่วยงาน":"องค์การบริหารส่วนจังหวัดชัยนาท","ชื่อหน่วยงานย่อย":"องค์การบริหารส่วนจังหวัดชัยนาท","ชื่อวิธีการฯ":"เฉพาะเจาะจง","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"","วงเงินงบประมาณ_บาท":82176.0,"ราคากลาง_บาท":82176.0,"ราคารวมทุกสัญญา_บาท":82176.0,"ปีงบประมาณ":2563,"วันที่เกิดรายการ":"2020-07-10","จังหวัด":"ชัยนาท","จังหวัด_อังกฤษ":"Chai Nat","เขต_อำเภอ":"เมืองชัยนาท","เขต_อำเภอ_อังกฤษ":"Mueang Chai Nat","แขวง_ตำบล":"ในเมือง","แขวง_ตำบล_อังกฤษ":"Nai Mueang","สถานะโครงการ":"สิ้นสุดสัญญา","พิกัดของโครงการ":"","ละติจูดของโตรงการ":"","ลองจิจูดของโตรงการ":"","เลขนิติบุคคล13หลัก":"0105531014031","ผู้ชนะการเสนอราคา":"บริษัท วิค วอเตอร์ จำกัด","เลขที่สัญญา":"270\/2563","วันที่ลงนามในสัญญา":"2020-07-10","วันที่สิ้นสุดสัญญา":"2020-07-30","งบประมาณในสัญญา_บาท":82176.0,"สถานะสัญญา":"สิ้นสุดสัญญา"},{"Unnamed: 0":46905,"ลำดับ":44892,"รหัสโครงการ":63027043509,"ชื่อโครงการฯ":"ประกวดราคาซื้อโครงการปรับปรุงซ่อมแซมระบบประปาหมู่บ้าน แบบผิวดินขนาดใหญ่ บริเวณที่ทำการประปาเทศบาลตำบลเสาไห้ หมู่ที่ 3 บ้านเหนือพัฒนา ตำบลเสาไห้ เทศบาลตำบลเสาไห้ อำเภอเสาไห้ จังหวัดสระบุรี ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อประเภทโครงการ":"ซื้อ","ชื่อหน่วยงาน":"เทศบาลตำบลเสาไห้","ชื่อหน่วยงานย่อย":"เทศบาลตำบลเสาไห้","ชื่อวิธีการฯ":"ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"2020-02-13","วงเงินงบประมาณ_บาท":7900000.0,"ราคากลาง_บาท":7900000.0,"ราคารวมทุกสัญญา_บาท":7897000.0,"ปีงบประมาณ":2563,"วันที่เกิดรายการ":"2020-03-19","จังหวัด":"สระบุรี","จังหวัด_อังกฤษ":"Saraburi","เขต_อำเภอ":"เมืองสระบุรี","เขต_อำเภอ_อังกฤษ":"Mueang Saraburi","แขวง_ตำบล":"ปากเพรียว","แขวง_ตำบล_อังกฤษ":"Pak Phriao","สถานะโครงการ":"ระหว่างดำเนินการ","พิกัดของโครงการ":"","ละติจูดของโตรงการ":"","ลองจิจูดของโตรงการ":"","เลขนิติบุคคล13หลัก":"0105531014031","ผู้ชนะการเสนอราคา":"บริษัท วิค วอเตอร์ จำกัด","เลขที่สัญญา":"e ๐๓\/๒๕๖๓","วันที่ลงนามในสัญญา":"2020-03-19","วันที่สิ้นสุดสัญญา":"2020-08-17","งบประมาณในสัญญา_บาท":7897000.0,"สถานะสัญญา":"ระหว่างดำเนินการ"},{"Unnamed: 0":46906,"ลำดับ":92885,"รหัสโครงการ":63047423812,"ชื่อโครงการฯ":"ประกวดราคาซื้อโครงการปรับปรุงระบบผลิตน้ำประปา แบบผิวดินขนาดกลาง หมู่ที่ 7 บ้านเกาะแก้วอรุณคาม  ตำบลหนองหมู เทศบาลตำบลหนองหมู อำเภอวิหารแดง จังหวัดสระบุรี  1 แห่ง  รายละเอียดตามแบบเทศบาลกำหนด ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อประเภทโครงการ":"ซื้อ","ชื่อหน่วยงาน":"เทศบาลตำบลหนองหมู","ชื่อหน่วยงานย่อย":"เทศบาลตำบลหนองหมู","ชื่อวิธีการฯ":"ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)","ชื่อกลุ่มวิธีการฯ":"วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง","วันที่ประกาศฯ":"2020-05-08","วงเงินงบประมาณ_บาท":8070000.0,"ราคากลาง_บาท":7470000.0,"ราคารวมทุกสัญญา_บาท":7897000.0,"ปีงบประมาณ":2563,"วันที่เกิดรายการ":"2020-06-09","จังหวัด":"สระบุรี","จังหวัด_อังกฤษ":"Saraburi","เขต_อำเภอ":"วิหารแดง","เขต_อำเภอ_อังกฤษ":"Wihan Daeng","แขวง_ตำบล":"หนองหมู","แขวง_ตำบล_อังกฤษ":"Nong Mu","สถานะโครงการ":"ระหว่างดำเนินการ","พิกัดของโครงการ":"","ละติจูดของโตรงการ":"","ลองจิจูดของโตรงการ":"","เลขนิติบุคคล13หลัก":"0105531014031","ผู้ชนะการเสนอราคา":"บริษัท วิค วอเตอร์ จำกัด","เลขที่สัญญา":"2\/2563","วันที่ลงนามในสัญญา":"2020-06-09","วันที่สิ้นสุดสัญญา":"2020-09-06","งบประมาณในสัญญา_บาท":7897000.0,"สถานะสัญญา":"ระหว่างดำเนินการ"}]},{"full_address":"90\/375  หมู่ที่ 8 ต.บางครุ อ.พระประแดง จ.สมุทรปราการ","financial":[{"year":"2564","income":62570.38},{"year":"2563","income":272515.2},{"year":"2562","income":0},{"year":"2561","income":7127.89}],"value_share":42168,"submit_obj_big_type":"H","company_name_th":"มัณฑนา ร่วมใจ จำกัด","pct_share":0.3846,"obj_tname":"กิจกรรมการบริการอื่นๆที่สนับสนุนการขนส่งทางบก ซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0115561017933","reg_date":"09\/07\/2561","company_name_en":"MANTHANA RUAMJAI COMPANY LIMITED","tsic":52219,"cap_amt":13000000,"company_value":10964154,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ชิดชอบ","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"พรรณี"},{"Lastname":"ผ่องจิตวัฒนา","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"ธารทิพย์"},{"Lastname":"วีชนีมาศ","value_share":33737,"Nationality":"TH","pct_share":0.31,"count_share":4,"Firstname":"อรุณวรรณ"},{"Lastname":"ลีลาพงศ์","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"พิพัฒน์"},{"Lastname":"ศิริศุขสกุลชัย","value_share":67473,"Nationality":"TH","pct_share":0.62,"count_share":8,"Firstname":"ธนกร"},{"Lastname":"อภิรักษ์ทานนท์","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"สมหมาย"},{"Lastname":"ลี้ศักดิ์สกุล","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"อภินันท์"},{"Lastname":"มหาปิยศิลป์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ศรีธิมา"},{"Lastname":"สาธิตะกร","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"อุบล"},{"Lastname":"เต็มจิระสวัสดิ์","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"ธนสัณฑ์"},{"Lastname":"กฤษฏาพิพัฒน์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ชลากร"},{"Lastname":"เจี้ยงยี่","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"ปาณัสม์"},{"Lastname":"อุดมตระกูลวงศ์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ศรุตา"},{"Lastname":"เตชวิริยะ","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ศรีสุนันท์"},{"Lastname":"อรุณสุขรุจี","value_share":33737,"Nationality":"TH","pct_share":0.31,"count_share":4,"Firstname":"สมนึก"},{"Lastname":"ทวีศักดิ์เจริญผล","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สมเกียรติ"},{"Lastname":"สีใจออน","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ปิยะพงษ์"},{"Lastname":"พงษ์สังข์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"สุภิญญา"},{"Lastname":"หวังวิชา","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สราวุธ"},{"Lastname":"รักพงษ์ไพโรจน์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"มาลี"},{"Lastname":"ศรีมารดากุล","value_share":219283,"Nationality":"TH","pct_share":2,"count_share":26,"Firstname":"ธรรมนูญ"},{"Lastname":"เหลืองเจริญพร","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"มนัสนันท์"},{"Lastname":"พรประทาน","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"นงนุช"},{"Lastname":"สกุลวรรัตน์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"วิมลวรรณ"},{"Lastname":"สังข์ศิริ","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"ลาวัลลิ์"},{"Lastname":"จารุโรจน์ปกรณ์","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ชณัฐ"},{"Lastname":"สิทธิการิยะวัตร","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"จิตรสอางค์"},{"Lastname":"เพื่อสัมพันธ์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"อุษา"},{"Lastname":"พิพัฒน์จินดากุล","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"ศิริพร"},{"Lastname":"ผ่องจิตวัฒนา","value_share":67473,"Nationality":"TH","pct_share":0.62,"count_share":8,"Firstname":"สุนันทา"},{"Lastname":"แซ่แต้","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"วิภา"},{"Lastname":"จรัสกำจรกูล","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"สันติ"},{"Lastname":"พรประทาน","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"รัตนา"},{"Lastname":"เรืองฤทธิ์","value_share":50600,"Nationality":"TH","pct_share":0.46,"count_share":6,"Firstname":"ยุพิน"},{"Lastname":"คำนูณทรัพย์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"สุเชาว์"},{"Lastname":"จงประเสริฐ","value_share":101210,"Nationality":"TH","pct_share":0.92,"count_share":12,"Firstname":"กิตติพงษ์"},{"Lastname":"เหล่าสถิรวงศ์","value_share":168684,"Nationality":"TH","pct_share":1.54,"count_share":20,"Firstname":"ณัฐภูมิ"},{"Lastname":"สุทธิธรรมจิต","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"จันทร์พร"},{"Lastname":"เมธามัย","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"วันนา"},{"Lastname":"ปกรโณดม","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"นีลัญชนา"},{"Lastname":"วงศาสุราฤทธิ์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ชัยพร"},{"Lastname":"ศิลปวิศวกุล","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ศิวชรินร์"},{"Lastname":"ไตรพงษ์โสภณ","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"ธันยนันท์"},{"Lastname":"สุรชีพ","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"นงลักษณ์"},{"Lastname":"ทรัพย์อเนก","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"ณัฐพล"},{"Lastname":"เต็มศิริวัฒน์","value_share":67473,"Nationality":"TH","pct_share":0.62,"count_share":8,"Firstname":"สถาพร"},{"Lastname":"อัครพัฒนานุกูล","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"อภิศักดิ์"},{"Lastname":"วงศ์สวัสดิ์ไพศาล","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สุวรรณี"},{"Lastname":"ดิลกชัยพร","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ปิติ"},{"Lastname":"พิเชฐวศิน","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"ศิริรัตน์"},{"Lastname":"เดชอมรรัตน์","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ชนาภา"},{"Lastname":"วงศ์ประเสริฐผล","value_share":33737,"Nationality":"TH","pct_share":0.31,"count_share":4,"Firstname":"สมพร"},{"Lastname":"เหลืองเจริญพร","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"บรรจง"},{"Lastname":"คุณะวิวัฒนานนท์","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ศุภศิลป์"},{"Lastname":"วัฒน์จิรวานิช","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"สุธิณีย์"},{"Lastname":"ตั้งตันตรานนท์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สุธีสัณห์"},{"Lastname":"นวลมณี","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"นาวิน"},{"Lastname":"บัวใบ","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"อนนท์"},{"Lastname":"วัฒนรังษีขจร","value_share":219283,"Nationality":"TH","pct_share":2,"count_share":26,"Firstname":"พงศกร"},{"Lastname":"ศรีสวัสดิ์","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"ปกร"},{"Lastname":"ทัฬหิกรรม","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"วีรวัฒน์"},{"Lastname":"ริยะตานนท์","value_share":59042,"Nationality":"TH","pct_share":0.54,"count_share":7,"Firstname":"เยือน"},{"Lastname":"หมั่นคติธรรม","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"กรรณิกา"},{"Lastname":"มีรัตน์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"นภสร"},{"Lastname":"เมฆทรงฤกษ์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"วีระ"},{"Lastname":"ภู่โอบอ้อม","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ชัญญภัค"},{"Lastname":"วงศ์ธัญวัฒน์","value_share":33737,"Nationality":"TH","pct_share":0.31,"count_share":4,"Firstname":"พรรวีร์"},{"Lastname":"ชวลิตมณเฑียร","value_share":75905,"Nationality":"TH","pct_share":0.69,"count_share":9,"Firstname":"วิลาวัลย์"},{"Lastname":"วิจิตจิรกุล","value_share":295188,"Nationality":"TH","pct_share":2.69,"count_share":35,"Firstname":"พัศพงศ์"},{"Lastname":"เหล่านุญชัย","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ปริญญา"},{"Lastname":"นิลยนาท","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"กัญญา"},{"Lastname":"อัศวกิจพานิช","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"หวา"},{"Lastname":"สุขุมาลจิตกุล","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"สมจิตต์"},{"Lastname":"โกสัลล์ประไพ","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"พิชัย"},{"Lastname":"เกิดสุวรรณ","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"เอนก"},{"Lastname":"ภวธรรม","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"พรรณปพร"},{"Lastname":"ธรรมพุฒิพงศ์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ธัชพงศ์","person":{"Number":"","Title":"นาย","Name":"ธัชพงศ์ ธรรมพุฒิพงศ์","PartyName":"ประชาธิปัตย์","MpType":"บัญชีรายชื่อ","Id":"889","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/ธัชพงศ์-ธรรมพุฒิพงศ์.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"โพธิ์นทีไท","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ธงธรรม"},{"Lastname":"วรัญญาพร","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ธนา"},{"Lastname":"วิรุณรัตนกิจ","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"ยิ่งลักษณ์"},{"Lastname":"สุวรรณกุล","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"เขมชาติ"},{"Lastname":"ลลิดาสุตานันท์","value_share":92779,"Nationality":"TH","pct_share":0.85,"count_share":11,"Firstname":"ณัฏฐ์มาติกา"},{"Lastname":"สันติวัฒนา","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"นวพร"},{"Lastname":"อิงคะวัต","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"นภาดา"},{"Lastname":"กำเหนิดงาม","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"ปุญชรัศมิ์"},{"Lastname":"ปิติดา","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"รัชชนันท์"},{"Lastname":"สาธิตะกร","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"รัตนา"},{"Lastname":"เมฆทิพย์พาชัย","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"จุฑามาศ"},{"Lastname":"พิรุณธนาไพศาล","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"อนุชา"},{"Lastname":"จิตตเกษม","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"นิศานาถ"},{"Lastname":"ตันติกุลไพบูลย์","value_share":126504,"Nationality":"TH","pct_share":1.15,"count_share":15,"Firstname":"ศิริรักษ์"},{"Lastname":"สันติวัฒนา","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"รจิต"},{"Lastname":"เตาทองนันตสิน","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"รุ่งนภา"},{"Lastname":"ตั้งเทวนนท์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"ศักดิ์ชัย"},{"Lastname":"คงปลื้มจิตต์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"พงศ์กิต"},{"Lastname":"ทัฬหิกรรม","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สมโมท"},{"Lastname":"ตันติเศรษฐ","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"พรทิพย์"},{"Lastname":"จิตต์สอาด","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"เกรียงศักดิ์"},{"Lastname":"ปาละสมิทธิ์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"วิชัย"},{"Lastname":"จิรศักดิ์หิรัญ","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"ณรงค์"},{"Lastname":"เขมะลิลิต","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ชาญวิทย์"},{"Lastname":"เคนมี","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"วิชิตา"},{"Lastname":"รุ่งเจิดฟ้า","value_share":126504,"Nationality":"TH","pct_share":1.15,"count_share":15,"Firstname":"สุวิทย์"},{"Lastname":"เจริญจิตมั่น","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ประกฤต"},{"Lastname":"ภักดีสันติสกุล","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"วิภา"},{"Lastname":"เต็มพิชญานนท์","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"สุพิชญา"},{"Lastname":"ไทยทอง","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"กอบพร"},{"Lastname":"สิมะวรา","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"อมรรัตน์"},{"Lastname":"อเนกพิพัฒน์กุล","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"รัสรินทร์"},{"Lastname":"หงษ์ยันตรชัย","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ฐิรชัย"},{"Lastname":"แสงประสิทธิ์","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"ประไพ"},{"Lastname":"อภิชาติวรกิจ","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"สมศักดิ์"},{"Lastname":"เครือลอย","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"คุณวุฒิ"},{"Lastname":"ชูบุญสังข์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สุชาติ"},{"Lastname":"ผลานันตพงศ์","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"สุวระ"},{"Lastname":"สันติวัฒนา","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สุรวิช"},{"Lastname":"ตันปัทมดิลก","value_share":33737,"Nationality":"TH","pct_share":0.31,"count_share":4,"Firstname":"ธงชัย"},{"Lastname":"ศรีมโนธรรม","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"อรพันธ์"},{"Lastname":"เมตตพันธุ์","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"ธนภัส"},{"Lastname":"เพชรคงแก้ว","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"อวันวี"},{"Lastname":"ธรรมพุฒิพงศ์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ธัญนันท์"},{"Lastname":"วัชรเธียรสกุล","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"สุวรรณา"},{"Lastname":"นิมนภาโรจน์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ณัฐณิชา"},{"Lastname":"เกษมพินิจวงษ์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ทรรศนีย์"},{"Lastname":"อรรถเสรีพงศ์","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"มลวิภา"},{"Lastname":"เรืองฤทธิ์","value_share":50600,"Nationality":"TH","pct_share":0.46,"count_share":6,"Firstname":"ทิพวัลย์"},{"Lastname":"พัฒนาปัญญาสัตย์","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"กัญญพร"},{"Lastname":"วิริยะวาณิชยกุล","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ลาวัณย์"},{"Lastname":"วรัญญาพร","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"สุวิทย์"},{"Lastname":"พลอยส่องแสง","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"นรพันธุ์"},{"Lastname":"ภูษณอาสน์","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ยุภาพร"},{"Lastname":"เกริกกวิน","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"พรศักดิ์"},{"Lastname":"เสาะแสวง","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"พรชัย"},{"Lastname":"รุ่งทวีสิน","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"วรพจน์"},{"Lastname":"ธนาพันธ์สิน","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"บุญเพียร"},{"Lastname":"อมรานันทกิจ","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"สันทัด"},{"Lastname":"ศรีบุศราคัม","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"วิโรจน์"},{"Lastname":"อริยะมรรคกูร","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"เกรียงศักดิ์"},{"Lastname":"รุจิรเศรษฐกุล","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"เอกรัตน์"},{"Lastname":"วิทยาพูล","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"วรรณวิภา"},{"Lastname":"อุทัยสินศักดิ์","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"เสาวลักษณ์"},{"Lastname":"ทิพย์เนตร","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"อภิญญา"},{"Lastname":"พงศ์กิจธนากร","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"สมยศ"},{"Lastname":"ประจักษ์จิตร","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"ศิริเพ็ญ"},{"Lastname":"วิศวกุล","value_share":168684,"Nationality":"TH","pct_share":1.54,"count_share":20,"Firstname":"สุพจน์"},{"Lastname":"เจี่ยปิยะสกุล","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"พรทิพย์"},{"Lastname":"นิลประกอบกุล","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"กัญญา"},{"Lastname":"ประภาเพ็ญสุข","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"เจตต์ปรียา"},{"Lastname":"กรเจริญพิสุทธิ์","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"อภิณห์พร"},{"Lastname":"เกษมพินิจวงษ์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สุนีย์"},{"Lastname":"พรประทาน","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"วรรณพร"},{"Lastname":"วัฒนากุลชัย","value_share":421703,"Nationality":"TH","pct_share":3.85,"count_share":50,"Firstname":"สุรชัย"},{"Lastname":"เตชะอำนวยวิทย์","value_share":67473,"Nationality":"TH","pct_share":0.62,"count_share":8,"Firstname":"นิรุติ"},{"Lastname":"เติมตฤษณา","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"สมชาย"},{"Lastname":"แจ่มสว่าง","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สุวรรณี"},{"Lastname":"ปภัสราทร","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"รสสุคนธ์"},{"Lastname":"บุญส่งแท้","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ปริญญา"},{"Lastname":"ภัทธิราวรางกูล","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"นิติธร"},{"Lastname":"ตั้งพิทักษ์เสมอ","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ฐากุล"},{"Lastname":"ชัยกิจตระกูล","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"วนิตดา"},{"Lastname":"อัครคณานุกิจชัย","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ศิรกาญจน์"},{"Lastname":"สิริขจรเดชสกุล","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"นพรัตน์"},{"Lastname":"ศิลาพัชรนันท์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สุพิชชา"},{"Lastname":"สานแสงธรรม","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"นายอโนชา"},{"Lastname":"อรรจนียกุล","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ดารณี"},{"Lastname":"แซ่แต้","value_share":126504,"Nationality":"TH","pct_share":1.15,"count_share":15,"Firstname":"วิเชียร"},{"Lastname":"คงสกนธ์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"รณชัย"},{"Lastname":"ศักดามินทร์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"โชคดี"},{"Lastname":"รักพงษ์ไพโรจน์","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"วิมล"},{"Lastname":"วีระธรรมนูญ","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"ณฤดี"},{"Lastname":"ทวีศักดิ์เจริญผล","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"บุษยา"},{"Lastname":"นันทพรภักดี","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"แสงเดือน"},{"Lastname":"เหล่าพงษ์ศร","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"อัญชุลี"},{"Lastname":"ลัภยานันท์","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"อภิสิทธิ์"},{"Lastname":"ดาราเย็น","value_share":126504,"Nationality":"TH","pct_share":1.15,"count_share":15,"Firstname":"ประสาน"},{"Lastname":"เพื่อสัมพันธ์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"สัมมิตร"},{"Lastname":"มหาปิยศิลป์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"พรรณทิวา"},{"Lastname":"กำลูนเวสารัช","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สมบูรณ์"},{"Lastname":"ชัยชาญทิพยุทธ","value_share":168684,"Nationality":"TH","pct_share":1.54,"count_share":20,"Firstname":"พัชรนันท์"},{"Lastname":"บุญวงศ์สถิตย์","value_share":59042,"Nationality":"TH","pct_share":0.54,"count_share":7,"Firstname":"รัสรินทร์"},{"Lastname":"ประทุมถิ่น","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ยุวดี"},{"Lastname":"จิตระวีวรรณ","value_share":67473,"Nationality":"TH","pct_share":0.62,"count_share":8,"Firstname":"อนุรัตน์"},{"Lastname":"แซ่ซิน","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"สมบัติ"},{"Lastname":"เมฆทิพย์พาชัย","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"ชิงชัย"},{"Lastname":"หวังสวาท","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"คุ้มเกล้า"},{"Lastname":"บุญเกิด","value_share":210852,"Nationality":"TH","pct_share":1.92,"count_share":25,"Firstname":"สมยศ"},{"Lastname":"วงศาสุราฤทธิ์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"คณิน"},{"Lastname":"บันลือสิน","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ประกิตต์"},{"Lastname":"โชติสวัสดิ์","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"เกศินี"},{"Lastname":"แสงประสิทธิ์","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"อรรณพ"},{"Lastname":"เกษมสุข","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"เพลินจันทร์"},{"Lastname":"เชาวน์เลิศเสรี","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"มนทิรา"},{"Lastname":"จุลละศร","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"ธัญลักษณ์"},{"Lastname":"ศรีบุญธรรม","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ดนิตา"},{"Lastname":"พงษ์วุฒิเศรษฐ","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ภูมิพัฒน์"},{"Lastname":"วงศ์ไพบูลย์เกษม","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"หทัยรัตน์"},{"Lastname":"ตั้งพิทักษ์เสมอ","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"วันเพ็ญ"},{"Lastname":"วัฒนพละศิริ","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"อำนาจ"},{"Lastname":"ทาสีทอง","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"วิไล"},{"Lastname":"อัศววิรุฬหวงศ์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ไพโรจน์"},{"Lastname":"วงศ์สถาพรชัย","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"ภัทรชวัลย์"},{"Lastname":"ทิพยาวิภาส","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"นิพนธ์"},{"Lastname":"คำภู่","value_share":33737,"Nationality":"TH","pct_share":0.31,"count_share":4,"Firstname":"เจริญ"},{"Lastname":"สร้อยโมรา","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"เยาวนุช"},{"Lastname":"วลัยลักษณาภรณ์","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"สุมิตรา"},{"Lastname":"พุทธทองศรี","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ชนะ"},{"Lastname":"ยอดนวล","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"วิวัฒน์"},{"Lastname":"เตียสกุล","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ธเชษฐ์"},{"Lastname":"เมตตาวิหารี","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"วิภา"},{"Lastname":"จงสุพรรณพงศ์","value_share":33737,"Nationality":"TH","pct_share":0.31,"count_share":4,"Firstname":"ธวันวนัช"},{"Lastname":"พิราจเนนชัย","value_share":67473,"Nationality":"TH","pct_share":0.62,"count_share":8,"Firstname":"จินรัตน์"},{"Lastname":"พรรณพูนศักดิ์","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"ชาตรี"},{"Lastname":"สมัญญาภรณ์","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"วิทวัส"},{"Lastname":"โอฬาระชิน","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"พรชัย"},{"Lastname":"ตัน","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"เรณู"},{"Lastname":"พรเภตรา","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"อภิชญา"},{"Lastname":"เรืองศรีพิสิฐกุล","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"ศศนันท์"},{"Lastname":"ศักดิ์ฉัตรมงคล","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"นิตยา"},{"Lastname":"แซ่เฮง","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"ณัฐพล"},{"Lastname":"กาญจนรุจิวุฒิ","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"พิสิฐ"},{"Lastname":"เหมาะเจาะ","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"นัฏญา"},{"Lastname":"ตั้งพิทักษ์เสมอ","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"วรรณา"},{"Lastname":"บำรุงเวช","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"พินันท์"},{"Lastname":"มหาวรสวัสดิ์","value_share":126504,"Nationality":"TH","pct_share":1.15,"count_share":15,"Firstname":"พัชร์จิตรา"},{"Lastname":"กูลกิจวานิช","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"นิภาพรรณ"},{"Lastname":"สร้อยโมรา","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"เสาวลักษณ์"},{"Lastname":"อาจอภิสิทธิ์","value_share":8431,"Nationality":"TH","pct_share":0.08,"count_share":1,"Firstname":"ธราดล"},{"Lastname":"ปราบโรค","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"กลิ่นสุคนธ์"},{"Lastname":"เต็มศิริวัฒน์","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"สุวรรณา"},{"Lastname":"สีห์โสภณ","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"จิณณพัต"},{"Lastname":"แต่บรรพกุล","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"สุทธิพงษ์"},{"Lastname":"ซื่อสัจจกุล","value_share":421703,"Nationality":"TH","pct_share":3.85,"count_share":50,"Firstname":"ธนภัทร"},{"Lastname":"ชุติพานิชย์","value_share":33737,"Nationality":"TH","pct_share":0.31,"count_share":4,"Firstname":"ปภาภรณ์"},{"Lastname":"สันติวัฒนา","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"นวตา"},{"Lastname":"กิตติมนตรีชัย","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"สมคิด"},{"Lastname":"รุ่งเจริญสุขศรี","value_share":50600,"Nationality":"TH","pct_share":0.46,"count_share":6,"Firstname":"สุนิสา"},{"Lastname":"สุขดวง","value_share":25305,"Nationality":"TH","pct_share":0.23,"count_share":3,"Firstname":"อริชยา"},{"Lastname":"อัศวสิทธิถาวร","value_share":84336,"Nationality":"TH","pct_share":0.77,"count_share":10,"Firstname":"สงวน"},{"Lastname":"สุวรรณวานิช","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"สุรงค์"},{"Lastname":"ใจโต","value_share":42168,"Nationality":"TH","pct_share":0.38,"count_share":5,"Firstname":"อรวรรณ"},{"Lastname":"เสถียรฤทัย","value_share":33737,"Nationality":"TH","pct_share":0.31,"count_share":4,"Firstname":"เพลินพิศ"},{"Lastname":"หงส์หาญณรงค์","value_share":16863,"Nationality":"TH","pct_share":0.15,"count_share":2,"Firstname":"พรทิพย์"}],"count_shareholder":5,"gov_fund_proj":null},{"full_address":"55\/2 หมู่ที่ 1 ต.ศาลายา อ.พุทธมณฑล จ.นครปฐม","financial":[{"year":"2564","income":17426480.5899999999},{"year":"2563","income":19510572.1999999993},{"year":"2562","income":32061708.2699999996},{"year":"2561","income":26094245.5}],"value_share":54151,"submit_obj_big_type":"M","company_name_th":"สเต็ม เซลล์ ฟอร์ ไลฟ์ จำกัด","pct_share":0.2463,"obj_tname":"การวิจัยและพัฒนาเชิงทดลองด้านวิทยาศาสตร์ธรรมชาติ","company_id":"0105549022213","reg_date":"16\/2\/2549","company_name_en":"STEM CELF FOR LIFE COMPANY LIMITED","tsic":72101,"cap_amt":101500000,"company_value":21985864,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ปลั่งศรีสกุล","value_share":108302,"Nationality":"TH","pct_share":0.49,"count_share":5000,"Firstname":"วรวรรณ"},{"Lastname":"อรรถวรางกูร","value_share":43312,"Nationality":"TH","pct_share":0.2,"count_share":2000,"Firstname":"รัชนี"},{"Lastname":"ศรีวัฒนกุล","value_share":194949,"Nationality":"TH","pct_share":0.89,"count_share":9000,"Firstname":"กำพล"},{"Lastname":"โชติวัฒนะพันธุ์","value_share":108302,"Nationality":"TH","pct_share":0.49,"count_share":5000,"Firstname":"เจริญขวัญ"},{"Lastname":"","value_share":7278068,"Nationality":"TH","pct_share":33.1,"count_share":336000,"Firstname":"บริษัท โรงงานเภสัชกรรม เกร๊ทเตอร์ฟาร์ม่า จำกัด"},{"Lastname":"ศรีประดิษวรกุล","value_share":151637,"Nationality":"TH","pct_share":0.69,"count_share":7000,"Firstname":"ทวี"},{"Lastname":"","value_share":1299650,"Nationality":"TH","pct_share":5.91,"count_share":60000,"Firstname":"บริษัท โชติวัฒน์โฮลดิ้ง จำกัด"},{"Lastname":"มณฑา","value_share":43312,"Nationality":"TH","pct_share":0.2,"count_share":2000,"Firstname":"ธีระวุฒิ"},{"Lastname":"เจริญกุล","value_share":54151,"Nationality":"TH","pct_share":0.25,"count_share":2500,"Firstname":"เจริญศรี"},{"Lastname":"เต็งอำนวย","value_share":433209,"Nationality":"TH","pct_share":1.97,"count_share":20000,"Firstname":"พฤศกร"},{"Lastname":"ยงค์ฤประพันธ์","value_share":541534,"Nationality":"TH","pct_share":2.46,"count_share":25000,"Firstname":"รัตชัย"},{"Lastname":"เจริญกุล","value_share":54151,"Nationality":"TH","pct_share":0.25,"count_share":2500,"Firstname":"เสนีย์"},{"Lastname":"เนื่องศรี","value_share":324907,"Nationality":"TH","pct_share":1.48,"count_share":15000,"Firstname":"เอกชัย"},{"Lastname":"อรรถวรางกูร","value_share":86646,"Nationality":"TH","pct_share":0.39,"count_share":4000,"Firstname":"ศิริพรรณ์"},{"Lastname":"เต็งอำนวย","value_share":10830478,"Nationality":"TH","pct_share":49.26,"count_share":500000,"Firstname":"เชิญพร"},{"Lastname":"ธรรมพุฒิพงศ์","value_share":54151,"Nationality":"TH","pct_share":0.25,"count_share":2500,"Firstname":"ธัชพงศ์","person":{"Number":"","Title":"นาย","Name":"ธัชพงศ์ ธรรมพุฒิพงศ์","PartyName":"ประชาธิปัตย์","MpType":"บัญชีรายชื่อ","Id":"889","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/ธัชพงศ์-ธรรมพุฒิพงศ์.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ศรจิตติ","value_share":270756,"Nationality":"TH","pct_share":1.23,"count_share":12500,"Firstname":"ศุภเสกข์"},{"Lastname":"ไชยภัฎ","value_share":108302,"Nationality":"TH","pct_share":0.49,"count_share":5000,"Firstname":"สรรใจ"}],"count_shareholder":2500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "90  อาคารซีดับเบิ้ลยู ทาวเวอร์ บี ชั้น 21 ถนนรัชดาภิเษก แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 195999235 },
+			{ "year": "2563", "income": 230945977 },
+			{ "year": "2562", "income": 158304418 },
+			{ "year": "2561", "income": 202899627 }
+		],
+		"value_share": 1873445,
+		"submit_obj_big_type": "F",
+		"company_name_th": "วิค วอเตอร์ จำกัด",
+		"pct_share": 0.5769,
+		"obj_tname": "การติดตั้งระบบประปาและระบายน้ำ",
+		"company_id": "0105531014031",
+		"reg_date": "26/02/2531",
+		"company_name_en": "WIIK WATER LTD.",
+		"tsic": 43221,
+		"cap_amt": 260000000,
+		"company_value": 324743517,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ทุมบาล",
+				"value_share": 125026,
+				"Nationality": "TH",
+				"pct_share": 0.04,
+				"count_share": 1000,
+				"Firstname": "กฤษฎา"
+			},
+			{
+				"Lastname": "เจียมเจริญถาวร",
+				"value_share": 150032,
+				"Nationality": "TH",
+				"pct_share": 0.05,
+				"count_share": 1200,
+				"Firstname": "วณิชยา"
+			},
+			{
+				"Lastname": "กระชัง",
+				"value_share": 125026,
+				"Nationality": "TH",
+				"pct_share": 0.04,
+				"count_share": 1000,
+				"Firstname": "วารุณี"
+			},
+			{
+				"Lastname": "ศิริภัทสร์",
+				"value_share": 2333282,
+				"Nationality": "TH",
+				"pct_share": 0.72,
+				"count_share": 18681,
+				"Firstname": "กรรณ"
+			},
+			{
+				"Lastname": "หวัดแหวว",
+				"value_share": 2497927,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 20000,
+				"Firstname": "ดิเรก"
+			},
+			{
+				"Lastname": "จันทรเสรีกุล",
+				"value_share": 6182467,
+				"Nationality": "TH",
+				"pct_share": 1.9,
+				"count_share": 49500,
+				"Firstname": "สุนันทา"
+			},
+			{
+				"Lastname": "",
+				"value_share": 268537559,
+				"Nationality": "TH",
+				"pct_share": 82.69,
+				"count_share": 2149998,
+				"Firstname": "วิค"
+			},
+			{
+				"Lastname": "สุทธเสถียร",
+				"value_share": 125026,
+				"Nationality": "TH",
+				"pct_share": 0.04,
+				"count_share": 1000,
+				"Firstname": "บุญรัตน์"
+			},
+			{
+				"Lastname": "",
+				"value_share": 8743070,
+				"Nationality": "TH",
+				"pct_share": 2.69,
+				"count_share": 70000,
+				"Firstname": "ปฐมศักดิ์ โฮลดิ้ง"
+			},
+			{
+				"Lastname": "คิน ลอว์ (Mr.Lau Rocky Kin)",
+				"value_share": 3746891,
+				"Nationality": "AU",
+				"pct_share": 1.15,
+				"count_share": 30000,
+				"Firstname": "ร็อคกี้"
+			},
+			{
+				"Lastname": "เกตุไชโย",
+				"value_share": 237388,
+				"Nationality": "TH",
+				"pct_share": 0.07,
+				"count_share": 1900,
+				"Firstname": "ภูเบศร์"
+			},
+			{
+				"Lastname": "อ่องจริต",
+				"value_share": 6245143,
+				"Nationality": "TH",
+				"pct_share": 1.92,
+				"count_share": 50000,
+				"Firstname": "สุมาลี"
+			},
+			{
+				"Lastname": "เล็กรุ่งเรืองกิจ",
+				"value_share": 3961871,
+				"Nationality": "TH",
+				"pct_share": 1.22,
+				"count_share": 31720,
+				"Firstname": "อรวรรณ"
+			},
+			{
+				"Lastname": "แสงวิทยานนท์",
+				"value_share": 1249288,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 10001,
+				"Firstname": "วิบูลย์"
+			},
+			{
+				"Lastname": "วงศ์วิวัฒน์",
+				"value_share": 312403,
+				"Nationality": "TH",
+				"pct_share": 0.1,
+				"count_share": 2500,
+				"Firstname": "ปาริชาติ"
+			},
+			{
+				"Lastname": "รังสิพราหมณกุล",
+				"value_share": 7494106,
+				"Nationality": "TH",
+				"pct_share": 2.31,
+				"count_share": 60000,
+				"Firstname": "ชงก์"
+			},
+			{
+				"Lastname": "รัตนศิริวิไล",
+				"value_share": 1248964,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 10000,
+				"Firstname": "ธนินทร์"
+			},
+			{
+				"Lastname": "คูชัยยานนท์",
+				"value_share": 374754,
+				"Nationality": "TH",
+				"pct_share": 0.12,
+				"count_share": 3000,
+				"Firstname": "พจณี"
+			},
+			{
+				"Lastname": "สวัสดี",
+				"value_share": 125026,
+				"Nationality": "TH",
+				"pct_share": 0.04,
+				"count_share": 1000,
+				"Firstname": "กมลทิพย์"
+			},
+			{
+				"Lastname": "ธรรมพุฒิพงศ์",
+				"value_share": 1873445,
+				"Nationality": "TH",
+				"pct_share": 0.58,
+				"count_share": 15000,
+				"Firstname": "ธัชพงศ์",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ธัชพงศ์ ธรรมพุฒิพงศ์",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "889",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/ธัชพงศ์-ธรรมพุฒิพงศ์.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ปฐมศักดิ์",
+				"value_share": 8743070,
+				"Nationality": "TH",
+				"pct_share": 2.69,
+				"count_share": 70000,
+				"Firstname": "พรพิมล"
+			},
+			{
+				"Lastname": "วงศ์สุภาส",
+				"value_share": 312403,
+				"Nationality": "TH",
+				"pct_share": 0.1,
+				"count_share": 2500,
+				"Firstname": "ฉัตรชนก"
+			}
+		],
+		"count_shareholder": 15000,
+		"gov_fund_proj": [
+			{
+				"Unnamed: 0": 4479,
+				"ลำดับ": 59877,
+				"รหัสโครงการ": 61117012130,
+				"ชื่อโครงการฯ": "ประกวดราคาจ้างทำระบบกรองน้ำเพื่ออุปโภค-บริโภค ณ อุทยานแห่งชาติเขาใหญ่ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อประเภทโครงการ": "จ้างทำของ/จ้างเหมาบริการ",
+				"ชื่อหน่วยงาน": "กรมอุทยานแห่งชาติ สัตว์ป่าและพันธุ์พืช",
+				"ชื่อหน่วยงานย่อย": "กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช กรุงเทพฯ",
+				"ชื่อวิธีการฯ": "ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "2019-01-18",
+				"วงเงินงบประมาณ_บาท": 7918000.0,
+				"ราคากลาง_บาท": "7918000.0",
+				"ราคารวมทุกสัญญา_บาท": 7915000.0,
+				"ปีงบประมาณ": 2562,
+				"วันที่เกิดรายการ": "2019-03-21",
+				"จังหวัด": "กรุงเทพมหานคร",
+				"จังหวัด_อังกฤษ": "Bangkok",
+				"เขต_อำเภอ": "จตุจักร",
+				"เขต_อำเภอ_อังกฤษ": "Chatuchak",
+				"แขวง_ตำบล": "ลาดยาว",
+				"แขวง_ตำบล_อังกฤษ": "Lat Yao",
+				"สถานะโครงการ": "ระหว่างดำเนินการ",
+				"พิกัดของโครงการ": "",
+				"ละติจูดของโตรงการ": "",
+				"ลองจิจูดของโตรงการ": "",
+				"เลขนิติบุคคล13หลัก": "0105531014031",
+				"ผู้ชนะการเสนอราคา": "บริษัท วิค วอเตอร์ จำกัด",
+				"เลขที่สัญญา": "ทส 0910/1/2562",
+				"วันที่ลงนามในสัญญา": "2019-03-21",
+				"วันที่สิ้นสุดสัญญา": "2019-09-17",
+				"งบประมาณในสัญญา_บาท": 7915000.0,
+				"สถานะสัญญา": "ระหว่างดำเนินการ"
+			},
+			{
+				"Unnamed: 0": 4480,
+				"ลำดับ": 74080,
+				"รหัสโครงการ": 62027473427,
+				"ชื่อโครงการฯ": "ประกวดราคาซื้อจัดซื้อพร้อมติดตั้งระบบผลิตน้ำสะอาดขนาดใหญ่ด้วยอุลตร้าฟิวเตรชั่น (Ultrafiltration for Large water Purification System) จำนวน 1 ระบบ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อประเภทโครงการ": "ซื้อ",
+				"ชื่อหน่วยงาน": "โรงพยาบาลกระทุ่มแบน",
+				"ชื่อหน่วยงานย่อย": "โรงพยาบาลกระทุ่มแบน",
+				"ชื่อวิธีการฯ": "ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "2019-03-13",
+				"วงเงินงบประมาณ_บาท": 5000000.0,
+				"ราคากลาง_บาท": "5000000.00",
+				"ราคารวมทุกสัญญา_บาท": 4987000.0,
+				"ปีงบประมาณ": 2562,
+				"วันที่เกิดรายการ": "2019-05-10",
+				"จังหวัด": "สมุทรสาคร",
+				"จังหวัด_อังกฤษ": "Samut Sakhon",
+				"เขต_อำเภอ": "กระทุ่มแบน",
+				"เขต_อำเภอ_อังกฤษ": "Krathum Baen",
+				"แขวง_ตำบล": "ตลาดกระทุ่มแบน",
+				"แขวง_ตำบล_อังกฤษ": "Talat Krathum Baen",
+				"สถานะโครงการ": "ระหว่างดำเนินการ",
+				"พิกัดของโครงการ": "",
+				"ละติจูดของโตรงการ": "",
+				"ลองจิจูดของโตรงการ": "",
+				"เลขนิติบุคคล13หลัก": "0105531014031",
+				"ผู้ชนะการเสนอราคา": "บริษัท วิค วอเตอร์ จำกัด",
+				"เลขที่สัญญา": "301/2562",
+				"วันที่ลงนามในสัญญา": "2019-05-10",
+				"วันที่สิ้นสุดสัญญา": "2019-09-06",
+				"งบประมาณในสัญญา_บาท": 4987000.0,
+				"สถานะสัญญา": "ระหว่างดำเนินการ"
+			},
+			{
+				"Unnamed: 0": 4481,
+				"ลำดับ": 99019,
+				"รหัสโครงการ": 62077069987,
+				"ชื่อโครงการฯ": "ประกวดราคาซื้ออุปกรณ์ตรวจวัดตู้  DMA  ถนนมุขมนตรี หน้าวัดสวนพริกไทย    จำนวน ๑ จุด  ครั้งที่ 2 ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อประเภทโครงการ": "ซื้อ",
+				"ชื่อหน่วยงาน": "เทศบาลนครนครราชสีมา",
+				"ชื่อหน่วยงานย่อย": "สำนักการประปา",
+				"ชื่อวิธีการฯ": "ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "2019-07-04",
+				"วงเงินงบประมาณ_บาท": 585000.0,
+				"ราคากลาง_บาท": "585000.00",
+				"ราคารวมทุกสัญญา_บาท": 560000.0,
+				"ปีงบประมาณ": 2562,
+				"วันที่เกิดรายการ": "2019-09-03",
+				"จังหวัด": "นครราชสีมา",
+				"จังหวัด_อังกฤษ": "Nakhon Ratchasima",
+				"เขต_อำเภอ": "เมืองนครราชสีมา",
+				"เขต_อำเภอ_อังกฤษ": "Mueang Nakhon Ratchasima",
+				"แขวง_ตำบล": "ในเมือง",
+				"แขวง_ตำบล_อังกฤษ": "Nai Mueang",
+				"สถานะโครงการ": "ระหว่างดำเนินการ",
+				"พิกัดของโครงการ": "",
+				"ละติจูดของโตรงการ": "",
+				"ลองจิจูดของโตรงการ": "",
+				"เลขนิติบุคคล13หลัก": "0105531014031",
+				"ผู้ชนะการเสนอราคา": "บริษัท วิค วอเตอร์ จำกัด",
+				"เลขที่สัญญา": "33/2562",
+				"วันที่ลงนามในสัญญา": "2019-09-03",
+				"วันที่สิ้นสุดสัญญา": "2019-10-18",
+				"งบประมาณในสัญญา_บาท": 560000.0,
+				"สถานะสัญญา": "ระหว่างดำเนินการ"
+			},
+			{
+				"Unnamed: 0": 4482,
+				"ลำดับ": 112745,
+				"รหัสโครงการ": 62087491012,
+				"ชื่อโครงการฯ": "ประกวดราคาจ้างก่อสร้างโครงการวางท่อเมนประปาถนนกำแหงสงครามบางส่วน  จากสี่แยกถนนไชยณรงค์ไปทางทิศตะวันออก วางตามถนนสรรพสิทธิ์ด้านทิศใต้ ไปสิ้นสุดที่สี่แยกถนนสรรพสิทธิ์ตัดถนนพลล้าน  ครั้งที่  ๒ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อประเภทโครงการ": "จ้างก่อสร้าง",
+				"ชื่อหน่วยงาน": "เทศบาลนครนครราชสีมา",
+				"ชื่อหน่วยงานย่อย": "สำนักการประปา",
+				"ชื่อวิธีการฯ": "ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "2019-09-03",
+				"วงเงินงบประมาณ_บาท": 4500000.0,
+				"ราคากลาง_บาท": "2743967.35",
+				"ราคารวมทุกสัญญา_บาท": 2525000.0,
+				"ปีงบประมาณ": 2562,
+				"วันที่เกิดรายการ": "2019-09-26",
+				"จังหวัด": "นครราชสีมา",
+				"จังหวัด_อังกฤษ": "Nakhon Ratchasima",
+				"เขต_อำเภอ": "เมืองนครราชสีมา",
+				"เขต_อำเภอ_อังกฤษ": "Mueang Nakhon Ratchasima",
+				"แขวง_ตำบล": "ในเมือง",
+				"แขวง_ตำบล_อังกฤษ": "Nai Mueang",
+				"สถานะโครงการ": "ระหว่างดำเนินการ",
+				"พิกัดของโครงการ": "POINT(102.086099585943 14.9738315445166)",
+				"ละติจูดของโตรงการ": "14.9738315445166",
+				"ลองจิจูดของโตรงการ": "102.086099585943",
+				"เลขนิติบุคคล13หลัก": "0105531014031",
+				"ผู้ชนะการเสนอราคา": "บริษัท วิค วอเตอร์ จำกัด",
+				"เลขที่สัญญา": "28/2562",
+				"วันที่ลงนามในสัญญา": "2019-09-26",
+				"วันที่สิ้นสุดสัญญา": "2019-12-25",
+				"งบประมาณในสัญญา_บาท": 2525000.0,
+				"สถานะสัญญา": "ระหว่างดำเนินการ"
+			},
+			{
+				"Unnamed: 0": 8925,
+				"ลำดับ": 1514726,
+				"รหัสโครงการ": 62097612991,
+				"ชื่อโครงการฯ": "ซื้อวัสดุก่อสร้าง    จำนวน  ๒  รายการ โดยวิธีเฉพาะเจาะจง",
+				"ชื่อประเภทโครงการ": "ซื้อ",
+				"ชื่อหน่วยงาน": "เทศบาลนครนครราชสีมา",
+				"ชื่อหน่วยงานย่อย": "สำนักการประปา",
+				"ชื่อวิธีการฯ": "เฉพาะเจาะจง",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "",
+				"วงเงินงบประมาณ_บาท": 485138.0,
+				"ราคากลาง_บาท": "485138.00",
+				"ราคารวมทุกสัญญา_บาท": 485138.0,
+				"ปีงบประมาณ": 2562,
+				"วันที่เกิดรายการ": "2019-09-24",
+				"จังหวัด": "นครราชสีมา",
+				"จังหวัด_อังกฤษ": "Nakhon Ratchasima",
+				"เขต_อำเภอ": "เมืองนครราชสีมา",
+				"เขต_อำเภอ_อังกฤษ": "Mueang Nakhon Ratchasima",
+				"แขวง_ตำบล": "ในเมือง",
+				"แขวง_ตำบล_อังกฤษ": "Nai Mueang",
+				"สถานะโครงการ": "สิ้นสุดสัญญา",
+				"พิกัดของโครงการ": "",
+				"ละติจูดของโตรงการ": "",
+				"ลองจิจูดของโตรงการ": "",
+				"เลขนิติบุคคล13หลัก": "0105531014031",
+				"ผู้ชนะการเสนอราคา": "บริษัท วิค วอเตอร์ จำกัด",
+				"เลขที่สัญญา": "336/2562",
+				"วันที่ลงนามในสัญญา": "2019-09-24",
+				"วันที่สิ้นสุดสัญญา": "2019-10-04",
+				"งบประมาณในสัญญา_บาท": 485138.0,
+				"สถานะสัญญา": "สิ้นสุดสัญญา"
+			},
+			{
+				"Unnamed: 0": 10247,
+				"ลำดับ": 4754531,
+				"รหัสโครงการ": 64047340060,
+				"ชื่อโครงการฯ": "เช่าเช่าระบบผลิตน้ำขนาด 200 ลบ.ม./ชม พร้อมผลิตน้ำประปาส่งให้ กปภ.สาขาพัทยา(พ) (1 พ.ค. 64 -30 ก.ย.64) โดยวิธีเฉพาะเจาะจง",
+				"ชื่อประเภทโครงการ": "เช่า",
+				"ชื่อหน่วยงาน": "การประปาส่วนภูมิภาค",
+				"ชื่อหน่วยงานย่อย": "การประปาส่วนภูมิภาคเขต 1",
+				"ชื่อวิธีการฯ": "เฉพาะเจาะจง",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "",
+				"วงเงินงบประมาณ_บาท": 6024528.0,
+				"ราคากลาง_บาท": "5703100.0",
+				"ราคารวมทุกสัญญา_บาท": 5703100.0,
+				"ปีงบประมาณ": 2564,
+				"วันที่เกิดรายการ": "2021-04-30",
+				"จังหวัด": "ชลบุรี",
+				"จังหวัด_อังกฤษ": "Chon Buri",
+				"เขต_อำเภอ": "เมืองชลบุรี",
+				"เขต_อำเภอ_อังกฤษ": "Mueang Chon Buri",
+				"แขวง_ตำบล": "บ้านสวน",
+				"แขวง_ตำบล_อังกฤษ": "Ban Suan",
+				"สถานะโครงการ": "ระหว่างดำเนินการ",
+				"พิกัดของโครงการ": "",
+				"ละติจูดของโตรงการ": "",
+				"ลองจิจูดของโตรงการ": "",
+				"เลขนิติบุคคล13หลัก": "0105531014031",
+				"ผู้ชนะการเสนอราคา": "บริษัท วิค วอเตอร์ จำกัด",
+				"เลขที่สัญญา": "111/2564",
+				"วันที่ลงนามในสัญญา": "2021-04-30",
+				"วันที่สิ้นสุดสัญญา": "2021-09-30",
+				"งบประมาณในสัญญา_บาท": 5703100.0,
+				"สถานะสัญญา": "ระหว่างดำเนินการ"
+			},
+			{
+				"Unnamed: 0": 11446,
+				"ลำดับ": 5453465,
+				"รหัสโครงการ": 64057294023,
+				"ชื่อโครงการฯ": "จ้างผลิตน้ำประปา อ่างเก็บน้ำคลองหลวงรัชชโลทร เพื่อรองรับสถานการณ์ภัยแล้ง กปภ.สาขาบ้านบึง โดยวิธีคัดเลือก",
+				"ชื่อประเภทโครงการ": "จ้างทำของ/จ้างเหมาบริการ",
+				"ชื่อหน่วยงาน": "การประปาส่วนภูมิภาค",
+				"ชื่อหน่วยงานย่อย": "การประปาส่วนภูมิภาคเขต 1",
+				"ชื่อวิธีการฯ": "คัดเลือก",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "",
+				"วงเงินงบประมาณ_บาท": 21216816.0,
+				"ราคากลาง_บาท": "22002624.00",
+				"ราคารวมทุกสัญญา_บาท": 21209472.0,
+				"ปีงบประมาณ": 2564,
+				"วันที่เกิดรายการ": "2021-05-31",
+				"จังหวัด": "ชลบุรี",
+				"จังหวัด_อังกฤษ": "Chon Buri",
+				"เขต_อำเภอ": "เมืองชลบุรี",
+				"เขต_อำเภอ_อังกฤษ": "Mueang Chon Buri",
+				"แขวง_ตำบล": "บ้านสวน",
+				"แขวง_ตำบล_อังกฤษ": "Ban Suan",
+				"สถานะโครงการ": "ระหว่างดำเนินการ",
+				"พิกัดของโครงการ": "",
+				"ละติจูดของโตรงการ": "",
+				"ลองจิจูดของโตรงการ": "",
+				"เลขนิติบุคคล13หลัก": "0105531014031",
+				"ผู้ชนะการเสนอราคา": "บริษัท วิค วอเตอร์ จำกัด",
+				"เลขที่สัญญา": "กปภ.ข.1/089/2564",
+				"วันที่ลงนามในสัญญา": "2021-05-31",
+				"วันที่สิ้นสุดสัญญา": "2021-09-30",
+				"งบประมาณในสัญญา_บาท": 21209472.0,
+				"สถานะสัญญา": "ระหว่างดำเนินการ"
+			},
+			{
+				"Unnamed: 0": 35752,
+				"ลำดับ": 2162005,
+				"รหัสโครงการ": 63067319126,
+				"ชื่อโครงการฯ": "ซื้อวัสดุยานพาหนะและขนส่ง เพื่อใช้สำหรับรถผลิตน้ำดื่ม โดยวิธีเฉพาะเจาะจง",
+				"ชื่อประเภทโครงการ": "ซื้อ",
+				"ชื่อหน่วยงาน": "องค์การบริหารส่วนจังหวัดชัยนาท",
+				"ชื่อหน่วยงานย่อย": "องค์การบริหารส่วนจังหวัดชัยนาท",
+				"ชื่อวิธีการฯ": "เฉพาะเจาะจง",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "",
+				"วงเงินงบประมาณ_บาท": 82176.0,
+				"ราคากลาง_บาท": 82176.0,
+				"ราคารวมทุกสัญญา_บาท": 82176.0,
+				"ปีงบประมาณ": 2563,
+				"วันที่เกิดรายการ": "2020-07-10",
+				"จังหวัด": "ชัยนาท",
+				"จังหวัด_อังกฤษ": "Chai Nat",
+				"เขต_อำเภอ": "เมืองชัยนาท",
+				"เขต_อำเภอ_อังกฤษ": "Mueang Chai Nat",
+				"แขวง_ตำบล": "ในเมือง",
+				"แขวง_ตำบล_อังกฤษ": "Nai Mueang",
+				"สถานะโครงการ": "สิ้นสุดสัญญา",
+				"พิกัดของโครงการ": "",
+				"ละติจูดของโตรงการ": "",
+				"ลองจิจูดของโตรงการ": "",
+				"เลขนิติบุคคล13หลัก": "0105531014031",
+				"ผู้ชนะการเสนอราคา": "บริษัท วิค วอเตอร์ จำกัด",
+				"เลขที่สัญญา": "270/2563",
+				"วันที่ลงนามในสัญญา": "2020-07-10",
+				"วันที่สิ้นสุดสัญญา": "2020-07-30",
+				"งบประมาณในสัญญา_บาท": 82176.0,
+				"สถานะสัญญา": "สิ้นสุดสัญญา"
+			},
+			{
+				"Unnamed: 0": 46905,
+				"ลำดับ": 44892,
+				"รหัสโครงการ": 63027043509,
+				"ชื่อโครงการฯ": "ประกวดราคาซื้อโครงการปรับปรุงซ่อมแซมระบบประปาหมู่บ้าน แบบผิวดินขนาดใหญ่ บริเวณที่ทำการประปาเทศบาลตำบลเสาไห้ หมู่ที่ 3 บ้านเหนือพัฒนา ตำบลเสาไห้ เทศบาลตำบลเสาไห้ อำเภอเสาไห้ จังหวัดสระบุรี ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อประเภทโครงการ": "ซื้อ",
+				"ชื่อหน่วยงาน": "เทศบาลตำบลเสาไห้",
+				"ชื่อหน่วยงานย่อย": "เทศบาลตำบลเสาไห้",
+				"ชื่อวิธีการฯ": "ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "2020-02-13",
+				"วงเงินงบประมาณ_บาท": 7900000.0,
+				"ราคากลาง_บาท": 7900000.0,
+				"ราคารวมทุกสัญญา_บาท": 7897000.0,
+				"ปีงบประมาณ": 2563,
+				"วันที่เกิดรายการ": "2020-03-19",
+				"จังหวัด": "สระบุรี",
+				"จังหวัด_อังกฤษ": "Saraburi",
+				"เขต_อำเภอ": "เมืองสระบุรี",
+				"เขต_อำเภอ_อังกฤษ": "Mueang Saraburi",
+				"แขวง_ตำบล": "ปากเพรียว",
+				"แขวง_ตำบล_อังกฤษ": "Pak Phriao",
+				"สถานะโครงการ": "ระหว่างดำเนินการ",
+				"พิกัดของโครงการ": "",
+				"ละติจูดของโตรงการ": "",
+				"ลองจิจูดของโตรงการ": "",
+				"เลขนิติบุคคล13หลัก": "0105531014031",
+				"ผู้ชนะการเสนอราคา": "บริษัท วิค วอเตอร์ จำกัด",
+				"เลขที่สัญญา": "e ๐๓/๒๕๖๓",
+				"วันที่ลงนามในสัญญา": "2020-03-19",
+				"วันที่สิ้นสุดสัญญา": "2020-08-17",
+				"งบประมาณในสัญญา_บาท": 7897000.0,
+				"สถานะสัญญา": "ระหว่างดำเนินการ"
+			},
+			{
+				"Unnamed: 0": 46906,
+				"ลำดับ": 92885,
+				"รหัสโครงการ": 63047423812,
+				"ชื่อโครงการฯ": "ประกวดราคาซื้อโครงการปรับปรุงระบบผลิตน้ำประปา แบบผิวดินขนาดกลาง หมู่ที่ 7 บ้านเกาะแก้วอรุณคาม  ตำบลหนองหมู เทศบาลตำบลหนองหมู อำเภอวิหารแดง จังหวัดสระบุรี  1 แห่ง  รายละเอียดตามแบบเทศบาลกำหนด ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อประเภทโครงการ": "ซื้อ",
+				"ชื่อหน่วยงาน": "เทศบาลตำบลหนองหมู",
+				"ชื่อหน่วยงานย่อย": "เทศบาลตำบลหนองหมู",
+				"ชื่อวิธีการฯ": "ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)",
+				"ชื่อกลุ่มวิธีการฯ": "วิธีการจัดหา ประกาศเชิญชวนทั่วไป คัดเลือก เฉพาะเจาะจง",
+				"วันที่ประกาศฯ": "2020-05-08",
+				"วงเงินงบประมาณ_บาท": 8070000.0,
+				"ราคากลาง_บาท": 7470000.0,
+				"ราคารวมทุกสัญญา_บาท": 7897000.0,
+				"ปีงบประมาณ": 2563,
+				"วันที่เกิดรายการ": "2020-06-09",
+				"จังหวัด": "สระบุรี",
+				"จังหวัด_อังกฤษ": "Saraburi",
+				"เขต_อำเภอ": "วิหารแดง",
+				"เขต_อำเภอ_อังกฤษ": "Wihan Daeng",
+				"แขวง_ตำบล": "หนองหมู",
+				"แขวง_ตำบล_อังกฤษ": "Nong Mu",
+				"สถานะโครงการ": "ระหว่างดำเนินการ",
+				"พิกัดของโครงการ": "",
+				"ละติจูดของโตรงการ": "",
+				"ลองจิจูดของโตรงการ": "",
+				"เลขนิติบุคคล13หลัก": "0105531014031",
+				"ผู้ชนะการเสนอราคา": "บริษัท วิค วอเตอร์ จำกัด",
+				"เลขที่สัญญา": "2/2563",
+				"วันที่ลงนามในสัญญา": "2020-06-09",
+				"วันที่สิ้นสุดสัญญา": "2020-09-06",
+				"งบประมาณในสัญญา_บาท": 7897000.0,
+				"สถานะสัญญา": "ระหว่างดำเนินการ"
+			}
+		]
+	},
+	{
+		"full_address": "90/375  หมู่ที่ 8 ต.บางครุ อ.พระประแดง จ.สมุทรปราการ",
+		"financial": [
+			{ "year": "2564", "income": 62570.38 },
+			{ "year": "2563", "income": 272515.2 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 7127.89 }
+		],
+		"value_share": 42168,
+		"submit_obj_big_type": "H",
+		"company_name_th": "มัณฑนา ร่วมใจ จำกัด",
+		"pct_share": 0.3846,
+		"obj_tname": "กิจกรรมการบริการอื่นๆที่สนับสนุนการขนส่งทางบก ซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0115561017933",
+		"reg_date": "09/07/2561",
+		"company_name_en": "MANTHANA RUAMJAI COMPANY LIMITED",
+		"tsic": 52219,
+		"cap_amt": 13000000,
+		"company_value": 10964154,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ชิดชอบ",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "พรรณี"
+			},
+			{
+				"Lastname": "ผ่องจิตวัฒนา",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "ธารทิพย์"
+			},
+			{
+				"Lastname": "วีชนีมาศ",
+				"value_share": 33737,
+				"Nationality": "TH",
+				"pct_share": 0.31,
+				"count_share": 4,
+				"Firstname": "อรุณวรรณ"
+			},
+			{
+				"Lastname": "ลีลาพงศ์",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "พิพัฒน์"
+			},
+			{
+				"Lastname": "ศิริศุขสกุลชัย",
+				"value_share": 67473,
+				"Nationality": "TH",
+				"pct_share": 0.62,
+				"count_share": 8,
+				"Firstname": "ธนกร"
+			},
+			{
+				"Lastname": "อภิรักษ์ทานนท์",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "สมหมาย"
+			},
+			{
+				"Lastname": "ลี้ศักดิ์สกุล",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "อภินันท์"
+			},
+			{
+				"Lastname": "มหาปิยศิลป์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ศรีธิมา"
+			},
+			{
+				"Lastname": "สาธิตะกร",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "อุบล"
+			},
+			{
+				"Lastname": "เต็มจิระสวัสดิ์",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "ธนสัณฑ์"
+			},
+			{
+				"Lastname": "กฤษฏาพิพัฒน์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ชลากร"
+			},
+			{
+				"Lastname": "เจี้ยงยี่",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "ปาณัสม์"
+			},
+			{
+				"Lastname": "อุดมตระกูลวงศ์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ศรุตา"
+			},
+			{
+				"Lastname": "เตชวิริยะ",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ศรีสุนันท์"
+			},
+			{
+				"Lastname": "อรุณสุขรุจี",
+				"value_share": 33737,
+				"Nationality": "TH",
+				"pct_share": 0.31,
+				"count_share": 4,
+				"Firstname": "สมนึก"
+			},
+			{
+				"Lastname": "ทวีศักดิ์เจริญผล",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สมเกียรติ"
+			},
+			{
+				"Lastname": "สีใจออน",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ปิยะพงษ์"
+			},
+			{
+				"Lastname": "พงษ์สังข์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "สุภิญญา"
+			},
+			{
+				"Lastname": "หวังวิชา",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สราวุธ"
+			},
+			{
+				"Lastname": "รักพงษ์ไพโรจน์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "มาลี"
+			},
+			{
+				"Lastname": "ศรีมารดากุล",
+				"value_share": 219283,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 26,
+				"Firstname": "ธรรมนูญ"
+			},
+			{
+				"Lastname": "เหลืองเจริญพร",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "มนัสนันท์"
+			},
+			{
+				"Lastname": "พรประทาน",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "นงนุช"
+			},
+			{
+				"Lastname": "สกุลวรรัตน์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "วิมลวรรณ"
+			},
+			{
+				"Lastname": "สังข์ศิริ",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "ลาวัลลิ์"
+			},
+			{
+				"Lastname": "จารุโรจน์ปกรณ์",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ชณัฐ"
+			},
+			{
+				"Lastname": "สิทธิการิยะวัตร",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "จิตรสอางค์"
+			},
+			{
+				"Lastname": "เพื่อสัมพันธ์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "อุษา"
+			},
+			{
+				"Lastname": "พิพัฒน์จินดากุล",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "ศิริพร"
+			},
+			{
+				"Lastname": "ผ่องจิตวัฒนา",
+				"value_share": 67473,
+				"Nationality": "TH",
+				"pct_share": 0.62,
+				"count_share": 8,
+				"Firstname": "สุนันทา"
+			},
+			{
+				"Lastname": "แซ่แต้",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "วิภา"
+			},
+			{
+				"Lastname": "จรัสกำจรกูล",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "สันติ"
+			},
+			{
+				"Lastname": "พรประทาน",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "รัตนา"
+			},
+			{
+				"Lastname": "เรืองฤทธิ์",
+				"value_share": 50600,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 6,
+				"Firstname": "ยุพิน"
+			},
+			{
+				"Lastname": "คำนูณทรัพย์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "สุเชาว์"
+			},
+			{
+				"Lastname": "จงประเสริฐ",
+				"value_share": 101210,
+				"Nationality": "TH",
+				"pct_share": 0.92,
+				"count_share": 12,
+				"Firstname": "กิตติพงษ์"
+			},
+			{
+				"Lastname": "เหล่าสถิรวงศ์",
+				"value_share": 168684,
+				"Nationality": "TH",
+				"pct_share": 1.54,
+				"count_share": 20,
+				"Firstname": "ณัฐภูมิ"
+			},
+			{
+				"Lastname": "สุทธิธรรมจิต",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "จันทร์พร"
+			},
+			{
+				"Lastname": "เมธามัย",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "วันนา"
+			},
+			{
+				"Lastname": "ปกรโณดม",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "นีลัญชนา"
+			},
+			{
+				"Lastname": "วงศาสุราฤทธิ์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ชัยพร"
+			},
+			{
+				"Lastname": "ศิลปวิศวกุล",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ศิวชรินร์"
+			},
+			{
+				"Lastname": "ไตรพงษ์โสภณ",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "ธันยนันท์"
+			},
+			{
+				"Lastname": "สุรชีพ",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "นงลักษณ์"
+			},
+			{
+				"Lastname": "ทรัพย์อเนก",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "ณัฐพล"
+			},
+			{
+				"Lastname": "เต็มศิริวัฒน์",
+				"value_share": 67473,
+				"Nationality": "TH",
+				"pct_share": 0.62,
+				"count_share": 8,
+				"Firstname": "สถาพร"
+			},
+			{
+				"Lastname": "อัครพัฒนานุกูล",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "อภิศักดิ์"
+			},
+			{
+				"Lastname": "วงศ์สวัสดิ์ไพศาล",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สุวรรณี"
+			},
+			{
+				"Lastname": "ดิลกชัยพร",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ปิติ"
+			},
+			{
+				"Lastname": "พิเชฐวศิน",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "ศิริรัตน์"
+			},
+			{
+				"Lastname": "เดชอมรรัตน์",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ชนาภา"
+			},
+			{
+				"Lastname": "วงศ์ประเสริฐผล",
+				"value_share": 33737,
+				"Nationality": "TH",
+				"pct_share": 0.31,
+				"count_share": 4,
+				"Firstname": "สมพร"
+			},
+			{
+				"Lastname": "เหลืองเจริญพร",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "บรรจง"
+			},
+			{
+				"Lastname": "คุณะวิวัฒนานนท์",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ศุภศิลป์"
+			},
+			{
+				"Lastname": "วัฒน์จิรวานิช",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "สุธิณีย์"
+			},
+			{
+				"Lastname": "ตั้งตันตรานนท์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สุธีสัณห์"
+			},
+			{
+				"Lastname": "นวลมณี",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "นาวิน"
+			},
+			{
+				"Lastname": "บัวใบ",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "อนนท์"
+			},
+			{
+				"Lastname": "วัฒนรังษีขจร",
+				"value_share": 219283,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 26,
+				"Firstname": "พงศกร"
+			},
+			{
+				"Lastname": "ศรีสวัสดิ์",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "ปกร"
+			},
+			{
+				"Lastname": "ทัฬหิกรรม",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "วีรวัฒน์"
+			},
+			{
+				"Lastname": "ริยะตานนท์",
+				"value_share": 59042,
+				"Nationality": "TH",
+				"pct_share": 0.54,
+				"count_share": 7,
+				"Firstname": "เยือน"
+			},
+			{
+				"Lastname": "หมั่นคติธรรม",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "กรรณิกา"
+			},
+			{
+				"Lastname": "มีรัตน์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "นภสร"
+			},
+			{
+				"Lastname": "เมฆทรงฤกษ์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "วีระ"
+			},
+			{
+				"Lastname": "ภู่โอบอ้อม",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ชัญญภัค"
+			},
+			{
+				"Lastname": "วงศ์ธัญวัฒน์",
+				"value_share": 33737,
+				"Nationality": "TH",
+				"pct_share": 0.31,
+				"count_share": 4,
+				"Firstname": "พรรวีร์"
+			},
+			{
+				"Lastname": "ชวลิตมณเฑียร",
+				"value_share": 75905,
+				"Nationality": "TH",
+				"pct_share": 0.69,
+				"count_share": 9,
+				"Firstname": "วิลาวัลย์"
+			},
+			{
+				"Lastname": "วิจิตจิรกุล",
+				"value_share": 295188,
+				"Nationality": "TH",
+				"pct_share": 2.69,
+				"count_share": 35,
+				"Firstname": "พัศพงศ์"
+			},
+			{
+				"Lastname": "เหล่านุญชัย",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ปริญญา"
+			},
+			{
+				"Lastname": "นิลยนาท",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "กัญญา"
+			},
+			{
+				"Lastname": "อัศวกิจพานิช",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "หวา"
+			},
+			{
+				"Lastname": "สุขุมาลจิตกุล",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "สมจิตต์"
+			},
+			{
+				"Lastname": "โกสัลล์ประไพ",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "พิชัย"
+			},
+			{
+				"Lastname": "เกิดสุวรรณ",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "เอนก"
+			},
+			{
+				"Lastname": "ภวธรรม",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "พรรณปพร"
+			},
+			{
+				"Lastname": "ธรรมพุฒิพงศ์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ธัชพงศ์",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ธัชพงศ์ ธรรมพุฒิพงศ์",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "889",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/ธัชพงศ์-ธรรมพุฒิพงศ์.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "โพธิ์นทีไท",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ธงธรรม"
+			},
+			{
+				"Lastname": "วรัญญาพร",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ธนา"
+			},
+			{
+				"Lastname": "วิรุณรัตนกิจ",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "ยิ่งลักษณ์"
+			},
+			{
+				"Lastname": "สุวรรณกุล",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "เขมชาติ"
+			},
+			{
+				"Lastname": "ลลิดาสุตานันท์",
+				"value_share": 92779,
+				"Nationality": "TH",
+				"pct_share": 0.85,
+				"count_share": 11,
+				"Firstname": "ณัฏฐ์มาติกา"
+			},
+			{
+				"Lastname": "สันติวัฒนา",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "นวพร"
+			},
+			{
+				"Lastname": "อิงคะวัต",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "นภาดา"
+			},
+			{
+				"Lastname": "กำเหนิดงาม",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "ปุญชรัศมิ์"
+			},
+			{
+				"Lastname": "ปิติดา",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "รัชชนันท์"
+			},
+			{
+				"Lastname": "สาธิตะกร",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "รัตนา"
+			},
+			{
+				"Lastname": "เมฆทิพย์พาชัย",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "จุฑามาศ"
+			},
+			{
+				"Lastname": "พิรุณธนาไพศาล",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "อนุชา"
+			},
+			{
+				"Lastname": "จิตตเกษม",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "นิศานาถ"
+			},
+			{
+				"Lastname": "ตันติกุลไพบูลย์",
+				"value_share": 126504,
+				"Nationality": "TH",
+				"pct_share": 1.15,
+				"count_share": 15,
+				"Firstname": "ศิริรักษ์"
+			},
+			{
+				"Lastname": "สันติวัฒนา",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "รจิต"
+			},
+			{
+				"Lastname": "เตาทองนันตสิน",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "รุ่งนภา"
+			},
+			{
+				"Lastname": "ตั้งเทวนนท์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "ศักดิ์ชัย"
+			},
+			{
+				"Lastname": "คงปลื้มจิตต์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "พงศ์กิต"
+			},
+			{
+				"Lastname": "ทัฬหิกรรม",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สมโมท"
+			},
+			{
+				"Lastname": "ตันติเศรษฐ",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "พรทิพย์"
+			},
+			{
+				"Lastname": "จิตต์สอาด",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "เกรียงศักดิ์"
+			},
+			{
+				"Lastname": "ปาละสมิทธิ์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "วิชัย"
+			},
+			{
+				"Lastname": "จิรศักดิ์หิรัญ",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "ณรงค์"
+			},
+			{
+				"Lastname": "เขมะลิลิต",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ชาญวิทย์"
+			},
+			{
+				"Lastname": "เคนมี",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "วิชิตา"
+			},
+			{
+				"Lastname": "รุ่งเจิดฟ้า",
+				"value_share": 126504,
+				"Nationality": "TH",
+				"pct_share": 1.15,
+				"count_share": 15,
+				"Firstname": "สุวิทย์"
+			},
+			{
+				"Lastname": "เจริญจิตมั่น",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ประกฤต"
+			},
+			{
+				"Lastname": "ภักดีสันติสกุล",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "วิภา"
+			},
+			{
+				"Lastname": "เต็มพิชญานนท์",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "สุพิชญา"
+			},
+			{
+				"Lastname": "ไทยทอง",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "กอบพร"
+			},
+			{
+				"Lastname": "สิมะวรา",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "อมรรัตน์"
+			},
+			{
+				"Lastname": "อเนกพิพัฒน์กุล",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "รัสรินทร์"
+			},
+			{
+				"Lastname": "หงษ์ยันตรชัย",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ฐิรชัย"
+			},
+			{
+				"Lastname": "แสงประสิทธิ์",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "ประไพ"
+			},
+			{
+				"Lastname": "อภิชาติวรกิจ",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "สมศักดิ์"
+			},
+			{
+				"Lastname": "เครือลอย",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "คุณวุฒิ"
+			},
+			{
+				"Lastname": "ชูบุญสังข์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สุชาติ"
+			},
+			{
+				"Lastname": "ผลานันตพงศ์",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "สุวระ"
+			},
+			{
+				"Lastname": "สันติวัฒนา",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สุรวิช"
+			},
+			{
+				"Lastname": "ตันปัทมดิลก",
+				"value_share": 33737,
+				"Nationality": "TH",
+				"pct_share": 0.31,
+				"count_share": 4,
+				"Firstname": "ธงชัย"
+			},
+			{
+				"Lastname": "ศรีมโนธรรม",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "อรพันธ์"
+			},
+			{
+				"Lastname": "เมตตพันธุ์",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "ธนภัส"
+			},
+			{
+				"Lastname": "เพชรคงแก้ว",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "อวันวี"
+			},
+			{
+				"Lastname": "ธรรมพุฒิพงศ์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ธัญนันท์"
+			},
+			{
+				"Lastname": "วัชรเธียรสกุล",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "สุวรรณา"
+			},
+			{
+				"Lastname": "นิมนภาโรจน์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ณัฐณิชา"
+			},
+			{
+				"Lastname": "เกษมพินิจวงษ์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ทรรศนีย์"
+			},
+			{
+				"Lastname": "อรรถเสรีพงศ์",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "มลวิภา"
+			},
+			{
+				"Lastname": "เรืองฤทธิ์",
+				"value_share": 50600,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 6,
+				"Firstname": "ทิพวัลย์"
+			},
+			{
+				"Lastname": "พัฒนาปัญญาสัตย์",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "กัญญพร"
+			},
+			{
+				"Lastname": "วิริยะวาณิชยกุล",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ลาวัณย์"
+			},
+			{
+				"Lastname": "วรัญญาพร",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "สุวิทย์"
+			},
+			{
+				"Lastname": "พลอยส่องแสง",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "นรพันธุ์"
+			},
+			{
+				"Lastname": "ภูษณอาสน์",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ยุภาพร"
+			},
+			{
+				"Lastname": "เกริกกวิน",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "พรศักดิ์"
+			},
+			{
+				"Lastname": "เสาะแสวง",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "พรชัย"
+			},
+			{
+				"Lastname": "รุ่งทวีสิน",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "วรพจน์"
+			},
+			{
+				"Lastname": "ธนาพันธ์สิน",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "บุญเพียร"
+			},
+			{
+				"Lastname": "อมรานันทกิจ",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "สันทัด"
+			},
+			{
+				"Lastname": "ศรีบุศราคัม",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "วิโรจน์"
+			},
+			{
+				"Lastname": "อริยะมรรคกูร",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "เกรียงศักดิ์"
+			},
+			{
+				"Lastname": "รุจิรเศรษฐกุล",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "เอกรัตน์"
+			},
+			{
+				"Lastname": "วิทยาพูล",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "วรรณวิภา"
+			},
+			{
+				"Lastname": "อุทัยสินศักดิ์",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "เสาวลักษณ์"
+			},
+			{
+				"Lastname": "ทิพย์เนตร",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "อภิญญา"
+			},
+			{
+				"Lastname": "พงศ์กิจธนากร",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "สมยศ"
+			},
+			{
+				"Lastname": "ประจักษ์จิตร",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "ศิริเพ็ญ"
+			},
+			{
+				"Lastname": "วิศวกุล",
+				"value_share": 168684,
+				"Nationality": "TH",
+				"pct_share": 1.54,
+				"count_share": 20,
+				"Firstname": "สุพจน์"
+			},
+			{
+				"Lastname": "เจี่ยปิยะสกุล",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "พรทิพย์"
+			},
+			{
+				"Lastname": "นิลประกอบกุล",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "กัญญา"
+			},
+			{
+				"Lastname": "ประภาเพ็ญสุข",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "เจตต์ปรียา"
+			},
+			{
+				"Lastname": "กรเจริญพิสุทธิ์",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "อภิณห์พร"
+			},
+			{
+				"Lastname": "เกษมพินิจวงษ์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สุนีย์"
+			},
+			{
+				"Lastname": "พรประทาน",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "วรรณพร"
+			},
+			{
+				"Lastname": "วัฒนากุลชัย",
+				"value_share": 421703,
+				"Nationality": "TH",
+				"pct_share": 3.85,
+				"count_share": 50,
+				"Firstname": "สุรชัย"
+			},
+			{
+				"Lastname": "เตชะอำนวยวิทย์",
+				"value_share": 67473,
+				"Nationality": "TH",
+				"pct_share": 0.62,
+				"count_share": 8,
+				"Firstname": "นิรุติ"
+			},
+			{
+				"Lastname": "เติมตฤษณา",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "สมชาย"
+			},
+			{
+				"Lastname": "แจ่มสว่าง",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สุวรรณี"
+			},
+			{
+				"Lastname": "ปภัสราทร",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "รสสุคนธ์"
+			},
+			{
+				"Lastname": "บุญส่งแท้",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ปริญญา"
+			},
+			{
+				"Lastname": "ภัทธิราวรางกูล",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "นิติธร"
+			},
+			{
+				"Lastname": "ตั้งพิทักษ์เสมอ",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ฐากุล"
+			},
+			{
+				"Lastname": "ชัยกิจตระกูล",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "วนิตดา"
+			},
+			{
+				"Lastname": "อัครคณานุกิจชัย",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ศิรกาญจน์"
+			},
+			{
+				"Lastname": "สิริขจรเดชสกุล",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "นพรัตน์"
+			},
+			{
+				"Lastname": "ศิลาพัชรนันท์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สุพิชชา"
+			},
+			{
+				"Lastname": "สานแสงธรรม",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "นายอโนชา"
+			},
+			{
+				"Lastname": "อรรจนียกุล",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ดารณี"
+			},
+			{
+				"Lastname": "แซ่แต้",
+				"value_share": 126504,
+				"Nationality": "TH",
+				"pct_share": 1.15,
+				"count_share": 15,
+				"Firstname": "วิเชียร"
+			},
+			{
+				"Lastname": "คงสกนธ์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "รณชัย"
+			},
+			{
+				"Lastname": "ศักดามินทร์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "โชคดี"
+			},
+			{
+				"Lastname": "รักพงษ์ไพโรจน์",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "วิมล"
+			},
+			{
+				"Lastname": "วีระธรรมนูญ",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "ณฤดี"
+			},
+			{
+				"Lastname": "ทวีศักดิ์เจริญผล",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "บุษยา"
+			},
+			{
+				"Lastname": "นันทพรภักดี",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "แสงเดือน"
+			},
+			{
+				"Lastname": "เหล่าพงษ์ศร",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "อัญชุลี"
+			},
+			{
+				"Lastname": "ลัภยานันท์",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "อภิสิทธิ์"
+			},
+			{
+				"Lastname": "ดาราเย็น",
+				"value_share": 126504,
+				"Nationality": "TH",
+				"pct_share": 1.15,
+				"count_share": 15,
+				"Firstname": "ประสาน"
+			},
+			{
+				"Lastname": "เพื่อสัมพันธ์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "สัมมิตร"
+			},
+			{
+				"Lastname": "มหาปิยศิลป์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "พรรณทิวา"
+			},
+			{
+				"Lastname": "กำลูนเวสารัช",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สมบูรณ์"
+			},
+			{
+				"Lastname": "ชัยชาญทิพยุทธ",
+				"value_share": 168684,
+				"Nationality": "TH",
+				"pct_share": 1.54,
+				"count_share": 20,
+				"Firstname": "พัชรนันท์"
+			},
+			{
+				"Lastname": "บุญวงศ์สถิตย์",
+				"value_share": 59042,
+				"Nationality": "TH",
+				"pct_share": 0.54,
+				"count_share": 7,
+				"Firstname": "รัสรินทร์"
+			},
+			{
+				"Lastname": "ประทุมถิ่น",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ยุวดี"
+			},
+			{
+				"Lastname": "จิตระวีวรรณ",
+				"value_share": 67473,
+				"Nationality": "TH",
+				"pct_share": 0.62,
+				"count_share": 8,
+				"Firstname": "อนุรัตน์"
+			},
+			{
+				"Lastname": "แซ่ซิน",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "สมบัติ"
+			},
+			{
+				"Lastname": "เมฆทิพย์พาชัย",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "ชิงชัย"
+			},
+			{
+				"Lastname": "หวังสวาท",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "คุ้มเกล้า"
+			},
+			{
+				"Lastname": "บุญเกิด",
+				"value_share": 210852,
+				"Nationality": "TH",
+				"pct_share": 1.92,
+				"count_share": 25,
+				"Firstname": "สมยศ"
+			},
+			{
+				"Lastname": "วงศาสุราฤทธิ์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "คณิน"
+			},
+			{
+				"Lastname": "บันลือสิน",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ประกิตต์"
+			},
+			{
+				"Lastname": "โชติสวัสดิ์",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "เกศินี"
+			},
+			{
+				"Lastname": "แสงประสิทธิ์",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "อรรณพ"
+			},
+			{
+				"Lastname": "เกษมสุข",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "เพลินจันทร์"
+			},
+			{
+				"Lastname": "เชาวน์เลิศเสรี",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "มนทิรา"
+			},
+			{
+				"Lastname": "จุลละศร",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "ธัญลักษณ์"
+			},
+			{
+				"Lastname": "ศรีบุญธรรม",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ดนิตา"
+			},
+			{
+				"Lastname": "พงษ์วุฒิเศรษฐ",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ภูมิพัฒน์"
+			},
+			{
+				"Lastname": "วงศ์ไพบูลย์เกษม",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "หทัยรัตน์"
+			},
+			{
+				"Lastname": "ตั้งพิทักษ์เสมอ",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "วันเพ็ญ"
+			},
+			{
+				"Lastname": "วัฒนพละศิริ",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "อำนาจ"
+			},
+			{
+				"Lastname": "ทาสีทอง",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "วิไล"
+			},
+			{
+				"Lastname": "อัศววิรุฬหวงศ์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ไพโรจน์"
+			},
+			{
+				"Lastname": "วงศ์สถาพรชัย",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "ภัทรชวัลย์"
+			},
+			{
+				"Lastname": "ทิพยาวิภาส",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "นิพนธ์"
+			},
+			{
+				"Lastname": "คำภู่",
+				"value_share": 33737,
+				"Nationality": "TH",
+				"pct_share": 0.31,
+				"count_share": 4,
+				"Firstname": "เจริญ"
+			},
+			{
+				"Lastname": "สร้อยโมรา",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "เยาวนุช"
+			},
+			{
+				"Lastname": "วลัยลักษณาภรณ์",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "สุมิตรา"
+			},
+			{
+				"Lastname": "พุทธทองศรี",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ชนะ"
+			},
+			{
+				"Lastname": "ยอดนวล",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "วิวัฒน์"
+			},
+			{
+				"Lastname": "เตียสกุล",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ธเชษฐ์"
+			},
+			{
+				"Lastname": "เมตตาวิหารี",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "วิภา"
+			},
+			{
+				"Lastname": "จงสุพรรณพงศ์",
+				"value_share": 33737,
+				"Nationality": "TH",
+				"pct_share": 0.31,
+				"count_share": 4,
+				"Firstname": "ธวันวนัช"
+			},
+			{
+				"Lastname": "พิราจเนนชัย",
+				"value_share": 67473,
+				"Nationality": "TH",
+				"pct_share": 0.62,
+				"count_share": 8,
+				"Firstname": "จินรัตน์"
+			},
+			{
+				"Lastname": "พรรณพูนศักดิ์",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "ชาตรี"
+			},
+			{
+				"Lastname": "สมัญญาภรณ์",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "วิทวัส"
+			},
+			{
+				"Lastname": "โอฬาระชิน",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "พรชัย"
+			},
+			{
+				"Lastname": "ตัน",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "เรณู"
+			},
+			{
+				"Lastname": "พรเภตรา",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "อภิชญา"
+			},
+			{
+				"Lastname": "เรืองศรีพิสิฐกุล",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "ศศนันท์"
+			},
+			{
+				"Lastname": "ศักดิ์ฉัตรมงคล",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "นิตยา"
+			},
+			{
+				"Lastname": "แซ่เฮง",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "ณัฐพล"
+			},
+			{
+				"Lastname": "กาญจนรุจิวุฒิ",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "พิสิฐ"
+			},
+			{
+				"Lastname": "เหมาะเจาะ",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "นัฏญา"
+			},
+			{
+				"Lastname": "ตั้งพิทักษ์เสมอ",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "วรรณา"
+			},
+			{
+				"Lastname": "บำรุงเวช",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "พินันท์"
+			},
+			{
+				"Lastname": "มหาวรสวัสดิ์",
+				"value_share": 126504,
+				"Nationality": "TH",
+				"pct_share": 1.15,
+				"count_share": 15,
+				"Firstname": "พัชร์จิตรา"
+			},
+			{
+				"Lastname": "กูลกิจวานิช",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "นิภาพรรณ"
+			},
+			{
+				"Lastname": "สร้อยโมรา",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "เสาวลักษณ์"
+			},
+			{
+				"Lastname": "อาจอภิสิทธิ์",
+				"value_share": 8431,
+				"Nationality": "TH",
+				"pct_share": 0.08,
+				"count_share": 1,
+				"Firstname": "ธราดล"
+			},
+			{
+				"Lastname": "ปราบโรค",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "กลิ่นสุคนธ์"
+			},
+			{
+				"Lastname": "เต็มศิริวัฒน์",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "สุวรรณา"
+			},
+			{
+				"Lastname": "สีห์โสภณ",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "จิณณพัต"
+			},
+			{
+				"Lastname": "แต่บรรพกุล",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "สุทธิพงษ์"
+			},
+			{
+				"Lastname": "ซื่อสัจจกุล",
+				"value_share": 421703,
+				"Nationality": "TH",
+				"pct_share": 3.85,
+				"count_share": 50,
+				"Firstname": "ธนภัทร"
+			},
+			{
+				"Lastname": "ชุติพานิชย์",
+				"value_share": 33737,
+				"Nationality": "TH",
+				"pct_share": 0.31,
+				"count_share": 4,
+				"Firstname": "ปภาภรณ์"
+			},
+			{
+				"Lastname": "สันติวัฒนา",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "นวตา"
+			},
+			{
+				"Lastname": "กิตติมนตรีชัย",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "สมคิด"
+			},
+			{
+				"Lastname": "รุ่งเจริญสุขศรี",
+				"value_share": 50600,
+				"Nationality": "TH",
+				"pct_share": 0.46,
+				"count_share": 6,
+				"Firstname": "สุนิสา"
+			},
+			{
+				"Lastname": "สุขดวง",
+				"value_share": 25305,
+				"Nationality": "TH",
+				"pct_share": 0.23,
+				"count_share": 3,
+				"Firstname": "อริชยา"
+			},
+			{
+				"Lastname": "อัศวสิทธิถาวร",
+				"value_share": 84336,
+				"Nationality": "TH",
+				"pct_share": 0.77,
+				"count_share": 10,
+				"Firstname": "สงวน"
+			},
+			{
+				"Lastname": "สุวรรณวานิช",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "สุรงค์"
+			},
+			{
+				"Lastname": "ใจโต",
+				"value_share": 42168,
+				"Nationality": "TH",
+				"pct_share": 0.38,
+				"count_share": 5,
+				"Firstname": "อรวรรณ"
+			},
+			{
+				"Lastname": "เสถียรฤทัย",
+				"value_share": 33737,
+				"Nationality": "TH",
+				"pct_share": 0.31,
+				"count_share": 4,
+				"Firstname": "เพลินพิศ"
+			},
+			{
+				"Lastname": "หงส์หาญณรงค์",
+				"value_share": 16863,
+				"Nationality": "TH",
+				"pct_share": 0.15,
+				"count_share": 2,
+				"Firstname": "พรทิพย์"
+			}
+		],
+		"count_shareholder": 5,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "55/2 หมู่ที่ 1 ต.ศาลายา อ.พุทธมณฑล จ.นครปฐม",
+		"financial": [
+			{ "year": "2564", "income": 17426480.5899999999 },
+			{ "year": "2563", "income": 19510572.1999999993 },
+			{ "year": "2562", "income": 32061708.2699999996 },
+			{ "year": "2561", "income": 26094245.5 }
+		],
+		"value_share": 54151,
+		"submit_obj_big_type": "M",
+		"company_name_th": "สเต็ม เซลล์ ฟอร์ ไลฟ์ จำกัด",
+		"pct_share": 0.2463,
+		"obj_tname": "การวิจัยและพัฒนาเชิงทดลองด้านวิทยาศาสตร์ธรรมชาติ",
+		"company_id": "0105549022213",
+		"reg_date": "16/2/2549",
+		"company_name_en": "STEM CELF FOR LIFE COMPANY LIMITED",
+		"tsic": 72101,
+		"cap_amt": 101500000,
+		"company_value": 21985864,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ปลั่งศรีสกุล",
+				"value_share": 108302,
+				"Nationality": "TH",
+				"pct_share": 0.49,
+				"count_share": 5000,
+				"Firstname": "วรวรรณ"
+			},
+			{
+				"Lastname": "อรรถวรางกูร",
+				"value_share": 43312,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 2000,
+				"Firstname": "รัชนี"
+			},
+			{
+				"Lastname": "ศรีวัฒนกุล",
+				"value_share": 194949,
+				"Nationality": "TH",
+				"pct_share": 0.89,
+				"count_share": 9000,
+				"Firstname": "กำพล"
+			},
+			{
+				"Lastname": "โชติวัฒนะพันธุ์",
+				"value_share": 108302,
+				"Nationality": "TH",
+				"pct_share": 0.49,
+				"count_share": 5000,
+				"Firstname": "เจริญขวัญ"
+			},
+			{
+				"Lastname": "",
+				"value_share": 7278068,
+				"Nationality": "TH",
+				"pct_share": 33.1,
+				"count_share": 336000,
+				"Firstname": "บริษัท โรงงานเภสัชกรรม เกร๊ทเตอร์ฟาร์ม่า จำกัด"
+			},
+			{
+				"Lastname": "ศรีประดิษวรกุล",
+				"value_share": 151637,
+				"Nationality": "TH",
+				"pct_share": 0.69,
+				"count_share": 7000,
+				"Firstname": "ทวี"
+			},
+			{
+				"Lastname": "",
+				"value_share": 1299650,
+				"Nationality": "TH",
+				"pct_share": 5.91,
+				"count_share": 60000,
+				"Firstname": "บริษัท โชติวัฒน์โฮลดิ้ง จำกัด"
+			},
+			{
+				"Lastname": "มณฑา",
+				"value_share": 43312,
+				"Nationality": "TH",
+				"pct_share": 0.2,
+				"count_share": 2000,
+				"Firstname": "ธีระวุฒิ"
+			},
+			{
+				"Lastname": "เจริญกุล",
+				"value_share": 54151,
+				"Nationality": "TH",
+				"pct_share": 0.25,
+				"count_share": 2500,
+				"Firstname": "เจริญศรี"
+			},
+			{
+				"Lastname": "เต็งอำนวย",
+				"value_share": 433209,
+				"Nationality": "TH",
+				"pct_share": 1.97,
+				"count_share": 20000,
+				"Firstname": "พฤศกร"
+			},
+			{
+				"Lastname": "ยงค์ฤประพันธ์",
+				"value_share": 541534,
+				"Nationality": "TH",
+				"pct_share": 2.46,
+				"count_share": 25000,
+				"Firstname": "รัตชัย"
+			},
+			{
+				"Lastname": "เจริญกุล",
+				"value_share": 54151,
+				"Nationality": "TH",
+				"pct_share": 0.25,
+				"count_share": 2500,
+				"Firstname": "เสนีย์"
+			},
+			{
+				"Lastname": "เนื่องศรี",
+				"value_share": 324907,
+				"Nationality": "TH",
+				"pct_share": 1.48,
+				"count_share": 15000,
+				"Firstname": "เอกชัย"
+			},
+			{
+				"Lastname": "อรรถวรางกูร",
+				"value_share": 86646,
+				"Nationality": "TH",
+				"pct_share": 0.39,
+				"count_share": 4000,
+				"Firstname": "ศิริพรรณ์"
+			},
+			{
+				"Lastname": "เต็งอำนวย",
+				"value_share": 10830478,
+				"Nationality": "TH",
+				"pct_share": 49.26,
+				"count_share": 500000,
+				"Firstname": "เชิญพร"
+			},
+			{
+				"Lastname": "ธรรมพุฒิพงศ์",
+				"value_share": 54151,
+				"Nationality": "TH",
+				"pct_share": 0.25,
+				"count_share": 2500,
+				"Firstname": "ธัชพงศ์",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ธัชพงศ์ ธรรมพุฒิพงศ์",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "889",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/ธัชพงศ์-ธรรมพุฒิพงศ์.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ศรจิตติ",
+				"value_share": 270756,
+				"Nationality": "TH",
+				"pct_share": 1.23,
+				"count_share": 12500,
+				"Firstname": "ศุภเสกข์"
+			},
+			{
+				"Lastname": "ไชยภัฎ",
+				"value_share": 108302,
+				"Nationality": "TH",
+				"pct_share": 0.49,
+				"count_share": 5000,
+				"Firstname": "สรรใจ"
+			}
+		],
+		"count_shareholder": 2500,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,88 @@
-[{"full_address":"3  อาคารพร้อมพันธุ์ 3  ห้องเลขที่ 1704 ชั้น 17 ซอยลาดพร้าว 3 แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร","financial":[{"year":"2564","income":6262391.8300000001},{"year":"2563","income":10618415.7799999993},{"year":"2562","income":19072075.4499999993},{"year":"2561","income":9928547.7899999991}],"value_share":868656,"submit_obj_big_type":"G","company_name_th":"เอ็น  บี  รีเทล จำกัด","pct_share":33.33,"obj_tname":"การขายส่งเครื่องสำอาง","company_id":"0105561056866","reg_date":"28\/03\/2561","company_name_en":"NB  RETAIL COMPANY LIMITED","tsic":46443,"cap_amt":5000000,"company_value":2606230,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศรีศุกรี","value_share":868656,"Nationality":"TH","pct_share":33.33,"count_share":16666,"Firstname":"อุไรรัสมิ์"},{"Lastname":"มงคลจินดาวงศ์","value_share":868656,"Nationality":"TH","pct_share":33.33,"count_share":16666,"Firstname":"ศิริวรรณ"},{"Lastname":"สถาวรวิจิตร","value_share":868656,"Nationality":"TH","pct_share":33.33,"count_share":16667,"Firstname":"ชัยวัฒน์","person":{"Number":"","Title":"นาย","Name":"ชัยวัฒน์ สถาวรวิจิตร","PartyName":"ก้าวไกล","MpType":"บัญชีรายชื่อ","Id":"1081","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/ชัยวัฒน์-สถาวรวิจิตร.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Firstname":"ชนินทร์","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"ชุมภู"}],"count_shareholder":16667,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "3  อาคารพร้อมพันธุ์ 3  ห้องเลขที่ 1704 ชั้น 17 ซอยลาดพร้าว 3 แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 6262391.8300000001 },
+			{ "year": "2563", "income": 10618415.7799999993 },
+			{ "year": "2562", "income": 19072075.4499999993 },
+			{ "year": "2561", "income": 9928547.7899999991 }
+		],
+		"value_share": 868656,
+		"submit_obj_big_type": "G",
+		"company_name_th": "เอ็น  บี  รีเทล จำกัด",
+		"pct_share": 33.33,
+		"obj_tname": "การขายส่งเครื่องสำอาง",
+		"company_id": "0105561056866",
+		"reg_date": "28/03/2561",
+		"company_name_en": "NB  RETAIL COMPANY LIMITED",
+		"tsic": 46443,
+		"cap_amt": 5000000,
+		"company_value": 2606230,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศรีศุกรี",
+				"value_share": 868656,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 16666,
+				"Firstname": "อุไรรัสมิ์"
+			},
+			{
+				"Lastname": "มงคลจินดาวงศ์",
+				"value_share": 868656,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 16666,
+				"Firstname": "ศิริวรรณ"
+			},
+			{
+				"Lastname": "สถาวรวิจิตร",
+				"value_share": 868656,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 16667,
+				"Firstname": "ชัยวัฒน์",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ชัยวัฒน์ สถาวรวิจิตร",
+					"PartyName": "ก้าวไกล",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1081",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/ชัยวัฒน์-สถาวรวิจิตร.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Firstname": "ชนินทร์",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "ชุมภู"
+			}
+		],
+		"count_shareholder": 16667,
+		"gov_fund_proj": null
+	}
+]

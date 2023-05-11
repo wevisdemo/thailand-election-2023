@@ -1,1 +1,81 @@
-[{"full_address":"250\/134 หมู่ที่ 1 ต.ลำผักกูด อ.ธัญบุรี จ.ปทุมธานี","financial":[{"year":"2564","income":121.55},{"year":"2563","income":606.3},{"year":"2562","income":3926.36},{"year":"2561","income":4019.71}],"value_share":42947,"submit_obj_big_type":"A","company_name_th":"สวัสดีซีดส์ จำกัด","pct_share":15,"obj_tname":"กระบวนการจัดการเมล็ดพันธุ์เพื่อการขยายพันธุ์","company_id":"0135556016878","reg_date":"30\/8\/2556","company_name_en":"SAWASDEE SEEDS COMPANY LIMITED","tsic":1640,"cap_amt":1000000,"company_value":286314,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เถาว์ราม","value_share":229051,"Nationality":"TH","pct_share":80,"count_share":8000,"Firstname":"เกรียงกมล"},{"Lastname":"กรดิลก","value_share":14316,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"พัฒนา"},{"Lastname":"บุญเลิศ","value_share":42947,"Nationality":"TH","pct_share":15,"count_share":1500,"Firstname":"เจริญ","person":{"Number":6,"Title":"นาย","Name":"เจริญ บุญเลิศ","PartyName":"ก้าวไกล","MpType":"แบ่งเขต","Id":"4647","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เชียงราย","MpZone":4,"MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/เจริญ-บุญเลิศ.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":1500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "250/134 หมู่ที่ 1 ต.ลำผักกูด อ.ธัญบุรี จ.ปทุมธานี",
+		"financial": [
+			{ "year": "2564", "income": 121.55 },
+			{ "year": "2563", "income": 606.3 },
+			{ "year": "2562", "income": 3926.36 },
+			{ "year": "2561", "income": 4019.71 }
+		],
+		"value_share": 42947,
+		"submit_obj_big_type": "A",
+		"company_name_th": "สวัสดีซีดส์ จำกัด",
+		"pct_share": 15,
+		"obj_tname": "กระบวนการจัดการเมล็ดพันธุ์เพื่อการขยายพันธุ์",
+		"company_id": "0135556016878",
+		"reg_date": "30/8/2556",
+		"company_name_en": "SAWASDEE SEEDS COMPANY LIMITED",
+		"tsic": 1640,
+		"cap_amt": 1000000,
+		"company_value": 286314,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เถาว์ราม",
+				"value_share": 229051,
+				"Nationality": "TH",
+				"pct_share": 80,
+				"count_share": 8000,
+				"Firstname": "เกรียงกมล"
+			},
+			{
+				"Lastname": "กรดิลก",
+				"value_share": 14316,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "พัฒนา"
+			},
+			{
+				"Lastname": "บุญเลิศ",
+				"value_share": 42947,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 1500,
+				"Firstname": "เจริญ",
+				"person": {
+					"Number": 6,
+					"Title": "นาย",
+					"Name": "เจริญ บุญเลิศ",
+					"PartyName": "ก้าวไกล",
+					"MpType": "แบ่งเขต",
+					"Id": "4647",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เชียงราย",
+					"MpZone": 4,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/เจริญ-บุญเลิศ.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 1500,
+		"gov_fund_proj": null
+	}
+]

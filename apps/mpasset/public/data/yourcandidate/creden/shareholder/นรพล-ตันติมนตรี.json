@@ -1,1 +1,81 @@
-[{"full_address":"340\/22 ซอยลาดพร้าว 87 แขวงคลองเจ้าคุณสิงห์ เขตวังทองหลาง กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":42044,"submit_obj_big_type":"L","company_name_th":"มนตรีสตูดิโอ มาร์เก็ตติ้ง จำกัด","pct_share":80,"obj_tname":"การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย","company_id":"0105560122148","reg_date":"25\/7\/2560","company_name_en":"MONTRI STUDIO MARKETING COMPANY LIMITED","tsic":68104,"cap_amt":100000,"company_value":52555,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ตันติมนตรี","value_share":42044,"Nationality":"TH","pct_share":80,"count_share":80,"Firstname":"นรพล","person":{"Number":8,"Title":"นาย","Name":"นรพล ตันติมนตรี","PartyName":"พลังประชารัฐ","MpType":"แบ่งเขต","Id":"4450","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เชียงใหม่","MpZone":10,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังประชารัฐ\/นรพล-ตันติมนตรี.webp","Party":{"Name":"พลังประชารัฐ","Color":"#2276EF","PartyType":"พรรค","IsActive":true,"Id":20,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/Y8aiwU_p-C-aZyw_PN.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"เพชรระนอง","value_share":5256,"Nationality":"TH","pct_share":10,"count_share":10,"Firstname":"บงกชธร"},{"Lastname":"เพชรระนอง","value_share":5256,"Nationality":"TH","pct_share":10,"count_share":10,"Firstname":"อารีย์รัตน์"}],"count_shareholder":80,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "340/22 ซอยลาดพร้าว 87 แขวงคลองเจ้าคุณสิงห์ เขตวังทองหลาง กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 42044,
+		"submit_obj_big_type": "L",
+		"company_name_th": "มนตรีสตูดิโอ มาร์เก็ตติ้ง จำกัด",
+		"pct_share": 80,
+		"obj_tname": "การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย",
+		"company_id": "0105560122148",
+		"reg_date": "25/7/2560",
+		"company_name_en": "MONTRI STUDIO MARKETING COMPANY LIMITED",
+		"tsic": 68104,
+		"cap_amt": 100000,
+		"company_value": 52555,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ตันติมนตรี",
+				"value_share": 42044,
+				"Nationality": "TH",
+				"pct_share": 80,
+				"count_share": 80,
+				"Firstname": "นรพล",
+				"person": {
+					"Number": 8,
+					"Title": "นาย",
+					"Name": "นรพล ตันติมนตรี",
+					"PartyName": "พลังประชารัฐ",
+					"MpType": "แบ่งเขต",
+					"Id": "4450",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เชียงใหม่",
+					"MpZone": 10,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังประชารัฐ/นรพล-ตันติมนตรี.webp",
+					"Party": {
+						"Name": "พลังประชารัฐ",
+						"Color": "#2276EF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 20,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/Y8aiwU_p-C-aZyw_PN.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "เพชรระนอง",
+				"value_share": 5256,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 10,
+				"Firstname": "บงกชธร"
+			},
+			{
+				"Lastname": "เพชรระนอง",
+				"value_share": 5256,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 10,
+				"Firstname": "อารีย์รัตน์"
+			}
+		],
+		"count_shareholder": 80,
+		"gov_fund_proj": null
+	}
+]

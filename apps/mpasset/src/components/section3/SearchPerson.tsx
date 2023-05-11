@@ -68,7 +68,7 @@ const SearchPerson = ({ open, onClose }: Props) => {
                   onClose();
                   const p = party.find((p) => p.Name === data.PartyName)
                   if (p)
-                    setSelectedPerson({ ...data, Party: { Id: p.Id, Name: p.Name, Color: p.Color, Images: Array.isArray(p.Images) ? p.Images[0]!.url : null } })
+                    setSelectedPerson({ ...data, Party: { Id: p.Id, Name: p.Name, Color: p.Color, Images: Array.isArray(p.Images) ? `/mpasset/party/${p.Name}.webp` : null } })
                   else
                     setSelectedPerson(data)
                 }}

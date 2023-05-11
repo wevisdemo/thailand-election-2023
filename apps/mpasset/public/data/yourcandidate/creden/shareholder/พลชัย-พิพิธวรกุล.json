@@ -1,1 +1,97 @@
-[{"full_address":"567\/10 ชั้นที่ 2 หมู่ที่ 8 ถนนมิตรภาพ ต.เมืองเก่า อ.เมืองขอนแก่น จ.ขอนแก่น","financial":[{"year":"2562","income":0},{"year":"2561","income":0},{"year":"2560","income":0},{"year":"2559","income":0}],"value_share":149111,"submit_obj_big_type":"N","company_name_th":"ศรีศิวารา ลอว์ เฟิร์ม จำกัด","pct_share":5,"obj_tname":"กิจกรรมการบริการอื่นๆเพื่อสนับสนุนธุรกิจซึ่งมิได้จัดประเภทไว้ ในที่อื่น","company_id":"0405562004255","reg_date":"18\/9\/2562","company_name_en":"SRISIVARA LAW FIRM CO., LTD.","tsic":82990,"cap_amt":3000000,"company_value":2982214,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศรีศิวารา","value_share":1520929,"Nationality":"TH","pct_share":51,"count_share":15300,"Firstname":"คุรุศรี"},{"Lastname":"พิพิธวรกุล","value_share":149111,"Nationality":"TH","pct_share":5,"count_share":1500,"Firstname":"พลชัย","person":{"Number":2,"Title":"นาย","Name":"พลชัย พิพิธวรกุล","PartyName":"ประชาธิปัตย์","MpType":"แบ่งเขต","Id":"3710","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ขอนแก่น","MpZone":4,"MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/พลชัย-พิพิธวรกุล.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ศรีศิวารา","value_share":864842,"Nationality":"TH","pct_share":29,"count_share":8700,"Firstname":"นฤบดินทรา"},{"Lastname":"มณีรัตน์","value_share":149111,"Nationality":"TH","pct_share":5,"count_share":1500,"Firstname":"ธนพร"},{"Lastname":"กฤษฎียานันท์","value_share":298221,"Nationality":"TH","pct_share":10,"count_share":3000,"Firstname":"ทวีชัย"}],"count_shareholder":1500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "567/10 ชั้นที่ 2 หมู่ที่ 8 ถนนมิตรภาพ ต.เมืองเก่า อ.เมืองขอนแก่น จ.ขอนแก่น",
+		"financial": [
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 },
+			{ "year": "2560", "income": 0 },
+			{ "year": "2559", "income": 0 }
+		],
+		"value_share": 149111,
+		"submit_obj_big_type": "N",
+		"company_name_th": "ศรีศิวารา ลอว์ เฟิร์ม จำกัด",
+		"pct_share": 5,
+		"obj_tname": "กิจกรรมการบริการอื่นๆเพื่อสนับสนุนธุรกิจซึ่งมิได้จัดประเภทไว้ ในที่อื่น",
+		"company_id": "0405562004255",
+		"reg_date": "18/9/2562",
+		"company_name_en": "SRISIVARA LAW FIRM CO., LTD.",
+		"tsic": 82990,
+		"cap_amt": 3000000,
+		"company_value": 2982214,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศรีศิวารา",
+				"value_share": 1520929,
+				"Nationality": "TH",
+				"pct_share": 51,
+				"count_share": 15300,
+				"Firstname": "คุรุศรี"
+			},
+			{
+				"Lastname": "พิพิธวรกุล",
+				"value_share": 149111,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1500,
+				"Firstname": "พลชัย",
+				"person": {
+					"Number": 2,
+					"Title": "นาย",
+					"Name": "พลชัย พิพิธวรกุล",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "แบ่งเขต",
+					"Id": "3710",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ขอนแก่น",
+					"MpZone": 4,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/พลชัย-พิพิธวรกุล.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ศรีศิวารา",
+				"value_share": 864842,
+				"Nationality": "TH",
+				"pct_share": 29,
+				"count_share": 8700,
+				"Firstname": "นฤบดินทรา"
+			},
+			{
+				"Lastname": "มณีรัตน์",
+				"value_share": 149111,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1500,
+				"Firstname": "ธนพร"
+			},
+			{
+				"Lastname": "กฤษฎียานันท์",
+				"value_share": 298221,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 3000,
+				"Firstname": "ทวีชัย"
+			}
+		],
+		"count_shareholder": 1500,
+		"gov_fund_proj": null
+	}
+]

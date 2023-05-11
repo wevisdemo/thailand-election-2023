@@ -1,1 +1,160 @@
-[{"full_address":"204\/15-18 ซอยจุฬา 34 ถนนบรรทัดทอง  แขวงวังใหม่ เขตปทุมวัน กรุงเทพมหานคร","financial":[{"year":"2564","income":157550460.1899999976},{"year":"2563","income":131669676.9399999976},{"year":"2562","income":116943294.8400000036},{"year":"2561","income":67800447.349999994}],"value_share":14578572,"submit_obj_big_type":"C","company_name_th":"เอ. ดี. ฟู้ด จำกัด","pct_share":99.98,"obj_tname":"การผลิตอาหารปรุงสำเร็จแช่แข็ง","company_id":"0105550088672","reg_date":"23\/08\/2550","company_name_en":"A.D. FOOD COMPANY LIMITED","tsic":10751,"cap_amt":5000000,"company_value":14581488,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"รอดสกุล","value_share":1458,"Nationality":"TH","pct_share":0.01,"count_share":5,"Firstname":"บุบผานาฏ"},{"Lastname":"ชยานนท์เกสรี","value_share":14578572,"Nationality":"TH","pct_share":99.98,"count_share":49990,"Firstname":"อภิเดช","person":{"Number":"","Title":"นาย","Name":"อภิเดช ชยานนท์เกสรี","PartyName":"ประชาชาติ","MpType":"บัญชีรายชื่อ","Id":"301","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชาชาติ\/อภิเดช-ชยานนท์เกสรี.webp","Party":{"Name":"ประชาชาติ","Color":"#A56F05","PartyType":"พรรค","IsActive":true,"Id":9,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาชาติ.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"แซ่จิว","value_share":1458,"Nationality":"TH","pct_share":0.01,"count_share":5,"Firstname":"สุภาพร"}],"count_shareholder":49990,"gov_fund_proj":null},{"full_address":"204\/15 ห้อง 406 ชั้น 4 ซอยจุฬา 7 ถนนบรรทัดทอง แขวงวังใหม่ เขตปทุมวัน กรุงเทพมหานคร","financial":[{"year":"2564","income":3.86},{"year":"2563","income":4863.26},{"year":"2562","income":17.15},{"year":"2561","income":2748.02}],"value_share":-2508425,"submit_obj_big_type":"I","company_name_th":"ซี อาร์ ชาร์รอดส์ (ไทยแลนด์) จำกัด","pct_share":65.0,"obj_tname":"การบริการด้านการจัดเลี้ยง","company_id":"0105557099246","reg_date":"10\/7\/2557","company_name_en":"A-DAI FOOD AND RESTAURANT COMPANY LIMITED","tsic":56210,"cap_amt":1000000,"company_value":-3859115,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ชยานนท์เกสรี","value_share":-2508425,"Nationality":"TH","pct_share":65,"count_share":130000,"Firstname":"อภิเดช","person":{"Number":"","Title":"นาย","Name":"อภิเดช ชยานนท์เกสรี","PartyName":"ประชาชาติ","MpType":"บัญชีรายชื่อ","Id":"301","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชาชาติ\/อภิเดช-ชยานนท์เกสรี.webp","Party":{"Name":"ประชาชาติ","Color":"#A56F05","PartyType":"พรรค","IsActive":true,"Id":9,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาชาติ.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ปัญจภัทรกุล","value_share":-192956,"Nationality":"TH","pct_share":5,"count_share":10000,"Firstname":"รัชฎ์ดล"},{"Lastname":"รอดสกุล","value_share":-1157735,"Nationality":"TH","pct_share":30,"count_share":60000,"Firstname":"บุบผานาฏ"}],"count_shareholder":130000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "204/15-18 ซอยจุฬา 34 ถนนบรรทัดทอง  แขวงวังใหม่ เขตปทุมวัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 157550460.1899999976 },
+			{ "year": "2563", "income": 131669676.9399999976 },
+			{ "year": "2562", "income": 116943294.8400000036 },
+			{ "year": "2561", "income": 67800447.349999994 }
+		],
+		"value_share": 14578572,
+		"submit_obj_big_type": "C",
+		"company_name_th": "เอ. ดี. ฟู้ด จำกัด",
+		"pct_share": 99.98,
+		"obj_tname": "การผลิตอาหารปรุงสำเร็จแช่แข็ง",
+		"company_id": "0105550088672",
+		"reg_date": "23/08/2550",
+		"company_name_en": "A.D. FOOD COMPANY LIMITED",
+		"tsic": 10751,
+		"cap_amt": 5000000,
+		"company_value": 14581488,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "รอดสกุล",
+				"value_share": 1458,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 5,
+				"Firstname": "บุบผานาฏ"
+			},
+			{
+				"Lastname": "ชยานนท์เกสรี",
+				"value_share": 14578572,
+				"Nationality": "TH",
+				"pct_share": 99.98,
+				"count_share": 49990,
+				"Firstname": "อภิเดช",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "อภิเดช ชยานนท์เกสรี",
+					"PartyName": "ประชาชาติ",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "301",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาชาติ/อภิเดช-ชยานนท์เกสรี.webp",
+					"Party": {
+						"Name": "ประชาชาติ",
+						"Color": "#A56F05",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 9,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาชาติ.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "แซ่จิว",
+				"value_share": 1458,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 5,
+				"Firstname": "สุภาพร"
+			}
+		],
+		"count_shareholder": 49990,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "204/15 ห้อง 406 ชั้น 4 ซอยจุฬา 7 ถนนบรรทัดทอง แขวงวังใหม่ เขตปทุมวัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 3.86 },
+			{ "year": "2563", "income": 4863.26 },
+			{ "year": "2562", "income": 17.15 },
+			{ "year": "2561", "income": 2748.02 }
+		],
+		"value_share": -2508425,
+		"submit_obj_big_type": "I",
+		"company_name_th": "ซี อาร์ ชาร์รอดส์ (ไทยแลนด์) จำกัด",
+		"pct_share": 65.0,
+		"obj_tname": "การบริการด้านการจัดเลี้ยง",
+		"company_id": "0105557099246",
+		"reg_date": "10/7/2557",
+		"company_name_en": "A-DAI FOOD AND RESTAURANT COMPANY LIMITED",
+		"tsic": 56210,
+		"cap_amt": 1000000,
+		"company_value": -3859115,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ชยานนท์เกสรี",
+				"value_share": -2508425,
+				"Nationality": "TH",
+				"pct_share": 65,
+				"count_share": 130000,
+				"Firstname": "อภิเดช",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "อภิเดช ชยานนท์เกสรี",
+					"PartyName": "ประชาชาติ",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "301",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาชาติ/อภิเดช-ชยานนท์เกสรี.webp",
+					"Party": {
+						"Name": "ประชาชาติ",
+						"Color": "#A56F05",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 9,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาชาติ.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ปัญจภัทรกุล",
+				"value_share": -192956,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 10000,
+				"Firstname": "รัชฎ์ดล"
+			},
+			{
+				"Lastname": "รอดสกุล",
+				"value_share": -1157735,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 60000,
+				"Firstname": "บุบผานาฏ"
+			}
+		],
+		"count_shareholder": 130000,
+		"gov_fund_proj": null
+	}
+]

@@ -3,11 +3,12 @@ import dynamic from 'next/dynamic'
 import React from 'react'
 import { usePersonStore } from '../../../store/person'
 import { List } from '../../util/icon-main'
-import CompanyDetail from './CompanyDetail'
 
 type Props = {}
 
 const CompanyToPersonRelationChart = dynamic(() => import('./CompanyToPersonRelationChart'))
+const CompanyDetail = dynamic(() => import('./CompanyDetail'))
+
 const SelectCompanyDetail = (props: Props) => {
   const { setSelectedCompany, setSelectedPerson } = usePersonStore()
   const [isOpenCompanyDetail, setIsOpenCompanyDetail] = React.useState(false)

@@ -1,1 +1,81 @@
-[{"full_address":"306 หมู่ที่ 1  ต.พิชัย อ.เมืองลำปาง จ.ลำปาง","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"G","company_name_th":"ชล ปุ๋ยและการเกษตร จำกัด","pct_share":80,"obj_tname":"-","company_id":"0525559001045","reg_date":"17\/11\/2559","company_name_en":"CHOL FERTILISER AND AGRICULTURE COMPANY LIMITED","tsic":46692,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เชื้อน้อย","value_share":0,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"นาวิน"},{"Lastname":"เชื้อน้อย","value_share":0,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"วราภรณ์"},{"Lastname":"เชื้อน้อย","value_share":0,"Nationality":"TH","pct_share":80,"count_share":8000,"Firstname":"ชลธานี","person":{"Number":6,"Title":"นาย","Name":"ชลธานี เชื้อน้อย","PartyName":"ก้าวไกล","MpType":"แบ่งเขต","Id":"4502","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ลำปาง","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ก้าวไกล\/ชลธานี-เชื้อน้อย.webp","Party":{"Name":"ก้าวไกล","Color":"#FF711E","PartyType":"พรรค","IsActive":true,"Id":31,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ก้าวไกล.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":8000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "306 หมู่ที่ 1  ต.พิชัย อ.เมืองลำปาง จ.ลำปาง",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ชล ปุ๋ยและการเกษตร จำกัด",
+		"pct_share": 80,
+		"obj_tname": "-",
+		"company_id": "0525559001045",
+		"reg_date": "17/11/2559",
+		"company_name_en": "CHOL FERTILISER AND AGRICULTURE COMPANY LIMITED",
+		"tsic": 46692,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เชื้อน้อย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "นาวิน"
+			},
+			{
+				"Lastname": "เชื้อน้อย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "วราภรณ์"
+			},
+			{
+				"Lastname": "เชื้อน้อย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 80,
+				"count_share": 8000,
+				"Firstname": "ชลธานี",
+				"person": {
+					"Number": 6,
+					"Title": "นาย",
+					"Name": "ชลธานี เชื้อน้อย",
+					"PartyName": "ก้าวไกล",
+					"MpType": "แบ่งเขต",
+					"Id": "4502",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ลำปาง",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ก้าวไกล/ชลธานี-เชื้อน้อย.webp",
+					"Party": {
+						"Name": "ก้าวไกล",
+						"Color": "#FF711E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 31,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ก้าวไกล.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 8000,
+		"gov_fund_proj": null
+	}
+]

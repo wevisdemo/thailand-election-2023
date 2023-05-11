@@ -1,1 +1,176 @@
-[{"full_address":"2 หมู่ที่ 7 ต.หนามแดง อ.เมืองฉะเชิงเทรา จ.ฉะเชิงเทรา","financial":[{"year":"2562","income":187905887.9600000083},{"year":"2561","income":204929413.3000000119},{"year":"2560","income":227770458.4499999881},{"year":"2559","income":46898271.3599999994}],"value_share":24471373,"submit_obj_big_type":"A","company_name_th":"สมศักดิ์ โกลด์เด้นท์ ฟาร์ม จำกัด","pct_share":82,"obj_tname":"การเลี้ยงไก่เนื้อ","company_id":"0245550000791","reg_date":"26\/6\/2550","company_name_en":"SOMSAK GOLDEN FARM COMPANY LIMITED","tsic":1462,"cap_amt":25000000,"company_value":29843138,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"วงศ์จินดา","value_share":24471373,"Nationality":"TH","pct_share":82,"count_share":2050000,"Firstname":"สมศักดิ์","person":{"Number":9,"Title":"นาย","Name":"สมศักดิ์ วงศ์จินดา","PartyName":"ไทยศรีวิไลย์","MpType":"แบ่งเขต","Id":"2887","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ฉะเชิงเทรา","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยศรีวิไลย์\/สมศักดิ์-วงศ์จินดา.webp","Party":{"Name":"ไทยศรีวิไลย์","Color":"#3680C2","PartyType":"พรรค","IsActive":true,"Id":7,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ไทยศรีวิไลย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"วงศ์จินดา","value_share":1790588,"Nationality":"TH","pct_share":6,"count_share":150000,"Firstname":"กาญจนา"},{"Lastname":"วงศ์จินดา","value_share":1790588,"Nationality":"TH","pct_share":6,"count_share":150000,"Firstname":"ภานุพันธ์"},{"Lastname":"วงศ์จินดา","value_share":1790588,"Nationality":"TH","pct_share":6,"count_share":150000,"Firstname":"กุหลาบ"}],"count_shareholder":2050000,"gov_fund_proj":null},{"full_address":"2 หมู่ที่ 7 ต.หนามแดง อ.เมืองฉะเชิงเทรา จ.ฉะเชิงเทรา","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":12393534,"submit_obj_big_type":"A","company_name_th":"เอเชีย โกลด์เด้นท์ ฟาร์ม จำกัด","pct_share":25,"obj_tname":"การเลี้ยงไก่เนื้อ","company_id":"0245553001470","reg_date":"1\/10\/2553","company_name_en":"ASIA GOLDEN FARM CO.,LTD.","tsic":1462,"cap_amt":50000000,"company_value":49574136,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"วงศ์จินดา","value_share":12393534,"Nationality":"TH","pct_share":25,"count_share":1250000,"Firstname":"สมศักดิ์","person":{"Number":9,"Title":"นาย","Name":"สมศักดิ์ วงศ์จินดา","PartyName":"ไทยศรีวิไลย์","MpType":"แบ่งเขต","Id":"2887","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ฉะเชิงเทรา","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยศรีวิไลย์\/สมศักดิ์-วงศ์จินดา.webp","Party":{"Name":"ไทยศรีวิไลย์","Color":"#3680C2","PartyType":"พรรค","IsActive":true,"Id":7,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ไทยศรีวิไลย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"วงศ์จินดา","value_share":12393534,"Nationality":"TH","pct_share":25,"count_share":1250000,"Firstname":"ภานุพันธ์"},{"Lastname":"วงศ์จินดา","value_share":12393534,"Nationality":"TH","pct_share":25,"count_share":1250000,"Firstname":"กุหลาบ"},{"Lastname":"วงศ์จินดา","value_share":12393534,"Nationality":"TH","pct_share":25,"count_share":1250000,"Firstname":"กาญจนา"}],"count_shareholder":1250000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "2 หมู่ที่ 7 ต.หนามแดง อ.เมืองฉะเชิงเทรา จ.ฉะเชิงเทรา",
+		"financial": [
+			{ "year": "2562", "income": 187905887.9600000083 },
+			{ "year": "2561", "income": 204929413.3000000119 },
+			{ "year": "2560", "income": 227770458.4499999881 },
+			{ "year": "2559", "income": 46898271.3599999994 }
+		],
+		"value_share": 24471373,
+		"submit_obj_big_type": "A",
+		"company_name_th": "สมศักดิ์ โกลด์เด้นท์ ฟาร์ม จำกัด",
+		"pct_share": 82,
+		"obj_tname": "การเลี้ยงไก่เนื้อ",
+		"company_id": "0245550000791",
+		"reg_date": "26/6/2550",
+		"company_name_en": "SOMSAK GOLDEN FARM COMPANY LIMITED",
+		"tsic": 1462,
+		"cap_amt": 25000000,
+		"company_value": 29843138,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "วงศ์จินดา",
+				"value_share": 24471373,
+				"Nationality": "TH",
+				"pct_share": 82,
+				"count_share": 2050000,
+				"Firstname": "สมศักดิ์",
+				"person": {
+					"Number": 9,
+					"Title": "นาย",
+					"Name": "สมศักดิ์ วงศ์จินดา",
+					"PartyName": "ไทยศรีวิไลย์",
+					"MpType": "แบ่งเขต",
+					"Id": "2887",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ฉะเชิงเทรา",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยศรีวิไลย์/สมศักดิ์-วงศ์จินดา.webp",
+					"Party": {
+						"Name": "ไทยศรีวิไลย์",
+						"Color": "#3680C2",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 7,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ไทยศรีวิไลย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "วงศ์จินดา",
+				"value_share": 1790588,
+				"Nationality": "TH",
+				"pct_share": 6,
+				"count_share": 150000,
+				"Firstname": "กาญจนา"
+			},
+			{
+				"Lastname": "วงศ์จินดา",
+				"value_share": 1790588,
+				"Nationality": "TH",
+				"pct_share": 6,
+				"count_share": 150000,
+				"Firstname": "ภานุพันธ์"
+			},
+			{
+				"Lastname": "วงศ์จินดา",
+				"value_share": 1790588,
+				"Nationality": "TH",
+				"pct_share": 6,
+				"count_share": 150000,
+				"Firstname": "กุหลาบ"
+			}
+		],
+		"count_shareholder": 2050000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "2 หมู่ที่ 7 ต.หนามแดง อ.เมืองฉะเชิงเทรา จ.ฉะเชิงเทรา",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 12393534,
+		"submit_obj_big_type": "A",
+		"company_name_th": "เอเชีย โกลด์เด้นท์ ฟาร์ม จำกัด",
+		"pct_share": 25,
+		"obj_tname": "การเลี้ยงไก่เนื้อ",
+		"company_id": "0245553001470",
+		"reg_date": "1/10/2553",
+		"company_name_en": "ASIA GOLDEN FARM CO.,LTD.",
+		"tsic": 1462,
+		"cap_amt": 50000000,
+		"company_value": 49574136,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "วงศ์จินดา",
+				"value_share": 12393534,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 1250000,
+				"Firstname": "สมศักดิ์",
+				"person": {
+					"Number": 9,
+					"Title": "นาย",
+					"Name": "สมศักดิ์ วงศ์จินดา",
+					"PartyName": "ไทยศรีวิไลย์",
+					"MpType": "แบ่งเขต",
+					"Id": "2887",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ฉะเชิงเทรา",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยศรีวิไลย์/สมศักดิ์-วงศ์จินดา.webp",
+					"Party": {
+						"Name": "ไทยศรีวิไลย์",
+						"Color": "#3680C2",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 7,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ไทยศรีวิไลย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "วงศ์จินดา",
+				"value_share": 12393534,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 1250000,
+				"Firstname": "ภานุพันธ์"
+			},
+			{
+				"Lastname": "วงศ์จินดา",
+				"value_share": 12393534,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 1250000,
+				"Firstname": "กุหลาบ"
+			},
+			{
+				"Lastname": "วงศ์จินดา",
+				"value_share": 12393534,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 1250000,
+				"Firstname": "กาญจนา"
+			}
+		],
+		"count_shareholder": 1250000,
+		"gov_fund_proj": null
+	}
+]

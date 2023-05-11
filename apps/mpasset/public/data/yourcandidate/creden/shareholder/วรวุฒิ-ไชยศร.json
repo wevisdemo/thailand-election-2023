@@ -1,1 +1,160 @@
-[{"reg_date":"14\/2\/2562","financial":[{"year":"2564","income":2375},{"year":"2563","income":9800},{"year":"2562","income":1633.33},{"year":"2561","income":0}],"value_share":494904,"count_shareholder":5000,"company_shareholder":[{"Lastname":"พัสระ","value_share":197962,"pct_share":20,"Firstname":"พงษ์ปณต","count_share":2000,"Nationality":"TH"},{"Lastname":"หิธาพันธ์","value_share":296942,"pct_share":30,"Firstname":"สำอาง","count_share":3000,"Nationality":"TH"},{"Lastname":"ไชยศร","value_share":494904,"pct_share":50,"Firstname":"วรวุฒิ","count_share":5000,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"วรวุฒิ ไชยศร","PartyName":"ประชาชาติ","MpType":"บัญชีรายชื่อ","Id":"317","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชาชาติ\/วรวุฒิ-ไชยศร.webp","Party":{"Name":"ประชาชาติ","Color":"#A56F05","PartyType":"พรรค","IsActive":true,"Id":9,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาชาติ.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"pct_share":50,"company_name_th":"บ้านซีเอสอาร์ จำกัด","company_id":"0105562031000","obj_tname":"กิจกรรมให้คำปรึกษาด้านการบริหารจัดการอื่นๆซึ่งมิได้จัด ประเภทไว้ในที่อื่น","company_name_en":"CSR HOUSE COMPANY LIMITED","tsic":70209,"cap_amt":1000000,"company_value":989808,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"M","full_address":"69\/76 ซอยศาลาธรรมสพน์ 20 แขวงศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพมหานคร","gov_fund_proj":null},{"reg_date":"27\/01\/2564","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":144939,"count_shareholder":3000,"company_shareholder":[{"Lastname":"จตุรภักดิ์","value_share":144939,"pct_share":30,"Firstname":"เทิดศักดิ์","count_share":3000,"Nationality":"TH"},{"Lastname":"ปิยะเจริญเดช","value_share":193252,"pct_share":40,"Firstname":"ทัศนีย์","count_share":4000,"Nationality":"TH"},{"Lastname":"ไชยศร","value_share":144939,"pct_share":30,"Firstname":"วรวุฒิ","count_share":3000,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"วรวุฒิ ไชยศร","PartyName":"ประชาชาติ","MpType":"บัญชีรายชื่อ","Id":"317","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชาชาติ\/วรวุฒิ-ไชยศร.webp","Party":{"Name":"ประชาชาติ","Color":"#A56F05","PartyType":"พรรค","IsActive":true,"Id":9,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาชาติ.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"pct_share":30,"company_name_th":"พีทีที 1971 จำกัด","company_id":"0105564015591","obj_tname":"การผลิตเสื้อผ้าชั้นนอก","company_name_en":"PTT 1971 CO., LTD.","tsic":14112,"cap_amt":1000000,"company_value":483129,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"C","full_address":"69\/76  ซอยศาลาธรรมสพน์ 20 แขวงศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพมหานคร","gov_fund_proj":null}]
+[
+	{
+		"reg_date": "14/2/2562",
+		"financial": [
+			{ "year": "2564", "income": 2375 },
+			{ "year": "2563", "income": 9800 },
+			{ "year": "2562", "income": 1633.33 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 494904,
+		"count_shareholder": 5000,
+		"company_shareholder": [
+			{
+				"Lastname": "พัสระ",
+				"value_share": 197962,
+				"pct_share": 20,
+				"Firstname": "พงษ์ปณต",
+				"count_share": 2000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "หิธาพันธ์",
+				"value_share": 296942,
+				"pct_share": 30,
+				"Firstname": "สำอาง",
+				"count_share": 3000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "ไชยศร",
+				"value_share": 494904,
+				"pct_share": 50,
+				"Firstname": "วรวุฒิ",
+				"count_share": 5000,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "วรวุฒิ ไชยศร",
+					"PartyName": "ประชาชาติ",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "317",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาชาติ/วรวุฒิ-ไชยศร.webp",
+					"Party": {
+						"Name": "ประชาชาติ",
+						"Color": "#A56F05",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 9,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาชาติ.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"pct_share": 50,
+		"company_name_th": "บ้านซีเอสอาร์ จำกัด",
+		"company_id": "0105562031000",
+		"obj_tname": "กิจกรรมให้คำปรึกษาด้านการบริหารจัดการอื่นๆซึ่งมิได้จัด ประเภทไว้ในที่อื่น",
+		"company_name_en": "CSR HOUSE COMPANY LIMITED",
+		"tsic": 70209,
+		"cap_amt": 1000000,
+		"company_value": 989808,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "M",
+		"full_address": "69/76 ซอยศาลาธรรมสพน์ 20 แขวงศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพมหานคร",
+		"gov_fund_proj": null
+	},
+	{
+		"reg_date": "27/01/2564",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 144939,
+		"count_shareholder": 3000,
+		"company_shareholder": [
+			{
+				"Lastname": "จตุรภักดิ์",
+				"value_share": 144939,
+				"pct_share": 30,
+				"Firstname": "เทิดศักดิ์",
+				"count_share": 3000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "ปิยะเจริญเดช",
+				"value_share": 193252,
+				"pct_share": 40,
+				"Firstname": "ทัศนีย์",
+				"count_share": 4000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "ไชยศร",
+				"value_share": 144939,
+				"pct_share": 30,
+				"Firstname": "วรวุฒิ",
+				"count_share": 3000,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "วรวุฒิ ไชยศร",
+					"PartyName": "ประชาชาติ",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "317",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาชาติ/วรวุฒิ-ไชยศร.webp",
+					"Party": {
+						"Name": "ประชาชาติ",
+						"Color": "#A56F05",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 9,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาชาติ.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"pct_share": 30,
+		"company_name_th": "พีทีที 1971 จำกัด",
+		"company_id": "0105564015591",
+		"obj_tname": "การผลิตเสื้อผ้าชั้นนอก",
+		"company_name_en": "PTT 1971 CO., LTD.",
+		"tsic": 14112,
+		"cap_amt": 1000000,
+		"company_value": 483129,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "C",
+		"full_address": "69/76  ซอยศาลาธรรมสพน์ 20 แขวงศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพมหานคร",
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,89 @@
-[{"full_address":"2  ถนนรามอินทรา ซอยรามอินทรา 39 แยก 26 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร","financial":[{"year":"2564","income":1687431.25},{"year":"2563","income":469738.89},{"year":"2562","income":1460404.3700000001},{"year":"2561","income":99000}],"value_share":229998,"submit_obj_big_type":"G","company_name_th":"วันเดอร์ฟูล ไลท์ติ้ง จำกัด","pct_share":16,"obj_tname":"ร้านขายปลีกเฟอร์นิเจอร์ชนิดใช้ในครัวเรือน","company_id":"0105561047590","reg_date":"14\/03\/2561","company_name_en":"WONDERFUL LIGHTING COMPANY LIMITED","tsic":47591,"cap_amt":2000000,"company_value":1437490,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ธัญญากรดิลก","value_share":503121,"Nationality":"TH","pct_share":35,"count_share":7000,"Firstname":"ภัทรา"},{"Lastname":"วภักดิ์เพชร","value_share":229998,"Nationality":"TH","pct_share":16,"count_share":3200,"Firstname":"พัฒนากรณ์","person":{"Number":17,"Title":"นาย","Name":"พัฒนากรณ์ วภักดิ์เพชร","PartyName":"ทางเลือกใหม่","MpType":"แบ่งเขต","Id":"6290","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"สกลนคร","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ทางเลือกใหม่\/พัฒนากรณ์-วภักดิ์เพชร.webp","Party":{"Name":"ทางเลือกใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":57,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ทางเลือกใหม่.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ชาย Ms. Ying Cai","value_share":352185,"Nationality":"CN","pct_share":24.5,"count_share":4900,"Firstname":"หยิง"},{"Lastname":"เจียง Mr.Zhun Jiang","value_share":352185,"Nationality":"CN","pct_share":24.5,"count_share":4900,"Firstname":"ซุน"}],"count_shareholder":3200,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "2  ถนนรามอินทรา ซอยรามอินทรา 39 แยก 26 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 1687431.25 },
+			{ "year": "2563", "income": 469738.89 },
+			{ "year": "2562", "income": 1460404.3700000001 },
+			{ "year": "2561", "income": 99000 }
+		],
+		"value_share": 229998,
+		"submit_obj_big_type": "G",
+		"company_name_th": "วันเดอร์ฟูล ไลท์ติ้ง จำกัด",
+		"pct_share": 16,
+		"obj_tname": "ร้านขายปลีกเฟอร์นิเจอร์ชนิดใช้ในครัวเรือน",
+		"company_id": "0105561047590",
+		"reg_date": "14/03/2561",
+		"company_name_en": "WONDERFUL LIGHTING COMPANY LIMITED",
+		"tsic": 47591,
+		"cap_amt": 2000000,
+		"company_value": 1437490,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ธัญญากรดิลก",
+				"value_share": 503121,
+				"Nationality": "TH",
+				"pct_share": 35,
+				"count_share": 7000,
+				"Firstname": "ภัทรา"
+			},
+			{
+				"Lastname": "วภักดิ์เพชร",
+				"value_share": 229998,
+				"Nationality": "TH",
+				"pct_share": 16,
+				"count_share": 3200,
+				"Firstname": "พัฒนากรณ์",
+				"person": {
+					"Number": 17,
+					"Title": "นาย",
+					"Name": "พัฒนากรณ์ วภักดิ์เพชร",
+					"PartyName": "ทางเลือกใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "6290",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "สกลนคร",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ทางเลือกใหม่/พัฒนากรณ์-วภักดิ์เพชร.webp",
+					"Party": {
+						"Name": "ทางเลือกใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 57,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ทางเลือกใหม่.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ชาย Ms. Ying Cai",
+				"value_share": 352185,
+				"Nationality": "CN",
+				"pct_share": 24.5,
+				"count_share": 4900,
+				"Firstname": "หยิง"
+			},
+			{
+				"Lastname": "เจียง Mr.Zhun Jiang",
+				"value_share": 352185,
+				"Nationality": "CN",
+				"pct_share": 24.5,
+				"count_share": 4900,
+				"Firstname": "ซุน"
+			}
+		],
+		"count_shareholder": 3200,
+		"gov_fund_proj": null
+	}
+]

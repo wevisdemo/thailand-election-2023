@@ -1,1 +1,81 @@
-[{"full_address":"4  ซอยพิบูลสงคราม 3 ต.สวนใหญ่ อ.เมืองนนทบุรี จ.นนทบุรี","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"G","company_name_th":"ไทย ฟง หยวน กรุ๊ป จำกัด","pct_share":69.99,"obj_tname":"-","company_id":"0125560029989","reg_date":"06\/11\/2560","company_name_en":"THAI FONG YUAN GROUP COMPANY LIMITED","tsic":46102,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ณ นคร","value_share":0,"Nationality":"TH","pct_share":30,"count_share":3000,"Firstname":"สุธรรม"},{"Lastname":"ทิ้งผอม","value_share":0,"Nationality":"TH","pct_share":69.99,"count_share":6999,"Firstname":"อิ่มหรอน","person":{"Number":15,"Title":"นาย","Name":"อิ่มหรอน ทิ้งผอม","PartyName":"คลองไทย","MpType":"แบ่งเขต","Id":"6347","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":4,"MpList":"","Images":"\/yourcandidates\/candidates\/คลองไทย\/อิ่มหรอน-ทิ้งผอม.webp","Party":{"Name":"คลองไทย","Color":null,"PartyType":"พรรค","IsActive":false,"Id":69,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/คลองไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ศรีสกุล","value_share":0,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"ภาณุวัฒน์"}],"count_shareholder":6999,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "4  ซอยพิบูลสงคราม 3 ต.สวนใหญ่ อ.เมืองนนทบุรี จ.นนทบุรี",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ไทย ฟง หยวน กรุ๊ป จำกัด",
+		"pct_share": 69.99,
+		"obj_tname": "-",
+		"company_id": "0125560029989",
+		"reg_date": "06/11/2560",
+		"company_name_en": "THAI FONG YUAN GROUP COMPANY LIMITED",
+		"tsic": 46102,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ณ นคร",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 3000,
+				"Firstname": "สุธรรม"
+			},
+			{
+				"Lastname": "ทิ้งผอม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 69.99,
+				"count_share": 6999,
+				"Firstname": "อิ่มหรอน",
+				"person": {
+					"Number": 15,
+					"Title": "นาย",
+					"Name": "อิ่มหรอน ทิ้งผอม",
+					"PartyName": "คลองไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "6347",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 4,
+					"MpList": "",
+					"Images": "/mpasset/candidates/คลองไทย/อิ่มหรอน-ทิ้งผอม.webp",
+					"Party": {
+						"Name": "คลองไทย",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 69,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/คลองไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ศรีสกุล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "ภาณุวัฒน์"
+			}
+		],
+		"count_shareholder": 6999,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,143 @@
-[{"full_address":"1 หมู่ที่ 9 แขวงกระทุ่มราย เขตหนองจอก กรุงเทพมหานคร","financial":[{"year":"2562","income":26562.5},{"year":"2561","income":34500},{"year":"2560","income":41494.27},{"year":"2559","income":22500}],"value_share":426146,"submit_obj_big_type":"C","company_name_th":"โรงสีไฟกิจเจริญ จำกัด","pct_share":25.7143,"obj_tname":"การสีข้าว","company_id":"0105507001200","reg_date":"01\/05\/2507","company_name_en":"","tsic":10611,"cap_amt":700000,"company_value":1657233,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"อิสระเสรีพงษ์","value_share":142048,"Nationality":"TH","pct_share":8.57,"count_share":60,"Firstname":"อำไพ"},{"Lastname":"หาญสุรนันท์","value_share":213072,"Nationality":"TH","pct_share":12.86,"count_share":90,"Firstname":"นฤมล"},{"Lastname":"อิสระเสรีพงษ์","value_share":213072,"Nationality":"TH","pct_share":12.86,"count_share":90,"Firstname":"วิบูลย์"},{"Lastname":"อิสระเสรีพงษ์","value_share":236747,"Nationality":"TH","pct_share":14.29,"count_share":100,"Firstname":"ไพโรจน์","person":{"Number":15,"Title":"นาย","Name":"ไพโรจน์ อิสระเสรีพงษ์","PartyName":"เพื่อไทย","MpType":"แบ่งเขต","Id":"2137","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":18,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/ไพโรจน์-อิสระเสรีพงษ์.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"อิสระเสรีพงษ์","value_share":426146,"Nationality":"TH","pct_share":25.71,"count_share":180,"Firstname":"ไพฑูรย์","person":{"Number":13,"Title":"นาย","Name":"ไพฑูรย์ อิสระเสรีพงษ์","PartyName":"เพื่อไทย","MpType":"แบ่งเขต","Id":"2120","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":17,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/ไพฑูรย์-อิสระเสรีพงษ์.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"บุณยเรืองกิจ","value_share":213072,"Nationality":"TH","pct_share":12.86,"count_share":90,"Firstname":"สุนี"},{"Lastname":"บุณยเรืองกิจ","value_share":213072,"Nationality":"TH","pct_share":12.86,"count_share":90,"Firstname":"รัชดา"}],"count_shareholder":180,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "1 หมู่ที่ 9 แขวงกระทุ่มราย เขตหนองจอก กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2562", "income": 26562.5 },
+			{ "year": "2561", "income": 34500 },
+			{ "year": "2560", "income": 41494.27 },
+			{ "year": "2559", "income": 22500 }
+		],
+		"value_share": 426146,
+		"submit_obj_big_type": "C",
+		"company_name_th": "โรงสีไฟกิจเจริญ จำกัด",
+		"pct_share": 25.7143,
+		"obj_tname": "การสีข้าว",
+		"company_id": "0105507001200",
+		"reg_date": "01/05/2507",
+		"company_name_en": "",
+		"tsic": 10611,
+		"cap_amt": 700000,
+		"company_value": 1657233,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "อิสระเสรีพงษ์",
+				"value_share": 142048,
+				"Nationality": "TH",
+				"pct_share": 8.57,
+				"count_share": 60,
+				"Firstname": "อำไพ"
+			},
+			{
+				"Lastname": "หาญสุรนันท์",
+				"value_share": 213072,
+				"Nationality": "TH",
+				"pct_share": 12.86,
+				"count_share": 90,
+				"Firstname": "นฤมล"
+			},
+			{
+				"Lastname": "อิสระเสรีพงษ์",
+				"value_share": 213072,
+				"Nationality": "TH",
+				"pct_share": 12.86,
+				"count_share": 90,
+				"Firstname": "วิบูลย์"
+			},
+			{
+				"Lastname": "อิสระเสรีพงษ์",
+				"value_share": 236747,
+				"Nationality": "TH",
+				"pct_share": 14.29,
+				"count_share": 100,
+				"Firstname": "ไพโรจน์",
+				"person": {
+					"Number": 15,
+					"Title": "นาย",
+					"Name": "ไพโรจน์ อิสระเสรีพงษ์",
+					"PartyName": "เพื่อไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "2137",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 18,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/ไพโรจน์-อิสระเสรีพงษ์.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "อิสระเสรีพงษ์",
+				"value_share": 426146,
+				"Nationality": "TH",
+				"pct_share": 25.71,
+				"count_share": 180,
+				"Firstname": "ไพฑูรย์",
+				"person": {
+					"Number": 13,
+					"Title": "นาย",
+					"Name": "ไพฑูรย์ อิสระเสรีพงษ์",
+					"PartyName": "เพื่อไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "2120",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 17,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/ไพฑูรย์-อิสระเสรีพงษ์.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "บุณยเรืองกิจ",
+				"value_share": 213072,
+				"Nationality": "TH",
+				"pct_share": 12.86,
+				"count_share": 90,
+				"Firstname": "สุนี"
+			},
+			{
+				"Lastname": "บุณยเรืองกิจ",
+				"value_share": 213072,
+				"Nationality": "TH",
+				"pct_share": 12.86,
+				"count_share": 90,
+				"Firstname": "รัชดา"
+			}
+		],
+		"count_shareholder": 180,
+		"gov_fund_proj": null
+	}
+]

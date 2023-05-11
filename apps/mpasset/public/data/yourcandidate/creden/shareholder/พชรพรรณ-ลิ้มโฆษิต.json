@@ -1,1 +1,80 @@
-[{"full_address":"462  หมู่ที่ 4 ต.บ้านใหม่ อ.เมืองนครราชสีมา จ.นครราชสีมา","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"F","company_name_th":"เค.เอ็น.อาร์ ดีเวลลอปเมนท์ จำกัด","pct_share":33.3333,"obj_tname":"-","company_id":"0305565002378","reg_date":"11\/03\/2565","company_name_en":"K.N.R DEVELOPMENT CO., LTD.","tsic":43210,"cap_amt":1500000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ลิ้มโฆษิต","value_share":0,"Nationality":"TH","pct_share":33.33,"count_share":5000,"Firstname":"พชรพรรณ","person":{"Number":5,"Title":"นาง","Name":"พชรพรรณ ลิ้มโฆษิต","PartyName":"ประชาธิปัตย์","MpType":"แบ่งเขต","Id":"3121","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"บุรีรัมย์","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/พชรพรรณ-ลิ้มโฆษิต.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"เลิศอธิทวีสิน","value_share":0,"Nationality":"TH","pct_share":33.33,"count_share":5000,"Firstname":"นันท์นภัส"},{"Lastname":"จึงมีขัย","value_share":0,"Nationality":"TH","pct_share":33.33,"count_share":5000,"Firstname":"คนึงรัตน์"}],"count_shareholder":5000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "462  หมู่ที่ 4 ต.บ้านใหม่ อ.เมืองนครราชสีมา จ.นครราชสีมา",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "F",
+		"company_name_th": "เค.เอ็น.อาร์ ดีเวลลอปเมนท์ จำกัด",
+		"pct_share": 33.3333,
+		"obj_tname": "-",
+		"company_id": "0305565002378",
+		"reg_date": "11/03/2565",
+		"company_name_en": "K.N.R DEVELOPMENT CO., LTD.",
+		"tsic": 43210,
+		"cap_amt": 1500000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ลิ้มโฆษิต",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 5000,
+				"Firstname": "พชรพรรณ",
+				"person": {
+					"Number": 5,
+					"Title": "นาง",
+					"Name": "พชรพรรณ ลิ้มโฆษิต",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "แบ่งเขต",
+					"Id": "3121",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "บุรีรัมย์",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/พชรพรรณ-ลิ้มโฆษิต.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "เลิศอธิทวีสิน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 5000,
+				"Firstname": "นันท์นภัส"
+			},
+			{
+				"Lastname": "จึงมีขัย",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 5000,
+				"Firstname": "คนึงรัตน์"
+			}
+		],
+		"count_shareholder": 5000,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,81 @@
-[{"full_address":"1575\/55 ถนนพหลโยธิน แขวงพญาไท เขตพญาไท กรุงเทพมหานคร","financial":[{"year":"2563","income":3299.38},{"year":"2562","income":174.68},{"year":"2561","income":0},{"year":"2560","income":0}],"value_share":132997,"submit_obj_big_type":"G","company_name_th":"วีทีเค อินโน กรุ๊ป จำกัด","pct_share":65,"obj_tname":"การขายส่งอาหารเครื่องดื่มและยาสูบโดยได้รับค่าตอบแทนหรือตามสัญญาจ้าง","company_id":"0105562190418","reg_date":"8\/11\/2562","company_name_en":"VTK INNO GROUP CO., LTD.","tsic":46102,"cap_amt":1000000,"company_value":204610,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ศิริธรรมวัฒน์","value_share":132997,"Nationality":"TH","pct_share":65,"count_share":6500,"Firstname":"นที","person":{"Number":11,"Title":"นาย","Name":"นที ศิริธรรมวัฒน์","PartyName":"ชาติพัฒนากล้า","MpType":"แบ่งเขต","Id":"1976","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":6,"MpList":"","Images":"\/yourcandidates\/candidates\/ชาติพัฒนากล้า\/นที-ศิริธรรมวัฒน์.webp","Party":{"Name":"ชาติพัฒนากล้า","Color":"#FBB514","PartyType":"พรรค","IsActive":true,"Id":34,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/BCxo6X8Yn-o_sAL9ed.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ศิริธรรมวัฒน์","value_share":61383,"Nationality":"TH","pct_share":30,"count_share":3000,"Firstname":"รวี"},{"Lastname":"พาขุนทด","value_share":10231,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"วิโรจน์"}],"count_shareholder":6500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "1575/55 ถนนพหลโยธิน แขวงพญาไท เขตพญาไท กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2563", "income": 3299.38 },
+			{ "year": "2562", "income": 174.68 },
+			{ "year": "2561", "income": 0 },
+			{ "year": "2560", "income": 0 }
+		],
+		"value_share": 132997,
+		"submit_obj_big_type": "G",
+		"company_name_th": "วีทีเค อินโน กรุ๊ป จำกัด",
+		"pct_share": 65,
+		"obj_tname": "การขายส่งอาหารเครื่องดื่มและยาสูบโดยได้รับค่าตอบแทนหรือตามสัญญาจ้าง",
+		"company_id": "0105562190418",
+		"reg_date": "8/11/2562",
+		"company_name_en": "VTK INNO GROUP CO., LTD.",
+		"tsic": 46102,
+		"cap_amt": 1000000,
+		"company_value": 204610,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ศิริธรรมวัฒน์",
+				"value_share": 132997,
+				"Nationality": "TH",
+				"pct_share": 65,
+				"count_share": 6500,
+				"Firstname": "นที",
+				"person": {
+					"Number": 11,
+					"Title": "นาย",
+					"Name": "นที ศิริธรรมวัฒน์",
+					"PartyName": "ชาติพัฒนากล้า",
+					"MpType": "แบ่งเขต",
+					"Id": "1976",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 6,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ชาติพัฒนากล้า/นที-ศิริธรรมวัฒน์.webp",
+					"Party": {
+						"Name": "ชาติพัฒนากล้า",
+						"Color": "#FBB514",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 34,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/BCxo6X8Yn-o_sAL9ed.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ศิริธรรมวัฒน์",
+				"value_share": 61383,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 3000,
+				"Firstname": "รวี"
+			},
+			{
+				"Lastname": "พาขุนทด",
+				"value_share": 10231,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "วิโรจน์"
+			}
+		],
+		"count_shareholder": 6500,
+		"gov_fund_proj": null
+	}
+]

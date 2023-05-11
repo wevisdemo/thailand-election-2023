@@ -1,1 +1,81 @@
-[{"full_address":"16\/1  ซอย6 ก (แก้วนวรัฐ) ถนนแก้วนวรัฐ ต.วัดเกต อ.เมืองเชียงใหม่ จ.เชียงใหม่","financial":[{"year":"2564","income":2656462.0699999998},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":874759,"submit_obj_big_type":"J","company_name_th":"ไทยคอนเซนท์ จำกัด","pct_share":60,"obj_tname":"การจัดทำซอฟต์แวร์สำเร็จรูป (ยกเว้นซอฟต์แวร์เกมสำเร็จรูป)","company_id":"0505564001333","reg_date":"25\/01\/2564","company_name_en":"THAICONSENT CO., LTD.","tsic":58202,"cap_amt":1000000,"company_value":1457931,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"จันทาจันทึก","value_share":437379,"Nationality":"TH","pct_share":30,"count_share":3000,"Firstname":"นารีรัตน์"},{"Lastname":"วงษ์สว่าง","value_share":874759,"Nationality":"TH","pct_share":60,"count_share":6000,"Firstname":"วิภาพรรณ","person":{"Number":9,"Title":"นางสาว","Name":"วิภาพรรณ วงษ์สว่าง","PartyName":"ไทยสร้างไทย","MpType":"แบ่งเขต","Id":"4376","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เชียงใหม่","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/วิภาพรรณ-วงษ์สว่าง.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ทำรงยุทธ","value_share":145793,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"ณัฎฐณิชา"}],"count_shareholder":6000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "16/1  ซอย6 ก (แก้วนวรัฐ) ถนนแก้วนวรัฐ ต.วัดเกต อ.เมืองเชียงใหม่ จ.เชียงใหม่",
+		"financial": [
+			{ "year": "2564", "income": 2656462.0699999998 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 874759,
+		"submit_obj_big_type": "J",
+		"company_name_th": "ไทยคอนเซนท์ จำกัด",
+		"pct_share": 60,
+		"obj_tname": "การจัดทำซอฟต์แวร์สำเร็จรูป (ยกเว้นซอฟต์แวร์เกมสำเร็จรูป)",
+		"company_id": "0505564001333",
+		"reg_date": "25/01/2564",
+		"company_name_en": "THAICONSENT CO., LTD.",
+		"tsic": 58202,
+		"cap_amt": 1000000,
+		"company_value": 1457931,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "จันทาจันทึก",
+				"value_share": 437379,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 3000,
+				"Firstname": "นารีรัตน์"
+			},
+			{
+				"Lastname": "วงษ์สว่าง",
+				"value_share": 874759,
+				"Nationality": "TH",
+				"pct_share": 60,
+				"count_share": 6000,
+				"Firstname": "วิภาพรรณ",
+				"person": {
+					"Number": 9,
+					"Title": "นางสาว",
+					"Name": "วิภาพรรณ วงษ์สว่าง",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4376",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เชียงใหม่",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/วิภาพรรณ-วงษ์สว่าง.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ทำรงยุทธ",
+				"value_share": 145793,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "ณัฎฐณิชา"
+			}
+		],
+		"count_shareholder": 6000,
+		"gov_fund_proj": null
+	}
+]

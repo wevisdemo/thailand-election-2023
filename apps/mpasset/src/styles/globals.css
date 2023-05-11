@@ -11,6 +11,14 @@ html {
 	overflow-x: hidden;
 }
 
+/* svg {
+	shape-rendering: optimizeSpeed;
+} */
+
+text {
+	text-rendering: optimizeSpeed;
+}
+
 @supports (-webkit-touch-callout: none) {
 	.h-screen {
 		height: -webkit-fill-available;

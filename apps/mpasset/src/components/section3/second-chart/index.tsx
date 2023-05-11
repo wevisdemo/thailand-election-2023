@@ -5,11 +5,10 @@ import React from 'react'
 import { CredenData } from '../../../models/person'
 import { usePersonStore } from '../../../store/person'
 import { List, Search } from '../../util/icon-main'
-import { LoadingScreen } from '../Loading'
 import SearchPerson from '../SearchPerson'
-import PersonDetail from './PersonDetail'
 
 const PersonToCompanyRelationChart = dynamic(() => import('./PersonToCompanyRelationChart'))
+const PersonDetail = dynamic(() => import('./PersonDetail'))
 
 const SelectedPersonDetail = () => {
   const { selectedPerson, setSelectedPerson,
@@ -46,10 +45,6 @@ const SelectedPersonDetail = () => {
         if (shareholderData) {
           shareholderData.forEach((d) => {
             d.company_shareholder?.forEach((c) => {
-              if (selectedDataSet === 'ผู้สมัคร 66') {
-                if (typeof c.person?.Images === 'string')
-                  c.person.Images = `${c.person.Images.replace('yourcandidates', 'mpasset')}`
-              }
               c.pct_share = c.pct_share < 0.01 ? 0.01 : c.pct_share % 1 != 0 ? Number(c.pct_share.toFixed(2)) : c.pct_share
             })
             d.pct_share = d.pct_share < 0.01 ? 0.01 : d.pct_share % 1 != 0 ? Number(d.pct_share.toFixed(2)) : d.pct_share
@@ -59,10 +54,6 @@ const SelectedPersonDetail = () => {
           directorData.forEach((d) => {
             if (Array.isArray(d.company_shareholder)) {
               d.company_shareholder?.forEach((c) => {
-                if (selectedDataSet === 'ผู้สมัคร 66') {
-                  if (typeof c.person?.Images === 'string')
-                    c.person.Images = `${c.person.Images.replace('yourcandidates', 'mpasset')}`
-                }
                 c.pct_share = c.pct_share < 0.01 ? 0.01 : c.pct_share % 1 != 0 ? Number(c.pct_share.toFixed(2)) : c.pct_share
               })
             }
@@ -83,9 +74,6 @@ const SelectedPersonDetail = () => {
       fetchFromGit(selectedPerson.Name.replaceAll(' ', '-'))
     }
   }, [selectedPerson, fetchFromGit])
-
-  // if (isLoading)
-  //   return <LoadingScreen />
 
   return (
     <div className='relative w-full h-full flex flex-col'>

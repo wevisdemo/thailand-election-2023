@@ -1,1 +1,174 @@
-[{"full_address":"37 หมู่บ้าน บ้านโคกกลาง หมู่ที่ 8 ต.หนองแคน อ.ปทุมรัตต์ จ.ร้อยเอ็ด","financial":[{"year":"2565","income":0},{"year":"2564","income":0},{"year":"2563","income":0}],"value_share":0,"submit_obj_big_type":"A","company_name_th":"มายเอ็มเมอรัล(ประเทศไทย) จำกัด","pct_share":68,"obj_tname":"การปลูกพืชการเพาะพันธุ์และการขยายพันธุ์พืชอื่นๆ","company_id":"0455566000211","reg_date":"18\/1\/2566","company_name_en":"","tsic":1302,"cap_amt":5000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ภูอ่าว","value_share":0,"Nationality":"TH","pct_share":68,"count_share":680000,"Firstname":"ธงธรรม","person":{"Number":"","Title":"นาย","Name":"ธงธรรม ภูอ่าว","PartyName":"ภูมิใจไทย","MpType":"บัญชีรายชื่อ","Id":"193","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ธงธรรม-ภูอ่าว.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"แก้วกันหา","value_share":0,"Nationality":"TH","pct_share":16,"count_share":160000,"Firstname":"ภูรัชช์"},{"Lastname":"แก้วกันหา","value_share":0,"Nationality":"TH","pct_share":11,"count_share":110000,"Firstname":"รติกร"},{"Lastname":"แตงอุดม","value_share":0,"Nationality":"TH","pct_share":5,"count_share":50000,"Firstname":"สุนทร"}],"count_shareholder":680000,"gov_fund_proj":null},{"full_address":"37  หมู่บ้าน บ้านโคกกลาง หมู่ที่ 8 ต.หนองแคน อ.ปทุมรัตต์ จ.ร้อยเอ็ด","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"M","company_name_th":"เอ็มเมอรัล โกรว์ จำกัด","pct_share":45,"obj_tname":"-","company_id":"0455565001036","reg_date":"11\/07\/2565","company_name_en":"EMERALD GROW CO., LTD.","tsic":70209,"cap_amt":5000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ภูอ่าว","value_share":0,"Nationality":"TH","pct_share":5,"count_share":50000,"Firstname":"วรพงค์"},{"Lastname":"ภูอ่าว","value_share":0,"Nationality":"TH","pct_share":45,"count_share":450000,"Firstname":"ธงธรรม","person":{"Number":"","Title":"นาย","Name":"ธงธรรม ภูอ่าว","PartyName":"ภูมิใจไทย","MpType":"บัญชีรายชื่อ","Id":"193","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ธงธรรม-ภูอ่าว.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ยวงกลาง","value_share":0,"Nationality":"TH","pct_share":25,"count_share":250000,"Firstname":"มานพ"},{"Lastname":"แก้วกันหา","value_share":0,"Nationality":"TH","pct_share":25,"count_share":250000,"Firstname":"ภูรัชช์"}],"count_shareholder":450000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "37 หมู่บ้าน บ้านโคกกลาง หมู่ที่ 8 ต.หนองแคน อ.ปทุมรัตต์ จ.ร้อยเอ็ด",
+		"financial": [
+			{ "year": "2565", "income": 0 },
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "A",
+		"company_name_th": "มายเอ็มเมอรัล(ประเทศไทย) จำกัด",
+		"pct_share": 68,
+		"obj_tname": "การปลูกพืชการเพาะพันธุ์และการขยายพันธุ์พืชอื่นๆ",
+		"company_id": "0455566000211",
+		"reg_date": "18/1/2566",
+		"company_name_en": "",
+		"tsic": 1302,
+		"cap_amt": 5000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ภูอ่าว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 68,
+				"count_share": 680000,
+				"Firstname": "ธงธรรม",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ธงธรรม ภูอ่าว",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "193",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ธงธรรม-ภูอ่าว.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "แก้วกันหา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 16,
+				"count_share": 160000,
+				"Firstname": "ภูรัชช์"
+			},
+			{
+				"Lastname": "แก้วกันหา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 11,
+				"count_share": 110000,
+				"Firstname": "รติกร"
+			},
+			{
+				"Lastname": "แตงอุดม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 50000,
+				"Firstname": "สุนทร"
+			}
+		],
+		"count_shareholder": 680000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "37  หมู่บ้าน บ้านโคกกลาง หมู่ที่ 8 ต.หนองแคน อ.ปทุมรัตต์ จ.ร้อยเอ็ด",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "M",
+		"company_name_th": "เอ็มเมอรัล โกรว์ จำกัด",
+		"pct_share": 45,
+		"obj_tname": "-",
+		"company_id": "0455565001036",
+		"reg_date": "11/07/2565",
+		"company_name_en": "EMERALD GROW CO., LTD.",
+		"tsic": 70209,
+		"cap_amt": 5000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ภูอ่าว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 50000,
+				"Firstname": "วรพงค์"
+			},
+			{
+				"Lastname": "ภูอ่าว",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 45,
+				"count_share": 450000,
+				"Firstname": "ธงธรรม",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ธงธรรม ภูอ่าว",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "193",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ธงธรรม-ภูอ่าว.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ยวงกลาง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 250000,
+				"Firstname": "มานพ"
+			},
+			{
+				"Lastname": "แก้วกันหา",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 250000,
+				"Firstname": "ภูรัชช์"
+			}
+		],
+		"count_shareholder": 450000,
+		"gov_fund_proj": null
+	}
+]

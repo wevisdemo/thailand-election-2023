@@ -1,1 +1,184 @@
-[{"full_address":"33\/4  หมู่ที่ 5 ต.วัดป่า อ.หล่มสัก จ.เพชรบูรณ์","financial":[{"year":"2564","income":2483.33},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":597427,"submit_obj_big_type":"C","company_name_th":"โรงหมี่กิจเจริญ หล่มสัก จำกัด","pct_share":20.0,"obj_tname":"การผลิตเส้นก๋วยเตี๋ยว บะหมี่ วุ้นเส้น","company_id":"0675564001502","reg_date":"04\/10\/2564","company_name_en":"RONGMEE KITCHAROEN LOMSAK CO., LTD.","tsic":10742,"cap_amt":3000000,"company_value":2987133,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"สืบสุรีย์กุล","value_share":398283,"Nationality":"TH","pct_share":13.33,"count_share":4000,"Firstname":"พลอยนภสร"},{"Lastname":"ภิญโญ","value_share":696997,"Nationality":"TH","pct_share":23.33,"count_share":7000,"Firstname":"ศิริพร"},{"Lastname":"สืบสุรีย์กุล","value_share":597427,"Nationality":"TH","pct_share":20,"count_share":6000,"Firstname":"ชัยณรงค์","person":{"Number":8,"Title":"นาย","Name":"ชัยณรงค์ สืบสุรีย์กุล","PartyName":"เพื่อไทย","MpType":"แบ่งเขต","Id":"4970","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เพชรบูรณ์","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/ชัยณรงค์-สืบสุรีย์กุล.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สืบสุรีย์กุล","value_share":995710,"Nationality":"TH","pct_share":33.33,"count_share":10000,"Firstname":"ชัยยุทธ"},{"Lastname":"ภิญโญ","value_share":298713,"Nationality":"TH","pct_share":10,"count_share":3000,"Firstname":"กัญญาณัฐ"}],"count_shareholder":6000,"gov_fund_proj":null},{"full_address":"33\/9  หมู่ที่ 5 ต.วัดป่า อ.หล่มสัก จ.เพชรบูรณ์","financial":[{"year":"2564","income":3675.37},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":329106,"submit_obj_big_type":"L","company_name_th":"ศรี เอสเตท จำกัด","pct_share":33.33,"obj_tname":"การซื้อและการขายอสังหาริมทรัพย์ที่เป็นของตนเองที่ไม่ใช่ เพื่อเป็นที่พักอาศัย","company_id":"0675564000531","reg_date":"30\/03\/2564","company_name_en":"SRI ESTATE CO., LTD.","tsic":68102,"cap_amt":1000000,"company_value":987415,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ภิญโญ","value_share":197483,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"ศิริพร"},{"Lastname":"สืบสุรีย์กุล","value_share":329106,"Nationality":"TH","pct_share":33.33,"count_share":3333,"Firstname":"ชัยณรงค์","person":{"Number":8,"Title":"นาย","Name":"ชัยณรงค์ สืบสุรีย์กุล","PartyName":"เพื่อไทย","MpType":"แบ่งเขต","Id":"4970","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เพชรบูรณ์","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อไทย\/ชัยณรงค์-สืบสุรีย์กุล.webp","Party":{"Name":"เพื่อไทย","Color":"#F41724","PartyType":"พรรค","IsActive":true,"Id":23,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/D7MJq6fghODrGEnj7t.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ภิญโญ","value_share":131721,"Nationality":"TH","pct_share":13.34,"count_share":1334,"Firstname":"กัญญาณัฐ"},{"Lastname":"สืบสุรีย์กุล","value_share":329106,"Nationality":"TH","pct_share":33.33,"count_share":3333,"Firstname":"ชัยยุทธ"}],"count_shareholder":3333,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "33/4  หมู่ที่ 5 ต.วัดป่า อ.หล่มสัก จ.เพชรบูรณ์",
+		"financial": [
+			{ "year": "2564", "income": 2483.33 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 597427,
+		"submit_obj_big_type": "C",
+		"company_name_th": "โรงหมี่กิจเจริญ หล่มสัก จำกัด",
+		"pct_share": 20.0,
+		"obj_tname": "การผลิตเส้นก๋วยเตี๋ยว บะหมี่ วุ้นเส้น",
+		"company_id": "0675564001502",
+		"reg_date": "04/10/2564",
+		"company_name_en": "RONGMEE KITCHAROEN LOMSAK CO., LTD.",
+		"tsic": 10742,
+		"cap_amt": 3000000,
+		"company_value": 2987133,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "สืบสุรีย์กุล",
+				"value_share": 398283,
+				"Nationality": "TH",
+				"pct_share": 13.33,
+				"count_share": 4000,
+				"Firstname": "พลอยนภสร"
+			},
+			{
+				"Lastname": "ภิญโญ",
+				"value_share": 696997,
+				"Nationality": "TH",
+				"pct_share": 23.33,
+				"count_share": 7000,
+				"Firstname": "ศิริพร"
+			},
+			{
+				"Lastname": "สืบสุรีย์กุล",
+				"value_share": 597427,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 6000,
+				"Firstname": "ชัยณรงค์",
+				"person": {
+					"Number": 8,
+					"Title": "นาย",
+					"Name": "ชัยณรงค์ สืบสุรีย์กุล",
+					"PartyName": "เพื่อไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4970",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เพชรบูรณ์",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/ชัยณรงค์-สืบสุรีย์กุล.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สืบสุรีย์กุล",
+				"value_share": 995710,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 10000,
+				"Firstname": "ชัยยุทธ"
+			},
+			{
+				"Lastname": "ภิญโญ",
+				"value_share": 298713,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 3000,
+				"Firstname": "กัญญาณัฐ"
+			}
+		],
+		"count_shareholder": 6000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "33/9  หมู่ที่ 5 ต.วัดป่า อ.หล่มสัก จ.เพชรบูรณ์",
+		"financial": [
+			{ "year": "2564", "income": 3675.37 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 329106,
+		"submit_obj_big_type": "L",
+		"company_name_th": "ศรี เอสเตท จำกัด",
+		"pct_share": 33.33,
+		"obj_tname": "การซื้อและการขายอสังหาริมทรัพย์ที่เป็นของตนเองที่ไม่ใช่ เพื่อเป็นที่พักอาศัย",
+		"company_id": "0675564000531",
+		"reg_date": "30/03/2564",
+		"company_name_en": "SRI ESTATE CO., LTD.",
+		"tsic": 68102,
+		"cap_amt": 1000000,
+		"company_value": 987415,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ภิญโญ",
+				"value_share": 197483,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "ศิริพร"
+			},
+			{
+				"Lastname": "สืบสุรีย์กุล",
+				"value_share": 329106,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 3333,
+				"Firstname": "ชัยณรงค์",
+				"person": {
+					"Number": 8,
+					"Title": "นาย",
+					"Name": "ชัยณรงค์ สืบสุรีย์กุล",
+					"PartyName": "เพื่อไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4970",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เพชรบูรณ์",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อไทย/ชัยณรงค์-สืบสุรีย์กุล.webp",
+					"Party": {
+						"Name": "เพื่อไทย",
+						"Color": "#F41724",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 23,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/D7MJq6fghODrGEnj7t.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ภิญโญ",
+				"value_share": 131721,
+				"Nationality": "TH",
+				"pct_share": 13.34,
+				"count_share": 1334,
+				"Firstname": "กัญญาณัฐ"
+			},
+			{
+				"Lastname": "สืบสุรีย์กุล",
+				"value_share": 329106,
+				"Nationality": "TH",
+				"pct_share": 33.33,
+				"count_share": 3333,
+				"Firstname": "ชัยยุทธ"
+			}
+		],
+		"count_shareholder": 3333,
+		"gov_fund_proj": null
+	}
+]

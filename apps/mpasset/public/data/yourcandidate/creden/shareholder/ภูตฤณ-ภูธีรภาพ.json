@@ -1,1 +1,81 @@
-[{"full_address":"78\/218 ซอยวัชรพล 2 แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร","financial":[{"year":"2565","income":11450367.4399999995},{"year":"2564","income":23803649.629999999},{"year":"2563","income":7464086.1799999997},{"year":"2562","income":6318259.7999999998}],"value_share":357626,"submit_obj_big_type":"G","company_name_th":"ภูชัยยศ จำกัด","pct_share":95,"obj_tname":"ร้านขายปลีกเครื่องดื่มที่มีแอลกอฮอล์","company_id":"0105557092144","reg_date":"30\/6\/2557","company_name_en":"POOCHAIYOT COMPANY LIMITED","tsic":47221,"cap_amt":1000000,"company_value":376449,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ภูธีรภาพ","value_share":357626,"Nationality":"TH","pct_share":95,"count_share":9500,"Firstname":"ภูตฤณ","person":{"Number":3,"Title":"นาย","Name":"ภูตฤณ ภูธีรภาพ","PartyName":"ไทยภักดี","MpType":"แบ่งเขต","Id":"1955","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยภักดี\/ภูตฤณ-ภูธีรภาพ.webp","Party":{"Name":"ไทยภักดี","Color":"#FFF177","PartyType":"พรรค","IsActive":false,"Id":41,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/VN7bjgg2xbg_de1Zit.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สงตลาด","value_share":9411,"Nationality":"TH","pct_share":2.5,"count_share":250,"Firstname":"ทวีศักดิ์"},{"Lastname":"สงตลาด","value_share":9411,"Nationality":"TH","pct_share":2.5,"count_share":250,"Firstname":"สุพรรษา"}],"count_shareholder":9500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "78/218 ซอยวัชรพล 2 แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2565", "income": 11450367.4399999995 },
+			{ "year": "2564", "income": 23803649.629999999 },
+			{ "year": "2563", "income": 7464086.1799999997 },
+			{ "year": "2562", "income": 6318259.7999999998 }
+		],
+		"value_share": 357626,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ภูชัยยศ จำกัด",
+		"pct_share": 95,
+		"obj_tname": "ร้านขายปลีกเครื่องดื่มที่มีแอลกอฮอล์",
+		"company_id": "0105557092144",
+		"reg_date": "30/6/2557",
+		"company_name_en": "POOCHAIYOT COMPANY LIMITED",
+		"tsic": 47221,
+		"cap_amt": 1000000,
+		"company_value": 376449,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ภูธีรภาพ",
+				"value_share": 357626,
+				"Nationality": "TH",
+				"pct_share": 95,
+				"count_share": 9500,
+				"Firstname": "ภูตฤณ",
+				"person": {
+					"Number": 3,
+					"Title": "นาย",
+					"Name": "ภูตฤณ ภูธีรภาพ",
+					"PartyName": "ไทยภักดี",
+					"MpType": "แบ่งเขต",
+					"Id": "1955",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยภักดี/ภูตฤณ-ภูธีรภาพ.webp",
+					"Party": {
+						"Name": "ไทยภักดี",
+						"Color": "#FFF177",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 41,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/VN7bjgg2xbg_de1Zit.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สงตลาด",
+				"value_share": 9411,
+				"Nationality": "TH",
+				"pct_share": 2.5,
+				"count_share": 250,
+				"Firstname": "ทวีศักดิ์"
+			},
+			{
+				"Lastname": "สงตลาด",
+				"value_share": 9411,
+				"Nationality": "TH",
+				"pct_share": 2.5,
+				"count_share": 250,
+				"Firstname": "สุพรรษา"
+			}
+		],
+		"count_shareholder": 9500,
+		"gov_fund_proj": null
+	}
+]

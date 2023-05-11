@@ -1,1 +1,111 @@
-[{"full_address":"89\/57  หมู่บ้าน เต็มสิริพรีว่า ถนนประชาสำราญ แขวงหนองจอก เขตหนองจอก กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":474155.07},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"F","company_name_th":"เอสพี อิวิเดนท์ จำกัด","pct_share":1,"obj_tname":"กิจกรรมการก่อสร้างเฉพาะด้านอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0105562166177","reg_date":"24\/09\/2562","company_name_en":"SP EVIDENT CO., LTD.","tsic":43909,"cap_amt":5000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"และมิตร","value_share":0,"Nationality":"TH","pct_share":1,"count_share":500,"Firstname":"มาเรียม","person":{"Number":15,"Title":"นาง","Name":"มาเรียม และมิตร","PartyName":"ไทยภักดี","MpType":"แบ่งเขต","Id":"6224","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":10,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยภักดี\/มาเรียม-และมิตร.webp","Party":{"Name":"ไทยภักดี","Color":"#FFF177","PartyType":"พรรค","IsActive":false,"Id":41,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/VN7bjgg2xbg_de1Zit.png"},"companyType":["F"],"totalValueShare":0,"countCompShare":1,"countDirector":0,"totalPctShare":0}},{"Lastname":"แสงศรี","value_share":0,"Nationality":"TH","pct_share":98,"count_share":49000,"Firstname":"สุขสันต์"},{"Lastname":"และมิตร","value_share":0,"Nationality":"TH","pct_share":1,"count_share":500,"Firstname":"ไพฑูรย์","person":{"Number":13,"Title":"นาย","Name":"ไพฑูรย์ และมิตร","PartyName":"ไทยภักดี","MpType":"แบ่งเขต","Id":"6226","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กรุงเทพมหานคร","MpZone":11,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยภักดี\/ไพฑูรย์-และมิตร.webp","Party":{"Name":"ไทยภักดี","Color":"#FFF177","PartyType":"พรรค","IsActive":false,"Id":41,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/VN7bjgg2xbg_de1Zit.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "89/57  หมู่บ้าน เต็มสิริพรีว่า ถนนประชาสำราญ แขวงหนองจอก เขตหนองจอก กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 474155.07 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "F",
+		"company_name_th": "เอสพี อิวิเดนท์ จำกัด",
+		"pct_share": 1,
+		"obj_tname": "กิจกรรมการก่อสร้างเฉพาะด้านอื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0105562166177",
+		"reg_date": "24/09/2562",
+		"company_name_en": "SP EVIDENT CO., LTD.",
+		"tsic": 43909,
+		"cap_amt": 5000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "และมิตร",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 500,
+				"Firstname": "มาเรียม",
+				"person": {
+					"Number": 15,
+					"Title": "นาง",
+					"Name": "มาเรียม และมิตร",
+					"PartyName": "ไทยภักดี",
+					"MpType": "แบ่งเขต",
+					"Id": "6224",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 10,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยภักดี/มาเรียม-และมิตร.webp",
+					"Party": {
+						"Name": "ไทยภักดี",
+						"Color": "#FFF177",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 41,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/VN7bjgg2xbg_de1Zit.png"
+					},
+					"companyType": ["F"],
+					"totalValueShare": 0,
+					"countCompShare": 1,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "แสงศรี",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 98,
+				"count_share": 49000,
+				"Firstname": "สุขสันต์"
+			},
+			{
+				"Lastname": "และมิตร",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 500,
+				"Firstname": "ไพฑูรย์",
+				"person": {
+					"Number": 13,
+					"Title": "นาย",
+					"Name": "ไพฑูรย์ และมิตร",
+					"PartyName": "ไทยภักดี",
+					"MpType": "แบ่งเขต",
+					"Id": "6226",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กรุงเทพมหานคร",
+					"MpZone": 11,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยภักดี/ไพฑูรย์-และมิตร.webp",
+					"Party": {
+						"Name": "ไทยภักดี",
+						"Color": "#FFF177",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 41,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/VN7bjgg2xbg_de1Zit.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 500,
+		"gov_fund_proj": null
+	}
+]

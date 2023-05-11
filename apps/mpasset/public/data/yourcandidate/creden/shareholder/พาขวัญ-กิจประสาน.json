@@ -1,1 +1,159 @@
-[{"full_address":"99\/36 หมู่ที่ 5 ต.รัษฎา อ.เมืองภูเก็ต จ.ภูเก็ต","financial":[{"year":"2564","income":23624083.5300000012},{"year":"2563","income":9424143.6400000006},{"year":"2562","income":21101193.9899999984},{"year":"2561","income":27768077.7899999991}],"value_share":4741808,"submit_obj_big_type":"G","company_name_th":"ริช  แมนส์  ทอย ภูเก็ต (2016) จำกัด","pct_share":99.996,"obj_tname":"การบำรุงรักษายานยนต์ทั่วไป","company_id":"0835559002715","reg_date":"28\/2\/2559","company_name_en":"RICH  MAN'S TOY PHUKET (2016) COMPANY LIMITED","tsic":45203,"cap_amt":5000000,"company_value":4741998,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"กิจประสาน","value_share":4741808,"Nationality":"TH","pct_share":100,"count_share":49998,"Firstname":"พาขวัญ","person":{"Number":6,"Title":"นางสาว","Name":"พาขวัญ กิจประสาน","PartyName":"ไทยสร้างไทย","MpType":"แบ่งเขต","Id":"5471","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ภูเก็ต","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/พาขวัญ-กิจประสาน.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"อินทรา","value_share":95,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"สุษิระ"},{"Lastname":"ไกรนรา","value_share":95,"Nationality":"TH","pct_share":0,"count_share":1,"Firstname":"ทวีรัตน์"}],"count_shareholder":49998,"gov_fund_proj":null},{"full_address":"99\/36  หมู่ที่ 5 ต.รัษฎา อ.เมืองภูเก็ต จ.ภูเก็ต","financial":[{"year":"2564","income":79280401.4099999964},{"year":"2563","income":29470241.4699999988},{"year":"2562","income":33913300.4900000021},{"year":"2561","income":0}],"value_share":3339378,"submit_obj_big_type":"G","company_name_th":"เกีย ภูเก็ต จำกัด","pct_share":90.0,"obj_tname":"การขายยานยนต์ใหม่ชนิดรถยนต์นั่งส่วนบุคคลรถกระบะรถตู้ และรถขนาดเล็กที่คล้ายกัน","company_id":"0835562005011","reg_date":"22\/03\/2562","company_name_en":"KIA PHUKET COMPANY LIMITED","tsic":45101,"cap_amt":5000000,"company_value":3710420,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"กิจประสาน","value_share":3339378,"Nationality":"TH","pct_share":90,"count_share":44999,"Firstname":"พาขวัญ","person":{"Number":6,"Title":"นางสาว","Name":"พาขวัญ กิจประสาน","PartyName":"ไทยสร้างไทย","MpType":"แบ่งเขต","Id":"5471","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ภูเก็ต","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/พาขวัญ-กิจประสาน.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"","value_share":371042,"Nationality":"TH","pct_share":10,"count_share":5000,"Firstname":"ริชแมนส์ทอยส์ภูเก็ต(2016)จำกัด"},{"Firstname":"วารุณี","count_share":1,"pct_share":0,"Nationality":"TH","Lastname":"วินิจไพโรจน์"}],"count_shareholder":44999,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "99/36 หมู่ที่ 5 ต.รัษฎา อ.เมืองภูเก็ต จ.ภูเก็ต",
+		"financial": [
+			{ "year": "2564", "income": 23624083.5300000012 },
+			{ "year": "2563", "income": 9424143.6400000006 },
+			{ "year": "2562", "income": 21101193.9899999984 },
+			{ "year": "2561", "income": 27768077.7899999991 }
+		],
+		"value_share": 4741808,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ริช  แมนส์  ทอย ภูเก็ต (2016) จำกัด",
+		"pct_share": 99.996,
+		"obj_tname": "การบำรุงรักษายานยนต์ทั่วไป",
+		"company_id": "0835559002715",
+		"reg_date": "28/2/2559",
+		"company_name_en": "RICH  MAN'S TOY PHUKET (2016) COMPANY LIMITED",
+		"tsic": 45203,
+		"cap_amt": 5000000,
+		"company_value": 4741998,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "กิจประสาน",
+				"value_share": 4741808,
+				"Nationality": "TH",
+				"pct_share": 100,
+				"count_share": 49998,
+				"Firstname": "พาขวัญ",
+				"person": {
+					"Number": 6,
+					"Title": "นางสาว",
+					"Name": "พาขวัญ กิจประสาน",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "5471",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ภูเก็ต",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/พาขวัญ-กิจประสาน.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "อินทรา",
+				"value_share": 95,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "สุษิระ"
+			},
+			{
+				"Lastname": "ไกรนรา",
+				"value_share": 95,
+				"Nationality": "TH",
+				"pct_share": 0,
+				"count_share": 1,
+				"Firstname": "ทวีรัตน์"
+			}
+		],
+		"count_shareholder": 49998,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "99/36  หมู่ที่ 5 ต.รัษฎา อ.เมืองภูเก็ต จ.ภูเก็ต",
+		"financial": [
+			{ "year": "2564", "income": 79280401.4099999964 },
+			{ "year": "2563", "income": 29470241.4699999988 },
+			{ "year": "2562", "income": 33913300.4900000021 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 3339378,
+		"submit_obj_big_type": "G",
+		"company_name_th": "เกีย ภูเก็ต จำกัด",
+		"pct_share": 90.0,
+		"obj_tname": "การขายยานยนต์ใหม่ชนิดรถยนต์นั่งส่วนบุคคลรถกระบะรถตู้ และรถขนาดเล็กที่คล้ายกัน",
+		"company_id": "0835562005011",
+		"reg_date": "22/03/2562",
+		"company_name_en": "KIA PHUKET COMPANY LIMITED",
+		"tsic": 45101,
+		"cap_amt": 5000000,
+		"company_value": 3710420,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "กิจประสาน",
+				"value_share": 3339378,
+				"Nationality": "TH",
+				"pct_share": 90,
+				"count_share": 44999,
+				"Firstname": "พาขวัญ",
+				"person": {
+					"Number": 6,
+					"Title": "นางสาว",
+					"Name": "พาขวัญ กิจประสาน",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "5471",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ภูเก็ต",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/พาขวัญ-กิจประสาน.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "",
+				"value_share": 371042,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 5000,
+				"Firstname": "ริชแมนส์ทอยส์ภูเก็ต(2016)จำกัด"
+			},
+			{
+				"Firstname": "วารุณี",
+				"count_share": 1,
+				"pct_share": 0,
+				"Nationality": "TH",
+				"Lastname": "วินิจไพโรจน์"
+			}
+		],
+		"count_shareholder": 44999,
+		"gov_fund_proj": null
+	}
+]

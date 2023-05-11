@@ -4,9 +4,10 @@ import { BusinessTypeData } from '../../models/business'
 import { usePersonStore } from '../../store/person'
 import { SortAsc, SortDesc } from '../util/action'
 import { Clear, Information } from '../util/icon-main'
-import SearchBusinessType from './SearchBusinessType'
-import SearchParty from './SearchParty'
-import InfoDialog from './first-chart/InfoDialog'
+import dynamic from 'next/dynamic'
+const SearchBusinessType = dynamic(() => import('./SearchBusinessType'))
+const SearchParty = dynamic(() => import('./SearchParty'))
+const InfoDialog = dynamic(() => import('./first-chart/InfoDialog'))
 
 export type SelectedFilterType = {
   dataSet: string | 'ผู้สมัคร 66',

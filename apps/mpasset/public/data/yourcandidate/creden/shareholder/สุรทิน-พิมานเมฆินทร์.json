@@ -1,1 +1,81 @@
-[{"full_address":"309 หมู่ที่ 7 ซอยบ้านหนองตะไก ต.หนองไผ่ อ.เมืองอุดรธานี จ.อุดรธานี","financial":[{"year":"2557","income":0},{"year":"2556","income":0},{"year":"2555","income":0},{"year":"2554","income":0}],"value_share":-9952350,"submit_obj_big_type":"C","company_name_th":"รอยัล อินเวอร์ท จำกัด","pct_share":80,"obj_tname":"การผลิตเครื่องมือที่ใช้ในการวัดการทดสอบการนำร่องและอุปกรณ์การควบคุม (ยกเว้น ในทางอุตสาหกรรม)","company_id":"0105545045961","reg_date":"29\/04\/2545","company_name_en":"ROYAL  INVERT   COMPANY LIMITED","tsic":26511,"cap_amt":10000000,"company_value":-12440438,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ยงยิน","value_share":-1244044,"Nationality":"TH","pct_share":10,"count_share":10000,"Firstname":"ไหล"},{"Lastname":"พิมานเมฆินทร์","value_share":-9952350,"Nationality":"TH","pct_share":80,"count_share":80000,"Firstname":"สุรทิน","person":{"Number":"","Title":"พันตำรวจโท","Name":"สุรทิน พิมานเมฆินทร์","PartyName":"รวมไทยสร้างชาติ","MpType":"บัญชีรายชื่อ","Id":"674","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/สุรทิน-พิมานเมฆินทร์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"บุตรโยจันโท","value_share":-1244044,"Nationality":"TH","pct_share":10,"count_share":10000,"Firstname":"ยุทธนันท์"}],"count_shareholder":80000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "309 หมู่ที่ 7 ซอยบ้านหนองตะไก ต.หนองไผ่ อ.เมืองอุดรธานี จ.อุดรธานี",
+		"financial": [
+			{ "year": "2557", "income": 0 },
+			{ "year": "2556", "income": 0 },
+			{ "year": "2555", "income": 0 },
+			{ "year": "2554", "income": 0 }
+		],
+		"value_share": -9952350,
+		"submit_obj_big_type": "C",
+		"company_name_th": "รอยัล อินเวอร์ท จำกัด",
+		"pct_share": 80,
+		"obj_tname": "การผลิตเครื่องมือที่ใช้ในการวัดการทดสอบการนำร่องและอุปกรณ์การควบคุม (ยกเว้น ในทางอุตสาหกรรม)",
+		"company_id": "0105545045961",
+		"reg_date": "29/04/2545",
+		"company_name_en": "ROYAL  INVERT   COMPANY LIMITED",
+		"tsic": 26511,
+		"cap_amt": 10000000,
+		"company_value": -12440438,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ยงยิน",
+				"value_share": -1244044,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 10000,
+				"Firstname": "ไหล"
+			},
+			{
+				"Lastname": "พิมานเมฆินทร์",
+				"value_share": -9952350,
+				"Nationality": "TH",
+				"pct_share": 80,
+				"count_share": 80000,
+				"Firstname": "สุรทิน",
+				"person": {
+					"Number": "",
+					"Title": "พันตำรวจโท",
+					"Name": "สุรทิน พิมานเมฆินทร์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "674",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/สุรทิน-พิมานเมฆินทร์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "บุตรโยจันโท",
+				"value_share": -1244044,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 10000,
+				"Firstname": "ยุทธนันท์"
+			}
+		],
+		"count_shareholder": 80000,
+		"gov_fund_proj": null
+	}
+]

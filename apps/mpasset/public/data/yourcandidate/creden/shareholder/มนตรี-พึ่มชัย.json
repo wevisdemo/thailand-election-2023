@@ -1,1 +1,81 @@
-[{"full_address":"173 หมู่ที่ 2 ถนนนายูง ต.กุมภวาปี อ.กุมภวาปี จ.อุดรธานี","financial":[{"year":"2563","income":4386.99},{"year":"2562","income":4375},{"year":"2561","income":3344.18},{"year":"2560","income":0}],"value_share":836188,"submit_obj_big_type":"F","company_name_th":"ทีเอ็ม ดิเวลล้อปเม้นท์อุดรธานี จำกัด","pct_share":85,"obj_tname":"การก่อสร้างอาคารที่พักอาศัย","company_id":"0415561001040","reg_date":"28\/3\/2561","company_name_en":"TM DEVELOPMENTUDONTHANI COMPANY LIMITED","tsic":41001,"cap_amt":1000000,"company_value":983750,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"โคตรศาลา","value_share":49188,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"รุ่งอรุณ"},{"Lastname":"หมื่นทอง","value_share":98375,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"นันทวัน"},{"Lastname":"พึ่มชัย","value_share":836188,"Nationality":"TH","pct_share":85,"count_share":8500,"Firstname":"มนตรี","person":{"Number":5,"Title":"นาย","Name":"มนตรี พึ่มชัย","PartyName":"พลังประชารัฐ","MpType":"แบ่งเขต","Id":"3878","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":7,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังประชารัฐ\/มนตรี-พึ่มชัย.webp","Party":{"Name":"พลังประชารัฐ","Color":"#2276EF","PartyType":"พรรค","IsActive":true,"Id":20,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/Y8aiwU_p-C-aZyw_PN.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":8500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "173 หมู่ที่ 2 ถนนนายูง ต.กุมภวาปี อ.กุมภวาปี จ.อุดรธานี",
+		"financial": [
+			{ "year": "2563", "income": 4386.99 },
+			{ "year": "2562", "income": 4375 },
+			{ "year": "2561", "income": 3344.18 },
+			{ "year": "2560", "income": 0 }
+		],
+		"value_share": 836188,
+		"submit_obj_big_type": "F",
+		"company_name_th": "ทีเอ็ม ดิเวลล้อปเม้นท์อุดรธานี จำกัด",
+		"pct_share": 85,
+		"obj_tname": "การก่อสร้างอาคารที่พักอาศัย",
+		"company_id": "0415561001040",
+		"reg_date": "28/3/2561",
+		"company_name_en": "TM DEVELOPMENTUDONTHANI COMPANY LIMITED",
+		"tsic": 41001,
+		"cap_amt": 1000000,
+		"company_value": 983750,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "โคตรศาลา",
+				"value_share": 49188,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "รุ่งอรุณ"
+			},
+			{
+				"Lastname": "หมื่นทอง",
+				"value_share": 98375,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "นันทวัน"
+			},
+			{
+				"Lastname": "พึ่มชัย",
+				"value_share": 836188,
+				"Nationality": "TH",
+				"pct_share": 85,
+				"count_share": 8500,
+				"Firstname": "มนตรี",
+				"person": {
+					"Number": 5,
+					"Title": "นาย",
+					"Name": "มนตรี พึ่มชัย",
+					"PartyName": "พลังประชารัฐ",
+					"MpType": "แบ่งเขต",
+					"Id": "3878",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 7,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังประชารัฐ/มนตรี-พึ่มชัย.webp",
+					"Party": {
+						"Name": "พลังประชารัฐ",
+						"Color": "#2276EF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 20,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/Y8aiwU_p-C-aZyw_PN.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 8500,
+		"gov_fund_proj": null
+	}
+]

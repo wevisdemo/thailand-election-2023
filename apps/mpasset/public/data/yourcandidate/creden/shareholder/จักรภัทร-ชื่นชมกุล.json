@@ -1,1 +1,289 @@
-[{"full_address":"180  หมู่ที่ 7 ต.นาโป่ง อ.เมืองเลย จ.เลย","financial":[{"year":"2564","income":67954.14},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":5138,"submit_obj_big_type":"A","company_name_th":"สหการไผ่และพืชชีวเวช จำกัด","pct_share":1,"obj_tname":"การปลูกพืชอื่นๆประเภทเครื่องเทศเครื่องหอมยารักษาโรค และพืชทางเภสัชภัณฑ์ซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0425563000831","reg_date":"17\/12\/2563","company_name_en":"BAMBOO AND BIOMEDICAL PLANTS COOPERATION CO., LTD.","tsic":1289,"cap_amt":1000000,"company_value":513791,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"จีรบุณย์","value_share":17983,"Nationality":"TH","pct_share":3.5,"count_share":350,"Firstname":"วรินทร"},{"Lastname":"เหมะกัน","value_share":1541,"Nationality":"TH","pct_share":0.3,"count_share":30,"Firstname":"อำไพร"},{"Lastname":"ประวัติโต","value_share":3597,"Nationality":"TH","pct_share":0.7,"count_share":70,"Firstname":"สุภา"},{"Lastname":"สีโสภา","value_share":10276,"Nationality":"TH","pct_share":2,"count_share":200,"Firstname":"ชาญชัย"},{"Lastname":"ศรพรหม","value_share":20552,"Nationality":"TH","pct_share":4,"count_share":400,"Firstname":"พิชา"},{"Lastname":"ศรีพล","value_share":77069,"Nationality":"TH","pct_share":15,"count_share":1500,"Firstname":"ณัฐพัชร์"},{"Lastname":"ชาญณรงค์","value_share":5138,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"อัญชลี"},{"Lastname":"แกรนปรุ","value_share":10276,"Nationality":"TH","pct_share":2,"count_share":200,"Firstname":"จุลวุฒิ"},{"Lastname":"ศรีกระทุม","value_share":5138,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"สุบัญดิฐ"},{"Lastname":"สุริยาอรุณโรจน์","value_share":51379,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"ปวริศร์"},{"Lastname":"ชื่นชมกุล","value_share":5138,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"จักรภัทร","person":{"Number":10,"Title":"นาย","Name":"จักรภัทร ชื่นชมกุล","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"3896","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"อุดรธานี","MpZone":8,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/จักรภัทร-ชื่นชมกุล.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"จันทรสงเคราะห์","value_share":2569,"Nationality":"TH","pct_share":0.5,"count_share":50,"Firstname":"อนุศักดิ์"},{"Lastname":"บรรทะนิต","value_share":5138,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"เพ็ญยุภา"},{"Lastname":"มอไธสง","value_share":25690,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"สุขสันต์"},{"Lastname":"พุ่มพฤกษ์","value_share":102758,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"ศักดิ์ศิริ"},{"Lastname":"ศรีเสมอ","value_share":2569,"Nationality":"TH","pct_share":0.5,"count_share":50,"Firstname":"วิพัฒน์"},{"Lastname":"หรั่งชะเอม","value_share":5138,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"วรณัน"},{"Lastname":"ยอดตา","value_share":10276,"Nationality":"TH","pct_share":2,"count_share":200,"Firstname":"จักรพงศ์"},{"Lastname":"อ่อนพฤกษา","value_share":5138,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"นภาลัย"},{"Lastname":"อิ่มเจริญ","value_share":5138,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"อำนาจ"},{"Lastname":"ภักดิ์ศรีแพง","value_share":51379,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"จามร"},{"Lastname":"ปอจง","value_share":15414,"Nationality":"TH","pct_share":3,"count_share":300,"Firstname":"ถาวร"},{"Lastname":"อุทธตรี","value_share":5138,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"ณัฐญากรณ์"},{"Lastname":"เรืองรัตน์","value_share":17983,"Nationality":"TH","pct_share":3.5,"count_share":350,"Firstname":"ชีวรัตน์"},{"Lastname":"บุญรอด","value_share":5138,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"น้ำผึ้ง"},{"Lastname":"โรจนอนันต์","value_share":25690,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"สุเมธ"},{"Lastname":"คำอยู่","value_share":10276,"Nationality":"TH","pct_share":2,"count_share":200,"Firstname":"ปรียาวรรณ"},{"Lastname":"แก้วกู่","value_share":5138,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"วิษณุ"},{"Lastname":"วิทวัสพันธุ์","value_share":5138,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"สมพล"}],"count_shareholder":100,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "180  หมู่ที่ 7 ต.นาโป่ง อ.เมืองเลย จ.เลย",
+		"financial": [
+			{ "year": "2564", "income": 67954.14 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 5138,
+		"submit_obj_big_type": "A",
+		"company_name_th": "สหการไผ่และพืชชีวเวช จำกัด",
+		"pct_share": 1,
+		"obj_tname": "การปลูกพืชอื่นๆประเภทเครื่องเทศเครื่องหอมยารักษาโรค และพืชทางเภสัชภัณฑ์ซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0425563000831",
+		"reg_date": "17/12/2563",
+		"company_name_en": "BAMBOO AND BIOMEDICAL PLANTS COOPERATION CO., LTD.",
+		"tsic": 1289,
+		"cap_amt": 1000000,
+		"company_value": 513791,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "จีรบุณย์",
+				"value_share": 17983,
+				"Nationality": "TH",
+				"pct_share": 3.5,
+				"count_share": 350,
+				"Firstname": "วรินทร"
+			},
+			{
+				"Lastname": "เหมะกัน",
+				"value_share": 1541,
+				"Nationality": "TH",
+				"pct_share": 0.3,
+				"count_share": 30,
+				"Firstname": "อำไพร"
+			},
+			{
+				"Lastname": "ประวัติโต",
+				"value_share": 3597,
+				"Nationality": "TH",
+				"pct_share": 0.7,
+				"count_share": 70,
+				"Firstname": "สุภา"
+			},
+			{
+				"Lastname": "สีโสภา",
+				"value_share": 10276,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 200,
+				"Firstname": "ชาญชัย"
+			},
+			{
+				"Lastname": "ศรพรหม",
+				"value_share": 20552,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 400,
+				"Firstname": "พิชา"
+			},
+			{
+				"Lastname": "ศรีพล",
+				"value_share": 77069,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 1500,
+				"Firstname": "ณัฐพัชร์"
+			},
+			{
+				"Lastname": "ชาญณรงค์",
+				"value_share": 5138,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "อัญชลี"
+			},
+			{
+				"Lastname": "แกรนปรุ",
+				"value_share": 10276,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 200,
+				"Firstname": "จุลวุฒิ"
+			},
+			{
+				"Lastname": "ศรีกระทุม",
+				"value_share": 5138,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "สุบัญดิฐ"
+			},
+			{
+				"Lastname": "สุริยาอรุณโรจน์",
+				"value_share": 51379,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "ปวริศร์"
+			},
+			{
+				"Lastname": "ชื่นชมกุล",
+				"value_share": 5138,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "จักรภัทร",
+				"person": {
+					"Number": 10,
+					"Title": "นาย",
+					"Name": "จักรภัทร ชื่นชมกุล",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "3896",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "อุดรธานี",
+					"MpZone": 8,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/จักรภัทร-ชื่นชมกุล.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "จันทรสงเคราะห์",
+				"value_share": 2569,
+				"Nationality": "TH",
+				"pct_share": 0.5,
+				"count_share": 50,
+				"Firstname": "อนุศักดิ์"
+			},
+			{
+				"Lastname": "บรรทะนิต",
+				"value_share": 5138,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "เพ็ญยุภา"
+			},
+			{
+				"Lastname": "มอไธสง",
+				"value_share": 25690,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "สุขสันต์"
+			},
+			{
+				"Lastname": "พุ่มพฤกษ์",
+				"value_share": 102758,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "ศักดิ์ศิริ"
+			},
+			{
+				"Lastname": "ศรีเสมอ",
+				"value_share": 2569,
+				"Nationality": "TH",
+				"pct_share": 0.5,
+				"count_share": 50,
+				"Firstname": "วิพัฒน์"
+			},
+			{
+				"Lastname": "หรั่งชะเอม",
+				"value_share": 5138,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "วรณัน"
+			},
+			{
+				"Lastname": "ยอดตา",
+				"value_share": 10276,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 200,
+				"Firstname": "จักรพงศ์"
+			},
+			{
+				"Lastname": "อ่อนพฤกษา",
+				"value_share": 5138,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "นภาลัย"
+			},
+			{
+				"Lastname": "อิ่มเจริญ",
+				"value_share": 5138,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "อำนาจ"
+			},
+			{
+				"Lastname": "ภักดิ์ศรีแพง",
+				"value_share": 51379,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "จามร"
+			},
+			{
+				"Lastname": "ปอจง",
+				"value_share": 15414,
+				"Nationality": "TH",
+				"pct_share": 3,
+				"count_share": 300,
+				"Firstname": "ถาวร"
+			},
+			{
+				"Lastname": "อุทธตรี",
+				"value_share": 5138,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "ณัฐญากรณ์"
+			},
+			{
+				"Lastname": "เรืองรัตน์",
+				"value_share": 17983,
+				"Nationality": "TH",
+				"pct_share": 3.5,
+				"count_share": 350,
+				"Firstname": "ชีวรัตน์"
+			},
+			{
+				"Lastname": "บุญรอด",
+				"value_share": 5138,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "น้ำผึ้ง"
+			},
+			{
+				"Lastname": "โรจนอนันต์",
+				"value_share": 25690,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "สุเมธ"
+			},
+			{
+				"Lastname": "คำอยู่",
+				"value_share": 10276,
+				"Nationality": "TH",
+				"pct_share": 2,
+				"count_share": 200,
+				"Firstname": "ปรียาวรรณ"
+			},
+			{
+				"Lastname": "แก้วกู่",
+				"value_share": 5138,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "วิษณุ"
+			},
+			{
+				"Lastname": "วิทวัสพันธุ์",
+				"value_share": 5138,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "สมพล"
+			}
+		],
+		"count_shareholder": 100,
+		"gov_fund_proj": null
+	}
+]

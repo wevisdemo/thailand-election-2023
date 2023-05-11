@@ -1,1 +1,97 @@
-[{"full_address":"97\/1 หมู่ที่ 2 ต.บึงน้ำรักษ์ อ.ธัญบุรี จ.ปทุมธานี","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":1810061.5}],"value_share":60985,"submit_obj_big_type":"G","company_name_th":"คอสติน่า คอสเมติค จำกัด","pct_share":64.9,"obj_tname":"ร้านขายปลีกเครื่องสำอาง","company_id":"0125559021082","reg_date":"19\/8\/2559","company_name_en":"COSTINA COSMETIC COMPANY LIMITED","tsic":47723,"cap_amt":1000000,"company_value":93968,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ตระกูลเวียง","value_share":60985,"Nationality":"TH","pct_share":64.9,"count_share":6490,"Firstname":"ราเชน","person":{"Number":4,"Title":"นาย","Name":"ราเชน ตระกูลเวียง","PartyName":"ทางเลือกใหม่","MpType":"แบ่งเขต","Id":"2422","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":true,"MpProvince":"นนทบุรี","MpZone":3,"MpList":"","Images":"\/yourcandidates\/candidates\/ทางเลือกใหม่\/ราเชน-ตระกูลเวียง.webp","Party":{"Name":"ทางเลือกใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":57,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ทางเลือกใหม่.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"กุลละวณิชย์","value_share":94,"Nationality":"TH","pct_share":0.1,"count_share":10,"Firstname":"นพดล"},{"Lastname":"ธนศิริธรรม","value_share":18794,"Nationality":"TH","pct_share":20,"count_share":2000,"Firstname":"ธนเสฏฐ์"},{"Lastname":"บัวแพง","value_share":14067,"Nationality":"TH","pct_share":14.97,"count_share":1497,"Firstname":"ปรางทิพย์"},{"Lastname":"คงษุภจักร์","value_share":28,"Nationality":"TH","pct_share":0.03,"count_share":3,"Firstname":"สุชาดา"}],"count_shareholder":6490,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "97/1 หมู่ที่ 2 ต.บึงน้ำรักษ์ อ.ธัญบุรี จ.ปทุมธานี",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 1810061.5 }
+		],
+		"value_share": 60985,
+		"submit_obj_big_type": "G",
+		"company_name_th": "คอสติน่า คอสเมติค จำกัด",
+		"pct_share": 64.9,
+		"obj_tname": "ร้านขายปลีกเครื่องสำอาง",
+		"company_id": "0125559021082",
+		"reg_date": "19/8/2559",
+		"company_name_en": "COSTINA COSMETIC COMPANY LIMITED",
+		"tsic": 47723,
+		"cap_amt": 1000000,
+		"company_value": 93968,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ตระกูลเวียง",
+				"value_share": 60985,
+				"Nationality": "TH",
+				"pct_share": 64.9,
+				"count_share": 6490,
+				"Firstname": "ราเชน",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "ราเชน ตระกูลเวียง",
+					"PartyName": "ทางเลือกใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "2422",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": true,
+					"MpProvince": "นนทบุรี",
+					"MpZone": 3,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ทางเลือกใหม่/ราเชน-ตระกูลเวียง.webp",
+					"Party": {
+						"Name": "ทางเลือกใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 57,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ทางเลือกใหม่.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "กุลละวณิชย์",
+				"value_share": 94,
+				"Nationality": "TH",
+				"pct_share": 0.1,
+				"count_share": 10,
+				"Firstname": "นพดล"
+			},
+			{
+				"Lastname": "ธนศิริธรรม",
+				"value_share": 18794,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 2000,
+				"Firstname": "ธนเสฏฐ์"
+			},
+			{
+				"Lastname": "บัวแพง",
+				"value_share": 14067,
+				"Nationality": "TH",
+				"pct_share": 14.97,
+				"count_share": 1497,
+				"Firstname": "ปรางทิพย์"
+			},
+			{
+				"Lastname": "คงษุภจักร์",
+				"value_share": 28,
+				"Nationality": "TH",
+				"pct_share": 0.03,
+				"count_share": 3,
+				"Firstname": "สุชาดา"
+			}
+		],
+		"count_shareholder": 6490,
+		"gov_fund_proj": null
+	}
+]

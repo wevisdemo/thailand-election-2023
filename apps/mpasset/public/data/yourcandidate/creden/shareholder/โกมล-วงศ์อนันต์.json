@@ -1,1 +1,192 @@
-[{"full_address":"26\/87 ซอยพระยาสุเรนทร์ 3 แขวงคันนายาว เขตคันนายาว กรุงเทพมหานคร","financial":[{"year":"2562","income":21000},{"year":"2561","income":21000},{"year":"2560","income":29400},{"year":"2559","income":0}],"value_share":55714,"submit_obj_big_type":"N","company_name_th":"รักษาความปลอดภัย อาร์มี่ อินเตอร์การ์ด จำกัด","pct_share":5.0,"obj_tname":"กิจกรรมการรักษาความปลอดภัยส่วนบุคคล","company_id":"0105556066417","reg_date":"22\/4\/2556","company_name_en":"SECURITY ARMY INTER GUARD COMPANY LIMITED","tsic":80100,"cap_amt":1000000,"company_value":1114279,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"วงศ์อนันต์","value_share":55714,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"โกมล","person":{"Number":13,"Title":"พันเอก (พิเศษ)","Name":"โกมล วงศ์อนันต์","PartyName":"เพื่อชาติ","MpType":"แบ่งเขต","Id":"4343","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"สกลนคร","MpZone":4,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อชาติ\/โกมล-วงศ์อนันต์.webp","Party":{"Name":"เพื่อชาติ","Color":"#B1A6BF","PartyType":"พรรค","IsActive":true,"Id":22,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/เพื่อชาติ.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"วงศ์อนันต์","value_share":1002851,"Nationality":"TH","pct_share":90,"count_share":9000,"Firstname":"โกเมน"},{"Lastname":"อินธิราช","value_share":55714,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"ศันสนีย์"}],"count_shareholder":500,"gov_fund_proj":null},{"full_address":"268 ซอยรามอินทรา 5 แยก 30  แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":0,"submit_obj_big_type":"N","company_name_th":"ไทย พาวเวอร์ การ์ด จำกัด","pct_share":14.2857,"obj_tname":"-","company_id":"0105549095831","reg_date":"09\/08\/2549","company_name_en":"THAI POWER GUARD CO., LTD.","tsic":80100,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ทรัพย์สงวน","value_share":0,"Nationality":"TH","pct_share":14.29,"count_share":10000,"Firstname":"ศรศักดิ์"},{"Lastname":"จุลสุวรรณ","value_share":0,"Nationality":"TH","pct_share":14.29,"count_share":10000,"Firstname":"จิรยุทธ์"},{"Lastname":"แก้วนพรัตน์","value_share":0,"Nationality":"TH","pct_share":14.29,"count_share":10000,"Firstname":"อัจฉรา"},{"Lastname":"จ้อยกันเจีบก","value_share":0,"Nationality":"TH","pct_share":14.29,"count_share":10000,"Firstname":"สุพิชฌาญ์"},{"Lastname":"วงศ์อนันต์","value_share":0,"Nationality":"TH","pct_share":14.29,"count_share":10000,"Firstname":"กิตติยา"},{"Lastname":"พรมกสิกร","value_share":0,"Nationality":"TH","pct_share":14.29,"count_share":10000,"Firstname":"ชุมพร"},{"Lastname":"วงศ์อนันต์","value_share":0,"Nationality":"TH","pct_share":14.29,"count_share":10000,"Firstname":"โกมล","person":{"Number":13,"Title":"พันเอก (พิเศษ)","Name":"โกมล วงศ์อนันต์","PartyName":"เพื่อชาติ","MpType":"แบ่งเขต","Id":"4343","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"สกลนคร","MpZone":4,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อชาติ\/โกมล-วงศ์อนันต์.webp","Party":{"Name":"เพื่อชาติ","Color":"#B1A6BF","PartyType":"พรรค","IsActive":true,"Id":22,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/เพื่อชาติ.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":10000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "26/87 ซอยพระยาสุเรนทร์ 3 แขวงคันนายาว เขตคันนายาว กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2562", "income": 21000 },
+			{ "year": "2561", "income": 21000 },
+			{ "year": "2560", "income": 29400 },
+			{ "year": "2559", "income": 0 }
+		],
+		"value_share": 55714,
+		"submit_obj_big_type": "N",
+		"company_name_th": "รักษาความปลอดภัย อาร์มี่ อินเตอร์การ์ด จำกัด",
+		"pct_share": 5.0,
+		"obj_tname": "กิจกรรมการรักษาความปลอดภัยส่วนบุคคล",
+		"company_id": "0105556066417",
+		"reg_date": "22/4/2556",
+		"company_name_en": "SECURITY ARMY INTER GUARD COMPANY LIMITED",
+		"tsic": 80100,
+		"cap_amt": 1000000,
+		"company_value": 1114279,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "วงศ์อนันต์",
+				"value_share": 55714,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "โกมล",
+				"person": {
+					"Number": 13,
+					"Title": "พันเอก (พิเศษ)",
+					"Name": "โกมล วงศ์อนันต์",
+					"PartyName": "เพื่อชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "4343",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "สกลนคร",
+					"MpZone": 4,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อชาติ/โกมล-วงศ์อนันต์.webp",
+					"Party": {
+						"Name": "เพื่อชาติ",
+						"Color": "#B1A6BF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 22,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เพื่อชาติ.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "วงศ์อนันต์",
+				"value_share": 1002851,
+				"Nationality": "TH",
+				"pct_share": 90,
+				"count_share": 9000,
+				"Firstname": "โกเมน"
+			},
+			{
+				"Lastname": "อินธิราช",
+				"value_share": 55714,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "ศันสนีย์"
+			}
+		],
+		"count_shareholder": 500,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "268 ซอยรามอินทรา 5 แยก 30  แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "N",
+		"company_name_th": "ไทย พาวเวอร์ การ์ด จำกัด",
+		"pct_share": 14.2857,
+		"obj_tname": "-",
+		"company_id": "0105549095831",
+		"reg_date": "09/08/2549",
+		"company_name_en": "THAI POWER GUARD CO., LTD.",
+		"tsic": 80100,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ทรัพย์สงวน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 14.29,
+				"count_share": 10000,
+				"Firstname": "ศรศักดิ์"
+			},
+			{
+				"Lastname": "จุลสุวรรณ",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 14.29,
+				"count_share": 10000,
+				"Firstname": "จิรยุทธ์"
+			},
+			{
+				"Lastname": "แก้วนพรัตน์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 14.29,
+				"count_share": 10000,
+				"Firstname": "อัจฉรา"
+			},
+			{
+				"Lastname": "จ้อยกันเจีบก",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 14.29,
+				"count_share": 10000,
+				"Firstname": "สุพิชฌาญ์"
+			},
+			{
+				"Lastname": "วงศ์อนันต์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 14.29,
+				"count_share": 10000,
+				"Firstname": "กิตติยา"
+			},
+			{
+				"Lastname": "พรมกสิกร",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 14.29,
+				"count_share": 10000,
+				"Firstname": "ชุมพร"
+			},
+			{
+				"Lastname": "วงศ์อนันต์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 14.29,
+				"count_share": 10000,
+				"Firstname": "โกมล",
+				"person": {
+					"Number": 13,
+					"Title": "พันเอก (พิเศษ)",
+					"Name": "โกมล วงศ์อนันต์",
+					"PartyName": "เพื่อชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "4343",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "สกลนคร",
+					"MpZone": 4,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อชาติ/โกมล-วงศ์อนันต์.webp",
+					"Party": {
+						"Name": "เพื่อชาติ",
+						"Color": "#B1A6BF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 22,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เพื่อชาติ.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 10000,
+		"gov_fund_proj": null
+	}
+]

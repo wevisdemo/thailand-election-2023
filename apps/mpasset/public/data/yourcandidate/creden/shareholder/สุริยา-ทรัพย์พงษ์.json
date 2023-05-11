@@ -1,1 +1,81 @@
-[{"full_address":"213 หมู่ที่ 11 ต.หัวขวาง อ.โกสุมพิสัย จ.มหาสารคาม","financial":[{"year":"2562","income":11250},{"year":"2561","income":18000},{"year":"2560","income":18000},{"year":"2559","income":18000}],"value_share":150674,"submit_obj_big_type":"G","company_name_th":"ก.ภัทร อินเตอร์กรุ๊ป 2010 จำกัด","pct_share":15,"obj_tname":"การขายส่งสินค้าทั่วไปโดยได้รับค่าตอบแทนหรือตามสัญญาจ้าง","company_id":"0445549000179","reg_date":"7\/9\/2549","company_name_en":"K. PATTARA INTERGROUP CO.,LTD.","tsic":46109,"cap_amt":1000000,"company_value":1004492,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ทรัพย์พงษ์","value_share":150674,"Nationality":"TH","pct_share":15,"count_share":15,"Firstname":"สุริยา","person":{"Number":15,"Title":"นาย","Name":"สุริยา ทรัพย์พงษ์","PartyName":"แนวทางใหม่","MpType":"แบ่งเขต","Id":"6369","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"กาฬสินธุ์","MpZone":5,"MpList":"","Images":"\/yourcandidates\/candidates\/แนวทางใหม่\/สุริยา-ทรัพย์พงษ์.webp","Party":{"Name":"แนวทางใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":91,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/LSxkDGIOs1u6vWW3_C.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"เกรียงศรี","value_share":703144,"Nationality":"TH","pct_share":70,"count_share":70,"Firstname":"จีรนันท์"},{"Lastname":"สุชาดา","value_share":150674,"Nationality":"TH","pct_share":15,"count_share":15,"Firstname":"สุชาดา"}],"count_shareholder":15,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "213 หมู่ที่ 11 ต.หัวขวาง อ.โกสุมพิสัย จ.มหาสารคาม",
+		"financial": [
+			{ "year": "2562", "income": 11250 },
+			{ "year": "2561", "income": 18000 },
+			{ "year": "2560", "income": 18000 },
+			{ "year": "2559", "income": 18000 }
+		],
+		"value_share": 150674,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ก.ภัทร อินเตอร์กรุ๊ป 2010 จำกัด",
+		"pct_share": 15,
+		"obj_tname": "การขายส่งสินค้าทั่วไปโดยได้รับค่าตอบแทนหรือตามสัญญาจ้าง",
+		"company_id": "0445549000179",
+		"reg_date": "7/9/2549",
+		"company_name_en": "K. PATTARA INTERGROUP CO.,LTD.",
+		"tsic": 46109,
+		"cap_amt": 1000000,
+		"company_value": 1004492,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ทรัพย์พงษ์",
+				"value_share": 150674,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 15,
+				"Firstname": "สุริยา",
+				"person": {
+					"Number": 15,
+					"Title": "นาย",
+					"Name": "สุริยา ทรัพย์พงษ์",
+					"PartyName": "แนวทางใหม่",
+					"MpType": "แบ่งเขต",
+					"Id": "6369",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "กาฬสินธุ์",
+					"MpZone": 5,
+					"MpList": "",
+					"Images": "/mpasset/candidates/แนวทางใหม่/สุริยา-ทรัพย์พงษ์.webp",
+					"Party": {
+						"Name": "แนวทางใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 91,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/LSxkDGIOs1u6vWW3_C.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "เกรียงศรี",
+				"value_share": 703144,
+				"Nationality": "TH",
+				"pct_share": 70,
+				"count_share": 70,
+				"Firstname": "จีรนันท์"
+			},
+			{
+				"Lastname": "สุชาดา",
+				"value_share": 150674,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 15,
+				"Firstname": "สุชาดา"
+			}
+		],
+		"count_shareholder": 15,
+		"gov_fund_proj": null
+	}
+]

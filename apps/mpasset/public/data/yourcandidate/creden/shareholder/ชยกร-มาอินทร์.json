@@ -1,1 +1,175 @@
-[{"full_address":"79\/2 หมู่ที่ 5 ต.ลำนารายณ์ อ.ชัยบาดาล จ.ลพบุรี","financial":[{"year":"2563","income":10173776.5399999991},{"year":"2562","income":11802347.1899999995},{"year":"2561","income":12751899.0899999999},{"year":"2560","income":12689536.9100000001}],"value_share":2788789,"submit_obj_big_type":"N","company_name_th":"รักษาความปลอดภัย ลูกพระกาฬ  จำกัด","pct_share":26,"obj_tname":"กิจกรรมการรักษาความปลอดภัยส่วนบุคคล","company_id":"0105546004958","reg_date":"13\/1\/2546","company_name_en":"SECURITY LOUKPRAKARN COMPANY LIMITED","tsic":80100,"cap_amt":1000000,"company_value":10726112,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"หมอนวดดี","value_share":2788789,"Nationality":"TH","pct_share":26,"count_share":2600,"Firstname":"โสภา"},{"Lastname":"มาอินทร์","value_share":2574267,"Nationality":"TH","pct_share":24,"count_share":2400,"Firstname":"กนกพัทร"},{"Lastname":"มาอินทร์","value_share":2788789,"Nationality":"TH","pct_share":26,"count_share":2600,"Firstname":"ชยกร","person":{"Number":"","Title":"นาย","Name":"ชยกร มาอินทร์","PartyName":"ประชาไทย","MpType":"บัญชีรายชื่อ","Id":"1691","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชาไทย\/ชยกร-มาอินทร์.webp","Party":{"Name":"ประชาไทย","Color":null,"PartyType":"พรรค","IsActive":false,"Id":74,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"มาอินทร์","value_share":2574267,"Nationality":"TH","pct_share":24,"count_share":2400,"Firstname":"ศุภฤกษ์"}],"count_shareholder":2600,"gov_fund_proj":null},{"full_address":"199\/132  หมู่ที่ 3 ต.สามเรือน อ.บางปะอิน จ.พระนครศรีอยุธยา","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"N","company_name_th":"รักษาความปลอดภัย ลูกเจ้าพ่อพระกาฬ จำกัด","pct_share":30,"obj_tname":"-","company_id":"0145565004135","reg_date":"25\/08\/2565","company_name_en":"SECURITY LUKCHAOPHORPHRAKAN CO., LTD.","tsic":80100,"cap_amt":5000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"มาอินทร์","value_share":0,"Nationality":"TH","pct_share":30,"count_share":30000,"Firstname":"ชยกร","person":{"Number":"","Title":"นาย","Name":"ชยกร มาอินทร์","PartyName":"ประชาไทย","MpType":"บัญชีรายชื่อ","Id":"1691","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชาไทย\/ชยกร-มาอินทร์.webp","Party":{"Name":"ประชาไทย","Color":null,"PartyType":"พรรค","IsActive":false,"Id":74,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สุขจิตร์","value_share":0,"Nationality":"TH","pct_share":30,"count_share":30000,"Firstname":"นปภา"},{"Lastname":"มาอินทร์","value_share":0,"Nationality":"TH","pct_share":30,"count_share":30000,"Firstname":"กนกพัทร"},{"Lastname":"มาอินทร์","value_share":0,"Nationality":"TH","pct_share":10,"count_share":10000,"Firstname":"ศุภกฤษ"}],"count_shareholder":30000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "79/2 หมู่ที่ 5 ต.ลำนารายณ์ อ.ชัยบาดาล จ.ลพบุรี",
+		"financial": [
+			{ "year": "2563", "income": 10173776.5399999991 },
+			{ "year": "2562", "income": 11802347.1899999995 },
+			{ "year": "2561", "income": 12751899.0899999999 },
+			{ "year": "2560", "income": 12689536.9100000001 }
+		],
+		"value_share": 2788789,
+		"submit_obj_big_type": "N",
+		"company_name_th": "รักษาความปลอดภัย ลูกพระกาฬ  จำกัด",
+		"pct_share": 26,
+		"obj_tname": "กิจกรรมการรักษาความปลอดภัยส่วนบุคคล",
+		"company_id": "0105546004958",
+		"reg_date": "13/1/2546",
+		"company_name_en": "SECURITY LOUKPRAKARN COMPANY LIMITED",
+		"tsic": 80100,
+		"cap_amt": 1000000,
+		"company_value": 10726112,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "หมอนวดดี",
+				"value_share": 2788789,
+				"Nationality": "TH",
+				"pct_share": 26,
+				"count_share": 2600,
+				"Firstname": "โสภา"
+			},
+			{
+				"Lastname": "มาอินทร์",
+				"value_share": 2574267,
+				"Nationality": "TH",
+				"pct_share": 24,
+				"count_share": 2400,
+				"Firstname": "กนกพัทร"
+			},
+			{
+				"Lastname": "มาอินทร์",
+				"value_share": 2788789,
+				"Nationality": "TH",
+				"pct_share": 26,
+				"count_share": 2600,
+				"Firstname": "ชยกร",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ชยกร มาอินทร์",
+					"PartyName": "ประชาไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1691",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาไทย/ชยกร-มาอินทร์.webp",
+					"Party": {
+						"Name": "ประชาไทย",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 74,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "มาอินทร์",
+				"value_share": 2574267,
+				"Nationality": "TH",
+				"pct_share": 24,
+				"count_share": 2400,
+				"Firstname": "ศุภฤกษ์"
+			}
+		],
+		"count_shareholder": 2600,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "199/132  หมู่ที่ 3 ต.สามเรือน อ.บางปะอิน จ.พระนครศรีอยุธยา",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "N",
+		"company_name_th": "รักษาความปลอดภัย ลูกเจ้าพ่อพระกาฬ จำกัด",
+		"pct_share": 30,
+		"obj_tname": "-",
+		"company_id": "0145565004135",
+		"reg_date": "25/08/2565",
+		"company_name_en": "SECURITY LUKCHAOPHORPHRAKAN CO., LTD.",
+		"tsic": 80100,
+		"cap_amt": 5000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "มาอินทร์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 30000,
+				"Firstname": "ชยกร",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ชยกร มาอินทร์",
+					"PartyName": "ประชาไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1691",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาไทย/ชยกร-มาอินทร์.webp",
+					"Party": {
+						"Name": "ประชาไทย",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 74,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สุขจิตร์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 30000,
+				"Firstname": "นปภา"
+			},
+			{
+				"Lastname": "มาอินทร์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 30000,
+				"Firstname": "กนกพัทร"
+			},
+			{
+				"Lastname": "มาอินทร์",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 10000,
+				"Firstname": "ศุภกฤษ"
+			}
+		],
+		"count_shareholder": 30000,
+		"gov_fund_proj": null
+	}
+]

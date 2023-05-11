@@ -1,1 +1,160 @@
-[{"full_address":"235  หมู่ที่ 2 ต.สารภี อ.สารภี จ.เชียงใหม่","financial":[{"year":"2563","income":1702043.1000000001},{"year":"2562","income":0},{"year":"2561","income":0},{"year":"2560","income":0}],"value_share":1267842,"submit_obj_big_type":"N","company_name_th":"พูลเจริญ จำกัด","pct_share":99.98,"obj_tname":"การจัดการประชุม","company_id":"0505563011238","reg_date":"14\/08\/2563","company_name_en":"POOLCHAROEN CO., LTD.","tsic":82301,"cap_amt":1000000,"company_value":1268096,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"สุวรรณ","value_share":1267842,"Nationality":"TH","pct_share":99.98,"count_share":9998,"Firstname":"ยุทธนา","person":{"Number":2,"Title":"นาย","Name":"ยุทธนา สุวรรณ","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"4359","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เชียงใหม่","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/ยุทธนา-สุวรรณ.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สุวรรณ","value_share":127,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"ณัฐชาคริจ"},{"Lastname":"สุยะศักดิ์","value_share":127,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"ฑัณฑิมา"}],"count_shareholder":9998,"gov_fund_proj":null},{"full_address":"301\/17 ชั้นที่ 2 ถนนสามวา แขวงบางชัน เขตคลองสามวา กรุงเทพมหานคร","financial":[{"year":"2563","income":588583.0699999999},{"year":"2562","income":4000},{"year":"2561","income":427.4},{"year":"2560","income":0}],"value_share":371957,"submit_obj_big_type":"C","company_name_th":"สำนักกฎหมายอาณาจักรกรุงเทพ จำกัด","pct_share":24.5,"obj_tname":"การผลิตส่วนประกอบอิเล็กทรอนิกส์อื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0105561199918","reg_date":"23\/11\/2561","company_name_en":"ANACHAKKRUNGTHAP  LAW OFFICE COMPANY LIMITED","tsic":26109,"cap_amt":1000000,"company_value":1518192,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"สุวรรณ","value_share":371957,"Nationality":"TH","pct_share":24.5,"count_share":2450,"Firstname":"ผกามาศ"},{"Lastname":"สุวรรณ","value_share":371957,"Nationality":"TH","pct_share":24.5,"count_share":2450,"Firstname":"ยุทธนา","person":{"Number":2,"Title":"นาย","Name":"ยุทธนา สุวรรณ","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"4359","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เชียงใหม่","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/ยุทธนา-สุวรรณ.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สุวรรณ","value_share":774278,"Nationality":"TH","pct_share":51,"count_share":5100,"Firstname":"คนึง"}],"count_shareholder":2450,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "235  หมู่ที่ 2 ต.สารภี อ.สารภี จ.เชียงใหม่",
+		"financial": [
+			{ "year": "2563", "income": 1702043.1000000001 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 },
+			{ "year": "2560", "income": 0 }
+		],
+		"value_share": 1267842,
+		"submit_obj_big_type": "N",
+		"company_name_th": "พูลเจริญ จำกัด",
+		"pct_share": 99.98,
+		"obj_tname": "การจัดการประชุม",
+		"company_id": "0505563011238",
+		"reg_date": "14/08/2563",
+		"company_name_en": "POOLCHAROEN CO., LTD.",
+		"tsic": 82301,
+		"cap_amt": 1000000,
+		"company_value": 1268096,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "สุวรรณ",
+				"value_share": 1267842,
+				"Nationality": "TH",
+				"pct_share": 99.98,
+				"count_share": 9998,
+				"Firstname": "ยุทธนา",
+				"person": {
+					"Number": 2,
+					"Title": "นาย",
+					"Name": "ยุทธนา สุวรรณ",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "4359",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เชียงใหม่",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/ยุทธนา-สุวรรณ.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สุวรรณ",
+				"value_share": 127,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "ณัฐชาคริจ"
+			},
+			{
+				"Lastname": "สุยะศักดิ์",
+				"value_share": 127,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "ฑัณฑิมา"
+			}
+		],
+		"count_shareholder": 9998,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "301/17 ชั้นที่ 2 ถนนสามวา แขวงบางชัน เขตคลองสามวา กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2563", "income": 588583.0699999999 },
+			{ "year": "2562", "income": 4000 },
+			{ "year": "2561", "income": 427.4 },
+			{ "year": "2560", "income": 0 }
+		],
+		"value_share": 371957,
+		"submit_obj_big_type": "C",
+		"company_name_th": "สำนักกฎหมายอาณาจักรกรุงเทพ จำกัด",
+		"pct_share": 24.5,
+		"obj_tname": "การผลิตส่วนประกอบอิเล็กทรอนิกส์อื่นๆซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0105561199918",
+		"reg_date": "23/11/2561",
+		"company_name_en": "ANACHAKKRUNGTHAP  LAW OFFICE COMPANY LIMITED",
+		"tsic": 26109,
+		"cap_amt": 1000000,
+		"company_value": 1518192,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "สุวรรณ",
+				"value_share": 371957,
+				"Nationality": "TH",
+				"pct_share": 24.5,
+				"count_share": 2450,
+				"Firstname": "ผกามาศ"
+			},
+			{
+				"Lastname": "สุวรรณ",
+				"value_share": 371957,
+				"Nationality": "TH",
+				"pct_share": 24.5,
+				"count_share": 2450,
+				"Firstname": "ยุทธนา",
+				"person": {
+					"Number": 2,
+					"Title": "นาย",
+					"Name": "ยุทธนา สุวรรณ",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "4359",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เชียงใหม่",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/ยุทธนา-สุวรรณ.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สุวรรณ",
+				"value_share": 774278,
+				"Nationality": "TH",
+				"pct_share": 51,
+				"count_share": 5100,
+				"Firstname": "คนึง"
+			}
+		],
+		"count_shareholder": 2450,
+		"gov_fund_proj": null
+	}
+]

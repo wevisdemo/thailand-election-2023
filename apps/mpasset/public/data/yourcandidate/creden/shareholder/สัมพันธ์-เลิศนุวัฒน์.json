@@ -1,1 +1,105 @@
-[{"full_address":"233 ถนนราชวิถี แขวงสวนจิตรลดา เขตดุสิต กรุงเทพมหานคร","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":303674,"submit_obj_big_type":"H","company_name_th":"เลิศนุวัฒน์ จำกัด","pct_share":31.6667,"obj_tname":"การขนส่งสินค้าอื่นๆทางถนนซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0105532056101","reg_date":"20\/06\/2532","company_name_en":"LERTNUVAT CO., LTD.","tsic":49339,"cap_amt":3000000,"company_value":958969,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เลิศอมรกิตติ","value_share":47948,"Nationality":"TH","pct_share":5,"count_share":1500,"Firstname":"อรรณพา"},{"Lastname":"เลิศนุวัฒน์","value_share":191794,"Nationality":"TH","pct_share":20,"count_share":6000,"Firstname":"สัมฤทธิ์"},{"Lastname":"เลิศนุวัฒน์","value_share":191794,"Nationality":"TH","pct_share":20,"count_share":6000,"Firstname":"เพชรรัตน์"},{"Lastname":"เลิศนุวัฒน์","value_share":63932,"Nationality":"TH","pct_share":6.67,"count_share":2000,"Firstname":"สุรพงษ์"},{"Lastname":"เลิศนุวัฒน์","value_share":159828,"Nationality":"TH","pct_share":16.67,"count_share":5000,"Firstname":"อนุชา"},{"Lastname":"เลิศนุวัฒน์","value_share":303674,"Nationality":"TH","pct_share":31.67,"count_share":9500,"Firstname":"สัมพันธ์","person":{"Number":4,"Title":"นาย","Name":"สัมพันธ์ เลิศนุวัฒน์","PartyName":"รวมไทยสร้างชาติ","MpType":"แบ่งเขต","Id":"4670","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"เชียงราย","MpZone":7,"MpList":"","Images":"\/yourcandidates\/candidates\/รวมไทยสร้างชาติ\/สัมพันธ์-เลิศนุวัฒน์.webp","Party":{"Name":"รวมไทยสร้างชาติ","Color":"#1445C3","PartyType":"พรรค","IsActive":true,"Id":37,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/71TBXfLKWiUR__KqSa.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"count_shareholder":9500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "233 ถนนราชวิถี แขวงสวนจิตรลดา เขตดุสิต กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 303674,
+		"submit_obj_big_type": "H",
+		"company_name_th": "เลิศนุวัฒน์ จำกัด",
+		"pct_share": 31.6667,
+		"obj_tname": "การขนส่งสินค้าอื่นๆทางถนนซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0105532056101",
+		"reg_date": "20/06/2532",
+		"company_name_en": "LERTNUVAT CO., LTD.",
+		"tsic": 49339,
+		"cap_amt": 3000000,
+		"company_value": 958969,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เลิศอมรกิตติ",
+				"value_share": 47948,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1500,
+				"Firstname": "อรรณพา"
+			},
+			{
+				"Lastname": "เลิศนุวัฒน์",
+				"value_share": 191794,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 6000,
+				"Firstname": "สัมฤทธิ์"
+			},
+			{
+				"Lastname": "เลิศนุวัฒน์",
+				"value_share": 191794,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 6000,
+				"Firstname": "เพชรรัตน์"
+			},
+			{
+				"Lastname": "เลิศนุวัฒน์",
+				"value_share": 63932,
+				"Nationality": "TH",
+				"pct_share": 6.67,
+				"count_share": 2000,
+				"Firstname": "สุรพงษ์"
+			},
+			{
+				"Lastname": "เลิศนุวัฒน์",
+				"value_share": 159828,
+				"Nationality": "TH",
+				"pct_share": 16.67,
+				"count_share": 5000,
+				"Firstname": "อนุชา"
+			},
+			{
+				"Lastname": "เลิศนุวัฒน์",
+				"value_share": 303674,
+				"Nationality": "TH",
+				"pct_share": 31.67,
+				"count_share": 9500,
+				"Firstname": "สัมพันธ์",
+				"person": {
+					"Number": 4,
+					"Title": "นาย",
+					"Name": "สัมพันธ์ เลิศนุวัฒน์",
+					"PartyName": "รวมไทยสร้างชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "4670",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "เชียงราย",
+					"MpZone": 7,
+					"MpList": "",
+					"Images": "/mpasset/candidates/รวมไทยสร้างชาติ/สัมพันธ์-เลิศนุวัฒน์.webp",
+					"Party": {
+						"Name": "รวมไทยสร้างชาติ",
+						"Color": "#1445C3",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 37,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/71TBXfLKWiUR__KqSa.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 9500,
+		"gov_fund_proj": null
+	}
+]

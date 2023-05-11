@@ -1,1 +1,89 @@
-[{"full_address":"99\/468 หมู่ที่ 16 ถนนศรีนครินทร์  ต.บางแก้ว อ.บางพลี จ.สมุทรปราการ","financial":[{"year":"2562","income":5459065.2599999998},{"year":"2561","income":4722100.79},{"year":"2560","income":12274385.2899999991},{"year":"2559","income":17908571.4299999997}],"value_share":6187238,"submit_obj_big_type":"F","company_name_th":"สหชัย ไทยอินเตอร์ จำกัด","pct_share":70,"obj_tname":"การก่อสร้างอาคารที่ไม่ใช่ที่พักอาศัย","company_id":"0115542000737","reg_date":"09\/02\/2542","company_name_en":"SAHACHAI THAI INTER COMPANY LIMITED","tsic":41002,"cap_amt":3000000,"company_value":8838911,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"นิลชูจิตร","value_share":1767782,"Nationality":"TH","pct_share":20,"count_share":6000,"Firstname":"สุกฤตา"},{"Lastname":"โอบนิธิสุรดิษ","value_share":6187238,"Nationality":"TH","pct_share":70,"count_share":21000,"Firstname":"วิชัยยุตม์","person":{"Number":3,"Title":"นาย","Name":"วิชัยยุตม์ โอบนิธิสุรดิษ","PartyName":"เสรีรวมไทย","MpType":"แบ่งเขต","Id":"2376","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"สมุทรปราการ","MpZone":6,"MpList":"","Images":"\/yourcandidates\/candidates\/เสรีรวมไทย\/วิชัยยุตม์-โอบนิธิสุรดิษ.webp","Party":{"Name":"เสรีรวมไทย","Color":"#FFEA2E","PartyType":"พรรค","IsActive":true,"Id":28,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/เสรีรวมไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"บุญคง","value_share":441946,"Nationality":"TH","pct_share":5,"count_share":1500,"Firstname":"กาศ"},{"Lastname":"อนันต์ธัญวัฒนา","value_share":441946,"Nationality":"TH","pct_share":5,"count_share":1500,"Firstname":"ปิติพัฒน์"}],"count_shareholder":21000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "99/468 หมู่ที่ 16 ถนนศรีนครินทร์  ต.บางแก้ว อ.บางพลี จ.สมุทรปราการ",
+		"financial": [
+			{ "year": "2562", "income": 5459065.2599999998 },
+			{ "year": "2561", "income": 4722100.79 },
+			{ "year": "2560", "income": 12274385.2899999991 },
+			{ "year": "2559", "income": 17908571.4299999997 }
+		],
+		"value_share": 6187238,
+		"submit_obj_big_type": "F",
+		"company_name_th": "สหชัย ไทยอินเตอร์ จำกัด",
+		"pct_share": 70,
+		"obj_tname": "การก่อสร้างอาคารที่ไม่ใช่ที่พักอาศัย",
+		"company_id": "0115542000737",
+		"reg_date": "09/02/2542",
+		"company_name_en": "SAHACHAI THAI INTER COMPANY LIMITED",
+		"tsic": 41002,
+		"cap_amt": 3000000,
+		"company_value": 8838911,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "นิลชูจิตร",
+				"value_share": 1767782,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 6000,
+				"Firstname": "สุกฤตา"
+			},
+			{
+				"Lastname": "โอบนิธิสุรดิษ",
+				"value_share": 6187238,
+				"Nationality": "TH",
+				"pct_share": 70,
+				"count_share": 21000,
+				"Firstname": "วิชัยยุตม์",
+				"person": {
+					"Number": 3,
+					"Title": "นาย",
+					"Name": "วิชัยยุตม์ โอบนิธิสุรดิษ",
+					"PartyName": "เสรีรวมไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "2376",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "สมุทรปราการ",
+					"MpZone": 6,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เสรีรวมไทย/วิชัยยุตม์-โอบนิธิสุรดิษ.webp",
+					"Party": {
+						"Name": "เสรีรวมไทย",
+						"Color": "#FFEA2E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 28,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เสรีรวมไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "บุญคง",
+				"value_share": 441946,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1500,
+				"Firstname": "กาศ"
+			},
+			{
+				"Lastname": "อนันต์ธัญวัฒนา",
+				"value_share": 441946,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1500,
+				"Firstname": "ปิติพัฒน์"
+			}
+		],
+		"count_shareholder": 21000,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,81 @@
-[{"full_address":"142\/2  อาคารดาลินเพลส อาคาร A ซอยพหลโยธิน 69 ถนนพหลโยธิน แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร","financial":[{"year":"2564","income":975505},{"year":"2563","income":890855},{"year":"2562","income":1179566.9399999999},{"year":"2561","income":1267077.8}],"value_share":966799,"submit_obj_big_type":"K","company_name_th":"ไทย เอเซีย เซอร์เวย์เยอร์ส แอนด์ แอ๊ดจัสเตอร์ส จำกัด","pct_share":39.99,"obj_tname":"การประเมินความเสี่ยงภัยและมูลค่าความเสียหาย","company_id":"0135548011501","reg_date":"15\/12\/2548","company_name_en":"THAI ASIA SURVEYORS AND ADJUSTERS CO.,LTD.","tsic":66210,"cap_amt":2000000,"company_value":2417601,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"สมดี","value_share":966799,"Nationality":"TH","pct_share":39.99,"count_share":7998,"Firstname":"อรสา","person":{"Number":3,"Title":"นางสาว","Name":"อรสา สมดี","PartyName":"เพื่อชาติ","MpType":"แบ่งเขต","Id":"4134","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ร้อยเอ็ด","MpZone":7,"MpList":"","Images":"\/yourcandidates\/candidates\/เพื่อชาติ\/อรสา-สมดี.webp","Party":{"Name":"เพื่อชาติ","Color":"#B1A6BF","PartyType":"พรรค","IsActive":true,"Id":22,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/เพื่อชาติ.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"สรรพวัตร","value_share":1450319,"Nationality":"TH","pct_share":59.99,"count_share":11998,"Firstname":"บุญชู"},{"Lastname":"ปาอิน","value_share":484,"Nationality":"TH","pct_share":0.02,"count_share":4,"Firstname":"ลัดดา"}],"count_shareholder":7998,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "142/2  อาคารดาลินเพลส อาคาร A ซอยพหลโยธิน 69 ถนนพหลโยธิน แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2564", "income": 975505 },
+			{ "year": "2563", "income": 890855 },
+			{ "year": "2562", "income": 1179566.9399999999 },
+			{ "year": "2561", "income": 1267077.8 }
+		],
+		"value_share": 966799,
+		"submit_obj_big_type": "K",
+		"company_name_th": "ไทย เอเซีย เซอร์เวย์เยอร์ส แอนด์ แอ๊ดจัสเตอร์ส จำกัด",
+		"pct_share": 39.99,
+		"obj_tname": "การประเมินความเสี่ยงภัยและมูลค่าความเสียหาย",
+		"company_id": "0135548011501",
+		"reg_date": "15/12/2548",
+		"company_name_en": "THAI ASIA SURVEYORS AND ADJUSTERS CO.,LTD.",
+		"tsic": 66210,
+		"cap_amt": 2000000,
+		"company_value": 2417601,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "สมดี",
+				"value_share": 966799,
+				"Nationality": "TH",
+				"pct_share": 39.99,
+				"count_share": 7998,
+				"Firstname": "อรสา",
+				"person": {
+					"Number": 3,
+					"Title": "นางสาว",
+					"Name": "อรสา สมดี",
+					"PartyName": "เพื่อชาติ",
+					"MpType": "แบ่งเขต",
+					"Id": "4134",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ร้อยเอ็ด",
+					"MpZone": 7,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เพื่อชาติ/อรสา-สมดี.webp",
+					"Party": {
+						"Name": "เพื่อชาติ",
+						"Color": "#B1A6BF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 22,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เพื่อชาติ.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "สรรพวัตร",
+				"value_share": 1450319,
+				"Nationality": "TH",
+				"pct_share": 59.99,
+				"count_share": 11998,
+				"Firstname": "บุญชู"
+			},
+			{
+				"Lastname": "ปาอิน",
+				"value_share": 484,
+				"Nationality": "TH",
+				"pct_share": 0.02,
+				"count_share": 4,
+				"Firstname": "ลัดดา"
+			}
+		],
+		"count_shareholder": 7998,
+		"gov_fund_proj": null
+	}
+]

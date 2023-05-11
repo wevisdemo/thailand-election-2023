@@ -1,1 +1,81 @@
-[{"full_address":"89\/18  ถนนพุทธมณฑลสาย 1 แขวงฉิมพลี เขตตลิ่งชัน กรุงเทพมหานคร","financial":[{"year":"2562","income":2600},{"year":"2561","income":2600},{"year":"2560","income":2600},{"year":"2559","income":2600}],"value_share":110192,"submit_obj_big_type":"N","company_name_th":"สำนักงานกฏหมายสุกิต น้อมศิริ คอนซัลแตนท์  จำกัด","pct_share":90,"obj_tname":"การจัดการแสดงทางธุรกิจและการแสดงสินค้า","company_id":"0105554038262","reg_date":"17\/03\/2554","company_name_en":"THE SUKIT NOMSIRI CONSULTANT LAW OFFICE COMPANY LIMITED","tsic":82302,"cap_amt":200000,"company_value":122436,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"น้อมศิริ","value_share":110192,"Nationality":"TH","pct_share":90,"count_share":1800,"Firstname":"สุกิต","person":{"Number":"","Title":"ว่าที่ร้อยตรี","Name":"สุกิต น้อมศิริ","PartyName":"เป็นธรรม","MpType":"บัญชีรายชื่อ","Id":"3472","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/เป็นธรรม\/สุกิต-น้อมศิริ.webp","Party":{"Name":"เป็นธรรม","Color":null,"PartyType":"พรรค","IsActive":false,"Id":72,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/MFsb7ep8_CGtzt6aYQ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"พูลดี","value_share":6122,"Nationality":"TH","pct_share":5,"count_share":100,"Firstname":"นพนันท์"},{"Lastname":"สนั่นรัมย์","value_share":6122,"Nationality":"TH","pct_share":5,"count_share":100,"Firstname":"มธุรจน์"}],"count_shareholder":1800,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "89/18  ถนนพุทธมณฑลสาย 1 แขวงฉิมพลี เขตตลิ่งชัน กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2562", "income": 2600 },
+			{ "year": "2561", "income": 2600 },
+			{ "year": "2560", "income": 2600 },
+			{ "year": "2559", "income": 2600 }
+		],
+		"value_share": 110192,
+		"submit_obj_big_type": "N",
+		"company_name_th": "สำนักงานกฏหมายสุกิต น้อมศิริ คอนซัลแตนท์  จำกัด",
+		"pct_share": 90,
+		"obj_tname": "การจัดการแสดงทางธุรกิจและการแสดงสินค้า",
+		"company_id": "0105554038262",
+		"reg_date": "17/03/2554",
+		"company_name_en": "THE SUKIT NOMSIRI CONSULTANT LAW OFFICE COMPANY LIMITED",
+		"tsic": 82302,
+		"cap_amt": 200000,
+		"company_value": 122436,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "น้อมศิริ",
+				"value_share": 110192,
+				"Nationality": "TH",
+				"pct_share": 90,
+				"count_share": 1800,
+				"Firstname": "สุกิต",
+				"person": {
+					"Number": "",
+					"Title": "ว่าที่ร้อยตรี",
+					"Name": "สุกิต น้อมศิริ",
+					"PartyName": "เป็นธรรม",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "3472",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/เป็นธรรม/สุกิต-น้อมศิริ.webp",
+					"Party": {
+						"Name": "เป็นธรรม",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 72,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/MFsb7ep8_CGtzt6aYQ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "พูลดี",
+				"value_share": 6122,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 100,
+				"Firstname": "นพนันท์"
+			},
+			{
+				"Lastname": "สนั่นรัมย์",
+				"value_share": 6122,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 100,
+				"Firstname": "มธุรจน์"
+			}
+		],
+		"count_shareholder": 1800,
+		"gov_fund_proj": null
+	}
+]

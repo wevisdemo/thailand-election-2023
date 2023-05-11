@@ -1,1 +1,159 @@
-[{"full_address":"99\/1  หมู่บ้าน โนนสะอาด หมู่ที่ 9 ต.ท่าเยี่ยม อ.โชคชัย จ.นครราชสีมา","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"K","company_name_th":"เพอร์เฟค ไลฟ์ แมนเนจเม้นท์ จำกัด","pct_share":5,"obj_tname":"-","company_id":"0305565006632","reg_date":"29\/08\/2565","company_name_en":"PERFECT LIFE MANAGEMENT CO., LTD.","tsic":66199,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ไกรศิริวัฒน","value_share":0,"Nationality":"TH","pct_share":90,"count_share":18000,"Firstname":"เกรียงไกร"},{"Lastname":"มาเห็ม","value_share":0,"Nationality":"TH","pct_share":5,"count_share":1000,"Firstname":"จิระ","person":{"Number":"","Title":"นาย","Name":"จิระ มาเห็ม","PartyName":"มิติใหม่","MpType":"บัญชีรายชื่อ","Id":"1463","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/มิติใหม่\/จิระ-มาเห็ม.webp","Party":{"Name":"มิติใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":87,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/_7Ooh7ZG94FJ04TTML.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"หอมทอง","value_share":0,"Nationality":"TH","pct_share":5,"count_share":1000,"Firstname":"ทองใส"}],"count_shareholder":1000,"gov_fund_proj":null},{"full_address":"116\/4 หมู่ที่ 1 ต.ตะเคียนเตี้ย อ.บางละมุง จ.ชลบุรี","financial":[{"year":"2564","income":9083570.5399999991},{"year":"2563","income":10786738.6799999997},{"year":"2562","income":1545295.76},{"year":"2561","income":0}],"value_share":1263854,"submit_obj_big_type":"G","company_name_th":"อนุชสรา เทรดดิ้ง แอนด์ เซอร์วิส จำกัด","pct_share":70,"obj_tname":"การขายปลีกสินค้าอื่นๆในร้านค้าทั่วไป","company_id":"0205562023162","reg_date":"24\/6\/2562","company_name_en":"ANUTSARA TRADING AND SERVICE COMPANY LIMITED","tsic":47190,"cap_amt":1000000,"company_value":1805506,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"มาเห็ม","value_share":1263854,"Nationality":"TH","pct_share":70,"count_share":7000,"Firstname":"จิระ","person":{"Number":"","Title":"นาย","Name":"จิระ มาเห็ม","PartyName":"มิติใหม่","MpType":"บัญชีรายชื่อ","Id":"1463","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/มิติใหม่\/จิระ-มาเห็ม.webp","Party":{"Name":"มิติใหม่","Color":null,"PartyType":"พรรค","IsActive":false,"Id":87,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/_7Ooh7ZG94FJ04TTML.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ไกรศิริวัฒน์","value_share":90275,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"เกรียงไกร"},{"Lastname":"นิยมสุข","value_share":451376,"Nationality":"TH","pct_share":25,"count_share":2500,"Firstname":"อนุชสรา"}],"count_shareholder":7000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "99/1  หมู่บ้าน โนนสะอาด หมู่ที่ 9 ต.ท่าเยี่ยม อ.โชคชัย จ.นครราชสีมา",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "K",
+		"company_name_th": "เพอร์เฟค ไลฟ์ แมนเนจเม้นท์ จำกัด",
+		"pct_share": 5,
+		"obj_tname": "-",
+		"company_id": "0305565006632",
+		"reg_date": "29/08/2565",
+		"company_name_en": "PERFECT LIFE MANAGEMENT CO., LTD.",
+		"tsic": 66199,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ไกรศิริวัฒน",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 90,
+				"count_share": 18000,
+				"Firstname": "เกรียงไกร"
+			},
+			{
+				"Lastname": "มาเห็ม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1000,
+				"Firstname": "จิระ",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "จิระ มาเห็ม",
+					"PartyName": "มิติใหม่",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1463",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/มิติใหม่/จิระ-มาเห็ม.webp",
+					"Party": {
+						"Name": "มิติใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 87,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/_7Ooh7ZG94FJ04TTML.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "หอมทอง",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1000,
+				"Firstname": "ทองใส"
+			}
+		],
+		"count_shareholder": 1000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "116/4 หมู่ที่ 1 ต.ตะเคียนเตี้ย อ.บางละมุง จ.ชลบุรี",
+		"financial": [
+			{ "year": "2564", "income": 9083570.5399999991 },
+			{ "year": "2563", "income": 10786738.6799999997 },
+			{ "year": "2562", "income": 1545295.76 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 1263854,
+		"submit_obj_big_type": "G",
+		"company_name_th": "อนุชสรา เทรดดิ้ง แอนด์ เซอร์วิส จำกัด",
+		"pct_share": 70,
+		"obj_tname": "การขายปลีกสินค้าอื่นๆในร้านค้าทั่วไป",
+		"company_id": "0205562023162",
+		"reg_date": "24/6/2562",
+		"company_name_en": "ANUTSARA TRADING AND SERVICE COMPANY LIMITED",
+		"tsic": 47190,
+		"cap_amt": 1000000,
+		"company_value": 1805506,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "มาเห็ม",
+				"value_share": 1263854,
+				"Nationality": "TH",
+				"pct_share": 70,
+				"count_share": 7000,
+				"Firstname": "จิระ",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "จิระ มาเห็ม",
+					"PartyName": "มิติใหม่",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1463",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/มิติใหม่/จิระ-มาเห็ม.webp",
+					"Party": {
+						"Name": "มิติใหม่",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 87,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/_7Ooh7ZG94FJ04TTML.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ไกรศิริวัฒน์",
+				"value_share": 90275,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "เกรียงไกร"
+			},
+			{
+				"Lastname": "นิยมสุข",
+				"value_share": 451376,
+				"Nationality": "TH",
+				"pct_share": 25,
+				"count_share": 2500,
+				"Firstname": "อนุชสรา"
+			}
+		],
+		"count_shareholder": 7000,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,81 @@
-[{"reg_date":"22\/5\/2550","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":20607,"count_shareholder":1000,"company_shareholder":[{"Lastname":"เลี่ยวสมบูรณ์","value_share":20607,"pct_share":10,"Firstname":"สุพจน์","count_share":1000,"Nationality":"TH"},{"Lastname":"เลี่ยวสมบูรณ์","value_share":164856,"pct_share":80,"Firstname":"นภัสวรรณ","count_share":8000,"Nationality":"TH"},{"Lastname":"เลี่ยวสมบูรณ์","value_share":20607,"pct_share":10,"Firstname":"ยุทธนา","count_share":1000,"Nationality":"TH","person":{"Number":"","Title":"นาย","Name":"ยุทธนา เลี่ยวสมบูรณ์","PartyName":"ประชาธิปัตย์","MpType":"บัญชีรายชื่อ","Id":"890","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ประชาธิปัตย์\/ยุทธนา-เลี่ยวสมบูรณ์.webp","Party":{"Name":"ประชาธิปัตย์","Color":"#6DD3FF","PartyType":"พรรค","IsActive":true,"Id":12,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ประชาธิปัตย์.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}}],"pct_share":10,"company_name_th":"ภัสสุวรรณทรัพย์ จำกัด","company_id":"0105550053674","obj_tname":"กิจกรรมการขายสลากกินแบ่ง","company_name_en":"PASUWANNASAB COMPANY LIMITED","tsic":92001,"cap_amt":1000000,"company_value":206070,"company_type_th":"บริษัทจำกัด","submit_obj_big_type":"R","full_address":"7-7\/1 หมู่ที่ 2 ถนนลาดกระบัง แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร","gov_fund_proj":null}]
+[
+	{
+		"reg_date": "22/5/2550",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 20607,
+		"count_shareholder": 1000,
+		"company_shareholder": [
+			{
+				"Lastname": "เลี่ยวสมบูรณ์",
+				"value_share": 20607,
+				"pct_share": 10,
+				"Firstname": "สุพจน์",
+				"count_share": 1000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "เลี่ยวสมบูรณ์",
+				"value_share": 164856,
+				"pct_share": 80,
+				"Firstname": "นภัสวรรณ",
+				"count_share": 8000,
+				"Nationality": "TH"
+			},
+			{
+				"Lastname": "เลี่ยวสมบูรณ์",
+				"value_share": 20607,
+				"pct_share": 10,
+				"Firstname": "ยุทธนา",
+				"count_share": 1000,
+				"Nationality": "TH",
+				"person": {
+					"Number": "",
+					"Title": "นาย",
+					"Name": "ยุทธนา เลี่ยวสมบูรณ์",
+					"PartyName": "ประชาธิปัตย์",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "890",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ประชาธิปัตย์/ยุทธนา-เลี่ยวสมบูรณ์.webp",
+					"Party": {
+						"Name": "ประชาธิปัตย์",
+						"Color": "#6DD3FF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 12,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ประชาธิปัตย์.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"pct_share": 10,
+		"company_name_th": "ภัสสุวรรณทรัพย์ จำกัด",
+		"company_id": "0105550053674",
+		"obj_tname": "กิจกรรมการขายสลากกินแบ่ง",
+		"company_name_en": "PASUWANNASAB COMPANY LIMITED",
+		"tsic": 92001,
+		"cap_amt": 1000000,
+		"company_value": 206070,
+		"company_type_th": "บริษัทจำกัด",
+		"submit_obj_big_type": "R",
+		"full_address": "7-7/1 หมู่ที่ 2 ถนนลาดกระบัง แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร",
+		"gov_fund_proj": null
+	}
+]

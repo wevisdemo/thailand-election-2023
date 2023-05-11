@@ -1,1 +1,81 @@
-[{"full_address":"28\/50 หมู่ที่ 11  ต.บางพลีใหญ่ อ.บางพลี จ.สมุทรปราการ","financial":[{"year":"2564","income":9163574.6600000001},{"year":"2563","income":7465419.3399999999},{"year":"2562","income":4759025.9500000002},{"year":"2561","income":5392478.6600000001}],"value_share":10552,"submit_obj_big_type":"C","company_name_th":"เอส.พี.เอเชีย กรุ๊ป จำกัด","pct_share":1,"obj_tname":"การผลิตเครื่องจักรอื่นๆที่ใช้งานทั่วไปซึ่งมิได้จัดประเภทไว้ในที่อื่น","company_id":"0115558024151","reg_date":"22\/12\/2558","company_name_en":"S.P.ASIA GROUP COMPANY LIMITED","tsic":28199,"cap_amt":1000000,"company_value":1055205,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"นุชนา","value_share":10552,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"มาโนช","person":{"Number":3,"Title":"นาย","Name":"มาโนช นุชนา","PartyName":"เสรีรวมไทย","MpType":"แบ่งเขต","Id":"2362","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"สมุทรปราการ","MpZone":4,"MpList":"","Images":"\/yourcandidates\/candidates\/เสรีรวมไทย\/มาโนช-นุชนา.webp","Party":{"Name":"เสรีรวมไทย","Color":"#FFEA2E","PartyType":"พรรค","IsActive":true,"Id":28,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/เสรีรวมไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"รักญาติ","value_share":10552,"Nationality":"TH","pct_share":1,"count_share":100,"Firstname":"ลาทินา"},{"Lastname":"ทองรุ่ง","value_share":1034101,"Nationality":"TH","pct_share":98,"count_share":9800,"Firstname":"สุนทรี"}],"count_shareholder":100,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "28/50 หมู่ที่ 11  ต.บางพลีใหญ่ อ.บางพลี จ.สมุทรปราการ",
+		"financial": [
+			{ "year": "2564", "income": 9163574.6600000001 },
+			{ "year": "2563", "income": 7465419.3399999999 },
+			{ "year": "2562", "income": 4759025.9500000002 },
+			{ "year": "2561", "income": 5392478.6600000001 }
+		],
+		"value_share": 10552,
+		"submit_obj_big_type": "C",
+		"company_name_th": "เอส.พี.เอเชีย กรุ๊ป จำกัด",
+		"pct_share": 1,
+		"obj_tname": "การผลิตเครื่องจักรอื่นๆที่ใช้งานทั่วไปซึ่งมิได้จัดประเภทไว้ในที่อื่น",
+		"company_id": "0115558024151",
+		"reg_date": "22/12/2558",
+		"company_name_en": "S.P.ASIA GROUP COMPANY LIMITED",
+		"tsic": 28199,
+		"cap_amt": 1000000,
+		"company_value": 1055205,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "นุชนา",
+				"value_share": 10552,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "มาโนช",
+				"person": {
+					"Number": 3,
+					"Title": "นาย",
+					"Name": "มาโนช นุชนา",
+					"PartyName": "เสรีรวมไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "2362",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "สมุทรปราการ",
+					"MpZone": 4,
+					"MpList": "",
+					"Images": "/mpasset/candidates/เสรีรวมไทย/มาโนช-นุชนา.webp",
+					"Party": {
+						"Name": "เสรีรวมไทย",
+						"Color": "#FFEA2E",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 28,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/เสรีรวมไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "รักญาติ",
+				"value_share": 10552,
+				"Nationality": "TH",
+				"pct_share": 1,
+				"count_share": 100,
+				"Firstname": "ลาทินา"
+			},
+			{
+				"Lastname": "ทองรุ่ง",
+				"value_share": 1034101,
+				"Nationality": "TH",
+				"pct_share": 98,
+				"count_share": 9800,
+				"Firstname": "สุนทรี"
+			}
+		],
+		"count_shareholder": 100,
+		"gov_fund_proj": null
+	}
+]

@@ -1,1 +1,113 @@
-[{"full_address":"1-7 อาคารซิลลิค เฮ้าส์ ชั้นที่ 9 ถนนสีลม  แขวงสีลม เขตบางรัก กรุงเทพมหานคร","financial":[{"year":"2562","income":7352226.46},{"year":"2561","income":7230313.75},{"year":"2560","income":4497443.5800000001},{"year":"2559","income":5820812.5}],"value_share":664356,"submit_obj_big_type":"M","company_name_th":"นาธาน่า คอร์ปอเรชั่น จำกัด","pct_share":5,"obj_tname":"กิจกรรมการแปลการแปลความหมายและล่าม","company_id":"0135547006652","reg_date":"20\/07\/2547","company_name_en":"NATANA CORPORATION COMPANY LIMITED","tsic":74901,"cap_amt":1000000,"company_value":13287129,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"สามไพบูลย์","value_share":1328713,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"สมหวัง"},{"Lastname":"สามไพบูลย์","value_share":664356,"Nationality":"TH","pct_share":5,"count_share":500,"Firstname":"ราชศักดิ์","person":{"Number":2,"Title":"นาย","Name":"ราชศักดิ์ สามไพบูลย์","PartyName":"ไทยสร้างไทย","MpType":"แบ่งเขต","Id":"5188","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"นครปฐม","MpZone":4,"MpList":"","Images":"\/yourcandidates\/candidates\/ไทยสร้างไทย\/ราชศักดิ์-สามไพบูลย์.webp","Party":{"Name":"ไทยสร้างไทย","Color":"#7856EC","PartyType":"พรรค","IsActive":false,"Id":39,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/GQkhI7bT0DS8MS-7BJ.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"จินศิริวานิชย์","value_share":1993069,"Nationality":"TH","pct_share":15,"count_share":1500,"Firstname":"อัครพร"},{"Lastname":"สามไพบูลย์","value_share":1328713,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"นภาพร"},{"Lastname":"สามไพบูลย์","value_share":1328713,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"เพ็ญแข"},{"Lastname":"จินศิริวานิชย์","value_share":6642236,"Nationality":"TH","pct_share":49.99,"count_share":4999,"Firstname":"นฤมล"},{"Lastname":"พรหมหมอเฒ่า","value_share":1329,"Nationality":"TH","pct_share":0.01,"count_share":1,"Firstname":"มลธิรา"}],"count_shareholder":500,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "1-7 อาคารซิลลิค เฮ้าส์ ชั้นที่ 9 ถนนสีลม  แขวงสีลม เขตบางรัก กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2562", "income": 7352226.46 },
+			{ "year": "2561", "income": 7230313.75 },
+			{ "year": "2560", "income": 4497443.5800000001 },
+			{ "year": "2559", "income": 5820812.5 }
+		],
+		"value_share": 664356,
+		"submit_obj_big_type": "M",
+		"company_name_th": "นาธาน่า คอร์ปอเรชั่น จำกัด",
+		"pct_share": 5,
+		"obj_tname": "กิจกรรมการแปลการแปลความหมายและล่าม",
+		"company_id": "0135547006652",
+		"reg_date": "20/07/2547",
+		"company_name_en": "NATANA CORPORATION COMPANY LIMITED",
+		"tsic": 74901,
+		"cap_amt": 1000000,
+		"company_value": 13287129,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "สามไพบูลย์",
+				"value_share": 1328713,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "สมหวัง"
+			},
+			{
+				"Lastname": "สามไพบูลย์",
+				"value_share": 664356,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 500,
+				"Firstname": "ราชศักดิ์",
+				"person": {
+					"Number": 2,
+					"Title": "นาย",
+					"Name": "ราชศักดิ์ สามไพบูลย์",
+					"PartyName": "ไทยสร้างไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "5188",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "นครปฐม",
+					"MpZone": 4,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ไทยสร้างไทย/ราชศักดิ์-สามไพบูลย์.webp",
+					"Party": {
+						"Name": "ไทยสร้างไทย",
+						"Color": "#7856EC",
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 39,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/GQkhI7bT0DS8MS-7BJ.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "จินศิริวานิชย์",
+				"value_share": 1993069,
+				"Nationality": "TH",
+				"pct_share": 15,
+				"count_share": 1500,
+				"Firstname": "อัครพร"
+			},
+			{
+				"Lastname": "สามไพบูลย์",
+				"value_share": 1328713,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "นภาพร"
+			},
+			{
+				"Lastname": "สามไพบูลย์",
+				"value_share": 1328713,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "เพ็ญแข"
+			},
+			{
+				"Lastname": "จินศิริวานิชย์",
+				"value_share": 6642236,
+				"Nationality": "TH",
+				"pct_share": 49.99,
+				"count_share": 4999,
+				"Firstname": "นฤมล"
+			},
+			{
+				"Lastname": "พรหมหมอเฒ่า",
+				"value_share": 1329,
+				"Nationality": "TH",
+				"pct_share": 0.01,
+				"count_share": 1,
+				"Firstname": "มลธิรา"
+			}
+		],
+		"count_shareholder": 500,
+		"gov_fund_proj": null
+	}
+]

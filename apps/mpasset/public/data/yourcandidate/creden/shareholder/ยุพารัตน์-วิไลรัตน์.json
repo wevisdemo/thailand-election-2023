@@ -1,1 +1,81 @@
-[{"full_address":"7\/1  ซอย8 คลองเรียน 2 ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา","financial":[{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0},{"year":"2561","income":0}],"value_share":4902977,"submit_obj_big_type":"F","company_name_th":"ยุพารัตน์ กรุ๊ป จำกัด","pct_share":98.4,"obj_tname":"การก่อสร้างอาคารที่ไม่ใช่ที่พักอาศัย","company_id":"0905563006168","reg_date":"22\/12\/2563","company_name_en":"YUPHARAT GROUP CO., LTD.","tsic":41002,"cap_amt":5000000,"company_value":4982700,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"โคตรวงษา","value_share":39862,"Nationality":"TH","pct_share":0.8,"count_share":400,"Firstname":"พเยาว์ศรี"},{"Lastname":"วิไลรัตน์","value_share":4902977,"Nationality":"TH","pct_share":98.4,"count_share":49200,"Firstname":"ยุพารัตน์","person":{"Number":"","Title":"นาง","Name":"ยุพารัตน์ วิไลรัตน์","PartyName":"คลองไทย","MpType":"บัญชีรายชื่อ","Id":"1752","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/คลองไทย\/ยุพารัตน์-วิไลรัตน์.webp","Party":{"Name":"คลองไทย","Color":null,"PartyType":"พรรค","IsActive":false,"Id":69,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/คลองไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ณ นคร","value_share":39862,"Nationality":"TH","pct_share":0.8,"count_share":400,"Firstname":"ชัยวัฒน์"}],"count_shareholder":49200,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "7/1  ซอย8 คลองเรียน 2 ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา",
+		"financial": [
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 },
+			{ "year": "2561", "income": 0 }
+		],
+		"value_share": 4902977,
+		"submit_obj_big_type": "F",
+		"company_name_th": "ยุพารัตน์ กรุ๊ป จำกัด",
+		"pct_share": 98.4,
+		"obj_tname": "การก่อสร้างอาคารที่ไม่ใช่ที่พักอาศัย",
+		"company_id": "0905563006168",
+		"reg_date": "22/12/2563",
+		"company_name_en": "YUPHARAT GROUP CO., LTD.",
+		"tsic": 41002,
+		"cap_amt": 5000000,
+		"company_value": 4982700,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "โคตรวงษา",
+				"value_share": 39862,
+				"Nationality": "TH",
+				"pct_share": 0.8,
+				"count_share": 400,
+				"Firstname": "พเยาว์ศรี"
+			},
+			{
+				"Lastname": "วิไลรัตน์",
+				"value_share": 4902977,
+				"Nationality": "TH",
+				"pct_share": 98.4,
+				"count_share": 49200,
+				"Firstname": "ยุพารัตน์",
+				"person": {
+					"Number": "",
+					"Title": "นาง",
+					"Name": "ยุพารัตน์ วิไลรัตน์",
+					"PartyName": "คลองไทย",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "1752",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/คลองไทย/ยุพารัตน์-วิไลรัตน์.webp",
+					"Party": {
+						"Name": "คลองไทย",
+						"Color": null,
+						"PartyType": "พรรค",
+						"IsActive": false,
+						"Id": 69,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/คลองไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ณ นคร",
+				"value_share": 39862,
+				"Nationality": "TH",
+				"pct_share": 0.8,
+				"count_share": 400,
+				"Firstname": "ชัยวัฒน์"
+			}
+		],
+		"count_shareholder": 49200,
+		"gov_fund_proj": null
+	}
+]

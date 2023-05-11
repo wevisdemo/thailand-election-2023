@@ -1,1 +1,89 @@
-[{"full_address":"49\/86 ซอยนิมิตใหม่ 34 แขวงสามวาตะวันออก เขตคลองสามวา กรุงเทพมหานคร","financial":[{"year":"2565","income":0},{"year":"2564","income":0},{"year":"2563","income":0},{"year":"2562","income":0}],"value_share":0,"submit_obj_big_type":"G","company_name_th":"ออล ไทม์ ฟรุ๊ตส์ จำกัด","pct_share":40,"obj_tname":"การขายส่งผักและผลไม้","company_id":"0105563017302","reg_date":"29\/1\/2563","company_name_en":"ALL TIME FRUITS CO., LTD.","tsic":46313,"cap_amt":1000000,"company_value":0,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"กุลกาญจนาภิบาล","value_share":0,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"ปณต"},{"Lastname":"กลิ่นถนอม","value_share":0,"Nationality":"TH","pct_share":40,"count_share":4000,"Firstname":"กาญนภา","person":{"Number":"","Title":"นางสาว","Name":"กาญนภา กลิ่นถนอม","PartyName":"ชาติไทยพัฒนา","MpType":"บัญชีรายชื่อ","Id":"543","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"","MpZone":"","MpList":"","Images":"\/yourcandidates\/candidates\/ชาติไทยพัฒนา\/กาญนภา-กลิ่นถนอม.webp","Party":{"Name":"ชาติไทยพัฒนา","Color":"#FF5BD1","PartyType":"พรรค","IsActive":true,"Id":5,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ชาติไทยพัฒนา.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"กุลกาญจนาภิบาล","value_share":0,"Nationality":"TH","pct_share":40,"count_share":4000,"Firstname":"หฤษฎ์"},{"Lastname":"กลิ่นถนอม","value_share":0,"Nationality":"TH","pct_share":10,"count_share":1000,"Firstname":"ฐานศักดิ์"}],"count_shareholder":4000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "49/86 ซอยนิมิตใหม่ 34 แขวงสามวาตะวันออก เขตคลองสามวา กรุงเทพมหานคร",
+		"financial": [
+			{ "year": "2565", "income": 0 },
+			{ "year": "2564", "income": 0 },
+			{ "year": "2563", "income": 0 },
+			{ "year": "2562", "income": 0 }
+		],
+		"value_share": 0,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ออล ไทม์ ฟรุ๊ตส์ จำกัด",
+		"pct_share": 40,
+		"obj_tname": "การขายส่งผักและผลไม้",
+		"company_id": "0105563017302",
+		"reg_date": "29/1/2563",
+		"company_name_en": "ALL TIME FRUITS CO., LTD.",
+		"tsic": 46313,
+		"cap_amt": 1000000,
+		"company_value": 0,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "กุลกาญจนาภิบาล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "ปณต"
+			},
+			{
+				"Lastname": "กลิ่นถนอม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 4000,
+				"Firstname": "กาญนภา",
+				"person": {
+					"Number": "",
+					"Title": "นางสาว",
+					"Name": "กาญนภา กลิ่นถนอม",
+					"PartyName": "ชาติไทยพัฒนา",
+					"MpType": "บัญชีรายชื่อ",
+					"Id": "543",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "",
+					"MpZone": "",
+					"MpList": "",
+					"Images": "/mpasset/candidates/ชาติไทยพัฒนา/กาญนภา-กลิ่นถนอม.webp",
+					"Party": {
+						"Name": "ชาติไทยพัฒนา",
+						"Color": "#FF5BD1",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 5,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ชาติไทยพัฒนา.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "กุลกาญจนาภิบาล",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 4000,
+				"Firstname": "หฤษฎ์"
+			},
+			{
+				"Lastname": "กลิ่นถนอม",
+				"value_share": 0,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 1000,
+				"Firstname": "ฐานศักดิ์"
+			}
+		],
+		"count_shareholder": 4000,
+		"gov_fund_proj": null
+	}
+]

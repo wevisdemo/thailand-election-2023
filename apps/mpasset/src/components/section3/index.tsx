@@ -1,8 +1,6 @@
 import React from 'react'
-
 import { usePersonStore } from '../../store/person'
 import { LoadingScreen } from './Loading'
-
 import { TheyWorkForUs } from '@thailand-election-2023/database'
 import * as d3 from 'd3'
 import dynamic from 'next/dynamic'
@@ -11,16 +9,15 @@ import { placeZerosAtEnd } from '../util/calculation'
 import Dialog from './Dialog'
 import OnBoard from './tutorial/OnBoard'
 
-const FirstChart = dynamic(() => import('./first-chart'), { loading: () => <LoadingScreen /> })
-const SecondChart = dynamic(() => import('./second-chart'), { loading: () => <LoadingScreen /> })
-const ThirdChart = dynamic(() => import('./third-chart'), { loading: () => <LoadingScreen /> })
+const FirstChart = dynamic(() => import('./first-chart'), { loading: () => <LoadingScreen />, ssr: false })
+const SecondChart = dynamic(() => import('./second-chart'), { loading: () => <LoadingScreen />, ssr: false })
+const ThirdChart = dynamic(() => import('./third-chart'), { loading: () => <LoadingScreen />, ssr: false })
 
 enum VIEW_TYPE {
   MAIN_VIEW = 0,
   SELCTED_PERSON_CHART = 1,
   SELECTED_COMPANY_CHART = 2
 }
-
 
 const Section3 = () => {
   React.useEffect(() => {
@@ -36,7 +33,7 @@ const Section3 = () => {
     selectedPerson,
     selectedCompany,
     party, setParty,
-    setFilterPerson,
+    // setFilterPerson,
     selectedDataSet,
     selectedBusinessType,
     selectedParty,
@@ -47,51 +44,50 @@ const Section3 = () => {
 
   const fetchFromTheyWork = React.useCallback(async () => {
     const party = await TheyWorkForUs.Parties.fetchAll();
+    console.log(party.map((d) => Array.isArray(d.Images) ? {
+      Name: d.Name,
+      url: d.Images[0].url,
+    } : {
+      Name: d.Name,
+      url: '',
+    }));
+
     setParty(party)
   }, [setParty])
 
   const fetchFromGit = React.useCallback(async () => {
-    let res = await d3.csv<PersonCustom & string>('/mpasset/data/people-optim.csv', d3.autoType)
+    let res = await d3.csv<PersonCustom & string>('/mpasset/data/people-optim2.csv', d3.autoType)
     if (res) {
       const value = res.slice(0, -1) as PersonCustom[]
       console.log(value);
 
       await value.forEach((d) => {
-        d.IsActive = String(d.IsActive) === "True",
-          d.IsMp = String(d.IsMp) === "True",
-          d.IsPmCandidate = String(d.IsPmCandidate) === "True",
-          d.IsCabinet = String(d.IsCabinet) === "True",
-          d.IsSenator = String(d.IsSenator) === "True",
-          d.companyType = JSON.parse(String(d.companyType).replace(/'/g, '"')),
-          d.totalValueShare = d.totalValueShare || 0,
-          d.countCompShare = d.countCompShare || 0,
-          d.countDirector = d.countDirector || 0,
-          d.totalPctShare = d.totalPctShare || 0
+        // d.IsActive = String(d.IsActive) === "True",
+        //   d.IsMp = String(d.IsMp) === "True",
+        //   d.IsPmCandidate = String(d.IsPmCandidate) === "True",
+        //   d.IsCabinet = String(d.IsCabinet) === "True",
+        //   d.IsSenator = String(d.IsSenator) === "True",
+        d.companyType = JSON.parse(String(d.companyType).replace(/'/g, '"'))
+        // d.totalValueShare = d.totalValueShare || 0,
+        // d.countCompShare = d.countCompShare || 0,
+        // d.countDirector = d.countDirector || 0,
+        // d.totalPctShare = d.totalPctShare || 0
       })
-      const indexOfOutlier = value.map((d) => d.Name).indexOf('พิบูลย์ รัชกิจประการ')
-      value[indexOfOutlier].totalPctShare = 30
+      // const indexOfOutlier = value.map((d) => d.Name).indexOf('พิบูลย์ รัชกิจประการ')
+      // value[indexOfOutlier].totalPctShare = 30
       setPerson(value)
     }
 
   }, [setPerson])
 
   const fetchFromGitYourCandidate = React.useCallback(async () => {
-    let res = await d3.csv<PersonCustom & string>('/mpasset/data/yourcandidate/people-optim.csv', d3.autoType)
+    let res = await d3.csv<PersonCustom & string>('/mpasset/data/yourcandidate/people-optim2.csv', d3.autoType)
     if (res) {
       const value = res.slice(0, -1) as PersonCustom[]
       await value.forEach((d) => {
         d.Number = Number(d.Number),
-          d.IsMp = Boolean(d.IsMp),
-          d.IsPmCandidate = String(d.IsPmCandidate) === "True",
-          d.IsCabinet = Boolean(d.IsCabinet),
           d.companyType = JSON.parse(String(d.companyType).replace(/'/g, '"')),
-          d.MpType = d.MpType || 'บัญชีรายชื่อ',
-          d.Images = `/mpasset/candidates/${d.PartyName}/${d.Name.replaceAll(' ', '-')}.webp`,
-          d.totalValueShare = Number(d.totalValueShare) || 0,
-          d.countCompShare = Number(d.countCompShare) || 0,
-          d.countDirector = Number(d.countDirector) || 0,
-          d.totalPctShare = Number(d.totalPctShare) || 0,
-          d.totalPctShare = Number(d.totalPctShare) ? (Number(d.totalPctShare) > 30 ? 30 : Number(d.totalPctShare)) : 0
+          d.Images = `/mpasset/candidates/${d.PartyName}/${d.Name.replaceAll(' ', '-')}.webp`
       })
 
       setYourCandidatePerson(value)
@@ -129,7 +125,8 @@ const Section3 = () => {
     }
   }, [selectedPerson, selectedCompany])
 
-  React.useMemo(async () => {
+  const filteredPerson = React.useMemo(() => {
+
     if (person.length > 0 && yourCandidatePerson.length > 0) {
       let outFilter: PersonCustom[] = selectedDataSet === 'นักการเมือง 62' ? person : yourCandidatePerson
 
@@ -152,9 +149,13 @@ const Section3 = () => {
       else
         outFilter = outFilter.sort((a, b) => a.totalValueShare! - b.totalValueShare!)
 
-      setFilterPerson(placeZerosAtEnd(outFilter, 'countCompShare', 'countDirector'))
+      return placeZerosAtEnd(outFilter, 'countCompShare', 'countDirector')
     }
-  }, [selectedBusinessType, selectedParty, selectedSort, setFilterPerson, person, yourCandidatePerson, selectedDataSet])
+    return []
+  }, [selectedBusinessType, selectedParty, selectedSort, person, yourCandidatePerson, selectedDataSet])
+
+
+
 
   if (isLoading)
     return <LoadingScreen />
@@ -164,7 +165,7 @@ const Section3 = () => {
       <OnBoard>
         <div className='relative h-full'>
           <div className='w-full h-full'>
-            <FirstChart />
+            <FirstChart filteredPerson={filteredPerson} />
           </div>
           <Dialog open={view === VIEW_TYPE.SELCTED_PERSON_CHART}>
             <div className='w-full h-full bg-white bg-opacity-50'>

@@ -1,1 +1,160 @@
-[{"full_address":"108\/76-77 หมู่ที่ 5  ต.รัษฎา อ.เมืองภูเก็ต จ.ภูเก็ต","financial":[{"year":"2559","income":1347669.71},{"year":"2558","income":626505.4},{"year":"2557","income":1293518.4199999999},{"year":"2556","income":835499.72}],"value_share":1015403,"submit_obj_big_type":"G","company_name_th":"ไอเดียล ออดิโอ แอนด์ วิชวล จำกัด","pct_share":90,"obj_tname":"ร้านขายปลีกเครื่องใช้ไฟฟ้าชนิดในครัวเรือน","company_id":"0835554005759","reg_date":"07\/06\/2554","company_name_en":"IDEAL AUDIO AND VISUAI CO.,LTD.","tsic":47595,"cap_amt":2000000,"company_value":1128225,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ทรงยศ","value_share":1015403,"Nationality":"TH","pct_share":90,"count_share":18000,"Firstname":"จิรายุส","person":{"Number":6,"Title":"นาย","Name":"จิรายุส ทรงยศ","PartyName":"พลังประชารัฐ","MpType":"แบ่งเขต","Id":"5462","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ภูเก็ต","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังประชารัฐ\/จิรายุส-ทรงยศ.webp","Party":{"Name":"พลังประชารัฐ","Color":"#2276EF","PartyType":"พรรค","IsActive":true,"Id":20,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/Y8aiwU_p-C-aZyw_PN.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ปุญญาภรวิวัฒน์","value_share":56411,"Nationality":"TH","pct_share":5,"count_share":1000,"Firstname":"มนต์ชัย"},{"Lastname":"เจียมสูงส่ง","value_share":56411,"Nationality":"TH","pct_share":5,"count_share":1000,"Firstname":"เสาวเลิศ"}],"count_shareholder":18000,"gov_fund_proj":null},{"full_address":"7\/6 ถนนสุทัศน์  ต.ตลาดใหญ่ อ.เมืองภูเก็ต จ.ภูเก็ต","financial":[{"year":"2554","income":18653.07},{"year":"2553","income":0},{"year":"2552","income":28500},{"year":"2551","income":1483.56}],"value_share":-194277,"submit_obj_big_type":"L","company_name_th":"ซี เอส บิวดิ้ง เฮ้าส์ จำกัด","pct_share":30,"obj_tname":"การซื้อและการขายอสังหาริมทรัพย์ที่เป็นของตนเอง เพื่อการพักอาศัย","company_id":"0835551012479","reg_date":"12\/12\/2551","company_name_en":"C S BUILDING HOUSE COMPANY LIMITED","tsic":68101,"cap_amt":1000000,"company_value":-647588,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"หลิมพัฒนวงศ์","value_share":-259035,"Nationality":"TH","pct_share":40,"count_share":4000,"Firstname":"ศุภรักษ์"},{"Lastname":"ทรงยศ","value_share":-194277,"Nationality":"TH","pct_share":30,"count_share":3000,"Firstname":"จิรายุส","person":{"Number":6,"Title":"นาย","Name":"จิรายุส ทรงยศ","PartyName":"พลังประชารัฐ","MpType":"แบ่งเขต","Id":"5462","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ภูเก็ต","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/พลังประชารัฐ\/จิรายุส-ทรงยศ.webp","Party":{"Name":"พลังประชารัฐ","Color":"#2276EF","PartyType":"พรรค","IsActive":true,"Id":20,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/Y8aiwU_p-C-aZyw_PN.png"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ทรงยศ","value_share":-194277,"Nationality":"TH","pct_share":30,"count_share":3000,"Firstname":"พรพยง"}],"count_shareholder":3000,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "108/76-77 หมู่ที่ 5  ต.รัษฎา อ.เมืองภูเก็ต จ.ภูเก็ต",
+		"financial": [
+			{ "year": "2559", "income": 1347669.71 },
+			{ "year": "2558", "income": 626505.4 },
+			{ "year": "2557", "income": 1293518.4199999999 },
+			{ "year": "2556", "income": 835499.72 }
+		],
+		"value_share": 1015403,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ไอเดียล ออดิโอ แอนด์ วิชวล จำกัด",
+		"pct_share": 90,
+		"obj_tname": "ร้านขายปลีกเครื่องใช้ไฟฟ้าชนิดในครัวเรือน",
+		"company_id": "0835554005759",
+		"reg_date": "07/06/2554",
+		"company_name_en": "IDEAL AUDIO AND VISUAI CO.,LTD.",
+		"tsic": 47595,
+		"cap_amt": 2000000,
+		"company_value": 1128225,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ทรงยศ",
+				"value_share": 1015403,
+				"Nationality": "TH",
+				"pct_share": 90,
+				"count_share": 18000,
+				"Firstname": "จิรายุส",
+				"person": {
+					"Number": 6,
+					"Title": "นาย",
+					"Name": "จิรายุส ทรงยศ",
+					"PartyName": "พลังประชารัฐ",
+					"MpType": "แบ่งเขต",
+					"Id": "5462",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ภูเก็ต",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังประชารัฐ/จิรายุส-ทรงยศ.webp",
+					"Party": {
+						"Name": "พลังประชารัฐ",
+						"Color": "#2276EF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 20,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/Y8aiwU_p-C-aZyw_PN.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ปุญญาภรวิวัฒน์",
+				"value_share": 56411,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1000,
+				"Firstname": "มนต์ชัย"
+			},
+			{
+				"Lastname": "เจียมสูงส่ง",
+				"value_share": 56411,
+				"Nationality": "TH",
+				"pct_share": 5,
+				"count_share": 1000,
+				"Firstname": "เสาวเลิศ"
+			}
+		],
+		"count_shareholder": 18000,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "7/6 ถนนสุทัศน์  ต.ตลาดใหญ่ อ.เมืองภูเก็ต จ.ภูเก็ต",
+		"financial": [
+			{ "year": "2554", "income": 18653.07 },
+			{ "year": "2553", "income": 0 },
+			{ "year": "2552", "income": 28500 },
+			{ "year": "2551", "income": 1483.56 }
+		],
+		"value_share": -194277,
+		"submit_obj_big_type": "L",
+		"company_name_th": "ซี เอส บิวดิ้ง เฮ้าส์ จำกัด",
+		"pct_share": 30,
+		"obj_tname": "การซื้อและการขายอสังหาริมทรัพย์ที่เป็นของตนเอง เพื่อการพักอาศัย",
+		"company_id": "0835551012479",
+		"reg_date": "12/12/2551",
+		"company_name_en": "C S BUILDING HOUSE COMPANY LIMITED",
+		"tsic": 68101,
+		"cap_amt": 1000000,
+		"company_value": -647588,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "หลิมพัฒนวงศ์",
+				"value_share": -259035,
+				"Nationality": "TH",
+				"pct_share": 40,
+				"count_share": 4000,
+				"Firstname": "ศุภรักษ์"
+			},
+			{
+				"Lastname": "ทรงยศ",
+				"value_share": -194277,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 3000,
+				"Firstname": "จิรายุส",
+				"person": {
+					"Number": 6,
+					"Title": "นาย",
+					"Name": "จิรายุส ทรงยศ",
+					"PartyName": "พลังประชารัฐ",
+					"MpType": "แบ่งเขต",
+					"Id": "5462",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ภูเก็ต",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/พลังประชารัฐ/จิรายุส-ทรงยศ.webp",
+					"Party": {
+						"Name": "พลังประชารัฐ",
+						"Color": "#2276EF",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 20,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/Y8aiwU_p-C-aZyw_PN.png"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ทรงยศ",
+				"value_share": -194277,
+				"Nationality": "TH",
+				"pct_share": 30,
+				"count_share": 3000,
+				"Firstname": "พรพยง"
+			}
+		],
+		"count_shareholder": 3000,
+		"gov_fund_proj": null
+	}
+]

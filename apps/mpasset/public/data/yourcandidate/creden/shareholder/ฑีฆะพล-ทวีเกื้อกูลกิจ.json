@@ -1,1 +1,507 @@
-[{"full_address":"496 ถนนอินทรคีรี ต.แม่สอด อ.แม่สอด จ.ตาก","financial":[{"year":"2564","income":1978850},{"year":"2563","income":1977800},{"year":"2562","income":2115195},{"year":"2561","income":3105675}],"value_share":551231,"submit_obj_big_type":"L","company_name_th":"ศูนย์การค้าแม่สอด จำกัด","pct_share":4,"obj_tname":"การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย","company_id":"0635527000069","reg_date":"03\/10\/2527","company_name_en":"","tsic":68104,"cap_amt":6000000,"company_value":13780782,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"เลาจริยกุล","value_share":459355,"Nationality":"TH","pct_share":3.33,"count_share":50,"Firstname":"วสุ"},{"Lastname":"ภัทรประสิทธิ์","value_share":1047339,"Nationality":"TH","pct_share":7.6,"count_share":114,"Firstname":"ประพันธ์"},{"Lastname":"เลาจริยกุล","value_share":459355,"Nationality":"TH","pct_share":3.33,"count_share":50,"Firstname":"สุชาติ"},{"Lastname":"ทวีเกื้อกูลกิจ","value_share":918723,"Nationality":"TH","pct_share":6.67,"count_share":100,"Firstname":"ณัฐวุฒิ"},{"Lastname":"สมพงษ์ไทย","value_share":183739,"Nationality":"TH","pct_share":1.33,"count_share":20,"Firstname":"สุวรรณชัย"},{"Lastname":"มงคลการ","value_share":229684,"Nationality":"TH","pct_share":1.67,"count_share":25,"Firstname":"สุวรรณา"},{"Lastname":"ภัทรประสิทธิ์","value_share":1038148,"Nationality":"TH","pct_share":7.53,"count_share":113,"Firstname":"ประสงค์"},{"Lastname":"ทวีเกื้อกูลกิจ","value_share":1837433,"Nationality":"TH","pct_share":13.33,"count_share":200,"Firstname":"เสรี"},{"Lastname":"นะวิโรจน์","value_share":1038148,"Nationality":"TH","pct_share":7.53,"count_share":113,"Firstname":"ลักขณา"},{"Lastname":"ภัทรประสิทธิ์","value_share":303177,"Nationality":"TH","pct_share":2.2,"count_share":33,"Firstname":"ยุพดา"},{"Lastname":"เลาจริยกุล","value_share":459355,"Nationality":"TH","pct_share":3.33,"count_share":50,"Firstname":"ศศิธร"},{"Lastname":"ภัทรประสิทธิ์","value_share":266424,"Nationality":"TH","pct_share":1.93,"count_share":29,"Firstname":"อดิศร์"},{"Lastname":"ศิริรัตนอนันต์","value_share":367492,"Nationality":"TH","pct_share":2.67,"count_share":40,"Firstname":"รจนา"},{"Lastname":"ทวีเกื้อกูลกิจ","value_share":551231,"Nationality":"TH","pct_share":4,"count_share":60,"Firstname":"ฑีฆะพล","person":{"Number":2,"Title":"นาย","Name":"ฑีฆะพล ทวีเกื้อกูลกิจ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"4821","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ตาก","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ฑีฆะพล-ทวีเกื้อกูลกิจ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"เลาจริยกุล","value_share":459355,"Nationality":"TH","pct_share":3.33,"count_share":50,"Firstname":"สนิท"},{"Lastname":"ภัทรประสิทธิ์","value_share":266424,"Nationality":"TH","pct_share":1.93,"count_share":29,"Firstname":"อภิภู"},{"Lastname":"ไม้ไทย","value_share":1038148,"Nationality":"TH","pct_share":7.53,"count_share":113,"Firstname":"ศิริลักษณ์"},{"Lastname":"ภัทรประสิทธิ์","value_share":257246,"Nationality":"TH","pct_share":1.87,"count_share":28,"Firstname":"วรามาศ"},{"Lastname":"เลาจริยกุล","value_share":459355,"Nationality":"TH","pct_share":3.33,"count_share":50,"Firstname":"ประพนธ์"},{"Lastname":"ทวีเกื้อกูลกิจ","value_share":734970,"Nationality":"TH","pct_share":5.33,"count_share":80,"Firstname":"นเรศ"},{"Lastname":"ภัทรประสิทธิ์","value_share":257246,"Nationality":"TH","pct_share":1.87,"count_share":28,"Firstname":"จุไรบน"},{"Lastname":"จันทร์วรโชติ","value_share":229684,"Nationality":"TH","pct_share":1.67,"count_share":25,"Firstname":"สุริยะ"},{"Lastname":"จันทร์วรโชติ","value_share":229684,"Nationality":"TH","pct_share":1.67,"count_share":25,"Firstname":"ธนปรรณ"},{"Lastname":"จันทร์วรโชติ","value_share":229684,"Nationality":"TH","pct_share":1.67,"count_share":25,"Firstname":"สุชาติ"},{"Lastname":"เลาจริยกุล","value_share":459355,"Nationality":"TH","pct_share":3.33,"count_share":50,"Firstname":"วีระ"}],"count_shareholder":60,"gov_fund_proj":null},{"full_address":"108-109 หมู่ที่ 2 ถนนเจดีย์ยุทธหัตถี ต.หนองบัวเหนือ อ.เมืองตาก จ.ตาก","financial":[{"year":"2564","income":19671077.75},{"year":"2563","income":23204466.1900000013},{"year":"2562","income":24376641.370000001},{"year":"2561","income":19739551.6000000015}],"value_share":-19883185,"submit_obj_big_type":"C","company_name_th":"ทวีวัฒนาท๊อปไอซ์ จำกัด","pct_share":45,"obj_tname":"การผลิตน้ำแข็งเพื่อการบริโภค","company_id":"0635549000193","reg_date":"2\/8\/2549","company_name_en":"TAVEE WANTANA TOP ICE COMPANY LIMITED","tsic":10795,"cap_amt":3000000,"company_value":-44184856,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ทวีเกื้อกูลกิจ","value_share":-19883185,"Nationality":"TH","pct_share":45,"count_share":13500,"Firstname":"ฑีฆะพล","person":{"Number":2,"Title":"นาย","Name":"ฑีฆะพล ทวีเกื้อกูลกิจ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"4821","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ตาก","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ฑีฆะพล-ทวีเกื้อกูลกิจ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ทวีเกื้อกูลกิจ","value_share":-4418486,"Nationality":"TH","pct_share":10,"count_share":3000,"Firstname":"ยศสยา"},{"Lastname":"ทวีเกื้อกูลกิจ","value_share":-19883185,"Nationality":"TH","pct_share":45,"count_share":13500,"Firstname":"ธนัสถ์","person":{"Number":1,"Title":"นาย","Name":"ธนัสถ์ ทวีเกื้อกูลกิจ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"4810","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ตาก","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ธนัสถ์-ทวีเกื้อกูลกิจ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":["G","C"],"totalValueShare":-18744636,"countCompShare":2,"countDirector":0,"totalPctShare":0}}],"count_shareholder":13500,"gov_fund_proj":null},{"full_address":"498-500 ถนนตากสิน ต.หนองหลวง อ.เมืองตาก จ.ตาก","financial":[{"year":"2564","income":243704397.1800000072},{"year":"2563","income":242249642.5800000131},{"year":"2562","income":238194492.150000006},{"year":"2561","income":229058246.7899999917}],"value_share":16224318,"submit_obj_big_type":"G","company_name_th":"ลิ้มใช้เซ้ง จำกัด","pct_share":57,"obj_tname":"ร้านขายปลีกเครื่องดื่มที่มีแอลกอฮอล์","company_id":"0635525000045","reg_date":"12\/04\/2525","company_name_en":"LIM CHAI SENG COMPANY LIMITED","tsic":47221,"cap_amt":5000000,"company_value":28463716,"company_type_th":"บริษัทจำกัด","company_shareholder":[{"Lastname":"ทวีเกื้อกูลกิจ","value_share":1138549,"Nationality":"TH","pct_share":4,"count_share":2500,"Firstname":"ศิกวัส"},{"Lastname":"ทวีเกื้อกูลกิจ","value_share":16224318,"Nationality":"TH","pct_share":57,"count_share":35625,"Firstname":"ฑีฆะพล","person":{"Number":2,"Title":"นาย","Name":"ฑีฆะพล ทวีเกื้อกูลกิจ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"4821","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ตาก","MpZone":2,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ฑีฆะพล-ทวีเกื้อกูลกิจ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":[],"totalValueShare":0,"countCompShare":0,"countDirector":0,"totalPctShare":0}},{"Lastname":"ทวีเกื้อกูลกิจ","value_share":5692743,"Nationality":"TH","pct_share":20,"count_share":12500,"Firstname":"นเรศ"},{"Lastname":"ทวีเกื้อกูลกิจ","value_share":1138549,"Nationality":"TH","pct_share":4,"count_share":2500,"Firstname":"ธนัสถ์","person":{"Number":1,"Title":"นาย","Name":"ธนัสถ์ ทวีเกื้อกูลกิจ","PartyName":"ภูมิใจไทย","MpType":"แบ่งเขต","Id":"4810","IsMp":true,"IsActive":true,"IsSanator":false,"IsCabinet":false,"IsPmCandidate":false,"MpProvince":"ตาก","MpZone":1,"MpList":"","Images":"\/yourcandidates\/candidates\/ภูมิใจไทย\/ธนัสถ์-ทวีเกื้อกูลกิจ.webp","Party":{"Name":"ภูมิใจไทย","Color":"#2C3487","PartyType":"พรรค","IsActive":true,"Id":24,"Images":"https:\/\/sheets.wevis.info\/download\/noco\/They-Work-For-Us\/Parties\/Images\/ภูมิใจไทย.jpg"},"companyType":["G","C"],"totalValueShare":-18744636,"countCompShare":2,"countDirector":0,"totalPctShare":0}},{"Lastname":"ทวีเกื้อกูลกิจ","value_share":1138549,"Nationality":"TH","pct_share":4,"count_share":2500,"Firstname":"อุกฤษณ์"},{"Lastname":"พิชญาพงศ์","value_share":853911,"Nationality":"TH","pct_share":3,"count_share":1875,"Firstname":"มาลินี"},{"Lastname":"ทวีเกื้อกูลกิจ","value_share":2277097,"Nationality":"TH","pct_share":8,"count_share":5000,"Firstname":"ยศสยา"}],"count_shareholder":35625,"gov_fund_proj":null}]
+[
+	{
+		"full_address": "496 ถนนอินทรคีรี ต.แม่สอด อ.แม่สอด จ.ตาก",
+		"financial": [
+			{ "year": "2564", "income": 1978850 },
+			{ "year": "2563", "income": 1977800 },
+			{ "year": "2562", "income": 2115195 },
+			{ "year": "2561", "income": 3105675 }
+		],
+		"value_share": 551231,
+		"submit_obj_big_type": "L",
+		"company_name_th": "ศูนย์การค้าแม่สอด จำกัด",
+		"pct_share": 4,
+		"obj_tname": "การเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์ที่เป็นของ ตนเองหรือเช่าจากผู้อื่นที่ไม่ใช่เพื่อเป็นที่พักอาศัย",
+		"company_id": "0635527000069",
+		"reg_date": "03/10/2527",
+		"company_name_en": "",
+		"tsic": 68104,
+		"cap_amt": 6000000,
+		"company_value": 13780782,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "เลาจริยกุล",
+				"value_share": 459355,
+				"Nationality": "TH",
+				"pct_share": 3.33,
+				"count_share": 50,
+				"Firstname": "วสุ"
+			},
+			{
+				"Lastname": "ภัทรประสิทธิ์",
+				"value_share": 1047339,
+				"Nationality": "TH",
+				"pct_share": 7.6,
+				"count_share": 114,
+				"Firstname": "ประพันธ์"
+			},
+			{
+				"Lastname": "เลาจริยกุล",
+				"value_share": 459355,
+				"Nationality": "TH",
+				"pct_share": 3.33,
+				"count_share": 50,
+				"Firstname": "สุชาติ"
+			},
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": 918723,
+				"Nationality": "TH",
+				"pct_share": 6.67,
+				"count_share": 100,
+				"Firstname": "ณัฐวุฒิ"
+			},
+			{
+				"Lastname": "สมพงษ์ไทย",
+				"value_share": 183739,
+				"Nationality": "TH",
+				"pct_share": 1.33,
+				"count_share": 20,
+				"Firstname": "สุวรรณชัย"
+			},
+			{
+				"Lastname": "มงคลการ",
+				"value_share": 229684,
+				"Nationality": "TH",
+				"pct_share": 1.67,
+				"count_share": 25,
+				"Firstname": "สุวรรณา"
+			},
+			{
+				"Lastname": "ภัทรประสิทธิ์",
+				"value_share": 1038148,
+				"Nationality": "TH",
+				"pct_share": 7.53,
+				"count_share": 113,
+				"Firstname": "ประสงค์"
+			},
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": 1837433,
+				"Nationality": "TH",
+				"pct_share": 13.33,
+				"count_share": 200,
+				"Firstname": "เสรี"
+			},
+			{
+				"Lastname": "นะวิโรจน์",
+				"value_share": 1038148,
+				"Nationality": "TH",
+				"pct_share": 7.53,
+				"count_share": 113,
+				"Firstname": "ลักขณา"
+			},
+			{
+				"Lastname": "ภัทรประสิทธิ์",
+				"value_share": 303177,
+				"Nationality": "TH",
+				"pct_share": 2.2,
+				"count_share": 33,
+				"Firstname": "ยุพดา"
+			},
+			{
+				"Lastname": "เลาจริยกุล",
+				"value_share": 459355,
+				"Nationality": "TH",
+				"pct_share": 3.33,
+				"count_share": 50,
+				"Firstname": "ศศิธร"
+			},
+			{
+				"Lastname": "ภัทรประสิทธิ์",
+				"value_share": 266424,
+				"Nationality": "TH",
+				"pct_share": 1.93,
+				"count_share": 29,
+				"Firstname": "อดิศร์"
+			},
+			{
+				"Lastname": "ศิริรัตนอนันต์",
+				"value_share": 367492,
+				"Nationality": "TH",
+				"pct_share": 2.67,
+				"count_share": 40,
+				"Firstname": "รจนา"
+			},
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": 551231,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 60,
+				"Firstname": "ฑีฆะพล",
+				"person": {
+					"Number": 2,
+					"Title": "นาย",
+					"Name": "ฑีฆะพล ทวีเกื้อกูลกิจ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4821",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ตาก",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ฑีฆะพล-ทวีเกื้อกูลกิจ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "เลาจริยกุล",
+				"value_share": 459355,
+				"Nationality": "TH",
+				"pct_share": 3.33,
+				"count_share": 50,
+				"Firstname": "สนิท"
+			},
+			{
+				"Lastname": "ภัทรประสิทธิ์",
+				"value_share": 266424,
+				"Nationality": "TH",
+				"pct_share": 1.93,
+				"count_share": 29,
+				"Firstname": "อภิภู"
+			},
+			{
+				"Lastname": "ไม้ไทย",
+				"value_share": 1038148,
+				"Nationality": "TH",
+				"pct_share": 7.53,
+				"count_share": 113,
+				"Firstname": "ศิริลักษณ์"
+			},
+			{
+				"Lastname": "ภัทรประสิทธิ์",
+				"value_share": 257246,
+				"Nationality": "TH",
+				"pct_share": 1.87,
+				"count_share": 28,
+				"Firstname": "วรามาศ"
+			},
+			{
+				"Lastname": "เลาจริยกุล",
+				"value_share": 459355,
+				"Nationality": "TH",
+				"pct_share": 3.33,
+				"count_share": 50,
+				"Firstname": "ประพนธ์"
+			},
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": 734970,
+				"Nationality": "TH",
+				"pct_share": 5.33,
+				"count_share": 80,
+				"Firstname": "นเรศ"
+			},
+			{
+				"Lastname": "ภัทรประสิทธิ์",
+				"value_share": 257246,
+				"Nationality": "TH",
+				"pct_share": 1.87,
+				"count_share": 28,
+				"Firstname": "จุไรบน"
+			},
+			{
+				"Lastname": "จันทร์วรโชติ",
+				"value_share": 229684,
+				"Nationality": "TH",
+				"pct_share": 1.67,
+				"count_share": 25,
+				"Firstname": "สุริยะ"
+			},
+			{
+				"Lastname": "จันทร์วรโชติ",
+				"value_share": 229684,
+				"Nationality": "TH",
+				"pct_share": 1.67,
+				"count_share": 25,
+				"Firstname": "ธนปรรณ"
+			},
+			{
+				"Lastname": "จันทร์วรโชติ",
+				"value_share": 229684,
+				"Nationality": "TH",
+				"pct_share": 1.67,
+				"count_share": 25,
+				"Firstname": "สุชาติ"
+			},
+			{
+				"Lastname": "เลาจริยกุล",
+				"value_share": 459355,
+				"Nationality": "TH",
+				"pct_share": 3.33,
+				"count_share": 50,
+				"Firstname": "วีระ"
+			}
+		],
+		"count_shareholder": 60,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "108-109 หมู่ที่ 2 ถนนเจดีย์ยุทธหัตถี ต.หนองบัวเหนือ อ.เมืองตาก จ.ตาก",
+		"financial": [
+			{ "year": "2564", "income": 19671077.75 },
+			{ "year": "2563", "income": 23204466.1900000013 },
+			{ "year": "2562", "income": 24376641.370000001 },
+			{ "year": "2561", "income": 19739551.6000000015 }
+		],
+		"value_share": -19883185,
+		"submit_obj_big_type": "C",
+		"company_name_th": "ทวีวัฒนาท๊อปไอซ์ จำกัด",
+		"pct_share": 45,
+		"obj_tname": "การผลิตน้ำแข็งเพื่อการบริโภค",
+		"company_id": "0635549000193",
+		"reg_date": "2/8/2549",
+		"company_name_en": "TAVEE WANTANA TOP ICE COMPANY LIMITED",
+		"tsic": 10795,
+		"cap_amt": 3000000,
+		"company_value": -44184856,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": -19883185,
+				"Nationality": "TH",
+				"pct_share": 45,
+				"count_share": 13500,
+				"Firstname": "ฑีฆะพล",
+				"person": {
+					"Number": 2,
+					"Title": "นาย",
+					"Name": "ฑีฆะพล ทวีเกื้อกูลกิจ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4821",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ตาก",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ฑีฆะพล-ทวีเกื้อกูลกิจ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": -4418486,
+				"Nationality": "TH",
+				"pct_share": 10,
+				"count_share": 3000,
+				"Firstname": "ยศสยา"
+			},
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": -19883185,
+				"Nationality": "TH",
+				"pct_share": 45,
+				"count_share": 13500,
+				"Firstname": "ธนัสถ์",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "ธนัสถ์ ทวีเกื้อกูลกิจ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4810",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ตาก",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ธนัสถ์-ทวีเกื้อกูลกิจ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": ["G", "C"],
+					"totalValueShare": -18744636,
+					"countCompShare": 2,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			}
+		],
+		"count_shareholder": 13500,
+		"gov_fund_proj": null
+	},
+	{
+		"full_address": "498-500 ถนนตากสิน ต.หนองหลวง อ.เมืองตาก จ.ตาก",
+		"financial": [
+			{ "year": "2564", "income": 243704397.1800000072 },
+			{ "year": "2563", "income": 242249642.5800000131 },
+			{ "year": "2562", "income": 238194492.150000006 },
+			{ "year": "2561", "income": 229058246.7899999917 }
+		],
+		"value_share": 16224318,
+		"submit_obj_big_type": "G",
+		"company_name_th": "ลิ้มใช้เซ้ง จำกัด",
+		"pct_share": 57,
+		"obj_tname": "ร้านขายปลีกเครื่องดื่มที่มีแอลกอฮอล์",
+		"company_id": "0635525000045",
+		"reg_date": "12/04/2525",
+		"company_name_en": "LIM CHAI SENG COMPANY LIMITED",
+		"tsic": 47221,
+		"cap_amt": 5000000,
+		"company_value": 28463716,
+		"company_type_th": "บริษัทจำกัด",
+		"company_shareholder": [
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": 1138549,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 2500,
+				"Firstname": "ศิกวัส"
+			},
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": 16224318,
+				"Nationality": "TH",
+				"pct_share": 57,
+				"count_share": 35625,
+				"Firstname": "ฑีฆะพล",
+				"person": {
+					"Number": 2,
+					"Title": "นาย",
+					"Name": "ฑีฆะพล ทวีเกื้อกูลกิจ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4821",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ตาก",
+					"MpZone": 2,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ฑีฆะพล-ทวีเกื้อกูลกิจ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": [],
+					"totalValueShare": 0,
+					"countCompShare": 0,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": 5692743,
+				"Nationality": "TH",
+				"pct_share": 20,
+				"count_share": 12500,
+				"Firstname": "นเรศ"
+			},
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": 1138549,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 2500,
+				"Firstname": "ธนัสถ์",
+				"person": {
+					"Number": 1,
+					"Title": "นาย",
+					"Name": "ธนัสถ์ ทวีเกื้อกูลกิจ",
+					"PartyName": "ภูมิใจไทย",
+					"MpType": "แบ่งเขต",
+					"Id": "4810",
+					"IsMp": true,
+					"IsActive": true,
+					"IsSanator": false,
+					"IsCabinet": false,
+					"IsPmCandidate": false,
+					"MpProvince": "ตาก",
+					"MpZone": 1,
+					"MpList": "",
+					"Images": "/mpasset/candidates/ภูมิใจไทย/ธนัสถ์-ทวีเกื้อกูลกิจ.webp",
+					"Party": {
+						"Name": "ภูมิใจไทย",
+						"Color": "#2C3487",
+						"PartyType": "พรรค",
+						"IsActive": true,
+						"Id": 24,
+						"Images": "https://sheets.wevis.info/download/noco/They-Work-For-Us/Parties/Images/ภูมิใจไทย.jpg"
+					},
+					"companyType": ["G", "C"],
+					"totalValueShare": -18744636,
+					"countCompShare": 2,
+					"countDirector": 0,
+					"totalPctShare": 0
+				}
+			},
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": 1138549,
+				"Nationality": "TH",
+				"pct_share": 4,
+				"count_share": 2500,
+				"Firstname": "อุกฤษณ์"
+			},
+			{
+				"Lastname": "พิชญาพงศ์",
+				"value_share": 853911,
+				"Nationality": "TH",
+				"pct_share": 3,
+				"count_share": 1875,
+				"Firstname": "มาลินี"
+			},
+			{
+				"Lastname": "ทวีเกื้อกูลกิจ",
+				"value_share": 2277097,
+				"Nationality": "TH",
+				"pct_share": 8,
+				"count_share": 5000,
+				"Firstname": "ยศสยา"
+			}
+		],
+		"count_shareholder": 35625,
+		"gov_fund_proj": null
+	}
+]
