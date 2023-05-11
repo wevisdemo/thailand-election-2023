@@ -58,7 +58,7 @@ const Tutorial = (props: Props) => {
               setCurrentStep(2);
               setIsOpen(true)
             }}>
-              <span>ที่เกี่ยวกับนักการเมืองแบบไหน<br />รับเงินจากโครงการรัฐเยอะ?</span>
+              <span>ธุรกิจที่เกี่ยวกับนักการเมืองแบบไหน<br />รับเงินจากโครงการรัฐเยอะ?</span>
             </TutorialButton>
             <TutorialButton onClick={() => {
               setOpenTutorial(false);
