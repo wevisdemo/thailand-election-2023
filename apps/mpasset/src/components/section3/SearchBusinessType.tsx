@@ -1,9 +1,9 @@
+import { useTour } from '@reactour/tour'
+import * as d3 from 'd3'
 import React from 'react'
 import { BusinessType, BusinessTypeData } from '../../models/business'
 import { usePersonStore } from '../../store/person'
 import { LottieNotFound } from '../util/lottie'
-import * as d3 from 'd3'
-import { useTour } from '@reactour/tour'
 type Props = {
   open: boolean
   onClose: Function
@@ -24,7 +24,7 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
 
   const fetchFromGit = React.useCallback(async () => {
     await d3.csv<CompanyTypeCount[] & string>('https://raw.githubusercontent.com/wevisdemo/thailand-election-2023/main/apps/mpasset/crawler/public/data/company_type_count.csv').then((value) => {
-      const data = value.slice(0, value.length) as CompanyTypeCount[]
+      const data = value.slice(0, -1) as CompanyTypeCount[]
       if (data) {
         data.forEach((d) => {
           d.type = String(d.type)
@@ -52,7 +52,7 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
 
   const fetchFromGitYourCandidate = React.useCallback(async () => {
     await d3.csv<CompanyTypeCount[] & string>('/mpasset/data/yourcandidate/company_type_count.csv').then((value) => {
-      const data = value.slice(0, value.length) as CompanyTypeCount[]
+      const data = value.slice(0, -1) as CompanyTypeCount[]
       if (data) {
         data.forEach((d) => {
           d.type = String(d.type)
@@ -71,7 +71,7 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
             percentage
           }
         })
-        const sorted = [...processData.slice(0, 1), ...processData.slice(1).sort((a, b) => b.count - a.count)]
+        const sorted = processData.sort((a, b) => b.count - a.count)
         setBusinessData(sorted)
         setSearchResult(sorted)
       }
@@ -137,6 +137,22 @@ const SearchBusinessType = ({ open, onClose }: Props) => {
             </div>
           </div>
           <div className='flex flex-col divide-y-2 divide-gray-3 divide-dashed h-full overflow-scroll'>
+            <button key={`search-result-all`}
+              className=" w-full text-left py-[16px] px-[20px]
+            relative"
+              onClick={() => {
+                onClose();
+                setSelectedBusinessType({ name: 'ทุกหมวดธุรกิจ', code: 'all' });
+              }}
+            >
+              <div className=' flex flex-row justify-between '>
+                <div className='flex flex-row'>
+                  <div className='typo-b4 typo-ibmplex leading-[150%] ml-[12px]'>
+                    ทุกหมวดธุรกิจ
+                  </div>
+                </div>
+              </div>
+            </button>
             {searchResult.length > 0 ? searchResult.map((data) => (
               <button key={`search-result-${data.code}`}
                 className=" w-full text-left py-[16px] px-[20px]

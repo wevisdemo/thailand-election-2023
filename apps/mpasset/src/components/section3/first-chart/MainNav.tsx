@@ -134,7 +134,7 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
         .append('rect')
         .attr('x', (d) => d.totalPctShare! < limiter ?
           d.totalPctShare! < 0 ?
-            xScale(0) + circleMargin
+            xScale(0) + r + circleMargin
             : xScale(0) - r - circleMargin
           : xScale(d.totalPctShare!) - (r))
         .attr('y', yScaleBand.bandwidth() - rLogo * .5)

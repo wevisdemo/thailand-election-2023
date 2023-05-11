@@ -35,7 +35,6 @@ export type BusinessType = {
 }
 
 export const BusinessTypeData: BusinessType[] = [
-  { name: 'ทุกหมวดธุรกิจ', code: 'all' },
   { code: 'A', name: "เกษตรกรรม การป่าไม้ และการประมง", short: 'เกษตรกรรม ป่าไม้ ประมง', shortEn: 'Agri', icon: <Agri /> },
   { code: 'B', name: "การทำเหมืองแร่ และเหมืองหิน", short: 'เหมืองแร่ เหมืองหิน', shortEn: 'Mine', icon: <Mine /> },
   { code: 'C', name: "การผลิต", short: 'การผลิต', shortEn: 'Manu', icon: <Manu /> },
