@@ -9,11 +9,7 @@ import dynamic from 'next/dynamic'
 import { PersonCustom } from '../../models/person'
 import { placeZerosAtEnd } from '../util/calculation'
 import Dialog from './Dialog'
-import Tutorial from './tutorial'
-import { Question, Share } from '../util/icon-main'
-import Tour from 'reactour'
 import OnBoard from './tutorial/OnBoard'
-import { FacebookShareButton } from 'react-share'
 
 const FirstChart = dynamic(() => import('./first-chart'), { loading: () => <LoadingScreen /> })
 const SecondChart = dynamic(() => import('./second-chart'), { loading: () => <LoadingScreen /> })
@@ -167,7 +163,6 @@ const Section3 = () => {
     <div className='h-full inset-0 flex flex-col relative overflow-hidden'>
       <OnBoard>
         <div className='relative h-full'>
-
           <div className='w-full h-full'>
             <FirstChart />
           </div>
@@ -182,7 +177,6 @@ const Section3 = () => {
             </div>
           </Dialog>
           <Dialog open={isLoading}><LoadingScreen /></Dialog>
-
         </div>
         <div className='z-[99999]'>
           <election-footer></election-footer>
