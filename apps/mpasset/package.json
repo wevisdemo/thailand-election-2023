@@ -14,6 +14,8 @@
 		"crawl": "cd './crawler' && yarn build && node ./dist/app.js"
 	},
 	"dependencies": {
+		"@pixi-essentials/cull": "^2.0.0",
+		"@pixi/react": "^7.1.0",
 		"@reactour/tour": "^3.4.0",
 		"@thailand-election-2023/components": "*",
 		"@thailand-election-2023/database": "*",
@@ -32,9 +34,12 @@
 		"eslint-config-next": "13.2.3",
 		"lottie-react": "^2.4.0",
 		"next": "13.2.3",
+		"pixi-viewport": "^5.0.1",
+		"pixi.js": "^7.2.4",
 		"postcss": "^8.4.19",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
+		"react-infinite-scroll-component": "^6.1.0",
 		"react-share": "^4.4.1",
 		"reactour": "^1.19.0",
 		"replace-in-file": "^6.3.5",

@@ -3,8 +3,8 @@ import { StepType } from "@reactour/tour";
 
 const StepContainer = ({ title, content }: { title: string, content: string }) => {
   return (
-    <div className={`w-[240px] h-[120px] px-[10px] py-[25px]
-      typo-b5 bg-cover bg-center bg-no-repeat bg-transparent`}
+    <div className={`w-[302px] h-[125px] px-[10px] py-[25px]
+      typo-b5 bg-contain bg-center bg-no-repeat bg-transparent`}
       style={{ backgroundImage: `url('${process.env.BASE_PATH}/design_assets/step-frame.png')` }}>
       <div className="text-center">
         <div className="typo-b6 text-gray-3 mb-[5px]">{content}</div>
