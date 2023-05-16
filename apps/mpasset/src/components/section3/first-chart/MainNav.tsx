@@ -95,14 +95,12 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
       return;
     }
     // a fake async api call like which sends
-    setTimeout(() => {
-      setPagination((prev) => ({
-        ...prev,
-        currentPage: prev.currentPage + 1,
-        items: prev.items.concat(filteredPerson.splice(((prev.currentPage + 1) * prev.itemPerPage), prev.itemPerPage)),
+    setPagination((prev) => ({
+      ...prev,
+      currentPage: prev.currentPage + 1,
+      items: prev.items.concat(filteredPerson.splice(((prev.currentPage + 1) * prev.itemPerPage), prev.itemPerPage)),
 
-      })), 123
-    })
+    }))
   };
 
 
