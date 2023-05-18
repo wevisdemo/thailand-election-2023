@@ -213,7 +213,7 @@ const Section3 = () => {
 						<LoadingScreen />
 					</Dialog>
 				</div>
-				<div className="z-[99999]">
+				<div className="z-20">
 					<election-footer></election-footer>
 				</div>
 			</OnBoard>
