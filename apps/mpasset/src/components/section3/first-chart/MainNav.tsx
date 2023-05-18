@@ -45,21 +45,17 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 		}));
 	}, [filteredPerson]);
 
-	const { xScale, getWidth } = useMemo(() => {
+	const { xScale, xZero, getWidth } = useMemo(() => {
 		const xScale = d3.scaleLinear().domain([-10, 30]).range([0, width]);
-
-		const getWidth = (totalPctShare: number) => {
-			const w =
-				totalPctShare <= 0
-					? xScale(0) - xScale(totalPctShare)
-					: xScale(totalPctShare) - xScale(0);
-
-			return totalPctShare > 10 ? w : w;
-		};
+		const xZero = xScale(0);
 
 		return {
 			xScale,
-			getWidth,
+			xZero,
+			getWidth: (totalPctShare: number) =>
+				totalPctShare <= 0
+					? xZero - xScale(totalPctShare)
+					: xScale(totalPctShare) - xZero,
 		};
 	}, [width]);
 
@@ -122,9 +118,10 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 				<div className="flex flex-col gap-y-[2px]">
 					{pagination.items.map((d, index) => {
 						const isUnderLimit = d.totalPctShare < LIMITER;
-						const xZero = xScale(0);
+						const isFlipX = d.totalPctShare < 0;
 						const xShare = xScale(d.totalPctShare);
 						const personParty = party.find((p) => p.Name === d.PartyName);
+
 						return (
 							<div
 								className="flex flex-row relative cursor-pointer"
@@ -155,31 +152,26 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 									<div
 										className="absolute"
 										style={{
-											left: isUnderLimit
-												? d.totalPctShare < 0
-													? xZero + R + CIRCLE_MARGIN
-													: xZero - R - CIRCLE_MARGIN
-												: xShare - (R + 2),
+											left: isFlipX
+												? xZero + R + CIRCLE_MARGIN
+												: xZero - R - CIRCLE_MARGIN,
 										}}
 									>
 										<div
-											className=" w-[30px] h-[30px] bg-cover bg-top rounded-full 
-                border-[1px] border-black"
+											className=" w-[30px] h-[30px] bg-cover bg-top rounded-full border-[1px] border-black"
 											style={{
-												backgroundImage: `url(${String(
+												backgroundImage: `url(${
 													d.Images || '/mpasset/design_assets/profile_pic.jpg'
-												)})`,
+												})`,
 											}}
 										/>
 										{/* party icon */}
 										<div
 											className="absolute w-[11.25px] h-[11.25px] bg-cover bg-top rounded-full"
 											style={{
-												backgroundImage: `url(${String(
-													d.PartyName
-														? `/mpasset/party/${d.PartyName}.webp`
-														: ''
-												)})`,
+												backgroundImage: d.PartyName
+													? `url(/mpasset/party/${d.PartyName}.webp)`
+													: undefined,
 												bottom: 0,
 											}}
 										/>
@@ -188,25 +180,23 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 									<div
 										className="h-[20px] my-[5px]"
 										style={{
-											width: getWidth(d.totalPctShare!),
-											marginLeft: d.totalPctShare! < 0 ? xShare : xZero,
-											backgroundColor: personParty
-												? String(personParty.Color || 'black')
-												: 'black',
+											width: getWidth(d.totalPctShare),
+											marginLeft: isFlipX ? xShare : xZero,
+											backgroundColor: personParty?.Color || 'black',
 										}}
 									/>
 									{/* text */}
 									<div
 										className="typo-b7 my-auto absolute whitespace-nowrap"
 										style={{
-											color: d.totalPctShare! < LIMITER ? 'black' : 'white',
-											textAlign: d.totalPctShare! < LIMITER ? 'start' : 'end',
+											color: isUnderLimit ? 'black' : 'white',
+											textAlign: isUnderLimit ? 'start' : 'end',
 											top: '8px',
 											left: isUnderLimit
-												? d.totalPctShare! < 0
+												? isFlipX
 													? xZero + R * 2.5
 													: xShare + CIRCLE_MARGIN
-												: xShare - (R * 2 + CIRCLE_MARGIN),
+												: xShare - (R + CIRCLE_MARGIN),
 										}}
 									>
 										{d.totalValueShare !== 0
