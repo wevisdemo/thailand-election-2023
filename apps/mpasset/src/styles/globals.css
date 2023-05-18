@@ -19,14 +19,10 @@ text {
 	text-rendering: optimizeSpeed;
 }
 
-@supports (-webkit-touch-callout: none) {
-	.h-screen {
-		height: -webkit-fill-available;
-	}
-	.h-header {
-		height: -webkit-fill-available;
-	}
-	.h-tablet-header {
-		height: -webkit-fill-available;
-	}
+.h-screen,
+.h-header,
+.h-tablet-header {
+	height: 100vh;
+	height: -webkit-fill-available;
+	height: 100dvh;
 }
