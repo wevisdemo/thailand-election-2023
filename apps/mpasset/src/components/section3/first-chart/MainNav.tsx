@@ -121,6 +121,7 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 						const isFlipX = d.totalValueShare < 0;
 						const xShare = xScale(d.totalPctShare);
 						const personParty = party.find((p) => p.Name === d.PartyName);
+						const color = personParty?.Color || 'black';
 
 						return (
 							<div
@@ -182,7 +183,11 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 										style={{
 											width: getWidth(d.totalPctShare),
 											marginLeft: isFlipX ? xShare : xZero,
-											backgroundColor: personParty?.Color || 'black',
+											...(index > 0
+												? { backgroundColor: color }
+												: {
+														background: `linear-gradient(90deg, ${color} 95%, rgba(0,0,0,0) 100%)`,
+												  }),
 										}}
 									/>
 									{/* text */}
@@ -196,7 +201,7 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 												? isFlipX
 													? xZero + R * 2.5
 													: xShare + CIRCLE_MARGIN
-												: xShare - (R + CIRCLE_MARGIN),
+												: xShare - (R * 2 + CIRCLE_MARGIN),
 										}}
 									>
 										{d.totalValueShare !== 0
