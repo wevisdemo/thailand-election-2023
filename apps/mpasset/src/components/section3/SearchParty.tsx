@@ -16,8 +16,8 @@ const SearchParty = ({ open, onClose }: Props) => {
 
   React.useEffect(() => {
     let partySlice: Party[] = party
-    if (selectedDataSet === 'ผู้สมัคร 66')
-      partySlice = party.slice(3)
+    // if (selectedDataSet === 'ผู้สมัคร 66')
+    //   partySlice = party.slice(3)
     if (searchTerm !== "" && BusinessTypeData.length > 0) {
       const result = partySlice.filter((data) => data.Name.includes(searchTerm))
       if (typeof result === "object")

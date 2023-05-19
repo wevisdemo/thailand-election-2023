@@ -26,6 +26,9 @@ export interface PersonCustom {
   totalValueShare: number;
   totalPctShare: number;
   companyType: string[] | string
+
+  IsExMp?: boolean;
+  ExImage?: boolean;
 }
 
 export interface PartyCustom {

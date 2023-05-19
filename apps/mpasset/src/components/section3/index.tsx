@@ -2,7 +2,8 @@ import React from 'react';
 import { usePersonStore } from '../../store/person';
 import { LoadingScreen } from './Loading';
 import { TheyWorkForUs } from '@thailand-election-2023/database';
-import * as d3 from 'd3';
+import { csv } from 'd3-fetch';
+import { autoType } from 'd3'
 import dynamic from 'next/dynamic';
 import { PersonCustom } from '../../models/person';
 import { placeZerosAtEnd } from '../util/calculation';
@@ -61,9 +62,9 @@ const Section3 = () => {
 	}, [setParty]);
 
 	const fetchFromGit = React.useCallback(async () => {
-		let res = await d3.csv<PersonCustom & string>(
+		let res = await csv<PersonCustom & string>(
 			'/mpasset/data/people-optim2.csv',
-			d3.autoType
+			autoType
 		);
 		if (res) {
 			const value = res.slice(0, -1) as PersonCustom[];
@@ -76,9 +77,9 @@ const Section3 = () => {
 	}, [setPerson]);
 
 	const fetchFromGitYourCandidate = React.useCallback(async () => {
-		let res = await d3.csv<PersonCustom & string>(
+		let res = await csv<PersonCustom & string>(
 			'/mpasset/data/yourcandidate/people-optim2.csv',
-			d3.autoType
+			autoType
 		);
 		if (res) {
 			const value = res.slice(0, -1) as PersonCustom[];
@@ -87,7 +88,10 @@ const Section3 = () => {
 					(d.companyType = JSON.parse(
 						String(d.companyType).replace(/'/g, '"')
 					)),
-					(d.Images = `/mpasset/candidates/${d.PartyName}/${d.Name.replaceAll(
+					(d.Images = !d.ExImage ? `/mpasset/candidates/${d.PartyName}/${d.Name.replaceAll(
+						' ',
+						'-'
+					)}.webp` : `/mpasset/candidates/ex/${d.Name.replaceAll(
 						' ',
 						'-'
 					)}.webp`);
@@ -214,7 +218,7 @@ const Section3 = () => {
 						<LoadingScreen />
 					</Dialog>
 				</div>
-				<div className="z-20">
+				<div className="z-50">
 					<election-footer></election-footer>
 				</div>
 			</OnBoard>

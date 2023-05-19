@@ -103,16 +103,25 @@ const PersonDetail = ({ open, onToggle }: Props) => {
         </div>
       </div>
       <div className='flex flex-row border-b-[1px] border-dashed border-b-gray-2 pb-[10px] gap-x-[10px]'>
-        <div className='w-[70px] h-[70px] rounded-full border-[2px] border-black bg-cover bg-top' style={{
+        <div className='flex-shrink-0 w-[70px] h-[70px] rounded-full border-[2px] border-black bg-cover bg-top' style={{
           backgroundImage: `url(${typeof selectedPerson?.Images === 'string' && selectedPerson?.Images !== "" ? selectedPerson?.Images : process.env.BASE_PATH + '/design_assets/profile_pic.jpg'}`
         }} />
         <div className='flex flex-col gap-y-[5px]'>
-          <div className='flex flex-row gap-x-[5px]'>
-            {selectedDataSet === 'ผู้สมัคร 66' && <Tag>ผู้สมัคร 66</Tag>}
-            {selectedDataSet === 'ผู้สมัคร 66' && selectedPerson?.IsPmCandidate && typeof selectedPerson?.IsPmCandidate !== 'undefined' && <Tag>แคนดิเดต นายก</Tag>}
-            {selectedDataSet === 'นักการเมือง 62' && !selectedPerson?.IsCabinet && !selectedPerson?.IsSenator && <Tag>ส.ส.62</Tag>}
-            {selectedPerson?.IsCabinet && <Tag>ค.ร.ม.</Tag>}
-            {selectedPerson?.IsSenator && <Tag>ส.ว.</Tag>}
+          <div className='flex flex-row gap-[5px] flex-wrap'>
+            {selectedDataSet === 'ผู้สมัคร 66' ?
+              <>
+                {selectedPerson?.IsExMp && <Tag>นักการเมือง 62</Tag>}
+                {selectedPerson?.IsSenator ? <Tag>ส.ว.</Tag> : <Tag>ผู้สมัคร 66</Tag>}
+                {selectedPerson?.IsCabinet && <Tag>อดีต ค.ร.ม.</Tag>}
+                {selectedPerson?.IsPmCandidate && <Tag>แคนดิเดต นายก</Tag>}
+              </> :
+              <>
+                {/* 'นักการเมือง 62' */}
+                {!selectedPerson?.IsCabinet && !selectedPerson?.IsSenator && <Tag>ส.ส.62</Tag>}
+                {selectedPerson?.IsCabinet && <Tag>ค.ร.ม.</Tag>}
+                {selectedPerson?.IsSenator && <Tag>ส.ว.</Tag>}
+              </>
+            }
           </div>
           <div className='flex flex-row gap-[5px]
               typo-b5'>
