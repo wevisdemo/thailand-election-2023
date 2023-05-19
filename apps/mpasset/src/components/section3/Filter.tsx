@@ -54,7 +54,7 @@ const Filter = ({ onOpenSeachDialog }: Props) => {
           </svg>
         </div>
         <button onClick={() => {
-          setSelectedBusinessType(BusinessTypeData[0])
+          setSelectedBusinessType({ code: 'all', name: 'ทั้งหมด' })
           setSelectedParty(null)
         }}>
           <Clear />

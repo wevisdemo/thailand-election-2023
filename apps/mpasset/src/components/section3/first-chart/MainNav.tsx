@@ -33,15 +33,13 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 	});
 
 	useMemo(() => {
-		const data = filteredPerson.filter(
-			(d) => d.countCompShare > 0 || d.countDirector > 0
-		);
 
 		setPagination((prev) => ({
 			...prev,
 			currentPage: 0,
-			totalPage: Math.round(data.length / prev.itemPerPage),
-			items: data.slice(0, prev.itemPerPage),
+			totalPage: Math.round(filteredPerson.length / prev.itemPerPage),
+			items: filteredPerson.slice(0, prev.itemPerPage),
+			hasMore: true,
 		}));
 	}, [filteredPerson]);
 
@@ -64,15 +62,15 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 			pagination.items.length >= filteredPerson.length
 				? { ...prev, hasMore: false }
 				: {
-						...prev,
-						currentPage: prev.currentPage + 1,
-						items: prev.items.concat(
-							filteredPerson.splice(
-								(prev.currentPage + 1) * prev.itemPerPage,
-								prev.itemPerPage
-							)
-						),
-				  }
+					...prev,
+					currentPage: prev.currentPage + 1,
+					items: prev.items.concat(
+						filteredPerson.splice(
+							(prev.currentPage + 1) * prev.itemPerPage,
+							prev.itemPerPage
+						)
+					),
+				}
 		);
 
 	const { setSelectedPerson, party } = usePersonStore();
@@ -87,16 +85,16 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 			setSelectedPerson(
 				p
 					? {
-							...d,
-							Party: {
-								Id: p.Id,
-								Name: p.Name,
-								Color: p.Color,
-								Images: Array.isArray(p.Images)
-									? `/mpasset/party/${p.Name}.webp`
-									: null,
-							},
-					  }
+						...d,
+						Party: {
+							Id: p.Id,
+							Name: p.Name,
+							Color: p.Color,
+							Images: Array.isArray(p.Images)
+								? `/mpasset/party/${p.Name}.webp`
+								: null,
+						},
+					}
 					: d
 			);
 
@@ -114,6 +112,7 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 				hasMore={pagination.hasMore}
 				loader={<h4>Loading...</h4>}
 				height={height}
+
 			>
 				<div className="flex flex-col gap-y-[2px]">
 					{pagination.items.map((d, index) => {
@@ -140,12 +139,10 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 								onMouseMove={({ nativeEvent: { pageX, pageY } }) => {
 									if (!tooltipRef.current || !vizRef.current) return;
 									const { left, top } = vizRef.current.getBoundingClientRect();
-									tooltipRef.current.style.left = `${
-										pageX - left + TOOLTIP_OFFSET
-									}px`;
-									tooltipRef.current.style.top = `${
-										pageY - top + TOOLTIP_OFFSET
-									}px`;
+									tooltipRef.current.style.left = `${pageX - left + TOOLTIP_OFFSET
+										}px`;
+									tooltipRef.current.style.top = `${pageY - top + TOOLTIP_OFFSET
+										}px`;
 								}}
 							>
 								<div className="relative h-[30px]">
@@ -161,9 +158,8 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 										<div
 											className=" w-[30px] h-[30px] bg-cover bg-top rounded-full border-[1px] border-black"
 											style={{
-												backgroundImage: `url(${
-													d.Images || '/mpasset/design_assets/profile_pic.jpg'
-												})`,
+												backgroundImage: `url(${d.Images || '/mpasset/design_assets/profile_pic.jpg'
+													})`,
 											}}
 										/>
 										{/* party icon */}
@@ -183,11 +179,11 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 										style={{
 											width: getWidth(d.totalPctShare),
 											marginLeft: isFlipX ? xShare : xZero,
-											...(index > 0
+											...(d.totalPctShare < 30
 												? { backgroundColor: color }
 												: {
-														background: `linear-gradient(90deg, ${color} 95%, rgba(0,0,0,0) 100%)`,
-												  }),
+													background: `linear-gradient(90deg, ${color} 95%, rgba(0,0,0,0) 100%)`,
+												}),
 										}}
 									/>
 									{/* text */}
@@ -207,8 +203,8 @@ const MainNav = ({ width, height, filteredPerson }: Props) => {
 										{d.totalValueShare !== 0
 											? convertToInternationalCurrencySystem(d.totalValueShare!)
 											: d.countDirector > 0 || d.countCompShare > 0
-											? `เกี่ยวข้องกับธุรกิจแต่ไม่มีหุ้นอยู่`
-											: 'ไม่เกี่ยวข้องกับธุรกิจ'}
+												? `เกี่ยวข้องกับธุรกิจแต่ไม่มีหุ้นอยู่`
+												: 'ไม่เกี่ยวข้องกับธุรกิจ'}
 									</div>
 								</div>
 							</div>

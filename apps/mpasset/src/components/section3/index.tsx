@@ -67,21 +67,10 @@ const Section3 = () => {
 		);
 		if (res) {
 			const value = res.slice(0, -1) as PersonCustom[];
-
 			await value.forEach((d) => {
-				// d.IsActive = String(d.IsActive) === "True",
-				//   d.IsMp = String(d.IsMp) === "True",
-				//   d.IsPmCandidate = String(d.IsPmCandidate) === "True",
-				//   d.IsCabinet = String(d.IsCabinet) === "True",
-				//   d.IsSenator = String(d.IsSenator) === "True",
 				d.companyType = JSON.parse(String(d.companyType).replace(/'/g, '"'));
-				// d.totalValueShare = d.totalValueShare || 0,
-				// d.countCompShare = d.countCompShare || 0,
-				// d.countDirector = d.countDirector || 0,
-				// d.totalPctShare = d.totalPctShare || 0
+
 			});
-			// const indexOfOutlier = value.map((d) => d.Name).indexOf('พิบูลย์ รัชกิจประการ')
-			// value[indexOfOutlier].totalPctShare = 30
 			setPerson(value);
 		}
 	}, [setPerson]);
@@ -169,16 +158,28 @@ const Section3 = () => {
 				);
 			}
 
+
+			let leftOver = outFilter.filter((d) => d.totalValueShare === 0)
+			outFilter = outFilter.filter((d) => d.totalValueShare > 0 || d.totalValueShare < 0)
+
 			if (selectedSort === 'desc')
 				outFilter = outFilter.sort(
-					(a, b) => b.totalValueShare! - a.totalValueShare!
+					(a, b) => b.totalValueShare - a.totalValueShare
 				);
 			else
 				outFilter = outFilter.sort(
-					(a, b) => a.totalValueShare! - b.totalValueShare!
+					(a, b) => a.totalValueShare - b.totalValueShare
 				);
 
-			return placeZerosAtEnd(outFilter, 'countCompShare', 'countDirector');
+			if (selectedSort === 'desc')
+				leftOver = leftOver.sort(
+					(a, b) => b.countDirector - a.countDirector
+				);
+			else
+				leftOver = leftOver.sort(
+					(a, b) => a.countDirector - b.countDirector
+				);
+			return outFilter.concat(leftOver)
 		}
 		return [];
 	}, [
