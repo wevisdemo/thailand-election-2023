@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import Link from 'next/link';
 import config from '../../tsconfig.json';
 import Layout from '@/components/Layout';
+import { collegeStudents } from '@/utils/data';
 
 const AboutPage: NextPage = ({}) => {
 	useEffect(() => {
@@ -158,6 +159,19 @@ const AboutPage: NextPage = ({}) => {
 								>
 									Fhy Pantira
 								</a>
+								, <br />
+								{collegeStudents.map((student, index) => (
+									<>
+										<span className="text-gray-3" key={`student-${index}`}>
+											{student}
+										</span>
+										,{' '}
+									</>
+								))}
+								<br />
+								<span className="text-gray-3">
+									รองศาสตราจารย์พิจิตรา ศุภสวัสดิ์กุล
+								</span>
 							</div>
 							<div>
 								<p className="mt-[15px] font-bold">บรรณาธิการ</p>

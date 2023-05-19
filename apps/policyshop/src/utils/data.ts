@@ -116,3 +116,25 @@ export const getBigTopicIconUrl = (key: HotTopicType) => {
 	if (dict[key]) return `${imgPrefix}${dict[key]}`;
 	return '';
 };
+
+export const collegeStudents = [
+	'Kriangkrai Leekul',
+	'Nattarat Atharyuti',
+	'Nattavalai Jaidee',
+	'Puti Pluemngern',
+	'Virakarn Krudthongkul',
+	'Sasitorn Tongkailert',
+	'Chanutnipa Phinyo',
+	'Chawanwith Thichangkoon',
+	'Yada Chalermwat',
+	'Suphanut Aneknumwong',
+	'Natthanicha Nakon',
+	'Chanisara Chantarojvanich',
+	'Napatsakorn Pingmuang',
+	'Phatcharawalai Wongrattana',
+	'Gotchakorn Hasakul',
+	'Yarawee Modeprakarn',
+	'Nanthakorn Woraka',
+	'Natiton Chinnabhad',
+	'Methasit Tubtim',
+];
