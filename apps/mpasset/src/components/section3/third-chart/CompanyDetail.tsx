@@ -78,7 +78,7 @@ const CompanyDetail = ({ open, onToggle }: Props) => {
         <div className='flex-shrink truncate typo-h7 font-bold text-kondolar leadin-[140%]'>{selectedCompany?.company_name_th}</div>
         <div className='flex-grow desktop:hidden'>
           <div className='flex flex-row flex-nowrap justify-end gap-x-[9px]'>
-            <div className='whitespace-nowrap'>สองเพิ่มเติม</div>
+            <div className='whitespace-nowrap'>ส่องเพิ่มเติม</div>
             <svg className='cursor-pointer'
               width={18} height={21} viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g transform={!open ? `` : `rotate(180 9 10.5)`}>

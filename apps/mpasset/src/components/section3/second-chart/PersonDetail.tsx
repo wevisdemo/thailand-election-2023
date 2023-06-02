@@ -65,7 +65,7 @@ const PersonDetail = ({ open, onToggle }: Props) => {
           <div className='typo-h7 font-bold text-kondolar leadin-[140%]'>{selectedPerson?.Name}</div>
           <div className='desktop:hidden'>
             <div className='flex flex-row gap-x-[9px]'>
-              <div>สองเพิ่มเติม</div>
+              <div>ส่องเพิ่มเติม</div>
               <svg className='cursor-pointer'
                 width={18} height={21} viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g transform={!open ? `` : `rotate(180 9 10.5)`}>
