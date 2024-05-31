@@ -10,10 +10,8 @@ export interface PageInfo {
 }
 
 export interface PublicViewResponse<Row = Record<string, unknown>> {
-	data: {
-		list: Row[];
-		pageInfo: PageInfo;
-	};
+	list: Row[];
+	pageInfo: PageInfo;
 }
 
 // Reference: https://docs.nocodb.com/developer-resources/rest-apis#query-params
@@ -31,7 +29,7 @@ export type QueryParams = {
 export async function getSharedViewRows<Row>(
 	viewId: string,
 	params?: QueryParams
-): Promise<PublicViewResponse<Row>['data']> {
+): Promise<PublicViewResponse<Row>> {
 	const { data } = await axios.get<PublicViewResponse<Row>>(
 		`${BASE_URL}/api/v1/db/public/shared-view/${viewId}/rows`,
 		{
@@ -40,8 +38,8 @@ export async function getSharedViewRows<Row>(
 	);
 
 	return {
-		...data.data,
-		list: data.data.list.map(parseRecord),
+		...data,
+		list: data.list.map(parseRecord),
 	};
 }
 
