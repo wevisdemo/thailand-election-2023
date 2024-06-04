@@ -5,13 +5,13 @@
 	"type": "module",
 	"license": "MIT",
 	"scripts": {
-		"merge": "ts-node --esm src/index.ts"
+		"merge": "tsx src/index.ts"
 	},
 	"dependencies": {
 		"@thailand-election-2023/metadata": "*"
 	},
 	"devDependencies": {
-		"ts-node": "^10.9.1",
+		"tsx": "^4.11.2",
 		"typescript": "^4.9.5"
 	}
 }
